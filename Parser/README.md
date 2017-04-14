@@ -8,7 +8,7 @@ There are two pieces of code here:
  where there is a single entry for every word in the vocabulary of all HTML files in the given directory.
 * `HTMLParser` is an object that will take the name of an HTML file that is stored locally and will read the HTML file. It then parses it into a dictionary (items are detailed below). It also has a method which will parse a query into its constituent tokens.
 
-This was developed in a virtual environment. Dependencies are given in "requirements.txt".
+This was developed in a virtual environment. Dependencies are given in "requirements.txt". Install by running `pip3 install -r requirements.txt`.
 
 ## HTML2Index
 An object can be created by:
