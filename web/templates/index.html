@@ -9,25 +9,11 @@
     color: #222;
   }
 
-  #searchform {
+  form {
     margin: 12px;
   }
 
-  .search {
-    width: 100%;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .searchbox {
-    width: 320px;
-    height: 32px;
-    font-size: 12pt;
-    border: 1px solid #222;
-    border-radius: 2px;
-    padding-left: 8px;
-  }
-
-  .dropdown {
+  select {
     width: 128px;
     height: 36px;
     margin-right: 12px;
@@ -75,6 +61,20 @@
     padding-right: 8px;
   }
 
+  .search {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .searchbox {
+    width: 320px;
+    height: 32px;
+    font-size: 12pt;
+    border: 1px solid #222;
+    border-radius: 2px;
+    padding-left: 8px;
+  }
+
   .results {
     width: 100%;
     display: block;
@@ -86,15 +86,14 @@
     display: block;
     border-bottom: 1px solid #eee;
   }
-
 </style>
 <body>
   <div class="search">
-    <form id="searchform" action="results">
-      <select class="dropdown" name="ranking">
+    <form action="results">
+      <select name="ranking">
         <option value="pagerank">PageRank</option>
         <option value="hits">HITS</option>
-        <option value="vector">VSR</option>
+        <option value="vector">Vector-space</option>
         <option value="learned">Learned</option>
       </select>
       <input class="searchbox" name="query" type="text"></input>
