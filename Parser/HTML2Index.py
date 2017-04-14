@@ -69,15 +69,17 @@ class HTML2Index:
         # Iterate over each HTML file
         for filename in os.listdir(self.html_directory):
 
-            # Read the HTML file
-            with open(self.html_directory + "/" + filename, "r") as f:
-                html = f.read()
+            if filename.endswith(".html"):
 
-            # Turn the raw HTML string into a dictionary which is a bag of words representation of that file.
-            html_bag_of_words = self.process_html_file(html)
+                # Read the HTML file
+                with open(self.html_directory + "/" + filename, "r") as f:
+                    html = f.read()
 
-            # Merge the existing inverted index with the information just gathered from this HTML file
-            inverted_index = self.merge_index(inverted_index, html_bag_of_words, filename)
+                # Turn the raw HTML string into a dictionary which is a bag of words representation of that file.
+                html_bag_of_words = self.process_html_file(html)
+
+                # Merge the existing inverted index with the information just gathered from this HTML file
+                inverted_index = self.merge_index(inverted_index, html_bag_of_words, filename)
 
         return inverted_index
 
