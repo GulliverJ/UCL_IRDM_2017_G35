@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>Group 35</title>
+<style>
+  * {
+    margin: 0;
+    padding: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: #222;
+  }
+
+  #searchform {
+    margin: 12px;
+  }
+
+  .search {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .searchbox {
+    width: 320px;
+    height: 32px;
+    font-size: 12pt;
+    border: 1px solid #222;
+    border-radius: 2px;
+    padding-left: 8px;
+  }
+
+  .dropdown {
+    width: 128px;
+    height: 36px;
+    margin-right: 12px;
+    border: 1px solid #222;
+    border-radius: 2px;
+  }
+
+  a {
+    color: #007ca6;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #00a6dd;
+  }
+
+  a:visited {
+    color: #81399b;
+  }
+
+  button:hover {
+    background-color: #fff;
+    border: 1px solid #222;
+    cursor: pointer;
+    color: #222;
+  }
+
+  button {
+    background-color: #222;
+    border: none;
+    height: 36px;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+  }
+
+  h1 {
+    font-size: 20px;
+    display: inline;
+  }
+
+  h2 {
+    color: #ddd;
+    display: inline-block;
+    padding-right: 8px;
+  }
+
+  .results {
+    width: 100%;
+    display: block;
+  }
+
+  .entry {
+    padding: 12px;
+    text-align: left;
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+
+</style>
+<body>
+  <div class="search">
+    <form id="searchform" action="results">
+      <select class="dropdown" name="ranking">
+        <option value="pagerank">PageRank</option>
+        <option value="hits">HITS</option>
+        <option value="vector">VSR</option>
+        <option value="learned">Learned</option>
+      </select>
+      <input class="searchbox" name="query" type="text"></input>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="results">
+    {% for result in results %}
+    <div class="entry">
+      <h2>{{loop.index}}</h2>
+      <h1><a href="{{result['href']}}">{{result['title']}}</a></h1>
+      <p>{{result['blurb']}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</body>
+</html>
