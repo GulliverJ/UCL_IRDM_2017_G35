@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 # To construct the bag of words representation of each paper
 from collections import defaultdict
 
+# For the punctuation list
+import string
+
 # =========================
 
 
@@ -15,7 +18,42 @@ class HTMLParser:
         """
         Creates a HTMLParser object, which can quickly parse HTML files. Will also tokenize queries.
         """
-        pass
+        self.stopwords = self.read_stopwords()
+
+        # This will be used to remove punctuation from strings
+        self.translator = str.maketrans("", "", string.punctuation)
+
+    def process_word(self, word):
+        """
+        Takes a word the comes from a webpage or query and preprocesses it by removing punctuation and translating to
+        lowercase.
+        :param word: the word to preprocess, as a string.
+        :return: the word in lowercase with punctuation removed.
+        """
+        # Sanity check
+        assert(type(word) is str)
+
+        # Remove punctuation
+        word_no_punctuation = word.translate(self.translator)
+
+        # Lowercase word
+        word_lower = word_no_punctuation.lower()
+
+        return word_lower
+
+    def read_stopwords(self):
+        """
+        Reads a list of stopwords from a text file and turns it into a set.
+        :return: a set of stopwords with no punctuation
+        """
+        stopwords = []
+
+        with open("stopwords_no_punct.txt", "r") as f:
+            for row in f.readlines():
+                stopwords.append(row.strip("\n"))
+
+        # Return as a set for fast access
+        return set(stopwords)
 
     def parse_query(self, query):
         """
@@ -30,7 +68,10 @@ class HTMLParser:
         # Split into words - this can be replaced with a more advanced function
         query_words = query.split()
 
-        return query_words
+        # Process each word in the query
+        new_words = map(self.process_word, query_words)
+
+        return new_words
 
     def parse(self, filename, bag_of_words=False):
         """

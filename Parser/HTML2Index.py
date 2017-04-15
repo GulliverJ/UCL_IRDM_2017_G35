@@ -12,6 +12,12 @@ from collections import defaultdict
 # To save the index
 import pickle
 
+# Import the HTML parser
+from HTMLParser import HTMLParser
+
+# To time how fast this executes
+import time
+
 # =========================
 
 
@@ -41,6 +47,10 @@ class HTML2Index:
             html_dir = html_dir.strip("/")
 
         self.html_directory = html_dir
+
+        # A parser object to process words
+        self.parser = HTMLParser()
+
         self.index = self.build_index()
 
     def get_index(self):
@@ -83,10 +93,11 @@ class HTML2Index:
 
         return inverted_index
 
-    def process_html_file(self, html):
+    def process_html_file(self, html, ignore_stopwords=True):
         """
         Processes a string of HTML to return a bag of words representation of that HTML.
-        :param html: the HTML page to parse, as a string
+        :param html: the HTML page to parse, as a string.
+        :param ignore_stopwords: if true will not add stopwords to the bag of words representation.
         :return: a bag of words representation of the file, which is a dictionary of the form
                 {word: count_of_word_in_file}, for every word in the file.
         """
@@ -108,7 +119,15 @@ class HTML2Index:
 
         # Construct the bag of words representation
         for word in page_words:
-            bag_of_words[word] += 1
+
+            # Remove punctuation from the word and translate it to lowercase
+            new_word = self.parser.process_word(word)
+
+            # Check if it is a stopword, if so don't add it to the bag of words
+            if ignore_stopwords and new_word in self.parser.stopwords:
+                continue
+
+            bag_of_words[new_word] += 1
 
         return bag_of_words
 
@@ -134,7 +153,9 @@ class HTML2Index:
 
 if __name__ == '__main__':
 
+    t = time.time()
     index_creator = HTML2Index("HTML/")
+    print("Took: ", time.time() - t, " seconds to create the index")
 
     inverted_index = index_creator.get_index()
     index_creator.save_index()
