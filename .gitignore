@@ -4,3 +4,4 @@
 test.py
 HTML
 stopwords_process.py
+*.pyc
