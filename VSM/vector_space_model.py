@@ -98,8 +98,7 @@ def tf_idf(term, doc_id):
 
 def cos_sim(query, doc_id):
     dot_prod, q_norm, d_norm, cos = 0.0, 0.0, 0.0, 0.0
-    q_tf = [query.count(term) for term in query]
-    q_tf_norm = math.sqrt(sum([x**2 for x in q_tf]))
+    q_tf_norm = math.sqrt(sum([query.count(term)**2 for term in query]))
     for term in query:
         q_tf_idf = query.count(term) / q_tf_norm * idf(term)
         d_tf_idf = tf_idf(term, doc_id)
@@ -114,7 +113,7 @@ def cos_sim(query, doc_id):
 
 
 def search():
-    query = tokenize(input("Search for: ").lower())
+    query = tokenize(input("Search for: "))
     if not query:
         sys.exit()
     scores = sorted([(cos_sim(query, doc_id), doc_id) for doc_id in docnames],
@@ -134,7 +133,7 @@ if __name__ == '__main__':
     print("Initialization completed")
 
     #print(docnames)
-    #print(term_freq)
+    print(term_freq)
     #print(doc_freq)
 
     while True:
