@@ -101,7 +101,7 @@ class HTMLVSM:
 
 if __name__ == '__main__':
 
-    index_creator = HTML2Index("html/")
+    index_creator = HTML2Index("htmldocs/")
 
     model = HTMLVSM(index_creator)
 
