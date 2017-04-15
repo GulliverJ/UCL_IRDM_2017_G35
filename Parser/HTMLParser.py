@@ -120,10 +120,11 @@ class HTMLParser:
 
         return file_info
 
-    def create_bag_of_words(self, text):
+    def create_bag_of_words(self, text, ignore_stopwords=True):
         """
         Creates a bag of words representation of an HTML page.
         :param text: the text of an html page, not containing any markup.
+        :param ignore_stopwords: if true will not include stopwords in the bag of words representation.
         :return: a dictionary represention the bag of words representation of the text.
         """
 
@@ -138,7 +139,15 @@ class HTMLParser:
 
         # Create the bag of words
         for word in words:
-            bag_of_words[word] += 1
+
+            # Remove punctuation and translate to lowercase
+            new_word = self.process_word(word)
+
+            # Optionally ignore stopwords
+            if ignore_stopwords and new_word in self.stopwords:
+                continue
+
+            bag_of_words[new_word] += 1
 
         return bag_of_words
 
