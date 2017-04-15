@@ -1,0 +1,239 @@
+# ======== IMPORTS ========
+
+# To construct the bag of words representation of each paper
+from collections import defaultdict
+
+# For reading the inverted index
+import pickle
+
+# To create the term-document matrix
+import numpy as np
+
+# For timing
+import time
+
+# =========================
+
+
+class TDMatCreator:
+
+    def __init__(self, inverted_index_path="", create=True):
+        """
+        Creates a term-document matrix which has a row for every term in the vocabulary, and a column for every
+        document. There is a 1 in each entry if that term occurs in that document.
+        :param inverted_index_path: the path to the inverted index of the documents - mapping words to the documents
+                                    that they occur in.
+        :param create: if True, will create the term-document matrix. If false, will not.
+        """
+        if create and inverted_index_path == "":
+            raise ValueError("If you want to create a term-document matrix, you must provide a path to the inverted" +
+                             "index")
+
+        if create:
+            with open(inverted_index_path, "rb") as f:
+                self.inverted_index = pickle.load(f)
+
+            # Dictionary which will hold a mapping from words to row indicies in the term-document matrix
+            self.term2rowindex = defaultdict(int)
+
+            # Dictionary which will hold a mapping from filenames to column indicies in the term-document matrix
+            self.filename2colindex = defaultdict(int)
+
+            # A vocabulary as a set
+            self.vocab = set()
+
+            # List of the filenames already seen
+            self.filenames = set()
+
+            # The term-document matrix
+            self.term_document_matrix = self.create_TD_matrix()
+
+    def create_TD_matrix(self):
+        """
+        Creates the term-document matrix by first mapping each word and document name to a unique integer ID.
+        :return: the term document matrix.
+        """
+
+        # Counts how many terms have been added to the matrix and is used to assign IDs to terms
+        term_count = 0
+
+        # Counts how many filenames have been added to the matrix and is used to assign IDs to files
+        filename_count = 0
+
+        # Add an out of vocabulary (OOV) token to the matrix
+        self.term2rowindex["<OOV>"] = term_count
+        term_count += 1
+
+        # Calculate the size of the vocab (which will be the number of rows in the TD matrix. +1 for OOV token.
+        vocab_size = len(self.inverted_index.keys()) + 1
+
+        # Create the initial term-document matrix
+        td_matrix = np.zeros((vocab_size, 1), dtype=np.bool)
+
+        # Iterate over all of the terms in the inverted index
+        for term, doc_list in self.inverted_index.items():
+
+            if term not in self.vocab:
+                term_count = self.add_to_term_index(term, term_count)
+
+            # A list of document IDs for all documents that this term maps to
+            document_IDs = []
+
+            # Iterate over every entry in the document list for the term
+            for filename, term_count in doc_list:
+
+                # Check if this document has been seen before
+                if filename not in self.filenames:
+                    filename_count = self.add_to_file_index(filename, filename_count)
+
+                document_IDs.append(self.filename2colindex[filename])
+
+            # Get the index of the current term
+            term_index = self.term2rowindex[term]
+
+            # Add to the term-document matrix
+            td_matrix = self.populate_td_matrix(td_matrix, term_index, document_IDs)
+
+        return td_matrix
+
+    def add_to_term_index(self, term, term_count):
+        """
+        Adds a term to the term index and increments term_count
+        :param term: the term to add
+        :param term_count: the ID for the term to add
+        :return: the incremented term_count
+        """
+
+        # Add to the vocab
+        self.vocab.add(term)
+
+        # Add to the term-to-id mapping
+        self.term2rowindex[term] = term_count
+
+        # Increment the term counter
+        term_count += 1
+
+        return term_count
+
+    def add_to_file_index(self, filename, file_count):
+        """
+        Adds the filename to the mapping from filenames to columns, and increments the file_count.
+        :param filename: the name of the file to add.
+        :param file_count: the ID to assign to filename
+        :return: file_count incremented
+        """
+
+        # Add to the set of filenames already seen
+        self.filenames.add(filename)
+
+        # Add to the filename-to-id mapping
+        self.filename2colindex[filename] = file_count
+
+        # Increment the file counter
+        file_count += 1
+
+        return file_count
+
+    def populate_td_matrix(self, td_matrix, term_index, document_IDs):
+        """
+        Adds entries for the current term to the TD matrix.
+        :param td_matrix: the current TD matrix.
+        :param term_index: index of the current term.
+        :param document_IDs: list of document IDs that the term occurs in.
+        :return: the updated td_matrix
+        """
+
+        # Measure the size of the TD matrix
+        rows, cols = np.shape(td_matrix)
+
+        # Check if a new document must be added to the matrix
+        if max(document_IDs) > cols-1:
+            td_matrix = self.expand_td_matrix(td_matrix, max(document_IDs)+1)
+
+        # Update the TD matrix with new values
+        td_matrix[term_index, document_IDs] = 1
+
+        return td_matrix
+
+
+    def expand_td_matrix(self, td_matrix, cols):
+        """
+        Expands the TD matrix to have "cols" columns.
+        :param td_matrix: the current td matrix
+        :param cols: the number of columns the new matrix should have
+        :return: the TD matrix with extra columns full of zeros added.
+        """
+
+        # Get the number of rows in the existing matrix
+        rows, old_cols = np.shape(td_matrix)
+
+        # Create the new TD matrix
+        new_td_matrix = np.zeros((rows, cols), dtype=np.bool)
+
+        # Make sure the new matrix has all the elements of the old one
+        new_td_matrix[:, :old_cols] = td_matrix
+
+        return new_td_matrix
+
+    def save_objects(self, path=""):
+        """
+        Saves the TD matrix, mappings, vocabular and set of filenames.
+        :param path: directory in which to save the information.
+        """
+        # Save the term2rowindex mapping first with Pickle
+        with open(path + "term2rowindex.pkl", "wb") as f:
+            pickle.dump(self.term2rowindex, f)
+
+        # Save the filename2colindex next with Pickle
+        with open(path + "filename2colindex.pkl", "wb") as f:
+            pickle.dump(self.filename2colindex, f)
+
+        # Save the vocab with Pickle
+        with open(path + "vocab.pkl", "wb") as f:
+            pickle.dump(self.vocab, f)
+
+        # Save the filename set with Pickle
+        with open(path + "filenames.pkl", "wb") as f:
+            pickle.dump(self.filenames, f)
+
+        # Finally save the TF matrix with numpy.save()
+        with open(path + "td_matrix.npy", "wb") as f:
+            np.save(f, self.term_document_matrix)
+
+    def load_objects(self, path=""):
+        """
+        Loads the TD matrix, mappings, vocabular and set of filenames.
+        :param path: directory in which to save the information.
+        :return: TD matrix, mappings, vocabulary and set of filenames
+        """
+        # Save the term2rowindex mapping first with Pickle
+        with open(path + "term2rowindex.pkl", "rb") as f:
+            term2rowindex = pickle.load(f)
+
+        # Save the filename2colindex next with Pickle
+        with open(path + "filename2colindex.pkl", "rb") as f:
+            filename2colindex = pickle.load(f)
+
+        # Save the vocab with Pickle
+        with open(path + "vocab.pkl", "rb") as f:
+            vocab = pickle.load(f)
+
+        # Save the filename set with Pickle
+        with open(path + "filenames.pkl", "rb") as f:
+            filenames = pickle.load(f)
+
+        # Finally save the TF matrix with numpy.save()
+        with open(path + "td_matrix.npy", "rb") as f:
+            term_document_matrix = np.load(f)
+
+        return term2rowindex, filename2colindex, vocab, filenames, term_document_matrix
+
+
+if __name__ == '__main__':
+    t = time.time()
+    tdmat_creator = TDMatCreator("Parser/inverted_index.pkl")
+    print("Took ", time.time() - t, " seconds")
+    tdmat_creator.save_objects("LSI/Term_Document_Matrix/")
+
+    t2 = TDMatCreator(create=False)
+    print(t2.load_objects("LSI/Term_Document_Matrix/"))
