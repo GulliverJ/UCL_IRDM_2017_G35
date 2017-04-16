@@ -51,6 +51,9 @@ class HTML2Index:
         # A parser object to process words
         self.parser = HTMLParser()
 
+        # Counter for the number of files
+        self.file_count = 0
+
         self.index = self.build_index()
 
     def get_index(self):
@@ -60,12 +63,13 @@ class HTML2Index:
         """
         return self.index
 
-    def save_index(self):
+    def save_index(self, path=""):
         """
-        Saves the index using Python's pickle.
+        Saves the index using Python's pickle. Saves the index and the number of files as a tuple.
         """
-        with open("inverted_index.pkl", "wb") as f:
-            pickle.dump(self.index, f)
+        to_save = (self.index, self.file_count)
+        with open(path + "inverted_index.pkl", "wb") as f:
+            pickle.dump(to_save, f)
 
     def build_index(self):
         """
@@ -90,6 +94,9 @@ class HTML2Index:
 
                 # Merge the existing inverted index with the information just gathered from this HTML file
                 inverted_index = self.merge_index(inverted_index, html_bag_of_words, filename)
+
+                # Increment the file counter
+                self.file_count += 1
 
         return inverted_index
 
@@ -154,11 +161,11 @@ class HTML2Index:
 if __name__ == '__main__':
 
     t = time.time()
-    index_creator = HTML2Index("HTML/")
+    index_creator = HTML2Index("Parser/HTML/")
     print("Took: ", time.time() - t, " seconds to create the index")
 
     inverted_index = index_creator.get_index()
-    index_creator.save_index()
+    index_creator.save_index("LSI/")
 
     for key, val in inverted_index.items():
         print(key, " ", val)

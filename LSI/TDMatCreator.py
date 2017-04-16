@@ -31,7 +31,8 @@ class TDMatCreator:
 
         if create:
             with open(inverted_index_path, "rb") as f:
-                self.inverted_index = pickle.load(f)
+                self.inverted_index, self.file_count = pickle.load(f)
+                print(self.file_count)
 
             # Dictionary which will hold a mapping from words to row indicies in the term-document matrix
             self.term2rowindex = defaultdict(int)
@@ -68,7 +69,7 @@ class TDMatCreator:
         vocab_size = len(self.inverted_index.keys()) + 1
 
         # Create the initial term-document matrix
-        td_matrix = np.zeros((vocab_size, 1), dtype=np.bool)
+        td_matrix = np.zeros((vocab_size, 1), dtype=np.float32)
 
         # Iterate over all of the terms in the inverted index
         for term, doc_list in self.inverted_index.items():
@@ -86,13 +87,16 @@ class TDMatCreator:
                 if filename not in self.filenames:
                     filename_count = self.add_to_file_index(filename, filename_count)
 
-                document_IDs.append(self.filename2colindex[filename])
+                document_IDs.append((self.filename2colindex[filename], term_count))
 
             # Get the index of the current term
             term_index = self.term2rowindex[term]
 
+            # Get the number of files which this word occurs in (for calculating TF-IDF)
+            num_file_occurences = len(doc_list)
+
             # Add to the term-document matrix
-            td_matrix = self.populate_td_matrix(td_matrix, term_index, document_IDs)
+            td_matrix = self.populate_td_matrix(td_matrix, term_index, document_IDs, num_file_occurences)
 
         return td_matrix
 
@@ -134,27 +138,45 @@ class TDMatCreator:
 
         return file_count
 
-    def populate_td_matrix(self, td_matrix, term_index, document_IDs):
+    def populate_td_matrix(self, td_matrix, term_index, document_IDs, num_file_occurences):
         """
         Adds entries for the current term to the TD matrix.
         :param td_matrix: the current TD matrix.
         :param term_index: index of the current term.
-        :param document_IDs: list of document IDs that the term occurs in.
+        :param document_IDs: list of tuples of document IDs that the term occurs in and the count of the term in that
+                             document.
+        :param num_file_occurences: the number of different documents which the term occurs in.
         :return: the updated td_matrix
         """
 
         # Measure the size of the TD matrix
         rows, cols = np.shape(td_matrix)
 
+        # Get the column indexes to assign
+        col_indexes = [x for x, _ in document_IDs]
+
+        # Calculate the TF-IDFs for each entry
+        tf_idfs = [self.calculate_tf_idf(num_file_occurences, y) for _, y in document_IDs]
+
         # Check if a new document must be added to the matrix
-        if max(document_IDs) > cols-1:
-            td_matrix = self.expand_td_matrix(td_matrix, max(document_IDs)+1)
+        if max(col_indexes) > cols-1:
+            td_matrix = self.expand_td_matrix(td_matrix, max(col_indexes)+1)
 
         # Update the TD matrix with new values
-        td_matrix[term_index, document_IDs] = 1
+        td_matrix[term_index, col_indexes] = tf_idfs
 
         return td_matrix
 
+    def calculate_tf_idf(self, num_file_occurences, term_frequency):
+        """
+        Calculates the TF-IDF score of the term in the current file.
+        :param num_file_occurences: the number of different files that the term occurs in.
+        :param term_frequency: the number of times the term occurs in each document.
+        :return: the TF-IDF score of the term in this document.
+        """
+        idf = np.log((self.file_count / num_file_occurences))
+        tf = term_frequency
+        return tf * idf
 
     def expand_td_matrix(self, td_matrix, cols):
         """
@@ -168,7 +190,7 @@ class TDMatCreator:
         rows, old_cols = np.shape(td_matrix)
 
         # Create the new TD matrix
-        new_td_matrix = np.zeros((rows, cols), dtype=np.bool)
+        new_td_matrix = np.zeros((rows, cols), dtype=np.float32)
 
         # Make sure the new matrix has all the elements of the old one
         new_td_matrix[:, :old_cols] = td_matrix
@@ -231,9 +253,9 @@ class TDMatCreator:
 
 if __name__ == '__main__':
     t = time.time()
-    tdmat_creator = TDMatCreator("Parser/inverted_index.pkl")
+    tdmat_creator = TDMatCreator("LSI/inverted_index.pkl")
     print("Took ", time.time() - t, " seconds")
     tdmat_creator.save_objects("LSI/Term_Document_Matrix/")
 
     t2 = TDMatCreator(create=False)
-    print(t2.load_objects("LSI/Term_Document_Matrix/"))
+    print(type(t2.load_objects("LSI/Term_Document_Matrix/")))

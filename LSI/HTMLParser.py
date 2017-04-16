@@ -69,7 +69,7 @@ class HTMLParser:
         query_words = query.split()
 
         # Process each word in the query
-        new_words = map(self.process_word, query_words)
+        new_words = [x for x in map(self.process_word, query_words)]
 
         return new_words
 
