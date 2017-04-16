@@ -1,0 +1,3 @@
+{'html': "@inproceedings{weyrich10spatiotemporal,\n author = {Weyrich, Tim},\n title = {Towards a Spatio-temporal Appearance Model for Human Skin},\n booktitle = {Proceedings of the 2010 ACM Workshop on Surreal Media and Virtual Cloning},\n series = {SMVC '10},\n year = 2010,\n month = oct,\n day = 29,\n isbn = {978-1-4503-0175-6},\n location = {Firenze, Italy},\n pages = {37--37},\n numpages = {2},\n url = {http://doi.acm.org/10.1145/1878083.1878094},\n doi = {10.1145/1878083.1878094},\n acmid = {1878094},\n publisher = {ACM},\n address = {New York, NY, USA},\n keywords = {3d representation, processing and coding},\n}",
+ 'pid': 195,
+ 'url': 'http://reality.cs.ucl.ac.uk/projects/skinperf/weyrich10spatiotemporal.bib'}
