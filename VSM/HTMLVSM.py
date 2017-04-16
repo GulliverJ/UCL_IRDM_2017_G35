@@ -3,12 +3,14 @@ from math import log, sqrt
 from collections import defaultdict
 from sys import exit
 
+
 class HTMLVSM:
 
-    def __init__(self, index_creator):
+    def __init__(self, index_creator, variant, pivot=0.0, slope=1.0):
         """
         Create a vector space model for use with a HTML2Index object.
         :param index_creator: HTML2Index object.
+        :param variant: String using the qqq.ddd notation.
         """
 
         # References to variables of the HTML2Index object
@@ -16,6 +18,16 @@ class HTMLVSM:
         self.word_counts = index_creator.get_word_counts()
         self.file_count = index_creator.get_file_count()
         self.filenames = index_creator.get_filenames()
+
+        # Parse the variant string
+        self.variant = list(variant)
+
+        # Variables for pivoted normalization
+        self.pivoted_norm = False
+        if pivot > 0:
+            self.pivoted_norm = True
+            self.pivot = pivot
+            self.slope = slope
 
         # Initialize and normalize the term frequencies
         self.term_freq = defaultdict(dict)
@@ -29,12 +41,18 @@ class HTMLVSM:
 
         for file, term_list in self.word_counts.items():
             for term, count in term_list.items():
-                self.term_freq[file][term] = 1.0 + log(count, 2)
+                if self.variant[4] == 'b':
+                    self.term_freq[file][term] = 1
+                elif self.variant[4] == 'n':
+                    self.term_freq[file][term] = count
+                elif self.variant[4] == 'l':
+                    self.term_freq[file][term] = 1.0 + log(count, 2)
 
-        for file in self.term_freq:
-            norm = sqrt(sum([_ ** 2 for _ in self.term_freq[file].values()]))
-            for term in self.term_freq[file]:
-                self.term_freq[file][term] /= norm
+        if self.variant[6] == 'c':
+            for file in self.term_freq:
+                norm = sqrt(sum([_ ** 2 for _ in self.term_freq[file].values()]))
+                for term in self.term_freq[file]:
+                    self.term_freq[file][term] /= norm
 
     def idf(self, term):
         """
@@ -65,20 +83,43 @@ class HTMLVSM:
         Calculate the cosine similarity between query and document vectors.
         :param query: a list of words.
         :param file: the filename of the document.
-        :return: decimal value between 0 and 1.
+        :return: similarity score between query and file.
         """
         dot_prod, q_norm, d_norm, cos = 0.0, 0.0, 0.0, 0.0
-        q_tf_norm = sqrt(sum([query.count(term) ** 2 for term in query]))
+
+        q_tf_norm = 1
+        if self.variant[2] == 'c':
+            q_tf_norm = sqrt(sum([query.count(term) ** 2 for term in query]))
+
         for term in query:
-            q_tf_idf = query.count(term) / q_tf_norm * self.idf(term)
+            q_tf = 0
+            if self.variant[0] == 'b':
+                q_tf = 1
+            if self.variant[0] == 'n':
+                q_tf = query.count(term)
+            elif self.variant[0] == 'l':
+                q_tf = 1.0 + log(q_tf, 2)
+            q_idf = 1
+            if self.variant[1] == 't':
+                q_idf = self.idf(term)
+            q_tf_idf = q_tf / q_tf_norm * q_idf
+
             d_tf_idf = self.tf_idf(term, file)
+
             dot_prod += q_tf_idf * d_tf_idf
             q_norm += q_tf_idf ** 2
             d_norm += d_tf_idf ** 2
+
         q_norm = sqrt(q_norm)
         d_norm = sqrt(d_norm)
-        if q_norm != 0 and d_norm != 0:
+        if self.pivoted_norm:
+            s = self.slope
+            p = self.pivot
+            q_norm = (1.0 - s) * p + s * q_norm
+            d_norm = (1.0 - s) * p + s * d_norm
+        if q_norm > 0 and d_norm > 0:
             cos = dot_prod / (q_norm * d_norm)
+
         return cos
 
     def search(self):
@@ -103,7 +144,27 @@ if __name__ == '__main__':
 
     index_creator = HTML2Index("htmldocs/")
 
-    model = HTMLVSM(index_creator)
+    # Each variant uses the notation qqq.ddd
+    # Term weighting:
+    #   n: natural
+    #   l: logarithmic
+    #   b: boolean
+    # Document weighting:
+    #   n: none
+    #   t: inverse document frequency
+    # Normalization:
+    #   n: none
+    #   c: cosine
+    # Note: not all combinations are valid.
+    # Example: ntc.lnc
+    #   query: natural term frequency, idf weighting, cosine normalization
+    #   document: logarithmic term frequency, no df weighting, cosine normalization
+    variant = "ntc.ltc"
+
+    # Create model
+    print("Creating model.")
+    model = HTMLVSM(index_creator, variant)
+    print(variant, "model created.")
 
     while True:
         model.search()
