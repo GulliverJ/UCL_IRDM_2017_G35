@@ -1,0 +1,3 @@
+{'html': '@inproceedings{Martin12Newton,\n    author={William Martin and Dani Abdallah and Ahmed El-Abiary and Yosef Dalbah and Simon Julier and Melissa Terras and Rob Iliffe and Michael Hawkins and Tim Weyrich},\n    title={{Newton Spectrum}: Nonlinear Text Browsing of a Large Corpus},\n    booktitle={Proc. of Digital Humanities Congress 2012},\n    month=sep,\n    location={Sheffield, UK},\n    year=2012,\n}\n',
+ 'pid': 196,
+ 'url': 'http://reality.cs.ucl.ac.uk/projects/newton/newtonspectrum.bib'}

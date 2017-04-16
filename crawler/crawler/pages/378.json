@@ -1,0 +1,3 @@
+{'html': '#VRML V2.0 utf8\n\n\nDEF PAIR_BOX Group {\n   children [\n      Transform {\n\t translation -2 0 0\n\t children [\n\t    DEF ONE_BOX Shape {\n\t       appearance Appearance {\n\t\t  texture ImageTexture {\n\t\t     url ["default.jpg"]\n\t\t  }\n\t       }\n\t       geometry Box {\n\t\t  size 2 2 2 \n\t       }\n\t    }\n\t   ]\n      }\n      Transform {\n\t translation 2 0 0\n\t children [\n\t    USE ONE_BOX\n\t   ]\n      }\n     ]\n}\n\nTransform {\n   translation 0 2 0\n   children [\n      USE PAIR_BOX\n     ]\n}\n',
+ 'pid': 378,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/A.Steed/book_tmp/CGVE/code/vrml/use.wrl'}
