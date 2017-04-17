@@ -24,6 +24,14 @@ from scipy import spatial
 # For sorting the similarities when ranking
 from operator import itemgetter
 
+# For truncated SVD
+from sklearn.decomposition import TruncatedSVD
+from sklearn.utils.extmath import randomized_svd
+
+# For sparse martricies
+from scipy import sparse
+from scipy.sparse.linalg import svds
+
 # =========================
 
 
@@ -39,7 +47,7 @@ class LatentSemanticIndexer:
                           singular value decomposition will not be performed and the matrix will be loaded from disk.
                           The loaded matrices will then be used to rank and retreive documents. If it is false, then
                           the term document matrix will be decomposed with singular value decomposition to create the
-                          ranking matricies.
+                          ranking matrices.
         """
 
         # Load the Term-to-Row Mapping, Filename-to-Column Mapping, Vocab, Filenames and Term-Document Matrix
@@ -47,7 +55,7 @@ class LatentSemanticIndexer:
             TDMatCreator(create=False).load_objects(path_to_td_matrix)
 
         # The rank to use to approximate the Term-Document matrix
-        self.rank = 2
+        self.rank = 8
 
         if not searching:
 
@@ -112,21 +120,34 @@ class LatentSemanticIndexer:
         """
 
         # Perform singular value decomposition
-        term_matrix, singular_values, document_matrix = self.decompose_matrix(self.term_document_matrix)
-
-        #print(term_matrix.shape, singular_values.shape, document_matrix.shape)
+        print("----> Decomposing Matrix")
+        t2 = time.time()
+        #term_matrix, singular_values, document_matrix = self.decompose_matrix(self.term_document_matrix)
+        tm_k_c, sv_k_c, dm_k_c = self.decompose_matrix_truncated(self.term_document_matrix)
+        print("----> Matrix Decomposition Complete, took ", time.time() - t2, " seconds")
 
         # Create the rank-k approximation
-        tm_k, sv_k, dm_k = self.rank_approximate(term_matrix, singular_values, document_matrix, rank=self.rank)
+        #tm_k, sv_k, dm_k = self.rank_approximate(term_matrix, singular_values, document_matrix, rank=self.rank)
 
-        #print(tm_k.shape, " ", sv_k.shape, " ", dm_k.shape)
-        #input()
-        #print(sv_k)
-        #input()
-        #print(dm_k)
+        #print("Working Way: ")
+
+        #print("Shapes: ")
+        #print(tm_k.shape, sv_k.shape, dm_k.shape)
+        #print("Doc Vecs: ")
+        #print(dm_k[0:10, :])
+
+        #print()
+
+        #print("Sparse Way: ")
+
+        #print("Shapes: ")
+        #print(tm_k_c.shape, sv_k_c.shape, dm_k_c.shape)
+        #print("Doc Vecs: ")
+        #print(dm_k_c[0:10, :])
+
         #input()
 
-        return tm_k, sv_k, dm_k
+        return tm_k_c, sv_k_c, dm_k_c
 
     def rank_approximate(self, term_matrix, singular_values, document_matrix, rank=100):
         """
@@ -149,6 +170,42 @@ class LatentSemanticIndexer:
 
         return tm_k, sv_k, dm_k
 
+    def decompose_matrix_truncated(self, td_mat):
+        """
+        Performs singular value decomposition on the term-document matrix (or any given matrix).
+        :param td_mat: the term document matrix to decompose.
+        :return: term matrix (U), singular values (S), document matrix (V) such that td_mat = US(V.transpose)
+        """
+        sparse_td_mat = sparse.csc_matrix(td_mat.astype(float))
+
+        # Use numpy to perform the singular value decomposition
+        term_matrix, singular_vals, doc_matrix = svds(sparse_td_mat, k=self.rank)
+
+        #print(term_matrix.shape, " ", singular_vals.shape, " ", doc_matrix.shape)
+        #input()
+
+        # The sparse SVD gives back V_t but we just want V
+        doc_matrix = np.transpose(doc_matrix)
+
+        # Transform the singular vals into a matrix rather than list
+        tm_rows, tm_cols = term_matrix.shape
+        dm_rows, dm_cols = doc_matrix.shape
+
+        S = np.zeros((tm_cols, dm_cols), dtype=np.float32)
+        S[:tm_cols, :dm_cols] = np.diag(singular_vals)
+
+        #print(term_matrix.shape, " ", S.shape, " ", doc_matrix.shape)
+        #input()
+
+        #for i in range(S.shape[0]):
+        #    for j in range(S.shape[1]):
+        #        if i == j:
+        #            print(S[i, j])
+
+        #input()
+
+        return term_matrix, S, doc_matrix
+
     def decompose_matrix(self, td_mat):
         """
         Performs singular value decomposition on the term-document matrix (or any given matrix).
@@ -158,6 +215,10 @@ class LatentSemanticIndexer:
 
         # Use numpy to perform the singular value decomposition
         term_matrix, singular_vals, doc_matrix = np.linalg.svd(td_mat)
+
+        for item in singular_vals:
+            print(item)
+        #input()
 
         # Transform the singular vals into a matrix rather than list
         tm_rows, tm_cols = term_matrix.shape
@@ -197,11 +258,32 @@ class LatentSemanticIndexer:
         # Turn the ranked document indicies into actual file information
         files = self.ranked_indices2files(ranked_doc_indices)
 
+        # Add URLs to the search results
+        files = self.add_urls(files)
+
         for f in files:
-            print(f["filename"], " ", f["title"])
+            print(f["title"].strip(), " --> ", f["filename"], " --> ", f["url"])
             input()
 
         return files
+
+    def add_urls(self, files):
+        """
+        Adds URLs to the search results.
+        :param files: the files to add URLs to.
+        :return: the file dicts with URLs.
+        """
+        with open("LSI/filename2url.pkl", "rb") as f:
+            filename2url = pickle.load(f)
+
+        new_files = []
+        for f in files:
+            fname = f["filename"]
+            url = filename2url[fname]
+            f["url"] = url
+            new_files.append(f)
+
+        return new_files
 
     def query2vec(self, query):
         """
@@ -311,12 +393,19 @@ class LatentSemanticIndexer:
 
         # Parse each file
         for filename in filenames:
-            path = "LSI/HTML/" + filename
+            path = "LSI/crawler/crawler/pages/" + filename
             parsed_html = self.parser.parse(path)
             parsed_files.append(parsed_html)
 
         return parsed_files
 
 if __name__ == '__main__':
-    lsi = LatentSemanticIndexer("LSI/Term_Document_Matrix/", True)
-    lsi.search("salary")
+    create_new = True
+
+    if create_new:
+        t = time.time()
+        lsi = LatentSemanticIndexer("LSI/Term_Document_Matrix/", False)
+        print("----> Decomposed the Term-Document matrix, time taken: ", time.time() - t, " seconds")
+    else:
+        lsi = LatentSemanticIndexer("LSI/Term_Document_Matrix/", True)
+        lsi.search("career prospects")

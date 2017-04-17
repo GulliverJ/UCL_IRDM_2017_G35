@@ -9,6 +9,9 @@ from collections import defaultdict
 # For the punctuation list
 import string
 
+# For reading JSON files
+import json
+
 # =========================
 
 
@@ -91,7 +94,10 @@ class HTMLParser:
         soup = BeautifulSoup(html, "lxml")
 
         # Get the title of the HTML file
-        title = soup.title.string
+        if soup.title is not None:
+            title = soup.title.string
+        else:
+            title = ""
 
         # Get all of the links in the HTML file
         links = soup.find_all("a")
@@ -104,9 +110,16 @@ class HTMLParser:
         # Get the raw text of the page
         text = soup.get_text()
 
+        # Remove slashes from filename if necessary
+        if "/" in filename:
+            filename_parts = filename.split("/")
+            final_name = filename_parts[-1]
+        else:
+            final_name = filename
+
         # Create the dictionary which will hold the information parsed from the HTML file
         file_info = {
-            "filename": filename,
+            "filename": final_name,
             "title": title,
             "links": links,
             "urls": urls,
@@ -157,8 +170,13 @@ class HTMLParser:
         :param filename: the name or path from current working directory to the HTML file to parse.
         :return: the contents of the HTML file as a string.
         """
-        with open(filename, "r") as f:
-            html = f.read()
+        if filename.endswith(".html"):
+            with open(filename, "r") as f:
+                html = f.read()
+        elif filename.endswith(".json"):
+            with open(filename, "r") as f:
+                html_dict = json.load(f)
+                html = html_dict["html"]
 
         return html
 

@@ -18,6 +18,12 @@ from HTMLParser import HTMLParser
 # To time how fast this executes
 import time
 
+# For reading pages
+import json
+
+# Measuring length and standard deviation
+import numpy as np
+
 # =========================
 
 
@@ -54,6 +60,9 @@ class HTML2Index:
         # Counter for the number of files
         self.file_count = 0
 
+        # A mapping from filenames to URLs
+        self.filenames2urls = {}
+
         self.index = self.build_index()
 
     def get_index(self):
@@ -67,9 +76,14 @@ class HTML2Index:
         """
         Saves the index using Python's pickle. Saves the index and the number of files as a tuple.
         """
+        # Save the inverted index
         to_save = (self.index, self.file_count)
         with open(path + "inverted_index.pkl", "wb") as f:
             pickle.dump(to_save, f)
+
+        # Save the filename to url mapping
+        with open(path + "filename2url.pkl", "wb") as f:
+            pickle.dump(self.filenames2urls, f)
 
     def build_index(self):
         """
@@ -80,14 +94,28 @@ class HTML2Index:
         # The inverted index will be a defaultdict
         inverted_index = defaultdict(list)
 
+        # For logging
+        count = 0
+
         # Iterate over each HTML file
         for filename in os.listdir(self.html_directory):
 
-            if filename.endswith(".html"):
+            if filename.endswith(".json"):
 
-                # Read the HTML file
+                print("Processing File: ", count, end="\r")
+
+                # Read the JSON file that contains the HTML
                 with open(self.html_directory + "/" + filename, "r") as f:
-                    html = f.read()
+                    html_dict = json.load(f)
+
+                # Extract the HTML
+                html = html_dict["html"]
+
+                # Extract the URL
+                url = html_dict["url"]
+
+                # Add to the filename-to-url mapping
+                self.filenames2urls[filename] = url
 
                 # Turn the raw HTML string into a dictionary which is a bag of words representation of that file.
                 html_bag_of_words = self.process_html_file(html)
@@ -98,7 +126,39 @@ class HTML2Index:
                 # Increment the file counter
                 self.file_count += 1
 
+                # Increment the logging counter
+                count += 1
+
+        inverted_index = self.prune_index(inverted_index)
+
         return inverted_index
+
+    def prune_index(self, index):
+        """
+        Removes keys and values that are irrelevant by being more than 3 standard deviations from the average length.
+        :param index: the index to prune
+        :return: the pruned index
+        """
+        # Collect the lengths
+        lens = []
+        for key, _ in index.items():
+            lens.append(len(key))
+
+        # Measure the mean and standard deviation
+        mean_len = np.mean(lens)
+        std_dev = np.std(lens)
+
+        # Calculate the max length
+        max_len = mean_len + 3 * std_dev
+
+        # New index
+        new_index = defaultdict(list)
+
+        for key, val in index.items():
+            if len(key) < max_len:
+                new_index[key] = val
+
+        return new_index
 
     def process_html_file(self, html, ignore_stopwords=True):
         """
@@ -114,6 +174,10 @@ class HTML2Index:
 
         # Parse the HTML string with Beautiful Soup
         soup = BeautifulSoup(html, "lxml")
+
+        # Remove all script tags
+        for script in soup(["script", "style"]):
+            script.extract()
 
         # Get the page text
         page_text = soup.get_text()
@@ -161,11 +225,15 @@ class HTML2Index:
 if __name__ == '__main__':
 
     t = time.time()
-    index_creator = HTML2Index("Parser/HTML/")
-    print("Took: ", time.time() - t, " seconds to create the index")
+    index_creator = HTML2Index("LSI/crawler/crawler/pages")
+    print("\nTook: ", time.time() - t, " seconds to create the index")
 
     inverted_index = index_creator.get_index()
     index_creator.save_index("LSI/")
-
+    key_count = len(inverted_index.keys())
+    print("NUMBER OF KEYS: ", key_count)
+    input()
     for key, val in inverted_index.items():
-        print(key, " ", val)
+        if len(val) > 3:
+            print("KEY: ", key)
+            print("VAL: ", val)

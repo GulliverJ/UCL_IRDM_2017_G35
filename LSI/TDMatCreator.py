@@ -32,7 +32,7 @@ class TDMatCreator:
         if create:
             with open(inverted_index_path, "rb") as f:
                 self.inverted_index, self.file_count = pickle.load(f)
-                print(self.file_count)
+                print("----> No. Files to Process: ", self.file_count)
 
             # Dictionary which will hold a mapping from words to row indicies in the term-document matrix
             self.term2rowindex = defaultdict(int)
@@ -71,8 +71,14 @@ class TDMatCreator:
         # Create the initial term-document matrix
         td_matrix = np.zeros((vocab_size, 1), dtype=np.float32)
 
+        # For logging
+        count = 0
+
         # Iterate over all of the terms in the inverted index
         for term, doc_list in self.inverted_index.items():
+
+            print("Processing Term: ", count, end="\r")
+            count += 1
 
             if term not in self.vocab:
                 term_count = self.add_to_term_index(term, term_count)
@@ -254,7 +260,7 @@ class TDMatCreator:
 if __name__ == '__main__':
     t = time.time()
     tdmat_creator = TDMatCreator("LSI/inverted_index.pkl")
-    print("Took ", time.time() - t, " seconds")
+    print("\nTook ", time.time() - t, " seconds")
     tdmat_creator.save_objects("LSI/Term_Document_Matrix/")
 
     t2 = TDMatCreator(create=False)
