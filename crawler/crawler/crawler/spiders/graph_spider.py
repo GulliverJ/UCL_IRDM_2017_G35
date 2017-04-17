@@ -38,7 +38,7 @@ class GraphSpider(CrawlSpider):
                 self.page_counter += 1
             page['pid'] = self.pids[page_url]
             page['url'] = page_url
-            page['html'] = response.body
+            page['html'] = str(response.body, "utf-8", errors="replace")
             page['links'] = []
             self.fully_crawled += 1
             for link in LinkExtractor(allow=(self.allowed_domains)).extract_links(response):

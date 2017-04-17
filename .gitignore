@@ -8,3 +8,5 @@ stopwords_process.py
 Term_Document_Matrix
 pages
 SVD
+*.pkl
+website_to_files.py

@@ -155,7 +155,7 @@ class HTML2Index:
         new_index = defaultdict(list)
 
         for key, val in index.items():
-            if len(key) < max_len:
+            if len(key) < max_len and len(val) > 1:
                 new_index[key] = val
 
         return new_index
@@ -232,8 +232,8 @@ if __name__ == '__main__':
     index_creator.save_index("LSI/")
     key_count = len(inverted_index.keys())
     print("NUMBER OF KEYS: ", key_count)
-    input()
-    for key, val in inverted_index.items():
-        if len(val) > 3:
-            print("KEY: ", key)
-            print("VAL: ", val)
+    #input()
+    #for key, val in inverted_index.items():
+    #    if len(val) > 3:
+    #        print("KEY: ", key)
+    #        print("VAL: ", val)
