@@ -1,3 +1,0 @@
-{'html': "@inproceedings{Weyrich08Principles,\n\tauthor = {Weyrich, Tim and Lawrence, Jason and Lensch, Hendrik and Rusinkiewicz, Szymon and Zickler, Todd},\n\ttitle = {Principles of appearance acquisition and representation},\n\tbooktitle = {SIGGRAPH '08: ACM SIGGRAPH 2008 classes},\n\tyear = {2008},\n\tpages = {1--119},\n\tlocation = {Los Angeles, California},\n\tdoi = {http://doi.acm.org/10.1145/1401132.1401234},\n\tpublisher = {ACM},\n\taddress = {New York, NY, USA},\n}\n",
- 'pid': 192,
- 'url': 'http://reality.cs.ucl.ac.uk/courses/siggraph2008/appearance.bib'}

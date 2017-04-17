@@ -1,0 +1,80 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Workshop on  Complex Netwo'
+         b'rks in Information &amp; Knowledge Management (CNIKM) &laquo;  MobBl'
+         b'og</title>\n\n<link rel="stylesheet" href="http://mobblog.cs.ucl.a'
+         b'c.uk/wp-content/themes/default/style.css" type="text/css" media="scr'
+         b'een" />\n<link rel="pingback" href="http://mobblog.cs.ucl.ac.uk/x'
+         b'mlrpc.php" />\n\n<style type="text/css" media="screen">\n\n\t#pag'
+         b'e { background: url("http://mobblog.cs.ucl.ac.uk/wp-content/themes/d'
+         b'efault/images/kubrickbgwide.jpg") repeat-y top; border: none; }\n'
+         b'\n</style>\n\n \n\n<link rel="alternate" type="application/rss+xm'
+         b'l" title="MobBlog &raquo; Feed" href="http://mobblog.cs.ucl.ac.uk/fe'
+         b'ed/" />\n<link rel="alternate" type="application/rss+xml" title="'
+         b'MobBlog &raquo; Comments Feed" href="http://mobblog.cs.ucl.ac.uk/com'
+         b'ments/feed/" />\n<script type=\'text/javascript\' src=\'http://mobbl'
+         b"og.cs.ucl.ac.uk/wp-includes/js/comment-reply.min.js?ver=3.8.1'></scr"
+         b'ipt>\n<link rel="EditURI" type="application/rsd+xml" title="RSD" '
+         b'href="http://mobblog.cs.ucl.ac.uk/xmlrpc.php?rsd" />\n<link rel="'
+         b'wlwmanifest" type="application/wlwmanifest+xml" href="http://mobblog'
+         b'.cs.ucl.ac.uk/wp-includes/wlwmanifest.xml" /> \n<link rel=\'prev\' '
+         b"title='Enhancing Mobile Recommender Systems with Activity Inference'"
+         b" href='http://mobblog.cs.ucl.ac.uk/2009/07/02/enhancing-mobile-recom"
+         b"mender-systems-with-activity-inference/' />\n<link rel='next' tit"
+         b"le='Deconstructing &#8220;the Twitter revolution&#8221;' href='http:"
+         b'//mobblog.cs.ucl.ac.uk/2009/07/07/deconstructing-the-twitter-revolut'
+         b'ion/\' />\n<meta name="generator" content="WordPress 3.8.1" />\n<li'
+         b"nk rel='canonical' href='http://mobblog.cs.ucl.ac.uk/2009/07/02/work"
+         b"shop-on-complex-networks-in-information-knowledge-management-cnikm/'"
+         b" />\n<link rel='shortlink' href='http://mobblog.cs.ucl.ac.uk/?p=8"
+         b'57\' />\n</head>\n<body class="single single-post postid-857 single'
+         b'-format-standard">\n<div id="page">\n\n\n<div id="header" role="bann'
+         b'er">\n\t<div id="headerimg">\n\t\t<h1><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/">MobBlog</a></h1>\n\t\t<div class="description">Research'
+         b':  Smart Cities &amp; Data Mining &amp; Social Media</div>\n\t</di'
+         b'v>\n</div>\n<hr />\n\n\t<div id="content" class="widecolumn" role'
+         b'="main">\n\n\t\n\t\t<div class="navigation">\n\t\t\t<div class="al'
+         b'ignleft"><a href="http://mobblog.cs.ucl.ac.uk/2009/07/02/enhancing-m'
+         b'obile-recommender-systems-with-activity-inference/" rel="prev">&laqu'
+         b'o; Enhancing Mobile Recommender Systems with Activity Inference</a><'
+         b'/div>\n\t\t\t<div class="alignright"><a href="http://mobblog.cs.ucl.'
+         b'ac.uk/2009/07/07/deconstructing-the-twitter-revolution/" rel="next">'
+         b'Deconstructing &#8220;the Twitter revolution&#8221; &raquo;</a></div'
+         b'>\n\t\t</div>\n\n\t\t<div class="post-857 post type-post status-pub'
+         b'lish format-standard hentry category-conference category-event" id="'
+         b'post-857">\n\t\t\t<h2>Workshop on  Complex Networks in Information &'
+         b'#038; Knowledge Management (CNIKM)</h2>\n\n\t\t\t<div class="entr'
+         b'y">\n\t\t\t\t<p><a href="http://www.dcs.bbk.ac.uk/%7Edell/">Dell '
+         b'Zhang</a> of Birkbeck\xc2\xa0 sent us a CFP for this <a href="http'
+         b'://www.dcs.bbk.ac.uk/~dell/cnikm09/">workshop</a> in conjunction wit'
+         b'h ACM CIKM-2009, Hong Kong, November 6, 2009.\xc2\xa0 Paper submis'
+         b'sion: <strong>July 20th</strong>!</p>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t'
+         b'<p class="postmetadata alt">\n\t\t\t\t\t<small>\n\t\t\t\t\t\t'
+         b'\t\t\t\t\t\tThis entry was posted on Thursday, July 2nd, 2009 at 7'
+         b':12 pm and is filed under <a href="http://mobblog.cs.ucl.ac.uk/categ'
+         b'ory/conference/" title="View all posts in conference" rel="category '
+         b'tag">conference</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/e'
+         b'vent/" title="View all posts in event" rel="category tag">event</a>.'
+         b'\t\t\t\t\t\tYou can follow any responses to this entry through the'
+         b" <a href='http://mobblog.cs.ucl.ac.uk/2009/07/02/workshop-on-complex"
+         b"-networks-in-information-knowledge-management-cnikm/feed/'>RSS 2.0</"
+         b'a> feed. \n\n\t\t\t\t\t\t\t\t\t\t\t\t\tBoth comments and pings are '
+         b'currently closed.\n\t\t\t\t\t\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>\n'
+         b'\n\t\t\t</div>\n\t\t</div>\n\n\t\n<!-- You can start editing here. '
+         b'-->\n\n\n\t\t\t<!-- If comments are closed. -->\n\t\t<p class="no'
+         b'comments">Comments are closed.</p>\n\n\t\n\n\n\t\n\t</div>\n\n\n<hr '
+         b'/>\n<div id="footer" role="contentinfo">\n<!-- If you\'d like to su'
+         b'pport WordPress, having the "powered by" link somewhere on your blog'
+         b" is the best way; it's our only promotion or advertising. -->\n\t<"
+         b'p>\n\t\tMobBlog is proudly powered by <a href="http://wordpress.org'
+         b'/">WordPress</a>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/fee'
+         b'd/">Entries (RSS)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comme'
+         b'nts/feed/">Comments (RSS)</a>.\t\t<!-- 19 queries. 0.210 seconds. '
+         b'-->\n\t</p>\n</div>\n</div>\n\n<!-- Gorgeous design by Michael Hei'
+         b'lemann - http://binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</h'
+         b'tml>\n',
+ 'links': [2740, 3079, 2979, 2849, 2862, 3080, 2917, 2918],
+ 'pid': 3031,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2009/07/02/workshop-on-complex-networks-in-information-knowledge-management-cnikm/'}

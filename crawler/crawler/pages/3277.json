@@ -1,0 +1,78 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Privacy in ubiquitous and '
+         b'home computing &laquo;  MobBlog</title>\n\n<link rel="stylesheet" '
+         b'href="http://mobblog.cs.ucl.ac.uk/wp-content/themes/default/style.cs'
+         b's" type="text/css" media="screen" />\n<link rel="pingback" href="'
+         b'http://mobblog.cs.ucl.ac.uk/xmlrpc.php" />\n\n<style type="text/cs'
+         b's" media="screen">\n\n\t#page { background: url("http://mobblog.cs.'
+         b'ucl.ac.uk/wp-content/themes/default/images/kubrickbgwide.jpg") repea'
+         b't-y top; border: none; }\n\n</style>\n\n \n\n<link rel="alternate"'
+         b' type="application/rss+xml" title="MobBlog &raquo; Feed" href="http:'
+         b'//mobblog.cs.ucl.ac.uk/feed/" />\n<link rel="alternate" type="app'
+         b'lication/rss+xml" title="MobBlog &raquo; Comments Feed" href="http:/'
+         b'/mobblog.cs.ucl.ac.uk/comments/feed/" />\n<script type=\'text/java'
+         b"script' src='http://mobblog.cs.ucl.ac.uk/wp-includes/js/comment-repl"
+         b'y.min.js?ver=3.8.1\'></script>\n<link rel="EditURI" type="applicat'
+         b'ion/rsd+xml" title="RSD" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.ph'
+         b'p?rsd" />\n<link rel="wlwmanifest" type="application/wlwmanifest+'
+         b'xml" href="http://mobblog.cs.ucl.ac.uk/wp-includes/wlwmanifest.xml" '
+         b"/> \n<link rel='prev' title='Social Tapestries: Mobile spatial an"
+         b"notation' href='http://mobblog.cs.ucl.ac.uk/2007/07/27/social-tapest"
+         b"ries-mobile-spatial-annotation/' />\n<link rel='next' title='Inte"
+         b"r-Context Trust Bootstrapping for Mobile Content Sharing' href='http"
+         b'://mobblog.cs.ucl.ac.uk/2007/07/30/inter-context-trust-bootstrapping'
+         b'-for-mobile-content-sharing/\' />\n<meta name="generator" content='
+         b'"WordPress 3.8.1" />\n<link rel=\'canonical\' href=\'http://mobblog.'
+         b"cs.ucl.ac.uk/2007/07/30/privacy-in-ubiquitous-and-home-computing/' /"
+         b">\n<link rel='shortlink' href='http://mobblog.cs.ucl.ac.uk/?p=65'"
+         b' />\n</head>\n<body class="single single-post postid-65 single-for'
+         b'mat-standard">\n<div id="page">\n\n\n<div id="header" role="banner">'
+         b'\n\t<div id="headerimg">\n\t\t<h1><a href="http://mobblog.cs.ucl.'
+         b'ac.uk/">MobBlog</a></h1>\n\t\t<div class="description">Research:  S'
+         b'mart Cities &amp; Data Mining &amp; Social Media</div>\n\t</div>\n<'
+         b'/div>\n<hr />\n\n\t<div id="content" class="widecolumn" role="main">'
+         b'\n\n\t\n\t\t<div class="navigation">\n\t\t\t<div class="alignleft"'
+         b'><a href="http://mobblog.cs.ucl.ac.uk/2007/07/27/social-tapestries-m'
+         b'obile-spatial-annotation/" rel="prev">&laquo; Social Tapestries: Mob'
+         b'ile spatial annotation</a></div>\n\t\t\t<div class="alignright"><a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/2007/07/30/inter-context-trust-boot'
+         b'strapping-for-mobile-content-sharing/" rel="next">Inter-Context Trus'
+         b't Bootstrapping for Mobile Content Sharing &raquo;</a></div>\n\t\t<'
+         b'/div>\n\n\t\t<div class="post-65 post type-post status-publish forma'
+         b't-standard hentry category-privacy category-talk" id="post-65">\n'
+         b'\t\t\t<h2>Privacy in ubiquitous and home computing</h2>\n\n\t\t\t<di'
+         b'v class="entry">\n\t\t\t\t<p>A talk by <a href="http://www.ljean.'
+         b'com/">Jean Camp</a> at BT Adastral Park on the 1st of December.<'
+         b'/p>\n<p>The talk discusses privacy in ubicomp as a design, social'
+         b', technical, and policy issue; outlines the research program at IU t'
+         b'hat is designed to meet the technical and social challenges of using'
+         b' sensor networks as a monitoring technology.</p>\n\n\t\t\t\t\t\t'
+         b'\t\t\n\t\t\t\t<p class="postmetadata alt">\n\t\t\t\t\t<small>'
+         b'\n\t\t\t\t\t\t\t\t\t\t\t\tThis entry was posted on Monday, July 3'
+         b'0th, 2007 at 12:51 pm and is filed under <a href="http://mobblog.cs.'
+         b'ucl.ac.uk/category/privacy/" title="View all posts in privacy" rel="'
+         b'category tag">privacy</a>, <a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/talk/" title="View all posts in talk" rel="category tag">talk</'
+         b'a>.\t\t\t\t\t\tYou can follow any responses to this entry through '
+         b"the <a href='http://mobblog.cs.ucl.ac.uk/2007/07/30/privacy-in-ubiqu"
+         b"itous-and-home-computing/feed/'>RSS 2.0</a> feed. \n\n\t\t\t\t"
+         b'\t\t\t\t\t\t\t\t\tBoth comments and pings are currently closed.\n\t'
+         b'\t\t\t\t\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>\n\n\t\t\t</div>\n\t\t</'
+         b'div>\n\n\t\n<!-- You can start editing here. -->\n\n\n\t\t\t<!-- I'
+         b'f comments are closed. -->\n\t\t<p class="nocomments">Comments are '
+         b'closed.</p>\n\n\t\n\n\n\t\n\t</div>\n\n\n<hr />\n<div id="footer"'
+         b' role="contentinfo">\n<!-- If you\'d like to support WordPress, ha'
+         b'ving the "powered by" link somewhere on your blog is the best way; i'
+         b"t's our only promotion or advertising. -->\n\t<p>\n\t\tMobBlog is"
+         b' proudly powered by <a href="http://wordpress.org/">WordPress</a'
+         b'>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entries (RS'
+         b'S)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comments/feed/">Comm'
+         b'ents (RSS)</a>.\t\t<!-- 19 queries. 0.193 seconds. -->\n\t</p>\n<'
+         b'/div>\n</div>\n\n<!-- Gorgeous design by Michael Heilemann - http:/'
+         b'/binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
+ 'links': [2740, 3315, 3260, 2889, 2907, 3316, 2917, 2918],
+ 'pid': 3277,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2007/07/30/privacy-in-ubiquitous-and-home-computing/'}

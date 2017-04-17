@@ -1,0 +1,21 @@
+{'html': b'\n<!-- saved from url=(0191)http://portal.acm.org/popBibTex.cfm?i'
+         b'd=1186456&ids=SERIES382.1186415.1186449.1186456&types=series.proceed'
+         b'ing.section.article&reqtype=article&coll=GUIDE&dl=GUIDE&CFID=9067427'
+         b'0&CFTOKEN=78442541 -->\n<HTML><HEAD><META http-equiv="Content-Typ'
+         b'e" content="text/html; charset=UTF-8"><STYLE>\n.note-header-text '
+         b'{font-family: Times, Times New Roman, serif;\n\t\tcolor:#ff0000; fo'
+         b'nt-size: .95em;\n\t\tmargin-left: .75em; margin-right: .75em;}\n</ST'
+         b'YLE> \n\n\n\n\n\n\n<TITLE>BibTex Format</TITLE>\n\n<SCRIPT langua'
+         b'ge="JavaScript">\n<!-- begin\nfunction sizeit(h){\n window.resizeTo'
+         b'(800,h);\n}\n// end -->\n</SCRIPT>\n\n</HEAD><BODY onload="sizeit'
+         b'(360); focus();">\n\n<PRE id="1186456">@inproceedings{1186456,\n au'
+         b'thor = {Khanna, Pankaj and Mortensen, Jesper and Yu, Insu and Slater'
+         b', Mel},\n title = {Fast ray tracing of scenes with unstructured m'
+         b"otion},\n booktitle = {SIGGRAPH '04: ACM SIGGRAPH 2004 Posters},\n"
+         b' year = {2004},\n isbn = {1-58113-896-2},\n pages = {35},\n locatio'
+         b'n = {Los Angeles, California},\n doi = {http://doi.acm.org/10.114'
+         b'5/1186415.1186456},\n publisher = {ACM},\n address = {New York, NY'
+         b', USA},\n }\n</PRE>\n\n\n\n</BODY></HTML>',
+ 'links': [],
+ 'pid': 3362,
+ 'url': 'http://web4.cs.ucl.ac.uk/staff/i.yu/pub/Yu_SIGGRAPH_04_Bib.htm'}

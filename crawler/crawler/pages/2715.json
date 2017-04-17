@@ -1,0 +1,13 @@
+{'html': b'@inproceedings{Pece:2011:ASV,\n author = {Pece, Fabrizio and Kaut'
+         b'z, Jan and Weyrich, Tim},\n title = {Adapting standard video code'
+         b'cs for depth streaming},\n booktitle = {Proceedings of the 17th E'
+         b'urographics conference on Virtual Environments \\&\\#38; Third Joi'
+         b"nt Virtual Reality},\n series = {EGVE - JVRC'11},\n year = {2011},"
+         b'\n isbn = {978-3-905674-33-0},\n location = {Nottingham, UK},\n pag'
+         b'es = {59--66},\n numpages = {8},\n url = {http://dx.doi.org/10.231'
+         b'2/EGVE/JVRC11/059-066},\n doi = {10.2312/EGVE/JVRC11/059-066},\n a'
+         b'cmid = {2386094},\n publisher = {Eurographics Association},\n addr'
+         b'ess = {Aire-la-Ville, Switzerland, Switzerland},\n}\n',
+ 'links': [],
+ 'pid': 2715,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/F.Pece/publications/bibtex/depthStreaming_jvrc2011.bib'}

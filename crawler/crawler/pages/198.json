@@ -1,3 +1,0 @@
-{'html': '@inproceedings{Bradbury13MultiSpectral,\n    author         = {Gwyneth Bradbury and Kenny Mitchell and Tim Weyrich},\n    title          = {Multi-Spectral Material Classification in Landscape Scenes Using Commodity Hardware},\n    booktitle      = {Intl. Conference on Computational Photography (ICCP) Posters},\n    location       = {Cambridge, MA, USA},\n    month          = apr,\n    year           = {2013},\n}\n',
- 'pid': 198,
- 'url': 'http://reality.cs.ucl.ac.uk/projects/landscapes/msclassify.bib'}

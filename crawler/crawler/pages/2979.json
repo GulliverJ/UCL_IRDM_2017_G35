@@ -1,0 +1,159 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Deconstructing &#8220;the '
+         b'Twitter revolution&#8221; &laquo;  MobBlog</title>\n\n<link rel="s'
+         b'tylesheet" href="http://mobblog.cs.ucl.ac.uk/wp-content/themes/defau'
+         b'lt/style.css" type="text/css" media="screen" />\n<link rel="pingb'
+         b'ack" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.php" />\n\n<style ty'
+         b'pe="text/css" media="screen">\n\n\t#page { background: url("http://'
+         b'mobblog.cs.ucl.ac.uk/wp-content/themes/default/images/kubrickbgwide.'
+         b'jpg") repeat-y top; border: none; }\n\n</style>\n\n \n\n<link rel='
+         b'"alternate" type="application/rss+xml" title="MobBlog &raquo; Feed" '
+         b'href="http://mobblog.cs.ucl.ac.uk/feed/" />\n<link rel="alternate'
+         b'" type="application/rss+xml" title="MobBlog &raquo; Comments Feed" h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/comments/feed/" />\n<link rel="a'
+         b'lternate" type="application/rss+xml" title="MobBlog &raquo; Deconstr'
+         b'ucting &#8220;the Twitter revolution&#8221; Comments Feed" href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/2009/07/07/deconstructing-the-twitter-revol'
+         b'ution/feed/" />\n<script type=\'text/javascript\' src=\'http://mobbl'
+         b"og.cs.ucl.ac.uk/wp-includes/js/comment-reply.min.js?ver=3.8.1'></scr"
+         b'ipt>\n<link rel="EditURI" type="application/rsd+xml" title="RSD" '
+         b'href="http://mobblog.cs.ucl.ac.uk/xmlrpc.php?rsd" />\n<link rel="'
+         b'wlwmanifest" type="application/wlwmanifest+xml" href="http://mobblog'
+         b'.cs.ucl.ac.uk/wp-includes/wlwmanifest.xml" /> \n<link rel=\'prev\' '
+         b"title='Workshop on  Complex Networks in Information &amp; Knowledge "
+         b"Management (CNIKM)' href='http://mobblog.cs.ucl.ac.uk/2009/07/02/wor"
+         b'kshop-on-complex-networks-in-information-knowledge-management-cnikm/'
+         b"' />\n<link rel='next' title='crowdsourcing goes mobile &#8211; t"
+         b"he extraordinaries' href='http://mobblog.cs.ucl.ac.uk/2009/07/08/cro"
+         b'wdsourcing-goes-mobile-the-extraordinaries/\' />\n<meta name="gene'
+         b'rator" content="WordPress 3.8.1" />\n<link rel=\'canonical\' href=\''
+         b'http://mobblog.cs.ucl.ac.uk/2009/07/07/deconstructing-the-twitter-re'
+         b"volution/' />\n<link rel='shortlink' href='http://mobblog.cs.ucl."
+         b'ac.uk/?p=859\' />\n</head>\n<body class="single single-post postid-'
+         b'859 single-format-standard">\n<div id="page">\n\n\n<div id="header" '
+         b'role="banner">\n\t<div id="headerimg">\n\t\t<h1><a href="http://m'
+         b'obblog.cs.ucl.ac.uk/">MobBlog</a></h1>\n\t\t<div class="description'
+         b'">Research:  Smart Cities &amp; Data Mining &amp; Social Media</div>'
+         b'\n\t</div>\n</div>\n<hr />\n\n\t<div id="content" class="widecolumn'
+         b'" role="main">\n\n\t\n\t\t<div class="navigation">\n\t\t\t<div cla'
+         b'ss="alignleft"><a href="http://mobblog.cs.ucl.ac.uk/2009/07/02/works'
+         b'hop-on-complex-networks-in-information-knowledge-management-cnikm/" '
+         b'rel="prev">&laquo; Workshop on  Complex Networks in Information &#03'
+         b'8; Knowledge Management (CNIKM)</a></div>\n\t\t\t<div class="alignri'
+         b'ght"><a href="http://mobblog.cs.ucl.ac.uk/2009/07/08/crowdsourcing-g'
+         b'oes-mobile-the-extraordinaries/" rel="next">crowdsourcing goes mobil'
+         b'e &#8211; the extraordinaries &raquo;</a></div>\n\t\t</div>\n\n\t\t'
+         b'<div class="post-859 post type-post status-publish format-standard h'
+         b'entry category-crowdsourcing category-emergency category-info-overlo'
+         b'ad category-social category-twitter" id="post-859">\n\t\t\t<h2>Decon'
+         b'structing &#8220;the Twitter revolution&#8221;</h2>\n\n\t\t\t<div'
+         b' class="entry">\n\t\t\t\t<p>Hamid Tehrani of Global Voices gives '
+         b'a <a href="http://globalvoicesonline.org/2009/07/04/iran-myth-and-re'
+         b'ality-about-twitter/">sober assessment of the role of Twitter in the'
+         b' Iranian election protests</a>. One of the issues he raises is the t'
+         b'emptation to relay breaking news without verifying it. The open sour'
+         b"ce <a href='http://www.ushahidi.com/'>Ushahidi project</a>, which wa"
+         b's initially developed to aggregate and map reports of violence follo'
+         b"wing the Kenyan elections in 2007/8, has proposed <a href='http://bl"
+         b'og.ushahidi.com/index.php/2009/02/04/crisis-info-crowdsourcing-the-f'
+         b"ilter/'>crowdsourced filtering</a> to deal with this problem. Howeve"
+         b'r, the question remains, how can the people aggregating and filterin'
+         b'g first-hand reports determine what&#8217;s true? Does citizen journ'
+         b'alism still require a layer of professional editors, experts and <a '
+         b"href='http://mobblog.cs.ucl.ac.uk/2008/04/10/the-culture-of-the-amat"
+         b"eur/'>fact-checkers</a>, or can all these functions be shared among "
+         b'the crowd?</p>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t<p class="postmetadata '
+         b'alt">\n\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\tThis entry was po'
+         b'sted on Tuesday, July 7th, 2009 at 2:36 pm and is filed under <a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/crowdsourcing/" title="View '
+         b'all posts in crowdsourcing" rel="category tag">crowdsourcing</a>, <a'
+         b' href="http://mobblog.cs.ucl.ac.uk/category/emergency/" title="View '
+         b'all posts in emergency" rel="category tag">emergency</a>, <a href="h'
+         b'ttp://mobblog.cs.ucl.ac.uk/category/info-overload/" title="View all '
+         b'posts in info-overload" rel="category tag">info-overload</a>, <a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/social/" title="View all pos'
+         b'ts in social" rel="category tag">social</a>, <a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/twitter/" title="View all posts in twitter" r'
+         b'el="category tag">twitter</a>.\t\t\t\t\t\tYou can follow any respo'
+         b"nses to this entry through the <a href='http://mobblog.cs.ucl.ac.uk/"
+         b"2009/07/07/deconstructing-the-twitter-revolution/feed/'>RSS 2.0</a> "
+         b'feed. \n\n\t\t\t\t\t\t\t\t\t\t\t\t\tBoth comments and pings are cur'
+         b'rently closed.\n\t\t\t\t\t\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>'
+         b'\n\n\t\t\t</div>\n\t\t</div>\n\n\t\n<!-- You can start editing here.'
+         b' -->\n\n\t<h3 id="comments">2 Responses to &#8220;Deconstructing &#'
+         b'8220;the Twitter revolution&#8221;&#8221;</h3>\n\n\t<div class="nav'
+         b'igation">\n\t\t<div class="alignleft"></div>\n\t\t<div class="alig'
+         b'nright"></div>\n\t</div>\n\n\t<ol class="commentlist">\n\t\t\t<li'
+         b' class="comment byuser comment-author-neal even thread-even depth-1"'
+         b' id="comment-17961">\n\t\t\t\t<div id="div-comment-17961" class="'
+         b'comment-body">\n\t\t\t\t<div class="comment-author vcard">\n\t\t'
+         b"\t<img alt='' src='http://1.gravatar.com/avatar/d8692b58c684ead06"
+         b'bbf6ef255161ab2?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad'
+         b"516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avata"
+         b'r-32 photo\' height=\'32\' width=\'32\' />\t\t\t<cite class="fn"><a '
+         b"href='http://www.cs.ucl.ac.uk/staff/n.lathia' rel='external nofollow"
+         b'\' class=\'url\'>Neal Lathia</a></cite> <span class="says">says:</s'
+         b'pan>\t\t</div>\n\t\t\n\t\t<div class="comment-meta commentmetadata">'
+         b'<a href="http://mobblog.cs.ucl.ac.uk/2009/07/07/deconstructing-the-t'
+         b'witter-revolution/#comment-17961">\n\t\t\tJuly 7, 2009 at 3:46 pm</a'
+         b'>\t\t</div>\n\n\t\t<p>I wonder- how do the real experts and fact c'
+         b'heckers go about their job? There have certainly been cases of them '
+         b'getting things wrong/relying on what other news sites are reporting,'
+         b' and the question seems to be whether the crowds can be just as good'
+         b'. In the case of people proactively spreading misinformation, I&#821'
+         b'7;m not sure..</p>\n<p>However, one advantage that the crowd have'
+         b' is that they are not just relaying news, but also digital content t'
+         b'hat relates to that news (e.g. videos), which is proof in and of its'
+         b'elf.. </p>\n<p>On a side note &#8211; whether or not twitter dese'
+         b'rves the nobel peace prize, though, is something else&#8230;(techcru'
+         b'nch story here: <a href="http://tinyurl.com/naywfg" rel="nofollow">h'
+         b'ttp://tinyurl.com/naywfg</a> )</p>\n\n\t\t<div class="reply">\n\t\t'
+         b'\t\t\t</div>\n\t\t\t\t</div>\n\t\t</li><!-- #comment-## -->\n\t\t<'
+         b'li class="comment byuser comment-author-dquercia odd alt thread-odd '
+         b'thread-alt depth-1" id="comment-18024">\n\t\t\t\t<div id="div-com'
+         b'ment-18024" class="comment-body">\n\t\t\t\t<div class="comment-au'
+         b'thor vcard">\n\t\t\t<img alt=\'\' src=\'http://0.gravatar.com/avata'
+         b'r/236123076d9bcfb6c8fd55f0874f8d3a?s=32&amp;d=http%3A%2F%2F0.gravata'
+         b"r.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' "
+         b"class='avatar avatar-32 photo' height='32' width='32' />\t\t\t<cite"
+         b' class="fn"><a href=\'http://www.cs.ucl.ac.uk/staff/d.quercia/\' r'
+         b"el='external nofollow' class='url'>Daniele Quercia</a></cite> <span "
+         b'class="says">says:</span>\t\t</div>\n\t\t\n\t\t<div class="comment-m'
+         b'eta commentmetadata"><a href="http://mobblog.cs.ucl.ac.uk/2009/07/07'
+         b'/deconstructing-the-twitter-revolution/#comment-18024">\n\t\t\tJuly '
+         b'8, 2009 at 3:06 pm</a>\t\t</div>\n\n\t\t<p>Harvard Berkam Center r'
+         b'ecently posted map+paper of iran&#8217;s blogosphere<br />\n<a hr'
+         b'ef="http://tiny.cc/vys5u" rel="nofollow">http://tiny.cc/vys5u</a></p'
+         b'>\n\n\t\t<div class="reply">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n'
+         b'\t\t</li><!-- #comment-## -->\n\t</ol>\n\n\t<div class="navigation"'
+         b'>\n\t\t<div class="alignleft"></div>\n\t\t<div class="alignright">'
+         b'</div>\n\t</div>\n \n\n\n\t\n\t</div>\n\n\n<hr />\n<div id="foote'
+         b'r" role="contentinfo">\n<!-- If you\'d like to support WordPress, '
+         b'having the "powered by" link somewhere on your blog is the best way;'
+         b" it's our only promotion or advertising. -->\n\t<p>\n\t\tMobBlog "
+         b'is proudly powered by <a href="http://wordpress.org/">WordPress<'
+         b'/a>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entries ('
+         b'RSS)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comments/feed/">Co'
+         b'mments (RSS)</a>.\t\t<!-- 23 queries. 0.151 seconds. -->\n\t</p>'
+         b'\n</div>\n</div>\n\n<!-- Gorgeous design by Michael Heilemann - http'
+         b'://binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
+ 'links': [2740,
+           3031,
+           3032,
+           2980,
+           2854,
+           2860,
+           2873,
+           2900,
+           2911,
+           3033,
+           2736,
+           2979,
+           3023,
+           2917,
+           2918],
+ 'pid': 2979,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2009/07/07/deconstructing-the-twitter-revolution/'}

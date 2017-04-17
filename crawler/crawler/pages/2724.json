@@ -1,0 +1,15 @@
+{'html': b'<html>\n<head>\n<title>Intelligent Motion and Interaction Within V'
+         b'irtual Environments</title>\n<link rel=stylesheet href="conf2003.'
+         b'css" type="text/css">\n</head>\n\n<frameset framespacing="0" border'
+         b'="false" frameborder="0" rows="80,*">\n  <frame name="title" scro'
+         b'lling="no" target="toc" src="title.html">\n  <frameset cols="125,'
+         b'*">\n    <frame name="toc" target="main" src="toc.html" scrolling'
+         b'="auto">\n    <frame name="main" src="home.html" scrolling="auto"'
+         b'>\n  </frameset>\n  <noframes>\n  <body>\n  <p>This page uses frames'
+         b", but your browser doesn't support them. If you're using lynx, you m"
+         b'ight want to try <a href="http://links.sourceforge.net">links</a>, w'
+         b'hich also runs in a console and supports frames quite nicely.</p'
+         b'>\n  </body>\n  </noframes>\n</frameset>\n</html>\n',
+ 'links': [],
+ 'pid': 2724,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/m.slater/Motion/'}

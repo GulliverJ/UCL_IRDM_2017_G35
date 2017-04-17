@@ -1,3 +1,0 @@
-{'html': '#VRML V2.0 utf8\n\n\nDirectionalLight {\n   direction -1 -1 -1\n   intensity 0.8\n}\n\n\nPROTO Ball [\n\t    field SFVec3f translation 0 0 0\n\t    ]\n{\n   Transform {\n      translation IS translation\n      children [\n\t DEF BALL Shape {\n\t    appearance Appearance {\n\t       material Material {\n\t\t  diffuseColor 0.1 0.7 0.2\n\t       }\n\t    }\n\t    geometry Sphere {\n\t    radius 2\n\t    }\n\t }\n\t]\n   }\n\n}\n\n\nBall  {\n   translation 4 0 4\n}\n\nBall  {\n   translation -4 0 4\n}\n\nBall  {\n   translation 4 0 -4\n}\n\nBall  {\n   translation  -4 0 -4\n}\n',
- 'pid': 376,
- 'url': 'http://www0.cs.ucl.ac.uk/staff/A.Steed/book_tmp/CGVE/code/vrml/dirlight.wrl'}

@@ -1,0 +1,24 @@
+{'html': b'<html>\n<head>\n<title>Vestergaard-Brotherston residual theory dev'
+         b'elopment</title>\n</head>\n\n<body bgcolor="#CCFFFF" vlink="purple"'
+         b' link="blue">\n\n<center>\n<h1>The Mechanisation of Barendregt-Styl'
+         b'e Equational Proofs</h1>\n<h2>(The Residual Perspective)</h2>\n\n<h'
+         b'3> Authors: Rene Vestergaard and James Brotherston </h3>\n\n</cent'
+         b'er>\n<br><br> <p> The Isabelle theories below comprise the Isabel'
+         b'le\n/ HOL implementation of the proof of the results in section 3'
+         b' of the <a\nhref="MERLIN01/vestergaard-brotherston-merlin01.pdf">'
+         b'\nthe article</a>.  All proofs are due to the authors.  Queries\no'
+         b'r comments are naturally welcome and may be directed either to <'
+         b'a\nhref="http://iml.univ-mrs.fr/~vester/">Rene Vestergaard</a> or'
+         b' <a\nhref="http://www.eecs.qmul.ac.uk/~jamesb/">James Brotherston'
+         b'</a>.\n</p>\n\n<p>\nView <a href="medium.html">theory dependencies</'
+         b'a>\n</p>\n\n<h2>Theories</h2>\n<ul>\n<li><a href="Variables.html"'
+         b'>Variables</a> - Definition and properties\nof the set of one-sor'
+         b'ted variable names - in particular, the\nguaranteed existence of '
+         b'fresh names\n<li><a href="MarkedLambda.html">MarkedLambda</a> - D'
+         b'efinition of\n(marked) terms and substitution in the raw calculus'
+         b', plus renaming and\nsubstitution lemmas\n<li><a href="ResidualBet'
+         b'a.html">ResidualBeta</a> - Proof of non-blocked\nBCF-initial beta'
+         b'-residual theory , plus auxiliary lemmas\n</ul>\n</body>\n</html>\n',
+ 'links': [1456, 1457, 1458, 1459],
+ 'pid': 1406,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/mech_Barendregt_VB/'}

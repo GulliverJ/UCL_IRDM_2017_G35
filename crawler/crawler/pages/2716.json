@@ -1,0 +1,14 @@
+{'html': b'@inproceedings{Pece:2010:BMD,\n author = {Pece, Fabrizio and Kaut'
+         b'z, Jan},\n title = {Bitmap Movement Detection: HDR for Dynamic Sc'
+         b'enes},\n booktitle = {Proceedings of the 2010 Conference on Visua'
+         b"l Media \nProduction},\n series = {CVMP '10},\n year = {2010},\n isb"
+         b'n = {978-0-7695-4268-3},\n pages = {1--8},\n numpages = {8},\n url '
+         b'= {http://dx.doi.org/10.1109/CVMP.2010.8},\n doi = {10.1109/CVMP.'
+         b'2010.8},\n acmid = {1932878},\n publisher = {IEEE Computer Society'
+         b'},\n address = {Washington, DC, USA},\n keywords = {Image processi'
+         b'ng, Image analysis, Image sequence analysis, \nImage motion analy'
+         b'sis, Image motion Detection, Image motion Correction, \nHDR, Expo'
+         b'sure Fusion, Time Varying Photography},\n}  \n',
+ 'links': [],
+ 'pid': 2716,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/F.Pece/publications/bibtex/bmd_cvmp2010.bib'}

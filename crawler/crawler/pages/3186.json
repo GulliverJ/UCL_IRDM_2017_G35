@@ -1,0 +1,131 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Netflix Prize dataset de-a'
+         b'nonymised &laquo;  MobBlog</title>\n\n<link rel="stylesheet" href='
+         b'"http://mobblog.cs.ucl.ac.uk/wp-content/themes/default/style.css" ty'
+         b'pe="text/css" media="screen" />\n<link rel="pingback" href="http:'
+         b'//mobblog.cs.ucl.ac.uk/xmlrpc.php" />\n\n<style type="text/css" me'
+         b'dia="screen">\n\n\t#page { background: url("http://mobblog.cs.ucl.a'
+         b'c.uk/wp-content/themes/default/images/kubrickbgwide.jpg") repeat-y t'
+         b'op; border: none; }\n\n</style>\n\n \n\n<link rel="alternate" type'
+         b'="application/rss+xml" title="MobBlog &raquo; Feed" href="http://mob'
+         b'blog.cs.ucl.ac.uk/feed/" />\n<link rel="alternate" type="applicat'
+         b'ion/rss+xml" title="MobBlog &raquo; Comments Feed" href="http://mobb'
+         b'log.cs.ucl.ac.uk/comments/feed/" />\n<link rel="alternate" type="'
+         b'application/rss+xml" title="MobBlog &raquo; Netflix Prize dataset de'
+         b'-anonymised Comments Feed" href="http://mobblog.cs.ucl.ac.uk/2007/12'
+         b'/19/netflix-prize-dataset-de-anonymised/feed/" />\n<script type=\''
+         b"text/javascript' src='http://mobblog.cs.ucl.ac.uk/wp-includes/js/com"
+         b'ment-reply.min.js?ver=3.8.1\'></script>\n<link rel="EditURI" type='
+         b'"application/rsd+xml" title="RSD" href="http://mobblog.cs.ucl.ac.uk/'
+         b'xmlrpc.php?rsd" />\n<link rel="wlwmanifest" type="application/wlw'
+         b'manifest+xml" href="http://mobblog.cs.ucl.ac.uk/wp-includes/wlwmanif'
+         b'est.xml" /> \n<link rel=\'prev\' title=\'Workshop on Online Social N'
+         b"etworks' href='http://mobblog.cs.ucl.ac.uk/2007/12/18/workshop-on-on"
+         b"line-social-networks/' />\n<link rel='next' title='Call for PhD t"
+         b"hesis on Trust Management' href='http://mobblog.cs.ucl.ac.uk/2007/12"
+         b'/21/call-for-phd-thesis-on-trust-management/\' />\n<meta name="gen'
+         b'erator" content="WordPress 3.8.1" />\n<link rel=\'canonical\' href='
+         b"'http://mobblog.cs.ucl.ac.uk/2007/12/19/netflix-prize-dataset-de-ano"
+         b"nymised/' />\n<link rel='shortlink' href='http://mobblog.cs.ucl.a"
+         b'c.uk/?p=120\' />\n</head>\n<body class="single single-post postid-1'
+         b'20 single-format-standard">\n<div id="page">\n\n\n<div id="header" r'
+         b'ole="banner">\n\t<div id="headerimg">\n\t\t<h1><a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/">MobBlog</a></h1>\n\t\t<div class="description"'
+         b'>Research:  Smart Cities &amp; Data Mining &amp; Social Media</d'
+         b'iv>\n\t</div>\n</div>\n<hr />\n\n\t<div id="content" class="widecol'
+         b'umn" role="main">\n\n\t\n\t\t<div class="navigation">\n\t\t\t<div '
+         b'class="alignleft"><a href="http://mobblog.cs.ucl.ac.uk/2007/12/18/wo'
+         b'rkshop-on-online-social-networks/" rel="prev">&laquo; Workshop on On'
+         b'line Social Networks</a></div>\n\t\t\t<div class="alignright"><a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/2007/12/21/call-for-phd-thesis-on-tru'
+         b'st-management/" rel="next">Call for PhD thesis on Trust Management &'
+         b'raquo;</a></div>\n\t\t</div>\n\n\t\t<div class="post-120 post type-'
+         b'post status-publish format-standard hentry category-dataset category'
+         b'-identity category-privacy category-recommendations category-securit'
+         b'y" id="post-120">\n\t\t\t<h2>Netflix Prize dataset de-anonymised</h2'
+         b'>\n\n\t\t\t<div class="entry">\n\t\t\t\t<p>Two researchers at the '
+         b"University of Texas have <a href='http://arxivblog.com/?p=142'>de-an"
+         b'onymised</a> (re-nymised? nymified?) the Netflix Prize dataset.<'
+         b'/p>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t<p class="postmetadata alt">\n\t'
+         b'\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\tThis entry was posted on'
+         b' Wednesday, December 19th, 2007 at 1:33 pm and is filed under <a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/dataset/" title="View all po'
+         b'sts in dataset" rel="category tag">dataset</a>, <a href="http://mobb'
+         b'log.cs.ucl.ac.uk/category/identity/" title="View all posts in identi'
+         b'ty" rel="category tag">identity</a>, <a href="http://mobblog.cs.ucl.'
+         b'ac.uk/category/privacy/" title="View all posts in privacy" rel="cate'
+         b'gory tag">privacy</a>, <a href="http://mobblog.cs.ucl.ac.uk/category'
+         b'/recommendations/" title="View all posts in recommendations" rel="ca'
+         b'tegory tag">recommendations</a>, <a href="http://mobblog.cs.ucl.ac.u'
+         b'k/category/security/" title="View all posts in security" rel="catego'
+         b'ry tag">security</a>.\t\t\t\t\t\tYou can follow any responses to t'
+         b"his entry through the <a href='http://mobblog.cs.ucl.ac.uk/2007/12/1"
+         b"9/netflix-prize-dataset-de-anonymised/feed/'>RSS 2.0</a> feed. \n"
+         b'\n\t\t\t\t\t\t\t\t\t\t\t\t\tBoth comments and pings are currently '
+         b'closed.\n\t\t\t\t\t\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>\n\n\t\t\t</'
+         b'div>\n\t\t</div>\n\n\t\n<!-- You can start editing here. -->\n\n\t'
+         b'<h3 id="comments">2 Responses to &#8220;Netflix Prize dataset de-ano'
+         b'nymised&#8221;</h3>\n\n\t<div class="navigation">\n\t\t<div class='
+         b'"alignleft"></div>\n\t\t<div class="alignright"></div>\n\t</div>\n'
+         b'\n\t<ol class="commentlist">\n\t\t\t<li class="comment even thread'
+         b'-even depth-1" id="comment-1536">\n\t\t\t\t<div id="div-comment-1'
+         b'536" class="comment-body">\n\t\t\t\t<div class="comment-author vc'
+         b'ard">\n\t\t\t<img alt=\'\' src=\'http://1.gravatar.com/avatar/383f5'
+         b'e7556d64184a2ded9dd36b536e3?s=32&amp;d=http%3A%2F%2F1.gravatar.com%2'
+         b"Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='"
+         b"avatar avatar-32 photo' height='32' width='32' />\t\t\t<cite class="
+         b'"fn">Tom</cite> <span class="says">says:</span>\t\t</div>\n\t\t\n\t'
+         b'\t<div class="comment-meta commentmetadata"><a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/2007/12/19/netflix-prize-dataset-de-anonymised/#comm'
+         b'ent-1536">\n\t\t\tDecember 21, 2007 at 12:07 pm</a>\t\t</div>\n'
+         b'\n\t\t<p>FYI New Scientist covered this in more depth last year:</p'
+         b'>\n<p><a href="http://technology.newscientist.com/article/mg19225'
+         b'776.800-has-netflix-given-away-the-answers-in-its-software-competiti'
+         b'on.html" rel="nofollow">http://technology.newscientist.com/article/m'
+         b'g19225776.800-has-netflix-given-away-the-answers-in-its-software-com'
+         b'petition.html</a></p>\n\n\t\t<div class="reply">\n\t\t\t\t\t</div>'
+         b'\n\t\t\t\t</div>\n\t\t</li><!-- #comment-## -->\n\t\t<li class="com'
+         b'ment byuser comment-author-dquercia odd alt thread-odd thread-alt de'
+         b'pth-1" id="comment-1537">\n\t\t\t\t<div id="div-comment-1537" cla'
+         b'ss="comment-body">\n\t\t\t\t<div class="comment-author vcard">\n\t\t'
+         b"\t<img alt='' src='http://0.gravatar.com/avatar/236123076d9bcfb6c"
+         b'8fd55f0874f8d3a?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad'
+         b"516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avata"
+         b'r-32 photo\' height=\'32\' width=\'32\' />\t\t\t<cite class="fn"><a '
+         b"href='http://www.cs.ucl.ac.uk/staff/d.quercia/' rel='external nofoll"
+         b'ow\' class=\'url\'>Daniele Quercia</a></cite> <span class="says">sa'
+         b'ys:</span>\t\t</div>\n\t\t\n\t\t<div class="comment-meta commentmeta'
+         b'data"><a href="http://mobblog.cs.ucl.ac.uk/2007/12/19/netflix-prize-'
+         b'dataset-de-anonymised/#comment-1537">\n\t\t\tDecember 21, 2007 at 12'
+         b':10 pm</a>\t\t</div>\n\n\t\t<p>Thanks, Tom!</p>\n\n\t\t<div class='
+         b'"reply">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</li><!-- #comment'
+         b'-## -->\n\t</ol>\n\n\t<div class="navigation">\n\t\t<div class="alig'
+         b'nleft"></div>\n\t\t<div class="alignright"></div>\n\t</div>\n '
+         b'\n\n\n\t\n\t</div>\n\n\n<hr />\n<div id="footer" role="contentinfo'
+         b'">\n<!-- If you\'d like to support WordPress, having the "powered '
+         b'by" link somewhere on your blog is the best way; it\'s our only p'
+         b'romotion or advertising. -->\n\t<p>\n\t\tMobBlog is proudly power'
+         b'ed by <a href="http://wordpress.org/">WordPress</a>\t\t<br /><a hr'
+         b'ef="http://mobblog.cs.ucl.ac.uk/feed/">Entries (RSS)</a> and <a href'
+         b'="http://mobblog.cs.ucl.ac.uk/comments/feed/">Comments (RSS)</a>'
+         b'.\t\t<!-- 21 queries. 0.711 seconds. -->\n\t</p>\n</div>\n</div>\n\n'
+         b'<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/'
+         b'kubrick/ -->\n\n\t\t</body>\n</html>\n',
+ 'links': [2740,
+           3223,
+           3136,
+           2766,
+           2871,
+           2889,
+           2892,
+           2897,
+           3224,
+           3186,
+           3023,
+           2917,
+           2918],
+ 'pid': 3186,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2007/12/19/netflix-prize-dataset-de-anonymised/'}

@@ -1,0 +1,13 @@
+{'html': b'@inproceedings{Tompkin:2011:TMI,\n author = {Tompkin, James and P'
+         b'ece, Fabrizio and Subr, Kartic and Kautz, Jan},\n title = {Toward'
+         b's Moment Imagery: Automatic Cinemagraphs},\n booktitle = {Proceed'
+         b'ings of the 2011 Conference for Visual Media Production},\n serie'
+         b"s = {CVMP '11},\n year = {2011},\n isbn = {978-0-7695-4621-6},\n pa"
+         b'ges = {87--93},\n numpages = {7},\n url = {http://dx.doi.org/10.11'
+         b'09/CVMP.2011.16},\n doi = {10.1109/CVMP.2011.16},\n acmid = {20836'
+         b'22},\n publisher = {IEEE Computer Society},\n address = {Washingto'
+         b'n, DC, USA},\n keywords = {cinemagraphs, videos, video textures},'
+         b'\n}\n',
+ 'links': [],
+ 'pid': 2714,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/F.Pece/publications/bibtex/momentImg_cvmp2011.bib'}

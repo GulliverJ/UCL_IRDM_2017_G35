@@ -1,0 +1,109 @@
+{'html': b'<html>\r\r\r\r\r\r<head>\r\r\r<title>Chaper Index</title>\r\r\r</hea'
+         b'd>\r\r\r\r\r\r<body bgcolor = "#ffffff">\r\r\r\r\r\r<h1>Chaper Index'
+         b'</h1>\r\r\r<hr>\r\r\r\r\r\r<font SIZE="-2">\r\r\rBack to: <a href="i'
+         b'ndex.htm">Computer Graphics and Virtual Environments From Realism to'
+         b' Real-Time</a>\r\r\r</font>\r\r\r\r\r\r<hr>\r\r\r<center><b><a href='
+         b'"#part_one">Part One</a> | <a href="#part_two">Part Two</a> | <a hre'
+         b'f="#part_three">Part Three</a> | <a href="#part_four">Part Four</a> '
+         b'| <a href="#part_five">Part Five</a> | <a href="#part_six">Part Six<'
+         b'/a> | <a href="#appendices">Appendices</a> | <a href="#misc">Miscell'
+         b'aneous</a></b></center>\r\r\r\r\r\r<hr>\r\r\r\r\r\r<b>\r\r\r<p ALIG'
+         b'N="JUSTIFY"><a name="part_one">Part One: Introduction: Perceptio'
+         b'n,\r\r\rLight, Colour, and Math</a></p>\r\r\r</b>\r\r\r\r\r\r<font S'
+         b'IZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 1 <a href="chapter_1.htm">'
+         b'Introduction: A Phantom\r\r\rWorld of Projections</a></p>\r\r\r</f'
+         b'ont>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 2'
+         b' <a href="chapter_2.htm">Mathematics for Virtual\r\r\rEnvironments<'
+         b'/a></p>\r\r\r</font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTI'
+         b'FY">CHAPTER 3 <a href="chapter_3.htm">Lighting - the Radiance\r\r\r'
+         b'Equation</a></p>\r\r\r</font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALI'
+         b'GN="JUSTIFY">CHAPTER 4 <a href="chapter_4.htm">Color and The Hum'
+         b'an\r\r\rResponse to Light</a></p>\r\r\r</font>\r\r\r\r\r\r<b>\r\r\r'
+         b'<p ALIGN="JUSTIFY"><a name="part_two">Part Two: From Realism to\r'
+         b'\r\rReal-Time I</a></p>\r\r\r</b>\r\r\r\r\r\r<font SIZE="2">\r\r\r'
+         b'<p ALIGN="JUSTIFY">CHAPTER 5 <a href="chapter_5.htm">A Painting Meta'
+         b'phor for\r\r\rComputer Graphics</a></p>\r\r\r</font>\r\r\r\r\r\r<fon'
+         b't SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 6 <a href="chapter_6.ht'
+         b'm">Local Illumination and Ray\r\r\rTracing</a></p>\r\r\r</font'
+         b'>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 7 <a'
+         b' href="chapter_7.htm">Generalising the Camera</a></p>\r\r\r</font>\r'
+         b'\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 8 <a href='
+         b'"chapter_8.htm">Constructing a Scene</a></p>\r\r\r</font>\r\r'
+         b'\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 9 <a href="'
+         b'chapter_9.htm">Projection: Completing the\r\r\rCamera Model</a></p>'
+         b'\r\r\r</font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHA'
+         b'PTER 10 <a href="chapter_10.htm">Clipping Polygons</a></p>\r\r\r</f'
+         b'ont>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 1'
+         b'1 <a href="chapter_11.htm">Visibility Determination</a></p>\r\r\r</'
+         b'font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER '
+         b'12 <a href="chapter_12.htm">Rendering Polygons</a></p>\r\r\r</font>'
+         b'\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 13 <a'
+         b' href="chapter_13.htm">Image Space Rendering and\r\r\rTexturing</a>'
+         b'</p>\r\r\r</font>\r\r\r\r\r\r<b>\r\r\r<p ALIGN="JUSTIFY"><a name="pa'
+         b'rt_three">Part Three: From Real-Time to\r\r\rRealism</a></p>\r\r\r'
+         b'</b>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 1'
+         b'4 <a href="chapter_14.htm">Shadows: Towards\r\r\rReal-time Realism<'
+         b'/a></p>\r\r\r</font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTI'
+         b'FY">CHAPTER 15 <a href="chapter_15.htm">An Introduction to Radiosity'
+         b'</a></p>\r\r\r</font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUST'
+         b'IFY">CHAPTER 16 <a href="chapter_16.htm">Faster Ray Tracing</a><'
+         b'/p>\r\r\r</font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">'
+         b'CHAPTER 17 <a href="chapter_17.htm">Clipping and Rendering\r\r\rLin'
+         b'es</a></p>\r\r\r</font>\r\r\r\r\r\r<b>\r\r\r<p ALIGN="JUSTIFY"><a na'
+         b'me="part_four">Part Four: Solids, Curves\r\r\rand Surfaces</a></p>\r'
+         b'\r\r</b>\r\r\r\r\r\r<font SIZE="2">\t\r\r\r<p ALIGN="JUSTIFY">CHAPTE'
+         b'R 18 <a href="chapter_18.htm">Constructive Solid Geometry</a></p'
+         b'>\r\r\r</font>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CH'
+         b'APTER 19 <a href="chapter_19.htm">Introduction to Computer\r\r\rAid'
+         b'ed Geometrical Design</a></p>\r\r\r</font><b>\r\r\r\r\r\r<p ALIGN'
+         b'="JUSTIFY"><a name="part_five">Part Five: Dynamics and Interacti'
+         b'on\r\r\rin Virtual Environments</a></p>\r\r\r</b>\r\r\r\r\r\r<font S'
+         b'IZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 20 <a href="chapter_20.htm'
+         b'">Human Dynamics in a Virtual World</a></p>\r\r\r</font>\r\r\r'
+         b'\r\r\r<font SIZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 21 <a href="'
+         b'chapter_21.htm">Real-Time Interaction</a></p>\r\r\r</font><b>\r\r'
+         b'\r\r\r\r<p ALIGN="JUSTIFY"><a name="part_six">Part Six: From Realism'
+         b' to Real-Time II</a></p>\r\r\r</b><font SIZE="2">\r\r\r\r\r\r<p A'
+         b'LIGN="JUSTIFY">CHAPTER 22 <a href="chapter_22.htm">Ray Based Methods'
+         b' for Global Illumination</a></p>\r\r\r</font>\r\r\r\r\r\r<font SI'
+         b'ZE="2">\r\r\r<p ALIGN="JUSTIFY">CHAPTER 23 <a href="chapter_23.htm"'
+         b'>Advanced Real-Time\r\r\rRendering for Virtual Environments</a>'
+         b'\r\r\r</font><b>\r\r\r\r\r\r<p ALIGN="JUSTIFY"><a name="appendice'
+         b's">Appendices</a></p>\r\r\r</b>\r\r\r\r\r\r<font SIZE="2">\r\r\r<p A'
+         b'LIGN="JUSTIFY">Appendix A <a href="appendix_a.htm">Introduction to V'
+         b'RML</a></a></p>\r\r\r\r\r\r<p ALIGN="JUSTIFY"><a href="references.'
+         b'htm">References</a></p>\r\r\r</font><b>\r\r\r\r\r\r<p ALIGN="JUST'
+         b'IFY"><a name="misc">Miscellaneous</a></p>\r\r\r</b>\r\r\r\r\r\r<f'
+         b'ont SIZE="2">\r\r\r<p ALIGN="JUSTIFY"><a href="misc.htm">Miscellane'
+         b'ous</a></a></p>\r\r\r\r\r\r</font><b>\r\r\r\r\r\r\r\r\r<hr>\r\r\r\r'
+         b'\r\r</body>\r\r\r\r\r\r</html>\r\r\r',
+ 'links': [3398,
+           3374,
+           3399,
+           3400,
+           3401,
+           3402,
+           3403,
+           3404,
+           3405,
+           3406,
+           3407,
+           3408,
+           3409,
+           3410,
+           3411,
+           3412,
+           3413,
+           3414,
+           3415,
+           3416,
+           3417,
+           3418,
+           3419,
+           3420,
+           3421,
+           3422,
+           3423,
+           3424],
+ 'pid': 3374,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/A.Steed/book_tmp/CGVE/chapters.htm'}

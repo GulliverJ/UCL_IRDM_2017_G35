@@ -1,0 +1,1227 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>trust &laquo;  MobBlog</ti'
+         b'tle>\n\n<link rel="stylesheet" href="http://mobblog.cs.ucl.ac.uk/w'
+         b'p-content/themes/default/style.css" type="text/css" media="screen" /'
+         b'>\n<link rel="pingback" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.'
+         b'php" />\n\n<style type="text/css" media="screen">\n\n\t#page { ba'
+         b'ckground: url("http://mobblog.cs.ucl.ac.uk/wp-content/themes/default'
+         b'/images/kubrickbg-ltr.jpg") repeat-y top; border: none; }\n\n</sty'
+         b'le>\n\n \n\n<link rel="alternate" type="application/rss+xml" title="'
+         b'MobBlog &raquo; Feed" href="http://mobblog.cs.ucl.ac.uk/feed/" /'
+         b'>\n<link rel="alternate" type="application/rss+xml" title="MobBlo'
+         b'g &raquo; Comments Feed" href="http://mobblog.cs.ucl.ac.uk/comments/'
+         b'feed/" />\n<link rel="alternate" type="application/rss+xml" title'
+         b'="MobBlog &raquo; trust Category Feed" href="http://mobblog.cs.ucl.a'
+         b'c.uk/category/trust/feed/" />\n<link rel="EditURI" type="applicat'
+         b'ion/rsd+xml" title="RSD" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.ph'
+         b'p?rsd" />\n<link rel="wlwmanifest" type="application/wlwmanifest+'
+         b'xml" href="http://mobblog.cs.ucl.ac.uk/wp-includes/wlwmanifest.xml" '
+         b'/> \n<meta name="generator" content="WordPress 3.8.1" />\n</head>\n'
+         b'<body class="archive category category-trust category-36">\n<div '
+         b'id="page">\n\n\n<div id="header" role="banner">\n\t<div id="heade'
+         b'rimg">\n\t\t<h1><a href="http://mobblog.cs.ucl.ac.uk/">MobBlog</a><'
+         b'/h1>\n\t\t<div class="description">Research:  Smart Cities &amp; Da'
+         b'ta Mining &amp; Social Media</div>\n\t</div>\n</div>\n<hr />\n\n\t<'
+         b'div id="content" class="narrowcolumn" role="main">\n\n\t\t\n \t   '
+         b'\t  \t\t<h2 class="pagetitle">Archive for the &#8216;trust&#8217; C'
+         b'ategory</h2>\n \t  \n\n\t\t<div class="navigation">\n\t\t\t<div cl'
+         b'ass="alignleft"><a href="http://mobblog.cs.ucl.ac.uk/category/trust/'
+         b'page/2/" >&laquo; Older Entries</a></div>\n\t\t\t<div class="alignri'
+         b'ght"></div>\n\t\t</div>\n\n\t\t\t\t<div class="post-1131 post typ'
+         b'e-post status-publish format-standard hentry category-trust">\n\t\t'
+         b'\t\t<h3 id="post-1131"><a href="http://mobblog.cs.ucl.ac.uk/2010/0'
+         b'8/19/jtaer-special-issue-on-trust-and-trust-management/" rel="bookma'
+         b'rk" title="Permanent Link to JTAER special issue on trust and trust '
+         b'management">JTAER special issue on trust and trust management</a></h'
+         b'3>\n\t\t\t\t<small>Thursday, August 19th, 2010</small>\n\n\t\t\t\t<'
+         b'div class="entry">\n\t\t\t\t\t<p>The Open Access <a title="JTAER w'
+         b'ebsite" href="http://www.jtaer.com">Journal of Theoretical and Appli'
+         b'ed Electronic Commerce Research</a> has just published a special iss'
+         b'ue on trust and trust management (volume 5, issue 2, 2010), with Aud'
+         b'un J\xc3\xb8sang and Glenn Bewsell as guest editors. While I am of'
+         b' course particularly happy that <a title="Trust and Distrust in Adap'
+         b'tive Inter-enterprise Collaboration Management (PDF)" href="http://w'
+         b'ww.jtaer.com/aug2010/ruohomaa_kutvonen_p7.pdf">our paper on trust ma'
+         b'nagement for inter-enterprise collaborations</a> appears there (see '
+         b'my earlier summary on <a title="A Mobblog post on research in the CI'
+         b'NCO group" href="http://mobblog.cs.ucl.ac.uk/2008/04/30/cinco-suppor'
+         b'ting-trust-decisions-for-inter-enterprise-collaboration/">what we do'
+         b' at the CINCO group</a>), there are other reasons to go check out th'
+         b'e issue too:</p>\n<ul>\n<li>Transferring reputation ratings from o'
+         b'ne virtual community to another (Gal-Oz, Grinshpoun and Gudes) &#821'
+         b'1; another step towards reputation interoperability.</li>\n<li>Et'
+         b'hnographic investigation of privacy issues in sharing personal photo'
+         b'graphs online (Cunningham, Masoodian and Adams).</li>\n<li>Trust '
+         b'and fear influencing team-based global software development (Casey).'
+         b'</li>\n<li>Quality processes and auditing as part of reputation m'
+         b'anagement in eCommerce services (Alnemr, Koenig, Eymann and Meinel).'
+         b'</li>\n<li>Privacy-aware trust management framework prototyped an'
+         b'd examined through an employability case study (B\xc3\xb6hm, Etall'
+         b'e, Hartog, H\xc3\xbctter, Traberlsi, Trivellato and Zannone).</li>'
+         b'\n<li>A survey of a handful of trust and reputation systems and a'
+         b' comparison framework (Noorian and Ulieru) &#8211; I love surveys!</'
+         b'li>\n<li>Technological, individual and social drivers of trust wi'
+         b'thin digital ecosystems &#8211; (Wiedmann, Hennings, Varelmann a'
+         b'nd\n<div style="display: none"></div>\n<p> Reeh).</p>\n</li>\n<li>I '
+         b'already mentioned our paper on reputation-based risk-aware trust man'
+         b'agement (Ruohomaa and Kutvonen), so I shouldn&#8217;t repeat  it her'
+         b'e. But it&#8217;s there! It summarizes a sizable part of my PhD thes'
+         b'is contribution, which I&#8217;ve spent the last eternity polishing.'
+         b' (Said book is once again &#8220;finally done&#8221;, sent to my sup'
+         b'ervisor today. We shall see.)</li>\n</ul>\n<p>I will now go celebr'
+         b'ate my momentary victory over writing &#8211; by reading.</p>\n\t\t'
+         b'\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> Posted in <a href="ht'
+         b'tp://mobblog.cs.ucl.ac.uk/category/trust/" title="View all posts in '
+         b'trust" rel="category tag">trust</a> |   <span>Comments Closed</span>'
+         b'</p>\n\n\t\t\t</div>\n\n\t\t\t\t<div class="post-497 post type-post'
+         b' status-publish format-standard hentry category-conference category-'
+         b'context category-event category-social-networks category-trust">'
+         b'\n\t\t\t\t<h3 id="post-497"><a href="http://mobblog.cs.ucl.ac.uk/'
+         b'2009/02/16/cat-workshop-trust-management-web-20-privacy-and-context/'
+         b'" rel="bookmark" title="Permanent Link to CAT workshop: trust manage'
+         b'ment, web 2.0,  privacy, and context.">CAT workshop: trust managemen'
+         b't, web 2.0,  privacy, and context.</a></h3>\n\t\t\t\t<small>Monda'
+         b'y, February 16th, 2009</small>\n\n\t\t\t\t<div class="entry">\n'
+         b'\t\t\t\t\t<p><img class="alignnone" title="cat09 logo" src="http:'
+         b'//cat09.telin.nl/img/cat09header.png" alt="" width="800" height="215'
+         b'" />That&#8217;s a great possibility to submit work on trust &amp; c'
+         b'ontext management with emphasis on web 2.0 and on privacy protection'
+         b'. Deadline: <strong>13th/20th of March</strong>. Submit, submit, sub'
+         b'mit <img src="http://mobblog.cs.ucl.ac.uk/wp-includes/images/smilies'
+         b'/icon_wink.gif" alt=";-)" class="wp-smiley" />  This <a href="http:/'
+         b'/cat09.telin.nl/">call</a> could not be better timed.</p>\n\t\t'
+         b'\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> Posted in <a href="ht'
+         b'tp://mobblog.cs.ucl.ac.uk/category/conference/" title="View all post'
+         b's in conference" rel="category tag">conference</a>, <a href="http://'
+         b'mobblog.cs.ucl.ac.uk/category/context/" title="View all posts in con'
+         b'text" rel="category tag">context</a>, <a href="http://mobblog.cs.ucl'
+         b'.ac.uk/category/event/" title="View all posts in event" rel="categor'
+         b'y tag">event</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/soci'
+         b'al-networks/" title="View all posts in social networks" rel="categor'
+         b'y tag">social networks</a>, <a href="http://mobblog.cs.ucl.ac.uk/cat'
+         b'egory/trust/" title="View all posts in trust" rel="category tag">tru'
+         b'st</a> |   <span>Comments Closed</span></p>\n\n\t\t\t</div>\n\n'
+         b'\t\t\t\t<div class="post-470 post type-post status-publish format-st'
+         b'andard hentry category-future category-mobile category-reputation ca'
+         b'tegory-research category-trust">\n\t\t\t\t<h3 id="post-470"><a hr'
+         b'ef="http://mobblog.cs.ucl.ac.uk/2009/02/06/future-work-on-reputation'
+         b'-systems-first-hand-experiences-or-recommendations/" rel="bookmark" '
+         b'title="Permanent Link to Future work on reputation systems for mobil'
+         b'es: first-hand experiences or recommendations?">Future work on reput'
+         b'ation systems for mobiles: first-hand experiences or recommendations'
+         b'?</a></h3>\n\t\t\t\t<small>Friday, February 6th, 2009</small>'
+         b'\n\n\t\t\t\t<div class="entry">\n\t\t\t\t\t<p>Reputation systems on '
+         b'mobile phones build &#8220;reputation scores&#8221; based on <a href'
+         b'="http://mobblog.cs.ucl.ac.uk/2007/09/06/trust-bootstrapping-trullo-'
+         b'mobiquitous/">personal experiences</a> and on other phones&#8217; <a'
+         b' href="http://mobblog.cs.ucl.ac.uk/2007/10/31/lightweight-distribute'
+         b'd-trust-propagation/">recommendations</a>. One poorly-explored resea'
+         b'rch question is when to use personal experiences and when to resort '
+         b'to recommendations.  This <a href="http://journals.royalsociety.org/'
+         b'content/p173jvl6410623n0/">paper </a>in Biology Letter may suggest f'
+         b'ew future research directions:</p>\n<p> <a href="http://mobblog.c'
+         b's.ucl.ac.uk/2009/02/06/future-work-on-reputation-systems-first-hand-'
+         b'experiences-or-recommendations/#more-470" class="more-link">(more&he'
+         b'llip;)</a></p>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> '
+         b'Posted in <a href="http://mobblog.cs.ucl.ac.uk/category/future/" tit'
+         b'le="View all posts in future" rel="category tag">future</a>, <a href'
+         b'="http://mobblog.cs.ucl.ac.uk/category/mobile/" title="View all post'
+         b's in mobile" rel="category tag">mobile</a>, <a href="http://mobblog.'
+         b'cs.ucl.ac.uk/category/reputation/" title="View all posts in reputati'
+         b'on" rel="category tag">reputation</a>, <a href="http://mobblog.cs.uc'
+         b'l.ac.uk/category/research/" title="View all posts in research" rel="'
+         b'category tag">research</a>, <a href="http://mobblog.cs.ucl.ac.uk/cat'
+         b'egory/trust/" title="View all posts in trust" rel="category tag">tru'
+         b'st</a> |   <span>Comments Closed</span></p>\n\n\t\t\t</div>\n\n'
+         b'\t\t\t\t<div class="post-334 post type-post status-publish format-st'
+         b'andard hentry category-legal category-openings category-p2p category'
+         b'-project category-recommender-systems category-reputation category-t'
+         b'rust category-vehicular category-web-20">\n\t\t\t\t<h3 id="post-3'
+         b'34"><a href="http://mobblog.cs.ucl.ac.uk/2008/10/27/papers-at-recsys'
+         b'-2008/" rel="bookmark" title="Permanent Link to Papers at RecSys 200'
+         b'8">Papers at RecSys 2008</a></h3>\n\t\t\t\t<small>Monday, October'
+         b' 27th, 2008</small>\n\n\t\t\t\t<div class="entry">\n\t\t\t\t\t<p>A l'
+         b'ot of interesting papers have been discussed during RecSys conferenc'
+         b'e. Here are a few list of interesting ones.</p>\n<p> <a href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/2008/10/27/papers-at-recsys-2008/#more-334"'
+         b' class="more-link">(more&hellip;)</a></p>\n\t\t\t\t</div>\n\n\t\t'
+         b'\t\t<p class="postmetadata"> Posted in <a href="http://mobblog.cs.'
+         b'ucl.ac.uk/category/legal/" title="View all posts in legal" rel="cate'
+         b'gory tag">legal</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/o'
+         b'penings/" title="View all posts in openings" rel="category tag">open'
+         b'ings</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/p2p/" title='
+         b'"View all posts in p2p" rel="category tag">p2p</a>, <a href="http://'
+         b'mobblog.cs.ucl.ac.uk/category/project/" title="View all posts in pro'
+         b'ject" rel="category tag">project</a>, <a href="http://mobblog.cs.ucl'
+         b'.ac.uk/category/recommender-systems/" title="View all posts in recom'
+         b'mender systems" rel="category tag">recommender systems</a>, <a href='
+         b'"http://mobblog.cs.ucl.ac.uk/category/reputation/" title="View all p'
+         b'osts in reputation" rel="category tag">reputation</a>, <a href="http'
+         b'://mobblog.cs.ucl.ac.uk/category/trust/" title="View all posts in tr'
+         b'ust" rel="category tag">trust</a>, <a href="http://mobblog.cs.ucl.ac'
+         b'.uk/category/vehicular/" title="View all posts in vehicular" rel="ca'
+         b'tegory tag">vehicular</a>, <a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/web-20/" title="View all posts in web 2.0" rel="category tag">w'
+         b'eb 2.0</a> |   <a href="http://mobblog.cs.ucl.ac.uk/2008/10/27/paper'
+         b's-at-recsys-2008/#comments" title="Comment on Papers at RecSys 2008"'
+         b'>1 Comment &#187;</a></p>\n\n\t\t\t</div>\n\n\t\t\t\t<div class="po'
+         b'st-301 post type-post status-publish format-standard hentry category'
+         b'-education category-trust">\n\t\t\t\t<h3 id="post-301"><a href="h'
+         b'ttp://mobblog.cs.ucl.ac.uk/2008/09/30/trusted-computing-sounds-great'
+         b'-doesnt-it/" rel="bookmark" title="Permanent Link to Trusted Computi'
+         b'ng: Sounds Great, Doesn&#8217;t it?">Trusted Computing: Sounds Great'
+         b', Doesn&#8217;t it?</a></h3>\n\t\t\t\t<small>Tuesday, September 3'
+         b'0th, 2008</small>\n\n\t\t\t\t<div class="entry">\n\t\t\t\t\t<p>There'
+         b' is an interesting short video <a href="http://www.lafkon.net/tc/">h'
+         b'ere</a> about trusted computing. Consider it an amateur introduction'
+         b' to what a lot of <a href="http://mobblog.cs.ucl.ac.uk/2008/06/23/su'
+         b'mmary-of-ifiptm08-conference-sessions/">recent research</a> has been'
+         b' discussing, and perhaps a useful video to spark some discussion wit'
+         b'h non-research friends.</p>\n<p>However, there is a twist in the '
+         b'short- a\xc2\xa0 doubt about the utlity of trust, once trust decis'
+         b'ion are made by a machine rather than a person. Do you agree?</p'
+         b'>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> Posted in <a '
+         b'href="http://mobblog.cs.ucl.ac.uk/category/education/" title="View a'
+         b'll posts in education" rel="category tag">education</a>, <a href="ht'
+         b'tp://mobblog.cs.ucl.ac.uk/category/trust/" title="View all posts in '
+         b'trust" rel="category tag">trust</a> |   <a href="http://mobblog.cs.u'
+         b'cl.ac.uk/2008/09/30/trusted-computing-sounds-great-doesnt-it/#commen'
+         b'ts" title="Comment on Trusted Computing: Sounds Great, Doesn&#8217;t'
+         b' it?">1 Comment &#187;</a></p>\n\n\t\t\t</div>\n\n\t\t\t\t<div clas'
+         b's="post-292 post type-post status-publish format-standard hentry cat'
+         b'egory-conference category-dataset category-event category-industry c'
+         b'ategory-research category-trust category-ubicomp category-ubicomp200'
+         b'8 tag-ubicomp2008">\n\t\t\t\t<h3 id="post-292"><a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/2008/09/29/ubicomp-08/" rel="bookmark" title="Per'
+         b'manent Link to Ubicomp 2008">Ubicomp 2008</a></h3>\n\t\t\t\t<smal'
+         b'l>Monday, September 29th, 2008</small>\n\n\t\t\t\t<div class="entr'
+         b'y">\n\t\t\t\t\t<p><a href="http://blogsearch.google.com/blogsearch'
+         b'?hl=en&amp;q=ubicomp+2008&amp;btnG=Search+Blogs">Many blogs</a> have'
+         b' been covering Ubicomp and, a couple of days ago, <a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/2008/09/22/making-mobile-raters-stick-to-their-wo'
+         b'rd-ubicomp/">I promised</a> to write down my own coverage. Here you '
+         b'go <img src="http://mobblog.cs.ucl.ac.uk/wp-includes/images/smilies/'
+         b'icon_wink.gif" alt=";-)" class="wp-smiley" /> </p>\n<p>The first '
+         b'day I attended the <strong><a href="http://www.inbetweeness.org/auto'
+         b'mated-journeys/">Automated Journeys</a> </strong> workshop organized'
+         b' by <a href="http://www.karmanet-design.com/">Arianna Bassoli</a> (w'
+         b'ho gave a <a href="http://mobblog.cs.ucl.ac.uk/2008/05/23/seminar-so'
+         b'cial-urban-computing/">talk</a> at UCL a while back), <a href="http:'
+         b'//www.ics.uci.edu/~johannab/">Johanna Brewer</a> (whose recent work '
+         b'has been covered <a href="http://mobblog.cs.ucl.ac.uk/2008/06/23/see'
+         b'shell-an-augmented-oytser-card-holder/">here</a>; for more, check <a'
+         b' href="http://drzaius.ics.uci.edu/blogs/setbang/">her blog</a>), and'
+         b' . The workshop&#8217;s format was not\xc2\xa0 traditional. As par'
+         b't of the workshop, we went out and had lunch :-), and, while doing s'
+         b'o, we observed how people  in Seoul use technologies.\xc2\xa0 Then'
+         b', we came back and, through group discussions and hands-on design br'
+         b'ainstorming sessions, we produced\xc2\xa0 4 envisagements that'
+         b'\xc2\xa0 critically reflected on technological futures. It was ver'
+         b'y engaging! I hope other workshops will replicate/mutate this format'
+         b'. I wished I could attend at least two of the\xc2\xa0 other worksh'
+         b'ops on offer: <strong><a href="http://www.useworkshop.org/">Ubiquito'
+         b'us Systems Evaluation</a> </strong>partly organized by <a href="http'
+         b'://chris-kray.blogspot.com/">Chris Kray</a> (I am in debt with him, '
+         b'and he knows why ;-)) and <strong><a href="http://www.k2.t.u-tokyo.a'
+         b'c.jp/perception/dap2008/">Devices that Alter Perception</a></strong>'
+         b' partly organized by <a href="http://www.k2.t.u-tokyo.ac.jp/members/'
+         b'carson/carson-e.html">Carson Reynolds</a>.</p>\n<p>At Ubicomp, th'
+         b'e speakers did not suffer from <a href="http://mobblog.cs.ucl.ac.uk/'
+         b'2008/03/19/no-shows-and-powerpoint-karaoke-acm-sac-2008/">powerpoint'
+         b' karaoke syndrome</a>, and their slides were generally\xc2\xa0 wel'
+         b'l-designed &#8211; less text, more images. That is largely because t'
+         b'he ubicomp&#8217;s community is made of design-conscious (CHI) resea'
+         b'rchers. Few talks are already available on <a href="http://www.slide'
+         b'share.net/tag/ubicomp2008">slideshare</a>.</p>\n<p>Here are few p'
+         b'apers I personally found intriguing because of their <strong>algorit'
+         b'hms</strong>, their <strong>evaluation</strong>, or their <strong>in'
+         b'teresting ideas</strong>. At the end of this post, I&#8217;ll point '
+         b' to few <strong>datasets</strong> that have been used and can be of '
+         b'interest <img src="http://mobblog.cs.ucl.ac.uk/wp-includes/images/sm'
+         b'ilies/icon_wink.gif" alt=";-)" class="wp-smiley" /> </p>\n<p><str'
+         b'ong>1. Algorithms</strong></p>\n<p><em>Navigate Like a Cabbie: Pr'
+         b'obabilistic Reasoning from Observed Context-Aware Behavior</em>. <a '
+         b'href="http://www.cs.cmu.edu/~bziebart/">Brian D. Ziebart</a> showed '
+         b'a new way of making <strong>route predictions</strong>. He used a pr'
+         b'obabilistic model\xc2\xa0 presented at AAAI &#8220;<a href="http:/'
+         b'/www.ri.cmu.edu/pubs/pub_6055.html">Maximum Entropy Inverse Reinforc'
+         b'ement Learning</a>&#8220;.\xc2\xa0 Interestingly, he showed that t'
+         b'he model works upon data that is noisy and imperfect.<br />\n<em>'
+         b'</em></p>\n<p><em>Pedestrian Localisation for Indoor Environments'
+         b'</em>. <a href="http://www.cl.cam.ac.uk/~ojw28/">Oliver Woodman</a> '
+         b'proposed a way of\xc2\xa0<strong> tracking people indoor</strong>.'
+         b' Oliver and Robert showed how to combine a foot-mounted unit, a buil'
+         b'ding model, and a particle filter to track people in a building. The'
+         b'y experimentally showed that users can be effectively tracked within'
+         b' 1m without knowing their initial positions. Great results! It&#8217'
+         b';s a paper well worth reading!</p>\n<p><em>Discovery of Activity '
+         b'Patterns using Topic Models.</em> <a href="http://www.mis.informatik'
+         b'.tu-darmstadt.de/People/schiele/index.html">Bernt Schiele</a> presen'
+         b'ted a new method for recognizing a person&#8217;s activities from we'
+         b'arable sensors.\xc2\xa0 This method adapts probabilistic topic mod'
+         b'els and has been shown to recognize daily routines without user anno'
+         b'tation.\xc2\xa0 One of Bernt&#8217;s students had an interesting p'
+         b'oster on detecting location transitition using sensor data (<a href='
+         b'"http://www.mis.informatik.tu-darmstadt.de/People/blanke/ubicomp2008'
+         b'_sensing_location_in_the_pocket.pdf">pdf</a>).</p>\n<p><strong>2.'
+         b' Evaluation</strong></p>\n<p>A couple of papers (including the gr'
+         b'eat work done by <a href="http://www.cs.cmu.edu/~mllee/">Matthew Lee'
+         b'</a>)\xc2\xa0 used a method called the Wizard of Oz evaluation. Th'
+         b'e general idea is to simulate those parts of the system (e.g., speec'
+         b'h recognition) that require most effort in terms of development or t'
+         b'o assess the suitability of your interface(see &#8220;Wizard of Oz s'
+         b'tudies &#8211; why and how&#8221; (<a href="http://www.ida.liu.se/~a'
+         b'rnjo/papers/kbs.pdf">pdf</a>) for more).</p>\n<p><em>Flowers or a'
+         b' Robot Army? Encouraging Awareness &amp; Activity with Personal, Mob'
+         b'ile Displays</em> by <a href="http://seattle.intel-research.net/peop'
+         b'le/sunny/">Sunny Consolvo</a> et al.\xc2\xa0 They designed a syste'
+         b'm that makes it possible for mobile users to self-monitor their phys'
+         b'ical activities and conducted a greatly designed 3-month field exper'
+         b'iment.</p>\n<p><em>Reflecting on the Invisible: Understanding End'
+         b'-User Perceptions of Ubiquitous Computing (<a href="http://www.cc.ga'
+         b'tech.edu/grads/e/erika/pubs/ubicomp08-rfid.pdf">pdf)</a>.</em> <a hr'
+         b'ef="http://www.cc.gatech.edu/grads/e/erika/">Erika Shehan Poole</a> '
+         b'detailed end-user perceptions of RFID technology using an interestin'
+         b'g qualitative method that combines structured interviews and photo e'
+         b'licitation excercises. Erika and her mates show that, by using this '
+         b'method, one is able to uncover perceptions that are often difficult '
+         b'for study participants to verbalize.\xc2\xa0 One of her findings: '
+         b'many people believed that RFID can be used to remotely tract the loc'
+         b'ation of tagged objects, people, or animals!</p>\n<p><strong>3. I'
+         b'nteresting Ideas<br />\n</strong></p>\n<p><em>Bookisheet: Bendable'
+         b' Device for Browsing Content Using the Metaphor of Leafing Through t'
+         b'he Pages</em>. Trash your mouse. <a href="http://www.design-interact'
+         b'ions.rca.ac.uk/people/alumni/05-07/jun-ichiro-watanabe">Jun-ichiro W'
+         b'atanabe</a> presented a VERY promising interface (a book made of two'
+         b' thin plastic sheets and bend sensors) with which\xc2\xa0 a user c'
+         b'an easily scroll digital content such as photos. The user\xc2\xa0 '
+         b'does so by simply bending one side of the sheet or the other.<br'
+         b' />\n<em></em></p>\n<p><em>Towards the Automated Social Analysis o'
+         b'f Situated Speech Data</em>. To automatically understand individual '
+         b'and group behavior, <a href="http://www.cs.washington.edu/homes/dann'
+         b'y/">Danny Wyatt</a> et al. recorded the coversational dynamics of 24'
+         b' people over 6 months. They did so using privacy-sensitive technique'
+         b's. By using this type of studies, researchers may well\xc2\xa0 gai'
+         b'n broad sociological insights.</p>\n<p><em>The Potential for Loca'
+         b'tion-Aware Power Management</em>.\xc2\xa0 <a href="http://www.cl.c'
+         b'am.ac.uk/research/dtg/~rkh23/pages/welcome.php">Robert Harle</a> sho'
+         b'wed how to dinamically optimize the energy consumption of an office.'
+         b' Very interesting problem-driven research!</p>\n<p><em><br />\nAcc'
+         b'essible Contextual Information for Urban Orientation</em>. Jason Ste'
+         b'wart\xc2\xa0 presented a <strong>prototype</strong> of a location-'
+         b'based\xc2\xa0 service with which mobile users share content (see t'
+         b'heir project&#8217;s <a href="http://talking-points.org/">website)</'
+         b'a></p>\n<p><em>Enhanced Shopping: A Dynamic Map in a Retail Store'
+         b'</em>.\xc2\xa0 Alexander Meschtscherjakov\xc2\xa0 presented a <stron'
+         b'g>prototype</strong> for mobile phones that displays\xc2\xa0 custo'
+         b'mer activities (e.g., customer flow) inside a shopping mall</p>\n'
+         b'<p><em>Spyn: Augmenting Knitting to Support Storytelling and Reflect'
+         b'ion (<a href="http://people.ischool.berkeley.edu/~daniela/research/R'
+         b'osnerRyokai_Ubicomp_2008.pdf">pdf</a>).</em> <a href="http://people.'
+         b'ischool.berkeley.edu/~daniela/web/about.html">Daniela K. Rosner</a>&'
+         b'#8216;s presentation was masterfully designed! She walked us through'
+         b' her expirience of designing <a href="http://people.ischool.berkeley'
+         b'.edu/~daniela/spyn/">Spyn</a> &#8211; a system for knitters to recor'
+         b'd, playback, and share information involved in the creation of their'
+         b' hand-knit artifacts. She showed how her system enriches the knitter'
+         b'&#8217;s craft</p>\n<p><em>Picture This! Film assembly using toy '
+         b'gestures</em>. <a href="http://web.media.mit.edu/~cati/">Cati Vaucel'
+         b'le</a> (who keeps a cool <a href="http://architectradure.blogspot.co'
+         b'm/">blog</a>) presented a new input device embedded in children\xe2'
+         b'\x80\x99s toys for video composition.\xc2\xa0 As they play with the '
+         b'toys to act out a story, children conduct film assembly.</p>\n<p>'
+         b'<strong>4. Datasets</strong></p>\n<p><em>Understanding Mobility B'
+         b'ased on GPS Data</em> by  et al. used <strong>GPS logs</strong> of 6'
+         b'5 people over 10 months (the largest dataset in the community!) to e'
+         b'valuate a new way of\xc2\xa0 inferring people&#8217;s motion modes'
+         b' from their GPS logs</p>\n<p><em>Accurate Activity Recognition in'
+         b' a Home Setting</em> (<a href="http://ciosresearch.org/files/ubicomp'
+         b'paperpresent.pdf">pdf</a>) by Tim van Kasteren et al. used 28 days o'
+         b'f sensor data about one person @ home and corresponding annotations '
+         b'of his <strong>activities</strong> (e.g., toileting, showering, etc.'
+         b') to evaluate a new method for recognizing activities from sensor da'
+         b'ta.</p>\n<p><em>Discovery of Activity Patterns using Topic Models'
+         b' </em>by <a href="http://www.mis.informatik.tu-darmstadt.de/People/t'
+         b'huynh">Tam Huynh</a> et al. used 16 days of sensor data from a man w'
+         b'ho was carrying\xc2\xa0 2 wearable sensors to test their method fo'
+         b'r automatically recognizing <strong>activities</strong> (e.g., dinne'
+         b'r, commuting, lunch, office work) from sensor data.</p>\n<p><em>O'
+         b'n Using Existing <strong>Time-Use Study Data</strong> for Ubiquitous'
+         b' Compting Applications</em> by <a href="http://www2.parc.com/csl/mem'
+         b'bers/kpartrid/">Kurt Partridge </a>and Philippe Golle how to use dat'
+         b'a (e.g. people&#8217;s activities and locations) that has been colle'
+         b'cted by governments and commercial institutions to evaluate ubicomp '
+         b'systems.</p>\n<p><em>The Potential for Location-Aware Power Manag'
+         b'ement</em> by Rober Harletested on <strong>location data</strong> of'
+         b' 40 people in 50-room office building for 60 working days his propos'
+         b'ed strategies for dinamically optimizing the energy consumption of a'
+         b'n office.</p>\n<p>(ubicomp2008)</p>\n\t\t\t\t</div>\n\n\t\t\t\t<p cl'
+         b'ass="postmetadata">Tags:<a href="http://mobblog.cs.ucl.ac.uk/tag/ubi'
+         b'comp2008/" rel="tag">ubicomp2008</a><br /> Posted in <a href="http:/'
+         b'/mobblog.cs.ucl.ac.uk/category/conference/" title="View all posts in'
+         b' conference" rel="category tag">conference</a>, <a href="http://mobb'
+         b'log.cs.ucl.ac.uk/category/dataset/" title="View all posts in dataset'
+         b'" rel="category tag">dataset</a>, <a href="http://mobblog.cs.ucl.ac.'
+         b'uk/category/event/" title="View all posts in event" rel="category ta'
+         b'g">event</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/industry'
+         b'/" title="View all posts in industry" rel="category tag">industry</a'
+         b'>, <a href="http://mobblog.cs.ucl.ac.uk/category/research/" title="V'
+         b'iew all posts in research" rel="category tag">research</a>, <a href='
+         b'"http://mobblog.cs.ucl.ac.uk/category/trust/" title="View all posts '
+         b'in trust" rel="category tag">trust</a>, <a href="http://mobblog.cs.u'
+         b'cl.ac.uk/category/ubicomp/" title="View all posts in ubicomp" rel="c'
+         b'ategory tag">ubicomp</a>, <a href="http://mobblog.cs.ucl.ac.uk/categ'
+         b'ory/ubicomp2008/" title="View all posts in ubicomp2008" rel="categor'
+         b'y tag">ubicomp2008</a> |   <span>Comments Closed</span></p>\n'
+         b'\n\t\t\t</div>\n\n\t\t\t\t<div class="post-287 post type-post stat'
+         b'us-publish format-standard hentry category-social-networks category-'
+         b'trust category-web-20">\n\t\t\t\t<h3 id="post-287"><a href="http:'
+         b'//mobblog.cs.ucl.ac.uk/2008/09/27/weaving-a-web-of-trust/" rel="book'
+         b'mark" title="Permanent Link to Weaving a Web of Trust">Weaving a Web'
+         b' of Trust</a></h3>\n\t\t\t\t<small>Saturday, September 27th, 2008'
+         b'</small>\n\n\t\t\t\t<div class="entry">\n\t\t\t\t\t<p><a href="http:'
+         b'//www.cs.umd.edu/~golbeck/">Jennifer</a> wrote a piece (which is wel'
+         b'l worth reading) in Science Magazine: &#8220;Increasingly, people ar'
+         b'e studying social and collaborative Web technologies for use in scie'
+         b'nce. However, issues such as privacy, confidentiality, and trust ari'
+         b'se around the use of these technologies. Science is crucially based '
+         b'on knowing provenance&#8211;who produced what, how and where&#8211;a'
+         b'nd on the Web, trusting scientific information is becoming more diff'
+         b'icult for both scientists and the general public. User-generated con'
+         b'tent, even from professionals, can be opinionated (both informed and'
+         b' uninformed), inaccurate, and deceiving.&#8221; <a href="http://www.'
+         b'sciencemag.org/cgi/content/full/321/5896/1640">More</a>.</p>\n\t\t\t'
+         b'\t</div>\n\n\t\t\t\t<p class="postmetadata"> Posted in <a href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/category/social-networks/" title="View all '
+         b'posts in social networks" rel="category tag">social networks</a>, <a'
+         b' href="http://mobblog.cs.ucl.ac.uk/category/trust/" title="View all '
+         b'posts in trust" rel="category tag">trust</a>, <a href="http://mobblo'
+         b'g.cs.ucl.ac.uk/category/web-20/" title="View all posts in web 2.0" r'
+         b'el="category tag">web 2.0</a> |   <a href="http://mobblog.cs.ucl.ac.'
+         b'uk/2008/09/27/weaving-a-web-of-trust/#comments" title="Comment on We'
+         b'aving a Web of Trust">2 Comments &#187;</a></p>\n\n\t\t\t</div>\n\n'
+         b'\t\t\t\t<div class="post-247 post type-post status-publish format-st'
+         b'andard hentry category-sharing category-trust">\n\t\t\t\t<h3 id="'
+         b'post-247"><a href="http://mobblog.cs.ucl.ac.uk/2008/08/16/the-comedy'
+         b'-of-the-trusted-commons/" rel="bookmark" title="Permanent Link to Th'
+         b'e Comedy of the Trusted Commons">The Comedy of the Trusted Commons</'
+         b'a></h3>\n\t\t\t\t<small>Saturday, August 16th, 2008</small>\n\n'
+         b'\t\t\t\t<div class="entry">\n\t\t\t\t\t<p><img src="http://www.cs.'
+         b'ucl.ac.uk/staff/d.quercia/others/commons.jpg" alt="commons" /><br />'
+         b'\nLast week, The Economist had an interesting piece (<a href="htt'
+         b'p://www.cs.ucl.ac.uk/staff/d.quercia/others/commons.pdf">pdf</a>) on'
+         b' the tragedy of the commons.</p>\n<ul>\n<li>In 1968 Garrett Hardin'
+         b', a professor of biology, published an article in the journal Scienc'
+         b'e that explained \xe2\x80\x9cThe Tragedy of the Commons\xe2\x80'
+         b'\x9d. He suggested that, from the point of view of efficiency, the '
+         b'commons should be replaced by systems of public or personal ownershi'
+         b'p. However,  when economists began to look at how systems of commonl'
+         b'y managed resources actually worked, they found to their surprise th'
+         b'at they often worked quite well. Though there were failures, too, it'
+         b' seemed as if good management could stave off the tragedy. Before he'
+         b' died, Hardin admitted he should have called his article'
+         b' \xe2\x80\x9c<strong>The Tragedy of the Unmanaged Commons'
+         b'\xe2\x80\x9d</strong>. In \xe2\x80\x9cGoverning the Common'
+         b's\xe2\x80\x9d, which was published in 1990, Elinor Ostrom of Indi'
+         b'ana University described the rules needed to keep a commons going. S'
+         b'he showed that there are almost always elaborate conventions over<st'
+         b'rong> who can use resources and when</strong>.</li>\n</ul>\n<p>It '
+         b'is all about en-powering  people who use the common resource. Case i'
+         b'n point from my\xc2\xa0 past (luckily!) research life: people who '
+         b'are willing to share their Internet connections face the problem (tr'
+         b'agedy) of free-riders  &#8211; individuals who exploit the bandwidth'
+         b' of others without providing an adequate return. To isolate free-rid'
+         b'ers, people run trust models on their computers (<a href="http://www'
+         b'.cs.ucl.ac.uk/staff/d.quercia/publications/querciaSTRUDEL06.pdf">pdf'
+         b'</a>). A trust model is a piece of software that keeps track of who '
+         b'shares her connection and who doesn&#8217;t. By managing the common,'
+         b' trust models turn the tragedy into <strong>&#8220;The Comedy of the'
+         b' Managed Commons&#8221;</strong> <img src="http://mobblog.cs.ucl.ac.'
+         b'uk/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smi'
+         b'ley" /> </p>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> Po'
+         b'sted in <a href="http://mobblog.cs.ucl.ac.uk/category/sharing/" titl'
+         b'e="View all posts in sharing" rel="category tag">sharing</a>, <a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/trust/" title="View all post'
+         b's in trust" rel="category tag">trust</a> |   <span>Comments Closed</'
+         b'span></p>\n\n\t\t\t</div>\n\n\t\t\t\t<div class="post-220 post type'
+         b'-post status-publish format-standard hentry category-conference cate'
+         b'gory-event category-mobile category-trust category-ubicomp">\n\t\t\t'
+         b'\t<h3 id="post-220"><a href="http://mobblog.cs.ucl.ac.uk/2008/07/'
+         b'27/trust-meeting-at-secrypt/" rel="bookmark" title="Permanent Link t'
+         b'o Trust Meeting at Secrypt">Trust Meeting at Secrypt</a></h3>\n\t\t'
+         b'\t\t<small>Sunday, July 27th, 2008</small>\n\n\t\t\t\t<div class="en'
+         b'try">\n\t\t\t\t\t<p>We presented an invited paper (<a href="http:/'
+         b'/www.cs.ucl.ac.uk/staff/d.quercia/publications/quercia08selecting.pd'
+         b'f">pdf</a>) at a meeting on <a href="http://www.secrypt.org/SpecialS'
+         b'essions.html">how to manage trust in percom</a> at <a href="http://w'
+         b'ww.secrypt.org/">Secrypt</a>. The paper is about how to offer digita'
+         b'l content to mobile users by combining tagging with reputation syste'
+         b'ms (<a href="http://mobblog.cs.ucl.ac.uk/2008/03/08/tagging-on-the-m'
+         b'ove/">previous post</a>). Here is my presentation:</p>\n<div id="'
+         b'__ss_529914" style="width: 425px; text-align: left;"><a style="font:'
+         b'14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;te'
+         b'xt-decoration:underline;" title="Selecting Trustworthy Content Using'
+         b' Tags" href="http://www.slideshare.net/daniele.quercia/selecting-tru'
+         b'stworthy-content-using-tags?src=embed">Selecting Trustworthy Content'
+         b' Using Tags</a><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553'
+         b'540000" width="425" height="355" codebase="http://download.macromedi'
+         b'a.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param '
+         b'name="allowFullScreen" value="true" /><param name="allowScriptAccess'
+         b'" value="always" /><param name="src" value="http://static.slideshare'
+         b'.net/swf/ssplayer2.swf?doc=tag2trust-1217159175405440-9" /><embed ty'
+         b'pe="application/x-shockwave-flash" width="425" height="355" src="htt'
+         b'p://static.slideshare.net/swf/ssplayer2.swf?doc=tag2trust-1217159175'
+         b'405440-9" allowscriptaccess="always" allowfullscreen="true"></embed>'
+         b'</object></p>\n<div style="font-size: 11px; font-family: tahoma,a'
+         b'rial; height: 26px; padding-top: 2px;">view <a title="View Selecting'
+         b' Trustworthy Content Using Tags on SlideShare" href="http://www.slid'
+         b'eshare.net/daniele.quercia/selecting-trustworthy-content-using-tags?'
+         b'src=embed">presentation</a> (tags: <a style="text-decoration:underli'
+         b'ne;" href="http://slideshare.net/tag/trust">trust</a> <a style="text'
+         b'-decoration:underline;" href="http://slideshare.net/tag/tagging">tag'
+         b'ging</a> <a style="text-decoration:underline;" href="http://slidesha'
+         b're.net/tag/reputation">reputation</a> <a style="text-decoration:unde'
+         b'rline;" href="http://slideshare.net/tag/sytems">sytems</a>)</div'
+         b'>\n</div>\n<p>Few words on:</p>\n<p><strong>1) The meeting (3 sessi'
+         b'ons)</strong><br />\n<strong>Session 1</strong><br />\nExisting re'
+         b'putation systems often set initial user&#8217;s reputation to  a fix'
+         b'ed value (e.g., 0.5 if reputation is expressed on  a scale [0,1]). <'
+         b'a href="http://www2.imm.dtu.dk/~cdj/">Christian</a> proposed  intere'
+         b'sting ways for setting initial trust other than fixing  ad-hoc value'
+         b's.  Juri Luca of <a href="http://www.l3s.de">L3S</a> followed by pre'
+         b'senting a review of policy languages for trust management. Ioanna of'
+         b' <a href="http://www.unic.ac.cy/">Uni of Nicosia</a> concluded the f'
+         b'irst session by showing a way of formalizing trust relationships tha'
+         b't change over time.</p>\n<p><strong>Session 2</strong><br />\nI st'
+         b'arted the session (no more self-publicity ;-)). <a href="http://rese'
+         b'arch.nokia.com/people/zheng_yan/index.html">Zhen Yan</a> followed an'
+         b'd showed a way of managing trust in autonomic computing for healthca'
+         b're. Finally, <a href="http://www.ieeta.pt/~avz/">Andre</a> concluded'
+         b' the second section by putting forward a secure interface for e-voti'
+         b'ng terminals &#8211; he documented a very interesting evaluation in '
+         b'his well-written paper.</p>\n<p><strong>Session 3</strong><br />\n'
+         b'<a href="http://www.telin.nl/index.cfm?language=en&amp;id=855&amp;co'
+         b'ntext=856"> Gabriele</a> started off by presenting a new way of assi'
+         b'gning weights to user ratings. This way allows for personalizing rat'
+         b'ings, and that is beneficial because it makes it possible for two in'
+         b'dividuals<br />\nto have different opinions about the trustworthi'
+         b'ness of the same person (which may well happen in reality). My tip: '
+         b'this research may well be complemented by &#8220;sentiment analysis&'
+         b'#8221; (e.g., see this paper in\xc2\xa0 <a href="http://acl.ldc.up'
+         b'enn.edu/W/W06/W06-3808.pdf">pdf</a>). Ben Aziz of <a href="http://ww'
+         b'w.bitd.clrc.ac.uk/">CCLRC</a> concluded the third session and presen'
+         b'ted a reputation system for grid computing.</p>\n<p>A big thanks '
+         b'goes to <a href="http://www.iit.cnr.it/staff/marinella.petrocchi/">M'
+         b'ari</a> for wonderfully organizing and chairing the three sessions <'
+         b'img src="http://mobblog.cs.ucl.ac.uk/wp-includes/images/smilies/icon'
+         b'_wink.gif" alt=";-)" class="wp-smiley" /> </p>\n<p><strong>2) The'
+         b' conference (3 points)</strong></p>\n<ul>\n<li><a href="http://www'
+         b'.linkedin.com/pub/0/623/069">Petteri</a> &amp; his working mates of '
+         b'VTT collected 40K ideas for future mobile services from passionate u'
+         b'sers and stored them in the &#8220;idea database&#8221; (<a href="ht'
+         b'tp://www.innobar.com/">InnoBar</a> is the most recent of those datab'
+         b'ases, which include: <a href="http://www.mef.fi/index.php?lang=engli'
+         b'sh">Mefi</a>, <a href="http://owela.vtt.fi/">Owela</a>, and <a href='
+         b'"http://www.idealiike.fi/elohopea/index.php">Idealiiike</a> &#8211; '
+         b'the last two only in finnish). One interesting problem is how to bri'
+         b'ng order in that long list of ideas. Of course, one way for doing so'
+         b' is to resort to the wisdom of the crowd &#8211; during the Q&amp;A '
+         b'session, Petteri told me that it&#8217;s difficult to have users rat'
+         b'e ideas. How about having a crowd of paid (technology) experts? (pap'
+         b'er: ON EXPLORING CONSUMERS\xe2\x80\x99 TECHNOLOGY FORESIGHT CAPAB'
+         b'ILITIES)</li>\n<li>Mari Ervasti studied which factors facilitate '
+         b'the acceptance of mobile services by proposing a modified version of'
+         b' the  <a href="http://en.wikipedia.org/wiki/Technology_acceptance_mo'
+         b'del">Technology Acceptance Model</a> (paper: ADOPTION OF MOBILE SERV'
+         b'ICES IN FINLAND -<span> </span>Conceptual Model and Application-base'
+         b'd Case   Study).</li>\n<li>Niklas Eriksson presented three websit'
+         b'es they developed for enabling mobile tourism services: MobiPortal, '
+         b'TraveLog, and MobiTour (paper: MOBILE TOURISM SERVICES &#8211; Exper'
+         b'iences from Three Services on   Trial).</li>\n</ul>\n<p>Pls feel f'
+         b'ree to add whatever I&#8217;ve forgotten to mention in the comment s'
+         b'ection below. Cheers!</p>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="post'
+         b'metadata"> Posted in <a href="http://mobblog.cs.ucl.ac.uk/category/c'
+         b'onference/" title="View all posts in conference" rel="category tag">'
+         b'conference</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/event/'
+         b'" title="View all posts in event" rel="category tag">event</a>, <a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/category/mobile/" title="View all p'
+         b'osts in mobile" rel="category tag">mobile</a>, <a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/category/trust/" title="View all posts in trust" rel'
+         b'="category tag">trust</a>, <a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/ubicomp/" title="View all posts in ubicomp" rel="category tag">'
+         b'ubicomp</a> |   <a href="http://mobblog.cs.ucl.ac.uk/2008/07/27/trus'
+         b't-meeting-at-secrypt/#comments" title="Comment on Trust Meeting at S'
+         b'ecrypt">1 Comment &#187;</a></p>\n\n\t\t\t</div>\n\n\t\t\t\t<div cl'
+         b'ass="post-213 post type-post status-publish format-standard hentry c'
+         b'ategory-industry category-reputation category-social-networks catego'
+         b'ry-trust">\n\t\t\t\t<h3 id="post-213"><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/2008/07/11/advertise-to-the-influencers/" rel="bookmark" t'
+         b'itle="Permanent Link to Advertise to the Influencers">Advertise to t'
+         b'he Influencers</a></h3>\n\t\t\t\t<small>Friday, July 11th, 2008</'
+         b'small>\n\n\t\t\t\t<div class="entry">\n\t\t\t\t\t<p>Google has appli'
+         b'ed for a <a href="http://tinyurl.com/656j2s">patent</a> for a method'
+         b' that seeks to identify who the &#8220;influencers&#8221; in a socia'
+         b'l network are (see related blog post <a href="http://www.thenetworkt'
+         b'hinker.com/2008/07/influencer-targeting.html">here</a>). This is int'
+         b'eresting- the idea of identifying structure and influence in graphs '
+         b'has been around for quite some time, but now there is a money-making'
+         b' application: serve targetted adds to the influencers. Will this aff'
+         b'ect how <a href="http://en.wikipedia.org/wiki/Diffusion_of_innovatio'
+         b'ns">innovations are diffused</a> throughout society? This also seems'
+         b' to reinforce a <a href="http://network.nature.com/blogs/user/paolo-'
+         b'massa/2008/04/16/the-trust-is-already-here-%E2%80%93-its-just-not-ev'
+         b'enly-distributed-or-quotes-and-shoulders">related post</a> (assuming'
+         b' your influence is proportional to how much people trust you): &#822'
+         b'0;trust is not evenly distributed.&#8221;</p>\n\t\t\t\t</div>'
+         b'\n\n\t\t\t\t<p class="postmetadata"> Posted in <a href="http://mob'
+         b'blog.cs.ucl.ac.uk/category/industry/" title="View all posts in indus'
+         b'try" rel="category tag">industry</a>, <a href="http://mobblog.cs.ucl'
+         b'.ac.uk/category/reputation/" title="View all posts in reputation" re'
+         b'l="category tag">reputation</a>, <a href="http://mobblog.cs.ucl.ac.u'
+         b'k/category/social-networks/" title="View all posts in social network'
+         b's" rel="category tag">social networks</a>, <a href="http://mobblog.c'
+         b's.ucl.ac.uk/category/trust/" title="View all posts in trust" rel="ca'
+         b'tegory tag">trust</a> |   <a href="http://mobblog.cs.ucl.ac.uk/2008/'
+         b'07/11/advertise-to-the-influencers/#comments" title="Comment on Adve'
+         b'rtise to the Influencers">2 Comments &#187;</a></p>\n\n\t\t\t</di'
+         b'v>\n\n\t\t\t\t<div class="post-200 post type-post status-publish f'
+         b'ormat-standard hentry category-conference category-privacy category-'
+         b'recommender-systems category-reputation category-research category-t'
+         b'rust">\n\t\t\t\t<h3 id="post-200"><a href="http://mobblog.cs.ucl.'
+         b'ac.uk/2008/06/23/summary-of-ifiptm08-conference-sessions/" rel="book'
+         b'mark" title="Permanent Link to Summary of IFIPTM&#039;08 conference '
+         b'sessions">Summary of IFIPTM&#039;08 conference sessions</a></h3>'
+         b'\n\t\t\t\t<small>Monday, June 23rd, 2008</small>\n\n\t\t\t\t<div cl'
+         b'ass="entry">\n\t\t\t\t\t<p style="0cm;">The <a href="http://www.nt'
+         b'nu.no/videre/konferanse/IFIPTM08/index.html" target="_self">IFIP tru'
+         b'st management conference</a>, this year joined for the second time w'
+         b'ith the Privacy, Security and Trust (PST) conference, was held in Ju'
+         b'ne 18th &#8211; 20th in Trondheim, Norway. The conference has also b'
+         b'een previously known as <a href="http://www-rocq.inria.fr/arles/even'
+         b'ts/iTrust2005/">iTrust</a>. Next year, PST and IFIPTM split again, a'
+         b's PST returns to its roots as a local event in Canada; next year, IF'
+         b'IPTM is organized in the US, and in Japan after that. We&#8217;ve su'
+         b'mmarized IFIPTM workshops on <a href="http://mobblog.cs.ucl.ac.uk/20'
+         b'08/06/23/ifiptm-monday-workshops-cat-w2trust/">Monday</a> and <a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/2008/06/18/intl-workshop-on-trust-in-'
+         b'mobile-environments/">Tuesday</a> in earlier posts, and now give a q'
+         b'uick run-through of what <a href="http://www.ntnu.no/videre/konferan'
+         b'se/IFIPTM08/program.html">this year&#8217;s conference program</a> h'
+         b'eld.</p>\n<p style="0cm;"> <a href="http://mobblog.cs.ucl.ac.uk/2'
+         b'008/06/23/summary-of-ifiptm08-conference-sessions/#more-200" class="'
+         b'more-link">(more&hellip;)</a></p>\n\t\t\t\t</div>\n\n\t\t\t\t<p cla'
+         b'ss="postmetadata"> Posted in <a href="http://mobblog.cs.ucl.ac.uk/ca'
+         b'tegory/conference/" title="View all posts in conference" rel="catego'
+         b'ry tag">conference</a>, <a href="http://mobblog.cs.ucl.ac.uk/categor'
+         b'y/privacy/" title="View all posts in privacy" rel="category tag">pri'
+         b'vacy</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/recommender-'
+         b'systems/" title="View all posts in recommender systems" rel="categor'
+         b'y tag">recommender systems</a>, <a href="http://mobblog.cs.ucl.ac.uk'
+         b'/category/reputation/" title="View all posts in reputation" rel="cat'
+         b'egory tag">reputation</a>, <a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/research/" title="View all posts in research" rel="category tag'
+         b'">research</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/trust/'
+         b'" title="View all posts in trust" rel="category tag">trust</a> |   <'
+         b'a href="http://mobblog.cs.ucl.ac.uk/2008/06/23/summary-of-ifiptm08-c'
+         b'onference-sessions/#comments" title="Comment on Summary of IFIPTM&#0'
+         b'39;08 conference sessions">3 Comments &#187;</a></p>\n\n\t\t\t</d'
+         b'iv>\n\n\t\t\t\t<div class="post-198 post type-post status-publish '
+         b'format-standard hentry category-conference category-event category-m'
+         b'obile category-privacy category-reputation category-research categor'
+         b'y-security category-trust category-web-20">\n\t\t\t\t<h3 id="post'
+         b'-198"><a href="http://mobblog.cs.ucl.ac.uk/2008/06/23/ifiptm-monday-'
+         b'workshops-cat-w2trust/" rel="bookmark" title="Permanent Link to IFIP'
+         b'TM Monday workshops (CAT, W2Trust)">IFIPTM Monday workshops (CAT, W2'
+         b'Trust)</a></h3>\n\t\t\t\t<small>Monday, June 23rd, 2008</small>\n\n'
+         b'\t\t\t\t<div class="entry">\n\t\t\t\t\t<p>The Monday workshop sess'
+         b'ions of <a href="http://www.ntnu.no/videre/konferanse/IFIPTM08/index'
+         b'.html" target="_self">IFIPTM 2008</a> were a combination of the <a h'
+         b'ref="http://cat08.telin.nl" target="_self">second workshop on Contex'
+         b't-awareness and trust (CAT)</a> and <a href="http://www.sis.uncc.edu'
+         b'/~mshehab/w2trust/" target="_self">first workshop on Web 2.0 trust ('
+         b'W2Trust)</a>. See the <a href="http://www.sis.uncc.edu/~mshehab/w2tr'
+         b'ust/program.html" target="_self">W2Trust website</a> for the full li'
+         b'st of papers. In this post, we summarize what we saw.</p>\n<p> <a'
+         b' href="http://mobblog.cs.ucl.ac.uk/2008/06/23/ifiptm-monday-workshop'
+         b's-cat-w2trust/#more-198" class="more-link">(more&hellip;)</a></p'
+         b'>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> Posted in <a '
+         b'href="http://mobblog.cs.ucl.ac.uk/category/conference/" title="View '
+         b'all posts in conference" rel="category tag">conference</a>, <a href='
+         b'"http://mobblog.cs.ucl.ac.uk/category/event/" title="View all posts '
+         b'in event" rel="category tag">event</a>, <a href="http://mobblog.cs.u'
+         b'cl.ac.uk/category/mobile/" title="View all posts in mobile" rel="cat'
+         b'egory tag">mobile</a>, <a href="http://mobblog.cs.ucl.ac.uk/category'
+         b'/privacy/" title="View all posts in privacy" rel="category tag">priv'
+         b'acy</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/reputation/" '
+         b'title="View all posts in reputation" rel="category tag">reputation</'
+         b'a>, <a href="http://mobblog.cs.ucl.ac.uk/category/research/" title="'
+         b'View all posts in research" rel="category tag">research</a>, <a href'
+         b'="http://mobblog.cs.ucl.ac.uk/category/security/" title="View all po'
+         b'sts in security" rel="category tag">security</a>, <a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/category/trust/" title="View all posts in trust" '
+         b'rel="category tag">trust</a>, <a href="http://mobblog.cs.ucl.ac.uk/c'
+         b'ategory/web-20/" title="View all posts in web 2.0" rel="category tag'
+         b'">web 2.0</a> |   <a href="http://mobblog.cs.ucl.ac.uk/2008/06/23/if'
+         b'iptm-monday-workshops-cat-w2trust/#comments" title="Comment on IFIPT'
+         b'M Monday workshops (CAT, W2Trust)">1 Comment &#187;</a></p>\n'
+         b'\n\t\t\t</div>\n\n\t\t\t\t<div class="post-195 post type-post stat'
+         b'us-publish format-standard hentry category-conference category-event'
+         b' category-mobile category-privacy category-reputation category-resea'
+         b'rch category-trust">\n\t\t\t\t<h3 id="post-195"><a href="http://m'
+         b'obblog.cs.ucl.ac.uk/2008/06/18/intl-workshop-on-trust-in-mobile-envi'
+         b'ronments/" rel="bookmark" title="Permanent Link to Intl Workshop on '
+         b'Trust in Mobile Environments">Intl Workshop on Trust in Mobile Envir'
+         b'onments</a></h3>\n\t\t\t\t<small>Wednesday, June 18th, 2008</smal'
+         b'l>\n\n\t\t\t\t<div class="entry">\n\t\t\t\t\t<p>Yesterday was the fi'
+         b'rst International Workshop on Trust in Mobile Environments (<a href='
+         b'"http://time08.cs.ucl.ac.uk/">TIME 2008</a>), co-located with the <a'
+         b' href="http://www.ntnu.no/videre/konferanse/IFIPTM08/">IFIPTM 08</a>'
+         b' conference in Trondheim, Norway. The workshop merged with the Works'
+         b'hop on Sustaining Privacy in Autonomous Collaborative Environments ('
+         b'<a href="http://secml.otago.ac.nz/privacy2008/">SPACE</a>), and cons'
+         b'isted of three sessions. Here is a brief summary on what we saw: <a '
+         b'href="http://mobblog.cs.ucl.ac.uk/2008/06/18/intl-workshop-on-trust-'
+         b'in-mobile-environments/#more-195" class="more-link">(more&hellip;)</'
+         b'a></p>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> Posted i'
+         b'n <a href="http://mobblog.cs.ucl.ac.uk/category/conference/" title="'
+         b'View all posts in conference" rel="category tag">conference</a>, <a '
+         b'href="http://mobblog.cs.ucl.ac.uk/category/event/" title="View all p'
+         b'osts in event" rel="category tag">event</a>, <a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/mobile/" title="View all posts in mobile" rel'
+         b'="category tag">mobile</a>, <a href="http://mobblog.cs.ucl.ac.uk/cat'
+         b'egory/privacy/" title="View all posts in privacy" rel="category tag"'
+         b'>privacy</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/reputati'
+         b'on/" title="View all posts in reputation" rel="category tag">reputat'
+         b'ion</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/research/" ti'
+         b'tle="View all posts in research" rel="category tag">research</a>, <a'
+         b' href="http://mobblog.cs.ucl.ac.uk/category/trust/" title="View all '
+         b'posts in trust" rel="category tag">trust</a> |   <a href="http://mob'
+         b'blog.cs.ucl.ac.uk/2008/06/18/intl-workshop-on-trust-in-mobile-enviro'
+         b'nments/#comments" title="Comment on Intl Workshop on Trust in Mobile'
+         b' Environments">3 Comments &#187;</a></p>\n\n\t\t\t</div>\n\n\t\t\t'
+         b'\t<div class="post-189 post type-post status-publish format-stand'
+         b'ard hentry category-conference category-recommender-systems category'
+         b'-trust">\n\t\t\t\t<h3 id="post-189"><a href="http://mobblog.cs.uc'
+         b'l.ac.uk/2008/06/05/acm-sac-2009/" rel="bookmark" title="Permanent Li'
+         b'nk to ACM SAC 2009">ACM SAC 2009</a></h3>\n\t\t\t\t<small>Thursda'
+         b'y, June 5th, 2008</small>\n\n\t\t\t\t<div class="entry">\n\t\t\t\t\t'
+         b'<p>CALL FOR PAPERS &#8211; SAC 2009</p>\n<p>The 24th ACM Symposiu'
+         b'm on Applied Computing<br />\nat the Hilton Hawaiian Village Beac'
+         b'h Resort &amp; Spa<br />\nWaikiki Beach, Honolulu, Hawaii, USA<br'
+         b' />\n<a class="moz-txt-link-freetext" href="http://www.acm.org/co'
+         b'nferences/sac/sac2009/">http://www.acm.org/conferences/sac/sac2009/<'
+         b'/a></p>\n<p>IMPORTANT DUE DATES<br />\nAug. 16, 2008: Full paper s'
+         b'ubmission<br />\nOct. 11, 2008: Author notification<br />\nOct. 25'
+         b', 2008: Camera-ready copy<br />\nMar. 8-12, 2009: ACM SAC in Hawa'
+         b'ii, USA</p>\n<p> <a href="http://mobblog.cs.ucl.ac.uk/2008/06/05/'
+         b'acm-sac-2009/#more-189" class="more-link">(more&hellip;)</a></p>'
+         b'\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata"> Posted in <a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/category/conference/" title="View a'
+         b'll posts in conference" rel="category tag">conference</a>, <a href="'
+         b'http://mobblog.cs.ucl.ac.uk/category/recommender-systems/" title="Vi'
+         b'ew all posts in recommender systems" rel="category tag">recommender '
+         b'systems</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/trust/" t'
+         b'itle="View all posts in trust" rel="category tag">trust</a> |   <spa'
+         b'n>Comments Closed</span></p>\n\n\t\t\t</div>\n\n\t\t\t\t<div class='
+         b'"post-187 post type-post status-publish format-standard hentry categ'
+         b'ory-conference category-event category-reputation category-trust'
+         b'">\n\t\t\t\t<h3 id="post-187"><a href="http://mobblog.cs.ucl.ac.u'
+         b'k/2008/06/04/conference-on-reputation/" rel="bookmark" title="Perman'
+         b'ent Link to Conference on Reputation">Conference on Reputation</a></'
+         b'h3>\n\t\t\t\t<small>Wednesday, June 4th, 2008</small>\n\n\t\t\t\t<d'
+         b'iv class="entry">\n\t\t\t\t\t<p>First International <a href="http:'
+         b'//www.reputation09.net">Conference on  Reputation</a></p>\n<p><st'
+         b'rong>What: </strong>Work on  Reputation from a  multidisciplinary st'
+         b'andpoint</p>\n<p><strong>Where:</strong> Tuscany, Italy</p>\n<p><s'
+         b'trong>When:</strong> March 2009</p>\n\t\t\t\t</div>\n\n\t\t\t\t<p c'
+         b'lass="postmetadata"> Posted in <a href="http://mobblog.cs.ucl.ac.uk/'
+         b'category/conference/" title="View all posts in conference" rel="cate'
+         b'gory tag">conference</a>, <a href="http://mobblog.cs.ucl.ac.uk/categ'
+         b'ory/event/" title="View all posts in event" rel="category tag">event'
+         b'</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/reputation/" tit'
+         b'le="View all posts in reputation" rel="category tag">reputation</a>,'
+         b' <a href="http://mobblog.cs.ucl.ac.uk/category/trust/" title="View a'
+         b'll posts in trust" rel="category tag">trust</a> |   <span>Comments C'
+         b'losed</span></p>\n\n\t\t\t</div>\n\n\t\t\n\t\t<div class="navigation'
+         b'">\n\t\t\t<div class="alignleft"><a href="http://mobblog.cs.ucl.ac.u'
+         b'k/category/trust/page/2/" >&laquo; Older Entries</a></div>\n\t\t\t<d'
+         b'iv class="alignright"></div>\n\t\t</div>\n\t\t</div>\n\n\t<div id'
+         b'="sidebar" role="complementary">\n\t\t<ul>\n\t\t\t\t\t\t<li>\n\t'
+         b'\t\t\t<form role="search" method="get" id="searchform" class="searc'
+         b'hform" action="http://mobblog.cs.ucl.ac.uk/">\n\t\t\t\t<div>\n'
+         b'\t\t\t\t\t<label class="screen-reader-text" for="s">Search for:</'
+         b'label>\n\t\t\t\t\t<input type="text" value="" name="s" id="s" />\n\t'
+         b'\t\t\t\t<input type="submit" id="searchsubmit" value="Search" />'
+         b'\n\t\t\t\t</div>\n\t\t\t</form>\t\t\t</li>\n\n\t\t\t<!-- Author i'
+         b'nformation is disabled per default. Uncomment and fill in your detai'
+         b'ls if you want to use it.\n\t\t\t<li><h2>Author</h2>\n\t\t\t<p>A lit'
+         b'tle something about you, the author. Nothing lengthy, just an overvi'
+         b'ew.</p>\n\t\t\t</li>\n\t\t\t-->\n\n\t\t\t <li>\n\n\t\t\t\t\t\t<p>'
+         b'You are currently browsing the archives for the trust category.<'
+         b'/p>\n\n\t\t\t\n\t\t\t\t</ul>\n\t\t<ul role="navigation">\n\t\t\t<'
+         b'li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-'
+         b'166"><a href="http://mobblog.cs.ucl.ac.uk/conferencesworkshops/">Con'
+         b'ferences/Workshops</a></li>\n<li class="page_item page-item-58"><'
+         b'a href="http://mobblog.cs.ucl.ac.uk/datasets/">Datasets</a></li>'
+         b'\n<li class="page_item page-item-92"><a href="http://mobblog.cs.u'
+         b'cl.ac.uk/how-to-subscribe/">Get Involved</a></li>\n<li class="pag'
+         b'e_item page-item-1124"><a href="http://mobblog.cs.ucl.ac.uk/tools/">'
+         b'Tools</a></li>\n</ul></li>\n\t\t\t<li><h2>Archives</h2>\n\t\t\t\t<'
+         b"ul>\n\t\t\t\t\t<li><a href='http://mobblog.cs.ucl.ac.uk/2013/11/'>"
+         b"November 2013</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk"
+         b"/2013/10/'>October 2013</a></li>\n\t<li><a href='http://mobblog.cs"
+         b".ucl.ac.uk/2013/08/'>August 2013</a></li>\n\t<li><a href='http://m"
+         b"obblog.cs.ucl.ac.uk/2013/05/'>May 2013</a></li>\n\t<li><a href='ht"
+         b"tp://mobblog.cs.ucl.ac.uk/2013/04/'>April 2013</a></li>\n\t<li><a "
+         b"href='http://mobblog.cs.ucl.ac.uk/2013/03/'>March 2013</a></li>\n"
+         b"\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/12/'>December 201"
+         b"2</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/11/'>N"
+         b"ovember 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/"
+         b"2012/09/'>September 2012</a></li>\n\t<li><a href='http://mobblog.c"
+         b"s.ucl.ac.uk/2012/08/'>August 2012</a></li>\n\t<li><a href='http://"
+         b"mobblog.cs.ucl.ac.uk/2012/07/'>July 2012</a></li>\n\t<li><a href='"
+         b"http://mobblog.cs.ucl.ac.uk/2012/06/'>June 2012</a></li>\n\t<li><a"
+         b" href='http://mobblog.cs.ucl.ac.uk/2012/04/'>April 2012</a></li>"
+         b"\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/03/'>March 2012<"
+         b"/a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/02/'>Feb"
+         b"ruary 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/20"
+         b"12/01/'>January 2012</a></li>\n\t<li><a href='http://mobblog.cs.uc"
+         b"l.ac.uk/2011/12/'>December 2011</a></li>\n\t<li><a href='http://mo"
+         b"bblog.cs.ucl.ac.uk/2011/05/'>May 2011</a></li>\n\t<li><a href='htt"
+         b"p://mobblog.cs.ucl.ac.uk/2011/04/'>April 2011</a></li>\n\t<li><a h"
+         b"ref='http://mobblog.cs.ucl.ac.uk/2011/03/'>March 2011</a></li>\n\t"
+         b"<li><a href='http://mobblog.cs.ucl.ac.uk/2011/01/'>January 2011</a><"
+         b"/li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/12/'>Decembe"
+         b"r 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/1"
+         b"0/'>October 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac"
+         b".uk/2010/09/'>September 2010</a></li>\n\t<li><a href='http://mobbl"
+         b"og.cs.ucl.ac.uk/2010/08/'>August 2010</a></li>\n\t<li><a href='htt"
+         b"p://mobblog.cs.ucl.ac.uk/2010/07/'>July 2010</a></li>\n\t<li><a hr"
+         b"ef='http://mobblog.cs.ucl.ac.uk/2010/05/'>May 2010</a></li>\n\t<li"
+         b"><a href='http://mobblog.cs.ucl.ac.uk/2010/04/'>April 2010</a></"
+         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/03/'>March 20"
+         b"10</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/02/'>"
+         b"February 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk"
+         b"/2010/01/'>January 2010</a></li>\n\t<li><a href='http://mobblog.cs"
+         b".ucl.ac.uk/2009/11/'>November 2009</a></li>\n\t<li><a href='http:/"
+         b"/mobblog.cs.ucl.ac.uk/2009/10/'>October 2009</a></li>\n\t<li><a hr"
+         b"ef='http://mobblog.cs.ucl.ac.uk/2009/09/'>September 2009</a></li"
+         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/08/'>August 200"
+         b"9</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/07/'>J"
+         b"uly 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009"
+         b"/06/'>June 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac."
+         b"uk/2009/05/'>May 2009</a></li>\n\t<li><a href='http://mobblog.cs.u"
+         b"cl.ac.uk/2009/04/'>April 2009</a></li>\n\t<li><a href='http://mobb"
+         b"log.cs.ucl.ac.uk/2009/03/'>March 2009</a></li>\n\t<li><a href='htt"
+         b"p://mobblog.cs.ucl.ac.uk/2009/02/'>February 2009</a></li>\n\t<li><"
+         b"a href='http://mobblog.cs.ucl.ac.uk/2009/01/'>January 2009</a></"
+         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/12/'>December"
+         b" 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/11"
+         b"/'>November 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac"
+         b".uk/2008/10/'>October 2008</a></li>\n\t<li><a href='http://mobblog"
+         b".cs.ucl.ac.uk/2008/09/'>September 2008</a></li>\n\t<li><a href='ht"
+         b"tp://mobblog.cs.ucl.ac.uk/2008/08/'>August 2008</a></li>\n\t<li><a"
+         b" href='http://mobblog.cs.ucl.ac.uk/2008/07/'>July 2008</a></li>\n"
+         b"\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/06/'>June 2008</a"
+         b"></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/05/'>May 2"
+         b"008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/04/'"
+         b">April 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2"
+         b"008/03/'>March 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl"
+         b".ac.uk/2008/02/'>February 2008</a></li>\n\t<li><a href='http://mob"
+         b"blog.cs.ucl.ac.uk/2008/01/'>January 2008</a></li>\n\t<li><a href='"
+         b"http://mobblog.cs.ucl.ac.uk/2007/12/'>December 2007</a></li>\n\t<l"
+         b"i><a href='http://mobblog.cs.ucl.ac.uk/2007/11/'>November 2007</a></"
+         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/10/'>October "
+         b"2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/09/"
+         b"'>September 2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac"
+         b".uk/2007/08/'>August 2007</a></li>\n\t<li><a href='http://mobblog."
+         b"cs.ucl.ac.uk/2007/07/'>July 2007</a></li>\n\t<li><a href='http://m"
+         b"obblog.cs.ucl.ac.uk/2007/06/'>June 2007</a></li>\n\t<li><a href='h"
+         b"ttp://mobblog.cs.ucl.ac.uk/2007/05/'>May 2007</a></li>\n\t<li><a h"
+         b"ref='http://mobblog.cs.ucl.ac.uk/2007/02/'>February 2007</a></li"
+         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/01/'>January 20"
+         b"07</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2006/12/'>"
+         b"December 2006</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk"
+         b"/2006/11/'>November 2006</a></li>\n\t\t\t\t</ul>\n\t\t\t</li>"
+         b'\n\n\t\t\t<li class="categories"><h2>Categories</h2><ul>\t<li clas'
+         b's="cat-item cat-item-94"><a href="http://mobblog.cs.ucl.ac.uk/catego'
+         b'ry/api/" title="View all posts filed under api">api</a> (1)\n</li'
+         b'>\n\t<li class="cat-item cat-item-69"><a href="http://mobblog.cs.u'
+         b'cl.ac.uk/category/applications/" title="View all posts filed under a'
+         b'pplications">applications</a> (2)\n</li>\n\t<li class="cat-item cat'
+         b'-item-47"><a href="http://mobblog.cs.ucl.ac.uk/category/award/" titl'
+         b'e="View all posts filed under award">award</a> (4)\n</li>\n\t<li cl'
+         b'ass="cat-item cat-item-84"><a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/bad-science/" title="View all posts filed under bad-science">ba'
+         b'd-science</a> (2)\n</li>\n\t<li class="cat-item cat-item-50"><a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/book/" title="View all posts'
+         b' filed under book">book</a> (2)\n</li>\n\t<li class="cat-item cat-i'
+         b'tem-29"><a href="http://mobblog.cs.ucl.ac.uk/category/bootstrapping/'
+         b'" title="View all posts filed under bootstrapping">bootstrapping</a>'
+         b' (4)\n</li>\n\t<li class="cat-item cat-item-91"><a href="http://mob'
+         b'blog.cs.ucl.ac.uk/category/business-model/" title="View all posts fi'
+         b'led under business-model">business-model</a> (1)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-99"><a href="http://mobblog.cs.ucl.ac.uk/catego'
+         b'ry/censorship/" title="View all posts filed under censorship">censor'
+         b'ship</a> (2)\n</li>\n\t<li class="cat-item cat-item-6"><a href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/category/conference/" title="View all posts'
+         b' filed under conference">conference</a> (58)\n</li>\n\t<li class="c'
+         b'at-item cat-item-54"><a href="http://mobblog.cs.ucl.ac.uk/category/c'
+         b'ontext/" title="View all posts filed under context">context</a> '
+         b'(5)\n</li>\n\t<li class="cat-item cat-item-3"><a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/category/cooperation/" title="View all posts filed u'
+         b'nder cooperation">cooperation</a> (23)\n</li>\n\t<li class="cat-ite'
+         b'm cat-item-44"><a href="http://mobblog.cs.ucl.ac.uk/category/copyrig'
+         b'ht/" title="View all posts filed under copyright">copyright</a> '
+         b'(1)\n</li>\n\t<li class="cat-item cat-item-93"><a href="http://mobb'
+         b'log.cs.ucl.ac.uk/category/course/" title="View all posts filed under'
+         b' course">course</a> (1)\n</li>\n\t<li class="cat-item cat-item-89">'
+         b'<a href="http://mobblog.cs.ucl.ac.uk/category/crowdsourcing/" title='
+         b'"View all posts filed under crowdsourcing">crowdsourcing</a> (8)'
+         b'\n</li>\n\t<li class="cat-item cat-item-30"><a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/dataset/" title="View all posts filed under d'
+         b'ataset">dataset</a> (24)\n</li>\n\t<li class="cat-item cat-item-33"'
+         b'><a href="http://mobblog.cs.ucl.ac.uk/category/developing/" title="V'
+         b'iew all posts filed under developing">developing</a> (9)\n</li>\n\t'
+         b'<li class="cat-item cat-item-92"><a href="http://mobblog.cs.ucl.ac.u'
+         b'k/category/development/" title="View all posts filed under developme'
+         b'nt">development</a> (2)\n</li>\n\t<li class="cat-item cat-item-83">'
+         b'<a href="http://mobblog.cs.ucl.ac.uk/category/dunbar-number/" title='
+         b'"View all posts filed under dunbar-number">dunbar-number</a> (2)'
+         b'\n</li>\n\t<li class="cat-item cat-item-76"><a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/econometrics/" title="View all posts filed un'
+         b'der econometrics">econometrics</a> (1)\n</li>\n\t<li class="cat-ite'
+         b'm cat-item-34"><a href="http://mobblog.cs.ucl.ac.uk/category/educati'
+         b'on/" title="View all posts filed under education">education</a> (11)'
+         b'\n</li>\n\t<li class="cat-item cat-item-31"><a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/emergency/" title="View all posts filed under'
+         b' emergency">emergency</a> (4)\n</li>\n\t<li class="cat-item cat-ite'
+         b'm-57"><a href="http://mobblog.cs.ucl.ac.uk/category/evaluation/" tit'
+         b'le="View all posts filed under evaluation">evaluation</a> (14)\n<'
+         b'/li>\n\t<li class="cat-item cat-item-46"><a href="http://mobblog.c'
+         b's.ucl.ac.uk/category/event/" title="View all posts filed under event'
+         b'">event</a> (41)\n</li>\n\t<li class="cat-item cat-item-81"><a href'
+         b'="http://mobblog.cs.ucl.ac.uk/category/failure/" title="View all pos'
+         b'ts filed under failure">failure</a> (6)\n</li>\n\t<li class="cat-it'
+         b'em cat-item-52"><a href="http://mobblog.cs.ucl.ac.uk/category/free/"'
+         b' title="View all posts filed under free">free</a> (7)\n</li>\n\t<li'
+         b' class="cat-item cat-item-65"><a href="http://mobblog.cs.ucl.ac.uk/c'
+         b'ategory/future/" title="View all posts filed under future">future</a'
+         b'> (7)\n</li>\n\t<li class="cat-item cat-item-96"><a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/category/geo-research/" title="View all posts fil'
+         b'ed under geo-research">geo-research</a> (2)\n</li>\n\t<li class="ca'
+         b't-item cat-item-97"><a href="http://mobblog.cs.ucl.ac.uk/category/ge'
+         b'ography/" title="View all posts filed under geography">geography</a>'
+         b' (3)\n</li>\n\t<li class="cat-item cat-item-80"><a href="http://mob'
+         b'blog.cs.ucl.ac.uk/category/group/" title="View all posts filed under'
+         b' group">group</a> (3)\n</li>\n\t<li class="cat-item cat-item-62"><a'
+         b' href="http://mobblog.cs.ucl.ac.uk/category/homophily/" title="View '
+         b'all posts filed under homophily">homophily</a> (5)\n</li>\n\t<li cl'
+         b'ass="cat-item cat-item-87"><a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/how-to/" title="View all posts filed under how-to">how-to</a> ('
+         b'1)\n</li>\n\t<li class="cat-item cat-item-19"><a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/category/identity/" title="View all posts filed unde'
+         b'r identity">identity</a> (5)\n</li>\n\t<li class="cat-item cat-item'
+         b'-13"><a href="http://mobblog.cs.ucl.ac.uk/category/industry/" title='
+         b'"View all posts filed under industry">industry</a> (54)\n</li>\n\t<'
+         b'li class="cat-item cat-item-56"><a href="http://mobblog.cs.ucl.ac.uk'
+         b'/category/info-overload/" title="View all posts filed under info-ove'
+         b'rload">info-overload</a> (8)\n</li>\n\t<li class="cat-item cat-item'
+         b'-88"><a href="http://mobblog.cs.ucl.ac.uk/category/informal-networks'
+         b'/" title="View all posts filed under informal-networks">informal-net'
+         b'works</a> (4)\n</li>\n\t<li class="cat-item cat-item-51"><a href="h'
+         b'ttp://mobblog.cs.ucl.ac.uk/category/innovation/" title="View all pos'
+         b'ts filed under innovation">innovation</a> (2)\n</li>\n\t<li class="'
+         b'cat-item cat-item-79"><a href="http://mobblog.cs.ucl.ac.uk/category/'
+         b'lbs/" title="View all posts filed under LBS">LBS</a> (6)\n</li>\n\t'
+         b'<li class="cat-item cat-item-12"><a href="http://mobblog.cs.ucl.ac.u'
+         b'k/category/legal/" title="View all posts filed under legal">legal</a'
+         b'> (4)\n</li>\n\t<li class="cat-item cat-item-22"><a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/category/meeting/" title="View all posts filed un'
+         b'der meeting">meeting</a> (7)\n</li>\n\t<li class="cat-item cat-item'
+         b'-77"><a href="http://mobblog.cs.ucl.ac.uk/category/methodology/" tit'
+         b'le="View all posts filed under methodology">methodology</a> (2)\n'
+         b'</li>\n\t<li class="cat-item cat-item-5"><a href="http://mobblog.c'
+         b's.ucl.ac.uk/category/mobile/" title="View all posts filed under mobi'
+         b'le">mobile</a> (85)\n</li>\n\t<li class="cat-item cat-item-86"><a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/category/ontology/" title="View all'
+         b' posts filed under ontology">ontology</a> (1)\n</li>\n\t<li class="'
+         b'cat-item cat-item-78"><a href="http://mobblog.cs.ucl.ac.uk/category/'
+         b'open/" title="View all posts filed under open">open</a> (3)\n</li'
+         b'>\n\t<li class="cat-item cat-item-48"><a href="http://mobblog.cs.u'
+         b'cl.ac.uk/category/openings/" title="View all posts filed under openi'
+         b'ngs">openings</a> (3)\n</li>\n\t<li class="cat-item cat-item-27"><a'
+         b' href="http://mobblog.cs.ucl.ac.uk/category/p2p/" title="View all po'
+         b'sts filed under p2p">p2p</a> (3)\n</li>\n\t<li class="cat-item cat-'
+         b'item-11"><a href="http://mobblog.cs.ucl.ac.uk/category/paper/" title'
+         b'="View all posts filed under paper">paper</a> (42)\n</li>\n\t<li cl'
+         b'ass="cat-item cat-item-98"><a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/phycology/" title="View all posts filed under Phycology">Phycol'
+         b'ogy</a> (2)\n</li>\n\t<li class="cat-item cat-item-35"><a href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/category/post-as-you-go/" title="View all p'
+         b'osts filed under post-as-you-go">post-as-you-go</a> (1)\n</li>\n\t<'
+         b'li class="cat-item cat-item-10"><a href="http://mobblog.cs.ucl.ac.uk'
+         b'/category/prediction/" title="View all posts filed under prediction"'
+         b'>prediction</a> (10)\n</li>\n\t<li class="cat-item cat-item-14"><a '
+         b'href="http://mobblog.cs.ucl.ac.uk/category/privacy/" title="View all'
+         b' posts filed under privacy">privacy</a> (20)\n</li>\n\t<li class="c'
+         b'at-item cat-item-60"><a href="http://mobblog.cs.ucl.ac.uk/category/p'
+         b'roject/" title="View all posts filed under project">project</a> (11)'
+         b'\n</li>\n\t<li class="cat-item cat-item-37"><a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/propagation/" title="View all posts filed und'
+         b'er propagation">propagation</a> (3)\n</li>\n\t<li class="cat-item c'
+         b'at-item-7"><a href="http://mobblog.cs.ucl.ac.uk/category/recommendat'
+         b'ions/" title="View all posts filed under recommendations">recommenda'
+         b'tions</a> (18)\n</li>\n\t<li class="cat-item cat-item-25"><a href="'
+         b'http://mobblog.cs.ucl.ac.uk/category/recommender-systems/" title="Vi'
+         b'ew all posts filed under recommender systems">recommender systems</a'
+         b'> (52)\n</li>\n\t<li class="cat-item cat-item-18"><a href="http://m'
+         b'obblog.cs.ucl.ac.uk/category/reputation/" title="View all posts file'
+         b'd under reputation">reputation</a> (17)\n</li>\n\t<li class="cat-it'
+         b'em cat-item-8"><a href="http://mobblog.cs.ucl.ac.uk/category/researc'
+         b'h/" title="View all posts filed under research">research</a> (17'
+         b'6)\n</li>\n\t<li class="cat-item cat-item-16"><a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/category/rfid/" title="View all posts filed under rf'
+         b'id">rfid</a> (4)\n</li>\n\t<li class="cat-item cat-item-32"><a href'
+         b'="http://mobblog.cs.ucl.ac.uk/category/search/" title="View all post'
+         b's filed under search">search</a> (6)\n</li>\n\t<li class="cat-item '
+         b'cat-item-23"><a href="http://mobblog.cs.ucl.ac.uk/category/security/'
+         b'" title="View all posts filed under security">security</a> (16)\n'
+         b'</li>\n\t<li class="cat-item cat-item-9"><a href="http://mobblog.c'
+         b's.ucl.ac.uk/category/sensor/" title="View all posts filed under sens'
+         b'or">sensor</a> (12)\n</li>\n\t<li class="cat-item cat-item-4"><a hr'
+         b'ef="http://mobblog.cs.ucl.ac.uk/category/sharing/" title="View all p'
+         b'osts filed under sharing">sharing</a> (21)\n</li>\n\t<li class="cat'
+         b'-item cat-item-55"><a href="http://mobblog.cs.ucl.ac.uk/category/soc'
+         b'ial/" title="View all posts filed under social">social</a> (7)\n<'
+         b'/li>\n\t<li class="cat-item cat-item-2"><a href="http://mobblog.cs'
+         b'.ucl.ac.uk/category/social-networks/" title="View all posts filed un'
+         b'der social networks">social networks</a> (92)\n</li>\n\t<li class="'
+         b'cat-item cat-item-24"><a href="http://mobblog.cs.ucl.ac.uk/category/'
+         b'sociology/" title="View all posts filed under sociology">sociology</'
+         b'a> (13)\n</li>\n\t<li class="cat-item cat-item-40"><a href="http://'
+         b'mobblog.cs.ucl.ac.uk/category/spam/" title="View all posts filed und'
+         b'er spam">spam</a> (4)\n</li>\n\t<li class="cat-item cat-item-53"><a'
+         b' href="http://mobblog.cs.ucl.ac.uk/category/swarming/" title="View a'
+         b'll posts filed under swarming">swarming</a> (2)\n</li>\n\t<li class'
+         b'="cat-item cat-item-82"><a href="http://mobblog.cs.ucl.ac.uk/categor'
+         b'y/sybil-attacks/" title="View all posts filed under sybil-attacks">s'
+         b'ybil-attacks</a> (1)\n</li>\n\t<li class="cat-item cat-item-28"><a '
+         b'href="http://mobblog.cs.ucl.ac.uk/category/tags/" title="View all po'
+         b'sts filed under tags">tags</a> (13)\n</li>\n\t<li class="cat-item c'
+         b'at-item-17"><a href="http://mobblog.cs.ucl.ac.uk/category/talk/" tit'
+         b'le="View all posts filed under talk">talk</a> (18)\n</li>\n\t<li cl'
+         b'ass="cat-item cat-item-85"><a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/taxonomy/" title="View all posts filed under taxonomy">taxonomy'
+         b'</a> (3)\n</li>\n\t<li class="cat-item cat-item-103"><a href="http:'
+         b'//mobblog.cs.ucl.ac.uk/category/transportation/" title="View all pos'
+         b'ts filed under transportation">transportation</a> (1)\n</li>\n\t<li'
+         b' class="cat-item cat-item-36 current-cat"><a href="http://mobblog.cs'
+         b'.ucl.ac.uk/category/trust/" title="View all posts filed under trust"'
+         b'>trust</a> (30)\n</li>\n\t<li class="cat-item cat-item-90"><a href='
+         b'"http://mobblog.cs.ucl.ac.uk/category/twitter/" title="View all post'
+         b's filed under twitter">twitter</a> (2)\n</li>\n\t<li class="cat-ite'
+         b'm cat-item-49"><a href="http://mobblog.cs.ucl.ac.uk/category/ubicomp'
+         b'/" title="View all posts filed under ubicomp">ubicomp</a> (14)\n<'
+         b'/li>\n\t<li class="cat-item cat-item-64"><a href="http://mobblog.c'
+         b's.ucl.ac.uk/category/ubicomp2008/" title="View all posts filed under'
+         b' ubicomp2008">ubicomp2008</a> (3)\n</li>\n\t<li class="cat-item cat'
+         b'-item-95"><a href="http://mobblog.cs.ucl.ac.uk/category/ucl/" title='
+         b'"View all posts filed under ucl">ucl</a> (1)\n</li>\n\t<li class="c'
+         b'at-item cat-item-15"><a href="http://mobblog.cs.ucl.ac.uk/category/v'
+         b'ehicular/" title="View all posts filed under vehicular">vehicular</a'
+         b'> (13)\n</li>\n\t<li class="cat-item cat-item-26"><a href="http://m'
+         b'obblog.cs.ucl.ac.uk/category/web-20/" title="View all posts filed un'
+         b'der web 2.0">web 2.0</a> (32)\n</li>\n</ul></li>\t\t</ul>\n\t\t<ul>'
+         b'\n\t\t\t\n\t\t\t\t\t</ul>\n\t</div>\n\n\n\n<hr />\n<div id="foote'
+         b'r" role="contentinfo">\n<!-- If you\'d like to support WordPress, '
+         b'having the "powered by" link somewhere on your blog is the best way;'
+         b" it's our only promotion or advertising. -->\n\t<p>\n\t\tMobBlog "
+         b'is proudly powered by <a href="http://wordpress.org/">WordPress<'
+         b'/a>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entries ('
+         b'RSS)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comments/feed/">Co'
+         b'mments (RSS)</a>.\t\t<!-- 28 queries. 1.459 seconds. -->\n\t</p>'
+         b'\n</div>\n</div>\n\n<!-- Gorgeous design by Michael Heilemann - http'
+         b'://binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
+ 'links': [2740,
+           3063,
+           3064,
+           3065,
+           2910,
+           3066,
+           2849,
+           2850,
+           2862,
+           2901,
+           3067,
+           3053,
+           3068,
+           2865,
+           2880,
+           2894,
+           2754,
+           2961,
+           2877,
+           2883,
+           2884,
+           2890,
+           2893,
+           2915,
+           2916,
+           3069,
+           3070,
+           2859,
+           2982,
+           2983,
+           2984,
+           2985,
+           2986,
+           2987,
+           2766,
+           2872,
+           2912,
+           2913,
+           2963,
+           3028,
+           2899,
+           3017,
+           3018,
+           3071,
+           3043,
+           3072,
+           2889,
+           2897,
+           3073,
+           3074,
+           3075,
+           2771,
+           2772,
+           2773,
+           2774,
+           2775,
+           2776,
+           2777,
+           2778,
+           2779,
+           2780,
+           2781,
+           2782,
+           2783,
+           2784,
+           2785,
+           2786,
+           2787,
+           2788,
+           2789,
+           2790,
+           2791,
+           2792,
+           2793,
+           2794,
+           2795,
+           2796,
+           2797,
+           2798,
+           2799,
+           2800,
+           2801,
+           2802,
+           2803,
+           2804,
+           2805,
+           2806,
+           2807,
+           2808,
+           2809,
+           2810,
+           2811,
+           2812,
+           2813,
+           2814,
+           2815,
+           2816,
+           2817,
+           2818,
+           2819,
+           2820,
+           2821,
+           2822,
+           2823,
+           2824,
+           2825,
+           2826,
+           2827,
+           2828,
+           2829,
+           2830,
+           2831,
+           2832,
+           2833,
+           2834,
+           2835,
+           2836,
+           2837,
+           2838,
+           2839,
+           2840,
+           2841,
+           2842,
+           2843,
+           2844,
+           2845,
+           2846,
+           2847,
+           2848,
+           2851,
+           2852,
+           2853,
+           2854,
+           2855,
+           2856,
+           2857,
+           2858,
+           2860,
+           2861,
+           2863,
+           2864,
+           2866,
+           2867,
+           2868,
+           2869,
+           2870,
+           2871,
+           2873,
+           2874,
+           2875,
+           2876,
+           2878,
+           2879,
+           2881,
+           2882,
+           2885,
+           2886,
+           2887,
+           2888,
+           2891,
+           2892,
+           2895,
+           2896,
+           2898,
+           2900,
+           2902,
+           2903,
+           2904,
+           2905,
+           2906,
+           2907,
+           2908,
+           2909,
+           2911,
+           2914,
+           2917,
+           2918],
+ 'pid': 2910,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/category/trust/'}

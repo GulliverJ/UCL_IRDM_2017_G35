@@ -1,0 +1,44 @@
+{'html': b'<!DOCTYPE html>\n\t<!--[if IE 8]>\n\t\t<html xmlns="http://www.w3'
+         b'.org/1999/xhtml" class="ie8" lang="en-US">\n\t<![endif]-->\n\t<!--[i'
+         b'f !(IE 8) ]><!-->\n\t\t<html xmlns="http://www.w3.org/1999/xhtml" l'
+         b'ang="en-US">\n\t<!--<![endif]-->\n\t<head>\n\t<meta http-equiv="Co'
+         b'ntent-Type" content="text/html; charset=UTF-8" />\n\t<title>MobBlo'
+         b"g &rsaquo; Lost Password</title>\n\t<link rel='stylesheet' id='ope"
+         b"n-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300"
+         b'italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2'
+         b"Clatin-ext&#038;ver=3.8.1' type='text/css' media='all' />\n<link "
+         b"rel='stylesheet' id='dashicons-css'  href='http://mobblog.cs.ucl.ac."
+         b"uk/wp-includes/css/dashicons.min.css?ver=3.8.1' type='text/css' medi"
+         b"a='all' />\n<link rel='stylesheet' id='wp-admin-css'  href='http:"
+         b"//mobblog.cs.ucl.ac.uk/wp-admin/css/wp-admin.min.css?ver=3.8.1' type"
+         b"='text/css' media='all' />\n<link rel='stylesheet' id='buttons-cs"
+         b"s'  href='http://mobblog.cs.ucl.ac.uk/wp-includes/css/buttons.min.cs"
+         b"s?ver=3.8.1' type='text/css' media='all' />\n<link rel='styleshee"
+         b"t' id='colors-fresh-css'  href='http://mobblog.cs.ucl.ac.uk/wp-admin"
+         b"/css/colors.min.css?ver=3.8.1' type='text/css' media='all' />\n<!"
+         b"--[if lte IE 7]>\n<link rel='stylesheet' id='ie-css'  href='http:"
+         b"//mobblog.cs.ucl.ac.uk/wp-admin/css/ie.min.css?ver=3.8.1' type='text"
+         b"/css' media='all' />\n<![endif]-->\n<meta name='robots' content='n"
+         b'oindex,follow\' />\n\t</head>\n\t<body class="login login-action-'
+         b'lostpassword wp-core-ui">\n\t<div id="login">\n\t\t<h1><a href="h'
+         b'ttp://wordpress.org/" title="Powered by WordPress">MobBlog</a></'
+         b'h1>\n\t<p class="message">Please enter your username or email addr'
+         b'ess. You will receive a link to create a new password via email.</p>'
+         b'\n\n<form name="lostpasswordform" id="lostpasswordform" action="ht'
+         b'tp://mobblog.cs.ucl.ac.uk/wp-login.php?action=lostpassword" method="'
+         b'post">\n\t<p>\n\t\t<label for="user_login" >Username or E-mail:<b'
+         b'r />\n\t\t<input type="text" name="user_login" id="user_login" clas'
+         b's="input" value="" size="20" /></label>\n\t</p>\n\t\t<input type='
+         b'"hidden" name="redirect_to" value="" />\n\t<p class="submit"><inpu'
+         b't type="submit" name="wp-submit" id="wp-submit" class="button button'
+         b'-primary button-large" value="Get New Password" /></p>\n</form>\n\n'
+         b'<p id="nav">\n<a href="http://mobblog.cs.ucl.ac.uk/wp-login.php">'
+         b'Log in</a>\n</p>\n\n\t<p id="backtoblog"><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/" title="Are you lost?">&larr; Back to MobBlog</a></p>'
+         b'\n\t\n\t</div>\n\n\t\t<script type="text/javascript">\n\ttry{docum'
+         b"ent.getElementById('user_login').focus();}catch(e){}\n\tif(typeof "
+         b"wpOnload=='function')wpOnload();\n\t</script>\n\t\n\t\t<div cla"
+         b'ss="clear"></div>\n\t</body>\n\t</html>\n\t',
+ 'links': [2919, 2740],
+ 'pid': 2920,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/wp-login.php?action=lostpassword'}

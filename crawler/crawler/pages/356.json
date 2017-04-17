@@ -1,3 +1,0 @@
-{'html': '#VRML V2.0 utf8\n\n\nTransform {\n   translation 0 -20 0\n   children [\n   ]\n}\n\n\n\nDEF TRANS Transform {\n   children [\n      DEF UCL_BOX Shape {\n\t appearance Appearance {\n\t    texture ImageTexture {\n\t       url ["logo.jpeg"]\n\t    }\n\t }\n\t geometry Box {\n\t    size 2 2 2 \n\t }\n      }\n     ]\n}\n\nDEF TIMER TimeSensor {\n   loop TRUE\n   cycleInterval 2.0\n}\n\nDEF ROTATOR OrientationInterpolator {\n   key [0, 0.5, 1.0]\n   keyValue [0 1 0 0, 0 1 0 3.141, 0 1 0 6.282]\n}\n\nROUTE TIMER.fraction_changed TO ROTATOR.set_fraction\nROUTE ROTATOR.value_changed TO TRANS.rotation\n\n\n',
- 'pid': 356,
- 'url': 'http://www0.cs.ucl.ac.uk/staff/A.Steed/book_tmp/CGVE/code/vrml/rotator.wrl'}

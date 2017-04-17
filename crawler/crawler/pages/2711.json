@@ -1,0 +1,15 @@
+{'html': b'@inproceedings{Pece:2013,\r\n author = {Pece, Fabrizio and Steptoe'
+         b', William and Wanner, Fabian and Julier, Simon and Weyrich, Tim and '
+         b'Kautz, Jan and Steed, Anthony},\r\n title = {Panoinserts: mobile s'
+         b'patial teleconferencing},\r\n booktitle = {Proceedings of the SIGC'
+         b'HI Conference on Human Factors in Computing Systems},\r\n series ='
+         b" {CHI '13},\r\n year = {2013},\r\n isbn = {978-1-4503-1899-0},\r\n"
+         b' location = {Paris, France},\r\n pages = {1319--1328},\r\n numpages '
+         b'= {10},\r\n url = {http://doi.acm.org/10.1145/2470654.2466173},\r\n '
+         b'doi = {10.1145/2470654.2466173},\r\n acmid = {2466173},\r\n publishe'
+         b'r = {ACM},\r\n address = {New York, NY, USA},\r\n keywords = {camera'
+         b' tracking, mixed reality, mobile phones, panoramas, remote collabora'
+         b'tion, teleconferencing, telepresence},\r\n}',
+ 'links': [],
+ 'pid': 2711,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/F.Pece/publications/bibtex/panoinserts.bib'}

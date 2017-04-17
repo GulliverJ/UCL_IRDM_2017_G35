@@ -1,0 +1,28 @@
+{'html': b'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"\n\txmlns:'
+         b'content="http://purl.org/rss/1.0/modules/content/"\n\txmlns:dc="ht'
+         b'tp://purl.org/dc/elements/1.1/"\n\txmlns:atom="http://www.w3.org/2'
+         b'005/Atom"\n\txmlns:sy="http://purl.org/rss/1.0/modules/syndication'
+         b'/"\n\t\n\t>\n<channel>\n\t<title>Comments on: Mobblog. One Year.</t'
+         b'itle>\n\t<atom:link href="http://mobblog.cs.ucl.ac.uk/2007/11/25/m'
+         b'obblog-one-year/feed/" rel="self" type="application/rss+xml" />\n'
+         b'\t<link>http://mobblog.cs.ucl.ac.uk/2007/11/25/mobblog-one-year/<'
+         b'/link>\n\t<description>Research:  Smart Cities &#38; Data Mining &'
+         b'#38; Social Media</description>\n\t<lastBuildDate>Mon, 28 Jun 2010'
+         b' 22:46:44 +0000</lastBuildDate>\n\t\t<sy:updatePeriod>hourly</sy:up'
+         b'datePeriod>\n\t\t<sy:updateFrequency>1</sy:updateFrequency>\n\t<g'
+         b'enerator>http://wordpress.org/?v=3.8.1</generator>\n\t<item>\n\t'
+         b'\t<title>By: MobBlog &#187; Mobblog Introspection</title>\n\t\t<link'
+         b'>http://mobblog.cs.ucl.ac.uk/2007/11/25/mobblog-one-year/#comment-17'
+         b'86</link>\n\t\t<dc:creator><![CDATA[MobBlog &#187; Mobblog Introspe'
+         b'ction]]></dc:creator>\n\t\t<pubDate>Mon, 03 Mar 2008 20:30:51 +0000'
+         b'</pubDate>\n\t\t<guid isPermaLink="false">http://mobblog.cs.ucl.ac.'
+         b'uk/2007/11/25/mobblog-one-year/#comment-1786</guid>\n\t\t<descripti'
+         b'on><![CDATA[[...] a while ago I announced that this blog was a year '
+         b'old, and circulated an survey to see what people think of it. Here a'
+         b're the [...]]]></description>\n\t\t<content:encoded><![CDATA[<p>[..'
+         b'.] a while ago I announced that this blog was a year old, and circul'
+         b'ated an survey to see what people think of it. Here are the [...]</p'
+         b'>\n]]></content:encoded>\n\t</item>\n</channel>\n</rss>\n',
+ 'links': [],
+ 'pid': 3246,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2007/11/25/mobblog-one-year/feed/'}

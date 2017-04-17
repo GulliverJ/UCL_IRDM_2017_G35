@@ -1,0 +1,119 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Solving Research Problems '
+         b'&laquo;  MobBlog</title>\n\n<link rel="stylesheet" href="http://mo'
+         b'bblog.cs.ucl.ac.uk/wp-content/themes/default/style.css" type="text/c'
+         b'ss" media="screen" />\n<link rel="pingback" href="http://mobblog.'
+         b'cs.ucl.ac.uk/xmlrpc.php" />\n\n<style type="text/css" media="scree'
+         b'n">\n\n\t#page { background: url("http://mobblog.cs.ucl.ac.uk/wp-co'
+         b'ntent/themes/default/images/kubrickbgwide.jpg") repeat-y top; border'
+         b': none; }\n\n</style>\n\n \n\n<link rel="alternate" type="applicat'
+         b'ion/rss+xml" title="MobBlog &raquo; Feed" href="http://mobblog.cs.uc'
+         b'l.ac.uk/feed/" />\n<link rel="alternate" type="application/rss+xm'
+         b'l" title="MobBlog &raquo; Comments Feed" href="http://mobblog.cs.ucl'
+         b'.ac.uk/comments/feed/" />\n<link rel="alternate" type="applicatio'
+         b'n/rss+xml" title="MobBlog &raquo; Solving Research Problems Comments'
+         b' Feed" href="http://mobblog.cs.ucl.ac.uk/2008/09/09/solving-research'
+         b'-problems/feed/" />\n<script type=\'text/javascript\' src=\'http://m'
+         b"obblog.cs.ucl.ac.uk/wp-includes/js/comment-reply.min.js?ver=3.8.1'><"
+         b'/script>\n<link rel="EditURI" type="application/rsd+xml" title="R'
+         b'SD" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.php?rsd" />\n<link r'
+         b'el="wlwmanifest" type="application/wlwmanifest+xml" href="http://mob'
+         b'blog.cs.ucl.ac.uk/wp-includes/wlwmanifest.xml" /> \n<link rel=\'pr'
+         b"ev' title='Semantic- Social Networks' href='http://mobblog.cs.ucl.ac"
+         b".uk/2008/09/05/semantic-social-networks/' />\n<link rel='next' ti"
+         b"tle='Talks @ OII' href='http://mobblog.cs.ucl.ac.uk/2008/09/12/talks"
+         b'-oii/\' />\n<meta name="generator" content="WordPress 3.8.1" />\n<l'
+         b"ink rel='canonical' href='http://mobblog.cs.ucl.ac.uk/2008/09/09/sol"
+         b"ving-research-problems/' />\n<link rel='shortlink' href='http://m"
+         b'obblog.cs.ucl.ac.uk/?p=273\' />\n</head>\n<body class="single singl'
+         b'e-post postid-273 single-format-standard">\n<div id="page">\n\n\n<di'
+         b'v id="header" role="banner">\n\t<div id="headerimg">\n\t\t<h1><a '
+         b'href="http://mobblog.cs.ucl.ac.uk/">MobBlog</a></h1>\n\t\t<div clas'
+         b's="description">Research:  Smart Cities &amp; Data Mining &amp; Soci'
+         b'al Media</div>\n\t</div>\n</div>\n<hr />\n\n\t<div id="content" cla'
+         b'ss="widecolumn" role="main">\n\n\t\n\t\t<div class="navigation">\n\t'
+         b'\t\t<div class="alignleft"><a href="http://mobblog.cs.ucl.ac.uk/20'
+         b'08/09/05/semantic-social-networks/" rel="prev">&laquo; Semantic- Soc'
+         b'ial Networks</a></div>\n\t\t\t<div class="alignright"><a href="http:'
+         b'//mobblog.cs.ucl.ac.uk/2008/09/12/talks-oii/" rel="next">Talks @ OII'
+         b' &raquo;</a></div>\n\t\t</div>\n\n\t\t<div class="post-273 post typ'
+         b'e-post status-publish format-standard hentry category-evaluation cat'
+         b'egory-research category-search" id="post-273">\n\t\t\t<h2>Solving Re'
+         b'search Problems</h2>\n\n\t\t\t<div class="entry">\n\t\t\t\t<p>Ther'
+         b'e&#8217;s an interesting post on <a href="http://www.techcrunch.com/'
+         b'2008/09/07/is-search-really-90-solved/">techcrunch</a> based on a co'
+         b'mment by Google&#8217;s Marissa Mayer, who apparently said that sear'
+         b'ch is &#8220;90-95% solved.&#8221; Regardless of the context in whic'
+         b'h this comment was made, the post&#8217;s response is that the probl'
+         b'em is not solved: it then outlines a number of areas where informati'
+         b'on retrieval has yet to succeed. However, (reminiscent of a short qu'
+         b'estion that appeared in the panels of <a href="http://mobblog.cs.ucl'
+         b'.ac.uk/2007/10/23/recsys-2007/">RecSys 2007</a>) there are other que'
+         b'stions to ask: when is ANY research question &#8220;solved?&#8221; W'
+         b'hat does it mean for a problem (like information retrieval or collab'
+         b'orative filtering) to be &#8220;solved?&#8221;</p>\n<p>Thoughts?<'
+         b'/p>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t<p class="postmetadata alt">\n\t'
+         b'\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\tThis entry was posted on'
+         b' Tuesday, September 9th, 2008 at 1:35 pm and is filed under <a href='
+         b'"http://mobblog.cs.ucl.ac.uk/category/evaluation/" title="View all p'
+         b'osts in evaluation" rel="category tag">evaluation</a>, <a href="http'
+         b'://mobblog.cs.ucl.ac.uk/category/research/" title="View all posts in'
+         b' research" rel="category tag">research</a>, <a href="http://mobblog.'
+         b'cs.ucl.ac.uk/category/search/" title="View all posts in search" rel='
+         b'"category tag">search</a>.\t\t\t\t\t\tYou can follow any responses'
+         b" to this entry through the <a href='http://mobblog.cs.ucl.ac.uk/2008"
+         b"/09/09/solving-research-problems/feed/'>RSS 2.0</a> feed. \n\n"
+         b'\t\t\t\t\t\t\t\t\t\t\t\t\tBoth comments and pings are currently c'
+         b'losed.\n\t\t\t\t\t\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>\n\n\t\t\t</d'
+         b'iv>\n\t\t</div>\n\n\t\n<!-- You can start editing here. -->\n\n\t<'
+         b'h3 id="comments">One Response to &#8220;Solving Research Problems&#8'
+         b'221;</h3>\n\n\t<div class="navigation">\n\t\t<div class="alignleft'
+         b'"></div>\n\t\t<div class="alignright"></div>\n\t</div>\n\n\t<ol clas'
+         b's="commentlist">\n\t\t\t<li class="comment byuser comment-author-dqu'
+         b'ercia even thread-even depth-1" id="comment-4998">\n\t\t\t\t<div '
+         b'id="div-comment-4998" class="comment-body">\n\t\t\t\t<div class="'
+         b'comment-author vcard">\n\t\t\t<img alt=\'\' src=\'http://0.gravatar'
+         b'.com/avatar/236123076d9bcfb6c8fd55f0874f8d3a?s=32&amp;d=http%3A%2F%2'
+         b'F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32'
+         b"&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' "
+         b'/>\t\t\t<cite class="fn"><a href=\'http://www.cs.ucl.ac.uk/staff/d.q'
+         b"uercia/' rel='external nofollow' class='url'>Daniele Quercia</a></ci"
+         b'te> <span class="says">says:</span>\t\t</div>\n\t\t\n\t\t<div class='
+         b'"comment-meta commentmetadata"><a href="http://mobblog.cs.ucl.ac.uk/'
+         b'2008/09/09/solving-research-problems/#comment-4998">\n\t\t\tSeptembe'
+         b'r 10, 2008 at 9:43 am</a>\t\t</div>\n\n\t\t<p>I guess one can  say'
+         b' whether a problem is solved or not if the problem is a theoretical '
+         b'one (e.g., solving Fermat&#8217;s Last Theorem). It&#8217;s more dif'
+         b'ficult (read: impossible) to do so for practical problems <img src="'
+         b'http://mobblog.cs.ucl.ac.uk/wp-includes/images/smilies/icon_smile.gi'
+         b'f" alt=":-)" class="wp-smiley" /> </p>\n\n\t\t<div class="reply"'
+         b'>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</li><!-- #comment-## -->'
+         b'\n\t</ol>\n\n\t<div class="navigation">\n\t\t<div class="alignleft">'
+         b'</div>\n\t\t<div class="alignright"></div>\n\t</div>\n \n\n\n\t\n\t<'
+         b'/div>\n\n\n<hr />\n<div id="footer" role="contentinfo">\n<!-- If '
+         b'you\'d like to support WordPress, having the "powered by" link so'
+         b"mewhere on your blog is the best way; it's our only promotion or adv"
+         b'ertising. -->\n\t<p>\n\t\tMobBlog is proudly powered by <a href="'
+         b'http://wordpress.org/">WordPress</a>\t\t<br /><a href="http://mobb'
+         b'log.cs.ucl.ac.uk/feed/">Entries (RSS)</a> and <a href="http://mobblo'
+         b'g.cs.ucl.ac.uk/comments/feed/">Comments (RSS)</a>.\t\t<!-- 21 quer'
+         b'ies. 0.165 seconds. -->\n\t</p>\n</div>\n</div>\n\n<!-- Gorgeous d'
+         b'esign by Michael Heilemann - http://binarybonsai.com/kubrick/ --'
+         b'>\n\n\t\t</body>\n</html>\n',
+ 'links': [2740,
+           2965,
+           2964,
+           3137,
+           2861,
+           2754,
+           2896,
+           3172,
+           3023,
+           3168,
+           2917,
+           2918],
+ 'pid': 3168,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2008/09/09/solving-research-problems/'}

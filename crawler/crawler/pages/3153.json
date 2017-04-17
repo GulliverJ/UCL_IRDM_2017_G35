@@ -1,0 +1,539 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>online reviews &laquo;  Mo'
+         b'bBlog</title>\n\n<link rel="stylesheet" href="http://mobblog.cs.uc'
+         b'l.ac.uk/wp-content/themes/default/style.css" type="text/css" media="'
+         b'screen" />\n<link rel="pingback" href="http://mobblog.cs.ucl.ac.u'
+         b'k/xmlrpc.php" />\n\n<style type="text/css" media="screen">\n\n\t#'
+         b'page { background: url("http://mobblog.cs.ucl.ac.uk/wp-content/theme'
+         b's/default/images/kubrickbg-ltr.jpg") repeat-y top; border: none;'
+         b' }\n\n</style>\n\n \n\n<link rel="alternate" type="application/rss'
+         b'+xml" title="MobBlog &raquo; Feed" href="http://mobblog.cs.ucl.ac.uk'
+         b'/feed/" />\n<link rel="alternate" type="application/rss+xml" titl'
+         b'e="MobBlog &raquo; Comments Feed" href="http://mobblog.cs.ucl.ac.uk/'
+         b'comments/feed/" />\n<link rel="alternate" type="application/rss+x'
+         b'ml" title="MobBlog &raquo; online reviews Tag Feed" href="http://mob'
+         b'blog.cs.ucl.ac.uk/tag/online-reviews/feed/" />\n<link rel="EditUR'
+         b'I" type="application/rsd+xml" title="RSD" href="http://mobblog.cs.uc'
+         b'l.ac.uk/xmlrpc.php?rsd" />\n<link rel="wlwmanifest" type="applica'
+         b'tion/wlwmanifest+xml" href="http://mobblog.cs.ucl.ac.uk/wp-includes/'
+         b'wlwmanifest.xml" /> \n<meta name="generator" content="WordPress 3'
+         b'.8.1" />\n</head>\n<body class="archive tag tag-online-reviews tag'
+         b'-74">\n<div id="page">\n\n\n<div id="header" role="banner">\n\t<di'
+         b'v id="headerimg">\n\t\t<h1><a href="http://mobblog.cs.ucl.ac.uk/">M'
+         b'obBlog</a></h1>\n\t\t<div class="description">Research:  Smart Citi'
+         b'es &amp; Data Mining &amp; Social Media</div>\n\t</div>\n</div>\n<hr'
+         b' />\n\n\t<div id="content" class="narrowcolumn" role="main">\n\n\t'
+         b'\t\n \t   \t  \t\t<h2 class="pagetitle">Posts Tagged &#8216;online'
+         b' reviews&#8217;</h2>\n \t  \n\n\t\t<div class="navigation">\n\t\t'
+         b'\t<div class="alignleft"></div>\n\t\t\t<div class="alignright"></'
+         b'div>\n\t\t</div>\n\n\t\t\t\t<div class="post-372 post type-post s'
+         b'tatus-publish format-standard hentry category-research tag-awareness'
+         b' tag-online-reviews tag-persuasiveness">\n\t\t\t\t<h3 id="post-37'
+         b'2"><a href="http://mobblog.cs.ucl.ac.uk/2008/11/21/do-online-reviews'
+         b'-really-matter/" rel="bookmark" title="Permanent Link to Do online r'
+         b'eviews *really* matter?">Do online reviews *really* matter?</a></h3>'
+         b'\n\t\t\t\t<small>Friday, November 21st, 2008</small>\n\n\t\t\t\t<di'
+         b'v class="entry">\n\t\t\t\t\t<p>It is some time since I started bei'
+         b'ng interesting in evaluating and in improving the &#8220;quality&#82'
+         b'21; of information that review and rating sites make available to th'
+         b'eir users. The word &#8220;quality&#8221; may be an indefinite buzz '
+         b'word, but behind it I imagine some less abstract concept like &#8220'
+         b';usefulness&#8221; and &#8220;persuasiveness&#8221;, and some prelim'
+         b'inary research questions as: &#8220;how much impact has that informa'
+         b'tion on users when they take a decision?&#8221; or &#8220;how can I '
+         b'help the user in exploiting at the best the online reviews data?&#82'
+         b'21;. Thousands of reviews (despite ordered by some importance criter'
+         b'ion) still force the user to a peer reading, and it may not be uncom'
+         b'mon that users read what they already expect to read.</p>\n<p>A p'
+         b'art from my thoughts, I have recently stepped into a paper that brin'
+         b'gs light to the topic. &#8220;<em>Do online reviews matter? An empir'
+         b'ical investigation of panel data</em>&#8221; by W. Duan, B. Gu and A'
+         b'. B. Whinston.</p>\n<p>It is an interesting study that examines t'
+         b'he persuasive effect and the awareness effect of online reviews on m'
+         b'ovie&#8217;s box office revenues. Persuasiveness is the quality of m'
+         b'aking someone believes to do something (by giving him good reasons t'
+         b'o do it), in this case, in buying a movie ticket. Awareness is the q'
+         b'uality of being informed of something, in this case, of the existenc'
+         b'e of a movie. The study&#8217;s outcome is, in the very synthesis, s'
+         b'urprising. On line reviews have no effect on box office revenues; th'
+         b'eir pervasive efficacy is almost zero. On the contrary the <em>volum'
+         b'e </em>of online posting, which makes more users be aware of the exi'
+         b'stence of a movie, clearly has an impact on box office revenues. Thi'
+         b's result has also another interesting consequence; the word-of-mouth'
+         b' (which understands the production of online reviews) seems to have '
+         b'more importance than the quality of the reviews themselves in moving'
+         b' users&#8217; decision to purchase a ticket.</p>\n<p>It is diffic'
+         b'ult, for me, to understand whether the efficacy of the word-of-mouth'
+         b' versus the quality of the information is something inherent to the '
+         b'human way of coping with information or it is not. But and limited t'
+         b'o the movie context, the paper shows that the information brought by'
+         b' online reviews is currently not useful as we would like. I see here'
+         b' very promising opportunities for future work, and we researcher sho'
+         b'uld try to investigate further into this direction.</p>\n<p>Gabri'
+         b'ele Lenzini</p>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata">'
+         b'Tags:<a href="http://mobblog.cs.ucl.ac.uk/tag/awareness/" rel="tag">'
+         b'awareness</a>, <a href="http://mobblog.cs.ucl.ac.uk/tag/online-revie'
+         b'ws/" rel="tag">online reviews</a>, <a href="http://mobblog.cs.ucl.ac'
+         b'.uk/tag/persuasiveness/" rel="tag">persuasiveness</a><br /> Posted i'
+         b'n <a href="http://mobblog.cs.ucl.ac.uk/category/research/" title="Vi'
+         b'ew all posts in research" rel="category tag">research</a> |   <a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/2008/11/21/do-online-reviews-really-m'
+         b'atter/#comments" title="Comment on Do online reviews *really* matter'
+         b'?">4 Comments &#187;</a></p>\n\n\t\t\t</div>\n\n\t\t\n\t\t<div class'
+         b'="navigation">\n\t\t\t<div class="alignleft"></div>\n\t\t\t<div clas'
+         b's="alignright"></div>\n\t\t</div>\n\t\t</div>\n\n\t<div id="sideb'
+         b'ar" role="complementary">\n\t\t<ul>\n\t\t\t\t\t\t<li>\n\t\t\t\t<for'
+         b'm role="search" method="get" id="searchform" class="searchform" acti'
+         b'on="http://mobblog.cs.ucl.ac.uk/">\n\t\t\t\t<div>\n\t\t\t\t\t<label'
+         b' class="screen-reader-text" for="s">Search for:</label>\n\t\t\t\t'
+         b'\t<input type="text" value="" name="s" id="s" />\n\t\t\t\t\t<input '
+         b'type="submit" id="searchsubmit" value="Search" />\n\t\t\t\t</div>'
+         b'\n\t\t\t</form>\t\t\t</li>\n\n\t\t\t<!-- Author information is disab'
+         b'led per default. Uncomment and fill in your details if you want to u'
+         b'se it.\n\t\t\t<li><h2>Author</h2>\n\t\t\t<p>A little something about'
+         b' you, the author. Nothing lengthy, just an overview.</p>\n\t\t\t</li'
+         b'>\n\t\t\t-->\n\n\t\t\t\t\t</ul>\n\t\t<ul role="navigation">\n\t\t'
+         b'\t<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page'
+         b'-item-166"><a href="http://mobblog.cs.ucl.ac.uk/conferencesworkshops'
+         b'/">Conferences/Workshops</a></li>\n<li class="page_item page-item'
+         b'-58"><a href="http://mobblog.cs.ucl.ac.uk/datasets/">Datasets</a></l'
+         b'i>\n<li class="page_item page-item-92"><a href="http://mobblog.cs'
+         b'.ucl.ac.uk/how-to-subscribe/">Get Involved</a></li>\n<li class="p'
+         b'age_item page-item-1124"><a href="http://mobblog.cs.ucl.ac.uk/tools/'
+         b'">Tools</a></li>\n</ul></li>\n\t\t\t<li><h2>Archives</h2>\n\t\t\t'
+         b"\t<ul>\n\t\t\t\t\t<li><a href='http://mobblog.cs.ucl.ac.uk/2013/11/"
+         b"'>November 2013</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac."
+         b"uk/2013/10/'>October 2013</a></li>\n\t<li><a href='http://mobblog."
+         b"cs.ucl.ac.uk/2013/08/'>August 2013</a></li>\n\t<li><a href='http:/"
+         b"/mobblog.cs.ucl.ac.uk/2013/05/'>May 2013</a></li>\n\t<li><a href='"
+         b"http://mobblog.cs.ucl.ac.uk/2013/04/'>April 2013</a></li>\n\t<li><"
+         b"a href='http://mobblog.cs.ucl.ac.uk/2013/03/'>March 2013</a></li"
+         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/12/'>December 2"
+         b"012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/11/'"
+         b">November 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.u"
+         b"k/2012/09/'>September 2012</a></li>\n\t<li><a href='http://mobblog"
+         b".cs.ucl.ac.uk/2012/08/'>August 2012</a></li>\n\t<li><a href='http:"
+         b"//mobblog.cs.ucl.ac.uk/2012/07/'>July 2012</a></li>\n\t<li><a href"
+         b"='http://mobblog.cs.ucl.ac.uk/2012/06/'>June 2012</a></li>\n\t<li>"
+         b"<a href='http://mobblog.cs.ucl.ac.uk/2012/04/'>April 2012</a></l"
+         b"i>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/03/'>March 201"
+         b"2</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/02/'>F"
+         b"ebruary 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/"
+         b"2012/01/'>January 2012</a></li>\n\t<li><a href='http://mobblog.cs."
+         b"ucl.ac.uk/2011/12/'>December 2011</a></li>\n\t<li><a href='http://"
+         b"mobblog.cs.ucl.ac.uk/2011/05/'>May 2011</a></li>\n\t<li><a href='h"
+         b"ttp://mobblog.cs.ucl.ac.uk/2011/04/'>April 2011</a></li>\n\t<li><a"
+         b" href='http://mobblog.cs.ucl.ac.uk/2011/03/'>March 2011</a></li>"
+         b"\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2011/01/'>January 201"
+         b"1</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/12/'>D"
+         b"ecember 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/"
+         b"2010/10/'>October 2010</a></li>\n\t<li><a href='http://mobblog.cs."
+         b"ucl.ac.uk/2010/09/'>September 2010</a></li>\n\t<li><a href='http:/"
+         b"/mobblog.cs.ucl.ac.uk/2010/08/'>August 2010</a></li>\n\t<li><a hre"
+         b"f='http://mobblog.cs.ucl.ac.uk/2010/07/'>July 2010</a></li>\n\t<li"
+         b"><a href='http://mobblog.cs.ucl.ac.uk/2010/05/'>May 2010</a></li"
+         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/04/'>April 2010"
+         b"</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/03/'>Ma"
+         b"rch 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010"
+         b"/02/'>February 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl"
+         b".ac.uk/2010/01/'>January 2010</a></li>\n\t<li><a href='http://mobb"
+         b"log.cs.ucl.ac.uk/2009/11/'>November 2009</a></li>\n\t<li><a href='"
+         b"http://mobblog.cs.ucl.ac.uk/2009/10/'>October 2009</a></li>\n\t<li"
+         b"><a href='http://mobblog.cs.ucl.ac.uk/2009/09/'>September 2009</a></"
+         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/08/'>August 2"
+         b"009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/07/'"
+         b">July 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/20"
+         b"09/06/'>June 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.a"
+         b"c.uk/2009/05/'>May 2009</a></li>\n\t<li><a href='http://mobblog.cs"
+         b".ucl.ac.uk/2009/04/'>April 2009</a></li>\n\t<li><a href='http://mo"
+         b"bblog.cs.ucl.ac.uk/2009/03/'>March 2009</a></li>\n\t<li><a href='h"
+         b"ttp://mobblog.cs.ucl.ac.uk/2009/02/'>February 2009</a></li>\n\t<li"
+         b"><a href='http://mobblog.cs.ucl.ac.uk/2009/01/'>January 2009</a></li"
+         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/12/'>December 2"
+         b"008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/11/'"
+         b">November 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.u"
+         b"k/2008/10/'>October 2008</a></li>\n\t<li><a href='http://mobblog.c"
+         b"s.ucl.ac.uk/2008/09/'>September 2008</a></li>\n\t<li><a href='http"
+         b"://mobblog.cs.ucl.ac.uk/2008/08/'>August 2008</a></li>\n\t<li><a h"
+         b"ref='http://mobblog.cs.ucl.ac.uk/2008/07/'>July 2008</a></li>\n\t<"
+         b"li><a href='http://mobblog.cs.ucl.ac.uk/2008/06/'>June 2008</a></li>"
+         b"\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/05/'>May 2008</a"
+         b"></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/04/'>April"
+         b" 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/03"
+         b"/'>March 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk"
+         b"/2008/02/'>February 2008</a></li>\n\t<li><a href='http://mobblog.c"
+         b"s.ucl.ac.uk/2008/01/'>January 2008</a></li>\n\t<li><a href='http:/"
+         b"/mobblog.cs.ucl.ac.uk/2007/12/'>December 2007</a></li>\n\t<li><a h"
+         b"ref='http://mobblog.cs.ucl.ac.uk/2007/11/'>November 2007</a></li"
+         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/10/'>October 20"
+         b"07</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/09/'>"
+         b"September 2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.u"
+         b"k/2007/08/'>August 2007</a></li>\n\t<li><a href='http://mobblog.cs"
+         b".ucl.ac.uk/2007/07/'>July 2007</a></li>\n\t<li><a href='http://mob"
+         b"blog.cs.ucl.ac.uk/2007/06/'>June 2007</a></li>\n\t<li><a href='htt"
+         b"p://mobblog.cs.ucl.ac.uk/2007/05/'>May 2007</a></li>\n\t<li><a hre"
+         b"f='http://mobblog.cs.ucl.ac.uk/2007/02/'>February 2007</a></li>\n"
+         b"\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/01/'>January 2007"
+         b"</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2006/12/'>De"
+         b"cember 2006</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2"
+         b"006/11/'>November 2006</a></li>\n\t\t\t\t</ul>\n\t\t\t</li>\n\n"
+         b'\t\t\t<li class="categories"><h2>Categories</h2><ul>\t<li class="cat'
+         b'-item cat-item-94"><a href="http://mobblog.cs.ucl.ac.uk/category/api'
+         b'/" title="View all posts filed under api">api</a> (1)\n</li>\n\t<li'
+         b' class="cat-item cat-item-69"><a href="http://mobblog.cs.ucl.ac.uk/c'
+         b'ategory/applications/" title="View all posts filed under application'
+         b's">applications</a> (2)\n</li>\n\t<li class="cat-item cat-item-47">'
+         b'<a href="http://mobblog.cs.ucl.ac.uk/category/award/" title="View al'
+         b'l posts filed under award">award</a> (4)\n</li>\n\t<li class="cat-i'
+         b'tem cat-item-84"><a href="http://mobblog.cs.ucl.ac.uk/category/bad-s'
+         b'cience/" title="View all posts filed under bad-science">bad-science<'
+         b'/a> (2)\n</li>\n\t<li class="cat-item cat-item-50"><a href="http://'
+         b'mobblog.cs.ucl.ac.uk/category/book/" title="View all posts filed und'
+         b'er book">book</a> (2)\n</li>\n\t<li class="cat-item cat-item-29"><a'
+         b' href="http://mobblog.cs.ucl.ac.uk/category/bootstrapping/" title="V'
+         b'iew all posts filed under bootstrapping">bootstrapping</a> (4)\n<'
+         b'/li>\n\t<li class="cat-item cat-item-91"><a href="http://mobblog.c'
+         b's.ucl.ac.uk/category/business-model/" title="View all posts filed un'
+         b'der business-model">business-model</a> (1)\n</li>\n\t<li class="cat'
+         b'-item cat-item-99"><a href="http://mobblog.cs.ucl.ac.uk/category/cen'
+         b'sorship/" title="View all posts filed under censorship">censorship</'
+         b'a> (2)\n</li>\n\t<li class="cat-item cat-item-6"><a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/category/conference/" title="View all posts filed'
+         b' under conference">conference</a> (58)\n</li>\n\t<li class="cat-ite'
+         b'm cat-item-54"><a href="http://mobblog.cs.ucl.ac.uk/category/context'
+         b'/" title="View all posts filed under context">context</a> (5)\n</'
+         b'li>\n\t<li class="cat-item cat-item-3"><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/category/cooperation/" title="View all posts filed under c'
+         b'ooperation">cooperation</a> (23)\n</li>\n\t<li class="cat-item cat-'
+         b'item-44"><a href="http://mobblog.cs.ucl.ac.uk/category/copyright/" t'
+         b'itle="View all posts filed under copyright">copyright</a> (1)\n</'
+         b'li>\n\t<li class="cat-item cat-item-93"><a href="http://mobblog.cs'
+         b'.ucl.ac.uk/category/course/" title="View all posts filed under cours'
+         b'e">course</a> (1)\n</li>\n\t<li class="cat-item cat-item-89"><a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/crowdsourcing/" title="View '
+         b'all posts filed under crowdsourcing">crowdsourcing</a> (8)\n</li>'
+         b'\n\t<li class="cat-item cat-item-30"><a href="http://mobblog.cs.uc'
+         b'l.ac.uk/category/dataset/" title="View all posts filed under dataset'
+         b'">dataset</a> (24)\n</li>\n\t<li class="cat-item cat-item-33"><a hr'
+         b'ef="http://mobblog.cs.ucl.ac.uk/category/developing/" title="View al'
+         b'l posts filed under developing">developing</a> (9)\n</li>\n\t<li cl'
+         b'ass="cat-item cat-item-92"><a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/development/" title="View all posts filed under development">de'
+         b'velopment</a> (2)\n</li>\n\t<li class="cat-item cat-item-83"><a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/dunbar-number/" title="View '
+         b'all posts filed under dunbar-number">dunbar-number</a> (2)\n</li>'
+         b'\n\t<li class="cat-item cat-item-76"><a href="http://mobblog.cs.uc'
+         b'l.ac.uk/category/econometrics/" title="View all posts filed under ec'
+         b'onometrics">econometrics</a> (1)\n</li>\n\t<li class="cat-item cat-'
+         b'item-34"><a href="http://mobblog.cs.ucl.ac.uk/category/education/" t'
+         b'itle="View all posts filed under education">education</a> (11)\n<'
+         b'/li>\n\t<li class="cat-item cat-item-31"><a href="http://mobblog.c'
+         b's.ucl.ac.uk/category/emergency/" title="View all posts filed under e'
+         b'mergency">emergency</a> (4)\n</li>\n\t<li class="cat-item cat-item-'
+         b'57"><a href="http://mobblog.cs.ucl.ac.uk/category/evaluation/" title'
+         b'="View all posts filed under evaluation">evaluation</a> (14)\n</l'
+         b'i>\n\t<li class="cat-item cat-item-46"><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/category/event/" title="View all posts filed under event">'
+         b'event</a> (41)\n</li>\n\t<li class="cat-item cat-item-81"><a href="'
+         b'http://mobblog.cs.ucl.ac.uk/category/failure/" title="View all posts'
+         b' filed under failure">failure</a> (6)\n</li>\n\t<li class="cat-item'
+         b' cat-item-52"><a href="http://mobblog.cs.ucl.ac.uk/category/free/" t'
+         b'itle="View all posts filed under free">free</a> (7)\n</li>\n\t<li c'
+         b'lass="cat-item cat-item-65"><a href="http://mobblog.cs.ucl.ac.uk/cat'
+         b'egory/future/" title="View all posts filed under future">future</a> '
+         b'(7)\n</li>\n\t<li class="cat-item cat-item-96"><a href="http://mobb'
+         b'log.cs.ucl.ac.uk/category/geo-research/" title="View all posts filed'
+         b' under geo-research">geo-research</a> (2)\n</li>\n\t<li class="cat-'
+         b'item cat-item-97"><a href="http://mobblog.cs.ucl.ac.uk/category/geog'
+         b'raphy/" title="View all posts filed under geography">geography</a> ('
+         b'3)\n</li>\n\t<li class="cat-item cat-item-80"><a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/category/group/" title="View all posts filed under g'
+         b'roup">group</a> (3)\n</li>\n\t<li class="cat-item cat-item-62"><a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/category/homophily/" title="View al'
+         b'l posts filed under homophily">homophily</a> (5)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-87"><a href="http://mobblog.cs.ucl.ac.uk/catego'
+         b'ry/how-to/" title="View all posts filed under how-to">how-to</a> (1)'
+         b'\n</li>\n\t<li class="cat-item cat-item-19"><a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/identity/" title="View all posts filed under '
+         b'identity">identity</a> (5)\n</li>\n\t<li class="cat-item cat-item-1'
+         b'3"><a href="http://mobblog.cs.ucl.ac.uk/category/industry/" title="V'
+         b'iew all posts filed under industry">industry</a> (54)\n</li>\n\t<li'
+         b' class="cat-item cat-item-56"><a href="http://mobblog.cs.ucl.ac.uk/c'
+         b'ategory/info-overload/" title="View all posts filed under info-overl'
+         b'oad">info-overload</a> (8)\n</li>\n\t<li class="cat-item cat-item-8'
+         b'8"><a href="http://mobblog.cs.ucl.ac.uk/category/informal-networks/"'
+         b' title="View all posts filed under informal-networks">informal-netwo'
+         b'rks</a> (4)\n</li>\n\t<li class="cat-item cat-item-51"><a href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/category/innovation/" title="View all posts'
+         b' filed under innovation">innovation</a> (2)\n</li>\n\t<li class="ca'
+         b't-item cat-item-79"><a href="http://mobblog.cs.ucl.ac.uk/category/lb'
+         b's/" title="View all posts filed under LBS">LBS</a> (6)\n</li>\n\t<l'
+         b'i class="cat-item cat-item-12"><a href="http://mobblog.cs.ucl.ac.uk/'
+         b'category/legal/" title="View all posts filed under legal">legal</a> '
+         b'(4)\n</li>\n\t<li class="cat-item cat-item-22"><a href="http://mobb'
+         b'log.cs.ucl.ac.uk/category/meeting/" title="View all posts filed unde'
+         b'r meeting">meeting</a> (7)\n</li>\n\t<li class="cat-item cat-item-7'
+         b'7"><a href="http://mobblog.cs.ucl.ac.uk/category/methodology/" title'
+         b'="View all posts filed under methodology">methodology</a> (2)\n</'
+         b'li>\n\t<li class="cat-item cat-item-5"><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/category/mobile/" title="View all posts filed under mobile'
+         b'">mobile</a> (85)\n</li>\n\t<li class="cat-item cat-item-86"><a hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/category/ontology/" title="View all p'
+         b'osts filed under ontology">ontology</a> (1)\n</li>\n\t<li class="ca'
+         b't-item cat-item-78"><a href="http://mobblog.cs.ucl.ac.uk/category/op'
+         b'en/" title="View all posts filed under open">open</a> (3)\n</li>\n'
+         b'\t<li class="cat-item cat-item-48"><a href="http://mobblog.cs.ucl'
+         b'.ac.uk/category/openings/" title="View all posts filed under opening'
+         b's">openings</a> (3)\n</li>\n\t<li class="cat-item cat-item-27"><a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/category/p2p/" title="View all post'
+         b's filed under p2p">p2p</a> (3)\n</li>\n\t<li class="cat-item cat-it'
+         b'em-11"><a href="http://mobblog.cs.ucl.ac.uk/category/paper/" title="'
+         b'View all posts filed under paper">paper</a> (42)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-98"><a href="http://mobblog.cs.ucl.ac.uk/catego'
+         b'ry/phycology/" title="View all posts filed under Phycology">Phycolog'
+         b'y</a> (2)\n</li>\n\t<li class="cat-item cat-item-35"><a href="http:'
+         b'//mobblog.cs.ucl.ac.uk/category/post-as-you-go/" title="View all pos'
+         b'ts filed under post-as-you-go">post-as-you-go</a> (1)\n</li>\n\t<li'
+         b' class="cat-item cat-item-10"><a href="http://mobblog.cs.ucl.ac.uk/c'
+         b'ategory/prediction/" title="View all posts filed under prediction">p'
+         b'rediction</a> (10)\n</li>\n\t<li class="cat-item cat-item-14"><a hr'
+         b'ef="http://mobblog.cs.ucl.ac.uk/category/privacy/" title="View all p'
+         b'osts filed under privacy">privacy</a> (20)\n</li>\n\t<li class="cat'
+         b'-item cat-item-60"><a href="http://mobblog.cs.ucl.ac.uk/category/pro'
+         b'ject/" title="View all posts filed under project">project</a> (1'
+         b'1)\n</li>\n\t<li class="cat-item cat-item-37"><a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/category/propagation/" title="View all posts filed u'
+         b'nder propagation">propagation</a> (3)\n</li>\n\t<li class="cat-item'
+         b' cat-item-7"><a href="http://mobblog.cs.ucl.ac.uk/category/recommend'
+         b'ations/" title="View all posts filed under recommendations">recommen'
+         b'dations</a> (18)\n</li>\n\t<li class="cat-item cat-item-25"><a href'
+         b'="http://mobblog.cs.ucl.ac.uk/category/recommender-systems/" title="'
+         b'View all posts filed under recommender systems">recommender systems<'
+         b'/a> (52)\n</li>\n\t<li class="cat-item cat-item-18"><a href="http:/'
+         b'/mobblog.cs.ucl.ac.uk/category/reputation/" title="View all posts fi'
+         b'led under reputation">reputation</a> (17)\n</li>\n\t<li class="cat-'
+         b'item cat-item-8"><a href="http://mobblog.cs.ucl.ac.uk/category/resea'
+         b'rch/" title="View all posts filed under research">research</a> (176)'
+         b'\n</li>\n\t<li class="cat-item cat-item-16"><a href="http://mobblog'
+         b'.cs.ucl.ac.uk/category/rfid/" title="View all posts filed under rfid'
+         b'">rfid</a> (4)\n</li>\n\t<li class="cat-item cat-item-32"><a href="'
+         b'http://mobblog.cs.ucl.ac.uk/category/search/" title="View all posts '
+         b'filed under search">search</a> (6)\n</li>\n\t<li class="cat-item ca'
+         b't-item-23"><a href="http://mobblog.cs.ucl.ac.uk/category/security/" '
+         b'title="View all posts filed under security">security</a> (16)\n</'
+         b'li>\n\t<li class="cat-item cat-item-9"><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/category/sensor/" title="View all posts filed under sensor'
+         b'">sensor</a> (12)\n</li>\n\t<li class="cat-item cat-item-4"><a href'
+         b'="http://mobblog.cs.ucl.ac.uk/category/sharing/" title="View all pos'
+         b'ts filed under sharing">sharing</a> (21)\n</li>\n\t<li class="cat-i'
+         b'tem cat-item-55"><a href="http://mobblog.cs.ucl.ac.uk/category/socia'
+         b'l/" title="View all posts filed under social">social</a> (7)\n</l'
+         b'i>\n\t<li class="cat-item cat-item-2"><a href="http://mobblog.cs.u'
+         b'cl.ac.uk/category/social-networks/" title="View all posts filed unde'
+         b'r social networks">social networks</a> (92)\n</li>\n\t<li class="ca'
+         b't-item cat-item-24"><a href="http://mobblog.cs.ucl.ac.uk/category/so'
+         b'ciology/" title="View all posts filed under sociology">sociology</a>'
+         b' (13)\n</li>\n\t<li class="cat-item cat-item-40"><a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/category/spam/" title="View all posts filed under'
+         b' spam">spam</a> (4)\n</li>\n\t<li class="cat-item cat-item-53"><a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/category/swarming/" title="View all'
+         b' posts filed under swarming">swarming</a> (2)\n</li>\n\t<li class="'
+         b'cat-item cat-item-82"><a href="http://mobblog.cs.ucl.ac.uk/category/'
+         b'sybil-attacks/" title="View all posts filed under sybil-attacks">syb'
+         b'il-attacks</a> (1)\n</li>\n\t<li class="cat-item cat-item-28"><a hr'
+         b'ef="http://mobblog.cs.ucl.ac.uk/category/tags/" title="View all post'
+         b's filed under tags">tags</a> (13)\n</li>\n\t<li class="cat-item cat'
+         b'-item-17"><a href="http://mobblog.cs.ucl.ac.uk/category/talk/" title'
+         b'="View all posts filed under talk">talk</a> (18)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-85"><a href="http://mobblog.cs.ucl.ac.uk/catego'
+         b'ry/taxonomy/" title="View all posts filed under taxonomy">taxonomy</'
+         b'a> (3)\n</li>\n\t<li class="cat-item cat-item-103"><a href="http://'
+         b'mobblog.cs.ucl.ac.uk/category/transportation/" title="View all posts'
+         b' filed under transportation">transportation</a> (1)\n</li>\n\t<li c'
+         b'lass="cat-item cat-item-36"><a href="http://mobblog.cs.ucl.ac.uk/cat'
+         b'egory/trust/" title="View all posts filed under trust">trust</a> (30'
+         b')\n</li>\n\t<li class="cat-item cat-item-90"><a href="http://mobblo'
+         b'g.cs.ucl.ac.uk/category/twitter/" title="View all posts filed under '
+         b'twitter">twitter</a> (2)\n</li>\n\t<li class="cat-item cat-item-49"'
+         b'><a href="http://mobblog.cs.ucl.ac.uk/category/ubicomp/" title="View'
+         b' all posts filed under ubicomp">ubicomp</a> (14)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-64"><a href="http://mobblog.cs.ucl.ac.uk/catego'
+         b'ry/ubicomp2008/" title="View all posts filed under ubicomp2008">ubic'
+         b'omp2008</a> (3)\n</li>\n\t<li class="cat-item cat-item-95"><a href='
+         b'"http://mobblog.cs.ucl.ac.uk/category/ucl/" title="View all posts fi'
+         b'led under ucl">ucl</a> (1)\n</li>\n\t<li class="cat-item cat-item-1'
+         b'5"><a href="http://mobblog.cs.ucl.ac.uk/category/vehicular/" title="'
+         b'View all posts filed under vehicular">vehicular</a> (13)\n</li>\n\t'
+         b'<li class="cat-item cat-item-26"><a href="http://mobblog.cs.ucl.ac.u'
+         b'k/category/web-20/" title="View all posts filed under web 2.0">web 2'
+         b'.0</a> (32)\n</li>\n</ul></li>\t\t</ul>\n\t\t<ul>\n\t\t\t\n\t'
+         b'\t\t\t\t</ul>\n\t</div>\n\n\n\n<hr />\n<div id="footer" role="conte'
+         b'ntinfo">\n<!-- If you\'d like to support WordPress, having the "po'
+         b'wered by" link somewhere on your blog is the best way; it\'s our '
+         b'only promotion or advertising. -->\n\t<p>\n\t\tMobBlog is proudly'
+         b' powered by <a href="http://wordpress.org/">WordPress</a>\t\t<br /'
+         b'><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entries (RSS)</a> and <'
+         b'a href="http://mobblog.cs.ucl.ac.uk/comments/feed/">Comments (RSS)</'
+         b'a>.\t\t<!-- 21 queries. 0.395 seconds. -->\n\t</p>\n</div>\n</div>'
+         b'\n\n<!-- Gorgeous design by Michael Heilemann - http://binarybonsa'
+         b'i.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
+ 'links': [2740,
+           3103,
+           3152,
+           3153,
+           3154,
+           2754,
+           2771,
+           2772,
+           2773,
+           2774,
+           2775,
+           2776,
+           2777,
+           2778,
+           2779,
+           2780,
+           2781,
+           2782,
+           2783,
+           2784,
+           2785,
+           2786,
+           2787,
+           2788,
+           2789,
+           2790,
+           2791,
+           2792,
+           2793,
+           2794,
+           2795,
+           2796,
+           2797,
+           2798,
+           2799,
+           2800,
+           2801,
+           2802,
+           2803,
+           2804,
+           2805,
+           2806,
+           2807,
+           2808,
+           2809,
+           2810,
+           2811,
+           2812,
+           2813,
+           2814,
+           2815,
+           2816,
+           2817,
+           2818,
+           2819,
+           2820,
+           2821,
+           2822,
+           2823,
+           2824,
+           2825,
+           2826,
+           2827,
+           2828,
+           2829,
+           2830,
+           2831,
+           2832,
+           2833,
+           2834,
+           2835,
+           2836,
+           2837,
+           2838,
+           2839,
+           2840,
+           2841,
+           2842,
+           2843,
+           2844,
+           2845,
+           2846,
+           2847,
+           2848,
+           2849,
+           2850,
+           2851,
+           2852,
+           2853,
+           2854,
+           2766,
+           2855,
+           2856,
+           2857,
+           2858,
+           2859,
+           2860,
+           2861,
+           2862,
+           2863,
+           2864,
+           2865,
+           2866,
+           2867,
+           2868,
+           2869,
+           2870,
+           2871,
+           2872,
+           2873,
+           2874,
+           2875,
+           2876,
+           2877,
+           2878,
+           2879,
+           2880,
+           2881,
+           2882,
+           2883,
+           2884,
+           2885,
+           2886,
+           2887,
+           2888,
+           2889,
+           2890,
+           2891,
+           2892,
+           2893,
+           2894,
+           2895,
+           2896,
+           2897,
+           2898,
+           2899,
+           2900,
+           2901,
+           2902,
+           2903,
+           2904,
+           2905,
+           2906,
+           2907,
+           2908,
+           2909,
+           2910,
+           2911,
+           2912,
+           2913,
+           2914,
+           2915,
+           2916,
+           2917,
+           2918],
+ 'pid': 3153,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/tag/online-reviews/'}

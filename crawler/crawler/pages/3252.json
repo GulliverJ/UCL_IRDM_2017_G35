@@ -1,0 +1,17 @@
+{'html': b'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"\n\txmlns:'
+         b'content="http://purl.org/rss/1.0/modules/content/"\n\txmlns:dc="ht'
+         b'tp://purl.org/dc/elements/1.1/"\n\txmlns:atom="http://www.w3.org/2'
+         b'005/Atom"\n\txmlns:sy="http://purl.org/rss/1.0/modules/syndication'
+         b'/"\n\t\n\t>\n<channel>\n\t<title>Comments on: ECML PKDD Discovery C'
+         b'hallenge 2008</title>\n\t<atom:link href="http://mobblog.cs.ucl.ac'
+         b'.uk/2008/05/09/ecml-pkdd-discovery-challenge-2008/feed/" rel="self" '
+         b'type="application/rss+xml" />\n\t<link>http://mobblog.cs.ucl.ac.uk'
+         b'/2008/05/09/ecml-pkdd-discovery-challenge-2008/</link>\n\t<descrip'
+         b'tion>Research:  Smart Cities &#38; Data Mining &#38; Social Media</d'
+         b'escription>\n\t<lastBuildDate>Mon, 28 Jun 2010 22:46:44 +0000</las'
+         b'tBuildDate>\n\t\t<sy:updatePeriod>hourly</sy:updatePeriod>\n\t\t<s'
+         b'y:updateFrequency>1</sy:updateFrequency>\n\t<generator>http://word'
+         b'press.org/?v=3.8.1</generator>\n</channel>\n</rss>\n',
+ 'links': [],
+ 'pid': 3252,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2008/05/09/ecml-pkdd-discovery-challenge-2008/feed/'}

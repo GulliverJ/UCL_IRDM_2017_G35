@@ -1,0 +1,72 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Netflix Prize: Recent Prop'
+         b'osals &laquo;  MobBlog</title>\n\n<link rel="stylesheet" href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/wp-content/themes/default/style.css" type="'
+         b'text/css" media="screen" />\n<link rel="pingback" href="http://mo'
+         b'bblog.cs.ucl.ac.uk/xmlrpc.php" />\n\n<style type="text/css" media='
+         b'"screen">\n\n\t#page { background: url("http://mobblog.cs.ucl.ac.uk'
+         b'/wp-content/themes/default/images/kubrickbgwide.jpg") repeat-y top; '
+         b'border: none; }\n\n</style>\n\n \n\n<link rel="alternate" type="ap'
+         b'plication/rss+xml" title="MobBlog &raquo; Feed" href="http://mobblog'
+         b'.cs.ucl.ac.uk/feed/" />\n<link rel="alternate" type="application/'
+         b'rss+xml" title="MobBlog &raquo; Comments Feed" href="http://mobblog.'
+         b'cs.ucl.ac.uk/comments/feed/" />\n<script type=\'text/javascript\' s'
+         b"rc='http://mobblog.cs.ucl.ac.uk/wp-includes/js/comment-reply.min.js?"
+         b'ver=3.8.1\'></script>\n<link rel="EditURI" type="application/rsd+x'
+         b'ml" title="RSD" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.php?rsd" />'
+         b'\n<link rel="wlwmanifest" type="application/wlwmanifest+xml" href'
+         b'="http://mobblog.cs.ucl.ac.uk/wp-includes/wlwmanifest.xml" /> \n<'
+         b"link rel='prev' title='Shopping Social Networks by ebay' href='http:"
+         b"//mobblog.cs.ucl.ac.uk/2007/10/11/shopping-social-networks-by-ebay/'"
+         b" />\n<link rel='next' title='RecSys 2007' href='http://mobblog.cs"
+         b'.ucl.ac.uk/2007/10/23/recsys-2007/\' />\n<meta name="generator" co'
+         b'ntent="WordPress 3.8.1" />\n<link rel=\'canonical\' href=\'http://mo'
+         b"bblog.cs.ucl.ac.uk/2007/10/18/netflix-prize-recent-proposals/' /"
+         b">\n<link rel='shortlink' href='http://mobblog.cs.ucl.ac.uk/?p=93'"
+         b' />\n</head>\n<body class="single single-post postid-93 single-for'
+         b'mat-standard">\n<div id="page">\n\n\n<div id="header" role="banner">'
+         b'\n\t<div id="headerimg">\n\t\t<h1><a href="http://mobblog.cs.ucl.'
+         b'ac.uk/">MobBlog</a></h1>\n\t\t<div class="description">Research:  S'
+         b'mart Cities &amp; Data Mining &amp; Social Media</div>\n\t</div>\n<'
+         b'/div>\n<hr />\n\n\t<div id="content" class="widecolumn" role="main">'
+         b'\n\n\t\n\t\t<div class="navigation">\n\t\t\t<div class="alignleft"'
+         b'><a href="http://mobblog.cs.ucl.ac.uk/2007/10/11/shopping-social-net'
+         b'works-by-ebay/" rel="prev">&laquo; Shopping Social Networks by ebay<'
+         b'/a></div>\n\t\t\t<div class="alignright"><a href="http://mobblog.cs.'
+         b'ucl.ac.uk/2007/10/23/recsys-2007/" rel="next">RecSys 2007 &raquo;</a'
+         b'></div>\n\t\t</div>\n\n\t\t<div class="post-93 post type-post statu'
+         b's-publish format-standard hentry category-recommender-systems catego'
+         b'ry-research" id="post-93">\n\t\t\t<h2>Netflix Prize: Recent Proposal'
+         b's</h2>\n\n\t\t\t<div class="entry">\n\t\t\t\t<p><a href="http://ww'
+         b'w.stat.columbia.edu/~cook/movabletype/archives/2007/10/epicurus_and_'
+         b'pr.html">Epicurus and Progress on Netflix Prize.</a> Very interestin'
+         b'g!</p>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t<p class="postmetadata alt"'
+         b'>\n\t\t\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\tThis entry was posted'
+         b' on Thursday, October 18th, 2007 at 12:24 pm and is filed under <a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/category/recommender-systems/" titl'
+         b'e="View all posts in recommender systems" rel="category tag">recomme'
+         b'nder systems</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/rese'
+         b'arch/" title="View all posts in research" rel="category tag">researc'
+         b'h</a>.\t\t\t\t\t\tYou can follow any responses to this entry throu'
+         b"gh the <a href='http://mobblog.cs.ucl.ac.uk/2007/10/18/netflix-prize"
+         b"-recent-proposals/feed/'>RSS 2.0</a> feed. \n\n\t\t\t\t\t\t\t"
+         b'\t\t\t\t\t\tBoth comments and pings are currently closed.\n\t\t\t\t'
+         b'\t\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>\n\n\t\t\t</div>\n\t\t</div'
+         b'>\n\n\t\n<!-- You can start editing here. -->\n\n\n\t\t\t<!-- If c'
+         b'omments are closed. -->\n\t\t<p class="nocomments">Comments are clo'
+         b'sed.</p>\n\n\t\n\n\n\t\n\t</div>\n\n\n<hr />\n<div id="footer" ro'
+         b'le="contentinfo">\n<!-- If you\'d like to support WordPress, havin'
+         b'g the "powered by" link somewhere on your blog is the best way; '
+         b"it's our only promotion or advertising. -->\n\t<p>\n\t\tMobBlog i"
+         b's proudly powered by <a href="http://wordpress.org/">WordPress</'
+         b'a>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entries (R'
+         b'SS)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comments/feed/">Com'
+         b'ments (RSS)</a>.\t\t<!-- 19 queries. 0.110 seconds. -->\n\t</p>\n'
+         b'</div>\n</div>\n\n<!-- Gorgeous design by Michael Heilemann - http:'
+         b'//binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
+ 'links': [2740, 3097, 3137, 2893, 2754, 3169, 2917, 2918],
+ 'pid': 3158,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2007/10/18/netflix-prize-recent-proposals/'}

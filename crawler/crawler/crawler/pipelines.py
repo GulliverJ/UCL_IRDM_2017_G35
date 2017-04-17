@@ -9,5 +9,5 @@
 class CrawlerPipeline(object):
     def process_item(self, item, spider):
         with open('./pages/%s.json' % item['pid'], "w+b") as f:
-            f.write(str(item))
+            f.write(str(item).encode())
         return item

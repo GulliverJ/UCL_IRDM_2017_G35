@@ -1,0 +1,193 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Recommender systems and Th'
+         b'e Long Tail &laquo;  MobBlog</title>\n\n<link rel="stylesheet" hre'
+         b'f="http://mobblog.cs.ucl.ac.uk/wp-content/themes/default/style.css" '
+         b'type="text/css" media="screen" />\n<link rel="pingback" href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/xmlrpc.php" />\n\n<style type="text/css" '
+         b'media="screen">\n\n\t#page { background: url("http://mobblog.cs.ucl'
+         b'.ac.uk/wp-content/themes/default/images/kubrickbgwide.jpg") repeat-y'
+         b' top; border: none; }\n\n</style>\n\n \n\n<link rel="alternate" ty'
+         b'pe="application/rss+xml" title="MobBlog &raquo; Feed" href="http://m'
+         b'obblog.cs.ucl.ac.uk/feed/" />\n<link rel="alternate" type="applic'
+         b'ation/rss+xml" title="MobBlog &raquo; Comments Feed" href="http://mo'
+         b'bblog.cs.ucl.ac.uk/comments/feed/" />\n<link rel="alternate" type'
+         b'="application/rss+xml" title="MobBlog &raquo; Recommender systems an'
+         b'd The Long Tail Comments Feed" href="http://mobblog.cs.ucl.ac.uk/200'
+         b'7/06/15/recommender-systems-and-the-long-tail/feed/" />\n<script '
+         b"type='text/javascript' src='http://mobblog.cs.ucl.ac.uk/wp-includes/"
+         b'js/comment-reply.min.js?ver=3.8.1\'></script>\n<link rel="EditURI"'
+         b' type="application/rsd+xml" title="RSD" href="http://mobblog.cs.ucl.'
+         b'ac.uk/xmlrpc.php?rsd" />\n<link rel="wlwmanifest" type="applicati'
+         b'on/wlwmanifest+xml" href="http://mobblog.cs.ucl.ac.uk/wp-includes/wl'
+         b'wmanifest.xml" /> \n<link rel=\'prev\' title=\'Participatory Sensing'
+         b" starts from Web 2.0' href='http://mobblog.cs.ucl.ac.uk/2007/06/08/p"
+         b"articipatory-sensing-starts-from-web-20/' />\n<link rel='next' ti"
+         b"tle='Mapping Small Worlds' href='http://mobblog.cs.ucl.ac.uk/2007/06"
+         b'/28/mapping-small-worlds/\' />\n<meta name="generator" content="Wo'
+         b'rdPress 3.8.1" />\n<link rel=\'canonical\' href=\'http://mobblog.cs.'
+         b"ucl.ac.uk/2007/06/15/recommender-systems-and-the-long-tail/' />\n"
+         b"<link rel='shortlink' href='http://mobblog.cs.ucl.ac.uk/?p=56' /"
+         b'>\n</head>\n<body class="single single-post postid-56 single-forma'
+         b't-standard">\n<div id="page">\n\n\n<div id="header" role="banner'
+         b'">\n\t<div id="headerimg">\n\t\t<h1><a href="http://mobblog.cs.uc'
+         b'l.ac.uk/">MobBlog</a></h1>\n\t\t<div class="description">Research: '
+         b' Smart Cities &amp; Data Mining &amp; Social Media</div>\n\t</div>'
+         b'\n</div>\n<hr />\n\n\t<div id="content" class="widecolumn" role="'
+         b'main">\n\n\t\n\t\t<div class="navigation">\n\t\t\t<div class="alig'
+         b'nleft"><a href="http://mobblog.cs.ucl.ac.uk/2007/06/08/participatory'
+         b'-sensing-starts-from-web-20/" rel="prev">&laquo; Participatory Sensi'
+         b'ng starts from Web 2.0</a></div>\n\t\t\t<div class="alignright"><a h'
+         b'ref="http://mobblog.cs.ucl.ac.uk/2007/06/28/mapping-small-worlds/" r'
+         b'el="next">Mapping Small Worlds &raquo;</a></div>\n\t\t</div>\n\n\t'
+         b'\t<div class="post-56 post type-post status-publish format-standa'
+         b'rd hentry category-recommendations category-recommender-systems cate'
+         b'gory-research" id="post-56">\n\t\t\t<h2>Recommender systems and The '
+         b'Long Tail</h2>\n\n\t\t\t<div class="entry">\n\t\t\t\t<p>The introd'
+         b'uction of TheLong Tail by Chris Anderson is available <a href="http:'
+         b'//64.13.209.91/longtail/LongTail_exclusiveExtract.pdf">online</a>! A'
+         b'nderson describes how recommender systems help you &#8216;navigate&#'
+         b'8217; the long tail. He then lists  (context-related, time-related) '
+         b'problems of music recommender systems:</p>\n<p>1) They tend to ru'
+         b'n out of suggestions pretty quickly as you dig deeper into a niche, '
+         b'where there may<br />\nbe few other people whose taste and prefer'
+         b'ences can be measured. Plus, many kinds of recommendations tend<br /'
+         b'>\nto be better for one genre than for another\xe2\x80\x94rock rec'
+         b'ommendations aren\xe2\x80\x99t useful for classical and vice vers'
+         b'a. In the old hit-driven model, one size fit all. In this new model,'
+         b' where niches and sub-niches are abundant, there\xe2\x80\x99s a n'
+         b'eed for specialization.</p>\n<p>2) Even where a service can provi'
+         b'de good suggestions and encourage you to explore a genre new to you,'
+         b' the advice often<br />\nstays the same over time. Come back a mo'
+         b'nth later, after you\xe2\x80\x99ve heard all the recommendations,'
+         b' and they\xe2\x80\x99re probably pretty much as they were. &#8230'
+         b'; You\xe2\x80\x99ll need another kind of filter to take you to yo'
+         b'ur next stop on your exploration.</p>\n<p>Points worthy of furthe'
+         b'r research <img src="http://mobblog.cs.ucl.ac.uk/wp-includes/images/'
+         b'smilies/icon_wink.gif" alt=";-)" class="wp-smiley" /> </p>\n\n'
+         b'\t\t\t\t\t\t\t\t\n\t\t\t\t<p class="postmetadata alt">\n\t\t\t\t\t<'
+         b'small>\n\t\t\t\t\t\t\t\t\t\t\t\tThis entry was posted on Friday, '
+         b'June 15th, 2007 at 4:51 pm and is filed under <a href="http://mobblo'
+         b'g.cs.ucl.ac.uk/category/recommendations/" title="View all posts in r'
+         b'ecommendations" rel="category tag">recommendations</a>, <a href="htt'
+         b'p://mobblog.cs.ucl.ac.uk/category/recommender-systems/" title="View '
+         b'all posts in recommender systems" rel="category tag">recommender sys'
+         b'tems</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/research/" t'
+         b'itle="View all posts in research" rel="category tag">research</a'
+         b'>.\t\t\t\t\t\tYou can follow any responses to this entry through t'
+         b"he <a href='http://mobblog.cs.ucl.ac.uk/2007/06/15/recommender-syste"
+         b"ms-and-the-long-tail/feed/'>RSS 2.0</a> feed. \n\n\t\t\t\t\t\t\t\t"
+         b'\t\t\t\t\tBoth comments and pings are currently closed.\n\t\t\t\t\t'
+         b'\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>\n\n\t\t\t</div>\n\t\t</div>'
+         b'\n\n\t\n<!-- You can start editing here. -->\n\n\t<h3 id="comments"'
+         b'>5 Responses to &#8220;Recommender systems and The Long Tail&#8221;<'
+         b'/h3>\n\n\t<div class="navigation">\n\t\t<div class="alignleft"></d'
+         b'iv>\n\t\t<div class="alignright"></div>\n\t</div>\n\n\t<ol class="co'
+         b'mmentlist">\n\t\t\t<li class="comment byuser comment-author-mike eve'
+         b'n thread-even depth-1" id="comment-1006">\n\t\t\t\t<div id="div-c'
+         b'omment-1006" class="comment-body">\n\t\t\t\t<div class="comment-a'
+         b'uthor vcard">\n\t\t\t<img alt=\'\' src=\'http://0.gravatar.com/avat'
+         b'ar/8f2706d55b5fd4ad48b7cd174f62f94b?s=32&amp;d=http%3A%2F%2F0.gravat'
+         b"ar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G'"
+         b" class='avatar avatar-32 photo' height='32' width='32' />\t\t\t<cit"
+         b'e class="fn"><a href=\'http://www.cs.ucl.ac.uk/staff/mrogers/\' re'
+         b'l=\'external nofollow\' class=\'url\'>mike</a></cite> <span class="s'
+         b'ays">says:</span>\t\t</div>\n\t\t\n\t\t<div class="comment-meta comm'
+         b'entmetadata"><a href="http://mobblog.cs.ucl.ac.uk/2007/06/15/recomme'
+         b'nder-systems-and-the-long-tail/#comment-1006">\n\t\t\tJune 15, 2007 '
+         b'at 8:20 pm</a>\t\t</div>\n\n\t\t<p>With regard to the second point'
+         b', it might be interesting to find out who bought the books I liked a'
+         b' month before I did, then find out what they bought this month.<'
+         b'/p>\n\n\t\t<div class="reply">\n\t\t\t\t\t</div>\n\t\t\t\t</div'
+         b'>\n\t\t</li><!-- #comment-## -->\n\t\t<li class="comment byuser co'
+         b'mment-author-dquercia bypostauthor odd alt thread-odd thread-alt dep'
+         b'th-1" id="comment-1007">\n\t\t\t\t<div id="div-comment-1007" clas'
+         b's="comment-body">\n\t\t\t\t<div class="comment-author vcard">'
+         b"\n\t\t\t<img alt='' src='http://0.gravatar.com/avatar/236123076d9bcf"
+         b'b6c8fd55f0874f8d3a?s=32&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2'
+         b"Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar av"
+         b'atar-32 photo\' height=\'32\' width=\'32\' />\t\t\t<cite class="fn">'
+         b"<a href='http://www.cs.ucl.ac.uk/staff/d.quercia/' rel='external nof"
+         b'ollow\' class=\'url\'>Daniele Quercia</a></cite> <span class="says"'
+         b'>says:</span>\t\t</div>\n\t\t\n\t\t<div class="comment-meta commentm'
+         b'etadata"><a href="http://mobblog.cs.ucl.ac.uk/2007/06/15/recommender'
+         b'-systems-and-the-long-tail/#comment-1007">\n\t\t\tJune 18, 2007 at 1'
+         b':24 pm</a>\t\t</div>\n\n\t\t<p>That\xc2\xb4s right. I guess it may b'
+         b'e well worth doing so by considering recently released items only.</'
+         b'p>\n\n\t\t<div class="reply">\n\t\t\t\t\t</div>\n\t\t\t\t</div>'
+         b'\n\t\t</li><!-- #comment-## -->\n\t\t<li class="comment byuser com'
+         b'ment-author-neal even thread-even depth-1" id="comment-1011">\n\t\t'
+         b'\t\t<div id="div-comment-1011" class="comment-body">\n\t\t\t\t<div '
+         b'class="comment-author vcard">\n\t\t\t<img alt=\'\' src=\'http://1.g'
+         b'ravatar.com/avatar/d8692b58c684ead06bbf6ef255161ab2?s=32&amp;d=http%'
+         b'3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3'
+         b"Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='3"
+         b'2\' />\t\t\t<cite class="fn"><a href=\'http://www.cs.ucl.ac.uk/st'
+         b"aff/n.lathia' rel='external nofollow' class='url'>neal</a></cite> <s"
+         b'pan class="says">says:</span>\t\t</div>\n\t\t\n\t\t<div class="comme'
+         b'nt-meta commentmetadata"><a href="http://mobblog.cs.ucl.ac.uk/2007/0'
+         b'6/15/recommender-systems-and-the-long-tail/#comment-1011">\n\t\t\tJu'
+         b'ne 23, 2007 at 12:03 pm</a>\t\t</div>\n\n\t\t<p>Or, rather than on'
+         b'ly recently released items, maybe the recommendation system should t'
+         b'ake into account what recommendations it has already given you? (and'
+         b', whether you acted on those recommendations or not?)</p>\n\n\t\t<di'
+         b'v class="reply">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</li><!-- '
+         b'#comment-## -->\n\t\t<li class="comment byuser comment-author-dquer'
+         b'cia bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-'
+         b'1012">\n\t\t\t\t<div id="div-comment-1012" class="comment-body">\n'
+         b'\t\t\t\t<div class="comment-author vcard">\n\t\t\t<img alt=\'\' sr'
+         b"c='http://0.gravatar.com/avatar/236123076d9bcfb6c8fd55f0874f8d3a?s=3"
+         b'2&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435ac'
+         b"c9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height="
+         b'\'32\' width=\'32\' />\t\t\t<cite class="fn"><a href=\'http://www.cs'
+         b".ucl.ac.uk/staff/d.quercia/' rel='external nofollow' class='url'>Dan"
+         b'iele Quercia</a></cite> <span class="says">says:</span>\t\t</div>\n'
+         b'\t\t\n\t\t<div class="comment-meta commentmetadata"><a href="http'
+         b'://mobblog.cs.ucl.ac.uk/2007/06/15/recommender-systems-and-the-long-'
+         b'tail/#comment-1012">\n\t\t\tJune 25, 2007 at 7:33 pm</a>\t\t</div>'
+         b'\n\n\t\t<p>Considering whether one acted upon the recommendations sh'
+         b'e received is a good idea. But would that address point 2? </p>\n'
+         b'\n\t\t<div class="reply">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t'
+         b'</li><!-- #comment-## -->\n\t\t<li class="pingback even thread-even'
+         b' depth-1" id="comment-1138">\n\t\t\t\t<div id="div-comment-1138" '
+         b'class="comment-body">\n\t\t\t\t<div class="comment-author vcard">'
+         b'\n\t\t\t\t\t\t<cite class="fn"><a href=\'http://mobblog.cs.ucl.ac.uk'
+         b"/2007/10/08/facebook-and-the-long-tail/' rel='external nofollow' cla"
+         b"ss='url'>MobBlog &raquo; Blog Archive &raquo; Facebook and the Long "
+         b'Tail</a></cite> <span class="says">says:</span>\t\t</div>\n\t\t\n\t'
+         b'\t<div class="comment-meta commentmetadata"><a href="http://mobbl'
+         b'og.cs.ucl.ac.uk/2007/06/15/recommender-systems-and-the-long-tail/#co'
+         b'mment-1138">\n\t\t\tOctober 8, 2007 at 9:32 pm</a>\t\t</div>\n\n'
+         b'\t\t<p>[...] previous posts we were discussing the long-tailed cha'
+         b'racteristic of music, books, and other physical items. It now [...]<'
+         b'/p>\n\n\t\t<div class="reply">\n\t\t\t\t\t</div>\n\t\t\t\t</div'
+         b'>\n\t\t</li><!-- #comment-## -->\n\t</ol>\n\n\t<div class="navigatio'
+         b'n">\n\t\t<div class="alignleft"></div>\n\t\t<div class="alignright'
+         b'"></div>\n\t</div>\n \n\n\n\t\n\t</div>\n\n\n<hr />\n<div id="foo'
+         b'ter" role="contentinfo">\n<!-- If you\'d like to support WordPress'
+         b', having the "powered by" link somewhere on your blog is the best wa'
+         b"y; it's our only promotion or advertising. -->\n\t<p>\n\t\tMobBlo"
+         b'g is proudly powered by <a href="http://wordpress.org/">WordPress</a'
+         b'>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entries (RS'
+         b'S)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comments/feed/">Comm'
+         b'ents (RSS)</a>.\t\t<!-- 23 queries. 0.229 seconds. -->\n\t</p>\n<'
+         b'/div>\n</div>\n\n<!-- Gorgeous design by Michael Heilemann - http:/'
+         b'/binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
+ 'links': [2740,
+           3204,
+           3205,
+           2892,
+           2893,
+           2754,
+           3206,
+           3037,
+           3181,
+           3023,
+           2736,
+           3170,
+           2917,
+           2918],
+ 'pid': 3181,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2007/06/15/recommender-systems-and-the-long-tail/'}

@@ -1,0 +1,148 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
+         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
+         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
+         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
+         b'"text/html; charset=UTF-8" />\n\n<title>Dataset and R code for our'
+         b' paper on genres/artists affinity &laquo;  MobBlog</title>\n\n<lin'
+         b'k rel="stylesheet" href="http://mobblog.cs.ucl.ac.uk/wp-content/them'
+         b'es/default/style.css" type="text/css" media="screen" />\n<link re'
+         b'l="pingback" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.php" />\n\n<'
+         b'style type="text/css" media="screen">\n\n\t#page { background: url('
+         b'"http://mobblog.cs.ucl.ac.uk/wp-content/themes/default/images/kubric'
+         b'kbgwide.jpg") repeat-y top; border: none; }\n\n</style>\n\n \n\n<l'
+         b'ink rel="alternate" type="application/rss+xml" title="MobBlog &raquo'
+         b'; Feed" href="http://mobblog.cs.ucl.ac.uk/feed/" />\n<link rel="a'
+         b'lternate" type="application/rss+xml" title="MobBlog &raquo; Comments'
+         b' Feed" href="http://mobblog.cs.ucl.ac.uk/comments/feed/" />\n<lin'
+         b'k rel="alternate" type="application/rss+xml" title="MobBlog &raquo; '
+         b'Dataset and R code for our paper on genres/artists affinity Comments'
+         b' Feed" href="http://mobblog.cs.ucl.ac.uk/2008/08/19/dataset-and-r-co'
+         b'de-for-our-paper-on-genresartists-affinity/feed/" />\n<script typ'
+         b"e='text/javascript' src='http://mobblog.cs.ucl.ac.uk/wp-includes/js/"
+         b'comment-reply.min.js?ver=3.8.1\'></script>\n<link rel="EditURI" ty'
+         b'pe="application/rsd+xml" title="RSD" href="http://mobblog.cs.ucl.ac.'
+         b'uk/xmlrpc.php?rsd" />\n<link rel="wlwmanifest" type="application/'
+         b'wlwmanifest+xml" href="http://mobblog.cs.ucl.ac.uk/wp-includes/wlwma'
+         b'nifest.xml" /> \n<link rel=\'prev\' title=\'The Comedy of the Truste'
+         b"d Commons' href='http://mobblog.cs.ucl.ac.uk/2008/08/16/the-comedy-o"
+         b"f-the-trusted-commons/' />\n<link rel='next' title='Juniper Futur"
+         b"e Mobile Awards' href='http://mobblog.cs.ucl.ac.uk/2008/08/27/junipe"
+         b'r-future-mobile-awards/\' />\n<meta name="generator" content="Word'
+         b'Press 3.8.1" />\n<link rel=\'canonical\' href=\'http://mobblog.cs.uc'
+         b'l.ac.uk/2008/08/19/dataset-and-r-code-for-our-paper-on-genresartists'
+         b"-affinity/' />\n<link rel='shortlink' href='http://mobblog.cs.ucl"
+         b'.ac.uk/?p=258\' />\n</head>\n<body class="single single-post postid'
+         b'-258 single-format-standard">\n<div id="page">\n\n\n<div id="header"'
+         b' role="banner">\n\t<div id="headerimg">\n\t\t<h1><a href="http://'
+         b'mobblog.cs.ucl.ac.uk/">MobBlog</a></h1>\n\t\t<div class="descriptio'
+         b'n">Research:  Smart Cities &amp; Data Mining &amp; Social Media</div'
+         b'>\n\t</div>\n</div>\n<hr />\n\n\t<div id="content" class="widecolum'
+         b'n" role="main">\n\n\t\n\t\t<div class="navigation">\n\t\t\t<div cl'
+         b'ass="alignleft"><a href="http://mobblog.cs.ucl.ac.uk/2008/08/16/the-'
+         b'comedy-of-the-trusted-commons/" rel="prev">&laquo; The Comedy of the'
+         b' Trusted Commons</a></div>\n\t\t\t<div class="alignright"><a href="h'
+         b'ttp://mobblog.cs.ucl.ac.uk/2008/08/27/juniper-future-mobile-awards/"'
+         b' rel="next">Juniper Future Mobile Awards &raquo;</a></div>\n\t\t</d'
+         b'iv>\n\n\t\t<div class="post-258 post type-post status-publish format'
+         b'-standard hentry category-dataset category-evaluation category-recom'
+         b'mender-systems category-social category-social-networks category-tag'
+         b's category-web-20" id="post-258">\n\t\t\t<h2>Dataset and R code for '
+         b'our paper on genres/artists affinity</h2>\n\n\t\t\t<div class="en'
+         b'try">\n\t\t\t\t<p>Justin Donaldson and I have a paper at ISMIR en'
+         b'titled &#8220;Uncovering affinity of artists to multiple genres from'
+         b' social behaviour data&#8221;. The paper details a project we worked'
+         b' on for the past year or so involving popular music listening activi'
+         b'ty from a pool of MusicStrands users.</p>\n<p>We provide not only'
+         b' the paper, but also the dataset and the code used in our analysis. '
+         b'All of this is available at the website we have set up for the proje'
+         b'ct:\xc2\xa0<a rel="nofollow" href="http://labs.strands.com/music/a'
+         b'ffinity/" target="_blank"><span>http://labs.strands.com/mu</span>sic'
+         b'/affinity/</a></p>\n<p>The main contribution of the project is an'
+         b' analysis and illustration of genres as \xe2\x80\x9cfuzzy set'
+         b's\xe2\x80\x9d rather than boolean labels. Through a co-occurence '
+         b'analysis of hundreds of thousands of user playlists, a frequency bas'
+         b'ed \xe2\x80\x9caffinity\xe2\x80\x9d metric is formed between artis'
+         b'ts and genres. This affinity metric is a more detailed expression of'
+         b' the style of a given artist\xe2\x80\x99s music. The idea and awa'
+         b'reness of predominant genres are a trivial part of any perso'
+         b'n\xe2\x80\x99s understanding of the vast corpus of popular music.'
+         b' However, genres typically are used as Boolean categorical labels. I'
+         b'.e. an artist is understood to be associated with only one given gen'
+         b're.</p>\n<p>By expressing a connection to multiple genres through'
+         b' our affinity metric, a more detailed picture of the artist emerges.'
+         b' We give a lot more examples in the website, so be sure to check it '
+         b'out. -\xc2\xa0<a rel="nofollow" href="http://labs.strands.com/musi'
+         b'c/affinity/" target="_blank"><span>http://labs.strands.com/mu</span>'
+         b'sic/affinity/</a></p>\n<p>\xc2\xa0</p>\n<p>Claudio Baccigalupo</'
+         b'p>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t<p class="postmetadata alt">\n\t\t'
+         b'\t\t\t<small>\n\t\t\t\t\t\t\t\t\t\t\t\tThis entry was posted on Tues'
+         b'day, August 19th, 2008 at 11:16 am and is filed under <a href="http:'
+         b'//mobblog.cs.ucl.ac.uk/category/dataset/" title="View all posts in d'
+         b'ataset" rel="category tag">dataset</a>, <a href="http://mobblog.cs.u'
+         b'cl.ac.uk/category/evaluation/" title="View all posts in evaluation" '
+         b'rel="category tag">evaluation</a>, <a href="http://mobblog.cs.ucl.ac'
+         b'.uk/category/recommender-systems/" title="View all posts in recommen'
+         b'der systems" rel="category tag">recommender systems</a>, <a href="ht'
+         b'tp://mobblog.cs.ucl.ac.uk/category/social/" title="View all posts in'
+         b' social" rel="category tag">social</a>, <a href="http://mobblog.cs.u'
+         b'cl.ac.uk/category/social-networks/" title="View all posts in social '
+         b'networks" rel="category tag">social networks</a>, <a href="http://mo'
+         b'bblog.cs.ucl.ac.uk/category/tags/" title="View all posts in tags" re'
+         b'l="category tag">tags</a>, <a href="http://mobblog.cs.ucl.ac.uk/cate'
+         b'gory/web-20/" title="View all posts in web 2.0" rel="category tag">w'
+         b'eb 2.0</a>.\t\t\t\t\t\tYou can follow any responses to this entry '
+         b"through the <a href='http://mobblog.cs.ucl.ac.uk/2008/08/19/dataset-"
+         b"and-r-code-for-our-paper-on-genresartists-affinity/feed/'>RSS 2.0</a"
+         b'> feed. \n\n\t\t\t\t\t\t\t\t\t\t\t\t\tBoth comments and pings are c'
+         b'urrently closed.\n\t\t\t\t\t\t\n\t\t\t\t\t</small>\n\t\t\t\t</p>\n\n'
+         b'\t\t\t</div>\n\t\t</div>\n\n\t\n<!-- You can start editing here. -'
+         b'->\n\n\t<h3 id="comments">One Response to &#8220;Dataset and R code'
+         b' for our paper on genres/artists affinity&#8221;</h3>\n\n\t<div cla'
+         b'ss="navigation">\n\t\t<div class="alignleft"></div>\n\t\t<div clas'
+         b's="alignright"></div>\n\t</div>\n\n\t<ol class="commentlist">'
+         b'\n\t\t\t<li class="comment byuser comment-author-dquercia even threa'
+         b'd-even depth-1" id="comment-4266">\n\t\t\t\t<div id="div-comment-'
+         b'4266" class="comment-body">\n\t\t\t\t<div class="comment-author v'
+         b'card">\n\t\t\t<img alt=\'\' src=\'http://0.gravatar.com/avatar/2361'
+         b'23076d9bcfb6c8fd55f0874f8d3a?s=32&amp;d=http%3A%2F%2F0.gravatar.com%'
+         b"2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class="
+         b"'avatar avatar-32 photo' height='32' width='32' />\t\t\t<cite class"
+         b'="fn"><a href=\'http://www.cs.ucl.ac.uk/staff/d.quercia/\' rel=\'ex'
+         b"ternal nofollow' class='url'>Daniele Quercia</a></cite> <span class="
+         b'"says">says:</span>\t\t</div>\n\t\t\n\t\t<div class="comment-meta co'
+         b'mmentmetadata"><a href="http://mobblog.cs.ucl.ac.uk/2008/08/19/datas'
+         b'et-and-r-code-for-our-paper-on-genresartists-affinity/#comment-4266"'
+         b'>\n\t\t\tAugust 27, 2008 at 8:29 pm</a>\t\t</div>\n\n\t\t<p>Hey Cl'
+         b'audio, great work! Your paper is def on my reading list <img src="ht'
+         b'tp://mobblog.cs.ucl.ac.uk/wp-includes/images/smilies/icon_wink.gif" '
+         b'alt=";-)" class="wp-smiley" /> </p>\n\n\t\t<div class="reply">\n\t'
+         b'\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t</li><!-- #comment-## -->\n\t<'
+         b'/ol>\n\n\t<div class="navigation">\n\t\t<div class="alignleft"></d'
+         b'iv>\n\t\t<div class="alignright"></div>\n\t</div>\n \n\n\n\t\n\t</di'
+         b'v>\n\n\n<hr />\n<div id="footer" role="contentinfo">\n<!-- If you'
+         b'\'d like to support WordPress, having the "powered by" link somew'
+         b"here on your blog is the best way; it's our only promotion or advert"
+         b'ising. -->\n\t<p>\n\t\tMobBlog is proudly powered by <a href="htt'
+         b'p://wordpress.org/">WordPress</a>\t\t<br /><a href="http://mobblog'
+         b'.cs.ucl.ac.uk/feed/">Entries (RSS)</a> and <a href="http://mobblog.c'
+         b's.ucl.ac.uk/comments/feed/">Comments (RSS)</a>.\t\t<!-- 21 queries'
+         b'. 0.139 seconds. -->\n\t</p>\n</div>\n</div>\n\n<!-- Gorgeous desi'
+         b'gn by Michael Heilemann - http://binarybonsai.com/kubrick/ -->\n\n'
+         b'\t\t</body>\n</html>\n',
+ 'links': [2740,
+           3028,
+           3029,
+           2766,
+           2861,
+           2893,
+           2900,
+           2901,
+           2906,
+           2916,
+           3030,
+           3023,
+           2969,
+           2917,
+           2918],
+ 'pid': 2969,
+ 'url': 'http://mobblog.cs.ucl.ac.uk/2008/08/19/dataset-and-r-code-for-our-paper-on-genresartists-affinity/'}
