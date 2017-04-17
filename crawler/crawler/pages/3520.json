@@ -1,0 +1,20 @@
+{'html': b'<html><head>\n<meta http-equiv="content-type" content="text/html;'
+         b' charset=ISO-8859-1"><title>Software</title>\n</head><body text="'
+         b'#000000" bgcolor="#ffffff">\n\n<h1>Structured Sparsity</h1>\n<hr><p'
+         b'>\nUsing this <A href="http://www.cs.ucl.ac.uk/staff/M.Pontil/sof'
+         b'tware/RegSS.zip">code</A> you will be able to reproduce the experime'
+         b'nts presented in the papers: \n<p>\n\n\n<UL>\n<LI>\nC.A. Micchelli'
+         b', J.M. Morales and M. Pontil. \n<A href="http://www.cs.ucl.ac.uk/'
+         b'staff/M.Pontil/reading/mmp-nips-8.pdf">\nA family of penalty func'
+         b'tions for structured sparsity.</A> \n<I>NIPS 2010</I>.\n</LI>\n<p>\n'
+         b'\n<LI>\nC.A. Micchelli, J.M. Morales and M. Pontil. \n<A href="http'
+         b'://arxiv.org/PS_cache/arxiv/pdf/1010/1010.0556v1.pdf">\nRegulariz'
+         b'ers for structured sparsity.</A> <i>Preprint</i>, 2011.\n</LI>\n</'
+         b'UL>\n\n\n</p><hr>\n\nBack to <a href="http://www.cs.ucl.ac.uk/sta'
+         b'ff/M.Pontil/software/">software</a>. <!-- ZoneLabs Popup Blocking In'
+         b'sertion -->\nBack to <a href="http://www.cs.ucl.ac.uk/staff/M.Pon'
+         b'til/">home</a>. <!-- ZoneLabs Popup Blocking Insertion -->\n<scri'
+         b'pt language="javascript">postamble();</script>\n</body></html>\n',
+ 'links': [3521, 3437],
+ 'pid': 3520,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/M.Pontil/software/sparsity.html'}

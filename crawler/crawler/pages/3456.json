@@ -1,0 +1,408 @@
+{'html': b'<!DOCTYPE \n  HTML PUBLIC \n  "-//W3C//DTD HTML 4.01 Transitional/'
+         b'/EN" \n  "http://www.w3.org/TR/html4/loose.dtd">\n\n<!--\n\n//\n//'
+         b' Copyright (C) Julian I. Kamil <julian.kamil@gmail.com>\n// No wa'
+         b'rranty is provided.  Use at your own risk.\n//\n// Commercial supp'
+         b'ort is available through ESV Media Group\n// who can be reached a'
+         b't: http://www.ESV-i.com/.\n//\n// Name: simple.tmpl\n// Author: Jul'
+         b'ian I. Kamil <julian.kamil@gmail.com>\n// Created: 2005-05-18\n// '
+         b'Description:\n//     This is a simple skin for PmWiki. Please see'
+         b':\n//         http://www.madhckr.com/project/PmWiki/SimpleSkin\n//'
+         b'     for a live example and doumentation.\n//\n// $Id: simple.tmpl'
+         b',v 1.1 2005/08/17 19:24:54 julian Exp $\n//\n// History:\n//     20'
+         b'05-05-18  jik  Created.\n//     2005-06-21  jik  Added the direct'
+         b'ive that enables\n//                      the injection of additi'
+         b'onal stylesheets.\n//     2005/06/27  jik  Added SkinTone feature'
+         b'.\n//     2005/07/06  jik  Added group name in the title.\n//     '
+         b'2005/07/15  jik  Added code to style abbr on IE.\n//\n//     2005-'
+         b'11-02  ksc  Added SideBar & removed menu\n//                     '
+         b' Fixed IE detection\n//\t\t2005-11-06\tksc\tChanged old menu styl'
+         b'e in favor of *.PageActions (suggested by MarcSeibert)\n//\t\t\t'
+         b'\t\t\tFixed goofed isIE var\n//\n-->\n\n<html>\n    <head>\n     '
+         b'   <title>David Barber : Main - Home Page browse</title>\n       '
+         b' <meta http-equiv="Content-Type" content="text/html; charset=iso-885'
+         b'9-1">\n        <!--HeaderText--><style type=\'text/css\'><!--\n  ul,'
+         b' ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }\n  code.es'
+         b'caped { white-space: nowrap; }\n  .vspace { margin-top:1.33em; }\n'
+         b'  .indent { margin-left:40px; }\n  .outdent { margin-left:40px; t'
+         b'ext-indent:-40px; }\n  a.createlinktext { text-decoration:none; b'
+         b'order-bottom:1px dotted gray; }\n  a.createlink { text-decoration'
+         b':none; position:relative; top:-0.5em;\n    font-weight:bold; font'
+         b'-size:smaller; border-bottom:none; }\n  img { border:0px; }\n  .ed'
+         b'itconflict { color:green; \n  font-style:italic; margin-top:1.33e'
+         b'm; margin-bottom:1.33em; }\n\n  table.markup { border:2px dotted #'
+         b'ccf; width:90%; }\n  td.markup1, td.markup2 { padding-left:10px; '
+         b'padding-right:10px; }\n  table.vert td.markup1 { border-bottom:1p'
+         b'x solid #ccf; }\n  table.horiz td.markup1 { width:23em; border-ri'
+         b'ght:1px solid #ccf; }\n  table.markup caption { text-align:left; '
+         b'}\n  div.faq p, div.faq pre { margin-left:2em; }\n  div.faq p.ques'
+         b'tion { margin:1em 0 0.75em 0; font-weight:bold; }\n  div.faqtoc d'
+         b'iv.faq * { display:none; }\n  div.faqtoc div.faq p.question \n    '
+         b'{ display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; line'
+         b'-height:normal; }\n  div.faqtoc div.faq p.question * { display:in'
+         b'line; }\n   \n    .frame \n      { border:1px solid #cccccc; paddin'
+         b'g:4px; background-color:#f9f9f9; }\n    .lfloat { float:left; mar'
+         b'gin-right:0.5em; }\n    .rfloat { float:right; margin-left:0.5em;'
+         b' }\na.varlink { text-decoration:none; }\n\n--></style><meta http-eq'
+         b"uiv='Content-Type' content='text/html; charset=utf-8' /><link rel='s"
+         b"tylesheet' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pub/"
+         b"css/kob.css' type='text/css' />\n<script type='text/JavaScript'>\n"
+         b"<!--\nNix={map:null,convert:function(a){Nix.init();var s='';for(i"
+         b"=0;i<a.length;i++){var b=a.charAt(i);s+=((b>='A'&&b<='Z')||(b>='a'&&"
+         b"b<='z')?Nix.map[b]:b);}return s;},init:function(){if(Nix.map!=null)r"
+         b"eturn;var map=new Array();var s='abcdefghijklmnopqrstuvwxyz';for(i=0"
+         b';i<s.length;i++)map[s.charAt(i)]=s.charAt((i+13)%26);for(i=0;i<s.len'
+         b'gth;i++)map[s.charAt(i).toUpperCase()]=s.charAt((i+13)%26).toUpperCa'
+         b'se();Nix.map=map;},decode:function(a){document.write(Nix.convert(a))'
+         b";}}\n//-->\n</script>\n\n  <script src='http://www.google-analytics."
+         b"com/urchin.js'\n   type='text/javascript'></script>\n  <script typ"
+         b"e='text/javascript'>\n    _uacct = 'UA-792170-3';\n    urchinTrack"
+         b'er();\n  </script><script type="text/javascript"  \r\n  src="http:/'
+         b'/cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorM'
+         b'ML-full">\r\n  </script><meta name="generator" content="BlogIt 201'
+         b'60330" /><link rel="stylesheet" href="http:web4.cs.ucl.ac.uk/staff/D'
+         b'.Barber/pmwiki/pub/blogit/jbox.css" type="text/css" /><link rel="sty'
+         b'lesheet" href="http:web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pub/blog'
+         b'it/awesomplete.css" type="text/css" /><link rel="stylesheet" href="h'
+         b'ttp:web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pub/blogit/blogit.min.cs'
+         b's" type="text/css" /><link rel="alternate" type="application/rss+xml'
+         b'" title="David Barber" href="http://web4.cs.ucl.ac.uk/staff/D.Barber'
+         b'/pmwiki/pmwiki.php?n=Site.BlogIt-Admin?action=rss" />  <meta nam'
+         b"e='robots' content='index,follow' />\n\n        <link rel='stylesh"
+         b'eet\' title="(NotSo) Simple" href=\'http://web4.cs.ucl.ac.uk/staff'
+         b"/D.Barber/pmwiki/pub/skins/notsosimple/notsosimple.css' type='text/c"
+         b'ss\' />\n\n\t\t<script type="text/javascript">\n\t\t<!-- //\n'
+         b'\t\t\n\t\tisIE = 0;\n\t\tbrowser_type = navigator.appName;\n\t\tif '
+         b'(browser_type == "Microsoft Internet Explorer") { \n\t\t\tdocument.w'
+         b'rite("<link href=\'http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki'
+         b"/pub/skins/notsosimple/notsosimple-ie.css' rel='stylesheet' type='te"
+         b'xt/css\' />"); \n\t\t\tisIE = 1;\n\t\t}\n\n        function styleA'
+         b'bbr() {\n            var oldBodyText, newBodyText, reg;\n         '
+         b'   if (isIE) {\n                oldBodyText = document.body.inner'
+         b'HTML;\n                reg = /<ABBR([^>]*)>([^<]*)<\\/ABBR>/g;\n   '
+         b"             newBodyText = oldBodyText.replace(reg, '<ABBR $1><SPAN "
+         b'class=\\"abbr\\" $1>$2</SPAN></ABBR>\');\n                document.b'
+         b'ody.innerHTML = newBodyText;\n            }\n        }\n\n        wi'
+         b'ndow.onload = function(){\n            styleAbbr();\n        };\n\n '
+         b'       // -->\n        </script>\n    </head>\n\n    <body bgcolor="'
+         b'#ffffff">\n\t    \n\t\t<div id="header" style="border: 1px none #'
+         b'ccf; \n\t\t\tbackground: url(http://web4.cs.ucl.ac.uk/staff/D.Barber'
+         b'/pmwiki/pub/skins/notsosimple/image/Box-Top-Red.jpg) no-repeat; '
+         b'" \n            title=\'Main &raquo; Home Page was last modified o'
+         b'n March 07, 2017, at 02:42 PM\'>\n            <table width="100%" '
+         b'style="padding: 0px; margin:0px;">\n                <tr>\n        '
+         b'            <td style="padding: 0px; margin:0px; border: none;">'
+         b'\n                        <div id="page-title">David Barber</div>'
+         b'\n                        <div id="page-subtitle">Main :: Home Pa'
+         b'ge</div>\n                    </td>\n                    <td align'
+         b'="right" width="120" \n                        style="padding: 0p'
+         b'x; margin:0px; padding-top: 16px; border: none;">\n              '
+         b'          <center>\n                            <!--<a href="http'
+         b'://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main"><img s'
+         b'rc="http:web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pub/skins/pmwiki/pm'
+         b'wiki-32.gif" border="0" /></a>-->\n                        </cent'
+         b'er>\n                    </td>\n                </tr>\n            '
+         b'</table>\n        </div>\n\n        <div id="main">\n            <di'
+         b'v id="menubar" style="display: none;">\n                <div id="'
+         b'wikicmds" align="right">\n\t\t\t\t\t<ul><li class=\'browse\'>      <'
+         b"a accesskey=''  rel='nofollow'  class='selflink' href='http://web4.c"
+         b"s.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.HomePage'>View</"
+         b"a>\n</li><li class='edit'>      <a accesskey='e'  rel='nofollow' "
+         b" class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwi"
+         b"ki/pmwiki.php?n=Main.HomePage?action=edit'>Edit</a>\n</li><li cla"
+         b"ss='diff'>   <a accesskey='h'  rel='nofollow'  class='wikilink' href"
+         b"='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.H"
+         b"omePage?action=diff'>History</a>\n</li><li class='print'>     <a "
+         b"accesskey=''  rel='nofollow'  class='wikilink' href='http://web4.cs."
+         b'ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.HomePage?action=pr'
+         b"int'>Print</a>\n</li></ul>\n\n                </div>\n              "
+         b'  <div class="clearer"></div>\n            </div>\n\n            <d'
+         b'iv class="content-mat">\n                <div id="content">\n\t'
+         b"\t\t\t\t<div id='sidebar'><p><a class='selflink' href='http://web4.c"
+         b"s.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.HomePage'>Homepa"
+         b"ge</a><br /><br />\n<a class='urllink' href='https://davidbarber."
+         b"github.io/' rel='nofollow'>Blog</a><br /><br />\n<a target='_blan"
+         b"k'  class='urllink' href='../publications/david_barber_online.html' "
+         b"rel='nofollow'>Publications</a><br /><!--[[BTS.BTS|Time-Series Book]"
+         b"]\\\\-->\n<a class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/"
+         b"D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage'>Textbook</a><br />\n<"
+         b"a class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmw"
+         b"iki/pmwiki.php?n=Main.Software'>Software</a><br />\n<a class='wik"
+         b"ilink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.p"
+         b"hp?n=Main.Courses'>Courses</a><br />\n<a class='wikilink' href='h"
+         b'ttp://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Work'
+         b"shops'>Workshops</a><br />\n<br />\n<a class='wikilink' href='http"
+         b"://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Study'>"
+         b"Studying with me</a><br /><a class='wikilink' href='http://web4.cs.u"
+         b"cl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Internships'>Intern"
+         b'ships</a><br />\n<!--[[Path:../internships/index.php?n=Main.Homep'
+         b"age|Summer Internships]]\\\\-->\n<br clear='all' />\n<a class='wikil"
+         b"ink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php"
+         b"?n=Main.Contact'>Contact</a><br /><a class='wikilink' href='http://w"
+         b"eb4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Office'>Off"
+         b"ice Directions</a><br /><a class='wikilink' href='http://web4.cs.ucl"
+         b".ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Bio'>Bio</a><br /><a "
+         b"class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwik"
+         b"i/pmwiki.php?n=Main.Calendar'>Calendar</a><br /><a class='wikilink' "
+         b"href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Ma"
+         b"in.Links'>Links</a><br />\n</p>\n<p class='vspace'><a name='one' i"
+         b"d='one'></a> <img width='100px' src='../images/Koala.jpg' alt='' tit"
+         b"le='' />\n</p>\n<p class='vspace'><!--%width=160px% Path:../images"
+         b'/csmlmsc.png-->\n</p>\n</div>\n                    <!--PageText-->\n'
+         b"<div id='wikitext'>\n<p><!--I'm interested in potential new stude"
+         b'nts/postdocs. If you have a strong mathematics background and an int'
+         b'erest in machine learning, please feel free to contact me.-->\n<!'
+         b"--'''shortcourse'''* timeseries [[Path:../publications/shortcourseTi"
+         b'meSeries.pdf|notes]]   [[Path:../publications/shortcourseTimeSeriesC'
+         b"omputerLab.pdf|lab]].-->\n</p>\n<p class='vspace'><strong>Current "
+         b"Highlights</strong>\n</p>\n<div class='vspace'></div><ul><li><a cl"
+         b"ass='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/"
+         b"pmwiki.php?n=Main.MScProjects'>MScProjects</a>\n<div class='vspac"
+         b"e'></div></li><li><a class='urllink' href='../publications/AISTATS20"
+         b"17.pdf' rel='nofollow'>Complementary Sum Sampling for Likelihood App"
+         b'roximation in Large Scale Classification</a> in AISTATS 2017. A very'
+         b' simple but effective way to train large classifiers (such as in lan'
+         b"guage models). \n<div class='vspace'></div></li><li>JMLR paper <a"
+         b" class='urllink' href='http://www.jmlr.org/papers/volume17/15-414/15"
+         b"-414.pdf' rel='nofollow'>Approximate Newton Methods for Policy Searc"
+         b"h in Markov Decision Processes</a>\n<div class='vspace'></div></l"
+         b"i><li>Nesterov's Accelerated Gradient Descent and related algorithms"
+         b" <a class='urllink' href='http://arxiv.org/abs/1607.01981' rel='nofo"
+         b"llow'>arxiv paper</a>.\n<div class='vspace'></div></li><li>How to"
+         b" deal with a large number of classes in softmax models <a class='url"
+         b"link' href='http://arxiv.org/abs/1606.06959' rel='nofollow'>arxiv pa"
+         b"per</a>.\n<div class='vspace'></div></li><li>Some very simple <a "
+         b"class='urllink' href='https://github.com/davidbarber/AutoDiff/' rel="
+         b"'nofollow'>Julia code</a> for AutoDiff. Self explanatory I hope from"
+         b" the demos. See also <a class='urllink' href='../publications/Parame"
+         b"terTying.pdf' rel='nofollow'>note</a>.\n<div class='vspace'></div"
+         b"></li><li>A <a class='urllink' href='../publications/ParameterTying."
+         b"pdf' rel='nofollow'>note</a> and <a class='urllink' href='../publica"
+         b"tions/AMLAutoDiff.pdf' rel='nofollow'>slides</a> on AutoDiff, parame"
+         b'ter tying in Deep Learning (Neural Nets) and Backprop Through Ti'
+         b"me\n<div class='vspace'></div></li><li>Some preliminary ideas on "
+         b"solving ODEs using Gaussian Processes <a class='urllink' href='../pu"
+         b"blications/odeint.PDF' rel='nofollow'>arxiv paper</a>. \n</li></u"
+         b'l><p><!--* Draft Technical Report on  [[Path:../publications/Implici'
+         b'tRepNet.pdf|Implicit Representation Networks]].-->\n</p>\n<div cla'
+         b"ss='vspace'></div><ul><li>Using Gaussian Processes for Parameter Est"
+         b"imation in Ordinary Differential Equations <a class='urllink' href='"
+         b"../publications/gpodeICML2014.pdf' rel='nofollow'>ICML 2014 paper</a"
+         b">\n<div class='vspace'></div></li><li>Variational Optimisation <a"
+         b" class='urllink' href='../publications/es2013-65.pdf' rel='nofollow'"
+         b">ESANN paper</a> <a class='urllink' href='../publications/1212.4507."
+         b"pdf' rel='nofollow'>arxiv paper</a>.\n<div class='vspace'></div><"
+         b'/li><li>A simple demo for string matching (a kind of Aho-Corasick al'
+         b"gorithm for noisy sequences).  <a class='urllink' href='http://web4."
+         b"cs.ucl.ac.uk/staff/D.Barber/code.zip' rel='nofollow'>Matlab Code</a>"
+         b" and <a class='urllink' href='../publications/patternsearch.pdf' rel"
+         b"='nofollow'>explanation of the method</a>.\n<div class='vspace'><"
+         b"/div></li><li><a class='urllink' href='http://web4.cs.ucl.ac.uk/staf"
+         b"f/D.Barber/publications/TimeSeries.pdf' rel='nofollow'>Inference and"
+         b' estimation in probabilistic time series models</a> by D. Barber, A.'
+         b" T. Cemgil and S. Chiappa in <a class='urllink' href='http://www.cam"
+         b'bridge.org/us/academic/subjects/computer-science/pattern-recognition'
+         b"-and-machine-learning/bayesian-time-series-models' rel='nofollow'>Ba"
+         b"yesian Time Series Models.</a>  \n<div class='vspace'></div></li>"
+         b"<li>JMLR paper on <a class='urllink' href='http://jmlr.org/papers/v1"
+         b"4/challis13a.html' rel='nofollow'>Gaussian Kullback-Leibler Approxim"
+         b"ate Inference</a> which describes much of Ed Challis' recently compl"
+         b"eted PhD work. There is also extensive <a class='urllink' href='http"
+         b"://mloss.org/software/view/308/' rel='nofollow'>software</a> availab"
+         b'le that demonstrates Bayesian inference on very large-scale models, '
+         b'including sparse regression and logistic regression.\n<div class='
+         b"'vspace'></div></li><li>Chris Bracegirdle's successfully defended th"
+         b"esis on <a class='urllink' href='http://web4.cs.ucl.ac.uk/staff/C.Br"
+         b"acegirdle/PhDThesis.php' rel='nofollow'>Inference in Bayesian Time-S"
+         b'eries Models</a>. This includes a thorough description of our work o'
+         b'n efficient inference in switching linear models and more recently o'
+         b"n Bayesian Conditional Cointegration.\n<div class='vspace'></div>"
+         b"</li><li>A tech report on <a class='urllink' href='http://arxiv.org/"
+         b"pdf/1212.4507v1.pdf' rel='nofollow'>Variational Optimization</a>"
+         b"\n<div class='vspace'></div></li><li>A <a class='urllink' href='h"
+         b"ttp://web4.cs.ucl.ac.uk/staff/D.Barber/publications/note_occam.pdf' "
+         b"rel='nofollow'>note on Occam's razor</a>\n</li><li>A <a class='ur"
+         b"llink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publications/no"
+         b"te_fast_nearest_neighbour_new.pdf' rel='nofollow'>note on quickly ca"
+         b"lculating your nearest neighbour</a>, with <a class='urllink' href='"
+         b'http://web4.cs.ucl.ac.uk/staff/D.Barber/publications/fastNNpublic.zi'
+         b"p' rel='nofollow'>demo code</a>. Updated to include KD tree discussi"
+         b"on and code.\n<div class='vspace'></div></li><li>NIPS 2012 ORAL p"
+         b"aper <a class='urllink' href='http://web4.cs.ucl.ac.uk/staff/D.Barbe"
+         b"r/publications/furmston_barber_nips2012.pdf' rel='nofollow'>A Unifyi"
+         b'ng Perspective of Parametric Policy Search Methods for Markov Decisi'
+         b"on Processes</a><a class='urllink' href='http://web4.cs.ucl.ac.uk/st"
+         b"aff/D.Barber/publications/furmston_barber_nips2012_supp.pdf' rel='no"
+         b"follow'>supplementary material</a>. Perhaps the world's greatest tet"
+         b"ris player?! See the <a class='urllink' href='https://www.youtube.co"
+         b"m/watch?v=RahyPwOfAR0' rel='nofollow'>video</a> and <a class='urllin"
+         b"k' href='https://sites.google.com/site/thomasfurmstonpersonalwebsite"
+         b"/' rel='nofollow'>Tom's site</a> for more of our work on MDPs.\n<"
+         b"div class='vspace'></div></li><li>NIPS 2012 paper on <a class='urlli"
+         b"nk' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publications/chall"
+         b"is_barber_nips2012.pdf' rel='nofollow'>Affine Independent Variationa"
+         b"l Inference</a> <a class='urllink' href='http://web4.cs.ucl.ac.uk/st"
+         b"aff/D.Barber/publications/challis_barber_nips2012_supplementary.pdf'"
+         b" rel='nofollow'>supplementary material</a>.\n<div class='vspace'>"
+         b"</div></li><li>ICML 2012 paper on <a class='urllink' href='http://we"
+         b'b4.cs.ucl.ac.uk/staff/D.Barber/publications/BayesianConditionalCoint'
+         b"egration.pdf' rel='nofollow'>Bayesian Cointegration</a> <a class='ur"
+         b"llink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publications/Ba"
+         b"yesianConditionalCointegrationSupplementary.pdf' rel='nofollow'>supp"
+         b"lementary material</a> (runner up best paper)\n<div class='vspace"
+         b"'></div></li><li><a class='urllink' href='http://arxiv.org/abs/1204."
+         b"1227' rel='nofollow'>An Approximate Newton Method for Markov Decisio"
+         b"n Processes</a>\n<div class='vspace'></div></li><li><a class='url"
+         b"link' href='http://www.cambridge.org/us/knowledge/discountpromotion/"
+         b"?site_locale=en_US&amp;code=L2BTSM' rel='nofollow'>Promotional Disco"
+         b"unt on Bayesian Timeseries models.</a> Note that you can <a class='u"
+         b"rllink' href='http://www.cambridge.org/us/knowledge/cart/location/?s"
+         b"ite_locale=en_US' rel='nofollow'>change your locale</a> in the check"
+         b'out cart to pay and deliver in your local country.  \n<div class='
+         b"'vspace'></div></li><li><a class='urllink' href='http://www.cambridg"
+         b'e.org/us/knowledge/discountpromotion/?site_locale=en_US&amp;code=L2B'
+         b"RML' rel='nofollow'>Promotional discount</a> on  <a class='wikilink'"
+         b" href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=B"
+         b"rml.HomePage'>Bayesian Reasoning and Machine Learning</a>. Note that"
+         b" you can <a class='urllink' href='http://www.cambridge.org/us/knowle"
+         b"dge/cart/location/?site_locale=en_US' rel='nofollow'>change your loc"
+         b'ale</a> in the checkout cart to pay and deliver in your local countr'
+         b"y.  \n<div class='vspace'></div></li><li><a class='urllink' href="
+         b"'http://web4.cs.ucl.ac.uk/staff/D.Barber/BarberSciFest2012.zip' rel="
+         b"'nofollow'>Cambridge Science Festival talk</a> on  <a class='urllink"
+         b"' href='http://www.cam.ac.uk/research/news/how-to-engineer-intellige"
+         b"nce/' rel='nofollow'>How to Engineer Intelligence</a>.\n<div clas"
+         b"s='vspace'></div></li><li>New books and our popular MSc programm"
+         b"e:\n</li></ul><div class='vspace'></div><div><a class='wikilink' "
+         b"href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Br"
+         b"ml.HomePage'><img src='../textbook/jacket.gif' alt='' /></a>  <a cla"
+         b"ss='urllink' href='http://www.cambridge.org/gb/knowledge/isbn/item62"
+         b"16996/Bayesian-Time-Series-Models/?site_locale=en_GB' rel='nofollow'"
+         b"><img src='http://assets.cambridge.org/97805211/96765/cover/97805211"
+         b"96765.jpg' alt='' /></a> <a class='urllink' href='http://www.csml.uc"
+         b"l.ac.uk/courses/msc_csml/' rel='nofollow'><img src='../images/csmlms"
+         b"c2.png' alt='' /></a><br clear='all' /></div>\n<p class='vspace'>"
+         b'<!-- * Machine learning market[[http://www.csml.ucl.ac.uk/projects/p'
+         b'ascal-outreach-drupal-6.20/|http://www.pascal-network.org/sites/defa'
+         b'ult/files/imagepicker/d/David%20Hardoon/robot1_1.jpg]]-->\n</p>\n<'
+         b"p class='vspace'><strong>Recent research highlights</strong>\n</p"
+         b">\n<div class='vspace'></div><ul><li><a class='urllink' href='htt"
+         b"p://arxiv.org/abs/1107.3090' rel='nofollow'>On the computational com"
+         b'plexity of stochastic controller optimization in POMDPs</a> \n<di'
+         b"v class='vspace'></div></li><li>Just a bit of fun with Mona Lisa -- "
+         b'reconstructing an image (left) using 20000 randomly placed lines (ce'
+         b'ntre) and 2000 circles (right). Each line/circle is just one colour.'
+         b" See <a class='urllink' href='http://475things.tumblr.com/post/75500"
+         b"550651/line-effect-with-sparse-linear-regression' rel='nofollow'>her"
+         b'e</a> for an explanation.  [click on images for higher resolutio'
+         b"n]:\n</li></ul><p class='vspace'  style='text-align: center;'> \n<"
+         b"/p><div><a class='urllink' href='../images/mona.jpeg' rel='nofollow'"
+         b"><img src='../images/mona_thumb.jpg' alt='' /></a><a class='urllink'"
+         b" href='../images/mona_lisa_lines.jpeg' rel='nofollow'><img src='../i"
+         b"mages/lines_thumb.jpg' alt='' /></a><a class='urllink' href='../imag"
+         b"es/mona_lisa_circles.jpeg' rel='nofollow'><img src='../images/circle"
+         b"s_thumb.jpg' alt='' /></a></div>\n<div class='vspace'></div><ul><"
+         b"li>ECML paper on <a class='urllink' href='http://web4.cs.ucl.ac.uk/s"
+         b"taff/D.Barber/publications/ECML_Lagrange_Dual_MDP.pdf' rel='nofollow"
+         b"'>Lagrange Dual Decomposition for Finite Horizon Markov Decision Pro"
+         b"cesses</a> \n<div class='vspace'></div></li><li>UAI paper on <a c"
+         b"lass='urllink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publica"
+         b"tions/UAI_efficient_MDP_inference.pdf' rel='nofollow'>Efficient Infe"
+         b"rence in Markov Control Problems</a> \n</li></ul><p class='vspace"
+         b"'><!--* New [[http://www.csml.ucl.ac.uk/projects/pascal-outreach-dru"
+         b'pal-6.20|Machine Learning Market]] portal for business and consultan'
+         b"cy in machine learning.-->\n</p>\n<div class='vspace'></div><ul><l"
+         b"i>AISTATS paper on <a class='urllink' href='http://web4.cs.ucl.ac.uk"
+         b"/staff/D.Barber/publications/challis_barber_AISTATS.pdf' rel='nofoll"
+         b"ow'>Concave Gaussian Variational Approximations for Inference in Lar"
+         b"ge-Scale Bayesian Linear Models</a> <a class='urllink' href='http://"
+         b'web4.cs.ucl.ac.uk/staff/D.Barber/publications/challis_barber_AISTATS'
+         b"_supplementary.pdf' rel='nofollow'>supplementary material</a> <a cla"
+         b"ss='urllink' href='http://mloss.org/software/view/308/' rel='nofollo"
+         b"w'>software</a>\n<div class='vspace'></div></li><li>AISTATS paper"
+         b" on <a class='urllink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber"
+         b"/publications/bracegirdle_barber_aistats2011.pdf' rel='nofollow'>Swi"
+         b"tch-Reset Models : Exact and Approximate Inference</a> <a class='url"
+         b"link' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publications/bra"
+         b"cegirdle_barber_aistats2011_supplementary.zip' rel='nofollow'>supple"
+         b"mentary material</a> \n<div class='vspace'></div></li><li>Signal "
+         b"Processing Magazine article on <a class='urllink' href='http://web4."
+         b"cs.ucl.ac.uk/staff/D.Barber/publications/GMSPM.pdf' rel='nofollow'>G"
+         b"raphical Models for Time Series</a>\n<div class='vspace'></div></"
+         b"li><li>I'm promoting an old TR that I never made very visible (apolo"
+         b"gies for a minor typo in the information filter -- I'll upload a cor"
+         b"rected version shortly):\n</li></ul><p class='vspace'><a class='u"
+         b"rllink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publications/k"
+         b"alman_smoother_idiap_rr.pdf' rel='nofollow'>The auxiliary variable t"
+         b'rick for deriving Kalman smoothers</a> The derivation explains how t'
+         b'o express the backward (beta) message in a form that is numerically '
+         b"stable.\n</p>\n<div class='vspace'></div><ul><li>Paper on <a class"
+         b"='urllink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publication"
+         b"s/varRL.pdf' rel='nofollow'>Variational methods for Reinforcement Le"
+         b"arning</a>\n<div class='vspace'></div></li><li><a class='urllink'"
+         b" href='http://rsta.royalsocietypublishing.org/content/367/1906/4407."
+         b"abstract' rel='nofollow'>Identifying graph clusters using variationa"
+         b'l inference and links to covariance parametrization</a> Please email'
+         b" me if you would like a reprint.\n<div class='vspace'></div></li>"
+         b"<li><a class='urllink' href='http://www.i.kyushu-u.ac.jp/~suzuki/lem"
+         b"ir.html' rel='nofollow'>LEMIR</a> workshop paper on <a class='urllin"
+         b"k' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/publications/lemir."
+         b"pdf' rel='nofollow'>Solving deterministic policy (PO)MPDs using Expe"
+         b'ctation-Maximisation and Antifreeze</a>\n</li></ul><p><!-- [[http'
+         b'://www.newton.ac.uk/programmes/SCH/schw05-papers.pdf|Online proceedi'
+         b'ngs]] of the Newton Institute workshop on Inference and Estimation i'
+         b'n Probabilistic Time-Series Models-->\n<!-- Signal Processing Let'
+         b'ters paper on [[http://web4.cs.ucl.ac.uk/staff/D.Barber/publications'
+         b'/spl_mesot_barber08.pdf|A Simple Alternative Derivation of the Expec'
+         b'tation Correction Algorithm]]-->\n<!--* UAI 2008 Paper on [[http:'
+         b'//web4.cs.ucl.ac.uk/staff/D.Barber/publications/cliquedecomp_uai_fin'
+         b'al.pdf|Clique Matrices for Statistical Graph Decomposition and Param'
+         b'eterising Restricted Positive Definite Matrices]]-->\n<!--[[http:'
+         b'//web4.cs.ucl.ac.uk/staff/D.Barber/internships/index.php?n=Main.Home'
+         b'page|UCL Computer Science Summer Internship Programme]] (for UCL stu'
+         b'dents only)-->\n<!--* Two Newton Institute [[Workshops]] on time-'
+         b'series (18-20 June 2008) and Future Directions in Machine Learning a'
+         b'nd Statistics (23-27 June 2008).--> \n</p><hr />\n<p><strong>MSC i'
+         b'n Computational Statistics and Machine Learning</strong>\n</p>\n<d'
+         b"iv class='vspace'></div><ul><li>The <a class='urllink' href='http://"
+         b"www.cs.ucl.ac.uk/teaching/msccsml/index.html' rel='nofollow'>MSC in "
+         b'Computational Statistics and Machine Learning</a> is an exciting cou'
+         b'rse that imparts key skills for analyzing our data rich world, inclu'
+         b'ding techniques for Information Retrieval and Machine Learning. We a'
+         b'nticipate graduates from the programme to take key positions in rese'
+         b'arch and leading organizations involved with large-scale information'
+         b' processing and analysis. The programme is taught by world-renowned '
+         b'researchers in Machine Learning from UCL Computer Science and the Ga'
+         b"tsby Computational Neuroscience Unit. \n</li></ul><p class='vspac"
+         b"e'><!--This wiki installation is running PmWiki pmwiki-2.2.55, versi"
+         b'on number 2002055.-->\n</p>\n</div>\n\n                </div>\n  '
+         b'              <div class="clearer"></div>\n            </div>\n   '
+         b'     </div>\n\n        <div id="footer">\n            <div id="copy'
+         b'right">\n                <span style="float: left; padding-left: '
+         b'20px;">\n                     \n                </span>\n          '
+         b'      <span style="float: right; display: block; padding-right: 20px'
+         b';">\n                    <span id=\'sitepoweredby\' title=\'Powered '
+         b"by PmWiki'>\n    Powered by <a href='http://www.pmichaud.com/wiki"
+         b"/PmWiki/PmWiki' title='PmWiki Home'>PmWiki</a>\n</span>\n         "
+         b'       </span>\n            </div>\n        </div>\n<!--HTMLfooter-'
+         b'->\n    </body>\n</html>\n',
+ 'links': [3456,
+           3500,
+           3501,
+           3502,
+           3503,
+           3429,
+           3504,
+           3505,
+           3506,
+           3507,
+           3508,
+           3509,
+           3510,
+           3511,
+           3512,
+           3513,
+           3514,
+           3515,
+           3516],
+ 'pid': 3456,
+ 'url': 'http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.HomePage'}

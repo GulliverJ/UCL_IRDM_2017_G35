@@ -1,0 +1,192 @@
+{'html': b'<!DOCTYPE \n  HTML PUBLIC \n  "-//W3C//DTD HTML 4.01 Transitional/'
+         b'/EN" \n  "http://www.w3.org/TR/html4/loose.dtd">\n\n<!--\n\n//\n//'
+         b' Copyright (C) Julian I. Kamil <julian.kamil@gmail.com>\n// No wa'
+         b'rranty is provided.  Use at your own risk.\n//\n// Commercial supp'
+         b'ort is available through ESV Media Group\n// who can be reached a'
+         b't: http://www.ESV-i.com/.\n//\n// Name: simple.tmpl\n// Author: Jul'
+         b'ian I. Kamil <julian.kamil@gmail.com>\n// Created: 2005-05-18\n// '
+         b'Description:\n//     This is a simple skin for PmWiki. Please see'
+         b':\n//         http://www.madhckr.com/project/PmWiki/SimpleSkin\n//'
+         b'     for a live example and doumentation.\n//\n// $Id: simple.tmpl'
+         b',v 1.1 2005/08/17 19:24:54 julian Exp $\n//\n// History:\n//     20'
+         b'05-05-18  jik  Created.\n//     2005-06-21  jik  Added the direct'
+         b'ive that enables\n//                      the injection of additi'
+         b'onal stylesheets.\n//     2005/06/27  jik  Added SkinTone feature'
+         b'.\n//     2005/07/06  jik  Added group name in the title.\n//     '
+         b'2005/07/15  jik  Added code to style abbr on IE.\n//\n//     2005-'
+         b'11-02  ksc  Added SideBar & removed menu\n//                     '
+         b' Fixed IE detection\n//\t\t2005-11-06\tksc\tChanged old menu styl'
+         b'e in favor of *.PageActions (suggested by MarcSeibert)\n//\t\t\t'
+         b'\t\t\tFixed goofed isIE var\n//\n-->\n\n<html>\n    <head>\n     '
+         b'   <title>David Barber : Main - M Sc Projects browse</title>\n   '
+         b'     <meta http-equiv="Content-Type" content="text/html; charset=iso'
+         b'-8859-1">\n        <!--HeaderText--><style type=\'text/css\'><!--\n '
+         b' ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }\n  cod'
+         b'e.escaped { white-space: nowrap; }\n  .vspace { margin-top:1.33em'
+         b'; }\n  .indent { margin-left:40px; }\n  .outdent { margin-left:40p'
+         b'x; text-indent:-40px; }\n  a.createlinktext { text-decoration:non'
+         b'e; border-bottom:1px dotted gray; }\n  a.createlink { text-decora'
+         b'tion:none; position:relative; top:-0.5em;\n    font-weight:bold; '
+         b'font-size:smaller; border-bottom:none; }\n  img { border:0px; }\n '
+         b' .editconflict { color:green; \n  font-style:italic; margin-top:1'
+         b'.33em; margin-bottom:1.33em; }\n\n  table.markup { border:2px dott'
+         b'ed #ccf; width:90%; }\n  td.markup1, td.markup2 { padding-left:10'
+         b'px; padding-right:10px; }\n  table.vert td.markup1 { border-botto'
+         b'm:1px solid #ccf; }\n  table.horiz td.markup1 { width:23em; borde'
+         b'r-right:1px solid #ccf; }\n  table.markup caption { text-align:le'
+         b'ft; }\n  div.faq p, div.faq pre { margin-left:2em; }\n  div.faq p.'
+         b'question { margin:1em 0 0.75em 0; font-weight:bold; }\n  div.faqt'
+         b'oc div.faq * { display:none; }\n  div.faqtoc div.faq p.question \n'
+         b'    { display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; '
+         b'line-height:normal; }\n  div.faqtoc div.faq p.question * { displa'
+         b'y:inline; }\n   \n    .frame \n      { border:1px solid #cccccc; pa'
+         b'dding:4px; background-color:#f9f9f9; }\n    .lfloat { float:left;'
+         b' margin-right:0.5em; }\n    .rfloat { float:right; margin-left:0.'
+         b'5em; }\na.varlink { text-decoration:none; }\n\n--></style><meta htt'
+         b"p-equiv='Content-Type' content='text/html; charset=utf-8' /><link re"
+         b"l='stylesheet' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/"
+         b"pub/css/kob.css' type='text/css' />\n<script type='text/JavaScrip"
+         b"t'>\n<!--\nNix={map:null,convert:function(a){Nix.init();var s='';f"
+         b"or(i=0;i<a.length;i++){var b=a.charAt(i);s+=((b>='A'&&b<='Z')||(b>='"
+         b"a'&&b<='z')?Nix.map[b]:b);}return s;},init:function(){if(Nix.map!=nu"
+         b"ll)return;var map=new Array();var s='abcdefghijklmnopqrstuvwxyz';for"
+         b'(i=0;i<s.length;i++)map[s.charAt(i)]=s.charAt((i+13)%26);for(i=0;i<s'
+         b'.length;i++)map[s.charAt(i).toUpperCase()]=s.charAt((i+13)%26).toUpp'
+         b'erCase();Nix.map=map;},decode:function(a){document.write(Nix.convert'
+         b"(a));}}\n//-->\n</script>\n\n  <script src='http://www.google-analyt"
+         b"ics.com/urchin.js'\n   type='text/javascript'></script>\n  <script"
+         b" type='text/javascript'>\n    _uacct = 'UA-792170-3';\n    urchinT"
+         b'racker();\n  </script><script type="text/javascript"  \r\n  src="ht'
+         b'tp://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTM'
+         b'LorMML-full">\r\n  </script><meta name="generator" content="BlogIt'
+         b' 20160330" /><link rel="stylesheet" href="http:web4.cs.ucl.ac.uk/sta'
+         b'ff/D.Barber/pmwiki/pub/blogit/jbox.css" type="text/css" /><link rel='
+         b'"stylesheet" href="http:web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pub/'
+         b'blogit/awesomplete.css" type="text/css" /><link rel="stylesheet" hre'
+         b'f="http:web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pub/blogit/blogit.mi'
+         b'n.css" type="text/css" /><link rel="alternate" type="application/rss'
+         b'+xml" title="David Barber" href="http://web4.cs.ucl.ac.uk/staff/D.Ba'
+         b'rber/pmwiki/pmwiki.php?n=Site.BlogIt-Admin?action=rss" />  <meta nam'
+         b"e='robots' content='index,follow' />\n\n        <link rel='stylesh"
+         b'eet\' title="(NotSo) Simple" href=\'http://web4.cs.ucl.ac.uk/staff'
+         b"/D.Barber/pmwiki/pub/skins/notsosimple/notsosimple.css' type='text/c"
+         b'ss\' />\n\n\t\t<script type="text/javascript">\n\t\t<!-- //\n'
+         b'\t\t\n\t\tisIE = 0;\n\t\tbrowser_type = navigator.appName;\n\t\tif '
+         b'(browser_type == "Microsoft Internet Explorer") { \n\t\t\tdocument.w'
+         b'rite("<link href=\'http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki'
+         b"/pub/skins/notsosimple/notsosimple-ie.css' rel='stylesheet' type='te"
+         b'xt/css\' />"); \n\t\t\tisIE = 1;\n\t\t}\n\n        function styleA'
+         b'bbr() {\n            var oldBodyText, newBodyText, reg;\n         '
+         b'   if (isIE) {\n                oldBodyText = document.body.inner'
+         b'HTML;\n                reg = /<ABBR([^>]*)>([^<]*)<\\/ABBR>/g;\n   '
+         b"             newBodyText = oldBodyText.replace(reg, '<ABBR $1><SPAN "
+         b'class=\\"abbr\\" $1>$2</SPAN></ABBR>\');\n                document.b'
+         b'ody.innerHTML = newBodyText;\n            }\n        }\n\n        wi'
+         b'ndow.onload = function(){\n            styleAbbr();\n        };\n\n '
+         b'       // -->\n        </script>\n    </head>\n\n    <body bgcolor="'
+         b'#ffffff">\n\t    \n\t\t<div id="header" style="border: 1px none #'
+         b'ccf; \n\t\t\tbackground: url(http://web4.cs.ucl.ac.uk/staff/D.Barber'
+         b'/pmwiki/pub/skins/notsosimple/image/Box-Top-Red.jpg) no-repeat; '
+         b'" \n            title=\'Main &raquo; M Sc Projects was last modifi'
+         b'ed on January 18, 2017, at 11:30 AM\'>\n            <table width="'
+         b'100%" style="padding: 0px; margin:0px;">\n                <tr>\n  '
+         b'                  <td style="padding: 0px; margin:0px; border: none;'
+         b'">\n                        <div id="page-title"><a href=\'http://'
+         b"web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php'>David Barber</a>"
+         b'</div>\n                        <div id="page-subtitle"><a href=\''
+         b"http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main' ti"
+         b"tle='Main Home'>Main</a> :: M Sc Projects</div>\n                "
+         b'    </td>\n                    <td align="right" width="120" \n   '
+         b'                     style="padding: 0px; margin:0px; padding-top: 1'
+         b'6px; border: none;">\n                        <center>\n          '
+         b'                  <!--<a href="http://web4.cs.ucl.ac.uk/staff/D.Barb'
+         b'er/pmwiki/pmwiki.php?n=Main"><img src="http:web4.cs.ucl.ac.uk/staff/'
+         b'D.Barber/pmwiki/pub/skins/pmwiki/pmwiki-32.gif" border="0" /></a>-->'
+         b'\n                        </center>\n                    </td>\n   '
+         b'             </tr>\n            </table>\n        </div>\n\n        '
+         b'<div id="main">\n            <div id="menubar" style="display: no'
+         b'ne;">\n                <div id="wikicmds" align="right">\n\t\t\t\t'
+         b"\t<ul><li class='browse'>      <a accesskey=''  rel='nofollow'  c"
+         b"lass='selflink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki"
+         b"/pmwiki.php?n=Main.MScProjects'>View</a>\n</li><li class='edit'> "
+         b"     <a accesskey='e'  rel='nofollow'  class='wikilink' href='http:/"
+         b'/web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.MScProjec'
+         b"ts?action=edit'>Edit</a>\n</li><li class='diff'>   <a accesskey='"
+         b"h'  rel='nofollow'  class='wikilink' href='http://web4.cs.ucl.ac.uk/"
+         b"staff/D.Barber/pmwiki/pmwiki.php?n=Main.MScProjects?action=diff'>His"
+         b"tory</a>\n</li><li class='print'>     <a accesskey=''  rel='nofol"
+         b"low'  class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber"
+         b"/pmwiki/pmwiki.php?n=Main.MScProjects?action=print'>Print</a>\n</"
+         b'li></ul>\n\n                </div>\n                <div class="cle'
+         b'arer"></div>\n            </div>\n\n            <div class="content'
+         b'-mat">\n                <div id="content">\n\t\t\t\t\t<div id=\'side'
+         b"bar'><p><a class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D.B"
+         b"arber/pmwiki/pmwiki.php?n=Main.HomePage'>Homepage</a><br /><br /"
+         b">\n<a class='urllink' href='https://davidbarber.github.io/' rel='"
+         b"nofollow'>Blog</a><br /><br />\n<a target='_blank'  class='urllin"
+         b"k' href='../publications/david_barber_online.html' rel='nofollow'>Pu"
+         b'blications</a><br /><!--[[BTS.BTS|Time-Series Book]]\\\\-->\n<a cla'
+         b"ss='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/p"
+         b"mwiki.php?n=Brml.HomePage'>Textbook</a><br />\n<a class='wikilink"
+         b"' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n="
+         b"Main.Software'>Software</a><br />\n<a class='wikilink' href='http"
+         b'://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Courses'
+         b"'>Courses</a><br />\n<a class='wikilink' href='http://web4.cs.ucl"
+         b".ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Workshops'>Workshops<"
+         b"/a><br />\n<br />\n<a class='wikilink' href='http://web4.cs.ucl.ac"
+         b".uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Study'>Studying with me<"
+         b"/a><br /><a class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/D."
+         b"Barber/pmwiki/pmwiki.php?n=Main.Internships'>Internships</a><br "
+         b'/>\n<!--[[Path:../internships/index.php?n=Main.Homepage|Summer In'
+         b"ternships]]\\\\-->\n<br clear='all' />\n<a class='wikilink' href='ht"
+         b'tp://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Conta'
+         b"ct'>Contact</a><br /><a class='wikilink' href='http://web4.cs.ucl.ac"
+         b".uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Office'>Office Direction"
+         b"s</a><br /><a class='wikilink' href='http://web4.cs.ucl.ac.uk/staff/"
+         b"D.Barber/pmwiki/pmwiki.php?n=Main.Bio'>Bio</a><br /><a class='wikili"
+         b"nk' href='http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?"
+         b"n=Main.Calendar'>Calendar</a><br /><a class='wikilink' href='http://"
+         b"web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Links'>Lin"
+         b"ks</a><br />\n</p>\n<p class='vspace'><a name='ttwo' id='ttwo'></a"
+         b"> <img width='100px' src='../images/dog22.jpg' alt='' title='' /"
+         b">\n</p>\n<p class='vspace'><!--%width=160px% Path:../images/csmlms"
+         b'c.png-->\n</p>\n</div>\n                    <!--PageText-->\n<div id'
+         b"='wikitext'>\n<p><strong>Password required</strong>\n</p>\n<form ac"
+         b"tion='/staff/D.Barber/pmwiki/pmwiki.php?n=Main.MScProjects' method='"
+         b"post' \n    name='authform'>\n<div class='property-Password'>Passw"
+         b"ord: <input type='password' name='authpw' class='inputbox' /></d"
+         b"iv>\n<p><input type='submit' value='OK' class='inputbutton' />\n</"
+         b"p></form>\n<script language='javascript' type='text/javascript'><"
+         b'!--\n    try { document.authform.authid.focus(); }\n    catch(e) {'
+         b' document.authform.authpw.focus(); } //--></script></div>\n\n     '
+         b'           </div>\n                <div class="clearer"></div>\n  '
+         b'          </div>\n        </div>\n\n        <div id="footer">\n     '
+         b'       <div id="copyright">\n                <span style="float: '
+         b'left; padding-left: 20px;">\n                     \n              '
+         b'  </span>\n                <span style="float: right; display: bl'
+         b'ock; padding-right: 20px;">\n                    <span id=\'sitepo'
+         b"weredby' title='Powered by PmWiki'>\n    Powered by <a href='http"
+         b"://www.pmichaud.com/wiki/PmWiki/PmWiki' title='PmWiki Home'>PmWiki</"
+         b'a>\n</span>\n                </span>\n            </div>\n        </'
+         b'div>\n<!--HTMLfooter-->\n    </body>\n</html>\n',
+ 'links': [3776,
+           3836,
+           3813,
+           3837,
+           3838,
+           3839,
+           3784,
+           3802,
+           3769,
+           3803,
+           3804,
+           3805,
+           3806,
+           3807,
+           3808,
+           3809,
+           3810,
+           3811,
+           3812],
+ 'pid': 3813,
+ 'url': 'http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.MScProjects'}

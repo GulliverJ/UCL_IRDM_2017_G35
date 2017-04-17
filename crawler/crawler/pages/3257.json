@@ -1,7 +1,9 @@
-{'html': b'<html>\n<p>\nThis user URL no longer exists.   The user has either'
-         b' left UCL-CS\nor changed name or user-class, or the home filestor'
-         b'e is offline.\n<p>\n<a href=http://www.cs.ucl.ac.uk//people/>Peopl'
-         b'e at UCL-CS</a>\n',
- 'links': [2641],
+{'html': b'@InProceedings{CEM01:Hotos,\r\n\tauthor = {L. Capra and W. Emmerich'
+         b' and C. Mascolo},\r\n  \ttitle = {{Middleware for Mobile Computing:'
+         b' Awareness vs. Transparency (Position Summary)}},\r\n  \tbooktitle '
+         b'= {Proceedings of the 8th Workshop on Hot Topics in Operating System'
+         b's (HotOS-VIII)},\r\n  \taddress = {Schloss Elmau, Germany}, \r\n '
+         b' \tyear = {2001},\r\n  \tmonth = MAY,\r\n  \tpages = {142}\r\n }',
+ 'links': [],
  'pid': 3257,
- 'url': 'http://www0.cs.ucl.ac.uk/staff/H.Towner/'}
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/l.capra/publications/cem01hot.txt'}

@@ -1,0 +1,11 @@
+{'html': b'@InProceedings{Vestergaard-Brotherston:RTA01,\n  author    = "Ren'
+         b'{\\\'e} Vestergaard and James Brotherston",\n  title     = "A Forma'
+         b'lised First-Order Confluence Proof for the {$\\lambda$}-Calculus '
+         b'using One-Sorted Variable Names\n               (\\emph{{B}arendre'
+         b'gt was right after all {\\ldots} almost})",\n  booktitle = "Procee'
+         b'dings of RTA-12",\n  editor    = "Aart Middeldorp",\n  series    ='
+         b' "LNCS",\n  volume    = 2051,\n  pages     = "306--321",\n  publish'
+         b'er = "Springer-Verlag",\n  year      = 2001\n}\n',
+ 'links': [],
+ 'pid': 1618,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/confluence_VB/RTA01/bibtex_entry.txt'}

@@ -1,0 +1,22 @@
+{'html': b"<HTML>\r\n<HEAD>\r\n<TITLE>SALLY LONGLEY'S HOME PAGE</TITLE>\r\n</"
+         b'HEAD>\r\n<BODY BACKGROUND="spring.gif">\r\n<H1>Sally Longley\'s H'
+         b'ome Page</H1>\r\n<p> <B><span style="font-size: 1.12em">Hello my n'
+         b'ame is Sally Longley.</span></B> \r\n<p>\r\n<center><IMG SRC="image0'
+         b'2.jpg" width=185 height=195></Center>\r\n<p> <strong><span style="'
+         b'font-size: 1.12em">I work as the MSc Computer Science \r\n  Conver'
+         b'sion Course Administrator, I assist Dr Robin Hirsch (The Programme M'
+         b'anager) \r\n  with the Administration for the Programme, and Chris'
+         b' Clack the Admissions Tutor \r\n  </span></strong> \r\n<p><span styl'
+         b'e="font-size: 1.12em"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n'
+         b'bsp;&nbsp;&nbsp; \r\n  My work telephone number is + 44 (0)207 679'
+         b' 3674</strong></span></p>\r\n<UL>\r\n  <p> <span style="font-size: 1'
+         b'.12em"><strong><L1>My email address is s.longley@cs.ucl.ac.uk</stron'
+         b'g></span>\r\n  <p> <span style="font-size: 1.12em"><strong><L1>My '
+         b'Web address is URL : http://www/cs.ucl.ac.uk/staff/s.longley</strong'
+         b'></span>\r\n</UL>\r\n<p> <span style="font-size: 1.12em; color: #996'
+         b'633;"><u><a href="../../postgraduate_msc.html">For \r\n  informati'
+         b'on on the MSc in Computer Science Conversion Course</a></u> </sp'
+         b'an>\r\n<p>&nbsp; \r\n</BODY>\r\n</HTML>\r\n\r\n',
+ 'links': [2977],
+ 'pid': 2956,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/S.Longley/'}

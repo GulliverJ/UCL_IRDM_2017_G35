@@ -1,0 +1,18 @@
+{'html': b'<html>\n<head>\n<title>File AlphaClass.ML (Isabelle99-1: October 2'
+         b'000)</title>\n</head>\n\n<body>\n<h1>File AlphaClass.ML</h1>\n\n<h'
+         b'r>\n<pre>(*  Title:      AlphaClass.ML\n    Author:     James Brot'
+         b'herston / Rene Vestergaard\n    Revised:    15th January, 2001\n\n-'
+         b' A few small lemmas concerning alpha-equivalence classes\n\n*)\n\nGo'
+         b'alw [alphaclass] "e =A= e\' ==&gt; alphaclass(e) = alphaclass(e\')'
+         b'";\nby(Auto_tac);\nby(eatac rtrancl_trans 1 1);\nby(rotate_tac 1 1)'
+         b';\nby(dtac alphaeq_sym 1);\nby(eatac (rtrancl_trans RS alphaeq_sym'
+         b') 1 1);\nqed "alphaclass_lemma_1";\n\n\nGoalw[alphaclass] "x:alphacl'
+         b'ass(e) ==&gt; alphaclass(x) = alphaclass(e)";\nby(Auto_tac);\nby(e'
+         b'atac rtrancl_trans 1 1);\nby(dtac alphaeq_sym 1);\nby(eatac rtranc'
+         b'l_trans 1 1);\nqed "alphaclass_lemma_2";\n\n\nGoalw[alphaclass] "x:a'
+         b'lphaclass(e)==&gt; x =A= e";\nby(Auto_tac);\nqed "alphaclass_lemma'
+         b'_3";\n\n\nGoalw [alphaclass] "e: alphaclass(e)";\nby(Auto_tac);\n'
+         b'qed "alphaclass_self_inclusion";</pre>\n<hr>\n\n</body>\n</html>\n',
+ 'links': [],
+ 'pid': 1675,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/confluence_VB/AlphaClass.ML.html'}

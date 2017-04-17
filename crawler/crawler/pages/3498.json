@@ -1,0 +1,25 @@
+{'html': b'<html><head>\n<meta http-equiv="content-type" content="text/html;'
+         b' charset=ISO-8859-1"><title>Software</title>\n</head><body text="'
+         b'#000000" bgcolor="#ffffff">\n\n<h1>Software</h1>\n<hr><p>\nHere you '
+         b'can find the Matlab implementation of some methods I develped with m'
+         b'y collaborators. \nIf you have questions or comments please feel '
+         b'free to contact me. <br>\n<!--The complete list of my publication'
+         b's is available here.-->\n<br>\n\n<!--<h3>In Press</h3>\n<UL>\n</U'
+         b'L>\n-->\n\n</p><ul>\n\n<li>\n<a href="http://www.cs.ucl.ac.uk/staf'
+         b'f/M.Pontil/software/sparsity.html">\nRegularizers for structured '
+         b'sparsity.</a>\n</li>\n<p>\n\n</p><li>\n<a href="http://ttic.uchic'
+         b'ago.edu/~argyriou/code/index.html">\nMulti-task feature learning.'
+         b'</a> \n</li>\n<p>\n\n</p><li>\n<a href="http://ttic.uchicago.edu/'
+         b'~argyriou/code/index.html">\nLearning a similarity graph for semi'
+         b'-supervised learning.</a>\n</li>\n<p>\n\n</p><li>\n<a href="http:'
+         b'//ttic.uchicago.edu/~argyriou/code/index.html">\nLearning convex '
+         b'combinations of continuously parameterized basic kernels.</a> \n<'
+         b'/li>\n<p>\n\n</p><li>\n<a href="http://www.cs.ucl.ac.uk/staff/M.Pont'
+         b'il/">\nKernel regularized least squares for multi-task learning.<'
+         b'/a>\n</li>\n</ul>\n<p>\n</p><hr>\n\nBack to <a href="http://www.cs'
+         b'.ucl.ac.uk/staff/M.Pontil/">home</a>. <!-- ZoneLabs Popup Blocking I'
+         b'nsertion -->\n<script language="javascript">postamble();</script>'
+         b'\n</body></html>\n',
+ 'links': [3499, 3437],
+ 'pid': 3498,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/M.Pontil/software.html'}

@@ -1,0 +1,18 @@
+{'html': b'<!doctype html public "-//w3c//dtd html 4.0 transitional//en">\n<'
+         b'html>\n<head>\n<link href="stylesheet.css" rel="stylesheet" type="'
+         b'text/css">\n</head>\n<body bgcolor="#FFFFFF" vlink="#681813">\n\n<ce'
+         b'nter>\n<h1>\n</h1></center>\n\n<h2>\nContact Information</h2>\n\n<a'
+         b'ddress>\nDr. D. K. Swapp</address>\n\n<address>\nDepartment of Compu'
+         b'ter Science</address>\n\n<address>\nUniversity College London</addr'
+         b'ess>\n\n<address>\nGower Street</address>\n\n<address>\nLondon. WC'
+         b'1E 6BT</address>\n\n<address>\nUK</address>\n\n<br>Phone&nbsp; +4'
+         b'4 (0)20 7679 7211\n<br>Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +44 (0)2'
+         b'0 7387 1397\n<br>Email d.swapp at cs.ucl.ac.uk<a href="http://www'
+         b'.cs.ucl.ac.uk/staff/D.Swapp"></a>\n<p>\n<hr SIZE="5">\n<p><script L'
+         b'ANGUAGE="JavaScript">\n        if (Date.parse(document.lastModifi'
+         b"ed) != 0)\n           document.write('<small><i>Last modified: ' "
+         b"+ document.lastModified + '</i> </small>');\n</script>\n\n</body>\n<"
+         b'/html>\n',
+ 'links': [2047],
+ 'pid': 2015,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/D.Swapp/'}

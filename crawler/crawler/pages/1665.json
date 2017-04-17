@@ -1,0 +1,26 @@
+{'html': b'<html>\n<head>\n<title>Theory AlphaClass (Isabelle99-1: October 20'
+         b'00)</title>\n</head>\n\n<body>\n<h1>Theory AlphaClass</h1>\n\n\n<p>'
+         b'\n<a href="index.html">Up</a> to index of Isabelle/HOL/raw-conflu'
+         b'ence-lambda\n</p>\n<b>theory</b> <i>AlphaClass</i> = <a href="Alph'
+         b'a.html"><i>Alpha</i></a><br><b>files</b> <a href="AlphaClass.ML.html'
+         b'">[<tt>AlphaClass.ML</tt>]</a>:\n\n<hr>\n<pre>(*  Title:      Alpha'
+         b'Class.thy\n    Author:     James Brotherston / Rene Vestergaard\n '
+         b'   Revised:    15th January, 2001\n\n- Definition of alpha-equival'
+         b'ence class\n\n*)\n\nAlphaClass = Alpha +\n\nconsts  alphaclass :: '
+         b'"lterm =&gt; lterm set"\n\ndefs\n  alphaclass "alphaclass(e) == {e\''
+         b'. e\' =A= e}"\n\nend</pre>\n<hr>\n\n<p>\n<b>theorem</b> <i>alphacla'
+         b'ss_lemma_1:</i>\n<pre>  <font color="blue">e</font> =A= <font col'
+         b'or="blue">e\'</font> ==&gt; alphaclass <font color="blue">e</font'
+         b'> = alphaclass <font color="blue">e\'</font></pre>\n</p>\n\n<p>\n'
+         b'<b>theorem</b> <i>alphaclass_lemma_2:</i>\n<pre>  <font color="bl'
+         b'ue">x</font> : alphaclass <font color="blue">e</font> ==&gt; alphacl'
+         b'ass <font color="blue">x</font> = alphaclass <font color="blue">e</f'
+         b'ont></pre>\n</p>\n\n<p>\n<b>theorem</b> <i>alphaclass_lemma_3:</'
+         b'i>\n<pre>  <font color="blue">x</font> : alphaclass <font color="'
+         b'blue">e</font> ==&gt; <font color="blue">x</font> =A= <font color="b'
+         b'lue">e</font></pre>\n</p>\n\n<p>\n<b>theorem</b> <i>alphaclass_self_'
+         b'inclusion:</i>\n<pre>  <font color="blue">e</font> : alphaclass <'
+         b'font color="blue">e</font></pre>\n</p>\n\n</body>\n</html>\n',
+ 'links': [1614, 1663, 1675],
+ 'pid': 1665,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/confluence_VB/AlphaClass.html'}

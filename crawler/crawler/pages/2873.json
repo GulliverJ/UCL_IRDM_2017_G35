@@ -1,0 +1,146 @@
+{'html': b"    <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'\r\n  "
+         b"  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>\r\n<?xml ve"
+         b'rsion="1.0" encoding="iso-8859-1"?>\r\n<html xmlns="http://www.w3.'
+         b'org/1999/xhtml" xml:lang="en" lang="en">\r\n<head>\r\n\t<meta htt'
+         b'p-equiv="Content-Type" content="text/html; charset=iso-8859-1" /'
+         b'>\r\n\r\n    <title>\r\n\t\tMicrostructure Imaging Group | UCL MIG H'
+         b'ome Page | List of Resources | Computing Resources\r\n    </title>'
+         b'\r\n\r\n    <meta http-equiv="Content-Type" content="text/html; char'
+         b'set=iso-8859-1" />\r\n    <link rel="stylesheet" type="text/css" h'
+         b'ref="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwiki/mig_purple.css" '
+         b' title="cmic" />\r\n    <!--HTMLHeader--><style type=\'text/css\'><!'
+         b'--\n  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }\n '
+         b' code.escaped { white-space: nowrap; }\n  .vspace { margin-top:1.'
+         b'33em; }\n  .indent { margin-left:40px; }\n  .outdent { margin-left'
+         b':40px; text-indent:-40px; }\n  a.createlinktext { text-decoration'
+         b':none; border-bottom:1px dotted gray; }\n  a.createlink { text-de'
+         b'coration:none; position:relative; top:-0.5em;\n    font-weight:bo'
+         b'ld; font-size:smaller; border-bottom:none; }\n  img { border:0px;'
+         b' }\n  \nspan.anchor {\n\tfloat: left;\n\tfont-size: 10px;\n\tmargin-'
+         b'left: -10px;\n\twidth: 10px;\n    position:relative; top:-0.1em'
+         b';\n\ttext-align: center;\n}\nspan.anchor a { text-decoration: none; '
+         b'}\nspan.anchor a:hover { text-decoration: underline; }\nol.toc { t'
+         b'ext-indent:-20px; list-style: none; }\nol.toc ol.toc { text-inden'
+         b't:-40px; }\ndiv.tocfloat { font-size: smaller; margin-bottom: 10p'
+         b'x;\n    border-top: 1px dotted #555555; border-bottom: 1px dotted'
+         b' #555555;\n    padding-top: 5px; padding-bottom: 5px; \n    width:'
+         b' 38%; float: right; margin-left: 10px; clear: right;\n    margin-'
+         b'right:-13px; padding-right: 13px; padding-left: 13px;\n    backgr'
+         b'ound-color: #eeeeee; }\ndiv.toc { font-size: smaller; \n    paddin'
+         b'g: 5px; border: 1px dotted #cccccc;\n    background: #f7f7f7;\n   '
+         b' margin-bottom: 10px; }\ndiv.toc p { background-color: #f9f6d6;\n '
+         b'   margin-top:-5px;   padding-top: 5px;\n    margin-left:-5px;  p'
+         b'adding-left: 5px;\n    margin-right:-5px; padding-right: 5px;\n   '
+         b' padding-bottom: 3px;\n    border-bottom:  1px dotted #cccccc; }.'
+         b'editconflict { color:green; \n  font-style:italic; margin-top:1.3'
+         b'3em; margin-bottom:1.33em; }\n\n  table.markup { border:2px dotted'
+         b' #ccf; width:90%; }\n  td.markup1, td.markup2 { padding-left:10px'
+         b'; padding-right:10px; }\n  table.vert td.markup1 { border-bottom:'
+         b'1px solid #ccf; }\n  table.horiz td.markup1 { width:23em; border-'
+         b'right:1px solid #ccf; }\n  table.markup caption { text-align:left'
+         b'; }\n  div.faq p, div.faq pre { margin-left:2em; }\n  div.faq p.qu'
+         b'estion { margin:1em 0 0.75em 0; font-weight:bold; }\n  div.faqtoc'
+         b' div.faq * { display:none; }\n  div.faqtoc div.faq p.question \n  '
+         b'  { display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; li'
+         b'ne-height:normal; }\n  div.faqtoc div.faq p.question * { display:'
+         b'inline; }\n   \n    .frame \n      { border:1px solid #cccccc; padd'
+         b'ing:4px; background-color:#f9f9f9; }\n    .lfloat { float:left; m'
+         b'argin-right:0.5em; }\n    .rfloat { float:right; margin-left:0.5e'
+         b'm; }\na.varlink { text-decoration:none; }\n\n--></style><script typ'
+         b'e="text/javascript">\nfunction toggle(obj) {\n    var elstyle = do'
+         b'cument.getElementById(obj).style;\n    var text    = document.get'
+         b'ElementById(obj + "tog");\n    if (elstyle.display == \'none\') {\n '
+         b'       elstyle.display = \'block\';\n        text.innerHTML = "hide'
+         b'";\n    } else {\n        elstyle.display = \'none\';\n        te'
+         b'xt.innerHTML = "show";\n    }\n}\n</script><link rel=\'styleshee'
+         b"t' href='http://cmic.cs.ucl.ac.uk/mig/pub/css/twitter.css' type='tex"
+         b"t/css' />  <meta name='robots' content='index,follow' />\n\r\n</hea"
+         b'd>\r\n\r\n<body>\r\n\r\n<div id="everything" class="page_layout"'
+         b'>\r\n\t\r\n\t<div id="banner" class="page_layout">\r\n\t\t<div id='
+         b'"section_head">UCL Microstructure Imaging Group\r\n    </div>\r'
+         b'\n\t\t<a href="http://www.ucl.ac.uk/"> \r\n        <img id="ucl_l'
+         b'ogo" src="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwiki/ucl000_mig_'
+         b'purp.png" alt="UCL Logo"/></a>  \r\n\t\t<div id="ucl_div" class="cle'
+         b'arDiv">\r\n      &nbsp;<a href="http://www.ucl.ac.uk" onfocus="blu'
+         b'rLink(this);">UCL</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nbsp;<a href="ht'
+         b'tp://mig.cs.ucl.ac.uk/index.php" onfocus="blurLink(this);">MIG</a>&n'
+         b'bsp;&#8250;&#8250;\r\n\t\t  &nbsp;UCL MIG Home Page | List of Resour'
+         b'ces | Computing Resources\r\n    </div>\r\n\t\t<div class="clear_d'
+         b'iv">\r\n    </div>\r\n\t</div> <!-- banner -->\r\n\t\r\n\t<div id="'
+         b'main_div">\r\n\t\t<!--PageLeftFmt-->\r\n\t\t<div id="left">\r'
+         b'\n\t\t\t<a href="http://mig.cs.ucl.ac.uk/index.php"><img id="mig_log'
+         b'o" src="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwiki/mig_logo_purp'
+         b'_noline.png" alt="MIG Logo"/></a>\r\n\t\t\t<div class=\'vspace\'></'
+         b"div><ul><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index."
+         b"php?n=Main.HomePage'>Home</a>\n<div class='vspace'></div></li><li"
+         b"><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main."
+         b"People'>People</a>\n<div class='vspace'></div></li><li><a class='"
+         b"wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.Research'>R"
+         b"esearch</a>\n<div class='vspace'></div></li><li><a class='wikilin"
+         b"k' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.Projects'>Projects"
+         b"</a>\n<div class='vspace'></div></li><li><a class='wikilink' href"
+         b"='http://mig.cs.ucl.ac.uk/index.php?n=Main.Publications'>Publication"
+         b"s</a>\n<div class='vspace'></div></li><li><a class='wikilink' hre"
+         b"f='http://mig.cs.ucl.ac.uk/index.php?n=Main.Resources'>Resources</a>"
+         b"\n<div class='vspace'></div></li><li><a class='wikilink' href='ht"
+         b"tp://mig.cs.ucl.ac.uk/index.php?n=Main.Vacancies'>Vacancies</a>\n"
+         b"<div class='vspace'></div></li><li><a class='wikilink' href='http://"
+         b"mig.cs.ucl.ac.uk/index.php?n=Main.AwayDays'>Away days</a>\n<div c"
+         b"lass='vspace'></div></li><li><a class='wikilink' href='http://mig.cs"
+         b".ucl.ac.uk/index.php?n=Main.PublicEngagement'>Public Engagement<"
+         b"/a>\n</li></ul><div class='vspace'></div>\n\r\n\t\t</div>\r\n\r\n\t"
+         b'\t<!--/PageLeftFmt-->\r\n\t\t<div id="middle" class="main text">\r'
+         b"\n\t\t\t<!--PageTitleFmt-->\r\n\t\t\t<!--PageText-->\n<div id='wik"
+         b"itext'>\n<p><strong>Password required</strong>\n</p>\n<form action="
+         b"'/index.php?n=Main.Computing' method='post' \n    name='authform'"
+         b">\n<p>Password: <input type='password' name='authpw' class='input"
+         b"box' />\n<input type='submit' value='OK' class='inputbutton' />\n<"
+         b"/p></form>\n<script language='javascript' type='text/javascript'>"
+         b'<!--\n    try { document.authform.authid.focus(); }\n    catch(e) '
+         b'{ document.authform.authpw.focus(); } //--></script></div>\n\r'
+         b'\n\t\t\t</div>\r\n\t\t</div> <!-- middle -->\r\n\t\r\n\t  <div id='
+         b'"footer" class="page_layout">  \r\n      <div id="footerText" clas'
+         b's="foot_text">\t  \r\n        <p class="contact">\t\tMicrostructu'
+         b're Imaging Group - University College London - Gower Street - London'
+         b' - WC1E 6BT -  \t\t\r\n          <img src="http://cmic.cs.ucl.ac.uk/'
+         b'mig/pub/skins/migwiki/phone.gif" width="13" height="9" id="phone" al'
+         b't="Telephone:" />\t\t+44 (0)20 7679 0221 - Copyright &copy; 1999-2'
+         b'009 UCL. \t  \r\n          <a href="http://www.ucl.ac.uk/disclaimer'
+         b'/" title="Disclaimer">Disclaimer</a> |  \t  \r\n          <a href="'
+         b'http://www.ucl.ac.uk/accessibility/" title="Accessibility">Accessibi'
+         b'lity</a> | \t  \r\n          <a href="http://www.ucl.ac.uk/priv/" t'
+         b'itle="Privacy">Privacy</a> | \t  \r\n          <a href="http://www.'
+         b'ucl.ac.uk/advanced-search/" title="UCL Search">UCL Search</a> | '
+         b'\t  \r\n          <a href="http://www.cs.ucl.ac.uk/help.html" title'
+         b'="UCL-CS Help">UCL-CS Help</a>\r\n\t\t\t    <br />\r\n\t\t\t    <a'
+         b' rel="nofollow" href=\'http://mig.cs.ucl.ac.uk/index.php?n=Main.C'
+         b'omputing?action=edit\'>Edit</a> |\r\n\t\t\t    <a rel="nofollow" h'
+         b"ref='http://mig.cs.ucl.ac.uk/index.php?n=Main.Computing?action=diff'"
+         b'>History</a> |\r\n\t\t\t    <a rel="nofollow" href=\'http://mig.cs'
+         b".ucl.ac.uk/index.php?n=Main.Computing?action=print' target='_blank'>"
+         b"Print</a> |\r\n\t\t\t    <a href='http://mig.cs.ucl.ac.uk/index.p"
+         b"hp?n=Main.RecentChanges'>Recent Changes</a> |\r\n\t\t\t    <a hre"
+         b"f='http://mig.cs.ucl.ac.uk/index.php?n=Site.Search'>Search</a>\r\n"
+         b"\t\t    </p>\r\n      </div>\r\n\t\t\t<div class='contact'>Page l"
+         b'ast modified on May 11, 2010, at 06:59 PM\r\n      </div>\r\n\t\t '
+         b' <!--HTMLFooter-->\r\n    </div> <!-- footer -->\r\n </div> <!-- mai'
+         b'n -->\r\n\r\n</div> <!-- everything -->\r\n\r\n</body>\r\n\r\n</html'
+         b'>\r\n',
+ 'links': [2815,
+           2816,
+           2817,
+           2818,
+           2569,
+           2819,
+           2820,
+           2821,
+           2822,
+           2823,
+           345,
+           2891,
+           2892,
+           2893,
+           2827,
+           2828],
+ 'pid': 2873,
+ 'url': 'http://mig.cs.ucl.ac.uk/index.php?n=Main.Computing'}

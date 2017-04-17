@@ -1,0 +1,138 @@
+{'html': b"    <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'\r\n  "
+         b"  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>\r\n<?xml ve"
+         b'rsion="1.0" encoding="iso-8859-1"?>\r\n<html xmlns="http://www.w3.'
+         b'org/1999/xhtml" xml:lang="en" lang="en">\r\n<head>\r\n\t<meta htt'
+         b'p-equiv="Content-Type" content="text/html; charset=iso-8859-1" /'
+         b'>\r\n\r\n    <title>\r\n\t\tMicrostructure Imaging Group | Ivana Dro'
+         b'bnjak Home Page\r\n    </title>\r\n\r\n    <meta http-equiv="Conte'
+         b'nt-Type" content="text/html; charset=iso-8859-1" />\r\n    <link r'
+         b'el="stylesheet" type="text/css" href="http://cmic.cs.ucl.ac.uk/mig/p'
+         b'ub/skins/migwiki/mig_purple.css"  title="cmic" />\r\n    <!--HTMLH'
+         b"eader--><style type='text/css'><!--\n  ul, ol, pre, dl, p { margi"
+         b'n-top:0px; margin-bottom:0px; }\n  code.escaped { white-space: no'
+         b'wrap; }\n  .vspace { margin-top:1.33em; }\n  .indent { margin-left'
+         b':40px; }\n  .outdent { margin-left:40px; text-indent:-40px; }\n  a'
+         b'.createlinktext { text-decoration:none; border-bottom:1px dotted gra'
+         b'y; }\n  a.createlink { text-decoration:none; position:relative; t'
+         b'op:-0.5em;\n    font-weight:bold; font-size:smaller; border-botto'
+         b'm:none; }\n  img { border:0px; }\n  \nspan.anchor {\n\tfloat: lef'
+         b't;\n\tfont-size: 10px;\n\tmargin-left: -10px;\n\twidth: 10px;\n    '
+         b'position:relative; top:-0.1em;\n\ttext-align: center;\n}\nspan.ancho'
+         b'r a { text-decoration: none; }\nspan.anchor a:hover { text-decora'
+         b'tion: underline; }\nol.toc { text-indent:-20px; list-style: none;'
+         b' }\nol.toc ol.toc { text-indent:-40px; }\ndiv.tocfloat { font-size'
+         b': smaller; margin-bottom: 10px;\n    border-top: 1px dotted #5555'
+         b'55; border-bottom: 1px dotted #555555;\n    padding-top: 5px; pad'
+         b'ding-bottom: 5px; \n    width: 38%; float: right; margin-left: 10'
+         b'px; clear: right;\n    margin-right:-13px; padding-right: 13px; p'
+         b'adding-left: 13px;\n    background-color: #eeeeee; }\ndiv.toc { fo'
+         b'nt-size: smaller; \n    padding: 5px; border: 1px dotted #cccccc;'
+         b'\n    background: #f7f7f7;\n    margin-bottom: 10px; }\ndiv.toc p {'
+         b' background-color: #f9f6d6;\n    margin-top:-5px;   padding-top: '
+         b'5px;\n    margin-left:-5px;  padding-left: 5px;\n    margin-right:'
+         b'-5px; padding-right: 5px;\n    padding-bottom: 3px;\n    border-bo'
+         b'ttom:  1px dotted #cccccc; }.editconflict { color:green; \n  font'
+         b'-style:italic; margin-top:1.33em; margin-bottom:1.33em; }\n\n  tab'
+         b'le.markup { border:2px dotted #ccf; width:90%; }\n  td.markup1, t'
+         b'd.markup2 { padding-left:10px; padding-right:10px; }\n  table.ver'
+         b't td.markup1 { border-bottom:1px solid #ccf; }\n  table.horiz td.'
+         b'markup1 { width:23em; border-right:1px solid #ccf; }\n  table.mar'
+         b'kup caption { text-align:left; }\n  div.faq p, div.faq pre { marg'
+         b'in-left:2em; }\n  div.faq p.question { margin:1em 0 0.75em 0; fon'
+         b't-weight:bold; }\n  div.faqtoc div.faq * { display:none; }\n  div.'
+         b'faqtoc div.faq p.question \n    { display:block; font-weight:norm'
+         b'al; margin:0.5em 0 0.5em 20px; line-height:normal; }\n  div.faqto'
+         b'c div.faq p.question * { display:inline; }\n   \n    .frame \n     '
+         b' { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; '
+         b'}\n    .lfloat { float:left; margin-right:0.5em; }\n    .rfloat { '
+         b'float:right; margin-left:0.5em; }\na.varlink { text-decoration:no'
+         b'ne; }\n\n--></style><script type="text/javascript">\nfunction toggl'
+         b'e(obj) {\n    var elstyle = document.getElementById(obj).style;\n '
+         b'   var text    = document.getElementById(obj + "tog");\n    if (e'
+         b"lstyle.display == 'none') {\n        elstyle.display = 'block';\n "
+         b'       text.innerHTML = "hide";\n    } else {\n        elstyle.dis'
+         b'play = \'none\';\n        text.innerHTML = "show";\n    }\n}\n</sc'
+         b"ript><link rel='stylesheet' href='http://cmic.cs.ucl.ac.uk/mig/pub/c"
+         b"ss/twitter.css' type='text/css' />  <meta name='robots' content='ind"
+         b'ex,follow\' />\n\r\n</head>\r\n\r\n<body>\r\n\r\n<div id="everything'
+         b'" class="page_layout">\r\n\t\r\n\t<div id="banner" class="page_lay'
+         b'out">\r\n\t\t<div id="section_head">UCL Microstructure Imaging Group'
+         b'\r\n    </div>\r\n\t\t<a href="http://www.ucl.ac.uk/"> \r\n        <'
+         b'img id="ucl_logo" src="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwik'
+         b'i/ucl000_mig_purp.png" alt="UCL Logo"/></a>  \r\n\t\t<div id="ucl_di'
+         b'v" class="clearDiv">\r\n      &nbsp;<a href="http://www.ucl.ac.uk"'
+         b' onfocus="blurLink(this);">UCL</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nbs'
+         b'p;<a href="http://mig.cs.ucl.ac.uk/index.php" onfocus="blurLink(this'
+         b');">MIG</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nbsp;Ivana Drobnjak Home P'
+         b'age\r\n    </div>\r\n\t\t<div class="clear_div">\r\n    </div>\r\n'
+         b'\t</div> <!-- banner -->\r\n\t\r\n\t<div id="main_div">\r\n\t\t<!--'
+         b'PageLeftFmt-->\r\n\t\t<div id="left">\r\n\t\t\t<a href="http://mi'
+         b'g.cs.ucl.ac.uk/index.php"><img id="mig_logo" src="http://cmic.cs.ucl'
+         b'.ac.uk/mig/pub/skins/migwiki/mig_logo_purp_noline.png" alt="MIG Logo'
+         b'"/></a>\r\n\t\t\t<div class=\'vspace\'></div><ul><li><a class=\'wiki'
+         b"link' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.HomePage'>Home<"
+         b"/a>\n<div class='vspace'></div></li><li><a class='wikilink' href="
+         b"'http://mig.cs.ucl.ac.uk/index.php?n=Main.People'>People</a>\n<di"
+         b"v class='vspace'></div></li><li><a class='wikilink' href='http://mig"
+         b".cs.ucl.ac.uk/index.php?n=Main.Research'>Research</a>\n<div class"
+         b"='vspace'></div></li><li><a class='wikilink' href='http://mig.cs.ucl"
+         b".ac.uk/index.php?n=Main.Projects'>Projects</a>\n<div class='vspac"
+         b"e'></div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/"
+         b"index.php?n=Main.Publications'>Publications</a>\n<div class='vspa"
+         b"ce'></div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk"
+         b"/index.php?n=Main.Resources'>Resources</a>\n<div class='vspace'><"
+         b"/div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/inde"
+         b"x.php?n=Main.Vacancies'>Vacancies</a>\n<div class='vspace'></div>"
+         b"</li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php"
+         b"?n=Main.AwayDays'>Away days</a>\n<div class='vspace'></div></li><"
+         b"li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Mai"
+         b"n.PublicEngagement'>Public Engagement</a>\n</li></ul><div class='"
+         b"vspace'></div>\n\r\n\t\t</div>\r\n\r\n\t\t<!--/PageLeftFmt-->\r\n"
+         b'\t\t<div id="middle" class="main text">\r\n\t\t\t<!--PageTitleFmt--'
+         b"><!--PageText-->\n<div id='wikitext'>\n<div class='vspace'></div>\n"
+         b'</div>\n\r\n\t\t\t</div>\r\n\t\t</div> <!-- middle -->\r\n\t\r\n\t  '
+         b'<div id="footer" class="page_layout">  \r\n      <div id="footerTe'
+         b'xt" class="foot_text">\t  \r\n        <p class="contact">\t\tMicr'
+         b'ostructure Imaging Group - University College London - Gower Street '
+         b'- London - WC1E 6BT -  \t\t\r\n          <img src="http://cmic.cs.uc'
+         b'l.ac.uk/mig/pub/skins/migwiki/phone.gif" width="13" height="9" id="p'
+         b'hone" alt="Telephone:" />\t\t+44 (0)20 7679 0221 - Copyright &copy'
+         b'; 1999-2009 UCL. \t  \r\n          <a href="http://www.ucl.ac.uk/di'
+         b'sclaimer/" title="Disclaimer">Disclaimer</a> |  \t  \r\n          <'
+         b'a href="http://www.ucl.ac.uk/accessibility/" title="Accessibility">A'
+         b'ccessibility</a> | \t  \r\n          <a href="http://www.ucl.ac.uk/'
+         b'priv/" title="Privacy">Privacy</a> | \t  \r\n          <a href="htt'
+         b'p://www.ucl.ac.uk/advanced-search/" title="UCL Search">UCL Search</a'
+         b'> | \t  \r\n          <a href="http://www.cs.ucl.ac.uk/help.html" t'
+         b'itle="UCL-CS Help">UCL-CS Help</a>\r\n\t\t\t    <br />\r\n\t\t\t  '
+         b'  <a rel="nofollow" href=\'http://mig.cs.ucl.ac.uk/index.php?n=Ma'
+         b'in.IDrobnjak?action=edit\'>Edit</a> |\r\n\t\t\t    <a rel="nofollo'
+         b'w" href=\'http://mig.cs.ucl.ac.uk/index.php?n=Main.IDrobnjak?acti'
+         b'on=diff\'>History</a> |\r\n\t\t\t    <a rel="nofollow" href=\'http:'
+         b"//mig.cs.ucl.ac.uk/index.php?n=Main.IDrobnjak?action=print' target='"
+         b"_blank'>Print</a> |\r\n\t\t\t    <a href='http://mig.cs.ucl.ac.uk"
+         b"/index.php?n=Main.RecentChanges'>Recent Changes</a> |\r\n\t\t\t  "
+         b"  <a href='http://mig.cs.ucl.ac.uk/index.php?n=Site.Search'>Search</"
+         b"a>\r\n\t\t    </p>\r\n      </div>\r\n\t\t\t<div class='contact'>Pa"
+         b'ge last modified on June 16, 2010, at 07:01 PM\r\n      </div>'
+         b'\r\n\t\t  <!--HTMLFooter-->\r\n    </div> <!-- footer -->\r\n </div>'
+         b' <!-- main -->\r\n\r\n</div> <!-- everything -->\r\n\r\n</body>\r'
+         b'\n\r\n</html>\r\n',
+ 'links': [2815,
+           2816,
+           2817,
+           2818,
+           2569,
+           2819,
+           2820,
+           2821,
+           2822,
+           2823,
+           345,
+           2910,
+           2911,
+           2912,
+           2827,
+           2828],
+ 'pid': 2872,
+ 'url': 'http://mig.cs.ucl.ac.uk/index.php?n=Main.IDrobnjak'}

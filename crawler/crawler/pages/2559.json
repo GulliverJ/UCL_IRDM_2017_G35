@@ -1,0 +1,14 @@
+{'html': b'\r\nTitle\r\nRewrite Speci?cations of Access Control Policies in Dis'
+         b'tributed Environments\r\n\r\nAbstract\r\nIn this talk I will prese'
+         b'nt a metamodel for access control that takes into\r\naccount the r'
+         b'equirements of distributed environments, where\r\nresources and ac'
+         b'cess control policies may be distributed across\r\nseveral sites. '
+         b'This distributed metamodel is an extension of the\r\ncategory-base'
+         b'd metamodel, from which standard centralised access\r\ncontrol mod'
+         b'els such as  MAC, DAC, RBAC, Bell-Lapadula, can be derived.\r\nWe '
+         b'will use term rewriting to give an operational semantics to the\r'
+         b'\ndistributed metamodel, and then show how various distributed\r\na'
+         b'ccess control models can be derived as instances. ',
+ 'links': [],
+ 'pid': 2559,
+ 'url': 'http://crest.cs.ucl.ac.uk/fileadmin/crest/COWabstracts/12/Maribel.txt'}

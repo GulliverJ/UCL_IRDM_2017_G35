@@ -1,0 +1,11 @@
+{'html': b'@InProceedings{Vestergaard-Brotherston:MERLIN01,\n  author    = "'
+         b'Ren{\\\'e} Vestergaard and James Brotherston",\n  title     = "The '
+         b'Mechanisation of {B}arendregt-Style Equational Proofs (The Residual '
+         b'Perspective)",\n  booktitle = "Proceedings of {MERLIN-1}",\n  jour'
+         b'nal   = "Electronic Notes in Theoretical Computer Science",\n  vo'
+         b'lume    = 58,\n  number    = 1,\n  pages     = "18--36",\n  editor '
+         b'   = "Roy Crole and Simon Ambler",\n  publisher = "Elsevier Scien'
+         b'ce",\n  year      =   2001\n}\n',
+ 'links': [],
+ 'pid': 1616,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/mech_Barendregt_VB/MERLIN01/bibtex_entry.txt'}

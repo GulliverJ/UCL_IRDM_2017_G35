@@ -1,0 +1,154 @@
+{'html': b'<!DOCTYPE html>\n<html lang="en-US" class="no-js">\n<head>\n\t<meta '
+         b'charset="UTF-8">\n\t<meta name="viewport" content="width=device-wi'
+         b'dth">\n\t<link rel="profile" href="http://gmpg.org/xfn/11">\n\t<link'
+         b' rel="pingback" href="http://mittos.me/xmlrpc.php">\n\t<!--[if lt '
+         b'IE 9]>\n\t<script src="http://mittos.me/wp-content/themes/twentyfi'
+         b'fteen/js/html5.js"></script>\n\t<![endif]-->\n\t<script>(function(ht'
+         b"ml){html.className = html.className.replace(/\\bno-js\\b/,'js')})("
+         b'document.documentElement);</script>\n<title>Alexandros Mittos &#8'
+         b"211; Early Stage Researcher at UCL</title>\n<link rel='dns-prefet"
+         b"ch' href='//fonts.googleapis.com' />\n<link rel='dns-prefetch' hr"
+         b"ef='//s.w.org' />\n<link href='https://fonts.gstatic.com' crossor"
+         b'igin rel=\'preconnect\' />\n<link rel="alternate" type="application'
+         b'/rss+xml" title="Alexandros Mittos &raquo; Feed" href="http://mittos'
+         b'.me/feed/" />\n<link rel="alternate" type="application/rss+xml" t'
+         b'itle="Alexandros Mittos &raquo; Comments Feed" href="http://mittos.m'
+         b'e/comments/feed/" />\n\t\t<script type="text/javascript">\n\t\t\twi'
+         b'ndow._wpemojiSettings = {"baseUrl":"https:\\/\\/s.w.org\\/images\\/c'
+         b'ore\\/emoji\\/2.2.1\\/72x72\\/","ext":".png","svgUrl":"https:\\/\\'
+         b'/s.w.org\\/images\\/core\\/emoji\\/2.2.1\\/svg\\/","svgExt":".svg"'
+         b',"source":{"concatemoji":"http:\\/\\/mittos.me\\/wp-includes\\/j'
+         b's\\/wp-emoji-release.min.js?ver=4.7.3"}};\n\t\t\t!function(a,b,c)'
+         b'{function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)'
+         b'return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="to'
+         b'p",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,5'
+         b'6826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0'
+         b',j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),'
+         b'0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f('
+         b'55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":re'
+         b'turn k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j'
+         b'.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56'
+         b'425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}fun'
+         b'ction e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="t'
+         b'ext/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var'
+         b' f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2'
+         b'd");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythin'
+         b'gExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.suppor'
+         b'ts.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&'
+         b'&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c'
+         b'.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythi'
+         b'ngExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=functio'
+         b'n(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallb'
+         b'ack()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!'
+         b'1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.att'
+         b'achEvent("onreadystatechange",function(){"complete"===b.readyState&&'
+         b'c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f'
+         b'.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,w'
+         b'indow._wpemojiSettings);\n\t\t</script>\n\t\t<style type="text/css'
+         b'">\nimg.wp-smiley,\nimg.emoji {\n\tdisplay: inline !important;\n\t'
+         b'border: none !important;\n\tbox-shadow: none !important;\n\theight: '
+         b'1em !important;\n\twidth: 1em !important;\n\tmargin: 0 .07em !import'
+         b'ant;\n\tvertical-align: -0.1em !important;\n\tbackground: none !impo'
+         b"rtant;\n\tpadding: 0 !important;\n}\n</style>\n<link rel='stylesh"
+         b"eet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.co"
+         b'm/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Se'
+         b'rif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#0'
+         b"38;subset=latin%2Clatin-ext' type='text/css' media='all' />\n<lin"
+         b"k rel='stylesheet' id='genericons-css'  href='http://mittos.me/wp-co"
+         b"ntent/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='"
+         b"text/css' media='all' />\n<link rel='stylesheet' id='twentyfiftee"
+         b"n-style-css'  href='http://mittos.me/wp-content/themes/twentyfifteen"
+         b"/style.css?ver=4.7.3' type='text/css' media='all' />\n<!--[if lt "
+         b"IE 9]>\n<link rel='stylesheet' id='twentyfifteen-ie-css'  href='h"
+         b'ttp://mittos.me/wp-content/themes/twentyfifteen/css/ie.css?ver=20141'
+         b"010' type='text/css' media='all' />\n<![endif]-->\n<!--[if lt IE 8"
+         b"]>\n<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http"
+         b'://mittos.me/wp-content/themes/twentyfifteen/css/ie7.css?ver=2014101'
+         b"0' type='text/css' media='all' />\n<![endif]-->\n<script type='tex"
+         b"t/javascript' src='http://mittos.me/wp-includes/js/jquery/jquery.js?"
+         b"ver=1.12.4'></script>\n<script type='text/javascript' src='http:/"
+         b"/mittos.me/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></"
+         b"script>\n<link rel='https://api.w.org/' href='http://mittos.me/wp"
+         b'-json/\' />\n<link rel="EditURI" type="application/rsd+xml" title='
+         b'"RSD" href="http://mittos.me/xmlrpc.php?rsd" />\n<link rel="wlwma'
+         b'nifest" type="application/wlwmanifest+xml" href="http://mittos.me/wp'
+         b'-includes/wlwmanifest.xml" /> \n<meta name="generator" content="W'
+         b'ordPress 4.7.3" />\n<link rel="canonical" href="http://mittos.me/'
+         b'" />\n<link rel=\'shortlink\' href=\'http://mittos.me/\' />\n<link'
+         b' rel="alternate" type="application/json+oembed" href="http://mittos.'
+         b'me/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmittos.me%2F" />\n<l'
+         b'ink rel="alternate" type="text/xml+oembed" href="http://mittos.me/wp'
+         b'-json/oembed/1.0/embed?url=http%3A%2F%2Fmittos.me%2F&#038;format=xml'
+         b'" />\n</head>\n\n<body class="home page-template-default page page-'
+         b'id-9">\n<div id="page" class="hfeed site">\n\t<a class="skip-link s'
+         b'creen-reader-text" href="#content">Skip to content</a>\n\n\t<div id'
+         b'="sidebar" class="sidebar">\n\t\t<header id="masthead" class="site-'
+         b'header" role="banner">\n\t\t\t<div class="site-branding">\n\t\t'
+         b'\t\t\t\t\t\t\t\t<p class="site-title"><a href="http://mittos.me/" re'
+         b'l="home">Alexandros Mittos</a></p>\n\t\t\t\t\t\t\t\t\t\t\t<p class="'
+         b'site-description">Early Stage Researcher at UCL</p>\n\t\t\t\t'
+         b'\t\t\t\t\t<button class="secondary-toggle">Menu and widgets</butt'
+         b'on>\n\t\t\t</div><!-- .site-branding -->\n\t\t</header><!-- .site-h'
+         b'eader -->\n\n\t\t\t<div id="secondary" class="secondary">\n\n\t\t'
+         b'\n\t\t\n\t\t\t\t\t<div id="widget-area" class="widget-area" role='
+         b'"complementary">\n\t\t\t\t<aside id="pages-3" class="widget widge'
+         b't_pages"><h2 class="widget-title">About</h2>\t\t<ul>\n\t\t\t<li cl'
+         b'ass="page_item page-item-9 current_page_item"><a href="http://mittos'
+         b'.me/">About Me</a></li>\n<li class="page_item page-item-37"><a hr'
+         b'ef="http://mittos.me/more-about-me/">More About Me</a></li>\n<li '
+         b'class="page_item page-item-45"><a href="http://mittos.me/contact/">C'
+         b'ontact</a></li>\n<li class="page_item page-item-56"><a href="http'
+         b'://mittos.me/teaching/">Teaching</a></li>\n\t\t</ul>\n\t\t</aside>'
+         b'\t\t\t</div><!-- .widget-area -->\n\t\t\n\t</div><!-- .secondary -->'
+         b'\n\n\t</div><!-- .sidebar -->\n\n\t<div id="content" class="site-c'
+         b'ontent">\n\n\t<div id="primary" class="content-area">\n\t\t<main i'
+         b'd="main" class="site-main" role="main">\n\n\t\t\n<article id="pos'
+         b't-9" class="post-9 page type-page status-publish hentry">\n\t\n\t<he'
+         b'ader class="entry-header">\n\t\t<h1 class="entry-title">About Me</h'
+         b'1>\t</header><!-- .entry-header -->\n\n\t<div class="entry-content">'
+         b'\n\t\t<p><img class="size-medium wp-image-33 alignright" src="http:'
+         b'//mittos.me/wp-content/uploads/2017/01/me-293x300.jpg" alt="" width='
+         b'"293" height="300" srcset="http://mittos.me/wp-content/uploads/2017/'
+         b'01/me-293x300.jpg 293w, http://mittos.me/wp-content/uploads/2017/01/'
+         b'me.jpg 626w" sizes="(max-width: 293px) 100vw, 293px" />Well, hello t'
+         b'here.</p>\n<p>My name is Alexandros Mittos and I&#8217;m a PhD st'
+         b'udent at <a href="https://www.ucl.ac.uk/">UCL</a>. I am interested i'
+         b'n Privacy and more specifically in Genomic Privacy.</p>\n<p>I&#82'
+         b'17;m part of a training network called <a href="https://privacyus.eu'
+         b'/">Privacy &amp; Usability</a> which is funded by the European Union'
+         b'.</p>\n<p>I received my\xc2\xa0Bachelor of Engineering from the<a h'
+         b'ref="http://www.icsd.aegean.gr/icsd/"> Information and Communication'
+         b' Systems Engineering</a> department, of the <a href="http://www.aege'
+         b'an.gr/aegean2/">University of the Aegean</a> in 2014. I was also awa'
+         b'rded with a scholarship for my MSc studies in <a href="http://msc.ic'
+         b'sd.aegean.gr/">Information &amp; Communication Systems Security</a>,'
+         b' where I served as a lab assistant and as a course assistant.</p'
+         b'>\n<p>At the moment I am\xc2\xa0part of the <a href="http://sec.cs.'
+         b'ucl.ac.uk/home/">Information Security Research Group</a> of UCL, whe'
+         b're, under the guidance of <a href="https://emilianodc.com/">Emiliano'
+         b' De Cristofaro</a>, I am\xc2\xa0investigating how to securely and '
+         b'efficiently store genomic data, design and implement privacy-preserv'
+         b'ing genomic testing, as well as support user-centered design of secu'
+         b're personal genomic applications.</p>\n<p>I like to consider myse'
+         b'lf an\xc2\xa0advocate of <em>Privacy</em> and\xc2\xa0I am a firm bel'
+         b'iever and user of <em>Open Source Software.</em></p>\n\t\t\t</div><!'
+         b'-- .entry-content -->\n\n\t\n</article><!-- #post-## -->\n\n\t\t</ma'
+         b'in><!-- .site-main -->\n\t</div><!-- .content-area -->\n\n\n\t</di'
+         b'v><!-- .site-content -->\n\n\t<footer id="colophon" class="site-foo'
+         b'ter" role="contentinfo">\n\t\t<div class="site-info">\n\t\t\t\t\t'
+         b'\t<a href="https://wordpress.org/">Proudly powered by WordPress</'
+         b'a>\n\t\t</div><!-- .site-info -->\n\t</footer><!-- .site-footer -'
+         b"->\n\n</div><!-- .site -->\n\n<script type='text/javascript' src='ht"
+         b'tp://mittos.me/wp-content/themes/twentyfifteen/js/skip-link-focus-fi'
+         b"x.js?ver=20141010'></script>\n<script type='text/javascript'>\n/* "
+         b'<![CDATA[ */\nvar screenReaderText = {"expand":"<span class=\\"scr'
+         b'een-reader-text\\">expand child menu<\\/span>","collapse":"<span c'
+         b'lass=\\"screen-reader-text\\">collapse child menu<\\/span>"};\n/* ]]'
+         b"> */\n</script>\n<script type='text/javascript' src='http://mittos"
+         b".me/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></"
+         b"script>\n<script type='text/javascript' src='http://mittos.me/wp-"
+         b"includes/js/wp-embed.min.js?ver=4.7.3'></script>\n\n</body>\n</html"
+         b'>\n',
+ 'links': [1133],
+ 'pid': 2531,
+ 'url': 'http://mittos.me/'}

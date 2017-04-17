@@ -1,0 +1,22 @@
+{'html': b'%% -- second derivative of a function using convolution and Four'
+         b'ier\n\nxlisthi = [0:127]*2*pi/128;\nflisthi = cos(3*xlisthi) + sin('
+         b'5*xlisthi) - 1 -cos(20*xlisthi);\nd2flisthi = -9*cos(3*xlisthi) -'
+         b' 25*sin(5*xlisthi) + 400*cos(20*xlisthi);\nd2flisthi = d2flisthi*'
+         b"2*pi/128;\nfigure(1); clf; hold on;\n\nplot(xlisthi,flisthi,'k');\np"
+         b"lot(xlisthi,d2flisthi,'--k+');\n\n\n%% ----------  differentiate us"
+         b'ing convolution filter -----------------\nf1 = [1 -2 1]*128/(2*pi'
+         b');\nf2 = [-1 16 -30 16 -1]*128/(12*2*pi);\ndxhi = conv(f1,flisthi)'
+         b';\ndxhi = dxhi(2:129);\ndxhi2 = conv(f2,flisthi);\ndxhi2 = dxhi2(3:'
+         b'130);\n\nxz = (13+(0 - dxhi(13))/(dxhi(14) - dxhi(13)))*2*pi/128;\n'
+         b"\nfxz = cos(3*xz) + sin(5*xz) -1;\n\n\nplot(xlisthi,dxhi,'r');\np"
+         b"lot(xlisthi,dxhi2,'g');\n\n%% ---------- differentiate in Fourier "
+         b'Domain ---------------\n\nklist = [-64:63];\n\nfh = fft(flisthi)'
+         b';\nfhs = fftshift(fh);\nfigure(2); clf ; hold on;\nfigure(2);plot(k'
+         b"list,abs(fhs),'k');\n\nfigure(2);plot(klist,klist.^2/128,'--b'); \n"
+         b"dfs = fhs .* (-klist.^2);\nplot(klist,abs(dfs./128),'r');\ndf = if"
+         b'ftshift(dfs);\nd2 = ifft(df)*2*pi/128;\n \nfigure(1); plot(xlisthi,'
+         b"d2,'--b');\n\n\nfd2 = (-klist.^2);\ndd2 = ifft(ifftshift(fd2));\n"
+         b'figure(3);clf; plot(fftshift(dd2));\n\n',
+ 'links': [],
+ 'pid': 3721,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/S.Arridge/teaching/ndsp/differentiate1.m'}

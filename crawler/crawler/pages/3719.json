@@ -1,0 +1,20 @@
+{'html': b'<title>GV11 : Geometry of Images</title>\n<h1>3D Examples</h1>\n<h'
+         b'2>Feature Detectors</h2>\n<p>\nThe following Mathematica notebook '
+         b'implements the Canny operator in 3D\n<br>\n<a HREF="./canny3d.nb">'
+         b'canny3d.nb</a>\n<br>\n<p>\nThe following Mathematica notebook imple'
+         b'ments the isophote curvature operator in 2D\n<br>\n<a HREF="./imcu'
+         b'rvature.nb">imcurvature.nb</a>\n<br>\n<p>\nAnd this one does curvat'
+         b'ure in a 3Dvoxel image\n<br>\n<a HREF="./voxcurvature.nb">voxcurva'
+         b'ture.nb</a>\n<br>\n<p>\nThis calculates curvature on a parametric s'
+         b'urface (in this case an ellipsoid)\n<br>\n<a HREF="./curvature3d.n'
+         b'b">curvature3d.nb</a>\n<br>\n<p>\nThis is the same but for a more c'
+         b'omplex, non-convex surface\n<br>\n<a HREF="./curvature3dnew.nb">cu'
+         b'rvature3dnew.nb</a>\n<br>\n<h2>Scale Space</h2>\n<p>\nThe following '
+         b'implements linear and non-linear diffusion of a 2D image. \nThis '
+         b'includes a (simplified) Perona-Malik scheme. \n<br>\nIn all cases '
+         b'the \ndiffusion is carried out using Alternating Direction Implic'
+         b'it (ADI) -\nan example of the Operator Splitting technique.\n<br>\n'
+         b'<a HREF="./diff2d.nb">diff2d.nb</a>\n<br>\n<p>\n\n',
+ 'links': [3724, 3725, 3726, 3727, 3728, 3729],
+ 'pid': 3719,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/S.Arridge/teaching/ndsp/ndsp_math.html'}

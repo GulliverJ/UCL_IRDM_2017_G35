@@ -1,0 +1,29 @@
+{'html': b'<!DOCTYPE html>\n<html>\n<head lang="en">\n    <meta charset="UTF-8'
+         b'">\n    <script type="text/javascript" src="d3/d3.js"></script>\n '
+         b'   <title>Home</title>\n</head>\n<body>\n<div>\n    <p>\n        '
+         b'Hello, and welcome to our app project. Although this index does give'
+         b" you access to all the pages, you'll be\n    missing out on a lot"
+         b' of design elements, as our project does rely on some scripting lang'
+         b'uages. The easiest way to\n    access our work is by hosting the '
+         b'directory of the project locally using php.\n    </p>\n\n    <p>\n  '
+         b'      The command to do this is\n        <pre>php -S localhost:80'
+         b'00 from the project root directory\n</pre>\n    </p>\n    <ul>\n    '
+         b"    <li><a href='pages/statement_of_work.php'>Statement of Work</a><"
+         b'/li>\n        <li><a href="pages/app.php">Main Application</a> If'
+         b' you serve our site with PHP, use this link to access the index page'
+         b'.</li>\n        <li><a href="pages/introduction.php">Introduction'
+         b'</a></li>\n        <li><a href="pages/basicshapesandcolors.php">B'
+         b'asic Shapes</a></li>\n        <li><a href="pages/selection.php">S'
+         b'election</a></li>\n        <li><a href="pages/project.php">Projec'
+         b't</a></li>\n        <li><a href="pages/scaling.php">Scaling</a></'
+         b'li>\n        <li><a href="pages/advancedtechniques.php">Advanced '
+         b'Techniques</a></li>\n        <li><a href="pages/earth.php">Geopos'
+         b'ition</a></li>\n        <li><a href="pages/final_project.php">Fin'
+         b'al Project Page</a></li>\n        <li><a href="pages/mark_scheme.'
+         b'php">Mark Scheme</a></li>\n        <li><a href="pages/notes.php">'
+         b'Teacher Notes</a></li>\n    </ul>\n    <p>Paul Park did not contri'
+         b'bute significantly to the produced work</p>\n</div>\n</body>\n</htm'
+         b'l>',
+ 'links': [251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262],
+ 'pid': 237,
+ 'url': 'http://students.cs.ucl.ac.uk/schoolslab/projects/HT7/index.html'}

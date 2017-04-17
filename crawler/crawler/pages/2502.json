@@ -1,0 +1,27 @@
+{'html': b'<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">\n'
+         b'<html>\n<head>\n\n<meta http-equiv="content-type" content="text/htm'
+         b'l; charset=ISO-8859-1">\n  <title>David Clark\'s Contact Page</tit'
+         b'le>\n</head>\n<body link="#ff6666" text="#cc9999" vlink="#cc9966" '
+         b'alink="#000000"\n bgcolor="white">\n<table align="top" border="0">'
+         b'\n  <tbody>\n    <tr>\n      <td> <img alt="contact ppage" src="pop'
+         b'pies.jpg" align="left"> </td>\n      <td>\n      <h1>Contact</h1>\n'
+         b'      <p></p>\n      <pre>"Somewhere, <br>over the rainbow,<br>we'
+         b'igh a pie"</pre>\n      </td>\n    </tr>\n    <tr>\n      <td><b'
+         b'r>\n      </td>\n    </tr>\n    <tr>\n      <td><br>\n      </td>'
+         b'\n    </tr>\n    <tr>\n      <td><br>\n      </td>\n    </tr>\n   '
+         b' <tr>\n      <td><a href="http://www.cs.ucl.ac.uk/staff/dclark">h'
+         b'ow to\nrecognise me</a></td>\n    </tr>\n  </tbody>\n</table>\n<b'
+         b'r>\n<table>\n  <tbody>\n    <tr>\n      <td>\n      <pre>Dr David'
+         b' Clark,<br>Room 5.05,<br>Department of Computer Science,<br>Universi'
+         b'ty College London,<br>MPEB, Malet Place,<br>London WC1E 6BT,<br>Unit'
+         b'ed Kingdom<br><br>Tel +44 (0)20 7679 7743<br>internal extension is x'
+         b'37743</pre>\n      </td>\n    </tr>\n    <tr>\n      <td>\n      '
+         b'<span style="font-family: monospace;">more details<br>\n      <br'
+         b'>\n      <a href="http://www.cs.ucl.ac.uk/people/D.Clark">Departm'
+         b'ent page</a><br>\n      <br>\n      </span></td>\n    </tr>\n    <tr'
+         b'>\n      <td>\n      <hr><font face="Arial,Helvetica" size="-1"><!'
+         b'-- hhmts end --> </font></td>\n    </tr>\n  </tbody>\n</table>\n</bo'
+         b'dy>\n</html>\n',
+ 'links': [2507, 2508],
+ 'pid': 2502,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/D.Clark/contact.html'}

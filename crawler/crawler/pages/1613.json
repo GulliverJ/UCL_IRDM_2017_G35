@@ -1,0 +1,9 @@
+{'html': b'@Article{Vestergaard-Brotherston:03,\n  author    = "Ren{\\\'e} Ves'
+         b'tergaard and James Brotherston",\n  title     = "A formalised fir'
+         b'st-order confluence proof for the $\\lambda$-calculus using one-s'
+         b'orted variable names",\n  journal   = "Information \\& Computation'
+         b'",\n  volume    = 183,\n  number    = 2,\n  pages     = "212--244",'
+         b'\n  year      = 2003\n}\n',
+ 'links': [],
+ 'pid': 1613,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/confluence_VB/IandC/bibtex_entry.txt'}

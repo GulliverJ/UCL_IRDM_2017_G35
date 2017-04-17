@@ -1,18 +1,10 @@
-{'html': b'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"\n\txmlns:'
-         b'content="http://purl.org/rss/1.0/modules/content/"\n\txmlns:dc="ht'
-         b'tp://purl.org/dc/elements/1.1/"\n\txmlns:atom="http://www.w3.org/2'
-         b'005/Atom"\n\txmlns:sy="http://purl.org/rss/1.0/modules/syndication'
-         b'/"\n\t\n\t>\n<channel>\n\t<title>Comments on: Barcamp for mobile de'
-         b'signers and developers</title>\n\t<atom:link href="http://mobblog.'
-         b'cs.ucl.ac.uk/2007/09/09/barcamp-for-mobile-interaction-designers-and'
-         b'-developers/feed/" rel="self" type="application/rss+xml" />\n\t<li'
-         b'nk>http://mobblog.cs.ucl.ac.uk/2007/09/09/barcamp-for-mobile-interac'
-         b'tion-designers-and-developers/</link>\n\t<description>Research:  S'
-         b'mart Cities &#38; Data Mining &#38; Social Media</description>\n\t'
-         b'<lastBuildDate>Mon, 28 Jun 2010 22:46:44 +0000</lastBuildDate>\n\t'
-         b'\t<sy:updatePeriod>hourly</sy:updatePeriod>\n\t\t<sy:updateFrequency'
-         b'>1</sy:updateFrequency>\n\t<generator>http://wordpress.org/?v=3.8.'
-         b'1</generator>\n</channel>\n</rss>\n',
+{'html': b'<html>\n  <head>\n    <title>Daniel Alexander\n    </title>\n  </hea'
+         b'd>\n  <frameset rows = "11%,*"  bordercolor=eeeeee framespacing="'
+         b'0" border="0" frameborder="0"><frame src = "Heading.html" name = "he'
+         b'ading" scrolling="no">\n    <frameset cols = "19%,*" bordercolor '
+         b'= eeeeee><frame src = "Contents.html" name = "contents" scrolling="a'
+         b'uto">\n      <frame src = "Home.html" name = "rightcols">\n    </f'
+         b'rameset>\n  </frameset>\n</html>\n',
  'links': [],
  'pid': 3272,
- 'url': 'http://mobblog.cs.ucl.ac.uk/2007/09/09/barcamp-for-mobile-interaction-designers-and-developers/feed/'}
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/D.Alexander/'}

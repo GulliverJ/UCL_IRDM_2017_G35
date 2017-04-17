@@ -1,0 +1,61 @@
+{'html': b'%\r\n% Example of 3D curvature in a voxel array\r\n%\r\n%\r\nnx = 12'
+         b'8;\r\nny = 128;\r\nnz = 128;\r\n\r\nsig = 2; % spatial scale of smoo'
+         b'ther\r\n\r\n% build a synthetic 3D image\r\nim3d = 2*rand(nx,ny,nz'
+         b'); %basic noise level\r\nzstart = floor(nx/4); ystart = floor(ny/4'
+         b'); xstart =floor(nz/4); \r\nzw = floor(nz/4); yw = floor(ny/4); xw'
+         b' = floor(nx/4); \r\nzcen1 = floor(2 *nz/4); ycen1 = floor(3 *ny/4)'
+         b'; xcen1 = floor(3*nx/4);\r\nzcen2 = floor(3 *nz/4); ycen2 = floor('
+         b'2 *ny/4); xcen2 = floor(nx/4);\r\n\r\n\r\nfor p = 1 :nz\r\n    for m'
+         b' = 1:ny\r\n        for n = 1:nx\r\n            if(m - ycen2)^2/2 + ('
+         b'n - xcen2)^2 + (p - zcen2)^2 < 0.8 *xw^2\r\n                im3d(n'
+         b',m,p) = im3d(n,m,p) + 150;\r\n            end\r\n            if(m - '
+         b'ycen1)^2 + (n - xcen1)^2 + (p - zcen1)^2/2 < 0.9 *xw^2\r\n        '
+         b'        im3d(n,m,p) = im3d(n,m,p) + 200;\r\n            end\r\n\r'
+         b'\n        end\r\n    end\r\nend\r\nfor p = zstart :zstart + zw\r'
+         b'\n    for m = ystart :ystart + yw\r\n        for n = xstart :xstart'
+         b' + xw\r\n            im3d(n,m,p) = im3d(n,m,p) + 100;\r\n        end'
+         b'\r\n    end\r\nend\r\n\r\nim3dn = im3d + 10*randn(size(im3d));\r\n'
+         b"\r\n% smooth it\r\nH2 = fspecial('gaussian',[6 6 ],sig);\r\nH3 = r"
+         b'eshape([H2/4; H2/2; H2/4],6 ,6,3);\r\nim3d = imfilter(im3dn,H3);\r\n'
+         b'\r\nfigure(1);clf\r\nfor p = 1:nz\r\n    clf;\r\n    subplot(1,2,1);'
+         b"    imagesc(im3dn(:,:,p),[0,255]);colorbar('horiz');;title(['origina"
+         b"l image ',num2str(p)]);colormap(gray);\r\n    subplot(1,2,2);    i"
+         b"magesc(im3d(:,:,p),[0,255]);colorbar('horiz');title(['smoothed image"
+         b" ',num2str(p)]);colormap(gray);\r\n    pause(0.1);\r\nend\r\n\r\n% i"
+         b'mage gradient\r\n\r\n[gx,gy,gz] = gradient(im3d);\r\ng = sqrt(gx.^'
+         b'2 + gy.^2 + gz.^2);\r\ng1d = reshape(g,1,nx*ny*nz);\r\ng2 = sqrt(gx.'
+         b'^2 + gy.^2);\r\ng21d = reshape(g2,1,nx*ny*nz);\r\ngmax = max(g1d'
+         b');\r\n\r\nzind = find(g < 1e-2*gmax);        % edges less than a thr'
+         b'eshold;\r\nnzind = setdiff([1:nx*ny*nz],zind);\r\nzmask = ones(nx*ny'
+         b'*nz,1);\r\nzmask(zind) = 0;\r\nzmask = reshape(zmask,nx,ny,nz);\r'
+         b'\n\r\n% 2nd derivatives\r\n\r\n[gxx,gxy,gxz] = gradient(gx);\r\n['
+         b'gyx,gyy,gyz] = gradient(gy);\r\n[gzx,gzy,gzz] = gradient(gz);\r'
+         b'\n\r\n\r\nfigure(2);clf\r\nfor p = 1:nz\r\n    clf;\r\n    subplot('
+         b"3,3,1);\r\n    imagesc(gx(:,:,p),[-gmax,gmax]);colorbar;title(['gx"
+         b" ',num2str(p)]);colormap(gray);\r\n    subplot(3,3,2);\r\n    images"
+         b"c(gy(:,:,p),[-gmax,gmax]);colorbar;title(['gy ',num2str(p)]);colorma"
+         b'p(gray);\r\n    subplot(3,3,3);\r\n    imagesc(gz(:,:,p),[-gmax,gmax'
+         b"]);colorbar;title(['gz ',num2str(p)]);colormap(gray);\r\n\r\n\r\n "
+         b'   subplot(3,3,4);\r\n    imagesc(gxx(:,:,p),[-gmax/2,gmax/2]);col'
+         b"orbar;title(['gxx ',num2str(p)]);colormap(gray);\r\n    subplot(3,"
+         b'3,5);\r\n    imagesc(gyy(:,:,p),[-gmax/2,gmax/2]);colorbar;title(['
+         b"'gyy ',num2str(p)]);colormap(gray);\r\n    subplot(3,3,6);\r\n    im"
+         b"agesc(gzz(:,:,p),[-gmax/2,gmax/2]);colorbar;title(['gzz ',num2str(p)"
+         b']);colormap(gray);\r\n\r\n\r\n    subplot(3,3,7);\r\n    imagesc(gxy'
+         b"(:,:,p),[-gmax/2,gmax/2]);colorbar;title(['gxy ',num2str(p)]);colorm"
+         b'ap(gray);\r\n    subplot(3,3,8);\r\n    imagesc(gxz(:,:,p),[-gmax/2,'
+         b"gmax/2]);colorbar;title(['gxz ',num2str(p)]);colormap(gray);\r\n  "
+         b'  subplot(3,3,9);\r\n    imagesc(gyz(:,:,p),[-gmax/2,gmax/2]);colo'
+         b"rbar;title(['gyz ',num2str(p)]);colormap(gray);\r\n\r\n\r\n    \r\n "
+         b'   pause(0.1);\r\nend\r\n\r\n\r\nfigure(3);clf\r\nfor p = 1:nz\r\n  '
+         b"  imagesc(g(:,:,p),[0,gmax]);colorbar;title(['gradient slice ',num2s"
+         b'tr(p)]);colormap(gray);\r\n    pause(0.1);\r\nend\r\n\r\n\r\ncanny'
+         b'Uim = gx.^2 .*gxx + gy.^2 .*gyy + gz.^2 .*gzz + 2*gx.*gy.*gxy + 2*gy'
+         b'.*gz.*gyz + 2*gx.*gz.*gxz;\r\n\r\ncumin = min(min(min(cannyUim))'
+         b');\r\ncumax = max(max(max(cannyUim)));\r\n\r\nfigure(3);clf\r\nfor p'
+         b' = 1:nz\r\n    imagesc(cannyUim(:,:,p),[cumin,cumax]);colorbar;tit'
+         b"le(['Canny ',num2str(p)]);colormap(gray);\r\n    pause(0.1);\r\n"
+         b'end\r\n\r\n',
+ 'links': [],
+ 'pid': 2612,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/S.Arridge/teaching/ndsp/canny3d.m'}

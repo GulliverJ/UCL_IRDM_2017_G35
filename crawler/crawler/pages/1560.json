@@ -1,0 +1,20 @@
+{'html': b'<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html\n  PUBLIC "'
+         b'-//W3C//DTD XHTML 1.1//EN"\n  "http://www.w3.org/TR/xhtml11/DTD/x'
+         b'html11.dtd">\n<html xml:lang="en" lang="en" xmlns="http://www.w3.'
+         b'org/1999/xhtml">\n<head>\n  <title>C\'est bon la salade!</title>\n  '
+         b'<!-- Dublin Core Metadata -->\n  <link rel="schema.DC" href="http'
+         b'://purl.org/dc/elements/1.1/"/>\n  <meta name="DC.title" content='
+         b'"C\'est bon la salade!"/>\n  <meta name="DC.language" scheme="RFC3'
+         b'066" content="fr"/>\n  <meta name="DC.type" scheme="DCMITypes" co'
+         b'ntent="Text"/>\n  <meta name="DC.creator" content="Stephan van St'
+         b'aden"/>\n</head>\n<body>\n\n<div style="text-align: center">\n  <'
+         b"h1>C'est bon la salade!</h1>\n    <p>\n      The cracking sound of"
+         b' a fresh iceberg lettuce... green music without equal!\n    </p>\n'
+         b'    <img id="salad" src="salad.png" alt="salad" title="It is good th'
+         b'e salad!"/>\n    <p>\n    <a href="http://perso.ens-lyon.fr/jeanma'
+         b'rie.madiot/salade/">Previous</a>\n    <a href="http://pauvre.org/'
+         b'~ccharign/salade.html">Next</a>\n    </p>\n</div>\n\n</body>\n</h'
+         b'tml>\n',
+ 'links': [],
+ 'pid': 1560,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/s.vanstaden/salad/index.htm'}

@@ -1,0 +1,13 @@
+{'html': b'<html>\r\n\t<head>\r\n\t<script src="jquery-1.4.1.min.js" type="te'
+         b'xt/javascript"></script>\r\n\t<script src="http://www.google-analyt'
+         b'ics.com/ga.js" type="text/javascript"></script>\r\n\t<script type="'
+         b'text/javascript">\r\n\t$(document).ready(function () {\r\n\t\ttry {'
+         b'\r\n\t\t\tvar pageTracker = _gat._getTracker("UA-11781818-1");\r\n\t'
+         b'\t\tpageTracker._trackPageview();\r\n\t\t} catch(err) {}\r\n\t\t//'
+         b'location.href=location.href+"?par=192405704";\r\n\t\t$(\'form\').s'
+         b'ubmit();\r\n    });\r\n\t</script>\r\n\t</head><body>\r\n\t<form me'
+         b'thod="post">\r\n\t<input type="hidden" name="par" value="192405704"'
+         b'/>\r\n\t</form>\r\n\t</body>\r\n</html>\r\n',
+ 'links': [],
+ 'pid': 3814,
+ 'url': 'http://web4.cs.ucl.ac.uk/staff/C.Bracegirdle/PhDThesis.php'}

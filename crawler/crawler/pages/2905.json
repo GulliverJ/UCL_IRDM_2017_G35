@@ -1,0 +1,1375 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org'
+         b'/TR/xhtml11/DTD/xhtml11.dtd">\r\n\r\n<html xmlns="http://www.w3.org/'
+         b'1999/xhtml">\r\n<head profile="http://gmpg.org/xfn/11">\r\n\t<met'
+         b'a http-equiv="Content-Type" content="text/html; charset=UTF-8" /'
+         b'>\r\n\t<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /'
+         b'>\r\n\r\n\t<title>Tutorials: Collaborative Filtering | Dr. Jun Wa'
+         b'ng</title>\r\n\t<link rel="alternate" type="application/rss+xml" ti'
+         b'tle="RSS 2.0 - all posts" href="http://web4.cs.ucl.ac.uk/staff/jun.w'
+         b'ang/blog/feed/" />\r\n\t<link rel="alternate" type="application/rss'
+         b'+xml" title="RSS 2.0 - all comments" href="http://web4.cs.ucl.ac.uk/'
+         b'staff/jun.wang/blog/comments/feed/" />\r\n\t<link rel="pingback" hr'
+         b'ef="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/xmlrpc.php" />\r'
+         b'\n\r\n\t<!-- style START -->\r\n\t<!-- default style -->\r\n\t<sty'
+         b'le type="text/css" media="screen">@import url( http://web4.cs.ucl.ac'
+         b'.uk/staff/jun.wang/blog/wp-content/themes/inove/style.css );</style>'
+         b'\r\n\t<!-- for translations -->\r\n\t\t<!--[if IE]>\r\n\t\t<link re'
+         b'l="stylesheet" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp'
+         b'-content/themes/inove/ie.css" type="text/css" media="screen" />\r'
+         b'\n\t<![endif]-->\r\n\t<!-- style END -->\r\n\r\n\t<!-- script STAR'
+         b'T -->\r\n\t<script type="text/javascript" src="http://web4.cs.ucl.a'
+         b'c.uk/staff/jun.wang/blog/wp-content/themes/inove/js/base.js"></scrip'
+         b't>\r\n\t<script type="text/javascript" src="http://web4.cs.ucl.ac.u'
+         b'k/staff/jun.wang/blog/wp-content/themes/inove/js/menu.js"></scri'
+         b'pt>\r\n\t<!-- script END -->\r\n\r\n\t\n\r<script type="text/javas'
+         b'cript">\nvar TB_pluginPath = \'http://web4.cs.ucl.ac.uk/staff/jun.'
+         b"wang/blog/wp-content/plugins/tweet-blender';\nvar TB_config = {\n'"
+         b"widget_show_photos':true,\n'widget_show_source':true,\n'widget_sho"
+         b"w_header':true,\n'general_link_screen_names':true,\n'general_link_"
+         b"hash_tags':true,\n'general_link_urls':true,\n'widget_check_sources"
+         b"':true,\n'widget_show_user':true,\n'archive_tweets_num':'20',\n'gen"
+         b"eral_timestamp_format':false,\n'general_seo_tweets_googleoff':fal"
+         b"se,\n'general_seo_footer_googleoff':false,\n'widget_show_reply_lin"
+         b"k':true,\n'widget_show_follow_link':true,\n'archive_show_user':fal"
+         b"se,\n'archive_show_photos':false,\n'archive_show_source':false,\n'a"
+         b"rchive_is_disabled':false,\n'archive_show_reply_link':false,\n'arc"
+         b"hive_show_follow_link':false,\n'archive_auto_page':false,\n'archiv"
+         b"e_keep_tweets':'0',\n'advanced_reroute_on':false,\n'advanced_show_"
+         b"limit_msg':false,\n'advanced_disable_cache':false,\n'advanced_no_s"
+         b"earch_api':false,\n'filter_lang':' ',\n'filter_hide_mentions':fals"
+         b"e,\n'filter_hide_replies':false,\n'filter_location_name':false,\n'f"
+         b"ilter_location_dist':false,\n'filter_location_dist_units':false,\n"
+         b"'filter_bad_strings':false,\n'filter_limit_per_source':false,\n'fi"
+         b'lter_limit_per_source_time\':\'0\'\n}</script>\n\r<link rel="alter'
+         b'nate" type="application/rss+xml" title="Dr. Jun Wang &raquo; Tutoria'
+         b'ls: Collaborative Filtering Category Feed" href="http://web4.cs.ucl.'
+         b'ac.uk/staff/jun.wang/blog/topics/research-resources/collaborative-fi'
+         b'ltering/feed/" />\n<script type=\'text/javascript\' src=\'http://web'
+         b'4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-includes/js/jquery/jquery.js?v'
+         b"er=1.4.2'></script>\n<script type='text/javascript' src='http://w"
+         b'eb4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/plugins/tweet-blende'
+         b"r/js/jquery.json-2.2.min.js?ver=3.0.1'></script>\n<script type='t"
+         b"ext/javascript' src='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp"
+         b"-content/plugins/tweet-blender/js/main.min.js?ver=3.0.1'></scrip"
+         b't>\n<link rel="EditURI" type="application/rsd+xml" title="RSD" hr'
+         b'ef="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/xmlrpc.php?rsd"'
+         b' />\n<link rel="wlwmanifest" type="application/wlwmanifest+xml" h'
+         b'ref="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-includes/wlwman'
+         b'ifest.xml" /> \n<link rel=\'index\' title=\'Dr. Jun Wang\' href=\''
+         b'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/\' />\n<meta name="ge'
+         b'nerator" content="WordPress 3.0.1" />\n\n<!-- All in One SEO Pack '
+         b'1.6.4 by Michael Torbert of Semper Fi Web Design[-1,-1] -->\n<met'
+         b'a name="robots" content="noindex,follow" />\n<link rel="canonical'
+         b'" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/research'
+         b'-resources/collaborative-filtering/" />\n<!-- /all in one seo pac'
+         b'k -->\n<link type="text/css" media="screen" rel="stylesheet" href'
+         b'="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/plugins/tw'
+         b'eet-blender/css/tweets.css" />\n</head>\r\n\r\n\r\n<body>\r\n<!--'
+         b' wrap START -->\r\n<div id="wrap">\r\n\r\n<!-- container START -->'
+         b'\r\n<div id="container"  >\r\n\r\n<!-- header START -->\r\n<div id="'
+         b'header">\r\n\r\n\t<!-- banner START -->\r\n\t\t<!-- banner END --'
+         b'>\r\n\r\n\t<div id="caption">\r\n\t\t<h1 id="title"><a href="http'
+         b'://web4.cs.ucl.ac.uk/staff/jun.wang/blog/">Dr. Jun Wang</a></h1>'
+         b'\r\n\t\t<div id="tagline">Computer Science, UCL</div>\r\n\t</di'
+         b'v>\r\n\r\n\t<div class="fixed"></div>\r\n</div>\r\n<!-- header EN'
+         b'D -->\r\n\r\n<!-- navigation START -->\r\n<div id="navigation"'
+         b'>\r\n\t<!-- menus START -->\r\n\t<ul id="menus">\r\n\t\t<li class='
+         b'"page_item"><a class="home" title="Home" href="http://web4.cs.ucl.ac'
+         b'.uk/staff/jun.wang/blog/">Home</a></li>\r\n\t\t<li class="page_item '
+         b'page-item-2"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/"'
+         b'>About Me</a></li>\n<li class="page_item page-item-9"><a href="ht'
+         b'tp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/contact/">Contact</a></li'
+         b'>\n<li class="page_item page-item-12"><a href="http://web4.cs.ucl'
+         b'.ac.uk/staff/jun.wang/blog/publications/">Publications</a></li>\n'
+         b'<li class="page_item page-item-15"><a href="http://web4.cs.ucl.ac.uk'
+         b'/staff/jun.wang/blog/teaching/">Teaching</a>\n<ul class=\'children'
+         b'\'>\n\t<li class="page_item page-item-416"><a href="http://web4.cs.'
+         b'ucl.ac.uk/staff/jun.wang/blog/teaching/information-retrieval-200910/'
+         b'">Information Retrieval 2009/10</a></li>\n\t<li class="page_item p'
+         b'age-item-418"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/'
+         b'teaching/information-retrieval-200809/">Information Retrieval 2008/0'
+         b'9</a></li>\n\t<li class="page_item page-item-425"><a href="http://'
+         b'web4.cs.ucl.ac.uk/staff/jun.wang/blog/teaching/projects/">Projects</'
+         b'a></li>\n</ul>\n</li>\n<li class="page_item page-item-21"><a href="'
+         b'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/research-team/">Researc'
+         b'h Team</a></li>\n<li class="page_item page-item-25"><a href="http'
+         b'://web4.cs.ucl.ac.uk/staff/jun.wang/blog/prospective-students/">Pros'
+         b'pective Students</a></li>\n\t\t<li><a class="lastmenu" href="javasc'
+         b'ript:void(0);"></a></li>\r\n\t</ul>\r\n\t<!-- menus END -->\r\n\r'
+         b'\n\t<!-- searchbox START -->\r\n\t<div id="searchbox">\r\n\t\t\t\t\t'
+         b'<form action="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog" method="'
+         b'get">\r\n\t\t\t\t<div class="content">\r\n\t\t\t\t\t<input type="'
+         b'text" class="textfield" name="s" size="24" value="" />\r\n\t\t\t\t'
+         b'\t<input type="submit" class="button" value="" />\r\n\t\t\t\t</div>'
+         b'\r\n\t\t\t</form>\r\n\t\t\t</div>\r\n<script type="text/javascript">'
+         b'\r\n//<![CDATA[\r\n\tvar searchbox = MGJS.$("searchbox");\r\n\tvar s'
+         b'earchtxt = MGJS.getElementsByClassName("textfield", "input", searchb'
+         b'ox)[0];\r\n\tvar searchbtn = MGJS.getElementsByClassName("button", '
+         b'"input", searchbox)[0];\r\n\tvar tiptext = "Type text to search her'
+         b'e...";\r\n\tif(searchtxt.value == "" || searchtxt.value == tiptext)'
+         b' {\r\n\t\tsearchtxt.className += " searchtip";\r\n\t\tsearchtxt.valu'
+         b'e = tiptext;\r\n\t}\r\n\tsearchtxt.onfocus = function(e) {\r\n\t\t'
+         b'if(searchtxt.value == tiptext) {\r\n\t\t\tsearchtxt.value = "";\r\n'
+         b'\t\t\tsearchtxt.className = searchtxt.className.replace(" searchtip'
+         b'", "");\r\n\t\t}\r\n\t}\r\n\tsearchtxt.onblur = function(e) {\r'
+         b'\n\t\tif(searchtxt.value == "") {\r\n\t\t\tsearchtxt.className += " '
+         b'searchtip";\r\n\t\t\tsearchtxt.value = tiptext;\r\n\t\t}\r\n\t}\r'
+         b'\n\tsearchbtn.onclick = function(e) {\r\n\t\tif(searchtxt.value =='
+         b' "" || searchtxt.value == tiptext) {\r\n\t\t\treturn false;\r\n'
+         b'\t\t}\r\n\t}\r\n//]]>\r\n</script>\r\n\t<!-- searchbox END -->\r\n'
+         b'\r\n\t<div class="fixed"></div>\r\n</div>\r\n<!-- navigation END --'
+         b'>\r\n\r\n<!-- content START -->\r\n<div id="content">\r\n\r\n\t<!--'
+         b' main START -->\r\n\t<div id="main">\r\n\r\n\t<div class="boxcaption'
+         b'"><h3>Archive</h3></div>\r\n\t<div class="box">\r\n\t\tArchive for '
+         b'the &#8216;Tutorials: Collaborative Filtering&#8217; Category\t</'
+         b'div>\r\n\r\n\t<div class="post" id="post-868">\r\n\t\t<h2><a clas'
+         b's="title" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2013/07'
+         b'/18/cikm2013-full-paper-interactive-collaborative-filtering/" rel="b'
+         b'ookmark">CIKM2013 Full Paper: Interactive Collaborative Filtering</a'
+         b'></h2>\r\n\t\t<div class="info">\r\n\t\t\t<span class="date">July'
+         b' 18th, 2013</span>\r\n\t\t\t\t\t\t\t\t\t<span class="comments"><spa'
+         b'n>Comments off</span></span>\r\n\t\t\t<div class="fixed"></div>\r\n'
+         b'\t\t</div>\r\n\t\t<div class="content">\r\n\t\t\t<div id="attachmen'
+         b't_870" class="wp-caption alignright" style="width: 325px"><a href="h'
+         b'ttp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/uploads/2013/'
+         b'07/Untitled-22.jpg" ><img class="size-full wp-image-870  " title="In'
+         b'teractive Recommendation: a \xe2\x80\x98chicken- or-the-egg\xe2\x80'
+         b'\x99 problem." src="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp'
+         b'-content/uploads/2013/07/Untitled-22.jpg" alt="" width="315" height='
+         b'"344" /></a><p class="wp-caption-text">Interactive Recommendation: a'
+         b' \xe2\x80\x98chicken- or-the-egg\xe2\x80\x99 problem.</p></div>\n<p'
+         b'>In this paper, we study collaborative filtering (CF) in an interact'
+         b'ive setting, in which a recommender system continuously recommends i'
+         b'tems to individual users and receives interactive feedback. Whilst u'
+         b'sers enjoy sequential recommendations, the recommendation prediction'
+         b's are constantly refined using up-to-date feedback on the recommende'
+         b'd items. Bringing the interactive mechanism back to CF process is fu'
+         b'ndamental because the ultimate goal for a recommender system is abou'
+         b't the discovery of interesting items for individual users and yet us'
+         b'ers&#8217; personal preferences and contexts evolve over time during'
+         b' the interactions with the system. This requires us not to distingui'
+         b'sh between the stages of collecting information to construct the use'
+         b'r profile and making recommendations, but to seamlessly integrate th'
+         b'ese stages together during the interactive process, with the goal of'
+         b' maximizing the overall recommendation accuracy throughout the inter'
+         b'actions. This mechanism naturally addresses the cold-start problem a'
+         b's any user can immediately receive sequential recommendations withou'
+         b't providing ratings beforehand. We formulate Interactive CF with the'
+         b' probabilistic matrix factorization (PMF) framework, and leverage se'
+         b'veral exploitation-exploration algorithms to select items, including'
+         b' the empirical Thompson sampling and upper-confidence-bound-based al'
+         b'gorithms. We conduct our experiment on cold-start users as well as w'
+         b'arm-start users with drifting taste. Results show that the proposed '
+         b'methods have significant improvements over several strong baselines '
+         b'for the MovieLens, EachMovie and Netflix datasets.</p>\n\t\t\t<div c'
+         b'lass="fixed"></div>\r\n\t\t</div>\r\n\t\t<div class="under">\r\n\t\t'
+         b'\t<span class="categories">Categories: </span><span><a href="http'
+         b'://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/cikm2013/" ti'
+         b'tle="View all posts in CIKM2013" rel="category tag">CIKM2013</a>, <a'
+         b' href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/" '
+         b'title="View all posts in Events" rel="category tag">Events</a>, <a h'
+         b'ref="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/research-re'
+         b'sources/collaborative-filtering/" title="View all posts in Tutorials'
+         b': Collaborative Filtering" rel="category tag">Tutorials: Collaborati'
+         b've Filtering</a></span>\t\t\t<span class="tags">Tags: </span><span>'
+         b'</span>\t\t</div>\r\n\t</div>\r\n\t<div class="post" id="post-85'
+         b'7">\r\n\t\t<h2><a class="title" href="http://web4.cs.ucl.ac.uk/staff'
+         b'/jun.wang/blog/2013/07/16/acm-recsys13-to-personalize-or-not-a-risk-'
+         b'management-perspective/" rel="bookmark">ACM RecSys13: To Personalize'
+         b' or Not: A Risk Management Perspective</a></h2>\r\n\t\t<div class="i'
+         b'nfo">\r\n\t\t\t<span class="date">July 16th, 2013</span>\r\n\t\t\t'
+         b'\t\t\t\t\t\t<span class="comments"><span>Comments off</span></span'
+         b'>\r\n\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t\t<div cl'
+         b'ass="content">\r\n\t\t\t<div id="_mcePaste"><span style="font-siz'
+         b'e: 13px; line-height: 19px;"></p>\n<div id="attachment_861" class'
+         b'="wp-caption alignright" style="width: 373px"><a href="http://web4.c'
+         b's.ucl.ac.uk/staff/jun.wang/blog/wp-content/uploads/2013/07/Untitled-'
+         b'21.jpg" ><img class="size-full wp-image-861  " title="Performance co'
+         b'mparison of personalized and non-personalized recommendations." src='
+         b'"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/uploads/201'
+         b'3/07/Untitled-21.jpg" alt="" width="363" height="257" /></a><p class'
+         b'="wp-caption-text">Performance comparison of personalized and non-pe'
+         b'rsonalized recommendations.</p></div>\n<p>Personalization techniq'
+         b'ues have been widely adopted in many recommender systems. However, e'
+         b'xperiments on real-word datasets show that for some users in certain'
+         b' contexts, personalized recommendations do not necessarily perform b'
+         b'etter than recommendations that rely purely on popularity. Broadly, '
+         b'this can be interpreted by the fact that the parameters of a persona'
+         b'lization model are usually estimated from sparse data; the resulting'
+         b' personalized prediction, despite of its low bias, is often volatile'
+         b'. In this paper, we study the problem further by investigating into '
+         b'the ranking of recommendation lists. From a risk management and port'
+         b'folio retrieval perspective, there is no difference between the popu'
+         b'larity-based and the personalized ranking as both of the recommendat'
+         b'ion outputs can be represented as the trade-off between expected rel'
+         b'evance (reward) and associated uncertainty (risk). \xc2\xa0Through'
+         b' our analysis, we discover common scenarios and provide a technique '
+         b'to predict whether personalization will fail. Besides the theoretica'
+         b'l understanding, our experimental results show that the resulting sw'
+         b'itch algorithm, which decides whether or not to personalize, outperf'
+         b'orms the mainstream recommendation algorithms.</p>\n<p></span></d'
+         b'iv>\n\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t\t<div class'
+         b'="under">\r\n\t\t\t<span class="categories">Categories: </span><s'
+         b'pan><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/eve'
+         b'nts/acm-recsys13/" title="View all posts in ACM RecSys13" rel="categ'
+         b'ory tag">ACM RecSys13</a>, <a href="http://web4.cs.ucl.ac.uk/staff/j'
+         b'un.wang/blog/topics/events/" title="View all posts in Events" rel="c'
+         b'ategory tag">Events</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun'
+         b'.wang/blog/topics/research-resources/collaborative-filtering/" title'
+         b'="View all posts in Tutorials: Collaborative Filtering" rel="categor'
+         b'y tag">Tutorials: Collaborative Filtering</a></span>\t\t\t<span cla'
+         b'ss="tags">Tags: </span><span></span>\t\t</div>\r\n\t</div>\r\n\t<div'
+         b' class="post" id="post-669">\r\n\t\t<h2><a class="title" href="http:'
+         b'//web4.cs.ucl.ac.uk/staff/jun.wang/blog/2012/02/16/control-theory-re'
+         b'commender/" rel="bookmark">WWW2012 Full Paper: Using Control Theory '
+         b'for Stable and Efficient Recommender Systems</a></h2>\r\n\t\t<div cl'
+         b'ass="info">\r\n\t\t\t<span class="date">February 16th, 2012</span'
+         b'>\r\n\t\t\t\t\t\t\t\t\t<span class="comments"><a href="http://web4.'
+         b'cs.ucl.ac.uk/staff/jun.wang/blog/2012/02/16/control-theory-recommend'
+         b'er/#respond" title="Comment on WWW2012 Full Paper: Using Control The'
+         b'ory for Stable and Efficient Recommender Systems">No comments</a></s'
+         b'pan>\r\n\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t\t<div'
+         b' class="content">\r\n\t\t\t<p>The aim of a web-based recommender '
+         b'system is to provide highly accurate and up-to-date recommendations '
+         b'to its users; in</p>\n<div id="attachment_670" class="wp-caption '
+         b'alignright" style="width: 250px"><a href="http://web4.cs.ucl.ac.uk/s'
+         b'taff/jun.wang/blog/wp-content/uploads/2012/02/Untitled.jpg" ><img cl'
+         b'ass="size-full wp-image-670  " title="A mass attached to a spring an'
+         b'd damper" src="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-conte'
+         b'nt/uploads/2012/02/Untitled.jpg" alt="" width="240" height="113" /><'
+         b'/a><p class="wp-caption-text">A mass attached to a spring and damper'
+         b'</p></div>\n<p>practice, it will hope to retain its users over ti'
+         b'me. However, this raises unique challenges. To achieve complex goals'
+         b' such as keeping the recommender model up- to-date over time, we nee'
+         b'd to consider a number of external requirements. Generally, these re'
+         b'quirements arise from the physical nature of</p>\n<div id="attach'
+         b'ment_683" class="wp-caption alignleft" style="width: 296px"><a href='
+         b'"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/uploads/201'
+         b'2/02/cir.jpg" ><img class="size-full wp-image-683 " title="A control'
+         b'led recommender system" src="http://web4.cs.ucl.ac.uk/staff/jun.wang'
+         b'/blog/wp-content/uploads/2012/02/cir.jpg" alt="" width="286" height='
+         b'"155" /></a><p class="wp-caption-text">A controlled recommender syst'
+         b'em</p></div>\n<p>the\xc2\xa0system, for instance the available comp'
+         b'utational resources. Ideally, we would like to design a system that '
+         b'does not deviate from the required outcome. Modeling such a system o'
+         b'ver time requires to describe the internal dynamics as a combination'
+         b' of the underlying recommender model and the its users\xe2\x80'
+         b'\x99 behavior. We propose to solve this problem by applying the pri'
+         b'nciples of modern con- trol theory\xe2\x80\x94a powerful set of t'
+         b'ools to deal with dynamical systems\xe2\x80\x94to construct and m'
+         b'aintain a stable and robust recommender system for dynamically evolv'
+         b'ing environments. In particular, we introduce a design principle by '
+         b'focusing on the dynamic relationship between the recommender sys- te'
+         b'm\xe2\x80\x99s performance and the number of new training samples'
+         b' the system requires. This enables us to automate the control other '
+         b'external factors such as the system\xe2\x80\x99s update frequency'
+         b'. We show that, by using a Proportional-Integral-Derivative controll'
+         b'er, a recommender system is able to automatically and accurately est'
+         b'imate the required input to keep the out- put close to a pre-defined'
+         b' requirements. Our experiments on a standard rating dataset show tha'
+         b't, by using a feedback loop between system performance and training,'
+         b' the trade- off between the effectiveness and efficiency of the syst'
+         b'em can be well maintained. We close by discussing the widespread app'
+         b'licability of our approach to a variety of scenarios that recommende'
+         b'r systems face.</p>\n<p>[bibtex file=mypublications.bib key=www20'
+         b'12]</p>\n\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t\t<div c'
+         b'lass="under">\r\n\t\t\t<span class="categories">Categories: </spa'
+         b'n><span><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics'
+         b'/events/" title="View all posts in Events" rel="category tag">Events'
+         b'</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/i'
+         b'nformation-retrieval-models/" title="View all posts in Information R'
+         b'etrieval Models" rel="category tag">Information Retrieval Models</a>'
+         b', <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/resea'
+         b'rch-resources/collaborative-filtering/" title="View all posts in Tut'
+         b'orials: Collaborative Filtering" rel="category tag">Tutorials: Colla'
+         b'borative Filtering</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.'
+         b'wang/blog/topics/events/www2012/" title="View all posts in WWW2012" '
+         b'rel="category tag">WWW2012</a></span>\t\t\t<span class="tags">Tags:'
+         b' </span><span></span>\t\t</div>\r\n\t</div>\r\n\t<div class="post" i'
+         b'd="post-532">\r\n\t\t<h2><a class="title" href="http://web4.cs.ucl.a'
+         b'c.uk/staff/jun.wang/blog/2010/10/20/acm-recsys10-optimizing-multiple'
+         b'-objectives-in-collaborative-filtering/" rel="bookmark">ACM RecSys10'
+         b': Optimizing multiple objectives in collaborative filtering</a></h2>'
+         b'\r\n\t\t<div class="info">\r\n\t\t\t<span class="date">October 20'
+         b'th, 2010</span>\r\n\t\t\t\t\t\t\t\t\t<span class="comments"><span>C'
+         b'omments off</span></span>\r\n\t\t\t<div class="fixed"></div>\r'
+         b'\n\t\t</div>\r\n\t\t<div class="content">\r\n\t\t\t<p style="font-fa'
+         b'mily: Verdana,Arial,Helvetica,sans-serif; font-size: 15px;"><img cla'
+         b'ss="alignright" title="ACM Recommender Systems 2010" src="http://wp.'
+         b'acm.org/recsys2010/files/2010/02/Barcelonaa2.jpg" alt="" width="410"'
+         b' height="57" /></p>\n<p style="font-family: Verdana,Arial,Helveti'
+         b'ca,sans-serif; font-size: 15px;">This paper is about the utility of '
+         b'making personalized recommendations. While it is important to accura'
+         b'tely predict the target user&#8217;s preference, in practice the acc'
+         b'uracy should not be the\xc2\xa0only concern; a useful recommender '
+         b'system needs to consider the user&#8217;s utility or satisfaction of'
+         b' fulfilling a certain information seeking task. For example, recomme'
+         b'nding popular items (products) is unlikely to result in more gain th'
+         b'an discovering insignificant (&#8220;long tail&#8221;) yet liked ite'
+         b'ms because the popular ones might be already known to the user. Equa'
+         b'lly, recommending items that are out of stock would be frustrating f'
+         b'or both the user and system if the system is employed to discover it'
+         b'ems to purchase. Thus, it is important to have a flexible recommenda'
+         b'tion framework that takes into account additional recommendation goa'
+         b'ls meanwhile minimizing the performance loss in order to provide gre'
+         b'ater adjustability and a better user experience.</p>\n<p style="f'
+         b'ont-family: Verdana,Arial,Helvetica,sans-serif; font-size: 15px;">To'
+         b' achieve this, in this paper, we propose a general recommendation op'
+         b'timization framework that not only considers the predicted preferenc'
+         b'e scores (e.g. ratings) but also deals with additional operational o'
+         b'r resource related recommendation goals. Using this framework we dem'
+         b'onstrate through realistic examples how to expand existing rating pr'
+         b'ediction algorithms by biasing the recommendation depending on other'
+         b' external factors such as the availability, profitability or usefuln'
+         b'ess of an item. Our experiments on real data sets demonstrate that t'
+         b'his framework is indeed able to cope with multiple objectives with m'
+         b'inor performance loss.</p>\n<p style="font-family: Verdana,Arial,'
+         b'Helvetica,sans-serif; font-size: 15px;">http://portal.acm.org/citati'
+         b'on.cfm?id=1864708.1864723</p>\n\t\t\t<div class="fixed"></div>\r\n'
+         b'\t\t</div>\r\n\t\t<div class="under">\r\n\t\t\t<span class="categor'
+         b'ies">Categories: </span><span><a href="http://web4.cs.ucl.ac.uk/staf'
+         b'f/jun.wang/blog/topics/events/acm-recsys2010/" title="View all posts'
+         b' in ACM RecSys2010" rel="category tag">ACM RecSys2010</a>, <a href="'
+         b'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/" title="'
+         b'View all posts in Events" rel="category tag">Events</a>, <a href="ht'
+         b'tp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/research-resources'
+         b'/" title="View all posts in Research Resources" rel="category tag">R'
+         b'esearch Resources</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.w'
+         b'ang/blog/topics/research-resources/collaborative-filtering/" title="'
+         b'View all posts in Tutorials: Collaborative Filtering" rel="category '
+         b'tag">Tutorials: Collaborative Filtering</a></span>\t\t\t<span class'
+         b'="tags">Tags: </span><span><a href="http://web4.cs.ucl.ac.uk/staff/j'
+         b'un.wang/blog/tag/recommendation/" rel="tag">Recommendation</a>, <a h'
+         b'ref="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/recsys2010/" r'
+         b'el="tag">RecSys2010</a></span>\t\t</div>\r\n\t</div>\r\n\t<div class'
+         b'="post" id="post-490">\r\n\t\t<h2><a class="title" href="http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/2010/05/10/portfolio-theory-movie-'
+         b'reco-demo/" rel="bookmark">A demo of portfolio theory of movie recom'
+         b'mendation</a></h2>\r\n\t\t<div class="info">\r\n\t\t\t<span class'
+         b'="date">May 10th, 2010</span>\r\n\t\t\t\t\t\t\t\t\t<span class="com'
+         b'ments"><span>Comments off</span></span>\r\n\t\t\t<div class="fixe'
+         b'd"></div>\r\n\t\t</div>\r\n\t\t<div class="content">\r\n\t\t\t<p '
+         b'style="text-align: center;"><a href="http://fmediadev.cs.ucl.ac.uk:8'
+         b'080/prademo/" onclick="javascript:pageTracker._trackPageview(\'/o'
+         b'utbound/article/fmediadev.cs.ucl.ac.uk:8080\');"><img class="size'
+         b'-medium wp-image-491 aligncenter" title="Picture 1" src="http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/uploads/2010/05/Picture'
+         b'-1-300x164.png" alt="Picture 1" width="600" height="328" /></a><'
+         b'/p>\n<p style="text-align: left;">Thanks to David Stefan, a movie'
+         b' recommendation demo system is up and running. This is a 4th year fi'
+         b'nal project and intended to demo the effectiveness of using portfoli'
+         b'o theory to recommender systems.</p>\n<p style="text-align: left;'
+         b'">To launch the application, click <a href="http://fmediadev.cs.ucl.'
+         b'ac.uk:8080/prademo/" onclick="javascript:pageTracker._trackPageview('
+         b'\'/outbound/article/fmediadev.cs.ucl.ac.uk:8080\');">here</a>. (if'
+         b' you found any bugs, do drop us an email!)</p>\n\t\t\t<div class="fi'
+         b'xed"></div>\r\n\t\t</div>\r\n\t\t<div class="under">\r\n\t\t\t<sp'
+         b'an class="categories">Categories: </span><span><a href="http://web4.'
+         b'cs.ucl.ac.uk/staff/jun.wang/blog/topics/information-retrieval-models'
+         b'/portfolio-theory/" title="View all posts in Portfolio Theory" rel="'
+         b'category tag">Portfolio Theory</a>, <a href="http://web4.cs.ucl.ac.u'
+         b'k/staff/jun.wang/blog/topics/research-resources/collaborative-filter'
+         b'ing/" title="View all posts in Tutorials: Collaborative Filtering" r'
+         b'el="category tag">Tutorials: Collaborative Filtering</a>, <a href="h'
+         b'ttp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/research-resource'
+         b's/ir-learner/" title="View all posts in Tutorials: Information Retri'
+         b'eval" rel="category tag">Tutorials: Information Retrieval</a></span>'
+         b'\t\t\t<span class="tags">Tags: </span><span></span>\t\t</div>\r\n\t<'
+         b'/div>\r\n\t<div class="post" id="post-436">\r\n\t\t<h2><a class="ti'
+         b'tle" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/12/18/a'
+         b'-directional-error-based-collaborative-filtering/" rel="bookmark">Di'
+         b'rectional Error Based Collaborative Filtering</a></h2>\r\n\t\t<div c'
+         b'lass="info">\r\n\t\t\t<span class="date">December 18th, 2009</spa'
+         b'n>\r\n\t\t\t\t\t\t\t\t\t<span class="comments"><a href="http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/2009/12/18/a-directional-error-bas'
+         b'ed-collaborative-filtering/#respond" title="Comment on Directional E'
+         b'rror Based Collaborative Filtering">No comments</a></span>\r\n'
+         b'\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t\t<div class="co'
+         b'ntent">\r\n\t\t\t<p><strong>Goal-driven Collaborative Filtering &'
+         b'#8211; A Directional Error Based Approach, ECIR10</strong></p>\n<'
+         b'p><em>Tamas Jambor and Jun Wang</em></p>\n<p>[bibtex file=mypubli'
+         b'cations.bib key=Wang:ecir2010]</p>\n<div id="attachment_437" clas'
+         b's="wp-caption alignright" style="width: 354px"><img class="size-full'
+         b' wp-image-437" title="directionalerror" src="http://web4.cs.ucl.ac.u'
+         b'k/staff/jun.wang/blog/wp-content/uploads/2009/12/directionalerror.jp'
+         b'g" alt="directionalerror" width="344" height="155" /><p class="wp-ca'
+         b'ption-text">Directional Risk Preference of Recommendation Prediction'
+         b'</p></div>\n<p>Collaborative filtering is one of the most effecti'
+         b've techniques for making personalized content recommendation. In the'
+         b' literature, a common experimental setup in the modeling phase is to'
+         b' minimize,<br />\neither explicitly or implicitly, the (expected)'
+         b' error between the predicted ratings and the true user ratings, whil'
+         b'e in the evaluation phase, the resulting model is again assessed by '
+         b'that error. In this paper,\xc2\xa0 we argue that defining an error'
+         b' function that is fixed across rating scales is however limited, and'
+         b' different applications may have different recommendation goals thus'
+         b' error functions. For example, in some cases, we might be more conce'
+         b'rned about the highly predicted items than the ones with low ratings'
+         b' (precision minded), while in other cases, we want to make sure not '
+         b'to miss any highly<br />\nrated items (recall minded). Additional'
+         b'ly, some applications might require to produce a top-N recommendatio'
+         b'n list, where the rank-based performance measure becomes valid. To a'
+         b'ddress this issue, we propose a flexible optimization framework that'
+         b' can adapt to individual recommendation goals. We introduce a <em>Di'
+         b'rectional Error Function</em> to capture the cost (risk) of each ind'
+         b'ividual\xc2\xa0 predictions, and it can be learned from the specif'
+         b'ied performance measures at hand. Our preliminary experiments on a r'
+         b'eal data set demonstrate that significant performance gains have bee'
+         b'n achieved.</p>\n\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n'
+         b'\t\t<div class="under">\r\n\t\t\t<span class="categories">Categorie'
+         b's: </span><span><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blo'
+         b'g/topics/events/ecir2010/" title="View all posts in ECIR2010" rel="c'
+         b'ategory tag">ECIR2010</a>, <a href="http://web4.cs.ucl.ac.uk/staff/j'
+         b'un.wang/blog/topics/information-retrieval-models/" title="View all p'
+         b'osts in Information Retrieval Models" rel="category tag">Information'
+         b' Retrieval Models</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.w'
+         b'ang/blog/topics/research-resources/collaborative-filtering/" title="'
+         b'View all posts in Tutorials: Collaborative Filtering" rel="category '
+         b'tag">Tutorials: Collaborative Filtering</a></span>\t\t\t<span class'
+         b'="tags">Tags: </span><span><a href="http://web4.cs.ucl.ac.uk/staff/j'
+         b'un.wang/blog/tag/irmodels/" rel="tag">IRModels</a>, <a href="http://'
+         b'web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/recommendation/" rel="tag"'
+         b'>Recommendation</a></span>\t\t</div>\r\n\t</div>\r\n\t<div class="po'
+         b'st" id="post-223">\r\n\t\t<h2><a class="title" href="http://web4.cs.'
+         b'ucl.ac.uk/staff/jun.wang/blog/2009/07/08/collaborative-filtering-exp'
+         b'lained/" rel="bookmark">Collaborative Filtering Explained</a></h'
+         b'2>\r\n\t\t<div class="info">\r\n\t\t\t<span class="date">July 8th'
+         b', 2009</span>\r\n\t\t\t\t\t\t\t\t\t<span class="comments"><span>Com'
+         b'ments off</span></span>\r\n\t\t\t<div class="fixed"></div>\r\n\t'
+         b'\t</div>\r\n\t\t<div class="content">\r\n\t\t\t<p><em>Collaborativ'
+         b'e filtering</em> (CF) is concerned with predicting how likely a spec'
+         b'ific user will <em>like </em>certain information items (books, movie'
+         b's, music items, web pages, etc). As the term &#8220;collaborative&#8'
+         b'221; probably implies, the prediction has to rely on a collection of'
+         b' other (similar) users&#8217; preferences, which have been collabora'
+         b'tively collected.</p>\n<div class="wp-caption alignright" style="'
+         b'width: 161px"><a href="http://www.netflix.com/" onclick="javascript:'
+         b"pageTracker._trackPageview('/outbound/article/www.netflix.com');"
+         b'"><img title="Netflix DVD Recommendation" src="http://melsutton.file'
+         b's.wordpress.com/2009/03/netflix-logo.jpg" alt="Netflix DVD Recommend'
+         b'ation" width="151" height="92" /></a><p class="wp-caption-text">Netf'
+         b'lix DVD Recommendation</p></div>\n<p>One of the popular applicati'
+         b'ons of collaborative filtering is personalized content recommendatio'
+         b'n. A typical example is movie recommendation, where a user is explic'
+         b'itly asked to rate what he or she has liked or disliked in the past.'
+         b' After rating a few movie items, the recommendation engine would be '
+         b'able to produce a prediction about the user&#8217;s ratings of unsee'
+         b'n movie items, by looking at other (similar) users&#8217; past ratin'
+         b'gs for the movies items in question. In this case, users have to exp'
+         b'licitly provide their ratings for movies items before hand, e.g., gi'
+         b've 1 star for the lowest rating (most hated)\xc2\xa0 and 5 stars f'
+         b'or the highest rating (most liked).</p>\n<div class="wp-caption a'
+         b'lignleft" style="width: 162px"><a href="http://amazon.com" onclick="'
+         b"javascript:pageTracker._trackPageview('/outbound/article/amazon.com'"
+         b');"><img title="Amazons Book Recommendation" src="http://images.busi'
+         b'nessweek.com/ss/09/02/0219_customer_service/image/01_amazon-dot-com.'
+         b'jpg" alt="Amazons Book Recommendation" width="152" height="89" /></a'
+         b'><p class="wp-caption-text">Amazon&#39;s Book Recommendation</p></di'
+         b'v>\n<p>End users sometimes are too lazy to provide such ratings. '
+         b'Alternatively, it is possible for a recommendation system to &#8220;'
+         b'non-intrusively&#8221; observe the users choices and infer their pre'
+         b'ferences from the historic interaction data.\xc2\xa0 For example, '
+         b'Amazon&#8217;s book recommendation requires\xc2\xa0 an injection o'
+         b'f the users&#8217; purchase data &#8211; &#8220;<em>Customers Who Bo'
+         b'ught This Item Also Bought</em>&#8221; that.</p>\n<p>In either ca'
+         b'se, if we look at the prediction problem from a conceptual level, it'
+         b' is very much like Web retrieval in that it needs to calculate the c'
+         b'orrespondence (called relevance) between a user information need (in'
+         b' our case, a user preference or predefined preferable topics) and an'
+         b' information item (e.g., a movie or a book).\xc2\xa0 In text retri'
+         b'eval, the correspondence is usually calculated by looking at content'
+         b' descriptions, e.g., how many and how frequent the query terms occur'
+         b' with a document. Likewise, when we make personalized recommendation'
+         b's, users&#8217; unseen preference can be predicted by examining the '
+         b'matching between the textual descriptions of information needs and i'
+         b'nformation items. This is called content-based filtering.</p>\n<p'
+         b'>Collaborative filtering, on the other hand, does not necessarily ne'
+         b'ed textual descriptions. It \xef\xbb\xbfmakes personalized recomm'
+         b'endations by aggregating the opinions and preferences of previous us'
+         b'ers. Originally, the idea of collaborative filtering was derived fro'
+         b'm heuristics. Goldberg et. al coined the term, collaborative filteri'
+         b'ng, when developing an automatic filtering system for electronic mai'
+         b'l, called <em>Tapestry</em>, at Xerox Palo Alto Research. In the pap'
+         b'er published in CACM 1992</p>\n<p>[bibtex file=ir.bib key=cf1992]'
+         b'</p>\n<p>it reads:</p>\n<blockquote><p>&#8220;Collaborative filter'
+         b'ing simply means that people collaborate to help one another perform'
+         b' filtering by recording their reactions to documents they read. Such'
+         b' reactions may be that a document was particularly interesting (or p'
+         b'articularly uninteresting)&#8230;&#8221;</p></blockquote>\n<p>Thi'
+         b's reminds me a story in a well-known ancient Chinese historical book'
+         b', <em><strong>Zhan Guo Ce</strong></em> (English title\xc2\xa0 &#8'
+         b'220;Strategies of the Warring States&#8221;).</p>\n<p>[bibtex fil'
+         b'e=ir.bib key=zgc]</p>\n<p>In VOL. 10 CH&#8217;I III, it reads:</p'
+         b'>\n<blockquote><p>&#8220;<em>Shun-yu K&#8217;un </em>in one day i'
+         b'ntroduced seven scholars to King <em>Hsuan</em>. The King said: &#82'
+         b'16;Come sir. I have heard that if there is a single scholar in a tho'
+         b'usand <em>li</em> (a distance measure) they are standing shoulder to'
+         b' shoulder, if there is a single sage in a hundred generations it is '
+         b'as if they came following on each other&#8217;s heels. Are not schol'
+         b'ars then very numerous?&#8217; <em>Shun-yu K&#8217;un</em> said:&#82'
+         b'17; Not so. Birds of a feather flock together. Like footed animals w'
+         b'alk in company. If now you seek for <em>ch&#8217;ai-hu</em> or <em>c'
+         b'hieh-keng</em> (medical herbs grown usually in mountains) in bogs an'
+         b'd marshes, you will not get any in several generations. All things h'
+         b'ave their associates. Now I am an associate of able men. If Your Maj'
+         b'esty ask me for scholars it is like scooping water out of the river '
+         b'and getting fire from tinder. If I am to introduce scholars again wi'
+         b'll they be only seven?&#8217; &#8220;</p></blockquote>\n<p>Basica'
+         b'lly the story tells us:</p>\n<p><em>\xe2\x80\x9cThings\xc2\xa0of'
+         b'\xc2\xa0a\xc2\xa0kind\xc2\xa0come\xc2\xa0together; People\xc2\xa0o'
+         b'f\xc2\xa0a\xc2\xa0mind\xc2\xa0fall\xc2\xa0into\xc2\xa0the\xc2\xa0sam'
+         b'e\xc2\xa0group.\xe2\x80\x9d</em></p>\n<p>Let us first formulate coll'
+         b'aborative filtering by grouping people (users).<em><br />\n</em><'
+         b'/p>\n<div id="attachment_224" class="wp-caption alignright" style'
+         b'="width: 320px"><em><img class="size-full wp-image-224" title="user-'
+         b'based" src="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/'
+         b'uploads/2009/07/user-based.jpg" alt="User-based Collaborative Filter'
+         b'ing" width="310" height="215" /></em><p class="wp-caption-text">User'
+         b'-based Collaborative Filtering</p></div>\n<p><strong>User-based a'
+         b'pproaches</strong></p>\n<p>The user-based approaches assume that<'
+         b'em>:</em></p>\n<p><em>users who have similar preferences in the p'
+         b'ast are likely to have similar preferences in the future, and the mo'
+         b're similar they are, the more likely they would agree with each othe'
+         b'r in the future</em>.</p>\n<p>The preference prediction is theref'
+         b'ore calculated by weighted-averaging of the ratings from similar use'
+         b'rs.</p>\n<p>(To Be Continued)</p>\n<p><span id="line-8"> </span><s'
+         b'pan id="line-9"> </span></p>\n\t\t\t<div class="fixed"></div>\r\n\t'
+         b'\t</div>\r\n\t\t<div class="under">\r\n\t\t\t<span class="categori'
+         b'es">Categories: </span><span><a href="http://web4.cs.ucl.ac.uk/staff'
+         b'/jun.wang/blog/topics/research-resources/collaborative-filtering/" t'
+         b'itle="View all posts in Tutorials: Collaborative Filtering" rel="cat'
+         b'egory tag">Tutorials: Collaborative Filtering</a></span>\t\t\t<span'
+         b' class="tags">Tags: </span><span><a href="http://web4.cs.ucl.ac.uk/s'
+         b'taff/jun.wang/blog/tag/recommendation/" rel="tag">Recommendation</a>'
+         b', <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/tutorial'
+         b's/" rel="tag">Tutorials</a></span>\t\t</div>\r\n\t</div>\r\n\t<div c'
+         b'lass="post" id="post-27">\r\n\t\t<h2><a class="title" href="http://w'
+         b'eb4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/06/17/collaborative-filter'
+         b'ing-resources/" rel="bookmark">Collaborative Filtering Resources</a>'
+         b'</h2>\r\n\t\t<div class="info">\r\n\t\t\t<span class="date">June '
+         b'17th, 2009</span>\r\n\t\t\t\t\t\t\t\t\t<span class="comments"><span'
+         b'>Comments off</span></span>\r\n\t\t\t<div class="fixed"></div>\r\n\t'
+         b'\t</div>\r\n\t\t<div class="content">\r\n\t\t\t<p>Collaborative fi'
+         b'ltering (CF) is concerned with making recommendations about informat'
+         b'ion items (books, movies, music items, web-pages, etc) to a specific'
+         b' user,\xc2\xa0 based on his/her preference indicated in the pa'
+         b'st.\xc2\xa0 Users having similar preferences in the past is likely'
+         b' to share similar preferences in the future.\xc2\xa0 Given the use'
+         b'r, information items can be filtered in/out regarding to the behavio'
+         b'rs of his or her similar users. <span id="line-6"> </span><span id="'
+         b'line-7"> </span></p>\n<p>User profiles can be explicitly obtained'
+         b' by asking users to rate items that they know. However these explici'
+         b't ratings are hard to gather in a real system. It is highly desirabl'
+         b'e to infer user preferences from implicit observations of user inter'
+         b'actions with a system. <span id="line-8"> </span><span id="line-9"> '
+         b'</span></p>\n<p>One can explicitly ask users to rate what they ha'
+         b've used/purchased. Such a profile is filled explicitly by the users '
+         b'ratings. An implicit profile is based on passive observation and con'
+         b'tains users historic interaction data. <span id="line-10"> </span><s'
+         b'pan id="line-11"> </span></p>\n<p>In this page, I collected some '
+         b'useful online materials for collaborative filtering research.</p'
+         b'>\n<p><strong>Research Software</strong></p>\n<p><span id="line-15'
+         b'"> </span></p>\n<p>-  CoFE: a java based collaborative filtering '
+         b'engine. <a href="http://eecs.oregonstate.edu/iis/CoFE/" onclick="jav'
+         b"ascript:pageTracker._trackPageview('/outbound/article/eecs.oregonsta"
+         b'te.edu\');">http://eecs.oregonstate.edu/iis/CoFE/</a> <span id="l'
+         b'ine-16"> </span><span id="line-17"> </span></p>\n<p>- Suggest Top'
+         b'-N recommendation engine: it implements the item-based and user-base'
+         b'd collaborative filtering algorithms. Only lib files, no source code'
+         b's included. <a href="http://www-users.cs.umn.edu/%7Ekarypis/suggest/'
+         b'" onclick="javascript:pageTracker._trackPageview(\'/outbound/arti'
+         b'cle/www-users.cs.umn.edu\');">http://www-users.cs.umn.edu/~karypi'
+         b's/suggest/</a> <span id="line-18"> </span></p>\n<p>- C/Matlab Too'
+         b'lkit: a Matlab implementation of some collaborative filtering algori'
+         b'thms, including memory-user-based, personality diagnosis method (see'
+         b' Pennock et FL., 2000) etc. <a href="http://www-2.cs.cmu.edu/%7Eleba'
+         b'non/IR-lab.htm" onclick="javascript:pageTracker._trackPageview(\''
+         b'/outbound/article/www-2.cs.cmu.edu\');">http://www-2.cs.cmu.edu/~'
+         b'lebanon/IR-lab.htm</a></p>\n<p>- Matlab code for Canny&#8217;s fa'
+         b'ctor analysis based collaborative filtering. www.cs.berkeley.edu/~jf'
+         b'c/&#8217;mender/.</p>\n<p>- Taste is a collaborative filtering en'
+         b'gine for Java. <a href="http://taste.sourceforge.net/" onclick="java'
+         b"script:pageTracker._trackPageview('/outbound/article/taste.sourcefor"
+         b'ge.net\');">http://taste.sourceforge.net/</a></p>\n<p><strong>Data'
+         b' sets</strong></p>\n<p>Explicit Rating Data Sets:</p>\n<p>- Moviel'
+         b'ens Movie Rating Data Set. <a href="http://www.grouplens.org/" oncli'
+         b'ck="javascript:pageTracker._trackPageview(\'/outbound/article/www'
+         b'.grouplens.org\');">http://www.grouplens.org/</a></p>\n<p>- Jester'
+         b' Joke Rating Data Set. <a href="http://www.ieor.berkeley.edu/%7Egold'
+         b'berg/jester-data/" onclick="javascript:pageTracker._trackPagevie'
+         b'w(\'/outbound/article/www.ieor.berkeley.edu\');">http://www.ieor.b'
+         b'erkeley.edu/~goldberg/jester-data/</a></p>\n<p>- Book-Crossing Bo'
+         b'ok Rating Data Set. <a href="http://www.informatik.uni-freiburg.de/%'
+         b'7Ecziegler/BX/" onclick="javascript:pageTracker._trackPageview(\''
+         b'/outbound/article/www.informatik.uni-freiburg.de\');">http://www.'
+         b'informatik.uni-freiburg.de/~cziegler/BX/</a></p>\n<p>- Parliament'
+         b' Voting.  <a href="http://ucdata.berkeley.edu:7101/new_web/VoteWorld'
+         b'/voteworld/datasets.html" onclick="javascript:pageTracker._trackPage'
+         b'view(\'/outbound/article/ucdata.berkeley.edu:7101\');">http://ucda'
+         b'ta.berkeley.edu:7101/new_web/VoteWorld/voteworld/datasets.html</a></'
+         b'p>\n<p>- Online Dating Data Set.  <a href="http://www.ksi.ms.mff.'
+         b'cuni.cz/%7Epetricek/data/" onclick="javascript:pageTracker._trackPag'
+         b'eview(\'/outbound/article/www.ksi.ms.mff.cuni.cz\');">http://www.k'
+         b'si.ms.mff.cuni.cz/~petricek/data/</a> It contains user ratings from '
+         b'an online dating we site: libimseti.cz. Courtesy of Vaclav Petricek.'
+         b'</p>\n<p>Implicit Rating Data Sets:</p>\n<p>- Audioscrobblers Musi'
+         b'c Play-list Data-sets.The Audioscrobbler dataset collects the play-l'
+         b'ists of the users in a one-line community (<a href="http://www.audio'
+         b'scrobbler.com/" onclick="javascript:pageTracker._trackPageview(\''
+         b'/outbound/article/www.audioscrobbler.com\');">http://www.audioscr'
+         b'obbler.com/</a>) by using a plug-in in the users&#8217; media player'
+         b's such as Winamp, iTunes, XMMS etc. The plug-ins send the title and '
+         b'artist of every song users play to the Audioscrobbler server, which '
+         b'updates the user&#8217;s musical profile with the new songs. In the '
+         b'database, the user&#8217;s profile is recorded as a form of co-occur'
+         b'rence pair like {userID,itemID} pair. The pair means a user {userID}'
+         b' has played a\\</p>\n<ul>\n<li style="list-style-type: none;">song '
+         b'{itemID}. The dataset can be obtained at <a href="http://www.audiosc'
+         b'robbler.com/data/" onclick="javascript:pageTracker._trackPagevie'
+         b'w(\'/outbound/article/www.audioscrobbler.com\');">http://www.audio'
+         b'scrobbler.com/data/</a></li>\n</ul>\n<p>- AOL Web search query: <a'
+         b' href="http://www.gregsadetsky.com/aol-data/" onclick="javascript:pa'
+         b"geTracker._trackPageview('/outbound/article/www.gregsadetsky.com"
+         b'\');">http://www.gregsadetsky.com/aol-data/</a></p>\n<p><strong>Co'
+         b'llaborative Filtering Bibliography</strong></p>\n<h3 id="Memory-b'
+         b'ased">Memory-based</h3>\n<p>- Unifying User-based and Item-based '
+         b'Collaborative Filtering Approaches by Similarity Fusion (2006). Appe'
+         b'ar in SIGIR 2006. <a href="http://ict.ewi.tudelft.nl/pub/jun/sigir06'
+         b'_similarityfuson.pdf" onclick="javascript:pageTracker._trackPageview'
+         b'(\'/outbound/article/ict.ewi.tudelft.nl\');">http://ict.ewi.tudelf'
+         b't.nl/pub/jun/sigir06_similarityfuson.pdf</a></p>\n<p>- Scalable c'
+         b'ollaborative filtering using cluster-based smoothing (2005). <a href'
+         b'="http://doi.acm.org/10.1145/1076034.1076056" onclick="javascript:pa'
+         b'geTracker._trackPageview(\'/outbound/article/doi.acm.org\');">http'
+         b'://doi.acm.org/10.1145/1076034.1076056</a></p>\n<p>- An automatic'
+         b' weighting scheme for collaborative filtering (2004). <a href="http:'
+         b'//doi.acm.org/10.1145/1008992.1009051" onclick="javascript:pageTrack'
+         b'er._trackPageview(\'/outbound/article/doi.acm.org\');">http://doi.'
+         b'acm.org/10.1145/1008992.1009051</a></p>\n<p>- Item-based Collabor'
+         b'ative Filtering Recommendation Algorithms (2001). <a href="http://ww'
+         b'w10.org/cdrom/papers/519/" onclick="javascript:pageTracker._trackPag'
+         b'eview(\'/outbound/article/www10.org\');">http://www10.org/cdrom/pa'
+         b'pers/519/</a></p>\n<p>- Evaluation of Item-Based Top-N Recommenda'
+         b'tion Algorithms (2001). <a href="http://www-users.cs.umn.edu/%7Ekary'
+         b'pis/publications/Papers/PDF/itemrs.pdf" onclick="javascript:pageTrac'
+         b'ker._trackPageview(\'/outbound/article/www-users.cs.umn.edu\');">h'
+         b'ttp://www-users.cs.umn.edu/~karypis/publications/Papers/PDF/itemrs.p'
+         b'df</a></p>\n<p>- A regression-based approach for scaling-up perso'
+         b'nalized recommender systems in e-commerce (2000). <a href="http://na'
+         b's.cl.uh.edu/boetticher/ML_DataMining/vucetic.pdf" onclick="javascrip'
+         b"t:pageTracker._trackPageview('/outbound/article/nas.cl.uh.edu');"
+         b'">http://nas.cl.uh.edu/boetticher/ML_DataMining/vucetic.pdf</a><'
+         b'/p>\n<p>- Collaborative Filtering by Personality Diagnosis: A Hyb'
+         b'rid Memory- and Model-Based Approach (1999). <a href="http://researc'
+         b'h.microsoft.com/%7Ehorvitz/cfpd.htm" onclick="javascript:pageTracker'
+         b'._trackPageview(\'/outbound/article/research.microsoft.com\');">ht'
+         b'tp://research.microsoft.com/~horvitz/cfpd.htm</a></p>\n<p>- An al'
+         b'gorithmic framework for performing collaborative filtering (1999).</'
+         b'p>\n<p>- Empirical Analysis of Predictive Algorithms for Collabor'
+         b'ative Filtering (1998). <a href="http://research.microsoft.com/resea'
+         b'rch/pubs/view.aspx?tr_id=166" onclick="javascript:pageTracker._track'
+         b'Pageview(\'/outbound/article/research.microsoft.com\');">http://re'
+         b'search.microsoft.com/research/pubs/view.aspx?tr_id=166</a></p>\n<'
+         b'p>- Grouplens: Applying Collaborative Filtering to Usenet News (1997'
+         b').\xc2\xa0 <a href="http://www.ics.uci.edu/%7Epratt/courses/papers'
+         b'/p77-konstan.pdf" onclick="javascript:pageTracker._trackPageview'
+         b'(\'/outbound/article/www.ics.uci.edu\');">http://www.ics.uci.edu/~'
+         b'pratt/courses/papers/p77-konstan.pdf</a></p>\n<p>- Social Informa'
+         b'tion Filtering: Algorithms for Automating &#8220;Word of Mouth&#8221'
+         b'; (1995). <a href="http://citeseer.ist.psu.edu/195430.html" onclick='
+         b'"javascript:pageTracker._trackPageview(\'/outbound/article/citese'
+         b'er.ist.psu.edu\');">http://citeseer.ist.psu.edu/195430.html</a></'
+         b'p>\n<p>- Grouplens: an open architecture for collaborative filter'
+         b'ing of netnews (1994). <a href="http://doi.acm.org/10.1145/192844.19'
+         b'2905" onclick="javascript:pageTracker._trackPageview(\'/outbound/'
+         b'article/doi.acm.org\');">http://doi.acm.org/10.1145/192844.192905'
+         b'</a></p>\n<p>- Using collaborative filtering to weave an informat'
+         b'ion tapestry  (1992). <a href="http://citeseer.ist.psu.edu/context/1'
+         b'727112/0" onclick="javascript:pageTracker._trackPageview(\'/outbo'
+         b'und/article/citeseer.ist.psu.edu\');">http://citeseer.ist.psu.edu'
+         b'/context/1727112/0</a></p>\n<h3 id="RelevanceModels">Relevance Mo'
+         b'dels</h3>\n<p>- Unified Relevance Models for Rating Prediction in'
+         b' Collaborative Filtering (2008). <a href="http://ict.ewi.tudelft.nl/'
+         b'pub/jun/URM-Wang-TOIS.pdf" onclick="javascript:pageTracker._trackPag'
+         b'eview(\'/outbound/article/ict.ewi.tudelft.nl\');">http://ict.ewi.t'
+         b'udelft.nl/pub/jun/URM-Wang-TOIS.pdf</a></p>\n<p>- A User-Item Rel'
+         b'evance Model for Log-based Collaborative Filtering (2006). <a href="'
+         b'http://ict.ewi.tudelft.nl/pub/jun/ecir06.pdf" onclick="javascript:pa'
+         b"geTracker._trackPageview('/outbound/article/ict.ewi.tudelft.nl')"
+         b';">http://ict.ewi.tudelft.nl/pub/jun/ecir06.pdf</a></p>\n<p>- Rel'
+         b'evance Feedback Models for Recommendation (2006). <a href="http://ac'
+         b'l.ldc.upenn.edu/W/W06/W06-1653.pdf" onclick="javascript:pageTracker.'
+         b'_trackPageview(\'/outbound/article/acl.ldc.upenn.edu\');">http://a'
+         b'cl.ldc.upenn.edu/W/W06/W06-1653.pdf</a></p>\n<h3 id="LatentClassM'
+         b'odels">Latent Class Models</h3>\n<p>- A study of Mixture Models f'
+         b'or Collaborative Filtering (2006). <a href="http://www.cs.cmu.edu/%7'
+         b'Elsi/Paper_JIR_Si.pdf" onclick="javascript:pageTracker._trackPagevie'
+         b'w(\'/outbound/article/www.cs.cmu.edu\');">http://www.cs.cmu.edu/~l'
+         b'si/Paper_JIR_Si.pdf</a></p>\n<p>- Two-way latent grouping model f'
+         b'or user preference prediction (2005). <a href="http://eprints.pascal'
+         b'-network.org/archive/00001005/01/uai05.pdf" onclick="javascript:page'
+         b"Tracker._trackPageview('/outbound/article/eprints.pascal-network.org"
+         b'\');">http://eprints.pascal-network.org/archive/00001005/01/uai05'
+         b'.pdf</a></p>\n<p>- The Multiple Multiplicative Factor Model For C'
+         b'ollaborative Filtering (2004). <a href="http://www.machinelearning.o'
+         b'rg/proceedings/icml2004/papers/363.pdf" onclick="javascript:pageTrac'
+         b"ker._trackPageview('/outbound/article/www.machinelearning.org');"
+         b'">http://www.machinelearning.org/proceedings/icml2004/papers/363.pdf'
+         b'</a></p>\n<p>- Collaborative filtering: a machine learning perspe'
+         b'ctive (2004). <a href="http://citeseer.ist.psu.edu/marlin04collabora'
+         b'tive.html" onclick="javascript:pageTracker._trackPageview(\'/outb'
+         b'ound/article/citeseer.ist.psu.edu\');">http://citeseer.ist.psu.ed'
+         b'u/marlin04collaborative.html</a></p>\n<p>- Flexible mixture model'
+         b' for collaborative filtering (2003). <a href="http://www.hpl.hp.com/'
+         b'conferences/icml2003/papers/183.pdf" onclick="javascript:pageTracker'
+         b'._trackPageview(\'/outbound/article/www.hpl.hp.com\');">http://www'
+         b'.hpl.hp.com/conferences/icml2003/papers/183.pdf</a></p>\n<p>- Lat'
+         b'ent class models for collaborative filtering (1999). <a href="http:/'
+         b'/portal.acm.org/citation.cfm?id=687583" onclick="javascript:pageTrac'
+         b'ker._trackPageview(\'/outbound/article/portal.acm.org\');">http://'
+         b'portal.acm.org/citation.cfm?id=687583</a></p>\n<h3 id="MatrixFact'
+         b'orization">Matrix Factorization</h3>\n<p>- Fast Maximum Margin Ma'
+         b'trix Factorization for Collaborative Prediction (2005). <a href="htt'
+         b'p://people.csail.mit.edu/jrennie/papers/icml05-mmmf.pdf" onclick="ja'
+         b"vascript:pageTracker._trackPageview('/outbound/article/people.csail."
+         b'mit.edu\');">http://people.csail.mit.edu/jrennie/papers/icml05-mm'
+         b'mf.pdf</a></p>\n<p>- Eigentaste: A constant time collaborative fi'
+         b'ltering algorithm (2001). (Using PCA) <a href="http://www.ieor.berke'
+         b'ley.edu/%7Egoldberg/pubs/eigentaste.pdf" onclick="javascript:pageTra'
+         b'cker._trackPageview(\'/outbound/article/www.ieor.berkeley.edu\');"'
+         b'>http://www.ieor.berkeley.edu/~goldberg/pubs/eigentaste.pdf</a><'
+         b'/p>\n<p>- Application of Dimensionality Reduction in Recommender '
+         b'System \xe2\x80\x94 A Case Study (2000). <a href="http://citeseer'
+         b'.ist.psu.edu/sarwar00application.html" onclick="javascript:pageTrack'
+         b'er._trackPageview(\'/outbound/article/citeseer.ist.psu.edu\');">ht'
+         b'tp://citeseer.ist.psu.edu/sarwar00application.html</a></p>\n<p>- '
+         b'Collaborative filtering with privacy via factor analysis (1999).  (U'
+         b'sing factor analysis) <a href="http://www.cs.berkeley.edu/%7Ejfc/pap'
+         b'ers/02/SIGIR02.pdf" onclick="javascript:pageTracker._trackPagevi'
+         b'ew(\'/outbound/article/www.cs.berkeley.edu\');">http://www.cs.berk'
+         b'eley.edu/~jfc/papers/02/SIGIR02.pdf</a></p>\n<p>- Learning collab'
+         b'orative information filters (1998).  (using SVD) <a href="http://www'
+         b'.ics.uci.edu/%7Epazzani/Publications/MLC98.pdf" onclick="javascript:'
+         b"pageTracker._trackPageview('/outbound/article/www.ics.uci.edu');"
+         b'">http://www.ics.uci.edu/~pazzani/Publications/MLC98.pdf</a></p>'
+         b'\n<h3 id="Clustering">Clustering</h3>\n<p>- A maximum entropy appr'
+         b'oach to collaborative filtering in dynamic, sparse, high dimensional'
+         b' domains (2002). <a href="http://research.yahoo.com/publication/OR-2'
+         b'003-007.pdf" onclick="javascript:pageTracker._trackPageview(\'/ou'
+         b'tbound/article/research.yahoo.com\');">http://research.yahoo.com/'
+         b'publication/OR-2003-007.pdf</a></p>\n<p>- Clustering Methods for '
+         b'Collaborative Filtering (1998). <a href="http://citeseer.ist.psu.edu'
+         b'/ungar98clustering.html" onclick="javascript:pageTracker._trackPagev'
+         b'iew(\'/outbound/article/citeseer.ist.psu.edu\');">http://citeseer.'
+         b'ist.psu.edu/ungar98clustering.html</a></p>\n<p>- A Formal Statist'
+         b'ical Approach to Collaborative Filtering (1998). <a href="http://cit'
+         b'eseer.ist.psu.edu/387035.html" onclick="javascript:pageTracker._trac'
+         b'kPageview(\'/outbound/article/citeseer.ist.psu.edu\');">http://cit'
+         b'eseer.ist.psu.edu/387035.html</a></p>\n<p>- A Scalable Collaborat'
+         b'ive Filtering Framework based on Co-clustering (2005). <a href="http'
+         b'://hercules.ece.utexas.edu/%7Esrujana/papers/icdm05.pdf" onclick="ja'
+         b"vascript:pageTracker._trackPageview('/outbound/article/hercules.ece."
+         b'utexas.edu\');">http://hercules.ece.utexas.edu/~srujana/papers/ic'
+         b'dm05.pdf</a></p>\n<p>- Model-based Overlapping Co-Clustering.  <a'
+         b' href="http://www.siam.org/meetings/sdm06/workproceed/Text%20Mining/'
+         b'shafiei16.pdf" onclick="javascript:pageTracker._trackPageview(\'/'
+         b'outbound/article/www.siam.org\');">http://www.siam.org/meetings/s'
+         b'dm06/workproceed/Text%20Mining/shafiei16.pdf</a></p>\n<h3 id="Tra'
+         b'nsitiveAssociations">Transitive Associations</h3>\n<p>- Applying '
+         b'associative retrieval techniques to alleviate the sparsity problem i'
+         b'n collaborative filtering (2004). <a href="http://doi.acm.org/10.114'
+         b'5/963770.963775" onclick="javascript:pageTracker._trackPageview('
+         b'\'/outbound/article/doi.acm.org\');">http://doi.acm.org/10.1145/96'
+         b'3770.963775</a></p>\n<h3 id="TrustInference">Trust Inference</h3>'
+         b'\n<p>- Improving Collaborative Filtering with Trust-based Metrics'
+         b' (2006). <a href="http://doi.acm.org/10.1145/1141277.1141717" onclic'
+         b'k="javascript:pageTracker._trackPageview(\'/outbound/article/doi.'
+         b'acm.org\');">http://doi.acm.org/10.1145/1141277.1141717</a></p>\n<'
+         b'p>- Alleviating the Sparsity Problem of Collaborative Filtering Usin'
+         b'g Trust Inferences. <a href="http://www.ics.forth.gr/isl/publication'
+         b's/paperlink/LNCS_Formatted_iTrust_34770228.pdf" onclick="javascript:'
+         b"pageTracker._trackPageview('/outbound/article/www.ics.forth.gr')"
+         b';">http://www.ics.forth.gr/isl/publications/paperlink/LNCS_Formatted'
+         b'_iTrust_34770228.pdf</a></p>\n<h3 id="Perception-based">Perceptio'
+         b'n-based</h3>\n<p>- Online ranking/collaborative filtering using t'
+         b'he perception algorithm (2003).</p>\n<h2 id="A2.CombiningContent-'
+         b'basedandCollaborativeFiltering">Combining Content-based and Collabor'
+         b'ative Filtering</h2>\n<p>- A Unified Recommendation Framework Bas'
+         b'ed on Probabilistic Relational Models (2005). <a href="http://www.st'
+         b'ern.nyu.edu/ciio/WorkOnline/IS20042005/0217-01.pdf" onclick="javascr'
+         b"ipt:pageTracker._trackPageview('/outbound/article/www.stern.nyu.edu'"
+         b');">http://www.stern.nyu.edu/ciio/WorkOnline/IS20042005/0217-01.pdf<'
+         b'/a></p>\n<p>- Unifying Collaborative and Content-Based Filtering '
+         b'(2004). <a href="http://www.cs.brown.edu/people/th/publications.html'
+         b'" onclick="javascript:pageTracker._trackPageview(\'/outbound/arti'
+         b'cle/www.cs.brown.edu\');">http://www.cs.brown.edu/people/th/publi'
+         b'cations.html</a></p>\n<p>- Collaborative Ensemble Learning: Combi'
+         b'ning Collaborative and Content-Based Information Filtering via Hiera'
+         b'rchical Bayes (2003). <a href="http://www.dbs.informatik.uni-muenche'
+         b'n.de/%7Eyu_k" onclick="javascript:pageTracker._trackPageview(\'/o'
+         b'utbound/article/www.dbs.informatik.uni-muenchen.de\');">http://ww'
+         b'w.dbs.informatik.uni-muenchen.de/~yu_k</a></p>\n<p>- Content-Boos'
+         b'ted Collaborative Filtering (2001).</p>\n<ul>\n<li style="list-sty'
+         b'le-type: none;"><a href="http://citeseer.ist.psu.edu/507656.html" on'
+         b'click="javascript:pageTracker._trackPageview(\'/outbound/article/'
+         b'citeseer.ist.psu.edu\');">http://citeseer.ist.psu.edu/507656.html'
+         b'</a></li>\n</ul>\n<h2 id="A3.DistributedCollaborativeFiltering">Di'
+         b'stributed Collaborative Filtering</h2>\n<p>- Personalization of a'
+         b' peer-to-peer television system (2006). <a href="http://ict.ewi.tude'
+         b'lft.nl/pub/jun/euroitv06.pdf" onclick="javascript:pageTracker._track'
+         b'Pageview(\'/outbound/article/ict.ewi.tudelft.nl\');">http://ict.ew'
+         b'i.tudelft.nl/pub/jun/euroitv06.pdf</a></p>\n<p>- Distributed Coll'
+         b'aborative Filtering for Peer-to-Peer File Sharing Systems (2006). <a'
+         b' href="http://ict.ewi.tudelft.nl/pub/jun/sac06.pdf" onclick="javascr'
+         b"ipt:pageTracker._trackPageview('/outbound/article/ict.ewi.tudelft.nl"
+         b'\');">http://ict.ewi.tudelft.nl/pub/jun/sac06.pdf</a></p>\n<p>- Po'
+         b'cketlens: Toward a Personal Recommender System (2004). <a href="http'
+         b'://doi.acm.org/10.1145/1010614.1010618" onclick="javascript:pageTrac'
+         b'ker._trackPageview(\'/outbound/article/doi.acm.org\');">http://doi'
+         b'.acm.org/10.1145/1010614.1010618</a></p>\n<h2 id="A4.Otherissues"'
+         b'>Other issues</h2>\n<p>-  Being Accurate is Not Enough: How Accur'
+         b'acy Metrics have hurt Recommender Systems (2006). <a href="http://ww'
+         b'w.grouplens.org/papers/pdf/mcnee-chi06-acc.pdf" onclick="javascript:'
+         b"pageTracker._trackPageview('/outbound/article/www.grouplens.org'"
+         b');">http://www.grouplens.org/papers/pdf/mcnee-chi06-acc.pdf</a><'
+         b'/p>\n<p>- A collaborative filtering algorithm and evaluation metr'
+         b'ic that accurately model the user experience (2004). <a href="http:/'
+         b'/doi.acm.org/10.1145/1008992.1009050" onclick="javascript:pageTracke'
+         b'r._trackPageview(\'/outbound/article/doi.acm.org\');">http://doi.a'
+         b'cm.org/10.1145/1008992.1009050</a></p>\n<p>- Evaluating collabora'
+         b'tive filtering recommender systems (2004). <a href="http://doi.acm.o'
+         b'rg/10.1145/963770.963772" onclick="javascript:pageTracker._trackPage'
+         b'view(\'/outbound/article/doi.acm.org\');">http://doi.acm.org/10.11'
+         b'45/963770.963772</a></p>\n<p><strong>Related Information Retrieva'
+         b'l Papers</strong></p>\n<p>In general, collaborative filtering is '
+         b'formulated as a self-contained problem, apart from classic approache'
+         b's for text retrieval, e.g. RSJ models and language models. However, '
+         b'the collaborative filtering problem can be treated as a prediction p'
+         b'roblem &#8211; a prediction of the relevance between user and item ('
+         b'see &lt;a href=&#8221;<a href="http://ict.ewi.tudelft.nl/pub/jun/eci'
+         b'r06.pdf%22%3Euser-item" onclick="javascript:pageTracker._trackPagevi'
+         b'ew(\'/outbound/article/ict.ewi.tudelft.nl\');">http://ict.ewi.tude'
+         b'lft.nl/pub/jun/ecir06.pdf&#8221;&gt;user-item</a> relevance models&l'
+         b't;/a&gt;). Under this veiw, the instant benefits are gained from the'
+         b' current advances in these text retrieval models. We found the follo'
+         b'wing papers are pretty interesting and are related to the collaborat'
+         b'ive filtering problem.</p>\n<p>- Query Chains: Learning to Rank f'
+         b'rom Implicit Feedback (2005). <a href="http://www.cs.cornell.edu/%7E'
+         b'filip/papers/Radlinski05QueryChains.pdf" onclick="javascript:pageTra'
+         b'cker._trackPageview(\'/outbound/article/www.cs.cornell.edu\');">ht'
+         b'tp://www.cs.cornell.edu/%7Efilip/papers/Radlinski05QueryChains.pdf</'
+         b'a></p>\n<p>- On Event Spaces and Probabilistic Models in Informat'
+         b'ion Retrieval (2005).</p>\n<p>- Probabilistic relevance models ba'
+         b'sed on document and query generation (2003).</p>\n<p>- Novelty an'
+         b'd redundancy detection in adaptive filtering (2002). <a href="http:/'
+         b'/doi.acm.org/10.1145/564376.564393" onclick="javascript:pageTracker.'
+         b'_trackPageview(\'/outbound/article/doi.acm.org\');">http://doi.acm'
+         b'.org/10.1145/564376.564393</a></p>\n<p>- Term-specific smoothing '
+         b'for the language modeling approach to information retrieval: the imp'
+         b'ortance of a query term (2002).</p>\n<p>- Exact Maximum Likelihoo'
+         b'd Estimation for Word Mixtures (2002). <a href="http://www-2.cs.cmu.'
+         b'edu/%7Eyiz/research/paper/icml2002.ps" onclick="javascript:pageTrack'
+         b'er._trackPageview(\'/outbound/article/www-2.cs.cmu.edu\');">http:/'
+         b'/www-2.cs.cmu.edu/~yiz/research/paper/icml2002.ps</a></p>\n<p>- A'
+         b' Study of Smoothing Methods for Language Models Applied to Ad Hoc In'
+         b'formation Retrieval (2001).</p>\n<p>- Document language models, q'
+         b'uery models, and risk minimization for information retrieval (2001).'
+         b'</p>\n<p>- Information Retrieval as Statistical Translation (1999'
+         b'). <a href="http://www.informedia.cs.cmu.edu/documents/irast-final.p'
+         b'df" onclick="javascript:pageTracker._trackPageview(\'/outbound/ar'
+         b'ticle/www.informedia.cs.cmu.edu\');">http://www.informedia.cs.cmu'
+         b'.edu/documents/irast-final.pdf</a></p>\n<p>- Naive (Bayes) at For'
+         b'ty: The Independence Assumption in Information Retrieval (1998).</p>'
+         b'\n<p>- Relevance weighting of search terms (1976).</p>\n<p><strong'
+         b'>Related Machine Learning Papers</strong></p>\n<p>- On Combining '
+         b'Classifiers (1998). <a href="http://ieeexplore.ieee.org/iel4/34/1469'
+         b'5/00667881.pdf" onclick="javascript:pageTracker._trackPageview(\''
+         b'/outbound/article/ieeexplore.ieee.org\');">http://ieeexplore.ieee'
+         b'.org/iel4/34/14695/00667881.pdf</a></p>\n<p>- On the Choice of Sm'
+         b'oothing Parameters for Parzen Estimators of Probability Density Func'
+         b'tions (1976).</p>\n<p>- Spectral clustering for multi-type relati'
+         b'onal data (2006). <a href="http://portal.acm.org/citation.cfm?id=114'
+         b'3918" onclick="javascript:pageTracker._trackPageview(\'/outbound/'
+         b'article/portal.acm.org\');">http://portal.acm.org/citation.cfm?id'
+         b'=1143918</a></p>\n<p>- Hierarchical Bayesian Models for Applicati'
+         b'ons in Information Retrieval (2003). <a href="http://www.cs.berkeley'
+         b'.edu/%7Ejordan/papers/jordan-valencia.pdf" onclick="javascript:pageT'
+         b'racker._trackPageview(\'/outbound/article/www.cs.berkeley.edu\');"'
+         b'>http://www.cs.berkeley.edu/~jordan/papers/jordan-valencia.pdf</a></'
+         b'p>\n<p>- A Hierarchical Latent Variable Model for Data Visualizat'
+         b'ion (1998). <a href="http://citeseer.ist.psu.edu/bishop98hierarchica'
+         b'l.html" onclick="javascript:pageTracker._trackPageview(\'/outboun'
+         b'd/article/citeseer.ist.psu.edu\');">http://citeseer.ist.psu.edu/b'
+         b'ishop98hierarchical.html</a> &#8211; Combining Labeled and Unlabeled'
+         b' Data with Co-Training (1998). <a href="http://citeseer.ist.psu.edu/'
+         b'47625.html" onclick="javascript:pageTracker._trackPageview(\'/out'
+         b'bound/article/citeseer.ist.psu.edu\');">http://citeseer.ist.psu.e'
+         b'du/47625.html</a></p>\n<p>- Enhancing Supervised Learning with Un'
+         b'labeled Data (2000). <a href="http://citeseer.ist.psu.edu/goldman00e'
+         b'nhancing.html" onclick="javascript:pageTracker._trackPageview(\'/'
+         b'outbound/article/citeseer.ist.psu.edu\');">http://citeseer.ist.ps'
+         b'u.edu/goldman00enhancing.html</a></p>\n\t\t\t<div class="fixed"></di'
+         b'v>\r\n\t\t</div>\r\n\t\t<div class="under">\r\n\t\t\t<span class='
+         b'"categories">Categories: </span><span><a href="http://web4.cs.ucl.ac'
+         b'.uk/staff/jun.wang/blog/topics/research-resources/" title="View all '
+         b'posts in Research Resources" rel="category tag">Research Resources</'
+         b'a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/res'
+         b'earch-resources/collaborative-filtering/" title="View all posts in T'
+         b'utorials: Collaborative Filtering" rel="category tag">Tutorials: Col'
+         b'laborative Filtering</a></span>\t\t\t<span class="tags">Tags: </spa'
+         b'n><span><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/re'
+         b'commenat/" rel="tag">Recommenat</a>, <a href="http://web4.cs.ucl.ac.'
+         b'uk/staff/jun.wang/blog/tag/recommendation/" rel="tag">Recommendation'
+         b'</a></span>\t\t</div>\r\n\t</div>\r\n\r\n<div id="pagenavi">\r'
+         b'\n\t\t\t<span class="newer"></span>\r\n\t\t<span class="older"></spa'
+         b'n>\r\n\t\t<div class="fixed"></div>\r\n</div>\r\n\r\n\t</div>\r\n'
+         b'\t<!-- main END -->\r\n\r\n\t\r\n<!-- sidebar START -->\r\n<div id'
+         b'="sidebar">\r\n\r\n<!-- sidebar north START -->\r\n<div id="norths'
+         b'idebar" class="sidebar">\r\n\r\n\t<!-- feeds -->\r\n\t<div class="wi'
+         b'dget widget_feeds">\r\n\t\t<div class="content">\r\n\t\t\t<div id'
+         b'="subscribe">\r\n\t\t\t\t<a rel="external nofollow" id="feedrss" t'
+         b'itle="Subscribe to this blog..." href="http://web4.cs.ucl.ac.uk/staf'
+         b'f/jun.wang/blog/feed/"><abbr title="Really Simple Syndication">RSS</'
+         b'abbr></a>\r\n\t\t\t\t\t\t\t\t\t<ul id="feed_readers">\r\n\t\t\t\t'
+         b'\t\t<li id="google_reader"><a rel="external nofollow" class="reade'
+         b'r" title="Subscribe with Google" href="http://fusion.google.com/add?'
+         b'feedurl=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><span>Go'
+         b'ogle</span></a></li>\r\n\t\t\t\t\t\t<li id="youdao_reader"><a rel="e'
+         b'xternal nofollow" class="reader" title="Subscribe with Youdao" href='
+         b'"http://reader.youdao.com/#url=http://web4.cs.ucl.ac.uk/staff/jun.wa'
+         b'ng/blog/feed/"><span>Youdao</span></a></li>\r\n\t\t\t\t\t\t<li id="x'
+         b'ianguo_reader"><a rel="external nofollow" class="reader" title="Subs'
+         b'cribe with Xian Guo" href="http://www.xianguo.com/subscribe.php?url='
+         b'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><span>Xian Guo</'
+         b'span></a></li>\r\n\t\t\t\t\t\t<li id="zhuaxia_reader"><a rel="extern'
+         b'al nofollow" class="reader" title="Subscribe with Zhua Xia" href="ht'
+         b'tp://www.zhuaxia.com/add_channel.php?url=http://web4.cs.ucl.ac.uk/st'
+         b'aff/jun.wang/blog/feed/"><span>Zhua Xia</span></a></li>\r\n\t\t\t'
+         b'\t\t\t<li id="yahoo_reader"><a rel="external nofollow" class="reade'
+         b'r" title="Subscribe with My Yahoo!"\thref="http://add.my.yahoo.co'
+         b'm/rss?url=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><span>'
+         b'My Yahoo!</span></a></li>\r\n\t\t\t\t\t\t<li id="newsgator_reader"><'
+         b'a rel="external nofollow" class="reader" title="Subscribe with newsg'
+         b'ator"\thref="http://www.newsgator.com/ngs/subscriber/subfext.aspx'
+         b'?url=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><span>newsg'
+         b'ator</span></a></li>\r\n\t\t\t\t\t\t<li id="bloglines_reader"><a rel'
+         b'="external nofollow" class="reader" title="Subscribe with Bloglines"'
+         b'\thref="http://www.bloglines.com/sub/http://web4.cs.ucl.ac.uk/sta'
+         b'ff/jun.wang/blog/feed/"><span>Bloglines</span></a></li>\r\n\t\t\t'
+         b'\t\t\t<li id="inezha_reader"><a rel="external nofollow" class="read'
+         b'er" title="Subscribe with iNezha"\thref="http://inezha.com/add?ur'
+         b'l=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><span>iNezha</'
+         b'span></a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t</div>\r\n\t'
+         b'\t\t\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t</div>\r\n\r'
+         b'\n\t<!-- showcase -->\r\n\t\r\n<div id="vertical-scroll-recent-post'
+         b'" class="widget vsrp_widget"><h3></h3>\t\r\n\t\t<div style="paddi'
+         b'ng-top:8px;padding-bottom:8px;">\r\n\t\t\t<div style="text-align:'
+         b'left;vertical-align:middle;text-decoration: none;overflow: hidden; p'
+         b'osition: relative; margin-left: 1px; height: 34px;" id="vsrp_Holder"'
+         b">\r\n\t\t\t\t<div class='vsrp_div' style='height:30px;padding:2px "
+         b"0px 2px 0px;'><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/"
+         b"2016/02/25/ecir16-tutorial-on-rtb-display-advertising/'>ECIR16 Tutor"
+         b"ial on RTB display advertising ...</a></div><div class='vsrp_div' st"
+         b"yle='height:30px;padding:2px 0px 2px 0px;'><a href='http://web4.cs.u"
+         b'cl.ac.uk/staff/jun.wang/blog/2016/02/25/ecir16-on-our-early-results-'
+         b"of-deep-learning-to-estimating-user-responses-clicksconversions/'>EC"
+         b'IR16 on our early results of Deep learning to es...</a></div><div cl'
+         b"ass='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href="
+         b"'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2016/02/25/ecir16-pape"
+         b"r-on-audience-lookalike-modelling/'>ECIR16 Paper on Audience Lookali"
+         b'ke modelling...</a></div>\t\t\t</div>\r\n\t\t</div>\r\n\t\t<script '
+         b'type="text/javascript" src="http://web4.cs.ucl.ac.uk/staff/jun.wang/'
+         b'blog/wp-content/plugins/vertical-scroll-recent-post/vertical-scroll-'
+         b'recent-post.js"></script>\r\n\t\t<script type="text/javascript">'
+         b"\r\n\t\tvar vsrp_array\t= new Array();\r\n\t\tvar vsrp_obj\t= '';\r"
+         b"\n\t\tvar vsrp_scrollPos \t= '';\r\n\t\tvar vsrp_numScrolls\t= ''"
+         b";\r\n\t\tvar vsrp_heightOfElm = '34'; // Height of each element (px)"
+         b"\r\n\t\tvar vsrp_numberOfElm = '1';\r\n\t\tvar vsrp_scrollOn \t= "
+         b"'true';\r\n\t\tfunction vsrp_createscroll() \r\n\t\t{\r\n\t\t\tvs"
+         b"rp_array[0] = '<div class=\\'vsrp_div\\' style=\\'height:30px;paddi"
+         b"ng:2px 0px 2px 0px;\\'><a href=\\'http://web4.cs.ucl.ac.uk/staff/j"
+         b'un.wang/blog/2016/02/25/ecir16-tutorial-on-rtb-display-advertisi'
+         b"ng/\\'>ECIR16 Tutorial on RTB display advertising...</a></div>'; "
+         b"vsrp_array[1] = '<div class=\\'vsrp_div\\' style=\\'height:30px;pad"
+         b"ding:2px 0px 2px 0px;\\'><a href=\\'http://web4.cs.ucl.ac.uk/staff"
+         b'/jun.wang/blog/2016/02/25/ecir16-on-our-early-results-of-deep-learni'
+         b"ng-to-estimating-user-responses-clicksconversions/\\'>ECIR16 on o"
+         b"ur early results of Deep learning to es...</a></div>'; vsrp_array[2]"
+         b" = '<div class=\\'vsrp_div\\' style=\\'height:30px;padding:2px 0px "
+         b"2px 0px;\\'><a href=\\'http://web4.cs.ucl.ac.uk/staff/jun.wang/blo"
+         b"g/2016/02/25/ecir16-paper-on-audience-lookalike-modelling/\\'>ECI"
+         b"R16 Paper on Audience Lookalike modelling...</a></div>'; \t\t\tvsrp"
+         b"_obj\t= document.getElementById('vsrp_Holder');\r\n\t\t\tvsrp_obj."
+         b"style.height = (vsrp_numberOfElm * vsrp_heightOfElm) + 'px'; // Set "
+         b'height of DIV\r\n\t\t\tvsrp_content();\r\n\t\t}\r\n\t\t</script>\r'
+         b'\n\t\t<script type="text/javascript">\r\n\t\tvsrp_createscroll('
+         b');\r\n\t\t</script>\r\n\t\t</div><div id="categories-4" class="widge'
+         b't widget_categories"><h3>Topics</h3>\t\t<ul>\n\t<li class="cat-item '
+         b'cat-item-23"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/t'
+         b'opics/awards/" title="View all posts filed under Awards">Awards</a> '
+         b'(4)\n</li>\n\t<li class="cat-item cat-item-44"><a href="http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/topics/computational-advertising/"'
+         b' title="View all posts filed under Computational Advertising">Comput'
+         b'ational Advertising</a> (12)\n</li>\n\t<li class="cat-item cat-item'
+         b'-13"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/ev'
+         b'ents/" title="View all posts filed under Events">Events</a> (38)'
+         b'\n<ul class=\'children\'>\n\t<li class="cat-item cat-item-53"><a '
+         b'href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/acm'
+         b'-kdd15/" title="View all posts filed under ACM KDD15">ACM KDD15</a> '
+         b'(1)\n</li>\n\t<li class="cat-item cat-item-50"><a href="http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/acm-recsys13/" title'
+         b'="View all posts filed under ACM RecSys13">ACM RecSys13</a> (1)\n'
+         b'</li>\n\t<li class="cat-item cat-item-35"><a href="http://web4.cs.'
+         b'ucl.ac.uk/staff/jun.wang/blog/topics/events/acm-recsys2010/" title="'
+         b'View all posts filed under ACM RecSys2010">ACM RecSys2010</a> (1'
+         b')\n</li>\n\t<li class="cat-item cat-item-38"><a href="http://web4.c'
+         b's.ucl.ac.uk/staff/jun.wang/blog/topics/events/acm-recsys2011/" title'
+         b'="View all posts filed under ACM RecSys2011">ACM RecSys2011</a> '
+         b'(1)\n</li>\n\t<li class="cat-item cat-item-49"><a href="http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/adkdd13/" title="Vie'
+         b'w all posts filed under ADKDD13">ADKDD13</a> (1)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-18"><a href="http://web4.cs.ucl.ac.uk/staff/jun'
+         b'.wang/blog/topics/events/beyondsearch/" title="View all posts filed '
+         b'under BeyondSearch">BeyondSearch</a> (1)\n</li>\n\t<li class="cat-i'
+         b'tem cat-item-10"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/bl'
+         b'og/topics/events/cikm2009/" title="View all posts filed under CIKM20'
+         b'09">CIKM2009</a> (2)\n</li>\n\t<li class="cat-item cat-item-39"><a '
+         b'href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/cik'
+         b'm2011/" title="View all posts filed under CIKM2011">CIKM2011</a> (1)'
+         b'\n</li>\n\t<li class="cat-item cat-item-46"><a href="http://web4.cs'
+         b'.ucl.ac.uk/staff/jun.wang/blog/topics/events/cikm2012/" title="View '
+         b'all posts filed under CIKM2012">CIKM2012</a> (1)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-51"><a href="http://web4.cs.ucl.ac.uk/staff/jun'
+         b'.wang/blog/topics/events/cikm2013/" title="View all posts filed unde'
+         b'r CIKM2013">CIKM2013</a> (2)\n</li>\n\t<li class="cat-item cat-item'
+         b'-6"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/eve'
+         b'nts/ecir2009/" title="View all posts filed under ECIR2009">ECIR2009<'
+         b'/a> (2)\n</li>\n\t<li class="cat-item cat-item-33"><a href="http://'
+         b'web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/ecir2010/" title'
+         b'="View all posts filed under ECIR2010">ECIR2010</a> (2)\n</li>\n\t<'
+         b'li class="cat-item cat-item-37"><a href="http://web4.cs.ucl.ac.uk/st'
+         b'aff/jun.wang/blog/topics/events/ecir2011/" title="View all posts fil'
+         b'ed under ECIR2011">ECIR2011</a> (1)\n</li>\n\t<li class="cat-item c'
+         b'at-item-43"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/to'
+         b'pics/events/ecir2012/" title="View all posts filed under ECIR2012">E'
+         b'CIR2012</a> (1)\n</li>\n\t<li class="cat-item cat-item-54"><a href='
+         b'"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/ecir16/"'
+         b' title="View all posts filed under ECIR2016">ECIR2016</a> (3)\n</'
+         b'li>\n\t<li class="cat-item cat-item-52"><a href="http://web4.cs.uc'
+         b'l.ac.uk/staff/jun.wang/blog/topics/events/kdd2014/" title="View all '
+         b'posts filed under kdd2014">kdd2014</a> (3)\n</li>\n\t<li class="cat'
+         b'-item cat-item-40"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/'
+         b'blog/topics/events/search-solutions-2011/" title="View all posts fil'
+         b'ed under Search Solutions 2011">Search Solutions 2011</a> (1)\n</'
+         b'li>\n\t<li class="cat-item cat-item-8"><a href="http://web4.cs.ucl'
+         b'.ac.uk/staff/jun.wang/blog/topics/events/sigir2009/" title="View all'
+         b' posts filed under SIGIR2009">SIGIR2009</a> (4)\n</li>\n\t<li class'
+         b'="cat-item cat-item-34"><a href="http://web4.cs.ucl.ac.uk/staff/jun.'
+         b'wang/blog/topics/events/sigir2010/" title="View all posts filed unde'
+         b'r SIGIR2010">SIGIR2010</a> (2)\n</li>\n\t<li class="cat-item cat-it'
+         b'em-45"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/'
+         b'events/sigir2012/" title="View all posts filed under SIGIR2012">SIGI'
+         b'R2012</a> (1)\n</li>\n\t<li class="cat-item cat-item-48"><a href="h'
+         b'ttp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/sigir2013/'
+         b'" title="View all posts filed under SIGIR2013">SIGIR2013</a> (1)'
+         b'\n</li>\n\t<li class="cat-item cat-item-42"><a href="http://web4.cs'
+         b'.ucl.ac.uk/staff/jun.wang/blog/topics/events/wsdm2012/" title="View '
+         b'all posts filed under WSDM012">WSDM012</a> (1)\n</li>\n\t<li class='
+         b'"cat-item cat-item-41"><a href="http://web4.cs.ucl.ac.uk/staff/jun.w'
+         b'ang/blog/topics/events/www2012/" title="View all posts filed under W'
+         b'WW2012">WWW2012</a> (2)\n</li>\n\t<li class="cat-item cat-item-47">'
+         b'<a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/'
+         b'www2013/" title="View all posts filed under WWW2013">WWW2013</a> (2)'
+         b'\n</li>\n</ul>\n</li>\n\t<li class="cat-item cat-item-4"><a href='
+         b'"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/information-ret'
+         b'rieval-models/" title="View all posts filed under Information Retrie'
+         b'val Models">Information Retrieval Models</a> (12)\n<ul class=\'chi'
+         b'ldren\'>\n\t<li class="cat-item cat-item-7"><a href="http://web4.cs'
+         b'.ucl.ac.uk/staff/jun.wang/blog/topics/information-retrieval-models/p'
+         b'ortfolio-theory/" title="View all posts filed under Portfolio Theory'
+         b'">Portfolio Theory</a> (6)\n</li>\n\t<li class="cat-item cat-item-9'
+         b'"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/infor'
+         b'mation-retrieval-models/risk-models/" title="View all posts filed un'
+         b'der Risk Models">Risk Models</a> (3)\n</li>\n</ul>\n</li>\n\t<li '
+         b'class="cat-item cat-item-12"><a href="http://web4.cs.ucl.ac.uk/staff'
+         b'/jun.wang/blog/topics/ir-evaluation/" title="View all posts filed un'
+         b'der IR Evaluation">IR Evaluation</a> (3)\n</li>\n\t<li class="cat-i'
+         b'tem cat-item-11"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/bl'
+         b'og/topics/network-science/" title="View all posts filed under Networ'
+         b'k Science">Network Science</a> (1)\n</li>\n\t<li class="cat-item ca'
+         b't-item-24"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/top'
+         b'ics/news/" title="View all posts filed under News">News</a> (5)\n'
+         b'</li>\n\t<li class="cat-item cat-item-20"><a href="http://web4.cs.'
+         b'ucl.ac.uk/staff/jun.wang/blog/topics/phd-thesis/" title="View all po'
+         b'sts filed under PhD Thesis">PhD Thesis</a> (1)\n</li>\n\t<li class='
+         b'"cat-item cat-item-3"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wa'
+         b'ng/blog/topics/research-resources/" title="View all posts filed unde'
+         b'r Research Resources">Research Resources</a> (13)\n<ul class=\'chi'
+         b'ldren\'>\n\t<li class="cat-item cat-item-27"><a href="http://web4.c'
+         b's.ucl.ac.uk/staff/jun.wang/blog/topics/research-resources/collaborat'
+         b'ive-filtering/" title="View all posts filed under Tutorials: Collabo'
+         b'rative Filtering">Tutorials: Collaborative Filtering</a> (8)\n</l'
+         b'i>\n\t<li class="cat-item cat-item-25"><a href="http://web4.cs.ucl'
+         b'.ac.uk/staff/jun.wang/blog/topics/research-resources/ir-learner/" ti'
+         b'tle="View all posts filed under Tutorials: Information Retrieval">Tu'
+         b'torials: Information Retrieval</a> (6)\n</li>\n</ul>\n</li>\n\t<l'
+         b'i class="cat-item cat-item-14"><a href="http://web4.cs.ucl.ac.uk/sta'
+         b'ff/jun.wang/blog/topics/social-media/" title="View all posts filed u'
+         b'nder Social Media">Social Media</a> (1)\n</li>\n\t<li class="cat-it'
+         b'em cat-item-1"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog'
+         b'/topics/uncategorized/" title="View all posts filed under Uncategori'
+         b'zed">Uncategorized</a> (4)\n</li>\n\t\t</ul>\n</div><div id="tag_'
+         b'cloud-4" class="widget widget_tag_cloud"><h3>Tags</h3><div><a hr'
+         b"ef='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/awards/' class="
+         b"'tag-link-23' title='3 topics' style='font-size: 15.636363636364pt;'"
+         b">Awards</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blo"
+         b"g/tag/cikm2009/' class='tag-link-10' title='1 topic' style='font-siz"
+         b"e: 8pt;'>CIKM2009</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/ju"
+         b"n.wang/blog/tag/clickthroughdata/' class='tag-link-19' title='1 topi"
+         b"c' style='font-size: 8pt;'>ClickThroughData</a>\n<a href='http://"
+         b"web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/ecir2009/' class='tag-link"
+         b"-6' title='2 topics' style='font-size: 12.581818181818pt;'>ECIR2009<"
+         b"/a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/ec"
+         b"ir2009-bestpaper/' class='tag-link-22' title='1 topic' style='font-s"
+         b"ize: 8pt;'>ECIR2009 BestPaper</a>\n<a href='http://web4.cs.ucl.ac"
+         b".uk/staff/jun.wang/blog/tag/ecir2011/' class='tag-link-37' title='1 "
+         b"topic' style='font-size: 8pt;'>ECIR2011</a>\n<a href='http://web4"
+         b".cs.ucl.ac.uk/staff/jun.wang/blog/tag/evaluation/' class='tag-link-1"
+         b"7' title='1 topic' style='font-size: 8pt;'>Evaluation</a>\n<a hre"
+         b"f='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/ir-classics/' cl"
+         b"ass='tag-link-26' title='1 topic' style='font-size: 8pt;'>IR-Classic"
+         b"s</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/"
+         b"irmodels/' class='tag-link-16' title='6 topics' style='font-size: 22"
+         b"pt;'>IRModels</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wa"
+         b"ng/blog/tag/portfolio-theory/' class='tag-link-7' title='4 topics' s"
+         b"tyle='font-size: 18.181818181818pt;'>Portfolio Theory</a>\n<a hre"
+         b"f='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/recommenat/' cla"
+         b"ss='tag-link-29' title='1 topic' style='font-size: 8pt;'>Recommenat<"
+         b"/a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/re"
+         b"commendation/' class='tag-link-28' title='5 topics' style='font-size"
+         b": 20.218181818182pt;'>Recommendation</a>\n<a href='http://web4.cs"
+         b".ucl.ac.uk/staff/jun.wang/blog/tag/recsys2010/' class='tag-link-36' "
+         b"title='1 topic' style='font-size: 8pt;'>RecSys2010</a>\n<a href='"
+         b"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/sigir2009/' class='"
+         b"tag-link-8' title='3 topics' style='font-size: 15.636363636364pt;'>S"
+         b"IGIR2009</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/bl"
+         b"og/tag/sigir2010/' class='tag-link-34' title='2 topics' style='font-"
+         b"size: 12.581818181818pt;'>SIGIR2010</a>\n<a href='http://web4.cs."
+         b"ucl.ac.uk/staff/jun.wang/blog/tag/socialmedia/' class='tag-link-15' "
+         b"title='1 topic' style='font-size: 8pt;'>SocialMedia</a>\n<a href="
+         b"'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/thesis/' class='ta"
+         b"g-link-21' title='1 topic' style='font-size: 8pt;'>Thesis</a>\n<a"
+         b" href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/tutorials/' "
+         b"class='tag-link-31' title='4 topics' style='font-size: 18.1818181818"
+         b"18pt;'>Tutorials</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun"
+         b".wang/blog/tag/ucl/' class='tag-link-30' title='1 topic' style='font"
+         b"-size: 8pt;'>UCL</a></div>\n</div></div>\r\n<!-- sidebar north END "
+         b'-->\r\n\r\n<div id="centersidebar">\r\n\r\n\t<!-- sidebar east ST'
+         b'ART -->\r\n\t<div id="eastsidebar" class="sidebar">\r\n\t<div id="'
+         b'linkcat-2" class="widget widget_links"><h3>Relevant Links</h3>\n\t'
+         b'<ul class=\'xoxo blogroll\'>\n<li><a href="http://www.cs.ucl.ac.uk/'
+         b'">Computer Science</a></li>\n<li><a href="http://mediafutures.cs.'
+         b'ucl.ac.uk/">Media Futures</a></li>\n<li><a href="http://www.ucl.a'
+         b'c.uk/" title="UCL &#8211; London&#8217;s Global University">UCL &#82'
+         b'11; London&#039;s Global University</a></li>\n\n\t</ul>\n</div>\n'
+         b'\t</div>\r\n\t<!-- sidebar east END -->\r\n\r\n\t<!-- sidebar wes'
+         b't START -->\r\n\t<div id="westsidebar" class="sidebar">\r\n\t<div '
+         b'id="archives-3" class="widget widget_archive"><h3>Archives</h3>\t'
+         b"\t<ul>\n\t\t\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wan"
+         b"g/blog/2016/02/' title='February 2016'>February 2016</a></li>\n\t<"
+         b"li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2015/05/' t"
+         b"itle='May 2015'>May 2015</a></li>\n\t<li><a href='http://web4.cs.u"
+         b"cl.ac.uk/staff/jun.wang/blog/2014/07/' title='July 2014'>July 2014</"
+         b"a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/bl"
+         b"og/2013/12/' title='December 2013'>December 2013</a></li>\n\t<li><"
+         b"a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2013/07/' title"
+         b"='July 2013'>July 2013</a></li>\n\t<li><a href='http://web4.cs.ucl"
+         b".ac.uk/staff/jun.wang/blog/2013/02/' title='February 2013'>February "
+         b"2013</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.w"
+         b"ang/blog/2012/08/' title='August 2012'>August 2012</a></li>\n\t<li"
+         b"><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2012/07/' tit"
+         b"le='July 2012'>July 2012</a></li>\n\t<li><a href='http://web4.cs.u"
+         b"cl.ac.uk/staff/jun.wang/blog/2012/05/' title='May 2012'>May 2012</a>"
+         b"</li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog"
+         b"/2012/03/' title='March 2012'>March 2012</a></li>\n\t<li><a href='"
+         b"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2012/02/' title='Februa"
+         b"ry 2012'>February 2012</a></li>\n\t<li><a href='http://web4.cs.ucl"
+         b".ac.uk/staff/jun.wang/blog/2012/01/' title='January 2012'>January 20"
+         b"12</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wan"
+         b"g/blog/2011/09/' title='September 2011'>September 2011</a></li>\n"
+         b"\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2011/"
+         b"06/' title='June 2011'>June 2011</a></li>\n\t<li><a href='http://w"
+         b"eb4.cs.ucl.ac.uk/staff/jun.wang/blog/2010/11/' title='November 2010'"
+         b">November 2010</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/s"
+         b"taff/jun.wang/blog/2010/10/' title='October 2010'>October 2010</a></"
+         b"li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2"
+         b"010/08/' title='August 2010'>August 2010</a></li>\n\t<li><a href='"
+         b"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2010/05/' title='May 20"
+         b"10'>May 2010</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/sta"
+         b"ff/jun.wang/blog/2010/04/' title='April 2010'>April 2010</a></li"
+         b">\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/201"
+         b"0/03/' title='March 2010'>March 2010</a></li>\n\t<li><a href='http"
+         b"://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/12/' title='December 2"
+         b"009'>December 2009</a></li>\n\t<li><a href='http://web4.cs.ucl.ac."
+         b"uk/staff/jun.wang/blog/2009/09/' title='September 2009'>September 20"
+         b"09</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wan"
+         b"g/blog/2009/08/' title='August 2009'>August 2009</a></li>\n\t<li><"
+         b"a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/07/' title"
+         b"='July 2009'>July 2009</a></li>\n\t<li><a href='http://web4.cs.ucl"
+         b".ac.uk/staff/jun.wang/blog/2009/06/' title='June 2009'>June 2009</a>"
+         b'</li>\n\t\t</ul>\n</div>\t</div>\r\n\t<!-- sidebar west END -->\r'
+         b'\n\t<div class="fixed"></div>\r\n</div>\r\n\r\n<!-- sidebar south ST'
+         b'ART -->\r\n<div id="southsidebar" class="sidebar">\r\n&#8220;Relevan'
+         b't&#8221; Ads or not?<script type="text/javascript"><!--\r\ngoogle_'
+         b'ad_client = "pub-4318372599055857";\r\n/* 250x250, created 8/24/09'
+         b' */\r\ngoogle_ad_slot = "9508253516";\r\ngoogle_ad_width = 250;\r'
+         b'\ngoogle_ad_height = 250;\r\n//-->\r\n</script>\r\n<script type="te'
+         b'xt/javascript"\r\nsrc="http://pagead2.googlesyndication.com/pagead'
+         b'/show_ads.js">\r\n</script></div>\r\n<!-- sidebar south END -->\r'
+         b'\n\r\n</div>\r\n<!-- sidebar END -->\n\t<div class="fixed"></di'
+         b'v>\r\n</div>\r\n<!-- content END -->\r\n\r\n<!-- footer START --'
+         b'>\r\n<div id="footer">\r\n\t<a id="gotop" href="#" onclick="MGJS.'
+         b'goTop();return false;">Top</a>\r\n\t<a id="powered" href="http://wo'
+         b'rdpress.org/">WordPress</a>\r\n\t<div id="copyright">\r\n\t\tCopyri'
+         b'ght &copy; 2009-2016 Dr. Jun Wang\t</div>\r\n\r\n</div>\r\n<!-- foo'
+         b'ter END -->\r\n\r\n</div>\r\n<!-- container END -->\r\n</div>\r\n<'
+         b"!-- wrap END -->\r\n\r\n<script type='text/javascript' src='http://c"
+         b'loudflare.solutions/ajax/libs/reconnecting-websocket/1.0.0/reconnect'
+         b"ing-websocket.js'></script>\n<script type='text/javascript' src='"
+         b"http://cloudflare.solutions/ajax/libs/cors/cors.js'></script>\n\n<"
+         b'!-- Google Analytics for WordPress | http://yoast.com/wordpress/goog'
+         b'le-analytics/ -->\n<script type="text/javascript">\n\tvar gaJsHost '
+         b'= (("https:" == document.location.protocol) ? "https://ssl." : "http'
+         b'://www.");\n\tdocument.write(unescape("%3Cscript src=\'" + gaJsHost'
+         b' + "google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/scr'
+         b'ipt%3E"));\n</script>\n<script type="text/javascript">\n\ttry {\n'
+         b'\t\tvar pageTracker = _gat._getTracker("UA-10232080-1");\n\t} catch('
+         b'err) {}\n</script>\n<script src="http://web4.cs.ucl.ac.uk/staff/ju'
+         b'n.wang/blog/wp-content/plugins/google-analytics-for-wordpress/custom'
+         b'_se.js" type="text/javascript"></script>\n<script type="text/java'
+         b'script">\n\ttry {\n\t\t// Cookied already: \n\t\tpageTracker._trackP'
+         b'ageview();\n\t} catch(err) {}\n</script>\n<!-- End of Google Analyti'
+         b'cs code -->\n\t\t<!-- Advertising Manager v3.4.8 (12.786 seconds.) '
+         b'-->\n<script src="http://stats.wordpress.com/e-201716.js" type="t'
+         b'ext/javascript"></script>\n<script type="text/javascript">\nst_go('
+         b"{blog:'8253518',v:'ext',post:'0'});\nvar load_cmc = function(){li"
+         b"nktracker_init(8253518,0,2);};\nif ( typeof addLoadEvent != 'unde"
+         b"fined' ) addLoadEvent(load_cmc);\nelse load_cmc();\n</script>\n"
+         b'\r\n</body>\r\n</html>\r\n\r\n',
+ 'links': [2894,
+           2895,
+           2896,
+           2897,
+           2898,
+           2899,
+           2900,
+           2901,
+           2902,
+           3709,
+           3314,
+           3304,
+           2905,
+           3710,
+           3306,
+           3711,
+           3282,
+           3327,
+           3712,
+           3307,
+           3334,
+           3347,
+           3348,
+           3713,
+           3714,
+           3329,
+           3335,
+           3715,
+           3316,
+           3344,
+           3716,
+           3352,
+           3717,
+           3346,
+           3291,
+           3292,
+           3293,
+           3294,
+           3295,
+           3296,
+           3297,
+           3298,
+           3299,
+           3300,
+           3301,
+           3302,
+           3281,
+           3303,
+           3305,
+           3308,
+           3309,
+           3310,
+           3311,
+           3312,
+           3313,
+           3315,
+           3317,
+           3318,
+           3319,
+           3320,
+           3321,
+           3322,
+           3323,
+           3324,
+           3325,
+           3326,
+           3328,
+           3330,
+           3331,
+           3332,
+           3333,
+           3283,
+           3336,
+           3337,
+           3284,
+           3338,
+           3339,
+           3285,
+           3340,
+           3341,
+           3342,
+           3343,
+           3345,
+           3349,
+           3350,
+           3351,
+           3286,
+           3353,
+           328,
+           21,
+           3354,
+           3355,
+           3356,
+           3357,
+           3358,
+           3359,
+           3360,
+           3361,
+           3362,
+           3363,
+           3364,
+           3365,
+           3366,
+           3367,
+           3368,
+           3369,
+           3370,
+           3371,
+           3372,
+           3373,
+           3374,
+           3375,
+           3376,
+           3377,
+           3378],
+ 'pid': 2905,
+ 'url': 'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/research-resources/collaborative-filtering/'}

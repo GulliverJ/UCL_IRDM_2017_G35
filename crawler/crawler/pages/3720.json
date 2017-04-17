@@ -1,0 +1,54 @@
+{'html': b'\nxlisthi = [0:127]*2*pi/128;\nflisthi = cos(5*xlisthi)  + sin(3*x'
+         b'listhi)  - 1;\n\nxlist1 = [0:3]*2*pi/4;\nflist1 =  cos(5*xlist1)   '
+         b'+ sin(3*xlist1) - 1;\n\nxlist2 = [0:7]*2*pi/8;\nflist2 = cos(5*xlis'
+         b't2)    + sin(3*xlist2)  - 1;\n\nxlistnq = [0:9]*2*pi/10;\nflistnq ='
+         b' cos(5*xlistnq)  + sin(3*xlistnq) - 1;\n\nxlist3 = [0:15]*2*pi/16;'
+         b'\n%xlist3 = [0:12]*2*pi/12;\nflist3 = cos(5*xlist3)+ sin(3*xlist3)'
+         b" - 1;\n\n\n\nfigure(1); clf; hold on;\n\nplot(xlisthi,flisthi,'k')"
+         b";\nplot(xlist2,flist2,'ob');\nplot(xlist1,flist1,'+r');\nplot(xlist"
+         b"nq,flistnq,'xm');\nplot(xlist3,flist3,'*g');\n\n%% ----------------"
+         b'------- Sinc Interpolation ---------------------\nnp = 5;% number'
+         b' of repeated periods MUST BE ODD NUMBER.\nper = 2*pi*[-floor(np/2'
+         b"):floor(np/2)];\nxx1 =  reshape( (ones(np,1)*xlist1  + per' * one"
+         b"s(size(xlist1)))',1,[]);\nxx2 =  reshape( (ones(np,1)*xlist2  + p"
+         b"er' * ones(size(xlist2)))',1,[]);\nxxnq =  reshape( (ones(np,1)*x"
+         b"listnq  + per' * ones(size(xlistnq)))',1,[]);\nxx3 =  reshape( (o"
+         b"nes(np,1)*xlist3  + per' * ones(size(xlist3)))',1,[]);\nxxhi = re"
+         b"shape( (ones(np,1)*xlisthi + per' * ones(size(xlisthi)))',1,[]);"
+         b'\n\n\nnn = length(xxhi);\nif1 = zeros(nn,1);\nif2 = if1;\nif3 = if'
+         b'1;\nifnq = if1;\n\nfor n = 1:nn\n    tt1 = 2*(xx1 - xxhi(n));\n  '
+         b'  ftn1 = sinc(tt1/pi); % note Matlab Sinc scales by pi\n \n    if1'
+         b"(n) = sum( reshape(flist1'*ones(1,np),[],1).* ftn1');\n \n    tt2 "
+         b'= 4*(xx2 - xxhi(n));\n    ftn2 = sinc(tt2/pi);\n\n    if2(n) = sum('
+         b" reshape(flist2'*ones(1,np),[],1).* ftn2');\n\n     ttnq = 5*(xxnq"
+         b' - xxhi(n));\n    ftnnq = sinc(ttnq/pi);\n\n    ifnq(n) = sum( resh'
+         b"ape(flistnq'*ones(1,np),[],1).* ftnnq');\n   \n    \n    tt3 = 8*(x"
+         b'x3 - xxhi(n));    \n%    tt3 = 6*(xx3 - xxhi(n));    \n    ftn3 = '
+         b"sinc(tt3/pi);\n \n    if3(n) = sum( reshape(flist3'*ones(1,np),[],"
+         b"1).* ftn3');\nend\n\nfigure(3); clf; hold on;\n\nplot(xlisthi,fli"
+         b"sthi,'k');\nplot(xlist2,flist2,'ob');\nplot(xlist1,flist1,'+r');\np"
+         b"lot(xlistnq,flistnq,'xm');\nplot(xlist3,flist3,'*g');\n\nsi = floor"
+         b"(np/2)*128;\nei = si+128;\nplot(xlisthi,if1(si+1:ei),'--r');\nplot("
+         b"xlisthi,if2(si+1:ei),'--b');\nplot(xlisthi,ifnq(si+1:ei),'--m');\n"
+         b"plot(xlisthi,if3(si+1:ei),'g.');\ntitle(['Sinc interpolation usin"
+         b"g ',num2str(np),' periods']);\n%% ----------------------- inverse"
+         b' zero fill ----------------------\nfx1 = fft(flist1)*128/4;\nzfx1 '
+         b'= [fx1(1:2),zeros(1,124),fx1(3:4)];\nizf1 = ifft(zfx1);\n\nfigure(1'
+         b"); plot(xlisthi,real(izf1),'--r')\n\nfx2 = fft(flist2)*128/8;\nzfx2"
+         b' = [fx2(1:4),zeros(1,120),fx2(5:8)];\nizf2 = ifft(zfx2);\n \nfigure'
+         b"(1); plot(xlisthi,real(izf2),'--b')\n\n\nfxnq = fft(flistnq)*128/10"
+         b';\nzfxnq = [fxnq(1:5),zeros(1,118),fxnq(6:10)];\nizfnq = ifft(zfxn'
+         b"q);\n \nfigure(1); plot(xlisthi,real(izfnq),'--m')\n\n \nfx3 = ff"
+         b't(flist3)*128/16;\nzfx3 = [fx3(1:8),zeros(1,112),fx3(9:16)];\n%fx3'
+         b' = fft(flist3)*128/12;\n%zfx3 = [fx3(1:5),zeros(1,116),fx3(6:12)]'
+         b";\nizf3 = ifft(zfx3);\n \n figure(1); plot(xlisthi,real(izf3),'g.')"
+         b"\n\ntitle('Fourier zero fill interpolation');\n\n%% ----------------"
+         b'---plot Fourier ----------------------------------\nfigure(4);clf'
+         b' ; hold on;\nffh = fft(flisthi);\nsubplot(2,2,1); plot(xlisthi-pi,'
+         b'abs(fftshift(ffh)));\nsubplot(2,2,2);plot(xlisthi-pi,abs(fftshift'
+         b"(zfx1)),'r');\nsubplot(2,2,3);plot(xlisthi-pi,abs(fftshift(zfx2))"
+         b",'b');\nsubplot(2,2,4);plot(xlisthi-pi,abs(fftshift(zfxnq)),'m');"
+         b"\n%subplot(2,2,4);plot(xlisthi-pi,abs(fftshift(zfx3)),'g');",
+ 'links': [],
+ 'pid': 3720,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/S.Arridge/teaching/ndsp/sampling1.m'}

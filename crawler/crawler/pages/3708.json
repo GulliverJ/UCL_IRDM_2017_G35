@@ -1,0 +1,32 @@
+{'html': b'<title>GV11 : Geometry of Images</title>\n<h1>Geometry of Images<'
+         b'/h1>\n<p>\nThis page is for information related to the VIVE course'
+         b' Geometry of Images\n\n<h2>Notes</h2>\n<a HREF = ./curvature.pdf >2'
+         b'D curvature</a>\n<br>\n<a HREF = ./curvature3D.pdf >3D curvature</'
+         b'a>\n\n<h2>Mathematica Examples</h2>\n<p>\nI have put the examples fr'
+         b'om lectures <a HREF = ./ndsp_math.html>here</a>\n\n<h2>Matlab Exam'
+         b'ples</h2>\nWeek 1 : here is an example of <a HREF = ./sampling1.m'
+         b' >sampling and Fourier Interpolation</a>\n\n<br>\nWeek 2 : here is '
+         b'an example of <a HREF = ./differentiate1.m >differentiation</a> usin'
+         b'g spatial convolution and \nFourier filtering\n\n\n<br>\nHere is '
+         b'an example of \n<a HREF = ./differentiate2d >directional edge dif'
+         b'ferentiation in 2D</a> using test image  <a HREF = ./Cameraman256.pn'
+         b'g>Cameraman</a>\n<br>Here is an example of \n<a HREF = ./canny3d.m'
+         b' >canny edge detection in 3D </a> using synthetic test image\n\n<p'
+         b'>\nHere are examples of calculating image curvature in 2D and 3D\n'
+         b'<list>\n<!--\n<li> 2D  <a HREF = ./imcurvature2D.m >Image curvatur'
+         b'e </a> using test image  <a HREF = ./Lena512.png>Lena</a>\n--!>\n<'
+         b'li> 2D  <a HREF = ./imcurvature.m >Image curvature function</a> and '
+         b'a \n<a HREF = ./CompareImcurvatures.m > script to run this functi'
+         b'on</a> using some synthetic and standard test images.\n<li> 3D  <'
+         b'a HREF = ./voxcurvature3D.m >Voxel curvature </a> using synthetic te'
+         b'st image\n\n<h2>Scale Space and Anisotropic Diffusion</h2>\n<p>\nA u'
+         b'seful link about Diffusion regularization methods is \n<a HREF=ht'
+         b'tp://www.mia.uni-saarland.de/weickert/publications.html>Weickert pub'
+         b'lications list</a>\n<p>\nMatlab code for different diffusion regul'
+         b'arisation method is found \n<a HREF = "./TP_Diffusion_Matlab.zip"'
+         b"> here</a> (zip'd Matlab directory )\n\n\n\n<h2>Coursework </h2>"
+         b'\nThis is <a HREF = ./SRA_courswork2017.pdf >coursework for 2017<'
+         b'/a>\nThe handin date is <I>Thursday March 9th, 12.00p.m.</I>\n',
+ 'links': [3719, 3720, 3721, 3722, 3723],
+ 'pid': 3708,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/S.Arridge/teaching/ndsp/index'}

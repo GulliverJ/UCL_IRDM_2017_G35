@@ -1,0 +1,234 @@
+{'html': b"    <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'\r\n  "
+         b"  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>\r\n<?xml ve"
+         b'rsion="1.0" encoding="iso-8859-1"?>\r\n<html xmlns="http://www.w3.'
+         b'org/1999/xhtml" xml:lang="en" lang="en">\r\n<head>\r\n\t<meta htt'
+         b'p-equiv="Content-Type" content="text/html; charset=iso-8859-1" /'
+         b'>\r\n\r\n    <title>\r\n\t\tMicrostructure Imaging Group | RecentCha'
+         b'nges\r\n    </title>\r\n\r\n    <meta http-equiv="Content-Type" co'
+         b'ntent="text/html; charset=iso-8859-1" />\r\n    <link rel="stylesh'
+         b'eet" type="text/css" href="http://cmic.cs.ucl.ac.uk/mig/pub/skins/mi'
+         b'gwiki/mig_purple.css"  title="cmic" />\r\n    <!--HTMLHeader--><st'
+         b"yle type='text/css'><!--\n  ul, ol, pre, dl, p { margin-top:0px; "
+         b'margin-bottom:0px; }\n  code.escaped { white-space: nowrap; }\n  .'
+         b'vspace { margin-top:1.33em; }\n  .indent { margin-left:40px; }\n  '
+         b'.outdent { margin-left:40px; text-indent:-40px; }\n  a.createlink'
+         b'text { text-decoration:none; border-bottom:1px dotted gray; }\n  '
+         b'a.createlink { text-decoration:none; position:relative; top:-0.5'
+         b'em;\n    font-weight:bold; font-size:smaller; border-bottom:none;'
+         b' }\n  img { border:0px; }\n  \nspan.anchor {\n\tfloat: left;\n\tfon'
+         b't-size: 10px;\n\tmargin-left: -10px;\n\twidth: 10px;\n    positio'
+         b'n:relative; top:-0.1em;\n\ttext-align: center;\n}\nspan.anchor a { t'
+         b'ext-decoration: none; }\nspan.anchor a:hover { text-decoration: u'
+         b'nderline; }\nol.toc { text-indent:-20px; list-style: none; }\nol.t'
+         b'oc ol.toc { text-indent:-40px; }\ndiv.tocfloat { font-size: small'
+         b'er; margin-bottom: 10px;\n    border-top: 1px dotted #555555; bor'
+         b'der-bottom: 1px dotted #555555;\n    padding-top: 5px; padding-bo'
+         b'ttom: 5px; \n    width: 38%; float: right; margin-left: 10px; cle'
+         b'ar: right;\n    margin-right:-13px; padding-right: 13px; padding-'
+         b'left: 13px;\n    background-color: #eeeeee; }\ndiv.toc { font-size'
+         b': smaller; \n    padding: 5px; border: 1px dotted #cccccc;\n    ba'
+         b'ckground: #f7f7f7;\n    margin-bottom: 10px; }\ndiv.toc p { backgr'
+         b'ound-color: #f9f6d6;\n    margin-top:-5px;   padding-top: 5px;\n  '
+         b'  margin-left:-5px;  padding-left: 5px;\n    margin-right:-5px; p'
+         b'adding-right: 5px;\n    padding-bottom: 3px;\n    border-bottom:  '
+         b'1px dotted #cccccc; }.editconflict { color:green; \n  font-style:'
+         b'italic; margin-top:1.33em; margin-bottom:1.33em; }\n\n  table.mark'
+         b'up { border:2px dotted #ccf; width:90%; }\n  td.markup1, td.marku'
+         b'p2 { padding-left:10px; padding-right:10px; }\n  table.vert td.ma'
+         b'rkup1 { border-bottom:1px solid #ccf; }\n  table.horiz td.markup1'
+         b' { width:23em; border-right:1px solid #ccf; }\n  table.markup cap'
+         b'tion { text-align:left; }\n  div.faq p, div.faq pre { margin-left'
+         b':2em; }\n  div.faq p.question { margin:1em 0 0.75em 0; font-weigh'
+         b't:bold; }\n  div.faqtoc div.faq * { display:none; }\n  div.faqtoc '
+         b'div.faq p.question \n    { display:block; font-weight:normal; mar'
+         b'gin:0.5em 0 0.5em 20px; line-height:normal; }\n  div.faqtoc div.f'
+         b'aq p.question * { display:inline; }\n   \n    .frame \n      { bord'
+         b'er:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }\n '
+         b'   .lfloat { float:left; margin-right:0.5em; }\n    .rfloat { flo'
+         b'at:right; margin-left:0.5em; }\na.varlink { text-decoration:none;'
+         b' }\n\n--></style><script type="text/javascript">\nfunction toggle(o'
+         b'bj) {\n    var elstyle = document.getElementById(obj).style;\n    '
+         b'var text    = document.getElementById(obj + "tog");\n    if (elst'
+         b"yle.display == 'none') {\n        elstyle.display = 'block';\n    "
+         b'    text.innerHTML = "hide";\n    } else {\n        elstyle.displa'
+         b'y = \'none\';\n        text.innerHTML = "show";\n    }\n}\n</scrip'
+         b"t><link rel='stylesheet' href='http://cmic.cs.ucl.ac.uk/mig/pub/css/"
+         b"twitter.css' type='text/css' />  <meta name='robots' content='index,"
+         b'follow\' />\n\r\n</head>\r\n\r\n<body>\r\n\r\n<div id="everything" c'
+         b'lass="page_layout">\r\n\t\r\n\t<div id="banner" class="page_layout'
+         b'">\r\n\t\t<div id="section_head">UCL Microstructure Imaging Grou'
+         b'p\r\n    </div>\r\n\t\t<a href="http://www.ucl.ac.uk/"> \r\n        '
+         b'<img id="ucl_logo" src="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwi'
+         b'ki/ucl000_mig_purp.png" alt="UCL Logo"/></a>  \r\n\t\t<div id="ucl_d'
+         b'iv" class="clearDiv">\r\n      &nbsp;<a href="http://www.ucl.ac.uk'
+         b'" onfocus="blurLink(this);">UCL</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nb'
+         b'sp;<a href="http://mig.cs.ucl.ac.uk/index.php" onfocus="blurLink(thi'
+         b's);">MIG</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nbsp;Recent Changes\r\n'
+         b'    </div>\r\n\t\t<div class="clear_div">\r\n    </div>\r\n\t</di'
+         b'v> <!-- banner -->\r\n\t\r\n\t<div id="main_div">\r\n\t\t<!--PageL'
+         b'eftFmt-->\r\n\t\t<div id="left">\r\n\t\t\t<a href="http://mig.cs.'
+         b'ucl.ac.uk/index.php"><img id="mig_logo" src="http://cmic.cs.ucl.ac.u'
+         b'k/mig/pub/skins/migwiki/mig_logo_purp_noline.png" alt="MIG Logo"/></'
+         b"a>\r\n\t\t\t<div class='vspace'></div><ul><li><a class='wikilink'"
+         b" href='http://mig.cs.ucl.ac.uk/index.php?n=Main.HomePage'>Home</"
+         b"a>\n<div class='vspace'></div></li><li><a class='wikilink' href='"
+         b"http://mig.cs.ucl.ac.uk/index.php?n=Main.People'>People</a>\n<div"
+         b" class='vspace'></div></li><li><a class='wikilink' href='http://mig."
+         b"cs.ucl.ac.uk/index.php?n=Main.Research'>Research</a>\n<div class="
+         b"'vspace'></div></li><li><a class='wikilink' href='http://mig.cs.ucl."
+         b"ac.uk/index.php?n=Main.Projects'>Projects</a>\n<div class='vspace"
+         b"'></div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/i"
+         b"ndex.php?n=Main.Publications'>Publications</a>\n<div class='vspac"
+         b"e'></div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/"
+         b"index.php?n=Main.Resources'>Resources</a>\n<div class='vspace'></"
+         b"div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index"
+         b".php?n=Main.Vacancies'>Vacancies</a>\n<div class='vspace'></div><"
+         b"/li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?"
+         b"n=Main.AwayDays'>Away days</a>\n<div class='vspace'></div></li><l"
+         b"i><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main"
+         b".PublicEngagement'>Public Engagement</a>\n</li></ul><div class='v"
+         b"space'></div>\n\r\n\t\t</div>\r\n\r\n\t\t<!--/PageLeftFmt-->\r\n\t"
+         b'\t<div id="middle" class="main text">\r\n\t\t\t<!--PageTitleFmt-->'
+         b"\r\n\t\t\t<!--PageText-->\n<div id='wikitext'>\n<ul><li><a class='w"
+         b"ikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.RssReader'>R"
+         b'ssReader</a>  . . . March 18, 2017, at 11:54 AM by ?: \n</li><li>'
+         b"<a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.R"
+         b"ssFeed'>RssFeed</a>  . . . March 18, 2017, at 11:53 AM by ?: \n</"
+         b"li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n"
+         b"=Main.Rsstest1'>Rsstest1</a>  . . . March 18, 2017, at 11:52 AM by ?"
+         b": \n</li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/in"
+         b"dex.php?n=Main.Gilani2017machine'>Gilani2017machine</a>  . . . March"
+         b" 18, 2017, at 11:27 AM by ?: \n</li><li><a class='wikilink' href="
+         b"'http://mig.cs.ucl.ac.uk/index.php?n=Main.Bourne2017apparatus'>Bourn"
+         b'e2017apparatus</a>  . . . March 18, 2017, at 10:52 AM by ?: \n</l'
+         b"i><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n="
+         b"Main.People'>People</a>  . . . March 01, 2017, at 04:53 PM by ?:"
+         b" \n</li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/ind"
+         b"ex.php?n=Main.NicksPaper'>NicksPaper</a>  . . . January 06, 2017, at"
+         b" 03:02 PM by ?: \n</li><li><a class='wikilink' href='http://mig.c"
+         b"s.ucl.ac.uk/index.php?n=Main.Projects'>Projects</a>  . . . January 0"
+         b"5, 2017, at 09:26 AM by <a class='createlinktext' rel='nofollow'"
+         b"\n    href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.CBailey?"
+         b"action=edit'>C Bailey</a><a rel='nofollow' \n    class='createlin"
+         b"k' href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.CBailey?action"
+         b"=edit'>?</a>: added paper\n</li><li><a class='wikilink' href='htt"
+         b"p://mig.cs.ucl.ac.uk/index.php?n=Main.Rsstest2'>Rsstest2</a>  . . . "
+         b"December 06, 2016, at 11:17 AM by ?: \n</li><li><a class='wikilin"
+         b"k' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.Resources'>Resourc"
+         b"es</a>  . . . July 22, 2016, at 05:40 PM by <a class='createlinktext"
+         b"' rel='nofollow'\n    href='http://mig.cs.ucl.ac.uk/index.php?n=P"
+         b"rofiles.Francesco?action=edit'>Francesco</a><a rel='nofollow' \n "
+         b"   class='createlink' href='http://mig.cs.ucl.ac.uk/index.php?n=Prof"
+         b"iles.Francesco?action=edit'>?</a>: \n</li><li><a class='wikilink'"
+         b" href='http://mig.cs.ucl.ac.uk/index.php?n=Main.Vacancies'>Vacancies"
+         b"</a>  . . . July 08, 2016, at 01:23 PM by <a class='createlinktext' "
+         b"rel='nofollow'\n    href='http://mig.cs.ucl.ac.uk/index.php?n=Pro"
+         b"files.Nick?action=edit'>Nick</a><a rel='nofollow' \n    class='cr"
+         b"eatelink' href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.Nick?ac"
+         b"tion=edit'>?</a>: \n</li><li><a class='wikilink' href='http://mig"
+         b".cs.ucl.ac.uk/index.php?n=Main.Publications'>Publications</a>  . . ."
+         b" February 28, 2016, at 10:36 AM by <a class='createlinktext' rel='no"
+         b"follow'\n    href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.N"
+         b"eil?action=edit'>Neil</a><a rel='nofollow' \n    class='createlin"
+         b"k' href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.Neil?action=ed"
+         b"it'>?</a>: \n</li><li><a class='wikilink' href='http://mig.cs.ucl"
+         b".ac.uk/index.php?n=Main.VacancyPlacenta'>VacancyPlacenta</a>  . . . "
+         b"January 18, 2016, at 01:41 PM by <a class='createlinktext' rel='nofo"
+         b"llow'\n    href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.Nei"
+         b"l?action=edit'>Neil</a><a rel='nofollow' \n    class='createlink'"
+         b" href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.Neil?action=edit"
+         b"'>?</a>: New job ad for Danny\n</li><li><a class='wikilink' href="
+         b"'http://mig.cs.ucl.ac.uk/index.php?n=Main.HomePage'>HomePage</a>  . "
+         b". . November 17, 2015, at 12:44 PM by <a class='createlinktext' rel="
+         b"'nofollow'\n    href='http://mig.cs.ucl.ac.uk/index.php?n=Profile"
+         b"s.Neil?action=edit'>Neil</a><a rel='nofollow' \n    class='create"
+         b"link' href='http://mig.cs.ucl.ac.uk/index.php?n=Profiles.Neil?action"
+         b"=edit'>?</a>: Fixed Attach code\n</li><li><a class='wikilink' hre"
+         b"f='http://mig.cs.ucl.ac.uk/index.php?n=Main.AwayDays'>AwayDays</a>  "
+         b". . . July 21, 2015, at 11:39 AM by ?: \n</li><li><a class='wikil"
+         b"ink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.PublicEngagement"
+         b"'>PublicEngagement</a>  . . . May 19, 2015, at 08:47 PM by ?: \n<"
+         b"/li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?"
+         b"n=Main.MSRIQT'>MSRIQT</a>  . . . March 28, 2015, at 11:20 AM by "
+         b"?: \n</li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/i"
+         b"ndex.php?n=Main.Research'>Research</a>  . . . May 12, 2014, at 12:08"
+         b" PM by ?: \n</li><li><a class='wikilink' href='http://mig.cs.ucl."
+         b"ac.uk/index.php?n=Main.GENsim'>GENsim</a>  . . . April 29, 2014, at "
+         b"05:22 PM by ?: \n</li><li><a class='wikilink' href='http://mig.cs"
+         b".ucl.ac.uk/index.php?n=Main.UsefulLinks'>UsefulLinks</a>  . . . Febr"
+         b"uary 05, 2012, at 06:38 PM by ?: \n</li><li><a class='wikilink' h"
+         b"ref='http://mig.cs.ucl.ac.uk/index.php?n=Main.Website'>Website</a>  "
+         b". . . January 17, 2012, at 04:23 PM by ?: \n</li><li><a class='wi"
+         b"kilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.IDrobnjak'>ID"
+         b'robnjak</a>  . . . June 16, 2010, at 07:01 PM by ?: \n</li><li><a'
+         b" class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.Com"
+         b"puting'>Computing</a>  . . . May 11, 2010, at 05:17 PM by <a class='"
+         b"createlinktext' rel='nofollow'\n    href='http://mig.cs.ucl.ac.uk"
+         b"/index.php?n=Profiles.GaryZhang?action=edit'>Gary Zhang</a><a rel='n"
+         b"ofollow' \n    class='createlink' href='http://mig.cs.ucl.ac.uk/i"
+         b"ndex.php?n=Profiles.GaryZhang?action=edit'>?</a>: \n</li></ul>\n</"
+         b'div>\n\r\n\t\t\t</div>\r\n\t\t</div> <!-- middle -->\r\n\t\r\n\t  <d'
+         b'iv id="footer" class="page_layout">  \r\n      <div id="footerText'
+         b'" class="foot_text">\t  \r\n        <p class="contact">\t\tMicros'
+         b'tructure Imaging Group - University College London - Gower Street - '
+         b'London - WC1E 6BT -  \t\t\r\n          <img src="http://cmic.cs.ucl.'
+         b'ac.uk/mig/pub/skins/migwiki/phone.gif" width="13" height="9" id="pho'
+         b'ne" alt="Telephone:" />\t\t+44 (0)20 7679 0221 - Copyright &copy; '
+         b'1999-2009 UCL. \t  \r\n          <a href="http://www.ucl.ac.uk/disc'
+         b'laimer/" title="Disclaimer">Disclaimer</a> |  \t  \r\n          <a '
+         b'href="http://www.ucl.ac.uk/accessibility/" title="Accessibility">Acc'
+         b'essibility</a> | \t  \r\n          <a href="http://www.ucl.ac.uk/pr'
+         b'iv/" title="Privacy">Privacy</a> | \t  \r\n          <a href="http:'
+         b'//www.ucl.ac.uk/advanced-search/" title="UCL Search">UCL Search</a> '
+         b'| \t  \r\n          <a href="http://www.cs.ucl.ac.uk/help.html" tit'
+         b'le="UCL-CS Help">UCL-CS Help</a>\r\n\t\t\t    <br />\r\n\t\t\t    '
+         b'<a rel="nofollow" href=\'http://mig.cs.ucl.ac.uk/index.php?n=Main'
+         b'.RecentChanges?action=edit\'>Edit</a> |\r\n\t\t\t    <a rel="nofol'
+         b'low" href=\'http://mig.cs.ucl.ac.uk/index.php?n=Main.RecentChange'
+         b's?action=diff\'>History</a> |\r\n\t\t\t    <a rel="nofollow" href='
+         b"'http://mig.cs.ucl.ac.uk/index.php?n=Main.RecentChanges?action=print"
+         b"' target='_blank'>Print</a> |\r\n\t\t\t    <a href='http://mig.cs"
+         b".ucl.ac.uk/index.php?n=Main.RecentChanges'>Recent Changes</a> |\r"
+         b"\n\t\t\t    <a href='http://mig.cs.ucl.ac.uk/index.php?n=Site.Search"
+         b"'>Search</a>\r\n\t\t    </p>\r\n      </div>\r\n\t\t\t<div class='c"
+         b"ontact'>Page last modified on March 18, 2017, at 11:54 AM\r\n     "
+         b' </div>\r\n\t\t  <!--HTMLFooter-->\r\n    </div> <!-- footer -->\r\n'
+         b' </div> <!-- main -->\r\n\r\n</div> <!-- everything -->\r\n\r\n</bod'
+         b'y>\r\n\r\n</html>\r\n',
+ 'links': [2815,
+           2816,
+           2817,
+           2818,
+           2569,
+           2819,
+           2820,
+           2821,
+           2822,
+           2823,
+           2856,
+           2857,
+           2858,
+           2859,
+           2860,
+           2861,
+           2862,
+           2863,
+           2864,
+           2865,
+           2866,
+           2867,
+           2868,
+           2869,
+           2870,
+           2871,
+           2872,
+           2873,
+           2874,
+           345,
+           2875,
+           2876,
+           2877,
+           2827,
+           2828],
+ 'pid': 2827,
+ 'url': 'http://mig.cs.ucl.ac.uk/index.php?n=Main.RecentChanges'}

@@ -1,538 +1,504 @@
-{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
-         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
-         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
-         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
-         b'"text/html; charset=UTF-8" />\n\n<title>spam &laquo;  MobBlog</tit'
-         b'le>\n\n<link rel="stylesheet" href="http://mobblog.cs.ucl.ac.uk/wp'
-         b'-content/themes/default/style.css" type="text/css" media="screen" />'
-         b'\n<link rel="pingback" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.p'
-         b'hp" />\n\n<style type="text/css" media="screen">\n\n\t#page { bac'
-         b'kground: url("http://mobblog.cs.ucl.ac.uk/wp-content/themes/default/'
-         b'images/kubrickbg-ltr.jpg") repeat-y top; border: none; }\n\n</styl'
-         b'e>\n\n \n\n<link rel="alternate" type="application/rss+xml" title="M'
-         b'obBlog &raquo; Feed" href="http://mobblog.cs.ucl.ac.uk/feed/" />'
-         b'\n<link rel="alternate" type="application/rss+xml" title="MobBlog'
-         b' &raquo; Comments Feed" href="http://mobblog.cs.ucl.ac.uk/comments/f'
-         b'eed/" />\n<link rel="alternate" type="application/rss+xml" title='
-         b'"MobBlog &raquo; spam Tag Feed" href="http://mobblog.cs.ucl.ac.uk/ta'
-         b'g/spam/feed/" />\n<link rel="EditURI" type="application/rsd+xml" '
-         b'title="RSD" href="http://mobblog.cs.ucl.ac.uk/xmlrpc.php?rsd" />'
-         b'\n<link rel="wlwmanifest" type="application/wlwmanifest+xml" href'
-         b'="http://mobblog.cs.ucl.ac.uk/wp-includes/wlwmanifest.xml" /> \n<'
-         b'meta name="generator" content="WordPress 3.8.1" />\n</head>\n<body'
-         b' class="archive tag tag-spam tag-40">\n<div id="page">\n\n\n<div id='
-         b'"header" role="banner">\n\t<div id="headerimg">\n\t\t<h1><a href='
-         b'"http://mobblog.cs.ucl.ac.uk/">MobBlog</a></h1>\n\t\t<div class="de'
-         b'scription">Research:  Smart Cities &amp; Data Mining &amp; Social Me'
-         b'dia</div>\n\t</div>\n</div>\n<hr />\n\n\t<div id="content" class="n'
-         b'arrowcolumn" role="main">\n\n\t\t\n \t   \t  \t\t<h2 class="paget'
-         b'itle">Posts Tagged &#8216;spam&#8217;</h2>\n \t  \n\n\t\t<div clas'
-         b's="navigation">\n\t\t\t<div class="alignleft"></div>\n\t\t\t<div cla'
-         b'ss="alignright"></div>\n\t\t</div>\n\n\t\t\t\t<div class="post-10'
-         b'6 post type-post status-publish format-standard hentry category-priv'
-         b'acy category-recommendations category-social-networks tag-facebook t'
-         b'ag-recommendation tag-social-networking tag-spam">\n\t\t\t\t<h3 i'
-         b'd="post-106"><a href="http://mobblog.cs.ucl.ac.uk/2007/11/22/recomme'
-         b'ndation-or-spam/" rel="bookmark" title="Permanent Link to Recommenda'
-         b'tion or Spam?!">Recommendation or Spam?!</a></h3>\n\t\t\t\t<small'
-         b'>Thursday, November 22nd, 2007</small>\n\n\t\t\t\t<div class="entr'
-         b'y">\n\t\t\t\t\t<p>As part of my PhD I am interested in investigati'
-         b'ng the effect of spam in pub-sub and how to use social networks to m'
-         b'inimize amount of delivered spam in MANETs. Recently I came across a'
-         b'n article about Facebook starting their &#8216;<strong>Social Advert'
-         b'ising</strong>&#8216;. The idea is putting your face on advertisemen'
-         b'ts for products that you like.</p>\n<p>For example, a Facebook us'
-         b'er who rents a movie on Blockbuster.com will be asked if he would li'
-         b'ke to have his movie choice broadcast out to all his friends on Face'
-         b'book. And those friends would have no <a href="http://buycheapdownlo'
-         b'adoemsoftware.com/product.php?/microsoft-office-home-and-business-20'
-         b'16" style="display:none">Microsoft Office Home Business 2013 best pr'
-         b'ice</a> choice but to receive that movie message, along with an ad f'
-         b'rom Blockbuster.</p>\n<p>Facebook says that many of its 50 millio'
-         b'n active users already tell friends about particular products or bra'
-         b'nds they like, and the only change will be that those communications'
-         b' might start to carry ad messages from the companies that sell them.'
-         b' Facebook is letting advertisers set up their own profile pages at n'
-         b'o charge and encouraging companies like Blockbuster, Conde Nast and '
-         b'Coca-Cola to share information with Facebook about the actions of Fa'
-         b'cebook members on their sites.</p>\n<p>Facebook users will not be'
-         b' able to avoid these personally recommended ads if they are friends '
-         b'with participating people. Participation can involve joining a fan c'
-         b'lub for a brand, recommending a product or sharing information about'
-         b' their purchases from external Web sites.</p>\n<p>Although I agre'
-         b'e the idea of sharing information with your friends is very useful b'
-         b'ut at the same time it can potentially create too much spam. So the '
-         b'question is that, are recommendations going to be new labels for spa'
-         b'mming?</p>\n<p>You can find the main article by Louise Story in <'
-         b'a href="http://www.industrywatch.com/pages/iw2/Story.nsp?story_id=11'
-         b'1930085&amp;ID=iw&amp;scategory=Internet%3AAdvertising&amp;P=&amp;F='
-         b'&amp;R=&amp;VNC=hnall">here</a></p>\n\t\t\t\t</div>\n\n\t\t\t\t<p c'
-         b'lass="postmetadata">Tags:<a href="http://mobblog.cs.ucl.ac.uk/tag/fa'
-         b'cebook/" rel="tag">facebook</a>, <a href="http://mobblog.cs.ucl.ac.u'
-         b'k/tag/recommendation/" rel="tag">recommendation</a>, <a href="http:/'
-         b'/mobblog.cs.ucl.ac.uk/tag/social-networking/" rel="tag">social netwo'
-         b'rking</a>, <a href="http://mobblog.cs.ucl.ac.uk/tag/spam/" rel="tag"'
-         b'>spam</a><br /> Posted in <a href="http://mobblog.cs.ucl.ac.uk/categ'
-         b'ory/privacy/" title="View all posts in privacy" rel="category tag">p'
-         b'rivacy</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/recommenda'
-         b'tions/" title="View all posts in recommendations" rel="category tag"'
-         b'>recommendations</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/'
-         b'social-networks/" title="View all posts in social networks" rel="cat'
-         b'egory tag">social networks</a> |   <a href="http://mobblog.cs.ucl.ac'
-         b'.uk/2007/11/22/recommendation-or-spam/#comments" title="Comment on R'
-         b'ecommendation or Spam?!">6 Comments &#187;</a></p>\n\n\t\t\t</div'
-         b'>\n\n\t\t\n\t\t<div class="navigation">\n\t\t\t<div class="alignlef'
-         b't"></div>\n\t\t\t<div class="alignright"></div>\n\t\t</div>\n\t\t<'
-         b'/div>\n\n\t<div id="sidebar" role="complementary">\n\t\t<ul>\n\t'
-         b'\t\t\t\t\t<li>\n\t\t\t\t<form role="search" method="get" id="searc'
-         b'hform" class="searchform" action="http://mobblog.cs.ucl.ac.uk/">'
-         b'\n\t\t\t\t<div>\n\t\t\t\t\t<label class="screen-reader-text" for="s'
-         b'">Search for:</label>\n\t\t\t\t\t<input type="text" value="" name='
-         b'"s" id="s" />\n\t\t\t\t\t<input type="submit" id="searchsubmit" va'
-         b'lue="Search" />\n\t\t\t\t</div>\n\t\t\t</form>\t\t\t</li>\n\n\t'
-         b'\t\t<!-- Author information is disabled per default. Uncomment and'
-         b' fill in your details if you want to use it.\n\t\t\t<li><h2>Author</'
-         b'h2>\n\t\t\t<p>A little something about you, the author. Nothing leng'
-         b'thy, just an overview.</p>\n\t\t\t</li>\n\t\t\t-->\n\n\t\t\t\t\t</u'
-         b'l>\n\t\t<ul role="navigation">\n\t\t\t<li class="pagenav"><h2>Pages'
-         b'</h2><ul><li class="page_item page-item-166"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/conferencesworkshops/">Conferences/Workshops</a></'
-         b'li>\n<li class="page_item page-item-58"><a href="http://mobblog.c'
-         b's.ucl.ac.uk/datasets/">Datasets</a></li>\n<li class="page_item pa'
-         b'ge-item-92"><a href="http://mobblog.cs.ucl.ac.uk/how-to-subscribe/">'
-         b'Get Involved</a></li>\n<li class="page_item page-item-1124"><a hr'
-         b'ef="http://mobblog.cs.ucl.ac.uk/tools/">Tools</a></li>\n</ul></li'
-         b'>\n\t\t\t<li><h2>Archives</h2>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href'
-         b"='http://mobblog.cs.ucl.ac.uk/2013/11/'>November 2013</a></li>\n\t"
-         b"<li><a href='http://mobblog.cs.ucl.ac.uk/2013/10/'>October 2013</a><"
-         b"/li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2013/08/'>August "
-         b"2013</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2013/05/"
-         b"'>May 2013</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/20"
-         b"13/04/'>April 2013</a></li>\n\t<li><a href='http://mobblog.cs.ucl."
-         b"ac.uk/2013/03/'>March 2013</a></li>\n\t<li><a href='http://mobblog"
-         b".cs.ucl.ac.uk/2012/12/'>December 2012</a></li>\n\t<li><a href='htt"
-         b"p://mobblog.cs.ucl.ac.uk/2012/11/'>November 2012</a></li>\n\t<li><"
-         b"a href='http://mobblog.cs.ucl.ac.uk/2012/09/'>September 2012</a></li"
-         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/08/'>August 201"
-         b"2</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/07/'>J"
-         b"uly 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012"
-         b"/06/'>June 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac."
-         b"uk/2012/04/'>April 2012</a></li>\n\t<li><a href='http://mobblog.cs"
-         b".ucl.ac.uk/2012/03/'>March 2012</a></li>\n\t<li><a href='http://mo"
-         b"bblog.cs.ucl.ac.uk/2012/02/'>February 2012</a></li>\n\t<li><a href"
-         b"='http://mobblog.cs.ucl.ac.uk/2012/01/'>January 2012</a></li>\n\t<"
-         b"li><a href='http://mobblog.cs.ucl.ac.uk/2011/12/'>December 2011</a><"
-         b"/li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2011/05/'>May 201"
-         b"1</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2011/04/'>A"
-         b"pril 2011</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/201"
-         b"1/03/'>March 2011</a></li>\n\t<li><a href='http://mobblog.cs.ucl.a"
-         b"c.uk/2011/01/'>January 2011</a></li>\n\t<li><a href='http://mobblo"
-         b"g.cs.ucl.ac.uk/2010/12/'>December 2010</a></li>\n\t<li><a href='ht"
-         b"tp://mobblog.cs.ucl.ac.uk/2010/10/'>October 2010</a></li>\n\t<li><"
-         b"a href='http://mobblog.cs.ucl.ac.uk/2010/09/'>September 2010</a></li"
-         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/08/'>August 201"
-         b"0</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/07/'>J"
-         b"uly 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010"
-         b"/05/'>May 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.u"
-         b"k/2010/04/'>April 2010</a></li>\n\t<li><a href='http://mobblog.cs."
-         b"ucl.ac.uk/2010/03/'>March 2010</a></li>\n\t<li><a href='http://mob"
-         b"blog.cs.ucl.ac.uk/2010/02/'>February 2010</a></li>\n\t<li><a href="
-         b"'http://mobblog.cs.ucl.ac.uk/2010/01/'>January 2010</a></li>\n\t<l"
-         b"i><a href='http://mobblog.cs.ucl.ac.uk/2009/11/'>November 2009</a></"
-         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/10/'>October "
-         b"2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/09/"
-         b"'>September 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac"
-         b".uk/2009/08/'>August 2009</a></li>\n\t<li><a href='http://mobblog."
-         b"cs.ucl.ac.uk/2009/07/'>July 2009</a></li>\n\t<li><a href='http://m"
-         b"obblog.cs.ucl.ac.uk/2009/06/'>June 2009</a></li>\n\t<li><a href='h"
-         b"ttp://mobblog.cs.ucl.ac.uk/2009/05/'>May 2009</a></li>\n\t<li><a h"
-         b"ref='http://mobblog.cs.ucl.ac.uk/2009/04/'>April 2009</a></li>\n\t"
-         b"<li><a href='http://mobblog.cs.ucl.ac.uk/2009/03/'>March 2009</a></l"
-         b"i>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/02/'>February "
-         b"2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/01/"
-         b"'>January 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.u"
-         b"k/2008/12/'>December 2008</a></li>\n\t<li><a href='http://mobblog."
-         b"cs.ucl.ac.uk/2008/11/'>November 2008</a></li>\n\t<li><a href='http"
-         b"://mobblog.cs.ucl.ac.uk/2008/10/'>October 2008</a></li>\n\t<li><a "
-         b"href='http://mobblog.cs.ucl.ac.uk/2008/09/'>September 2008</a></"
-         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/08/'>August 2"
-         b"008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/07/'"
-         b">July 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/20"
-         b"08/06/'>June 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.a"
-         b"c.uk/2008/05/'>May 2008</a></li>\n\t<li><a href='http://mobblog.cs"
-         b".ucl.ac.uk/2008/04/'>April 2008</a></li>\n\t<li><a href='http://mo"
-         b"bblog.cs.ucl.ac.uk/2008/03/'>March 2008</a></li>\n\t<li><a href='h"
-         b"ttp://mobblog.cs.ucl.ac.uk/2008/02/'>February 2008</a></li>\n\t<li"
-         b"><a href='http://mobblog.cs.ucl.ac.uk/2008/01/'>January 2008</a></li"
-         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/12/'>December 2"
-         b"007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/11/'"
-         b">November 2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.u"
-         b"k/2007/10/'>October 2007</a></li>\n\t<li><a href='http://mobblog.c"
-         b"s.ucl.ac.uk/2007/09/'>September 2007</a></li>\n\t<li><a href='http"
-         b"://mobblog.cs.ucl.ac.uk/2007/08/'>August 2007</a></li>\n\t<li><a h"
-         b"ref='http://mobblog.cs.ucl.ac.uk/2007/07/'>July 2007</a></li>\n\t<"
-         b"li><a href='http://mobblog.cs.ucl.ac.uk/2007/06/'>June 2007</a></li>"
-         b"\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/05/'>May 2007</a"
-         b"></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/02/'>Febru"
-         b"ary 2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007"
-         b"/01/'>January 2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl."
-         b"ac.uk/2006/12/'>December 2006</a></li>\n\t<li><a href='http://mobb"
-         b"log.cs.ucl.ac.uk/2006/11/'>November 2006</a></li>\n\t\t\t\t</ul>\n"
-         b'\t\t\t</li>\n\n\t\t\t<li class="categories"><h2>Categories</h2><'
-         b'ul>\t<li class="cat-item cat-item-94"><a href="http://mobblog.cs.'
-         b'ucl.ac.uk/category/api/" title="View all posts filed under api">api<'
-         b'/a> (1)\n</li>\n\t<li class="cat-item cat-item-69"><a href="http://'
-         b'mobblog.cs.ucl.ac.uk/category/applications/" title="View all posts f'
-         b'iled under applications">applications</a> (2)\n</li>\n\t<li class="'
-         b'cat-item cat-item-47"><a href="http://mobblog.cs.ucl.ac.uk/category/'
-         b'award/" title="View all posts filed under award">award</a> (4)\n<'
-         b'/li>\n\t<li class="cat-item cat-item-84"><a href="http://mobblog.c'
-         b's.ucl.ac.uk/category/bad-science/" title="View all posts filed under'
-         b' bad-science">bad-science</a> (2)\n</li>\n\t<li class="cat-item cat'
-         b'-item-50"><a href="http://mobblog.cs.ucl.ac.uk/category/book/" title'
-         b'="View all posts filed under book">book</a> (2)\n</li>\n\t<li class'
-         b'="cat-item cat-item-29"><a href="http://mobblog.cs.ucl.ac.uk/categor'
-         b'y/bootstrapping/" title="View all posts filed under bootstrapping">b'
-         b'ootstrapping</a> (4)\n</li>\n\t<li class="cat-item cat-item-91"><a '
-         b'href="http://mobblog.cs.ucl.ac.uk/category/business-model/" title="V'
-         b'iew all posts filed under business-model">business-model</a> (1)'
-         b'\n</li>\n\t<li class="cat-item cat-item-99"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/censorship/" title="View all posts filed unde'
-         b'r censorship">censorship</a> (2)\n</li>\n\t<li class="cat-item cat-'
-         b'item-6"><a href="http://mobblog.cs.ucl.ac.uk/category/conference/" t'
-         b'itle="View all posts filed under conference">conference</a> (58)'
-         b'\n</li>\n\t<li class="cat-item cat-item-54"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/context/" title="View all posts filed under c'
-         b'ontext">context</a> (5)\n</li>\n\t<li class="cat-item cat-item-3"><'
-         b'a href="http://mobblog.cs.ucl.ac.uk/category/cooperation/" title="Vi'
-         b'ew all posts filed under cooperation">cooperation</a> (23)\n</li>'
-         b'\n\t<li class="cat-item cat-item-44"><a href="http://mobblog.cs.uc'
-         b'l.ac.uk/category/copyright/" title="View all posts filed under copyr'
-         b'ight">copyright</a> (1)\n</li>\n\t<li class="cat-item cat-item-93">'
-         b'<a href="http://mobblog.cs.ucl.ac.uk/category/course/" title="View a'
-         b'll posts filed under course">course</a> (1)\n</li>\n\t<li class="ca'
-         b't-item cat-item-89"><a href="http://mobblog.cs.ucl.ac.uk/category/cr'
-         b'owdsourcing/" title="View all posts filed under crowdsourcing">crowd'
-         b'sourcing</a> (8)\n</li>\n\t<li class="cat-item cat-item-30"><a href'
-         b'="http://mobblog.cs.ucl.ac.uk/category/dataset/" title="View all pos'
-         b'ts filed under dataset">dataset</a> (24)\n</li>\n\t<li class="cat-i'
-         b'tem cat-item-33"><a href="http://mobblog.cs.ucl.ac.uk/category/devel'
-         b'oping/" title="View all posts filed under developing">developing</a>'
-         b' (9)\n</li>\n\t<li class="cat-item cat-item-92"><a href="http://mob'
-         b'blog.cs.ucl.ac.uk/category/development/" title="View all posts filed'
-         b' under development">development</a> (2)\n</li>\n\t<li class="cat-it'
-         b'em cat-item-83"><a href="http://mobblog.cs.ucl.ac.uk/category/dunbar'
-         b'-number/" title="View all posts filed under dunbar-number">dunbar-nu'
-         b'mber</a> (2)\n</li>\n\t<li class="cat-item cat-item-76"><a href="ht'
-         b'tp://mobblog.cs.ucl.ac.uk/category/econometrics/" title="View all po'
-         b'sts filed under econometrics">econometrics</a> (1)\n</li>\n\t<li cl'
-         b'ass="cat-item cat-item-34"><a href="http://mobblog.cs.ucl.ac.uk/cate'
-         b'gory/education/" title="View all posts filed under education">educat'
-         b'ion</a> (11)\n</li>\n\t<li class="cat-item cat-item-31"><a href="ht'
-         b'tp://mobblog.cs.ucl.ac.uk/category/emergency/" title="View all posts'
-         b' filed under emergency">emergency</a> (4)\n</li>\n\t<li class="cat-'
-         b'item cat-item-57"><a href="http://mobblog.cs.ucl.ac.uk/category/eval'
-         b'uation/" title="View all posts filed under evaluation">evaluation</a'
-         b'> (14)\n</li>\n\t<li class="cat-item cat-item-46"><a href="http://m'
-         b'obblog.cs.ucl.ac.uk/category/event/" title="View all posts filed und'
-         b'er event">event</a> (41)\n</li>\n\t<li class="cat-item cat-item-81"'
-         b'><a href="http://mobblog.cs.ucl.ac.uk/category/failure/" title="View'
-         b' all posts filed under failure">failure</a> (6)\n</li>\n\t<li class'
-         b'="cat-item cat-item-52"><a href="http://mobblog.cs.ucl.ac.uk/categor'
-         b'y/free/" title="View all posts filed under free">free</a> (7)\n</'
-         b'li>\n\t<li class="cat-item cat-item-65"><a href="http://mobblog.cs'
-         b'.ucl.ac.uk/category/future/" title="View all posts filed under futur'
-         b'e">future</a> (7)\n</li>\n\t<li class="cat-item cat-item-96"><a hre'
-         b'f="http://mobblog.cs.ucl.ac.uk/category/geo-research/" title="View a'
-         b'll posts filed under geo-research">geo-research</a> (2)\n</li>\n\t<'
-         b'li class="cat-item cat-item-97"><a href="http://mobblog.cs.ucl.ac.uk'
-         b'/category/geography/" title="View all posts filed under geography">g'
-         b'eography</a> (3)\n</li>\n\t<li class="cat-item cat-item-80"><a href'
-         b'="http://mobblog.cs.ucl.ac.uk/category/group/" title="View all posts'
-         b' filed under group">group</a> (3)\n</li>\n\t<li class="cat-item cat'
-         b'-item-62"><a href="http://mobblog.cs.ucl.ac.uk/category/homophily/" '
-         b'title="View all posts filed under homophily">homophily</a> (5)\n<'
-         b'/li>\n\t<li class="cat-item cat-item-87"><a href="http://mobblog.c'
-         b's.ucl.ac.uk/category/how-to/" title="View all posts filed under how-'
-         b'to">how-to</a> (1)\n</li>\n\t<li class="cat-item cat-item-19"><a hr'
-         b'ef="http://mobblog.cs.ucl.ac.uk/category/identity/" title="View all '
-         b'posts filed under identity">identity</a> (5)\n</li>\n\t<li class="c'
-         b'at-item cat-item-13"><a href="http://mobblog.cs.ucl.ac.uk/category/i'
-         b'ndustry/" title="View all posts filed under industry">industry</a> ('
-         b'54)\n</li>\n\t<li class="cat-item cat-item-56"><a href="http://mobb'
-         b'log.cs.ucl.ac.uk/category/info-overload/" title="View all posts file'
-         b'd under info-overload">info-overload</a> (8)\n</li>\n\t<li class="c'
-         b'at-item cat-item-88"><a href="http://mobblog.cs.ucl.ac.uk/category/i'
-         b'nformal-networks/" title="View all posts filed under informal-networ'
-         b'ks">informal-networks</a> (4)\n</li>\n\t<li class="cat-item cat-ite'
-         b'm-51"><a href="http://mobblog.cs.ucl.ac.uk/category/innovation/" tit'
-         b'le="View all posts filed under innovation">innovation</a> (2)\n</'
-         b'li>\n\t<li class="cat-item cat-item-79"><a href="http://mobblog.cs'
-         b'.ucl.ac.uk/category/lbs/" title="View all posts filed under LBS">LBS'
-         b'</a> (6)\n</li>\n\t<li class="cat-item cat-item-12"><a href="http:/'
-         b'/mobblog.cs.ucl.ac.uk/category/legal/" title="View all posts filed u'
-         b'nder legal">legal</a> (4)\n</li>\n\t<li class="cat-item cat-item-22'
-         b'"><a href="http://mobblog.cs.ucl.ac.uk/category/meeting/" title="Vie'
-         b'w all posts filed under meeting">meeting</a> (7)\n</li>\n\t<li clas'
-         b's="cat-item cat-item-77"><a href="http://mobblog.cs.ucl.ac.uk/catego'
-         b'ry/methodology/" title="View all posts filed under methodology">meth'
-         b'odology</a> (2)\n</li>\n\t<li class="cat-item cat-item-5"><a href="'
-         b'http://mobblog.cs.ucl.ac.uk/category/mobile/" title="View all posts '
-         b'filed under mobile">mobile</a> (85)\n</li>\n\t<li class="cat-item c'
-         b'at-item-86"><a href="http://mobblog.cs.ucl.ac.uk/category/ontology/"'
-         b' title="View all posts filed under ontology">ontology</a> (1)\n</'
-         b'li>\n\t<li class="cat-item cat-item-78"><a href="http://mobblog.cs'
-         b'.ucl.ac.uk/category/open/" title="View all posts filed under open">o'
-         b'pen</a> (3)\n</li>\n\t<li class="cat-item cat-item-48"><a href="htt'
-         b'p://mobblog.cs.ucl.ac.uk/category/openings/" title="View all posts f'
-         b'iled under openings">openings</a> (3)\n</li>\n\t<li class="cat-item'
-         b' cat-item-27"><a href="http://mobblog.cs.ucl.ac.uk/category/p2p/" ti'
-         b'tle="View all posts filed under p2p">p2p</a> (3)\n</li>\n\t<li clas'
-         b's="cat-item cat-item-11"><a href="http://mobblog.cs.ucl.ac.uk/catego'
-         b'ry/paper/" title="View all posts filed under paper">paper</a> (4'
-         b'2)\n</li>\n\t<li class="cat-item cat-item-98"><a href="http://mobbl'
-         b'og.cs.ucl.ac.uk/category/phycology/" title="View all posts filed und'
-         b'er Phycology">Phycology</a> (2)\n</li>\n\t<li class="cat-item cat-i'
-         b'tem-35"><a href="http://mobblog.cs.ucl.ac.uk/category/post-as-you-go'
-         b'/" title="View all posts filed under post-as-you-go">post-as-you-go<'
-         b'/a> (1)\n</li>\n\t<li class="cat-item cat-item-10"><a href="http://'
-         b'mobblog.cs.ucl.ac.uk/category/prediction/" title="View all posts fil'
-         b'ed under prediction">prediction</a> (10)\n</li>\n\t<li class="cat-i'
-         b'tem cat-item-14"><a href="http://mobblog.cs.ucl.ac.uk/category/priva'
-         b'cy/" title="View all posts filed under privacy">privacy</a> (20)'
-         b'\n</li>\n\t<li class="cat-item cat-item-60"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/project/" title="View all posts filed under p'
-         b'roject">project</a> (11)\n</li>\n\t<li class="cat-item cat-item-37"'
-         b'><a href="http://mobblog.cs.ucl.ac.uk/category/propagation/" title="'
-         b'View all posts filed under propagation">propagation</a> (3)\n</li'
-         b'>\n\t<li class="cat-item cat-item-7"><a href="http://mobblog.cs.uc'
-         b'l.ac.uk/category/recommendations/" title="View all posts filed under'
-         b' recommendations">recommendations</a> (18)\n</li>\n\t<li class="cat'
-         b'-item cat-item-25"><a href="http://mobblog.cs.ucl.ac.uk/category/rec'
-         b'ommender-systems/" title="View all posts filed under recommender sys'
-         b'tems">recommender systems</a> (52)\n</li>\n\t<li class="cat-item ca'
-         b't-item-18"><a href="http://mobblog.cs.ucl.ac.uk/category/reputation/'
-         b'" title="View all posts filed under reputation">reputation</a> ('
-         b'17)\n</li>\n\t<li class="cat-item cat-item-8"><a href="http://mobbl'
-         b'og.cs.ucl.ac.uk/category/research/" title="View all posts filed unde'
-         b'r research">research</a> (176)\n</li>\n\t<li class="cat-item cat-it'
-         b'em-16"><a href="http://mobblog.cs.ucl.ac.uk/category/rfid/" title="V'
-         b'iew all posts filed under rfid">rfid</a> (4)\n</li>\n\t<li class="c'
-         b'at-item cat-item-32"><a href="http://mobblog.cs.ucl.ac.uk/category/s'
-         b'earch/" title="View all posts filed under search">search</a> (6)'
-         b'\n</li>\n\t<li class="cat-item cat-item-23"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/security/" title="View all posts filed under '
-         b'security">security</a> (16)\n</li>\n\t<li class="cat-item cat-item-'
-         b'9"><a href="http://mobblog.cs.ucl.ac.uk/category/sensor/" title="Vie'
-         b'w all posts filed under sensor">sensor</a> (12)\n</li>\n\t<li class'
-         b'="cat-item cat-item-4"><a href="http://mobblog.cs.ucl.ac.uk/category'
-         b'/sharing/" title="View all posts filed under sharing">sharing</a> (2'
-         b'1)\n</li>\n\t<li class="cat-item cat-item-55"><a href="http://mobbl'
-         b'og.cs.ucl.ac.uk/category/social/" title="View all posts filed under '
-         b'social">social</a> (7)\n</li>\n\t<li class="cat-item cat-item-2"><a'
-         b' href="http://mobblog.cs.ucl.ac.uk/category/social-networks/" title='
-         b'"View all posts filed under social networks">social networks</a> (92'
-         b')\n</li>\n\t<li class="cat-item cat-item-24"><a href="http://mobblo'
-         b'g.cs.ucl.ac.uk/category/sociology/" title="View all posts filed unde'
-         b'r sociology">sociology</a> (13)\n</li>\n\t<li class="cat-item cat-i'
-         b'tem-40"><a href="http://mobblog.cs.ucl.ac.uk/category/spam/" title="'
-         b'View all posts filed under spam">spam</a> (4)\n</li>\n\t<li class="'
-         b'cat-item cat-item-53"><a href="http://mobblog.cs.ucl.ac.uk/category/'
-         b'swarming/" title="View all posts filed under swarming">swarming</a> '
-         b'(2)\n</li>\n\t<li class="cat-item cat-item-82"><a href="http://mobb'
-         b'log.cs.ucl.ac.uk/category/sybil-attacks/" title="View all posts file'
-         b'd under sybil-attacks">sybil-attacks</a> (1)\n</li>\n\t<li class="c'
-         b'at-item cat-item-28"><a href="http://mobblog.cs.ucl.ac.uk/category/t'
-         b'ags/" title="View all posts filed under tags">tags</a> (13)\n</li'
-         b'>\n\t<li class="cat-item cat-item-17"><a href="http://mobblog.cs.u'
-         b'cl.ac.uk/category/talk/" title="View all posts filed under talk">tal'
-         b'k</a> (18)\n</li>\n\t<li class="cat-item cat-item-85"><a href="http'
-         b'://mobblog.cs.ucl.ac.uk/category/taxonomy/" title="View all posts fi'
-         b'led under taxonomy">taxonomy</a> (3)\n</li>\n\t<li class="cat-item '
-         b'cat-item-103"><a href="http://mobblog.cs.ucl.ac.uk/category/transpor'
-         b'tation/" title="View all posts filed under transportation">transport'
-         b'ation</a> (1)\n</li>\n\t<li class="cat-item cat-item-36"><a href="h'
-         b'ttp://mobblog.cs.ucl.ac.uk/category/trust/" title="View all posts fi'
-         b'led under trust">trust</a> (30)\n</li>\n\t<li class="cat-item cat-i'
-         b'tem-90"><a href="http://mobblog.cs.ucl.ac.uk/category/twitter/" titl'
-         b'e="View all posts filed under twitter">twitter</a> (2)\n</li>\n\t<l'
-         b'i class="cat-item cat-item-49"><a href="http://mobblog.cs.ucl.ac.uk/'
-         b'category/ubicomp/" title="View all posts filed under ubicomp">ubicom'
-         b'p</a> (14)\n</li>\n\t<li class="cat-item cat-item-64"><a href="http'
-         b'://mobblog.cs.ucl.ac.uk/category/ubicomp2008/" title="View all posts'
-         b' filed under ubicomp2008">ubicomp2008</a> (3)\n</li>\n\t<li class="'
-         b'cat-item cat-item-95"><a href="http://mobblog.cs.ucl.ac.uk/category/'
-         b'ucl/" title="View all posts filed under ucl">ucl</a> (1)\n</li>\n\t'
-         b'<li class="cat-item cat-item-15"><a href="http://mobblog.cs.ucl.ac.u'
-         b'k/category/vehicular/" title="View all posts filed under vehicular">'
-         b'vehicular</a> (13)\n</li>\n\t<li class="cat-item cat-item-26"><a hr'
-         b'ef="http://mobblog.cs.ucl.ac.uk/category/web-20/" title="View all po'
-         b'sts filed under web 2.0">web 2.0</a> (32)\n</li>\n</ul></li>\t\t</ul'
-         b'>\n\t\t<ul>\n\t\t\t\n\t\t\t\t\t</ul>\n\t</div>\n\n\n\n<hr />\n<div i'
-         b'd="footer" role="contentinfo">\n<!-- If you\'d like to support Wor'
-         b'dPress, having the "powered by" link somewhere on your blog is the b'
-         b"est way; it's our only promotion or advertising. -->\n\t<p>\n\t\t"
-         b'MobBlog is proudly powered by <a href="http://wordpress.org/">WordPr'
-         b'ess</a>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entri'
-         b'es (RSS)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comments/feed/'
-         b'">Comments (RSS)</a>.\t\t<!-- 21 queries. 0.193 seconds. -->\n\t</p>'
-         b'\n</div>\n</div>\n\n<!-- Gorgeous design by Michael Heilemann - http'
-         b'://binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
- 'links': [2740,
-           3243,
-           3090,
-           3273,
+{'html': b' <!DOCTYPE html\n    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//'
+         b'EN"\n    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'
+         b'">\n<?xml version="1.0" encoding="utf-8"?>\n<html xmlns:og="http:/'
+         b'/ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">\n<hea'
+         b'd>\n\n<meta http-equiv="Content-Type" content="text/html; charset='
+         b'utf-8" />\n<!-- \n\tThis website is powered by TYPO3 - inspiring pe'
+         b'ople to share!\n\tTYPO3 is a free open source Content Management F'
+         b'ramework initially created by Kasper Skaarhoj and licensed under GNU'
+         b'/GPL.\n\tTYPO3 is copyright 1998-2016 of Kasper Skaarhoj. Extensio'
+         b'ns are copyright of their respective owners.\n\tInformation and co'
+         b'ntribution at http://typo3.org/\n-->\n\n<base href="http://www.cs.u'
+         b'cl.ac.uk/" />\n<link rel="shortcut icon" href="/fileadmin/UCL-CS/'
+         b'favicon.ico" type="image/x-icon; charset=binary" />\n<link rel="i'
+         b'con" href="/fileadmin/UCL-CS/favicon.ico" type="image/x-icon; charse'
+         b't=binary" />\n\n<meta name="generator" content="TYPO3 CMS" />\n<met'
+         b'a name="keywords" content="University, College, London, Computer Sci'
+         b'ence" />\n<meta name="charset" content="utf-8" />\n<meta name="vie'
+         b'wport" content="width=device-width, initial-scale=1.0, maximum-scale'
+         b'=1.0, user-scalable=1" />\n\n\n<link rel="stylesheet" type="text/cs'
+         b's" href="typo3temp/stylesheet_1b55705c43.css?1447625404" media="all"'
+         b' />\n<link rel="stylesheet" type="text/css" href="fileadmin/UCL-C'
+         b'S/css/csCommon.css?1485355348" media="all" />\n\n\n<script src="upl'
+         b'oads/tx_t3jquery/jquery-1.8.x-1.9.x-1.2.x.js?1383917144" type="text/'
+         b'javascript"></script>\n<script src="fileadmin/UCL-CS/js/googleAna'
+         b'lytics.js?1340190657" type="text/javascript"></script>\n<script s'
+         b'rc="fileadmin/UCL-CS/js/jqueryImageSlider2.js?1391601155" type="text'
+         b'/javascript"></script>\n<script src="fileadmin/UCL-CS/js/start.fa'
+         b'der.js?1413468507" type="text/javascript"></script>\n<script src='
+         b'"fileadmin/UCL-CS/js/jquery.bxslider.js?1391781521" type="text/javas'
+         b'cript"></script>\n<script src="fileadmin/UCL-CS/js/toggleRegion.j'
+         b's?1389953286" type="text/javascript"></script>\n<script src="file'
+         b'admin/UCL-CS/js/responsiveTable.js?1400860175" type="text/javascript'
+         b'"></script>\n\n\n<script type="text/javascript">\r\n\r\n  var _gaq '
+         b"= _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-26113673-1']);\r\n "
+         b" _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var "
+         b"ga = document.createElement('script'); ga.type = 'text/javascript'; "
+         b"ga.async = true;\r\n    ga.src = ('https:' == document.location.pr"
+         b"otocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.j"
+         b"s';\r\n    var s = document.getElementsByTagName('script')[0]; s.p"
+         b'arentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n\t</script>\r\n\t'
+         b'<script type="text/javascript">\r\n\t$(document).ready(function(){\r'
+         b'\n\t  $("#menuButton").click(function(){\r\n \t\t \tvar region = $('
+         b'"#sectionMenu");\r\n  \t\tvar button = $(this);\r\n    \ttoggleRegi'
+         b'on(button, region, "<p>Sections</p>", "<p>Hide</p>");\r\n  \t})'
+         b';\r\n\t});\r\n\t$(document).ready(function(){\r\n\t  $("#subMenuB'
+         b'utton").click(function(){\r\n \t\t \tvar region = $("#subMenu");\r'
+         b'\n  \t\tvar button = $(this);\r\n    \ttoggleRegion(button, region'
+         b', "<p>More ...</p>", "<p>Hide</p>");\r\n  \t});\r\n\t});\r\n\t$(d'
+         b'ocument).ready(function () {\r\n    setUpResponsiveTable("greytabl'
+         b'e");\r\n  });\t\r\n  </script>\r\n\r\n\t<link rel="stylesheet" typ'
+         b'e="text/css" href="fileadmin/UCL-CS/css/csMobile.css" media="all" />'
+         b'\n</head>\n<body>\n                   \r\n    <div id="everything'
+         b'" class="page_layout">                  \r\n    <!-- Div for banne'
+         b'r -->                   \r\n    <div id="header" class="page_layou'
+         b't">\r\n      <div id="department">\r\n        <p>COMPUTER SCIENCE DE'
+         b'PARTMENT</p>\r\n      </div>\r\n      <div id="logo">\r\n       <a'
+         b' href="http://www.ucl.ac.uk">\r\n\t\t\t   <img src="/fileadmin/UC'
+         b'L-CS/web_assets/ucl_logo/ucl_logo_whitebg.png">\r\n\t\t\t </a>\r\n\t'
+         b'\t\t</div>\r\n\t\t\t<!-- Start of desktop button Div -->           '
+         b'      \r\n    \t<div id="useDesktop">   \r\n\t\t\t\t<a href="teac'
+         b'hing_learning/syllabus_index_2015_2016/ug/"><div id="desktopButton">'
+         b'<img src="fileadmin/UCL-CS/web_assets/other_images/desktop.gif" widt'
+         b'h="100" height="79"   alt="Click for desktop version" title="Click f'
+         b'or desktop version"  border="0" /></div></a>   \r\n    \t</div>'
+         b'\r\n\t\t\t<!-- End of desktop button Div -->                 '
+         b'\r\n\t\t\t<!-- Div for section menu button -->\r\n\t\t\t<div id="m'
+         b'enuButton" class="menu_button">\r\n\t\t\t\t<p>Sections<p>\r\n\t\t\t'
+         b'</div>\r\n\t\t\t<!-- End of div for section menu button -->\r\n    '
+         b'</div>      \r\n    <!-- End of div for banner -->                '
+         b'   \r\n\t\t<!-- Div for section menu -->\r\n\t\t<div id="sectionMenu'
+         b'" class="section_menu">\r\n\t\t\n\t<!--  CONTENT ELEMENT, uid:2221'
+         b'5/image [begin] -->\n\t\t<div id="c22215" class="csc-default">\n'
+         b'\t\t<!--  Image block: [begin] -->\n\t\t\t<div class="maxImageWidt'
+         b'h739 csc-textpic csc-textpic-center csc-textpic-above  multiCol4 "><'
+         b'div class="csc-textpic-imagewrap"><div class="csc-textpic-image mobi'
+         b'le"><a href="http://www.facebook.com/pages/University-College-London'
+         b'-Computer-Science/132472916819198" target="_top"><img src="fileadmin'
+         b'/_processed_/csm_facebook_03_abcb9ce831.png" width="30" height="30" '
+         b'alt="" border="0" /></a></div><div class="csc-textpic-image mobile">'
+         b'<a href="http://www.linkedin.com/groups?gid=4046543&amp;trk=myg_ugrp'
+         b'_ovr" target="_top"><img src="fileadmin/_processed_/csm_linkedin_03_'
+         b'594f31f8f8.png" width="30" height="30" alt="" border="0" /></a></div'
+         b'><div class="csc-textpic-image mobile"><a href="https://twitter.com/'
+         b'#!/uclcs" target="_top"><img src="fileadmin/_processed_/csm_twitter_'
+         b'03_7b70ce3c25.png" width="30" height="30" alt="" border="0" /></a></'
+         b'div><div class="csc-textpic-image mobile"><a href="http://www.youtub'
+         b'e.com/user/UCLComputerScience/videos" target="_top"><img src="filead'
+         b'min/_processed_/csm_youtube_04_f373d25c5f.png" width="30" height="30'
+         b'" alt="" border="0" /></a></div></div></div><div class="csc-textpic-'
+         b'clear"><!-- --></div>\n\t\t<!--  Image block: [end] -->\n\t\t\t</di'
+         b'v>\n\t<!--  CONTENT ELEMENT, uid:22215/image [end] -->\n\t\t\n\t<!-'
+         b'-  CONTENT ELEMENT, uid:22223/menu [begin] -->\n\t\t<div id="c22223'
+         b'" class="csc-default">\n\t\t<!--  Menu/Sitemap element: [begin] -->'
+         b'\n\t\t\t<ul class="csc-menu csc-menu-def"><li><a href="mobile/news/"'
+         b' title="Computer Science News">News</a></li><li><a href="mobile/even'
+         b'ts/" title="Events Listing">Events Listing</a></li><li><a href="mobi'
+         b'le/intranet/" title="Staff Intranet">Staff Intranet</a></li></ul'
+         b'>\n\t\t<!--  Menu/Sitemap element: [end] -->\n\t\t\t</div>\n\t<!-'
+         b'-  CONTENT ELEMENT, uid:22223/menu [end] -->\n\t\t\n\t<!--  CONTE'
+         b'NT ELEMENT, uid:22224/shortcut [begin] -->\n\t\t<div id="c22224" cl'
+         b'ass="csc-default csc-space-before-5 csc-space-after-5">\n\t\t<!--  '
+         b'Inclusion of other records (by reference): [begin] -->\n\t\t\t\n\t'
+         b'<!--  CONTENT ELEMENT, uid:19061/menu [begin] -->\n\t\t<div id="c19'
+         b'061" class="csc-default">\n\t\t<!--  Menu/Sitemap element: [begin] '
+         b'-->\n\t\t\t<ul class="csc-menu csc-menu-def"><li><a href="mobile/hom'
+         b'e/" title="Home">Home</a></li><li><a href="mobile/prospective_studen'
+         b'ts/" title="Prospective Students">Prospective Students</a></li><li><'
+         b'a href="mobile/research/" title="Research">Research</a></li><li><a h'
+         b'ref="mobile/industry_outreach/" title="Industry &amp; Outreach">Indu'
+         b'stry &amp; Outreach</a></li><li><a href="mobile/careers/" title="Car'
+         b'eers">Careers</a></li><li><a href="mobile/current_students/" title="'
+         b'Current Students">Current Students</a></li><li><a href="mobile/peopl'
+         b'e/?no_cache=1" title="People">People</a></li><li><a href="mobile/abo'
+         b'ut_us/" title="About Us">About Us</a></li><li><a href="mobile/wics/h'
+         b'ome/" title="Women in Computer Science">Women in Computer Science</a'
+         b'></li><li><a href="mobile/intranet/" title="Staff Intranet">Staff In'
+         b'tranet</a></li></ul>\n\t\t<!--  Menu/Sitemap element: [end] -->'
+         b'\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:19061/menu [end] -->\n'
+         b'\t\t\n\t\t<!--  Inclusion of other records (by reference): [end] '
+         b'-->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:22224/shortcut [en'
+         b'd] -->\n\t\t   \r\n\t\t</div>\r\n\t\t<!-- End of div for section me'
+         b'nu -->\r\n    <!-- Div for section header -->                   \r\n'
+         b'    <div id="sectionHeader" class="page_layout">  \r\n    \t<!-- Di'
+         b'v for section title -->                   \r\n      <div id="secti'
+         b'onTitle">\r\n\t\t<div class="section_title">Teaching & Learning</div'
+         b'>   \r\n\t\t\t</div>\r\n    \t<!-- End of div for section title --> '
+         b'                  \r\n\t\t<div class="clearblock"></div>\r\n    </'
+         b'div>      \r\n    <!-- End of div for section header -->  \r\n\t\t'
+         b'<!-- Start of main Div -->                 \r\n    <div id="mainTe'
+         b'xt" class="page_layout">   \r\n\t\t\t  \t                         '
+         b'                                         \t\t\t\t\t\t\t\t\t\r\n'
+         b'\t\t\t<h1>Undergraduate Syllabus Index 2015-2016</h1><p><strong><sp'
+         b'an class= "brighttext">This database contains 2015-16 versions of th'
+         b'e syllabuses.</span></strong> For current versions please see&nbsp;<'
+         b'a href="mobile/teaching_learning/syllabus/">here</a>.</p><div class='
+         b'"syllabus_page">\n\t<!--  CONTENT ELEMENT, uid:27113/text [begin] '
+         b'-->\n\t\t<div id="c27113" class="csc-default">\n\t\t<!--  Text: [b'
+         b'egin] -->\n\t\t\t<p>1. To pass a computer science undergraduate modu'
+         b'le at First, Intermediate or Advanced Level (i.e. modules for 1st, 2'
+         b'nd and 3rd year students), you must:</p><ul><li>Obtain an overall pa'
+         b'ss mark of 40% for all components combined;</li><li>Obtain a minimum'
+         b' mark of 30% in each component worth &#8805; 30% of the module as a '
+         b'whole.</li></ul><p>2. To pass a computer science undergraduate modul'
+         b"e at Master's Level (i.e. modules for 4th year students), you must:<"
+         b'/p><ul><li>Obtain an overall pass mark of 50% for all components com'
+         b'bined;</li><li>Obtain a minimum mark of 40% in each component worth '
+         b"&#8805; 30% of the module as a whole.</li></ul><p>3. Be 'complete' f"
+         b'or the coursework component (if there is one). For computer science '
+         b'modules, this means that you must have completed at least 35% of the'
+         b' coursework. Other departments might require a higher percentage, so'
+         b' please check with the departments concerned.</p>\n\t\t<!--  Text: '
+         b'[end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:27113/text ['
+         b'end] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:27112/menu [begin] -'
+         b'->\n\t\t<div id="c27112" class="csc-default">\n\t\t<!--  Menu/Site'
+         b'map element: [begin] -->\n\t\t\t<ul class="csc-menu csc-menu-1"><li>'
+         b'<a href="mobile/teaching_learning/syllabus_index_2015_2016/undergrad'
+         b'/101p_principles_of_programming/" title="COMP101P - Principles of Pr'
+         b'ogramming">101P - Principles of Programming</a></li><li><a href="mob'
+         b'ile/teaching_learning/syllabus_index_2015_2016/undergrad/102p_theory'
+         b'_i/" title="COMP102P - Theory I">102P - Theory I</a></li><li><a href'
+         b'="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/103p_o'
+         b'bject_oriented_programming/" title="COMP103P- Object-Oriented Progra'
+         b'mming">103P - Object-Oriented Programming</a></li><li><a href="mobil'
+         b'e/teaching_learning/syllabus_index_2015_2016/undergrad/104p_theory_i'
+         b'i/" title="COMP104P - Theory II">104P - Theory II</a></li><li><a hre'
+         b'f="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/105p_'
+         b'robotics_programming/" title="COMP105P- Robotics Programming">105P -'
+         b' Robotics Programming</a></li><li><a href="mobile/teaching_learning/'
+         b'syllabus_index_2015_2016/undergrad/201p_networking_and_concurrency/"'
+         b' title="COMP201P - Networking and Concurrency">201P - Networking and'
+         b' Concurrency</a></li><li><a href="mobile/teaching_learning/syllabus_'
+         b'index_2015_2016/undergrad/202p_logic_and_database_theory/" title="CO'
+         b'MP202P - Logic and Database Theory">202P - Logic and Database Theory'
+         b'</a></li><li><a href="mobile/teaching_learning/syllabus_index_2015_2'
+         b'016/undergrad/203p_software_engineering_and_human_computer_interacti'
+         b'on/" title="COMP203P - Software Engineering and Human Computer Inter'
+         b'action">203P - Software Engineering and Human Computer Interaction</'
+         b'a></li><li><a href="mobile/teaching_learning/syllabus_index_2015_201'
+         b'6/undergrad/204p_systems_engineering_project_1/" title="COMP204P - S'
+         b'ystems Engineering Project 1">204P - Systems Engineering Project 1</'
+         b'a></li><li><a href="mobile/teaching_learning/syllabus_index_2015_201'
+         b'6/undergrad/205p_systems_engineering_project_2/" title="COMP205P - S'
+         b'ystems Engineering Project 2">205P - Systems Engineering Project 2</'
+         b'a></li><li><a href="mobile/teaching_learning/syllabus_index_2015_201'
+         b'6/undergrad/206p_mathematics_and_statistics/" title="COMP206P - Math'
+         b'ematics and Statistics">206P - Mathematics and Statistics</a></li><l'
+         b'i><a href="mobile/teaching_learning/syllabus_index_2015_2016/undergr'
+         b'ad/207p_compilers/" title="COMP207P - Compilers">207P - Compilers</a'
+         b'></li><li><a href="mobile/teaching_learning/syllabus_index_2015_2016'
+         b'/undergrad/209p_cognitive_systems_and_intelligent_technologies/" tit'
+         b'le="COMP209P - Cognitive Systems and Intelligent Technologies">209P '
+         b'- Cognitive Systems and Intelligent Technologies</a></li><li><a href'
+         b'="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/210p_i'
+         b'ntroduction_to_programming/" title="COMP210P - Introduction to Progr'
+         b'amming">210P - Introduction to Programming</a></li><li><a href="mobi'
+         b'le/teaching_learning/syllabus_index_2015_2016/undergrad/2012_directe'
+         b'd_reading/" title="COMP2012 - Directed Reading">2012 - Directed Read'
+         b'ing</a></li><li><a href="mobile/teaching_learning/syllabus_index_201'
+         b'5_2016/undergrad/3001_technology_management_and_professional_issues/'
+         b'" title="COMP3001 - Technology Management and Professional Issues">3'
+         b'001 - Technology Management and Professional Issues</a></li><li><a h'
+         b'ref="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/300'
+         b'4_computational_complexity/" title="COMP3004 - Computational Complex'
+         b'ity">3004 - Computational Complexity</a></li><li><a href="mobile/tea'
+         b'ching_learning/syllabus_index_2015_2016/undergrad/3005_operating_sys'
+         b'tems/" title="COMP3005 - Operating Systems">3005 - Operating Systems'
+         b'</a></li><li><a href="mobile/teaching_learning/syllabus_index_2015_2'
+         b'016/undergrad/3011_functional_programming/" title="COMP3011 - Functi'
+         b'onal Programming">3011 - Functional Programming</a></li><li><a href='
+         b'"mobile/teaching_learning/syllabus_index_2015_2016/undergrad/3012_in'
+         b'teraction_design/" title="COMP3012 - Interaction Design">3012 - Inte'
+         b'raction Design</a></li><li><a href="mobile/teaching_learning/syllabu'
+         b's_index_2015_2016/undergrad/3013_database_and_information_management'
+         b'_systems/" title="COMP3013 - Database and Information Management Sys'
+         b'tems">3013 - Database and Information Management Systems</a></li><li'
+         b'><a href="mobile/teaching_learning/syllabus_index_2015_2016/undergra'
+         b'd/3035_networked_systems/" title="COMP3035 - Networked Systems">3035'
+         b' - Networked Systems</a></li><li><a href="mobile/teaching_learning/s'
+         b'yllabus_index_2015_2016/undergrad/3058_artificial_intelligence_and_n'
+         b'eural_computing/" title="COMP3058 - Artificial Intelligence and Neur'
+         b'al Computing">3058 - Artificial Intelligence and Neural Computing</a'
+         b'></li><li><a href="mobile/teaching_learning/syllabus_index_2015_2016'
+         b'/undergrad/3063_introduction_to_cryptography/" title="COMP3063 - Int'
+         b'roduction to Cryptography">3063 - Introduction to Cryptography</a></'
+         b'li><li><a href="mobile/teaching_learning/syllabus_index_2015_2016/un'
+         b'dergrad/3072_image_processing/" title="COMP3072 - Image Processing">'
+         b'3072 - Image Processing</a></li><li><a href="mobile/teaching_learnin'
+         b'g/syllabus_index_2015_2016/undergrad/3080_computer_graphics/" title='
+         b'"COMP3080 - Computer Graphics">3080 - Computer Graphics</a></li><li>'
+         b'<a href="mobile/teaching_learning/syllabus_index_2015_2016/undergrad'
+         b'/3091_individual_project/" title="COMP3091 - Individual Project">309'
+         b'1 - Individual Project</a></li><li><a href="mobile/teaching_learning'
+         b'/syllabus_index_2015_2016/undergrad/3095_research_methods/" title="C'
+         b'OMP3095 - Research Methods">3095 - Research Methods</a></li><li><a h'
+         b'ref="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/309'
+         b'6_research_group_project/" title="COMP3096 - Research Group Project"'
+         b'>3096 - Research Group Project</a></li><li><a href="mobile/teaching_'
+         b'learning/syllabus_index_2015_2016/undergrad/3100_computer_science_st'
+         b'udy_abroad/" title="COMP3100 - Computer Science Study Abroad">3100 -'
+         b' Computer Science Study Abroad</a></li><li><a href="mobile/teaching_'
+         b'learning/syllabus_index_2015_2016/undergrad/6010_computer_music/" ti'
+         b'tle="COMP6010 - Computer Music">6010 - Computer Music</a></li><li><a'
+         b' href="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/7'
+         b'008_entrepreneurship_theory_practice/" title="COMP7008 - Entrepreneu'
+         b'rship: Theory &amp; Practice">7008 - Entrepreneurship: Theory &amp; '
+         b'Practice</a></li><li><a href="mobile/teaching_learning/syllabus_inde'
+         b'x_2015_2016/undergrad/m007_operational_risk_measurement_for_financia'
+         b'l_institutions/" title="COMPM007 - Operational Risk Measurement for '
+         b'Financial Institutions">M007 - Operational Risk Measurement for Fina'
+         b'ncial Institutions</a></li><li><a href="mobile/teaching_learning/syl'
+         b'labus_index_2015_2016/undergrad/m012_programming_mathematical_method'
+         b's_for_machine_learning/" title="COMPM012 - Programming &amp; Mathema'
+         b'tical Methods for Machine Learning">M012 - Programming &amp; Mathema'
+         b'tical Methods for Machine Learning</a></li><li><a href="mobile/teach'
+         b'ing_learning/syllabus_index_2015_2016/undergrad/m014_requirements_en'
+         b'gineering_and_software_architecture/" title="COMPM014 - Requirements'
+         b' Engineering and Software Architecture">M014 - Requirements Engineer'
+         b'ing and Software Architecture</a></li><li><a href="mobile/teaching_l'
+         b'earning/syllabus_index_2015_2016/undergrad/m022_software_abstraction'
+         b's_and_systems_integration/" title="COMPM022 - Software Abstractions '
+         b'and Systems Integration">M022 - Software Abstractions and Systems In'
+         b'tegration</a></li><li><a href="mobile/teaching_learning/syllabus_ind'
+         b'ex_2015_2016/undergrad/m023_validation_and_verification/" title="COM'
+         b'PM023 - Validation and Verification">M023 - Validation and Verificat'
+         b'ion</a></li><li><a href="mobile/teaching_learning/syllabus_index_201'
+         b'5_2016/undergrad/m024_tools_and_environments/" title="COMPM024 - Too'
+         b'ls and Environments">M024 - Tools and Environments</a></li><li><a hr'
+         b'ef="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/m026'
+         b'_financial_institutions_and_markets/" title="COMPM026 - Financial In'
+         b'stitutions and Markets">M026 - Financial Institutions and Markets</a'
+         b'></li><li><a href="mobile/teaching_learning/syllabus_index_2015_2016'
+         b'/undergrad/m027_financial_information_systems/" title="COMPM027 - Fi'
+         b'nancial Information Systems">M027 - Financial Information Systems</a'
+         b'></li><li><a href="mobile/teaching_learning/syllabus_index_2015_2016'
+         b'/undergrad/m028_language_based_security/" title="COMPM028 - Language'
+         b' Based Security">M028 - Language Based Security</a></li><li><a href='
+         b'"mobile/teaching_learning/syllabus_index_2015_2016/undergrad/m030_di'
+         b'stributed_systems_and_security/" title="COMPM030 - Distributed Syste'
+         b'ms and Security">M030 - Distributed Systems and Security</a></li><li'
+         b'><a href="mobile/teaching_learning/syllabus_index_2015_2016/undergra'
+         b'd/m034_multimedia_systems/" title="COMPM034 - Multimedia Systems">M0'
+         b'34 - Multimedia Systems</a></li><li><a href="mobile/teaching_learnin'
+         b'g/syllabus_index_2015_2016/undergrad/m038_mobile_and_cloud_computing'
+         b'/" title="COMPM038 - Mobile and Cloud Computing">M038 - Mobile and C'
+         b'loud Computing</a></li><li><a href="mobile/teaching_learning/syllabu'
+         b's_index_2015_2016/undergrad/m041_web_economics/" title="COMPM041 - W'
+         b'eb Economics">M041 - Web Economics</a></li><li><a href="mobile/teach'
+         b'ing_learning/syllabus_index_2015_2016/undergrad/m042_complex_network'
+         b's_and_web/" title="COMPM042 - Complex Networks and Web">M042 - Compl'
+         b'ex Networks and Web</a></li><li><a href="mobile/teaching_learning/sy'
+         b'llabus_index_2015_2016/undergrad/m050_advanced_topics_in_machine_lea'
+         b'rning/" title="COMPM050 - Advanced Topics in Machine Learning">M050 '
+         b'- Advanced Topics in Machine Learning</a></li><li><a href="mobile/te'
+         b'aching_learning/syllabus_index_2015_2016/undergrad/m052_information_'
+         b'retrieval_and_data_mining/" title="COMPM052 - Information Retrieval '
+         b'and Data Mining">M052 - Information Retrieval and Data Mining</a></l'
+         b'i><li><a href="mobile/teaching_learning/syllabus_index_2015_2016/und'
+         b'ergrad/m054_machine_vision/" title="COMPM054 - Machine Vision">M054 '
+         b'- Machine Vision</a></li><li><a href="mobile/teaching_learning/sylla'
+         b'bus_index_2015_2016/undergrad/m055_supervised_learning/" title="COMP'
+         b'M055 - Supervised Learning">M055 - Supervised Learning</a></li><li><'
+         b'a href="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/'
+         b'm056_graphical_models/" title="COMPM056 - Graphical Models">M056 - G'
+         b'raphical Models</a></li><li><a href="mobile/teaching_learning/syllab'
+         b'us_index_2015_2016/undergrad/m058_bioinformatics/" title="COMPM058 -'
+         b' Bioinformatics">M058 - Bioinformatics</a></li><li><a href="mobile/t'
+         b'eaching_learning/syllabus_index_2015_2016/undergrad/m061_people_and_'
+         b'security/" title="COMPM061 - People and Security">M061 - People and '
+         b'Security</a></li><li><a href="mobile/teaching_learning/syllabus_inde'
+         b'x_2015_2016/undergrad/m062_computer_security_i/" title="COMPM062 - C'
+         b'omputer Security I">M062 - Computer Security I</a></li><li><a href="'
+         b'mobile/teaching_learning/syllabus_index_2015_2016/undergrad/m063_int'
+         b'roduction_to_cryptography/" title="COMPM063 - Introduction to Crypto'
+         b'graphy">M063 - Introduction to Cryptography</a></li><li><a href="mob'
+         b'ile/teaching_learning/syllabus_index_2015_2016/undergrad/m064_applie'
+         b'd_cryptography/" title="COMPM064 - Applied Cryptography">M064 - Appl'
+         b'ied Cryptography</a></li><li><a href="mobile/teaching_learning/sylla'
+         b'bus_index_2015_2016/undergrad/m065_computer_security_2/" title="COMP'
+         b'M065 - Computer Security 2">M065 - Computer Security 2</a></li><li><'
+         b'a href="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/'
+         b'm066_malware/" title="COMPM066 - Malware">M066 - Malware</a></li><li'
+         b'><a href="mobile/teaching_learning/syllabus_index_2015_2016/undergra'
+         b'd/m067_privacy_enhancing_technologies/" title="COMPM067 - Privacy En'
+         b'hancing Technologies">M067 - Privacy Enhancing Technologies</a></li>'
+         b'<li><a href="mobile/teaching_learning/syllabus_index_2015_2016/under'
+         b'grad/m068_cryptanalysis/" title="COMPM068 - Cryptanalysis">M068 - Cr'
+         b'yptanalysis</a></li><li><a href="mobile/teaching_learning/syllabus_i'
+         b'ndex_2015_2016/undergrad/m072_mathematical_methods_algorithms_and_im'
+         b'plementations/" title="COMPM072 - Mathematical Methods Algorithms an'
+         b'd Implementations">M072 - Mathematical Methods Algorithms and Implem'
+         b'entations</a></li><li><a href="mobile/teaching_learning/syllabus_ind'
+         b'ex_2015_2016/undergrad/m076_virtual_environments/" title="COMPM076 -'
+         b' Virtual Environments">M076 - Virtual Environments</a></li><li><a hr'
+         b'ef="mobile/teaching_learning/syllabus_index_2015_2016/undergrad/m077'
+         b'_computational_modelling_for_biomedical_imaging/" title="COMPM077 - '
+         b'Computational Modelling for Biomedical Imaging">M077 - Computational'
+         b' Modelling for Biomedical Imaging</a></li><li><a href="mobile/teachi'
+         b'ng_learning/syllabus_index_2015_2016/undergrad/m078_inverse_problems'
+         b'_in_imaging/" title="COMPM078 - Inverse Problems in Imaging">M078 - '
+         b'Inverse Problems in Imaging</a></li><li><a href="mobile/teaching_lea'
+         b'rning/syllabus_index_2015_2016/undergrad/m080_acquisition_and_proces'
+         b'sing_of_3d_geometry/" title="COMPM080 - Acquisition and Processing o'
+         b'f 3D Geometry">M080 - Acquisition and Processing of 3D Geometry</a><'
+         b'/li><li><a href="mobile/teaching_learning/syllabus_index_2015_2016/u'
+         b'ndergrad/m081_geometry_of_images/" title="COMPM081 - Geometry of Ima'
+         b'ges">M081 - Geometry of Images</a></li><li><a href="mobile/teaching_'
+         b'learning/syllabus_index_2015_2016/undergrad/m082_affective_computing'
+         b'_and_human_robot_interaction/" title="COMPM082 - Affective Computing'
+         b' and Human-Robot Interaction">M082 - Affective Computing and Human-R'
+         b'obot Interaction</a></li><li><a href="mobile/teaching_learning/sylla'
+         b'bus_index_2015_2016/undergrad/m085_computational_photography_and_cap'
+         b'ture/" title="COMPM085 - Computational Photography and Capture">M085'
+         b' - Computational Photography and Capture</a></li><li><a href="mobile'
+         b'/teaching_learning/syllabus_index_2015_2016/undergrad/m090_applied_m'
+         b'achine_learning/" title="COMPM090 - Applied Machine Learning">M090 -'
+         b' Applied Machine Learning</a></li><li><a href="mobile/teaching_learn'
+         b'ing/syllabus_index_2015_2016/undergrad/m091_individual_project/" tit'
+         b'le="COMPM091 - Individual Project">M091 - Individual Project</a></li'
+         b'><li><a href="mobile/teaching_learning/syllabus_index_2015_2016/unde'
+         b'rgrad/engs101p_integrated_engineering/" title="ENGS101P - Integrated'
+         b' Engineering">ENGS101P - Integrated Engineering</a></li><li><a href='
+         b'"mobile/teaching_learning/syllabus_index_2015_2016/undergrad/engs102'
+         b'p_design_and_professional_skills/" title="ENGS102P - Design and Prof'
+         b'essional Skills">ENGS102P - Design and Professional Skills</a></li><'
+         b'/ul>\n\t\t<!--  Menu/Sitemap element: [end] -->\n\t\t\t</div>\n\t'
+         b'<!--  CONTENT ELEMENT, uid:27112/menu [end] -->\n\t\t</div>   \t    '
+         b'                                                    \t\t\t\t\t\t\t\t'
+         b'\t\r\n\t\t\t                                                      '
+         b'      \t\t\t\t\t\t\t\t\r\n    </div>    \r\n\t\t<!-- End of main D'
+         b'iv -->                 \r\n\t\t<!-- Start of footer Div -->         '
+         b'        \r\n    <div id="footer"> \r\n\t\t\t<div id="ownership"'
+         b'> \r\n\t\t\t\t<!-- ###RESPONSIBLE### begin -->   \r\n\t\t\t\t<!-- ##'
+         b'#RESPONSIBLE### end -->   \r\n\t\t\t\t<div id="copyright">\t  \t    '
+         b'                                                  \t\t\t\t\t\t'
+         b'\t\r\n\t\t\t\t\t&#169; 1999-2016 UCL                                '
+         b'        \t\t\t\t\t\t\t\r\n\t\t\t\t</div>\t\t\t\t\t\t\r\n\t    </di'
+         b'v>\r\n\t\t\t<div id="engfac">\t\t\t\t\t\t\t\r\n\t\t\t\t<a href="ht'
+         b'tp://www.engineering.ucl.ac.uk/">\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t<img'
+         b' src="fileadmin/UCL-CS/web_assets/other_images/ucle_logo_trans.png" '
+         b'id="ucl_eng_logo" alt="UCL Engineering Logo"/>\t\t\t\t\t\t\t</a'
+         b'>\t\t\t\t\t\t\r\n\t\t\t</div>\t\r\n\t\t\t<div class="clearblock">'
+         b'</div>\t\t\t\t\t\t    \r\n\t\t\t<div id="disclaimer">\t\r\n\t\t\t'
+         b'\t<div id="list1">                                            \t\t\t'
+         b'\t\t\t\t\r\n\t\t\t\t\t<ul>    \r\n\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t'
+         b'<a href="teaching_learning/syllabus_index_2015_2016/ug/">Desktop Sit'
+         b'e</a>                                        \t\t\t\t\t\t\t\t\t\r\n'
+         b'\t\t\t\t\t\t</li>              \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li'
+         b'>                                                     \t\t\t\t\t\t'
+         b'\t\t\r\n\t\t\t\t\t\t<a href="http://www.ucl.ac.uk/accessibility/" '
+         b'title="Accessibility" target="_top">Accessibility</a>               '
+         b'        \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>\t\t                 '
+         b'            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li>                    '
+         b'                                 \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a '
+         b'href="http://www.cs.ucl.ac.uk/help/?noMobile=0" title="Help" target='
+         b'"_top">Help</a>                      \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t'
+         b'\t</li>\t                                            \t\t\t\t\t'
+         b'\t\t\r\n\t\t\t\t\t</ul>    \r\n\t\t\t\t</div>      \r\n\t\t\t\t<d'
+         b'iv id="list2">   \r\n\t\t\t\t\t<ul>                   \t\t\t\t\t'
+         b'\t\t\t\r\n\t\t\t\t\t\t<li>                                         '
+         b'            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="http://www.ucl.'
+         b'ac.uk/disclaimer/" title="Disclaimer" target="_top">Disclaimer</a>  '
+         b'                   \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>            '
+         b'                     \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li>           '
+         b'                                          \t\t\t\t\t\t\t\t\r\n'
+         b'\t\t\t\t\t\t<a href="http://www.ucl.ac.uk/cookies/" title="Cookies'
+         b'" target="_top">Cookies</a>                      \t\t\t\t\t\t\t'
+         b'\t\r\n\t\t\t\t\t\t</li> \r\n\t\t\t\t\t\t<li>                     '
+         b'                                \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a h'
+         b'ref="http://www.ucl.ac.uk/priv/" title="Privacy" target="_top">Priva'
+         b'cy</a>                       \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>  '
+         b'                               \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\t'
+         b' \r\n\t\t\t\t</div>                                           '
+         b'\t\t\t\t\t\t\r\n\t\t\t</div>\t\r\n\t\t\t<div class="clearblock"><'
+         b'/div>\t\t\t\t\t\t     \t\t\t\t\t\t\r\n    </div>\r\n\t\t<!-- End o'
+         b'f footer Div -->\n\n\n\n\n</body>\n</html',
+ 'links': [3619,
+           47,
+           48,
+           49,
+           46,
+           50,
+           3,
+           51,
+           52,
+           53,
+           54,
+           55,
+           56,
            3274,
-           3275,
-           2889,
-           2892,
-           2901,
-           2771,
-           2772,
-           2773,
-           2774,
-           2775,
-           2776,
-           2777,
-           2778,
-           2779,
-           2780,
-           2781,
-           2782,
-           2783,
-           2784,
-           2785,
-           2786,
-           2787,
-           2788,
-           2789,
-           2790,
-           2791,
-           2792,
-           2793,
-           2794,
-           2795,
-           2796,
-           2797,
-           2798,
-           2799,
-           2800,
-           2801,
-           2802,
-           2803,
-           2804,
-           2805,
-           2806,
-           2807,
-           2808,
-           2809,
-           2810,
-           2811,
-           2812,
-           2813,
-           2814,
-           2815,
-           2816,
-           2817,
-           2818,
-           2819,
-           2820,
-           2821,
-           2822,
-           2823,
-           2824,
-           2825,
-           2826,
-           2827,
-           2828,
-           2829,
-           2830,
-           2831,
-           2832,
-           2833,
-           2834,
-           2835,
-           2836,
-           2837,
-           2838,
-           2839,
-           2840,
-           2841,
-           2842,
-           2843,
-           2844,
-           2845,
-           2846,
-           2847,
-           2848,
-           2849,
-           2850,
-           2851,
-           2852,
-           2853,
-           2854,
-           2766,
-           2855,
-           2856,
-           2857,
-           2858,
-           2859,
-           2860,
-           2861,
-           2862,
-           2863,
-           2864,
-           2865,
-           2866,
-           2867,
-           2868,
-           2869,
-           2870,
-           2871,
-           2872,
-           2873,
-           2874,
-           2875,
-           2876,
-           2877,
-           2878,
-           2879,
-           2880,
-           2881,
-           2882,
-           2883,
-           2884,
-           2885,
-           2886,
-           2887,
-           2888,
-           2890,
-           2891,
-           2893,
-           2894,
-           2754,
-           2895,
-           2896,
-           2897,
-           2898,
-           2899,
-           2900,
-           2902,
-           2903,
-           2904,
-           2905,
-           2906,
-           2907,
-           2908,
-           2909,
-           2910,
-           2911,
-           2912,
-           2913,
-           2914,
-           2915,
-           2916,
-           2917,
-           2918],
+           3620,
+           3621,
+           3622,
+           3623,
+           3624,
+           3625,
+           3626,
+           3627,
+           3628,
+           3629,
+           3630,
+           3631,
+           3632,
+           3633,
+           3634,
+           3635,
+           3636,
+           3637,
+           3638,
+           3639,
+           3640,
+           3641,
+           3642,
+           3643,
+           3644,
+           3645,
+           3646,
+           3647,
+           3648,
+           3649,
+           3650,
+           3651,
+           3652,
+           3653,
+           3654,
+           3655,
+           3656,
+           3657,
+           3658,
+           3659,
+           3660,
+           3661,
+           3662,
+           3663,
+           3664,
+           3665,
+           3666,
+           3667,
+           3668,
+           3669,
+           3670,
+           3671,
+           3672,
+           3673,
+           3674,
+           3675,
+           3676,
+           3677,
+           3678,
+           3679,
+           3680,
+           3681,
+           3682,
+           3683,
+           3684,
+           3685,
+           3686,
+           3687,
+           3688,
+           3689,
+           3690,
+           3691,
+           61],
  'pid': 3275,
- 'url': 'http://mobblog.cs.ucl.ac.uk/tag/spam/'}
+ 'url': 'http://www.cs.ucl.ac.uk/mobile/teaching_learning/syllabus_index_2015_2016/ug/'}

@@ -1,0 +1,20 @@
+{'html': b'\n<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">'
+         b'\n<html>\n  <head>\n    <title>3085/GV15 &ndash; Home</title>\n    <'
+         b'meta http-equiv="content-type" content="text/html;charset=iso-8859-1'
+         b'" />\n    <meta name="robots" content="noindex,nofollow,noarchive'
+         b'">\n    <link rel="stylesheet" href="style.css" type="text/css" /'
+         b'>\n    <script type="text/javascript" src="hiddenemail.js"></scri'
+         b'pt>\n  </head>\n\n  <body>\n    <!-- <h1>3085/GV15 &ndash; Home</h1>'
+         b' -->\n    <h1>Computational Photography and Capture</h1>\n    <h2>'
+         b'Home</h2>\n\n      Home      <p/>\n\r\n<table width="100%" cellpa'
+         b'dding=6 cellspacing=1 bgcolor="#a0a0b0" >\r\n<tr bgcolor="#e8f0e8"'
+         b'>\r\n<th align=left><font size=\\"+2\\">General Information</font></'
+         b'th>\r\n</tr>\r\n<tr bgcolor="#ffffff"> <td> \r\n<p>This class is n'
+         b"o longer hosted here. Please see UCL's Moodle pages instead.</p>"
+         b'\r\n</tr>\r\n</table>\r\n\r\n    <p/>\n    <address><script type='
+         b'"text/javascript">hiddenemail(\'cs.ucl.ac.uk\',\'t.weyrich\')</scrip'
+         b't>\n      <noscript>enable java script to see my email address</n'
+         b'oscript></address>\n  </body>\n</html>\n',
+ 'links': [],
+ 'pid': 2592,
+ 'url': 'http://web4.cs.ucl.ac.uk/teaching/3085/'}

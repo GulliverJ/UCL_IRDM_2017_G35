@@ -1,0 +1,227 @@
+{'html': b'<!DOCTYPE html>\n<!--[if IE 6]>\n<html id="ie6" dir="ltr" lang="en'
+         b'-US">\n<![endif]-->\n<!--[if IE 7]>\n<html id="ie7" dir="ltr" lang='
+         b'"en-US">\n<![endif]-->\n<!--[if IE 8]>\n<html id="ie8" dir="ltr" la'
+         b'ng="en-US">\n<![endif]-->\n<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]>'
+         b'<!-->\n<html dir="ltr" lang="en-US">\n<!--<![endif]-->\n<head>\n<met'
+         b'a charset="UTF-8" />\n<meta name="viewport" content="width=device'
+         b'-width" />\n<title>Teaching | Emmanuel Letier</title>\n<link rel="'
+         b'profile" href="http://gmpg.org/xfn/11" />\n<link rel="stylesheet"'
+         b' type="text/css" media="all" href="http://letier.cs.ucl.ac.uk/wp-con'
+         b'tent/themes/twentyeleven-child/style.css" />\n<link rel="pingback'
+         b'" href="http://letier.cs.ucl.ac.uk/xmlrpc.php" />\n<!--[if lt IE '
+         b'9]>\n<script src="http://letier.cs.ucl.ac.uk/wp-content/themes/tw'
+         b'entyeleven/js/html5.js" type="text/javascript"></script>\n<![endi'
+         b'f]-->\n<link rel="alternate" type="application/rss+xml" title="Em'
+         b'manuel Letier &raquo; Feed" href="http://letier.cs.ucl.ac.uk/feed/" '
+         b'/>\n<link rel="alternate" type="application/rss+xml" title="Emman'
+         b'uel Letier &raquo; Comments Feed" href="http://letier.cs.ucl.ac.uk/c'
+         b'omments/feed/" />\n<script type=\'text/javascript\' src=\'http://let'
+         b"ier.cs.ucl.ac.uk/wp-includes/js/comment-reply.js?ver=3.4'></scri"
+         b'pt>\n<link rel="EditURI" type="application/rsd+xml" title="RSD" h'
+         b'ref="http://letier.cs.ucl.ac.uk/xmlrpc.php?rsd" />\n<link rel="wl'
+         b'wmanifest" type="application/wlwmanifest+xml" href="http://letier.cs'
+         b'.ucl.ac.uk/wp-includes/wlwmanifest.xml" /> \n<link rel=\'prev\' tit'
+         b"le='Publications' href='http://letier.cs.ucl.ac.uk/publications/' />"
+         b"\n<link rel='next' title='Moda: Multi-Objective Decision Analysis"
+         b"' href='http://letier.cs.ucl.ac.uk/moda-multi-objective-decision-ana"
+         b'lysis/\' />\n<meta name="generator" content="WordPress 3.4" />\n<li'
+         b"nk rel='canonical' href='http://letier.cs.ucl.ac.uk/teaching/' /"
+         b">\n<link rel='shortlink' href='http://wp.me/P2g9LM-3S' />\n\t<style"
+         b' type="text/css">.recentcomments a{display:inline !important;padding'
+         b':0 !important;margin:0 !important;}</style>\n</head>\n\n<body class'
+         b'="page page-id-240 page-template page-template-sidebar-page-php sing'
+         b'le-author two-column right-sidebar">\n<div id="page" class="hfeed'
+         b'">\n\t<header id="branding" role="banner">\n\t\t\t<hgroup>\n\t\t\t'
+         b'\t<h1 id="site-title"><span><a href="http://letier.cs.ucl.ac.uk/"'
+         b' title="Emmanuel Letier" rel="home">Emmanuel Letier</a></span></'
+         b'h1>\n\t\t\t\t<h2 id="site-description">Requirements Engineering, '
+         b'Goal-Oriented Modelling, Formal Methods, Systems Thinking</h2>\n\t'
+         b'\t\t</hgroup>\n\n\t\t\t\n\t\t\t\t\t\t\t\t<form method="get" id="sear'
+         b'chform" action="http://letier.cs.ucl.ac.uk/">\n\t\t<label for="s" c'
+         b'lass="assistive-text">Search</label>\n\t\t<input type="text" class='
+         b'"field" name="s" id="s" placeholder="Search" />\n\t\t<input type="s'
+         b'ubmit" class="submit" name="submit" id="searchsubmit" value="Search"'
+         b' />\n\t</form>\n\t\t\t\n\t\t\t<nav id="access" role="navigation">\n'
+         b'\t\t\t\t<h3 class="assistive-text">Main menu</h3>\n\t\t\t\t\t\t'
+         b'\t\t<div class="skip-link"><a class="assistive-text" href="#conten'
+         b't" title="Skip to primary content">Skip to primary content</a></div>'
+         b'\n\t\t\t\t<div class="skip-link"><a class="assistive-text" href="'
+         b'#secondary" title="Skip to secondary content">Skip to secondary cont'
+         b'ent</a></div>\n\t\t\t\t\t\t\t\t<div class="menu-basic-menu-contai'
+         b'ner"><ul id="menu-basic-menu" class="menu"><li id="menu-item-439" cl'
+         b'ass="menu-item menu-item-type-post_type menu-item-object-page menu-i'
+         b'tem-439"><a href="http://letier.cs.ucl.ac.uk/">Home</a></li>\n<li'
+         b' id="menu-item-438" class="menu-item menu-item-type-post_type menu-i'
+         b'tem-object-page menu-item-438"><a href="http://letier.cs.ucl.ac.uk/p'
+         b'ublications/">Publications</a></li>\n<li id="menu-item-437" class'
+         b'="menu-item menu-item-type-post_type menu-item-object-page current-m'
+         b'enu-item page_item page-item-240 current_page_item menu-item-437"><a'
+         b' href="http://letier.cs.ucl.ac.uk/teaching/">Teaching</a></li>\n<'
+         b'li id="menu-item-440" class="menu-item menu-item-type-post_type menu'
+         b'-item-object-page menu-item-440"><a href="http://letier.cs.ucl.ac.uk'
+         b'/blog/">Blog</a></li>\n</ul></div>\t\t\t</nav><!-- #access -->\n\t'
+         b'</header><!-- #branding -->\n\n\n\t<div id="main">\n\n\t\t<div id="p'
+         b'rimary">\n\t\t\t<div id="content" role="main">\n\n\t\t\t\t\n\t\t\t'
+         b'\t\t\n<article id="post-240" class="post-240 page type-page status-'
+         b'publish hentry">\n\t<header class="entry-header">\n\t\t<h1 class='
+         b'"entry-title">Teaching</h1>\n\t</header><!-- .entry-header -->'
+         b'\n\n\t<div class="entry-content">\n\t\t<p>I currently teach the fo'
+         b'llowing modules:</p>\n<p><a href="http://www.cs.ucl.ac.uk/student'
+         b's/syllabus/mscsse/gs01_requirements_engineering_and_software_archite'
+         b'cture/">GS01/M014 Requirements Engineering and Software Architecture'
+         b'</a></p>\n<p><a href="http://www.cs.ucl.ac.uk/students/syllabus/m'
+         b'scsse/gs02_software_abstractions_and_systems_integration/">GS02/M022'
+         b' Software Abstractions and Systems Integration</a></p>\n<p>I supe'
+         b'rvise undergraduate and master projects in the same areas. Contact m'
+         b'e to discuss project ideas.</p>\n\t\t\t</div><!-- .entry-content -->'
+         b'\n\t<footer class="entry-meta">\n\t\t\t</footer><!-- .entry-meta -'
+         b'->\n</article><!-- #post-240 -->\n\n\t\t\t\t\t\t<div id="comments'
+         b'">\n\t\n\t\n\t\n\t\t\t\t\t\t\t\t\t\n</div><!-- #comments -->\n'
+         b'\n\t\t\t\t\n\t\t\t</div><!-- #content -->\n\t\t</div><!-- #primary -'
+         b'->\n\n\t\t<div id="secondary" class="widget-area" role="complementar'
+         b'y">\n\t\t\t\t\t<aside id="recent-posts-4" class="widget widget_rec'
+         b'ent_entries">\t\t<h3 class="widget-title">Latest Posts</h3>\t\t<'
+         b'ul>\n\t\t\t\t<li><a href="http://letier.cs.ucl.ac.uk/the-value-of'
+         b'-requirements-uncertainty/" title="The Value of Requirements Uncerta'
+         b'inty">The Value of Requirements Uncertainty</a></li>\n\t\t\t\t<li'
+         b'><a href="http://letier.cs.ucl.ac.uk/goal-modelling-for-dna-programm'
+         b'ing/" title="Goal Modelling for DNA Programming">Goal Modelling for '
+         b'DNA Programming</a></li>\n\t\t\t\t<li><a href="http://letier.cs.u'
+         b'cl.ac.uk/incomplete-obstacle-resolution-in-patient-monitoring-system'
+         b'/" title="Incomplete Obstacle Resolution in Patient Monitoring Syste'
+         b'm">Incomplete Obstacle Resolution in Patient Monitoring System</a></'
+         b'li>\n\t\t\t\t<li><a href="http://letier.cs.ucl.ac.uk/requirements'
+         b'-are-never-perfect-when-are-they-good-enough/" title="Requirements a'
+         b're never perfect. When are they good enough?">Requirements are never'
+         b' perfect. When are they good enough?</a></li>\n\t\t\t\t<li><a hre'
+         b'f="http://letier.cs.ucl.ac.uk/sustainability-requirements-art/" titl'
+         b'e="Sustainability Requirements Art">Sustainability Requirements Art<'
+         b'/a></li>\n\t\t\t\t</ul>\n\t\t</aside><aside id="archives-2" class="w'
+         b'idget widget_archive"><h3 class="widget-title">Archives</h3>\t\t<u'
+         b"l>\n\t\t\t<li><a href='http://letier.cs.ucl.ac.uk/2013/10/' title='O"
+         b"ctober 2013'>October 2013</a></li>\n\t<li><a href='http://letier.c"
+         b"s.ucl.ac.uk/2012/06/' title='June 2012'>June 2012</a></li>\n\t<li>"
+         b"<a href='http://letier.cs.ucl.ac.uk/2012/05/' title='May 2012'>May 2"
+         b"012</a></li>\n\t<li><a href='http://letier.cs.ucl.ac.uk/2012/04/' "
+         b"title='April 2012'>April 2012</a></li>\n\t<li><a href='http://leti"
+         b"er.cs.ucl.ac.uk/2012/03/' title='March 2012'>March 2012</a></li>"
+         b'\n\t\t</ul>\n</aside><aside id="categories-2" class="widget widget_c'
+         b'ategories"><h3 class="widget-title">Categories</h3>\t\t<ul>\n\t<li c'
+         b'lass="cat-item cat-item-13"><a href="http://letier.cs.ucl.ac.uk/cate'
+         b'gory/agile/" title="View all posts filed under Agile">Agile</a> '
+         b'(2)\n</li>\n\t<li class="cat-item cat-item-10"><a href="http://leti'
+         b'er.cs.ucl.ac.uk/category/collaborative-modelling-2/" title="View all'
+         b' posts filed under Collaborative Modelling">Collaborative Modelling<'
+         b'/a> (1)\n</li>\n\t<li class="cat-item cat-item-18"><a href="http://'
+         b'letier.cs.ucl.ac.uk/category/decision-analysis/" title="View all pos'
+         b'ts filed under Decision Analysis">Decision Analysis</a> (1)\n</li'
+         b'>\n\t<li class="cat-item cat-item-9"><a href="http://letier.cs.ucl'
+         b'.ac.uk/category/goal-modelling-2/" title="View all posts filed under'
+         b' Goal Modelling">Goal Modelling</a> (3)\n</li>\n\t<li class="cat-it'
+         b'em cat-item-15"><a href="http://letier.cs.ucl.ac.uk/category/publica'
+         b'tion/" title="View all posts filed under Publication">Publication</a'
+         b'> (1)\n</li>\n\t<li class="cat-item cat-item-14"><a href="http://le'
+         b'tier.cs.ucl.ac.uk/category/requirements-risks/" title="View all post'
+         b's filed under Requirements Risks">Requirements Risks</a> (3)\n</l'
+         b'i>\n\t<li class="cat-item cat-item-12"><a href="http://letier.cs.u'
+         b'cl.ac.uk/category/research-impact/" title="View all posts filed unde'
+         b'r Research Impact">Research Impact</a> (2)\n</li>\n\t<li class="cat'
+         b'-item cat-item-11"><a href="http://letier.cs.ucl.ac.uk/category/syst'
+         b'em-evolution/" title="View all posts filed under System Evolution">S'
+         b'ystem Evolution</a> (2)\n</li>\n\t<li class="cat-item cat-item-16">'
+         b'<a href="http://letier.cs.ucl.ac.uk/category/talk/" title="View all '
+         b'posts filed under Talk">Talk</a> (1)\n</li>\n\t<li class="cat-item '
+         b'cat-item-1"><a href="http://letier.cs.ucl.ac.uk/category/uncategoriz'
+         b'ed/" title="View all posts filed under Uncategorized">Uncategorized<'
+         b'/a> (2)\n</li>\n\t\t</ul>\n</aside><aside id="text-3" class="widg'
+         b'et widget_text"><h3 class="widget-title">Social Media</h3>\t\t\t<di'
+         b'v class="textwidget"><a href="http://uk.linkedin.com/pub/emmanuel-le'
+         b'tier/13/829/964">\r\n<img src="http://www.linkedin.com/img/webprom'
+         b'o/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" al'
+         b't="view my LinkedIn profile">\r\n</a>\r\n<br>\r\n<a href="https://'
+         b'twitter.com/E_Letier" class="twitter-follow-button" data-show-count='
+         b'"false" data-show-screen-name="false">Follow @E_Letier</a>\r\n<scr'
+         b'ipt>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.'
+         b'getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platfor'
+         b'm.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(doc'
+         b'ument,"script","twitter-wjs");</script></div>\n\t\t</aside><aside i'
+         b'd="blog_subscription-2" class="widget jetpack_subscription_widget"><'
+         b'h3 class="widget-title"><label for="subscribe-field">Subscribe to Bl'
+         b'og via Email</label></h3>\n\t\t<a name="subscribe-blog"></a>\n\t\t'
+         b'<form action="" method="post" accept-charset="utf-8" id="subscribe-b'
+         b'log">\n\t\t\t<p></p>\n\t\t\t<p><input type="text" name="email" style'
+         b'="width: 95%; padding: 1px 2px" value="Email Address" id="subscribe-'
+         b'field" onclick="if ( this.value == \'Email Address\' ) { this.valu'
+         b'e = \'\'; }" onblur="if ( this.value == \'\' ) { this.value = \'E'
+         b'mail Address\'; }" /></p>\n\n\t\t\t<p>\n\t\t\t\t<input type="hidden'
+         b'" name="action" value="subscribe" />\n\t\t\t\t<input type="hidden'
+         b'" name="source" value="http://letier.cs.ucl.ac.uk/teaching/" />\n'
+         b'\t\t\t\t<input type="hidden" name="sub-type" value="widget" />\n\t'
+         b'\t\t\t<input type="hidden" name="redirect_fragment" value="blog_sub'
+         b'scription-2" />\n\t\t\t\t<input type="hidden" id="_wpnonce" name='
+         b'"_wpnonce" value="e048716353" />\t\t\t\t<input type="submit" value="'
+         b'Subscribe" name="jetpack_subscriptions_widget" />\n\t\t\t</p>\n\t\t'
+         b'</form>\n\n\t\t\n</aside><aside id="meta-2" class="widget widget_'
+         b'meta"><h3 class="widget-title">Meta</h3>\t\t\t<ul>\n\t\t\t\t\t\t<l'
+         b'i><a href="http://letier.cs.ucl.ac.uk/wp-login.php">Log in</a></'
+         b'li>\n\t\t\t<li><a href="http://letier.cs.ucl.ac.uk/feed/" title="Syn'
+         b'dicate this site using RSS 2.0">Entries <abbr title="Really Simple S'
+         b'yndication">RSS</abbr></a></li>\n\t\t\t<li><a href="http://letier.cs'
+         b'.ucl.ac.uk/comments/feed/" title="The latest comments to all posts i'
+         b'n RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></'
+         b'a></li>\n\t\t\t<li><a href="http://wordpress.org/" title="Powered by'
+         b' WordPress, state-of-the-art semantic personal publishing platform."'
+         b'>WordPress.org</a></li>\n\t\t\t\t\t\t</ul>\n</aside>\t\t</div><!--'
+         b' #secondary .widget-area -->\n\n\t</div><!-- #main -->\n\n\t<foote'
+         b'r id="colophon" role="contentinfo">\n\n\t\t\t\n\n\t\t\t<div id="si'
+         b'te-generator">\n\t\t\t\t\t\t\t\t<a href="http://wordpress.org/" t'
+         b'itle="Semantic Personal Publishing Platform" rel="generator">Proudly'
+         b' powered by WordPress</a>\n\t\t\t</div>\n\t</footer><!-- #colophon'
+         b' -->\n</div><!-- #page -->\n\n\t<!-- Start of StatCounter Code -'
+         b'->\r\n\t<script type="text/javascript">\r\n\t<!-- \r\n\t\tvar sc_p'
+         b'roject=7794904; \r\n\t\tvar sc_security="947d97f2"; \r\n\t\tvar sc_i'
+         b'nvisible=1;\n\t//-->\r\n\t</script>\r\n\t<script type="text/javascri'
+         b'pt" src="http://www.statcounter.com/counter/counter_xhtml.js"></scri'
+         b'pt>\r\n<noscript><div class="statcounter"><a title="web analytics"'
+         b' href="http://statcounter.com/"><img class="statcounter" src="http:/'
+         b'/c.statcounter.com/7794904/0/947d97f2/1/" alt="web analytics" /></a>'
+         b'</div></noscript>\t\r\n\t<!-- End of StatCounter Code -->\r\n\t<div'
+         b' style="display:none">\n\t</div>\n\n\t<script src="http://stats.w'
+         b'ordpress.com/e-201716.js" type="text/javascript"></script>\n\t<scr'
+         b'ipt type="text/javascript">\n\tst_go({v:\'ext\',j:\'1:1.4.2\',blog'
+         b":'33403478',post:'240'});\n\tvar load_cmc = function(){linktracker"
+         b"_init(33403478,240,2);};\n\tif ( typeof addLoadEvent != 'undefined"
+         b"' ) addLoadEvent(load_cmc);\n\telse load_cmc();\n\t</script>\n<st"
+         b"yle type='text/css'>img#wpstats{display:none}</style>\n</body>\n</"
+         b'html>',
+ 'links': [3354,
+           3356,
+           3355,
+           3357,
+           2615,
+           2616,
+           3358,
+           3359,
+           3360,
+           3361,
+           3362,
+           3363,
+           3364,
+           3365,
+           3366,
+           3367,
+           3368,
+           3369,
+           3370,
+           3371,
+           3372,
+           3373,
+           3374,
+           3375,
+           3376,
+           3377,
+           3378,
+           3379,
+           3380],
+ 'pid': 3356,
+ 'url': 'http://letier.cs.ucl.ac.uk/teaching/'}

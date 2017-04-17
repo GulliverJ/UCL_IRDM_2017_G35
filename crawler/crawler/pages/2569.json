@@ -1,0 +1,1166 @@
+{'html': b"    <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'\r\n  "
+         b"  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>\r\n<?xml ve"
+         b'rsion="1.0" encoding="iso-8859-1"?>\r\n<html xmlns="http://www.w3.'
+         b'org/1999/xhtml" xml:lang="en" lang="en">\r\n<head>\r\n\t<meta htt'
+         b'p-equiv="Content-Type" content="text/html; charset=iso-8859-1" /'
+         b'>\r\n\r\n    <title>\r\n\t\tMicrostructure Imaging Group | Proje'
+         b'cts\r\n    </title>\r\n\r\n    <meta http-equiv="Content-Type" con'
+         b'tent="text/html; charset=iso-8859-1" />\r\n    <link rel="styleshe'
+         b'et" type="text/css" href="http://cmic.cs.ucl.ac.uk/mig/pub/skins/mig'
+         b'wiki/mig_purple.css"  title="cmic" />\r\n    <!--HTMLHeader--><sty'
+         b"le type='text/css'><!--\n  ul, ol, pre, dl, p { margin-top:0px; m"
+         b'argin-bottom:0px; }\n  code.escaped { white-space: nowrap; }\n  .v'
+         b'space { margin-top:1.33em; }\n  .indent { margin-left:40px; }\n  .'
+         b'outdent { margin-left:40px; text-indent:-40px; }\n  a.createlinkt'
+         b'ext { text-decoration:none; border-bottom:1px dotted gray; }\n  a'
+         b'.createlink { text-decoration:none; position:relative; top:-0.5e'
+         b'm;\n    font-weight:bold; font-size:smaller; border-bottom:none; '
+         b'}\n  img { border:0px; }\n  \nspan.anchor {\n\tfloat: left;\n\tfont'
+         b'-size: 10px;\n\tmargin-left: -10px;\n\twidth: 10px;\n    position'
+         b':relative; top:-0.1em;\n\ttext-align: center;\n}\nspan.anchor a { te'
+         b'xt-decoration: none; }\nspan.anchor a:hover { text-decoration: un'
+         b'derline; }\nol.toc { text-indent:-20px; list-style: none; }\nol.to'
+         b'c ol.toc { text-indent:-40px; }\ndiv.tocfloat { font-size: smalle'
+         b'r; margin-bottom: 10px;\n    border-top: 1px dotted #555555; bord'
+         b'er-bottom: 1px dotted #555555;\n    padding-top: 5px; padding-bot'
+         b'tom: 5px; \n    width: 38%; float: right; margin-left: 10px; clea'
+         b'r: right;\n    margin-right:-13px; padding-right: 13px; padding-l'
+         b'eft: 13px;\n    background-color: #eeeeee; }\ndiv.toc { font-size:'
+         b' smaller; \n    padding: 5px; border: 1px dotted #cccccc;\n    bac'
+         b'kground: #f7f7f7;\n    margin-bottom: 10px; }\ndiv.toc p { backgro'
+         b'und-color: #f9f6d6;\n    margin-top:-5px;   padding-top: 5px;\n   '
+         b' margin-left:-5px;  padding-left: 5px;\n    margin-right:-5px; pa'
+         b'dding-right: 5px;\n    padding-bottom: 3px;\n    border-bottom:  1'
+         b'px dotted #cccccc; }.editconflict { color:green; \n  font-style:i'
+         b'talic; margin-top:1.33em; margin-bottom:1.33em; }\n\n  table.marku'
+         b'p { border:2px dotted #ccf; width:90%; }\n  td.markup1, td.markup'
+         b'2 { padding-left:10px; padding-right:10px; }\n  table.vert td.mar'
+         b'kup1 { border-bottom:1px solid #ccf; }\n  table.horiz td.markup1 '
+         b'{ width:23em; border-right:1px solid #ccf; }\n  table.markup capt'
+         b'ion { text-align:left; }\n  div.faq p, div.faq pre { margin-left:'
+         b'2em; }\n  div.faq p.question { margin:1em 0 0.75em 0; font-weight'
+         b':bold; }\n  div.faqtoc div.faq * { display:none; }\n  div.faqtoc d'
+         b'iv.faq p.question \n    { display:block; font-weight:normal; marg'
+         b'in:0.5em 0 0.5em 20px; line-height:normal; }\n  div.faqtoc div.fa'
+         b'q p.question * { display:inline; }\n   \n    .frame \n      { borde'
+         b'r:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }\n  '
+         b'  .lfloat { float:left; margin-right:0.5em; }\n    .rfloat { floa'
+         b't:right; margin-left:0.5em; }\na.varlink { text-decoration:none; '
+         b'}\n\n--></style><script type="text/javascript">\nfunction toggle(ob'
+         b'j) {\n    var elstyle = document.getElementById(obj).style;\n    v'
+         b'ar text    = document.getElementById(obj + "tog");\n    if (elsty'
+         b"le.display == 'none') {\n        elstyle.display = 'block';\n     "
+         b'   text.innerHTML = "hide";\n    } else {\n        elstyle.display'
+         b' = \'none\';\n        text.innerHTML = "show";\n    }\n}\n</script'
+         b"><link rel='stylesheet' href='http://cmic.cs.ucl.ac.uk/mig/pub/css/t"
+         b"witter.css' type='text/css' />  <meta name='robots' content='index,f"
+         b'ollow\' />\n\r\n</head>\r\n\r\n<body>\r\n\r\n<div id="everything" cl'
+         b'ass="page_layout">\r\n\t\r\n\t<div id="banner" class="page_layout"'
+         b'>\r\n\t\t<div id="section_head">UCL Microstructure Imaging Group'
+         b'\r\n    </div>\r\n\t\t<a href="http://www.ucl.ac.uk/"> \r\n        <'
+         b'img id="ucl_logo" src="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwik'
+         b'i/ucl000_mig_purp.png" alt="UCL Logo"/></a>  \r\n\t\t<div id="ucl_di'
+         b'v" class="clearDiv">\r\n      &nbsp;<a href="http://www.ucl.ac.uk"'
+         b' onfocus="blurLink(this);">UCL</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nbs'
+         b'p;<a href="http://mig.cs.ucl.ac.uk/index.php" onfocus="blurLink(this'
+         b');">MIG</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nbsp;Projects\r\n    </d'
+         b'iv>\r\n\t\t<div class="clear_div">\r\n    </div>\r\n\t</div> <!--'
+         b' banner -->\r\n\t\r\n\t<div id="main_div">\r\n\t\t<!--PageLeftFmt-'
+         b'->\r\n\t\t<div id="left">\r\n\t\t\t<a href="http://mig.cs.ucl.ac.'
+         b'uk/index.php"><img id="mig_logo" src="http://cmic.cs.ucl.ac.uk/mig/p'
+         b'ub/skins/migwiki/mig_logo_purp_noline.png" alt="MIG Logo"/></a>\r'
+         b"\n\t\t\t<div class='vspace'></div><ul><li><a class='wikilink' href='"
+         b"http://mig.cs.ucl.ac.uk/index.php?n=Main.HomePage'>Home</a>\n<div"
+         b" class='vspace'></div></li><li><a class='wikilink' href='http://mig."
+         b"cs.ucl.ac.uk/index.php?n=Main.People'>People</a>\n<div class='vsp"
+         b"ace'></div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.u"
+         b"k/index.php?n=Main.Research'>Research</a>\n<div class='vspace'></"
+         b"div></li><li><a class='selflink' href='http://mig.cs.ucl.ac.uk/index"
+         b".php?n=Main.Projects'>Projects</a>\n<div class='vspace'></div></l"
+         b"i><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n="
+         b"Main.Publications'>Publications</a>\n<div class='vspace'></div></"
+         b"li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n"
+         b"=Main.Resources'>Resources</a>\n<div class='vspace'></div></li><l"
+         b"i><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main"
+         b".Vacancies'>Vacancies</a>\n<div class='vspace'></div></li><li><a "
+         b"class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.Away"
+         b"Days'>Away days</a>\n<div class='vspace'></div></li><li><a class="
+         b"'wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.PublicEnga"
+         b"gement'>Public Engagement</a>\n</li></ul><div class='vspace'></di"
+         b'v>\n\r\n\t\t</div>\r\n\r\n\t\t<!--/PageLeftFmt-->\r\n\t\t<div id="m'
+         b'iddle" class="main text">\r\n\t\t\t<!--PageTitleFmt-->\r\n\t\t\t<!'
+         b"--PageText-->\n<div id='wikitext'>\n<div class='toc'><p><a name='t"
+         b'oc\' id=\'toc\'></a><b>On this page...</b> (<a id="tocidtog" href="'
+         b'javascript:toggle(\'tocid\');">hide</a>)</p><ol class=\'toc\' id'
+         b"='tocid'><li>1.&ensp;<a href='#toc1'>Current Projects</a><ol class='"
+         b"toc'><li>1.1&ensp;<a href='#epsrc-earlycareer'>EPRSC Fellowship."
+         b' \x93Non-invasive MRI biomarkers for  Oncology\x94. 1/07/2016 '
+         b"\x96 30/06/2021.</a></li><li>1.2&ensp;<a href='#epsrc-simm'>EPRSC. "
+         b'\x93A biophysical simulation framework for magnetic resonance micro'
+         b'structure imaging\x94. 1/04/2016 \x96 31/03/2019.</a></li><li>1.3&'
+         b"ensp;<a href='#cds-quamri'>EPSRC Doctoral Prize Fellowship. \x93Qua"
+         b'ntitative diffusion MRI for prostate cancer grading\x94. 1/01/2016 '
+         b"\x96 01/01/2018.</a></li><li>1.4&ensp;<a href='#innovate'>Prostate "
+         b'Cancer UK. \x93CombIning advaNces in imagiNg with biOmarkers for im'
+         b'proVed diagnosis of Aggressive prosTate cancEr - INNOVATE\x94. 1/01'
+         b"/2016 - 31/12/2017.</a></li><li>1.5&ensp;<a href='#msr-iqt'>Microsof"
+         b't Research PhD Studentship. \x93Image Quality Transfer\x94. 1/10/2'
+         b"015 \x96 28/09/2019.</a></li><li>1.6&ensp;<a href='#pip'>NIH. \x93"
+         b'Structure and Function of the Placenta from Implantation to Delivery'
+         b'. A Next Generation MRI Approach\x94. 17/09/2015 - 31/08/2018.</a><'
+         b"/li><li>1.7&ensp;<a href='#cds-quamri'>EU Horizon 2020. \x93A Clini"
+         b'cal Decision Support system based on Quantitative multimodal brain M'
+         b'RI for personalized treatment in neurological and psychiatric disord'
+         b'ers (CDS-QUAMRI)\x94. 1/09/2015 \x96 01/09/2020.</a></li><li>1.8&e'
+         b"nsp;<a href='#cds-quamri'>Magnetic Resonance Imaging in Multiple Scl"
+         b'erosis (MAGNIMS). \x93To explore imaging signature of multiple scle'
+         b'rosis phenotypes\x94. 1/07/2015 \x96 01/07/2016.</a></li><li>1.9&e'
+         b"nsp;<a href='#nimf'>EPRSC. \x93National Facility for In Vivo MR Ima"
+         b'ging of Human Tissue Microstructure\x94. 1/06/2015 \x96 31/05/2020'
+         b".</a></li><li>1.10&ensp;<a href='#anatomyconnect'>EPSRC. \x93Anatom"
+         b'y driven brain connectivity mapping\x94. 1/06/14 \x96 31/05/17.</a'
+         b"></li><li>1.11&ensp;<a href='#neurodev'>MRC. \x93In vivo microstruc"
+         b'tural neuroimaging in infants at risk of developing neurocognitive d'
+         b'elay or neurobehavioural disorders\x94. 1/04/14 \x96 31/03/19.</a>'
+         b"</li><li>1.12&ensp;<a href='#prostatehistology'>UCL CS Research Exce"
+         b'llence Studentship. "Automatic analysis of histology with machine le'
+         b'arning". 10/03/2014 \x97 01/09/2017.</a></li><li>1.13&ensp;<a href='
+         b"'#GCScorticalparc'>UCL SLMS Grand Challenge Studentships project 201"
+         b'3.  \x93Parcellation of the human cortex using quantitative MRI'
+         b"\x94. 1/10/2013\x9730/09/2016.</a></li><li>1.14&ensp;<a href='#bre"
+         b"astproject'>EPSRC Breast cancer project. \x93Medical imaging marker"
+         b's of cancer initiation, progression and therapeutic response in the '
+         b'breast based on tissue microstructure\x94. 1/01/13 \x96 31/12/15.<'
+         b"/a></li><li>1.15&ensp;<a href='#GCSmsclassification'>UCL SLMS Grand "
+         b'Challenge Studentship project. "Development and validation of machin'
+         b'e learning techniques to facilitate diagnosis and predict prognosis '
+         b'in patients with Multiple Sclerosis". 16/11/12-15/11/15</a></li></ol'
+         b"></li><li>2.&ensp;<a href='#toc2'>Completed Projects</a><ol class='t"
+         b"oc'><li>2.1&ensp;<a href='#GCSaxonaldensity'>UCL SLMS Grand Challeng"
+         b'e Studentships project 2012.  \x93Axonal density as MR imaging biom'
+         b'arker: from bench to bedside\x94. 1/10/2012\x9730/09/2015.</a></li'
+         b"><li>2.2&ensp;<a href='#robustgraph'>EPSRC Brain connectivity projec"
+         b't.  \x93Robust graph analysis of brain connectivity\x94. 1/06/2012'
+         b"\x9731/05/2015.</a></li><li>2.3&ensp;<a href='#ivanaleverhulme'>Lev"
+         b'erhulme Trust Fellowship. "New imaging techniques to reveal the rela'
+         b'tionship between brain tissue microstructure and brain function". 1/'
+         b"05/2012-31/12/2015.</a></li><li>2.4&ensp;<a href='#myelin'>EPSRC Hea"
+         b'lthcare Partnerships Project.  "Axon and myelin damage assessed usin'
+         b'g advanced diffusion imaging: from mathematical models to clinical a'
+         b'pplications". 1/09/2011-31/08/2014.</a></li><li>2.5&ensp;<a href'
+         b"='#intelligentimaging'>EPSRC Program grant.  \x93Intelligent Imagin"
+         b'g: Motion, Form and Function Across Scale\x94. 1/06/2010\x9731/05/'
+         b"2015.</a></li><li>2.6&ensp;<a href='#dannyfellowship'>EPSRC Leadersh"
+         b'ip Fellowship.  "Direct measurements of microstructure from MRI." EP'
+         b"/E007748. 1/10/2008\x9730/09/2014.</a></li><li>2.7&ensp;<a href='#c"
+         b"onnect'>European Commission (Future and Emerging Technologies progra"
+         b'm).  \x93CONNECT: Consortium of NeuroImagers for the Non-invasive E'
+         b'xploration of Brain Connectivity and Tractography\x94. 1/01/201'
+         b"0\x9731/10/2012.</a></li><li>2.8&ensp;<a href='#torbenisrt'>Interna"
+         b'tional Spinal Research Trust (ISRT). "Spinal Cord Diffusion Imaging:'
+         b' Challenging Characterization and Prognostic Value<em> Natalie Rose-'
+         b'Barr Studentship.  1/10/2008--30/9/2011.</a></li><li>2.9&ensp;<a hre'
+         b'f=\'#martinrandomeffects\'>EPSRC.  "Monte Carlo random effects mod'
+         b'elling in diffusion MRI: a new window on microstructure and white ma'
+         b'tter architecture.</em>  EP/G025452/01.  1/10/2008--30/9/2011.</a></'
+         b"li><li>2.10&ensp;<a href='#gemmagsk'>EPSRC CASE Studentship with GSK"
+         b".  28/9/2008--27/9/2011.</a></li><li>2.11&ensp;<a href='#lauraphdplu"
+         b"s'>EPSRC Doctoral Prize (PhD+). \x93Differentiating grades of brain"
+         b' tumour with DW-MRI\x94. 1/01/2011-1/01/2012.</a></li><li>2.12&ensp'
+         b';<a href=\'#mattmontecarlo\'>EPSRC.  "Monte-Carlo simulation frame'
+         b'work for diffusion MRI.<em>  EP/E056938/1.  1/9/07--31/8/10.</a></li'
+         b"><li>2.13&ensp;<a href='#hubertfrenchay'>NHS, Frenchay Hospital."
+         b'  "The optimisation of diffusion imaging to quantify fluid flow with'
+         b'in the central nervous system</em> 1/1/2008--31/12/2009.</a></li><li'
+         b">2.14&ensp;<a href='#tonycase'>EPSRC CASE Studentship.  1/10/2005--3"
+         b'1/9/2008.</a></li><li>2.15&ensp;<a href=\'#mfr\'>EPSRC.  "Multiple'
+         b'-fibre reconstruction in diffusion MRI<em>.  GR/T22858/01.  1/1/2005'
+         b"--31/12/2007.</a></li><li>2.16&ensp;<a href='#chrissortex'>EPSRC Eng"
+         b'D studentship (Sortex).  1/11/2004--31/10/2007.</a></li><li>2.17&ens'
+         b"p;<a href='#shahrumphilips'>EPSRC EngD studentship (Philips Medical "
+         b"Systems).  1/10/04--30/9/07.</a></li><li>2.18&ensp;<a href='#faststr"
+         b'eam\'>EPSRC Fast-stream grant.  "Registration of DT MRI</em>. GR/'
+         b"R13715/01.  1/2/2001--31/1/2004.</a></li><li>2.19&ensp;<a href='#esc"
+         b"ience'>EPSRC/DTI E-science intiative. 1/10/2001--31/3/2002.</a></li>"
+         b"</ol></li></ol></div>\n<div class='vspace'></div><h1><a name='toc"
+         b"1' id='toc1'></a>1.&ensp; Current Projects</h1>\n<h2><a name='toc"
+         b"2' id='toc2'></a>1.1&ensp;  <a name='epsrc-earlycareer' id='epsrc-ea"
+         b"rlycareer'></a> EPRSC Fellowship. \x93Non-invasive MRI biomarkers f"
+         b'or  Oncology\x94. 1/07/2016 \x96 30/06/2021.</h2>\n<ul><li>Personne'
+         b'l: Eleftheria Panagiotaki\n</li><li>Summary: This project develop'
+         b's innovative Magnetic Resonance Imaging (MRI) methods to reveal new '
+         b'non-invasive markers of cancer pathology. In particular the research'
+         b' programme develops biophysical models of tumour tissue that support'
+         b' non-invasive estimates of key characteristics of tissue cellular ar'
+         b'chitecture including those that currently guide diagnosis, grading, '
+         b'and treatment assignment through classical histology.  The summary o'
+         b"f the project is on the EPSRC website <a class='urllink' href='http:"
+         b"//gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N021967/1' rel='nof"
+         b"ollow'>here</a>. \n</li></ul><div class='vspace'></div><h2><a nam"
+         b"e='toc3' id='toc3'></a>1.2&ensp;  <a name='epsrc-simm' id='epsrc-sim"
+         b"m'></a> EPRSC. \x93A biophysical simulation framework for magnetic "
+         b'resonance microstructure imaging\x94. 1/04/2016 \x96 31/03/2019.</'
+         b'h2>\n<ul><li>Personnel: Gary Zhang, Simon Walker-Samuel, Karin Sh'
+         b'mueli, Daniel Alexander.\n</li><li>Summary: This project extends '
+         b'the diffusion simulation in Camino to include a range of new effects'
+         b' including flow, permeability, and susceptibility.  It makes the fir'
+         b'st steps towards developing multi-modal MR tissue models and next-ge'
+         b'neration imaging techniques that exploit them.  The summary of the p'
+         b"roject is on the EPSRC website <a class='urllink' href='http://gow.e"
+         b"psrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/N018702/1' rel='nofollow'>"
+         b"here</a>. \n</li></ul><div class='vspace'></div><h2><a name='toc4"
+         b"' id='toc4'></a>1.3&ensp;  <a name='cds-quamri' id='cds-quamri'></a>"
+         b' EPSRC Doctoral Prize Fellowship. \x93Quantitative diffusion MRI fo'
+         b'r prostate cancer grading\x94. 1/01/2016 \x96 01/01/2018.</h2>\n<di'
+         b"v><span class='frame rfloat'> <img height='150px' src='http://cmic.c"
+         b"s.ucl.ac.uk/mig/uploads/Main/AndradaNMRBiomed.png' alt='' title='' /"
+         b'></span></div>\n<ul><li>Personnel: Andrada Ianus.\n</li><li>Summar'
+         b'y: In prostate cancer, the tissue structure changes significantly as'
+         b' the tumour becomes more aggressive. The aim of this project is to d'
+         b'evelop advanced diffusion MRI techniques, which are sensitive enough'
+         b' to provide a non-invasive classification of tumour grades. The work'
+         b' involves the design of better acquisition sequences, as well as mic'
+         b'rostructural models for data analysis that capture the changes in ce'
+         b"llular architecture.\n</li></ul><p><br /><br />\n</p><h2><a name='"
+         b"toc5' id='toc5'></a>1.4&ensp;  <a name='innovate' id='innovate'></a>"
+         b' Prostate Cancer UK. \x93CombIning advaNces in imagiNg with biOmark'
+         b'ers for improVed diagnosis of Aggressive prosTate cancEr - INNOV'
+         b'ATE\x94. 1/01/2016 - 31/12/2017.</h2>\n<ul><li>Personnel: Hayley Whi'
+         b'ttaker (PI), Shonit Punwani, Laura Panagiotaki, Elisenda Bonet-Carne'
+         b', David Atkinson, Edward Johnston, Dave Hawkes, Daniel Alexander et '
+         b"al.\n</li></ul><div><span class='frame rfloat'> <img height='170p"
+         b"x' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/prostate_VD-fic_ex"
+         b"ample.png' alt='' title='' /></span></div>\n<ul><li>Summary: INNO"
+         b'VATE is a prospective single centre cohort study in 365 patients whi'
+         b'ch aims to improve the early detection for the aggressive prostate c'
+         b'ancer and to increase the MRI diagnostic performance. MIG\x92s role'
+         b' focuses on testing whether the performance of the multi parametric '
+         b'MRI can be improved by the addition of VERDICT. VERDICT is an advanc'
+         b'ed diffusion-weighted MRI technique that was designed to capture the'
+         b' main microstructural properties of cancerous tissue. It uses a biop'
+         b"hysical model to characterise tissue microstructure. <a class='urlli"
+         b"nk' href='https://clinicaltrials.gov/ct2/show/study/NCT02689271' rel"
+         b"='nofollow'>Here</a> is the clinical study record detail website"
+         b'. \n</li><li>Related Publications:\n<ul><li>Panagiotaki E, Chan RW'
+         b', Dikaios N, Ahmed HU, Urol F, Callaghan JO, Freeman A, Atkinson D, '
+         b'Punwani S, Hawkes DJ, Alexander DC. Microstructural Characterization'
+         b' of Normal and Malignant Human Prostate Tissue With Vascular , Extra'
+         b'cellular , and Restricted Diffusion for Cytometry in Tumours Magneti'
+         b'c Resonance Imaging. Invest Radiol. 2015;50(4):218\x9627.\n</li><li>'
+         b'Johnston EW, Pye H, Bonet-Carne E, Panagiotaki E, Patel D, Galazi, H'
+         b'eavey S, Carmona L, Freeman A, Trevisan G, Alexander D.C et al. INNO'
+         b'VATE: A prospective cohort study combining serum and urinary biomark'
+         b'ers with novel diffusion-weighted magnetic resonance imaging for the'
+         b' prediction and characterization of prostate cancer. BMC Cancer 31 O'
+         b'ct 2016 .\n</li><li>Bonet-Carne E, Daducci A, Panagiotaki E, John'
+         b'ston E, Stevens N, Atkinson D, Shonit Punwani S, Alexander DC. Non-i'
+         b'nvasive quantification of prostate cancer using AMICO framework for '
+         b'VERDICT MR. Intl Soc Mag Reson Med 24. Singapore; 2016.\n</li></u'
+         b"l></li></ul><p><br /><br />\n</p><h2><a name='toc6' id='toc6'></a"
+         b">1.5&ensp;  <a name='msr-iqt' id='msr-iqt'></a> Microsoft Research P"
+         b'hD Studentship. \x93Image Quality Transfer\x94. 1/10/2015 \x96 28'
+         b'/09/2019.</h2>\n<ul><li>Personnel: Ryutaro Tanno (UCL),  Aurobrat'
+         b'a Ghosh (UCL), Daniel Alexander (UCL), Antonio Criminisi (MSR).\n'
+         b"</li></ul><div class='vspace'></div><div><span class='frame rfloat'>"
+         b" <img height='250px' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/"
+         b"iqt_img.jpg' alt='' title='' /></span></div>\n<ul><li>Summary: Th"
+         b'is project aims to develop an image reconstruction technology called'
+         b' image quality transfer into a working software tool cutting across '
+         b'several applications. The technique learns a model of the low-level '
+         b'structure of an image ensemble from high quality data sets that are '
+         b'expensive to obtain and uses the model to enhance reconstruction fro'
+         b'm sparse data that is more practical to acquire. The figure shows a '
+         b'demonstration using MRI data from the human connectome project (HCP)'
+         b' and a simple regression model using random forests to learn a mappi'
+         b'ng from low-resolution to high-resolution image patches. The idea ha'
+         b's important potential in that domain. First, it potentially reveals '
+         b'subtle information hidden in low-resolution images providing more se'
+         b'nsitive markers of disease. Second, it potentially supports exploita'
+         b'tion of large bodies of historical data from heterogeneous acquisiti'
+         b'on protocols, which hugely increases statistical power in population'
+         b' or phenotype studies. \n</li><li>Related Publications:\n<ul><li>A'
+         b'lexander, D. C., Zikic, D., Zhang, J., Zhang, H., &amp; Criminisi, A'
+         b'. "<a class=\'urllink\' href=\'http://link.springer.com/chapter/10.'
+         b"1007/978-3-319-10443-0_29' rel='nofollow'>Image quality transfer via"
+         b' random forest regression: applications in diffusion MRI.</a>" Medic'
+         b'al Image Computing and Computer-Assisted Intervention\x96MICCAI 201'
+         b'4. Springer International Publishing, 2014. 225-232.\n</li></ul><'
+         b"/li></ul><div class='vspace'></div><h2><a name='toc7' id='toc7'></a>"
+         b"1.6&ensp;  <a name='pip' id='pip'></a> NIH. \x93Structure and Funct"
+         b'ion of the Placenta from Implantation to Delivery. A Next Generation'
+         b' MRI Approach\x94. 17/09/2015 - 31/08/2018.</h2>\n<ul><li>Personnel:'
+         b' Paddy Slator, Daniel Alexander, Jana Hutter (KCL), Jo Hajnal (KCL),'
+         b" Mary Rutherford (KCL). \n</li></ul><div class='vspace'></div><di"
+         b"v><span class='frame rfloat'> <img height='125px' src='http://cmic.c"
+         b"s.ucl.ac.uk/mig/uploads/Main/placenta_md.jpg' alt='' title='' /></sp"
+         b'an></div>\n<ul><li>Summary: Many pregnancy complications stem fro'
+         b'm placental abnormalities. This project aims to develop tools which '
+         b'assess placental development in the earliest stages of pregnancy. We'
+         b' are developing diffusion-weighted MRI techniques, similar to the NO'
+         b'DDI and VERDICT methods, to extract detailed microstructural informa'
+         b"tion from in-vivo human placentae. More details here: <a class='urll"
+         b"ink' href='http://placentaimagingproject.org/project/' rel='nofollow"
+         b"'>http://placentaimagingproject.org/project/</a>.\n</li></ul><p c"
+         b"lass='vspace'><br /><br />\n</p>\n<div class='vspace'></div><h2><a"
+         b" name='toc8' id='toc8'></a>1.7&ensp;   EU Horizon 2020. \x93A Clini"
+         b'cal Decision Support system based on Quantitative multimodal brain M'
+         b'RI for personalized treatment in neurological and psychiatric disord'
+         b'ers (CDS-QUAMRI)\x94. 1/09/2015 \x96 01/09/2020.</h2>\n<ul><li>Pers'
+         b'onnel: Francesco Grussu, Enrico Kaden, Daniel Alexander, Claudia Whe'
+         b'eler-Kingshott\n</li><li>Summary: The objective of this project i'
+         b's the development of a clinical decision support system for neurolog'
+         b'ical and psychiatric disorders that is based on multimodal quantitat'
+         b'ive magnetic resonance imaging, advanced feature extraction and mult'
+         b'i-parametric classification. To that the quantitative analysis of st'
+         b'ructural, functional and metabolic MRI data (11 modalities) shall be'
+         b' fully integrated into a single software framework for the first tim'
+         b'e; support of large data, interoperability and access for non-expert'
+         b' users shall be enabled and a machine learning based classification '
+         b'module shall be developed. The quantification and feature extraction'
+         b' algorithms for metabolic, perfusion, diffusion and functional imagi'
+         b'ng shall be enhanced to access the full information content of the d'
+         b'ata independent of vendor specific scan protocols as required for fu'
+         b'ture use in diagnostics, stratification and monitoring of patien'
+         b"ts.\n</li></ul><div class='vspace'></div><div><span class='frame "
+         b"rfloat'> <img height='250px' src='http://cmic.cs.ucl.ac.uk/mig/uploa"
+         b"ds/Main/ms_arman.jpg' alt='' title='' /></span></div>\n<h2><a nam"
+         b"e='toc9' id='toc9'></a>1.8&ensp;   Magnetic Resonance Imaging in Mul"
+         b'tiple Sclerosis (MAGNIMS). \x93To explore imaging signature of mult'
+         b'iple sclerosis phenotypes\x94. 1/07/2015 \x96 01/07/2016.</h2>\n<ul'
+         b'><li>Personnel: Arman Eshaghi, Alan Thompson, Daniel Alexander, Fred'
+         b'erik Barkhof, Olga Ciccarelli.\n</li><li>Summary: Clinicians clas'
+         b'sify patients with multiple sclerosis (MS) into different phenotypes'
+         b' according to clinical presentation, qualitative MRI and their chang'
+         b'es. MS phenotypes are the cornerstone for treatment and rehabilitati'
+         b'on strategies, however, clinical classification of patients is crude'
+         b'. We aimed to use a large MRI dataset from different European Multip'
+         b'le Sclerosis Centres (part of MAGNIMS) in London, Rome, Siena, and A'
+         b'msterdam to explore signatures of different MS phenotypes. Computati'
+         b'onal modelling of disease progression (such as brain shrinkage) can '
+         b'achieve objective classification of patients. In this project Instit'
+         b'ute of Neurology works closely with the POND/MIG group.\n</li></u'
+         b"l><p class='vspace'><br /><br />\n</p><h2><a name='toc10' id='toc"
+         b"10'></a>1.9&ensp;  <a name='nimf' id='nimf'></a> EPRSC. \x93Nationa"
+         b'l Facility for In Vivo MR Imaging of Human Tissue Microstructure'
+         b'\x94. 1/06/2015 \x96 31/05/2020.</h2>\n<ul><li>Personnel: Derek Jon'
+         b'es (Cardiff), Richard Bowtell (Nottingham), Geoff Parker (Manchester'
+         b'), Karla Miller (Oxford), Krish Singh (Cardiff), Daniel Alexander (U'
+         b"CL),  Hywel Thomas (Cardiff), Flavio Dell'Acqua (KCL), Mara Cercigna"
+         b'ni (Sussex), Richard Wise (Cardiff).\n</li><li>Summary: This equi'
+         b'pment grant puts in place the National Microstructure Imaging Facili'
+         b"ty in Cardiff's CUBRIC centre. The device has very high magnetic gra"
+         b'dient field strength (up to 300mT/m) enabling exquisite sensitivity '
+         b'to tissue microstructure. It supports the development of future micr'
+         b'ostructure imaging techniques putting them in place for when this ki'
+         b'nd of hardware becomes more widespread in the future. \n</li></ul'
+         b"><div class='vspace'></div><h2><a name='toc11' id='toc11'></a>1.10&e"
+         b"nsp;  <a name='anatomyconnect' id='anatomyconnect'></a> EPSRC. \x93"
+         b'Anatomy driven brain connectivity mapping\x94. 1/06/14 \x96 31/05/'
+         b"17.</h2>\n<div><span class='frame rfloat'> <img height='160px' sr"
+         b"c='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/coronal_all.jpg' alt=''"
+         b" title='' /></span></div>\n<ul><li>Personnel: Aurobrata Ghosh, Ga"
+         b'ry Zhang, Daniel Alexander, Stam Sotiropoulos, Saad Jbabdi, Tim Behr'
+         b'ens\n</li><li>Summary: This project is a collaboration with the F'
+         b'MRIB in Oxford and combines cutting-edge microstructure imaging with'
+         b' prior knowledge learned from histology to bypass inherent limitatio'
+         b"ns in current tractography algorithms. <a class='urllink' href='http"
+         b"://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/L022680/1' rel='no"
+         b"follow'>Here</a> is the project outline on the EPSRC website.\n</"
+         b'li><li>Selected Publications:\n<ul><li>Aurobrata Ghosh, Daniel C.'
+         b' Alexander, and Hui Zhang. Crossing versus Fanning: Model Comparison'
+         b' Using HCP Data. Proceedings of Computational Diffusion MRI MICCAI W'
+         b'orkshop, October 2015, Munich, Germany.\n</li></ul></li></ul><div'
+         b" class='vspace'></div><h2><a name='toc12' id='toc12'></a>1.11&ensp; "
+         b" <a name='neurodev' id='neurodev'></a> MRC. \x93In vivo microstruct"
+         b'ural neuroimaging in infants at risk of developing neurocognitive de'
+         b'lay or neurobehavioural disorders\x94. 1/04/14 \x96 31/03/19.</h2>'
+         b'\n<ul><li>Personnel: Serena Counsell, Jo Hajnal, David Edwards, P'
+         b'aul Aljabar, Gary Zhang, Daniel Alexander.\n</li><li>Summary: Thi'
+         b's adapts the latest brain microstructure imaging techniques coming o'
+         b'ut of MIG for perinatal imaging and exploits the techniques to predi'
+         b"ct  downstream functional deficits.\n</li></ul><div class='vspace"
+         b"'></div><h2><a name='toc13' id='toc13'></a>1.12&ensp;  <a name='pros"
+         b"tatehistology' id='prostatehistology'></a> UCL CS Research Excellenc"
+         b'e Studentship. "Automatic analysis of histology with machine learnin'
+         b'g". 10/03/2014 \x97 01/09/2017.</h2>\n<ul><li>Personnel: Joseph Jaco'
+         b'bs, Laura Panagiotaki, Daniel Alexander.\n</li><li>Summary: This '
+         b'project aims to explore methods for automatic and quantifiable analy'
+         b'sis of histological images. Specifically, we intend to develop novel'
+         b' machine learning and pattern recognition for detecting and grading '
+         b'prostate cancer in histology. These methods could then be used to en'
+         b'able computer-aided diagnosis of prostate cancer in histology or for'
+         b' validation of non-invasive imaging modalities.\n</li><li>Selecte'
+         b'd Publications:\n<ul><li>Jacobs JG, Panagiotaki E, Alexander DC. '
+         b'Gleason Grading of Prostate Tumours with Max-Margin Conditional Rand'
+         b'om Fields. MICCAI Workshop on Machine Learning in Medical Imaging 20'
+         b'14.\n</li><li>Jacobs JG, Johnston E, Freeman A, Patel D, Rodrigue'
+         b'z-Justo M, Atkinson D, Punwani S, Brostow G, Alexander DC, Panagiota'
+         b'ki E. Histological validation of VERDICT cellularity map in a prosta'
+         b'tectomy case. Intl Soc Mag Reson Med 24. Singapore; 2016.\n</li><'
+         b"/ul></li></ul><div class='vspace'></div><h2><a name='toc14' id='toc1"
+         b"4'></a>1.13&ensp;  <a name='GCScorticalparc' id='GCScorticalparc'></"
+         b'a> UCL SLMS Grand Challenge Studentships project 2013.  \x93Parcell'
+         b'ation of the human cortex using quantitative MRI\x94. 1/10/2013'
+         b"\x9730/09/2016.</h2>\n<div><span class='frame rfloat'> <img height='"
+         b"160px' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/parcellation.p"
+         b"ng' alt='' title='' /></span></div>\n<ul><li>Personnel: Tara Gane"
+         b'pola, Zoltan Nagy, Daniel C. Alexander and Martin Sereno.\n</li><'
+         b'li>Summary: The project aims to develop a novel technique for in-viv'
+         b'o cortical parcellation. The approach is based on probing cytoarchit'
+         b'ectonic variations in grey matter regions using diffusion MRI and co'
+         b'nsists of optimising three main aspects of the pipeplie. i) Image ac'
+         b'quisition in order to maximise information gain between grey matter '
+         b'regions ii) Methods for describing the underlying tissue microstruct'
+         b'ure captured in HARDI data and validation of these approaches using '
+         b'ex-vivo data. iii) Determination of appropriate classification metho'
+         b'ds for this application.  The project is a collaboration between the'
+         b' Neuroimaging Group at the Department of Cognitive, Perceptual and B'
+         b'rain Sciences (UCL) and MIG and is supervised by Prof. Martin I. Ser'
+         b'eno and Prof. Daniel C. Alexander.\n</li><li>Selected Publication'
+         b's:\n<ul><li>Zoltan Nagy, Daniel C. Alexander, David L. Thomas, Ni'
+         b"kolaus Weiskopf, Martin I. Sereno (2013). <a class='urllink' href='h"
+         b'ttp://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.00'
+         b"63842' rel='nofollow'>Using high angular resolution diffusion imagin"
+         b'g data to discriminate cortical regions</a>. PLos One Vol.8 .\n</'
+         b'li><li>Zoltan Nagy, Tara Ganepola, Martin I. Sereno, Nikolaus Weisko'
+         b'pf, Daniel C. Alexander. Combining HARDI datasets with more than one'
+         b' b-value improves diffusion MRI-based cortical Parcellation. Proceed'
+         b'ings of the joint annual meeting ISMRM-ESMRMB 2014, p.0800.\n</li'
+         b"></ul></li></ul><div class='vspace'></div><h2><a name='toc15' id='to"
+         b"c15'></a>1.14&ensp;  <a name='breastproject' id='breastproject'></a>"
+         b' EPSRC Breast cancer project. \x93Medical imaging markers of cancer'
+         b' initiation, progression and therapeutic response in the breast base'
+         b'd on tissue microstructure\x94. 1/01/13 \x96 31/12/15.</h2>\n<div><'
+         b"span class='frame rfloat'> <img height='160px' src='http://cmic.cs.u"
+         b"cl.ac.uk/mig/uploads/Main/BCSummaryFig.png' alt='' title='' /></span"
+         b'></div>\n<ul><li>Personnel: Colleen Bailey, Eleftheria Panagiotak'
+         b'i, Daniel Alexander\n</li><li>Summary: This project aims to impro'
+         b've breast cancer treatment by searching for imaging features that pr'
+         b'edict whether patients require therapy and which patients are likely'
+         b' to respond or be resistant. The project is led by Prof Dave Hawkes '
+         b'(CMIC director) and is a collaboration with Ninewells Hospital, Dund'
+         b'ee. Data are acquired from many imaging modalities; MIG\x92s role f'
+         b'ocuses on developing a model to fit the diffusion MRI signal that re'
+         b"flects the microstructure of the breast tissue. <a class='urllink' h"
+         b"ref='http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/K020439/1"
+         b"' rel='nofollow'>Here</a> is the project outline on the EPSRC websit"
+         b'e.\n</li><li>Selected Publications:\n<ul><li>Bailey C, et al. (201'
+         b"4). <a class='urllink' href='http://link.springer.com/chapter/10.100"
+         b"7%2F978-3-319-07887-8_53' rel='nofollow'>Modelling vascularity in br"
+         b'east cancer and surrounding stroma using diffusion MRI and intravoxe'
+         b'l incoherent motion</a>. LNCS Vol. 8539.\n</li><li>Bailey C, et a'
+         b"l. (2016). <a class='urllink' href='http://onlinelibrary.wiley.com/d"
+         b"oi/10.1002/nbm.3679/full' rel='nofollow'>Microstructural models for "
+         b'diffusion MRI in breast cancer and surrounding stroma: an ex vivo st'
+         b"udy</a>. NMR in Biomed.\n</li></ul></li></ul><div class='vspace'>"
+         b"</div><h2><a name='toc16' id='toc16'></a>1.15&ensp;  <a name='GCSmsc"
+         b"lassification' id='GCSmsclassification'></a> UCL SLMS Grand Challeng"
+         b'e Studentship project. "Development and validation of machine learni'
+         b'ng techniques to facilitate diagnosis and predict prognosis in patie'
+         b'nts with Multiple Sclerosis". 16/11/12-15/11/15</h2>\n<div><span '
+         b"class='frame rfloat'> <img height='200px' src='http://cmic.cs.ucl.ac"
+         b".uk/mig/uploads/Main/ProjectImage_Viktor.jpg' alt='' title='' /></sp"
+         b'an></div>\n<ul><li>Personnel: Viktor Wottschel, Daniel Alexander '
+         b'and Olga Ciccarelli.\n</li><li>Summary: This projects aims to pre'
+         b'dict diagnosis and prognosis of MS patients from previously aquired '
+         b'MRI data sets. Supervised machine learning classifiers will be explo'
+         b'red and optimised to extract information from multi-centre MRI data '
+         b'and create a general model applicable to previously unseen patients.'
+         b' The project is part of a collaboration between the NMR Research Uni'
+         b't at the Insitute of Neurology and MIG and is supervised by Dr Olga '
+         b'Ciccarelli and Prof. Daniel C. Alexander.\n</li><li>Selected Publ'
+         b'ications:\n<ul><li>Olga Ciccarelli, et al. (2012). Predicting cli'
+         b'nical conversion to multiple sclerosis in patients with clinically i'
+         b'solated syndrome using machine learning techniques, ECTRIMS, No. 113'
+         b'.\n</li><li>Viktor Wottschel, et al. (2013). Prediction of second'
+         b' neurological attack in patients with clinically isolated syndrome u'
+         b'sing support vector machines. Proceedings of the international works'
+         b"hop on PRNI 2013.\n</li></ul></li></ul><div class='vspace'></div>"
+         b"<h1><a name='toc17' id='toc17'></a>2.&ensp; Completed Projects</"
+         b"h1>\n<h2><a name='toc18' id='toc18'></a>2.1&ensp;  <a name='GCSax"
+         b"onaldensity' id='GCSaxonaldensity'></a> UCL SLMS Grand Challenge Stu"
+         b'dentships project 2012.  \x93Axonal density as MR imaging biomarker'
+         b': from bench to bedside\x94. 1/10/2012\x9730/09/2015.</h2>\n<div><s'
+         b"pan class='frame rfloat'> <img height='160px' src='http://cmic.cs.uc"
+         b"l.ac.uk/mig/uploads/Main/FGrussu_project_new.jpg' alt='' title='' />"
+         b'  </span></div>\n<ul><li>Personnel: Francesco Grussu, Torben Schn'
+         b'eider, Hui Zhang, Daniel C. Alexander and Claudia A. M. Wheeler-King'
+         b'shott.\n</li><li>Summary: the project aims to take advanced diffu'
+         b'sion MRI methods for microstructure quantification from the developm'
+         b'ent stage to the clinical application in the spinal cord. The work c'
+         b'onsists of two main goals: i) appropriate acquisition protocols are '
+         b'to be designed and tested for clinical settings at 3T;  ii) the nove'
+         b'l diffusion MRI indices are to be compared to histological correlate'
+         b's, in both healthy and multiple sclerosis spinal cord samples, for v'
+         b'alidation. The project focusses on the optimisation and validation o'
+         b'f Neurite Orientation Dispersion and Density Imaging (NODDI) and is '
+         b'part of a collaboration between the NMR Research Unit at the Departm'
+         b'ent of Neuroinflammation (UCL Insitute of Neurology) and MIG. It is '
+         b'supervised by Dr Claudia A. M. Wheeler-Kingshott and Prof. Daniel C.'
+         b' Alexander.\n</li><li>Selected Publications:\n<ul><li>Grussu F, Sc'
+         b'hneider T, Yates RL, Zhang H, Gandini Wheeler-Kingshott CAM, DeLuca '
+         b"GC and Alexander DC. <a class='urllink' href='http://www.sciencedire"
+         b"ct.com/science/article/pii/S0165027016301819' rel='nofollow'>A frame"
+         b'work for optimal whole-sample histological quantification of neurite'
+         b' orientation dispersion in the human spinal cord</a>. Journal of Neu'
+         b'roscience Methods, Volume 273, 1 November 2016, Pages 20\x9632.\n</l'
+         b'i><li>Grussu F, Schneider T, Zhang H, Alexander DC, Wheeler-Kingshot'
+         b"t CAM. <a class='urllink' href='http://www.sciencedirect.com/science"
+         b"/article/pii/S1053811915000701' rel='nofollow'>Neurite orientation d"
+         b'ispersion and density imaging of the healthy cervical spinal cord in'
+         b' vivo</a>. NeuroImage, Volume 111, 1 May 2015, Pages 590\x96601.\n</'
+         b'li><li>Grussu F, Schneider T, Yates RL, Tachrount M, Newcombe J, Zha'
+         b"ng H, Alexander DC, DeLuca GC and Wheeler-Kingshott CAM. <a class='u"
+         b"rllink' href='http://indexsmart.mirasmart.com/ismrm2015/PDFfiles/090"
+         b"9.pdf' rel='nofollow'>Histological metrics confirm microstructural c"
+         b'haracteristics of NODDI indices in multiple sclerosis spinal cord</a'
+         b'>. Proc of ISMRM 2015, p0909, <em>Magna cum Laude</em> award.\n</'
+         b"li></ul></li></ul><div class='vspace'></div><h2><a name='toc19' id='"
+         b"toc19'></a>2.2&ensp;  <a name='robustgraph' id='robustgraph'></a> EP"
+         b'SRC Brain connectivity project.  \x93Robust graph analysis of brain'
+         b' connectivity\x94. 1/06/2012\x9731/05/2015.  </h2>\n<ul><li>Personn'
+         b'el: Fani Deligianni, Chris Clark, David Carmichael, Daniel Alexander'
+         b", Jon Clayden\n</li></ul><div><span class='frame rfloat'> <img he"
+         b"ight='175px' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/graph.pn"
+         b"g' alt='' title='' /></span></div>\n<ul><li>Summary: This project"
+         b' develops techniques for modelling functional and structural connect'
+         b'ivity of the brain using diffusion MRI and EEG.  It uses graph analy'
+         b'sis to extract salient features and develops statistical techniques '
+         b"for performing group studies of graph-based metrics. <a class='urlli"
+         b"nk' href='http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/J016"
+         b"292/1' rel='nofollow'>Here</a> is the project outline on the EPSRC w"
+         b"ebsite.\n</li></ul><div class='vspace'></div><h2><a name='toc20' "
+         b"id='toc20'></a>2.3&ensp;  <a name='ivanaleverhulme' id='ivanaleverhu"
+         b'lme\'></a> Leverhulme Trust Fellowship. "New imaging techniques t'
+         b'o reveal the relationship between brain tissue microstructure and br'
+         b'ain function". 1/05/2012-31/12/2015.</h2>\n<ul><li>Personnel: Iva'
+         b'na Drobnjak\n</li><li>Summary: This projects aims to develop adva'
+         b'nced non-invasive imaging techniques to enable the parallel study of'
+         b' brain microanatomy and function in living humans. The optimisation '
+         b'methods developed in project  EP/E007748 produce novel pulse sequenc'
+         b'es with complex gradient waveforms virtually impossible to devise wi'
+         b'thout the novel algorithmic approach. Phase 1 of this project will i'
+         b'mplement, refine and validate those sequences on standard clinical M'
+         b'RI systems. Phase 2 will apply the novel sequences to study the micr'
+         b'ostructure-function relationship in specific neuroscience experiment'
+         b's. The ageing brain will be the principal model for this research, b'
+         b'ut the new methodology can also be readily applied to study diseases'
+         b' (e.g. Alzheimer\x92s, Multiple Sclerosis), effects of treatment, o'
+         b'r cognitive development. \n</li><li>Selected Publications:\n<ul><l'
+         b"i>Drobnjak I, Zhang H, Ianus A, Kaden E, Alexander D.C. <a class='ur"
+         b"llink' href='http://dx.doi.org/10.1002/mrm.25631' rel='nofollow'>PGS"
+         b'E, OGSE, and sensitivity to axon diameter in diffusion MRI: Insight '
+         b'from a simulation study</a>. Magnetic Resonance in Medicine, Volume '
+         b'75, February 2016, Pages 688\x96700.\n</li><li>Siow B, Drobnjak I, I'
+         b"anus A, Christie I, Lythgoe M, Alexander D.C. <a class='urllink' hre"
+         b"f='http://www.uni-leipzig.de/diffusion/pdf/volume18/diff_fund_182013"
+         b"1.pdf' rel='nofollow'>Axon radius estimation with Oscillating Gradie"
+         b'nt Spin Echo (OGSE) Diffusion MRI</a>. Diffusion Fundamentals, Volum'
+         b'e 18(1), 2013, Pages 1-6.\n</li><li>Drobnjak I, Cruz G, Alexander'
+         b" D.C <a class='urllink' href='http://dx.doi.org/10.1016/j.micromeso."
+         b"2013.03.004' rel='nofollow'>Optimising oscillating waveform-shape fo"
+         b'r pore size sensitivity in diffusion-weighted MR</a>. Microporous an'
+         b'd Mesoporous Materials, Volume 178, 2013, Pages 11-14.\n</li></ul'
+         b"></li></ul><div class='vspace'></div><h2><a name='toc21' id='toc21'>"
+         b"</a>2.4&ensp;  <a name='myelin' id='myelin'></a> EPSRC Healthcare Pa"
+         b'rtnerships Project.  "Axon and myelin damage assessed using advanced'
+         b' diffusion imaging: from mathematical models to clinical application'
+         b's". 1/09/2011-31/08/2014.</h2>\n<div><span class=\'frame rfloat\'> '
+         b"<img height='170px' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/M"
+         b"RIbiomarkers_SCmap.png' alt='' title='' /></span></div>\n<ul><li>"
+         b'Personnel: Gemma Nedjati-Gilani, Torben Schneider, Bernard Siow, Ura'
+         b'n Ferizi, Francesco Grussu, Daniel Alexander, Claudia Wheeler-Kingsh'
+         b'ott\n</li><li>Summary: This project aims to translate emerging id'
+         b'eas in microstructure imaging to the clinic in the specific applicat'
+         b'ion of multiple sclerosis diagnosis and imaging.  MS has a profound '
+         b'effect on the microstructure of white matter tissue.  The NMR unit a'
+         b"t UCL's institute of neurology lead this project. Their expertise in"
+         b" clinical MRI combined with MIG's mathematical and computational mod"
+         b'elling techniques enable development of new MRI modalities tuned for'
+         b" specific sensitivity to MS pathology.  See <a class='urllink' href="
+         b"'http://www.mribiomarkers.org.uk/' rel='nofollow'>the project websit"
+         b'e</a> for more details.\n</li><li>Selected Publications:\n<ul><li>'
+         b'U. Ferizi, T. Schneider, T. Witzel, L.L Wald, H. Zhang, C. A. M. Whe'
+         b"eler-Kingshott and D.C. Alexander (2015). <a class='urllink' href='h"
+         b"ttp://dx.doi.org/10.1016/j.neuroimage.2015.06.027' rel='nofollow'>Wh"
+         b'ite matter compartment models for in vivo diffusion MRI at 300mT/m. '
+         b'data.</a> Neuroimage, Vol 118 pp. 468-483, 2015.\n</li><li>Nedjat'
+         b"i-Gilani, G.L. et al (2014). <a class='urllink' href='http://www.ncb"
+         b"i.nlm.nih.gov/pubmed/25320807' rel='nofollow'>Machine learning based"
+         b' compartment models with permeability for white matter microstructur'
+         b'e imaging</a>, MICCAI, pp 257-264.\n</li><li>Ferizi, U. et al (20'
+         b"14). <a class='urllink' href='http://dx.doi.org/10.1002/mrm.25080' r"
+         b"el='nofollow'>A ranking of diffusion MRI compartment models with in "
+         b'vivo human brain data</a>, Magnetic Resonance in Medicine, Vol 72, p'
+         b"p 1785-92.\n</li><li>Ferizi, U. et al (2013). <a class='urllink' "
+         b"href='http://www.ncbi.nlm.nih.gov/pubmed/24505651' rel='nofollow'>Th"
+         b'e importance of being dispersed: A ranking of diffusion MRI models f'
+         b'or fibre dispersion using in vivo human brain data</a>, MICCAI, pp 7'
+         b"4-81.\n</li></ul></li></ul><div class='vspace'></div><h2><a name="
+         b"'toc22' id='toc22'></a>2.5&ensp;  <a name='intelligentimaging' id='i"
+         b"ntelligentimaging'></a> EPSRC Program grant.  \x93Intelligent Imagi"
+         b'ng: Motion, Form and Function Across Scale\x94. 1/06/2010\x9731/05'
+         b"/2015. </h2>\n<div><span class='frame rfloat'> <img height='180px"
+         b"' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/IntelligentImaging_"
+         b"logo.png' alt='' title='' /> </span></div>\n<ul><li>Personnel: An"
+         b'drada Ianus, Eleftheria Panagiotaki, Daniel Alexander\n</li><li>S'
+         b"ummary: This <a class='urllink' href='http://gow.epsrc.ac.uk/NGBOVie"
+         b"wGrant.aspx?GrantRef=EP/H046410/1' rel='nofollow'>Program Grant</a> "
+         b"is a collaboration between UCL-CMIC, King's College London and Imper"
+         b'ial to target clinical information obtainable from imaging devices d'
+         b'irectly without necessarily reconstructing images as an intermediate'
+         b" step.  Prof Dave Hawkes (CMIC director) leads the project. MIG's ro"
+         b'le is modelling normal and pathological tissue structure in the pros'
+         b'tate and developing imaging techniques to probe them non-invasively.'
+         b'\n</li><li>Selected Publications:\n<ul><li>E. Panagiotaki, R.W. Ch'
+         b"an, N. Dikaios, J. O'Callaghan, A. Freeman, D. Atkinson, S. Punwani,"
+         b" D.J. Hawkes, and D.C Alexander <a class='urllink' href='http://ovid"
+         b'sp.tx.ovid.com/sp-3.18.0b/ovidweb.cgi?QS2=434f4e1a73d37e8c504983e01e'
+         b'46c99a61d29ae524496461296e48d4a5274aaf0021731864cf4bab6b931eafcfbacb'
+         b'c26e59d4edd729917599545b0c31a925b2cdac9aad5177a6ea23fb6eaa5584d7d127'
+         b'd52dc11513a2fda083aa27dbacdd4fb3d7745693f2e0dd5f040529da6618dca8d032'
+         b'b1fdb7d49367f7ff824df40fefb2340551849afc728ef58cef1cc1b9d19a58039602'
+         b'b112a799ea27d1f4342b7a87b4879ac1c4d6ddf2d3f53df12c6fb8c73f5404616579'
+         b'abcbed88bdf4c5eae075e95f71db2fae58ce40036bc39d13836836d375072e5283b8'
+         b'e5535e840b0c265cdb9071547ca2b058c93f632049dbc0d39ac466ec94b0c368037b'
+         b'195d468f4b8da35f5c8d5a5b61d388403b3ef18f8477c51bf475b5c436b1dda32b8a'
+         b'd06d31c80ae560f25caefbff646651b4059493a50516e764580af527108846d8f947'
+         b'c6d510acf16c9b6fcab273e85e7cd5cc784cb8fdeaff12d4c37b18b199e24da44765'
+         b'd61bb4f5054120ac94e1aeaeee2e16aeefcb73f591d205d853b5594b835cb8b2e22b'
+         b"13c0e53377f5fd375769177dac7c10326a667cfbbf7e9f96fe3ea9df51' rel='nof"
+         b"ollow'>Microstructural characterisation of normal and malignant huma"
+         b'n prostate tissue with VERDICT MRI.</a> Investigative Radiology, 50('
+         b'4), 218\x96227, 2015.\n</li><li>Panagiotaki, E., Walker-Samuel, S., '
+         b'Siow, B., Johnson, P., Rajkumarc, V., Pedley, R., Lythgoe,, Alexande'
+         b"r, D. C. (2014). <a class='urllink' href='http://cancerres.aacrjourn"
+         b"als.org/content/74/7/1902.long' rel='nofollow'>Noninvasive quantific"
+         b'ation of solid tumor microstructure using VERDICT MRI</a>. Cancer Re'
+         b'search 2014;74 (7) 1902-1912 doi:10.1158/0008-5472.CAN-13-2511.\n'
+         b'</li><li>Ianus, A., Siow, B., Drobnjak, I., Zhang, H. and Alexander,'
+         b" D. C. (2013). <a class='urllink' href='http://dx.doi.org/10.1016/j."
+         b"jmr.2012.11.021' rel='nofollow'>Gaussian phase distribution approxim"
+         b'ations for oscillating gradient spin echo diffusion MRI</a>. Journal'
+         b' of Magnetic Resonance 227, pp.25-34.\n</li><li>Ianus, A., Drobnj'
+         b'ak, I., and Alexander, D. C. (2016).  Model-based estimation of micr'
+         b'oscopic anisotropy using diffusion MRI: a simulation study. NMR in B'
+         b"iomedicine, accepted. \n</li></ul></li></ul><div class='vspace'><"
+         b"/div><h2><a name='toc23' id='toc23'></a>2.6&ensp;  <a name='dannyfel"
+         b"lowship' id='dannyfellowship'></a> EPSRC Leadership Fellowship. "
+         b' "Direct measurements of microstructure from MRI." EP/E007748. 1/10/'
+         b'2008\x9730/09/2014. </h2>\n<ul><li>Personnel: Bernard Siow, Ivana Dr'
+         b'obnjak, Matt Hall, Enrico Kaden, Tingting Wang, Simon Richardson, Da'
+         b"niel Alexander\n</li></ul><div><span class='frame rfloat'> <img h"
+         b"eight='180px' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/LF_Axon"
+         b"DiameterMap.png' alt='' title='' /></span></div>\n<div><span clas"
+         b"s='frame rfloat'> <img height='180px' src='http://cmic.cs.ucl.ac.uk/"
+         b"mig/uploads/Main/ActiveImaging_optimizedG.jpg' alt='' title='' /></s"
+         b'pan></div>\n<ul><li>Summary: This project develops and implements'
+         b' a variety of tissue models for microstructure imaging in the brain.'
+         b'  It also develops experiment design optimization techniques that us'
+         b'e those models to identify economical imaging protocols that are ach'
+         b'ievable on live human subjects and patients.  A starting point is me'
+         b'asuring the diameter of axons in white matter of live human subjects'
+         b', which other groups have demonstrated in vitro.  Later stages will '
+         b'use similar approaches to target specific cellular changes known to '
+         b"occur in particular diseases, such as Alzheimer's disease, epilepsy "
+         b'and multiple sclerosis.  The intended output is MRI techniques speci'
+         b'fically tuned for the pathologies of those diseases, which should im'
+         b'prove diagnosis, prognosis and treatment planning and be valuable fo'
+         b'r drug trials.\n</li><li>Selected Publications:\n<ul><li>E. Kaden,'
+         b" F. Kruggel, and D.C. Alexander. <a class='urllink' href='http://dx."
+         b"doi.org/10.1002/mrm.25734' rel='nofollow'>Quantitative mapping of th"
+         b'e per-axon diffusion coefficients in brain white matter.</a> Magneti'
+         b'c Resonance in Medicine (In Press).\n</li><li>Richardson, S., Sio'
+         b'w, B., Panagiotaki, E., Schneider, T., Lythgoe, M. F., Alexander, D.'
+         b" C.<a class='urllink' href='http://dx.doi.org/10.1002/mrm.25012' rel"
+         b"='nofollow'>Viable and fixed white matter: diffusion magnetic resona"
+         b'nce comparisons and contrasts at physiological temperature</a> Magne'
+         b'tic Resonance in Medicine 72, 1151-61, 2014.\n</li><li>Richardson'
+         b', S., Siow, B., Batchelor, A. M., Lythgoe, M. F., Alexander, D. C.<a'
+         b" class='urllink' href='http://dx.doi.org/10.1002/mrm.24410' rel='nof"
+         b"ollow'>A viable isolated tissue system: a tool for detailed MR measu"
+         b'rements and controlled perturbation in physiologically stable tissue'
+         b'</a> Magnetic Resonance in Medicine 69, 1603-10, 2013.\n</li><li>'
+         b'Siow, B., Drobnjak, I., Chatterjee, A., Lythgoe, M. F., Alexander, D'
+         b". C.<a class='urllink' href='http://dx.doi.org/10.1016/j.jmr.2011.10"
+         b".004' rel='nofollow'>Estimation of pore size in a microstructure pha"
+         b'ntom using the optimised gradient waveform diffusion weighted NMR se'
+         b'quence</a> Journal of Magnetic Resonance 214(1), 51-60, 2012.\n</'
+         b"li><li>I. Drobnjak, D.C. Alexander <a class='urllink' href='http://d"
+         b"x.doi.org/10.1016/j.jmr.2011.07.017' rel='nofollow'>Optimising time-"
+         b'varying gradient orientation for microstructure sensitivity in diffu'
+         b'sion-weighted MR</a> Journal of Magnetic Resonance 212(2), 344-354, '
+         b'2011.\n</li><li>I. Drobnjak, H. Zhang, M.G. Hall, D.C. Alexander '
+         b"<a class='urllink' href='http://dx.doi.org/10.1016/j.jmr.2011.02.022"
+         b"' rel='nofollow'>The matrix formalism for generalised gradients with"
+         b' time-varying orientation in diffusion NMR</a> Journal of Magnetic R'
+         b'esonance 210, 151-157, 2011.\n</li><li>I. Drobnjak, B. Siow, D.C.'
+         b" Alexander <a class='urllink' href='http://dx.doi.org/10.1016/j.jmr."
+         b"2010.05.017' rel='nofollow'>Optimizing gradient waveforms for micros"
+         b'tructure sensitivity in diffusion-weighted MR</a> Journal of Magneti'
+         b'c Resonance 206, 41-51, 2010.\n</li><li>D.C. Alexander, P.L. Hubb'
+         b'ard, M.G. Hall, L.A. Moore, M. Ptito, G.J.M. Parker and T.D. Dyrby <'
+         b"a class='urllink' href='http://dx.doi.org/10.1016/j.neuroimage.2010."
+         b"05.043' rel='nofollow'>Orientationally invariant indices of axon dia"
+         b'meter and density from diffusion MRI</a> NeuroImage 54, 1374-1389, 2'
+         b"010.\n</li><li>Alexander,D.C. (2008). <a class='urllink' href='ht"
+         b'tp://www3.interscience.wiley.com/cgi-bin/fulltext/121356623/PDFSTART'
+         b"' rel='nofollow'>A general framework for experiment design in diffus"
+         b'ion MRI and its application in measuring direct tissue-microstructur'
+         b'e features.</a> Magnetic Resonance in Medicine 60, 439-448. ISSN: 07'
+         b"40-3194 \n</li></ul></li></ul><div class='vspace'></div><h2><a na"
+         b"me='toc24' id='toc24'></a>2.7&ensp;  <a name='connect' id='connect'>"
+         b'</a> European Commission (Future and Emerging Technologies program).'
+         b'  \x93CONNECT: Consortium of NeuroImagers for the Non-invasive Expl'
+         b'oration of Brain Connectivity and Tractography\x94. 1/01/2010\x973'
+         b'1/10/2012.  </h2>\n<ul><li>Personnel: Gary Zhang, Daniel Alexande'
+         b"r\n</li></ul><div><span class='frame rfloat'> <img height='175px'"
+         b" src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/connect_logo3.jpg' a"
+         b"lt='' title='' /></span></div>\n<ul><li>Summary: The <a class='ur"
+         b"llink' href='http://neuroimaging.tau.ac.il/CONNECT/' rel='nofollow'>"
+         b'CONNECT</a> consortium brings together the very best among the Europ'
+         b"ean Union's world-leading diffusion MRI community with the aim to cr"
+         b'eate definitive atlases of the brain connectivity for the healthy de'
+         b'veloping and adult brain that will serve as a long-lasting  referenc'
+         b'e for the neuroscience and medical community.  The completion of thi'
+         b's project will fill a critical need for the comprehensive mapping of'
+         b' the connections and tissue microstructure of the human brain.  The '
+         b'project is coordinated by Dr. Yaniv Assaf (Tel Aviv University), Pro'
+         b'f. Daniel Alexander (UCL), and Prof. Derek K Jones (Cardiff Universi'
+         b'ty), and involves 12 research teams in 10 institutes across 7 countr'
+         b'ies.  The sub-aim of the UCL team is in the design and implementatio'
+         b'n of microstructure imaging and analysis tools and their application'
+         b' to the direct mapping of tissue microstructure of the human bra'
+         b'in.\n</li><li>Selected Publications:\n<ul><li>Lundell H, Alexander'
+         b" DC, Dyrby TB (2014). <a class='urllink' href='http://dx.doi.org/10."
+         b"1002/nbm.3137' rel='nofollow'>High angular resolution diffusion imag"
+         b'ing with stimulated echoes: compensation and correction in experimen'
+         b't design and analysis</a>. NMR in Biomedicine Vol. 27, pp. 918-2'
+         b'5. \n</li><li>Assaf Y, Alexander DC, Jones DK, Bizzi A, Behrens T'
+         b'E, Clark CA, Cohen Y, Dyrby TB, Huppi PS, Knoesche TR, Lebihan D, Pa'
+         b'rker GJ, Poupon C; CONNECT consortium, Anaby D, Anwander A, Bar L, B'
+         b'arazany D, Blumenfeld-Katzir T, De-Santis S, Duclap D, Figini M, Fis'
+         b'chi E, Guevara P, Hubbard P, Hofstetter S, Jbabdi S, Kunz N, Lazeyra'
+         b's F, Lebois A, Liptrot MG, Lundell H, Mangin JF, Dominguez DM, Moroz'
+         b'ov D, Schreiber J, Seunarine K, Nava S, Poupon C, Riffert T, Sasson '
+         b'E, Schmitt B, Shemesh N, Sotiropoulos SN, Tavor I, Zhang HG, Zhou FL'
+         b" (2013). <a class='urllink' href='http://dx.doi.org/10.1016/j.neuroi"
+         b"mage.2013.05.055' rel='nofollow'>The CONNECT project: Combining macr"
+         b'o- and micro-structure</a>. Neuroimage Vol. 80, pp. 273-282. \n</'
+         b"li><li>Alexander DC, Dyrby TB (2013). <a class='urllink' href='http:"
+         b"//arxiv.org/abs/1305.7367' rel='nofollow'>Diffusion imaging with sti"
+         b'mulated echoes: signal models and experiment design</a>. arXiv:1305.'
+         b'7367 [physics.med-ph]. \n</li><li>Dyrby TB, S\xf8gaard LV, Hall MG, '
+         b"Ptito M, Alexander DC (2013). <a class='urllink' href='http://dx.doi"
+         b".org/10.1002/mrm.24501' rel='nofollow'>Contrast and stability of the"
+         b' axon diameter index from microstructure imaging with diffusion MRI<'
+         b'/a>. Magnetic Resonance in Medicine, Vol. 70, pp. 711-21.\n</li><'
+         b'li>Zhang H, Schneider, T, Wheeler-Kingshott, CAM, Alexander DC (2012'
+         b"). <a class='urllink' href='http://dx.doi.org/10.1016/j.neuroimage.2"
+         b"012.03.072' rel='nofollow'>NODDI: practical in vivo neurite orientat"
+         b'ion dispersion and density imaging of the human brain</a>. NeuroImag'
+         b'e, Vol. 61(5), pp. 1000-1016 .\n</li><li>Zhang H, Dyrby T, Alexan'
+         b"der DC (2011). <a class='urllink' href='http://www.springerlink.com/"
+         b"content/h315411r17227r6g/fulltext.pdf' rel='nofollow'>Axon diameter "
+         b'mapping in crossing fibers with diffusion MRI</a>. Medical Image Com'
+         b'puting and Computer Assisted Intervention (MICCAI), Part II, LNCS 68'
+         b'92, pp 82-89.\n</li><li>Zhang H, Hubbard P, Parker GJ, Alexander '
+         b"DC (2011). <a class='urllink' href='http://dx.doi.org/10.1016/j.neur"
+         b"oimage.2011.01.084' rel='nofollow'>Axon diameter mapping in the pres"
+         b'ence of orientation dispersion with diffusion MRI</a>. NeuroImage, V'
+         b'ol. 56, pp. 1301-1315.\n</li><li>Zhang H, Barazany D, Assaf Y, Lu'
+         b"ndell H M, Alexander D C, and Dyrby T B (2011). <a class='urllink' h"
+         b"ref='http://submissions.miracd.com/ismrm2011/proceedings/files/83.pd"
+         b"f' rel='nofollow'>A comparative study of axon diameter imaging techn"
+         b'iques using diffusion MRI</a>. Proceedings of the International Soci'
+         b'ety of Magnetic Resonance in Medicine (ISMRM) 2011, pp. 83-83.\n<'
+         b"/li><li>Zhang H, Alexander DC (2010). <a class='urllink' href='http:"
+         b"//www.springerlink.com/content/y65768926104658m/fulltext.pdf' rel='n"
+         b"ofollow'>Axon diameter mapping in the presence of orientation disper"
+         b'sion with diffusion MRI</a>. Medical Image Computing and Computer As'
+         b'sisted Intervention (MICCAI), Part I, LNCS 6361, pp 640-647.\n</l'
+         b"i><li>Sherbondy, AJ, Rowe, MC, Alexander DC (2010). <a class='urllin"
+         b"k' href='http://www.springerlink.com/content/l6m1172755542202/fullte"
+         b"xt.pdf' rel='nofollow'>MicroTrack: an algorithm for concurrent proje"
+         b'ctome and microstructure estimation.</a>. Medical Image Computing an'
+         b'd Computer Assisted Intervention (MICCAI), Part I, LNCS 6361, pp 183'
+         b"-190\n</li></ul></li></ul><div class='vspace'></div><h2><a name='"
+         b"toc25' id='toc25'></a>2.8&ensp;  <a name='torbenisrt' id='torbenisrt"
+         b'\'></a> International Spinal Research Trust (ISRT). "Spinal Cord '
+         b'Diffusion Imaging: Challenging Characterization and Prognostic Value'
+         b"'' Natalie Rose-Barr Studentship.  1/10/2008--30/9/2011. </h2>\n<"
+         b'ul><li>Personnel: Torben Schneider, Daniel Alexander, Claudia Wheele'
+         b"r-Kingshott.\n</li></ul><div><span class='frame rfloat'> <img hei"
+         b"ght='125px' src='http://cmic.cs.ucl.ac.uk/mig/uploads/Main/sc_ax.jpg"
+         b"' alt='' title='' /></span></div>\n<ul><li>Summary: Magnetic Reso"
+         b'nance Imaging has shown to be very useful in evaluating several aspe'
+         b'cts of spinal cord injury (SCI) but traditional MRI has limited pred'
+         b'ictive value because it cannot readily distinguish important fine st'
+         b'ructural detail within the cord. Diffusion MRI is a very promising t'
+         b'echnique that is sensitive to microstructural tissue characteristics'
+         b' but it has yet to be applied to the spinal cord. In this project we'
+         b' investigate the potential of existing methods like diffusion tensor'
+         b' imaging and develop new techniques that are more sensitive to speci'
+         b'fic tissue characteristics like axon diameter and density to help un'
+         b'derstanding the underlying structural changes in SCI. With new SCI t'
+         b'reatment strategies on the horizon, this technique will provide nove'
+         b'l biomarkers for measuring therapy outcome and will be of great sign'
+         b'ificance in monitoring the success of future clinical trials.\n</'
+         b'li><li>Selected Publications:\n<ul><li>Schneider T, Wheeler-Kings'
+         b'hott CAM, Alexander DC. (2010). In-vivo estimates of axonal characte'
+         b'ristics using optimized diffusion MRI protocols for single fibre ori'
+         b'entation. 13th International Conference on Medical Image Computing a'
+         b'nd Computer-Assisted Intervention (MICCAI2010).\n</li><li>Schneid'
+         b'er T, Alexander DC, Wheeler-Kingshott CAM. (2010). Optimized diffusi'
+         b'on MRI protocols for estimating axon diameter with known fibre orien'
+         b'tation. International society for magnetic resonance in medicine (IS'
+         b"MRM). Stockholm. p 1561.\n</li></ul></li></ul><div class='vspace'"
+         b"></div><h2><a name='toc26' id='toc26'></a>2.9&ensp;  <a name='martin"
+         b'randomeffects\' id=\'martinrandomeffects\'></a> EPSRC.  "Monte Carl'
+         b'o random effects modelling in diffusion MRI: a new window on microst'
+         b"ructure and white matter architecture.''  EP/G025452/01.  1/10/2008-"
+         b'-30/9/2011.</h2>\n<ul><li>Personnel: Martin King, Daniel Alexande'
+         b'r, David Gadian, Chris Clark\n</li><li>Summary: Microstructure im'
+         b'aging is hard, because sensitivity of MRI measurements to interestin'
+         b'g features of tissue microstructure, such as axon diameter or the si'
+         b'ze of cancer cells, is low, particularly in measurements from clinic'
+         b'al MRI scanners.  This project uses advanced statistical techniques '
+         b'to pool information from similar image voxels and thus increase sens'
+         b'itivity to the subtle changes we look for in microstructure imaging.'
+         b'  Early stages of the project use random effects modelling for incre'
+         b'asing the accuracy of estimates of crossing fibre estimates.  Later '
+         b'stages will use the same approach for mapping axon diameter and dens'
+         b'ity in live human subjects.\n</li><li>Selected Publications:\n<ul>'
+         b"<li>King MD, Gadian DG, Clark CA (2009). <a class='urllink' href='ht"
+         b'tp://www.sciencedirect.com/science?_ob=MImg&amp;_imagekey=B6WNP-4TRK'
+         b'0NX-1-W&amp;_cdi=6968&amp;_user=125795&amp;_pii=S1053811908010744&am'
+         b'p;_orig=search&amp;_coverDate=02%2F01%2F2009&amp;_sk=999559996&amp;v'
+         b'iew=c&amp;wchp=dGLbVlb-zSkzk&amp;md5=ea6e13e3b03a4c98a9ea59558f1e00c'
+         b"a&amp;ie=/sdarticle.pdf' rel='nofollow'>A random effects modelling a"
+         b'pproach to the crossing-fibre problem in tractography.</a> Neuroimag'
+         b"e 44(3):753-68.\n</li></ul></li></ul><div class='vspace'></div><h"
+         b"2><a name='toc27' id='toc27'></a>2.10&ensp;  <a name='gemmagsk' id='"
+         b"gemmagsk'></a> EPSRC CASE Studentship with GSK.  28/9/2008--27/9/201"
+         b'1. </h2>\n<ul><li>Personnel: Gemma Morgan, Daniel Alexander\n</li>'
+         b"</ul><div><span class='frame rfloat'> <img height='125px' src='http:"
+         b"//cmic.cs.ucl.ac.uk/mig/uploads/Main/GSKCase.png' alt='' title='' />"
+         b'</span></div>\n<ul><li>Summary: Schizophrenia is a severe psychia'
+         b'tric disease which affects approximately 1% of the population. Both '
+         b'structural and functional changes to the brain have been implicated '
+         b'in the disease, although we still have a very limited understanding '
+         b'of what these changes are. Previous structural studies have used DTI'
+         b' to measure changes (often conflicting!) in FA and MD, but these ind'
+         b'ices are vague and non-specific. In this project, we aim to identify'
+         b' new imaging biomarkers which directly relate to the underlying micr'
+         b'ostructure and develop techniques for mapping the microstructural ch'
+         b'anges in schizophrenia in a clinical setting.\n</li><li>Selected '
+         b'publications:\n<ul><li>Morgan GL, Zhang H, Whitcher B and Alexand'
+         b'er DC. (2010). A spatial variation model of white matter microstruct'
+         b'ure. Workshop on Computational Diffusion MRI, Medical Image Computin'
+         b'g and Computer-assisted Intervention (MICCAI)\n</li><li>Morgan GL'
+         b', Zhang H, Whitcher B and Alexander DC. (2011). A Bayesian framework'
+         b' for modelling the regional variation of white matter microstructure'
+         b'. Medical Image Understanding and Analysis\n</li></ul></li></ul><'
+         b"div class='vspace'></div><h2><a name='toc28' id='toc28'></a>2.11&ens"
+         b"p;  <a name='lauraphdplus' id='lauraphdplus'></a> EPSRC Doctoral Pri"
+         b'ze (PhD+). \x93Differentiating grades of brain tumour with DW-M'
+         b'RI\x94. 1/01/2011-1/01/2012.</h2>\n<ul><li>Personnel: Eleftheria Pan'
+         b"agiotaki, Daniel Alexander\n</li><li>Summary: The <a class='urlli"
+         b"nk' href='http://www.ucl.ac.uk/beams/phd/funding/phd-plus' rel='nofo"
+         b"llow'>EPSRC Doctoral prize</a> supports the award of fellowships of "
+         b"up to one year's duration. The scheme allows students to advance the"
+         b'ir PhD research as fellows. The motivation for this project has been'
+         b' the replacement of biopsy with non-invasive imaging to determine br'
+         b'ain tumour grade. An accurate classification of the brain tumour gra'
+         b'de is imperative as it determines the treatment plan for the patient'
+         b'. However, the standard classification comes from histopathology aft'
+         b'er the traumatic and uncomfortable biopsy which carries its own risk'
+         b's of mortality. The aim of this research has been to develop models '
+         b'of the diffusion-weighted (DW-MRI) signal in brain tumours ultimatel'
+         b'y to enable non-invasive differentiation between low and high grades'
+         b'. The plan for this one year  was to identify a parsimonious paramet'
+         b'ric model relating all important microstructure indices, such as cel'
+         b'lularity and mitotic index, to the signal. As proof of concept, the '
+         b'project investigated animal models of cancer and brain tumour biopsy'
+         b' samples which reflect the clinical condition.\n</li><li>Selected'
+         b' Publications:\n<ul><li>Panagiotaki, E., Walker-Samuel, S., Siow,'
+         b' B., Johnson, P., Rajkumarc, V., Pedley, R., Lythgoe,, Alexander, D.'
+         b" C. (2014). <a class='urllink' href='http://cancerres.aacrjournals.o"
+         b"rg/content/74/7/1902.long' rel='nofollow'>Noninvasive quantification"
+         b' of solid tumor microstructure using VERDICT MRI</a>. Cancer Researc'
+         b'h 2014;74 (7) 1902-1912 doi:10.1158/0008-5472.CAN-13-2511.\n</li>'
+         b"</ul></li></ul><div class='vspace'></div><h2><a name='toc29' id='toc"
+         b"29'></a>2.12&ensp;  <a name='mattmontecarlo' id='mattmontecarlo'></a"
+         b'> EPSRC.  "Monte-Carlo simulation framework for diffusion MRI.\'\''
+         b'  EP/E056938/1.  1/9/07--31/8/10. </h2>\n<ul><li>Personnel: Eleft'
+         b'heria Panagiotaki, Matt Hall, Daniel Alexander\n</li></ul><div><s'
+         b"pan class='frame rfloat'> <img height='125px' src='http://cmic.cs.uc"
+         b"l.ac.uk/mig/uploads/Main/asparagus.png' alt='' title='' /></span></d"
+         b'iv>\n<ul><li>Summary: A frequent difficulty with new imaging meth'
+         b'odologies, particularly imaging in highly complicated structures, is'
+         b' that the lack of a ground truth with which to validate results. Thi'
+         b's project involves constructing a Monte-Carlo simulation framework f'
+         b'or diffusion MRI which is flexible and capable of synthesising data '
+         b'from highly detailed environments. The simulation generates trajecto'
+         b'ries for a population of diffusing spins in a known environment that'
+         b' restricts their motion as well as simulating the action of an appro'
+         b'priate MR pulse sequence in order to directly generate diffusion att'
+         b'enuated signals.\n</li><li>A significant part of this project has'
+         b' involved constructing highly detailed triangle-mesh substrates from'
+         b' Confocal Laser Microscopy images of tissue from biological samples.'
+         b' We acquire a stack of images which are then processed into a mesh o'
+         b'f a few hundred-thousand triangles which are then imported into the '
+         b'simulation and used to generate signals. We can then compare the sim'
+         b'ulated signals the results of putting the same sample the MRI scanne'
+         b'r. This gives us confidence that the simulation is a capable of clos'
+         b'ely reproducing data from a complex sample.\n</li><li>The simulat'
+         b'ion has been used in many studies of new analysis methods, including'
+         b' several of the other projects on this page. In addition to triangle'
+         b' meshes, it can use cylinders of different radii and packings (order'
+         b'ed and disordered) and is capable of simulating an almost unlimited '
+         b'set of pulse-sequence waveforms.\n</li><li>Selected Publications:'
+         b"\n<div class='vspace'></div><ul><li>Panagiotaki, E., Schneider, T"
+         b'., Siow, B., Hall, M. G., Lythgoe, M. F., Alexander, D. C. (2012). <'
+         b"a class='urllink' href='http://dx.doi.org/10.1016/j.neuroimage.2011."
+         b"09.081' rel='nofollow'>Compartment models of the diffusion MR signal"
+         b' in brain white matter: A taxonomy and comparison</a>. Neuroimage 59'
+         b'(3), 2241-2254 doi:10.1016/j.neuroimage.2011.09.081\n</li><li>Pan'
+         b'agiotaki E, Hall MG, Zhang H, Siow B, Lythgoe MF, Alexander DC. (201'
+         b"0). <a class='urllink' href='http://www.ucl.ac.uk/cabi/PDF/2010_Pana"
+         b"giotaki_et_al._Lecture_Notes_in_Computer_Science.pdf' rel='nofollow'"
+         b'>High-fidelity meshes from tissue samples for diffusion MRI simulati'
+         b'ons</a>. Medical Image Computing and Computer Assisted Intervention '
+         b'(MICCAI).\n</li><li>Panagiotaki,E., Fonteijn,H., Siow,B., Hall,M.'
+         b"G., Price,A., Lythgoe,M.F., Alexander,D.C. (2009). <a class='urllink"
+         b"' href='http://www.ucl.ac.uk/cabi/PDF/2009_Panagiotaki_et_al._Lectur"
+         b"e_Notes_in_Computer_Science.pdf' rel='nofollow'>Two-compartment mode"
+         b'ls of the diusion MR signal in brain white matter</a>. Medical Image'
+         b' Computing and Computer Assisted Intervention (MICCAI) London:Spring'
+         b'er, 1, 329-336\n</li><li>Hall,M.G., Alexander,D.C. (2009). <a cla'
+         b"ss='urllink' href='http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&am"
+         b"p;arnumber=4797853&amp;isnumber=5224002' rel='nofollow'>Convergence "
+         b'and Parameter Choice for Monte-CarloSimulations of Diffusion MRI.</a'
+         b'> IEEE Transactions on Medical Imaging 28(9), 1354-1364. ISSN: 0278-'
+         b"0062 \n</li></ul></li></ul><div class='vspace'></div><h2><a name="
+         b"'toc30' id='toc30'></a>2.13&ensp;  <a name='hubertfrenchay' id='hube"
+         b'rtfrenchay\'></a> NHS, Frenchay Hospital.  "The optimisation of d'
+         b'iffusion imaging to quantify fluid flow within the central nervous s'
+         b"ystem'' 1/1/2008--31/12/2009.  </h2>\n<ul><li>Personnel: Hubert F"
+         b'onteijn, Daniel Alexander\n</li><li>Summary: The delivery of drug'
+         b's to the brain via normal ways (i.e. intraveneously) is complicated '
+         b'because of the Blood-Brain Barrier. An alternative to intraveneous d'
+         b'elivery is Convection Enhanced Delivery (CED). In CED a catheter is '
+         b'placed directly into the brain from which drugs are infused. Drugs e'
+         b'ither fill up the volume locally, or follow white matter paths to re'
+         b'ach more distant brain regions. This might for instance be one or se'
+         b'veral tumour sites. CED can only be used when we know beforehand whe'
+         b're the drugs will end up. The goal of this project is to develop acc'
+         b'urate simulations of CED. We use DWI-derived parameters, such as fib'
+         b're direction, as an input for these simulations and assess their acc'
+         b'uracy. We also work on infusion planning algorithms, which determine'
+         b' what the optimal infusion site is given a Region of Interest.\n<'
+         b'/li><li>Selected Publications\n<ul><li>Fonteijn, H.M., Woodhouse,'
+         b' M., White, E., Gill, S.S., Alexander, D.C. Determining infusion sit'
+         b'es for Convection Enhanced Delivery using probabilistic tractography'
+         b'. Presented at Computational Diffusion MRI workshop, Medical Image C'
+         b'omputing and Computer Assisted Intervention (MICCAI), Beijing, 2'
+         b"010\n</li></ul></li></ul><div class='vspace'></div><h2><a name='t"
+         b"oc31' id='toc31'></a>2.14&ensp;  <a name='tonycase' id='tonycase'></"
+         b'a> EPSRC CASE Studentship.  1/10/2005--31/9/2008.</h2>\n<ul><li>P'
+         b'ersonnel: Tony Shepherd, Daniel Alexander\n</li></ul><div><span c'
+         b"lass='frame rfloat'> <img height='125px' src='http://cmic.cs.ucl.ac."
+         b"uk/mig/uploads/Main/ts.png' alt='' title='' /></span></div>\n<ul>"
+         b'<li>Summary: This project developed an interactive segmentation syst'
+         b'em for outlining regions of interest in images.  The application of '
+         b'interest was lesion contouring in medical imaging, but the system ha'
+         b's broader potential application.  The key technological advance was '
+         b'to devise statistical shape models that do not require shapes with d'
+         b'istinctive and consistent features.  Experiments demonstrate that mo'
+         b'delling the shapes of lesions in this way reduces the interaction ti'
+         b'me required by users outlining regions of interest.\n</li><li>Sel'
+         b'ected Publications:\n<ul><li>Shepherd, T, Prince, SJD, Alexander,'
+         b" DC (2012) <a class='urllink' href='http://dx.doi.org/10.1109/TMI.20"
+         b"12.2196285' rel='nofollow'>Interactive Lesion Segmentation with Shap"
+         b'e Priors from Off-line and On-line Learning</a>. IEEE Trans. Medical'
+         b' Imaging, Vol. 31(9), pp. 1698-1712.\n</li><li>Shepherd,T., Alexa'
+         b'nder,D.C. (2008). Supervised Methods for Perfect Segmentation in Med'
+         b'ical Images. IEEE International Conference on Image Processing, 1460'
+         b"-1463 \n</li></ul></li></ul><div class='vspace'></div><h2><a name"
+         b"='toc32' id='toc32'></a>2.15&ensp;  <a name='mfr' id='mfr'></a> EPSR"
+         b'C.  "Multiple-fibre reconstruction in diffusion MRI\'\'.  GR/T2285'
+         b'8/01.  1/1/2005--31/12/2007.</h2>\n<ul><li>Personnel: Kiran Seuna'
+         b"rine, Matt Hall, Daniel Alexander\n</li></ul><div><span class='fr"
+         b"ame rfloat'> <img height='540px' src='http://cmic.cs.ucl.ac.uk/mig/u"
+         b"ploads/Main/MFR_Examples.png' alt='' title='' /></span></div>\n<u"
+         b'l><li>Summary: At the start of this project, multi-fibre reconstruct'
+         b'ion algorithms (often called HARDI algorithms, although HARDI really'
+         b' refers to the imaging protocol) were just beginning to emerge.  The'
+         b' aim was to develop and validate the algorithms to the point where t'
+         b'hey could be used routinely in tractography or biomedical studies of'
+         b' tissue microstructure.  The project implemented a variety of techni'
+         b'ques within the Camino toolkit, as well as algorithms for exploiting'
+         b' them in tractography.  It produced several review papers on the top'
+         b'ic.\n</li><li>Selected Publications:\n<ul><li>Seunarine,K.K.,Alexa'
+         b"nder,D.C. (2009) <a class='urllink' href='http://www.cs.ucl.ac.uk/st"
+         b"aff/d.alexander/Papers/MFR_Chapter_4_2nd_edition.pdf' rel='nofollow'"
+         b'>Multiple fibres: beyond the diffusion tensor.</a>  Chapter in <em>D'
+         b'iffusion MRI: From quantitative measurement to in-vivo neuroanatomy<'
+         b'/em> edited by Johansen-Berg,H. and Behrens,T.E.B., Elsevier.\n</'
+         b'li><li>Seunarine,K.K., Cook,P.A., Hall,M.G., Embleton K, Parker,G.J.'
+         b", Alexander,D.C. (2007). <a class='urllink' href='http://www.cs.ucl."
+         b"ac.uk/staff/ucacdxa/Papers/SeunarineMMBIA07.pdf' rel='nofollow'>Expl"
+         b'oiting Peak anisotropy for tracking through complex structures.</a> '
+         b'ICCV workshop on Mathematical methods in biomedical image analysis ('
+         b"MMBIA)\n</li><li>Alexander,D.C. (2005). <a class='urllink' href='"
+         b"http://www.cs.ucl.ac.uk/staff/D.Alexander/Papers/MESD.pdf' rel='nofo"
+         b"llow'>Maximum entropy spherical deconvolution for diffusion MRI.</a>"
+         b' Information Processing in Medical Imaging, Christensen,G.E., Sonka,'
+         b'M. (ed.) Lecture notes in computer science series. New York:Springer'
+         b", 3565, 76-87\n</li><li>Alexander,D.C. (2005). <a class='urllink'"
+         b" href='http://www.cs.ucl.ac.uk/staff/D.Alexander/Papers/NYAS05.pdf' "
+         b"rel='nofollow'>Multiple fibre reconstruction algorithms for diffusio"
+         b'n MRI.</a> Annals of the New York Academy of Sciences 1046, 113-133.'
+         b' ISSN: 0077-8923\n</li><li>Alexander,D.C., Barker,G.J. (2005). <a'
+         b" class='urllink' href='http://dx.doi.org/10.1016/j.neuroimage.2005.0"
+         b"4.008' rel='nofollow'>Optimal imaging parameters for fibre-orientati"
+         b'on estimation in diffusion MRI.</a> NeuroImage 27, 357-367. ISSN: 10'
+         b'53-8119\n</li><li>Parker,G.J.M., Alexander,D.C. (2005). <a class='
+         b"'urllink' href='http://eprints.ucl.ac.uk/archive/00000761/01/ParkerP"
+         b"TRS05.pdf' rel='nofollow'>Probabilistic anatomical connectivity deri"
+         b'ved from the microscopic persistent angular structure of cerebral ti'
+         b'ssue.</a> Philosophical Transactions of the Royal Society: B 360(145'
+         b'7), 893-902. ISSN: 0264-3839 \n</li><li>Jansons,K.M., Alexander,D'
+         b".C. (2003). <a class='urllink' href='http://www.iop.org/EJ/article/0"
+         b"266-5611/19/5/303/ip3503.pdf' rel='nofollow'>Persistent Angular Stru"
+         b'cture: New Insights from Diffusion Magnetic Resonance Imaging Data.<'
+         b'/a> Inverse Problems 19, 1031-1046. ISSN: 0266-5611 \n</li><li>Al'
+         b"exander,D.C., Barker,G.J., Arridge,S.R. (2002). <a class='urllink' h"
+         b"ref='http://download.interscience.wiley.com/cgi-bin/fulltext?ID=9751"
+         b"6030&amp;PLACEBO=IE.pdf&amp;mode=pdf' rel='nofollow'>Detection and m"
+         b'odeling of non-Gaussian apparent diffusion coefficient profiles in h'
+         b'uman brain data.</a> Magnetic Resonance in Medicine 48(2), 331-340. '
+         b"ISSN: 0740-3194\n</li></ul></li></ul><div class='vspace'></div><h"
+         b"2><a name='toc33' id='toc33'></a>2.16&ensp;  <a name='chrissortex' i"
+         b"d='chrissortex'></a> EPSRC EngD studentship (Sortex).  1/11/2004--31"
+         b'/10/2007. </h2>\n<ul><li>Personnel: Chris Senanayake, Daniel Alex'
+         b'ander\n</li><li>Summary: This project developed methods to identi'
+         b'fy colours of objects in CCD images independent of lighting conditio'
+         b'ns.  It had applications in the food industry.\n</li><li>Selected'
+         b' Publications:\n<ul><li>Senanayake,C., Alexander,D.C. (2007). Col'
+         b'our transfer by feature-based histogram registration. British Machin'
+         b'e Vision Conference, 1, 429-438 \n</li></ul></li></ul><div class='
+         b"'vspace'></div><h2><a name='toc34' id='toc34'></a>2.17&ensp;  <a nam"
+         b"e='shahrumphilips' id='shahrumphilips'></a> EPSRC EngD studentship ("
+         b'Philips Medical Systems).  1/10/04--30/9/07. </h2>\n<ul><li>Perso'
+         b'nnel: Shahrum Nedjati-Gilani, Daniel Alexander\n</li></ul><div><s'
+         b"pan class='frame rfloat'> <img height='125px' src='http://cmic.cs.uc"
+         b"l.ac.uk/mig/uploads/Main/sng.png' alt='' title='' /></span></div"
+         b'>\n<ul><li>Summary: This project aimed to develop techniques for '
+         b"identifying fibre crossing in human diffusion MRI scans.  Shahrum's "
+         b'thesis shows experiments with model selection algorithms to distingu'
+         b'ish one, two and three fibre crossings. He also develops a model-bas'
+         b'ed super-resolution algorithm that can identify the interfaces betwe'
+         b'en fibres to subvoxel accuracy.\n</li><li>Selected Publications:\n'
+         b"<ul><li>Nedjati-Gilani, S., Alexander, D.C., (2009). <a class='urlli"
+         b"nk' href='http://www.cs.ucl.ac.uk/staff/d.alexander/Papers/NedjatiGi"
+         b"laniDMFC09.pdf' rel='nofollow'>Models for fanning and bending sub-vo"
+         b'xel structures in diffusion MRI.</a> Proceedings of the DMFC MICCAI '
+         b'2009 Workshop. London, UK.\n</li><li>Nedjati-Gilani, S. (2008). <'
+         b"a class='urllink' href='http://shahrum.co.uk/sng_thesis.pdf' rel='no"
+         b"follow'>Reconstruction of Complex White Matter Architecture from Dif"
+         b'fusion MRI.</a> University of London PhD Thesis.\n</li><li>Nedjat'
+         b"i-Gilani,S., Parker,G.J., Alexander,D.C. (2008). <a class='urllink' "
+         b"href='http://vision.lbl.gov/People/han/isbi2008/pdfs/0000875.pdf' re"
+         b"l='nofollow'>Regularized Super-Resolution for Diffusion MRI.</a> IEE"
+         b'E International Symposium on Biomedical Imaging: From Nano to Macro '
+         b"(ISBI) , 875-878\n</li></ul></li></ul><div class='vspace'></div><"
+         b"h2><a name='toc35' id='toc35'></a>2.18&ensp;  <a name='faststream' i"
+         b'd=\'faststream\'></a> EPSRC Fast-stream grant.  "Registration of D'
+         b"T MRI''. GR/R13715/01.  1/2/2001--31/1/2004.  </h2>\n<ul><li>Pers"
+         b'onnel: Kathleen Curran, Daniel Alexander\n</li><li>Summary: This '
+         b'project studied techniques for registration of diffusion tensor imag'
+         b'es.  Registration of these images is complicated by the orientationa'
+         b'l information at each image voxel, which must be preserved through w'
+         b'arps of the image.  The TMI 2001 paper below provides algorithms for'
+         b' preserving orientation through image warps.  Later papers describe '
+         b'how we can exploit that information for improving image matching and'
+         b' registration.\n</li><li>Selected Publications:\n<ul><li>Zhang,H.,'
+         b" Yushkevich,P.A., Alexander,D.C., Gee,J.C. (2006). <a class='urllink"
+         b"' href='http://dx.doi.org/10.1016/j.media.2006.06.004' rel='nofollow"
+         b"'>Deformable registration of diffusion tensor MR images with explici"
+         b't orientation optimization</a>. Medical image analysis 10(5), 764-78'
+         b'5. ISSN: 1361-8415\n</li><li>Gee,J.C., Alexander,D.C. (2006). <a '
+         b"class='urllink' href='http://www.cs.ucl.ac.uk/staff/ucacdxa/Papers/G"
+         b"eeVIPTF06.pdf' rel='nofollow'>Diffusion tensor image registration.</"
+         b'a> Chapter 20 in Weichert,J., Hagen,H. (ed.) Visualization and proce'
+         b'ssing of tensor fields. Mathematics and Visualisation series. Spring'
+         b'er, 327-344. ISBN: 978-3-540-25032-6\n</li><li>Alexander,D.C., Pi'
+         b"erpaoli,C., Basser,P.J., Gee,J.C. (2001). <a class='urllink' href='h"
+         b"ttp://ieeexplore.ieee.org/iel5/42/20807/00963816.pdf?isNumber=2087' "
+         b"rel='nofollow'>Spatial transformations of diffusion tensor magnetic "
+         b'resonance images.</a> IEEE Transactions on Medical Imaging 20(11), 1'
+         b'131-1139. ISSN: 0278-0062\n</li><li>Alexander,D.C., Gee,J.C., Baj'
+         b"csy,R. (1999). <a class='urllink' href='http://citeseerx.ist.psu.edu"
+         b"/viewdoc/download?doi=10.1.1.16.2115&amp;rep=rep1&amp;type=pdf' rel="
+         b"'nofollow'>Similarity measures for matching diffusion tensor images."
+         b'</a> British Machine Vision Conference (BMVC)\n</li></ul></li></u'
+         b"l><div class='vspace'></div><h2><a name='toc36' id='toc36'></a>2.19&"
+         b"ensp;  <a name='escience' id='escience'></a> EPSRC/DTI E-science int"
+         b'iative. 1/10/2001--31/3/2002. </h2>\n<ul><li>Personnel: Phil Cook'
+         b', Chris Parker, Anthony Steed, Daniel Alexander. \n</li><li>Summa'
+         b'ry: This project built an interactive visualization for diffusion te'
+         b'nsor imaging data in an immersive virtual environment.  Users view a'
+         b'nd navigate around the data within a virtual reality CAVE and can co'
+         b'llaborate with other users viewing the same data set at remote locat'
+         b'ions.  The system has potential for education and remote consultatio'
+         b'n.  It was demonstrated at the opening of the National E-science Cen'
+         b'tre in April 2002.\n</li><li>Selected Publications:\n<ul><li>Steed'
+         b',A., Alexander,D., Cook,P., Parker,C. (2003). Visualizing Diffusion-'
+         b'Weighted MRI Data Using Collaborative Virtual Environment and Grid T'
+         b'echnologies. Theory and Practice of Computer Graphics, IEEE Computer'
+         b' Society\n</li></ul></li></ul>\n</div>\n\r\n\t\t\t</div>\r\n\t\t</di'
+         b'v> <!-- middle -->\r\n\t\r\n\t  <div id="footer" class="page_layou'
+         b't">  \r\n      <div id="footerText" class="foot_text">\t  \r\n   '
+         b'     <p class="contact">\t\tMicrostructure Imaging Group - Univers'
+         b'ity College London - Gower Street - London - WC1E 6BT -  \t\t\r\n   '
+         b'       <img src="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwiki/phon'
+         b'e.gif" width="13" height="9" id="phone" alt="Telephone:" />\t\t+44'
+         b' (0)20 7679 0221 - Copyright &copy; 1999-2009 UCL. \t  \r\n        '
+         b'  <a href="http://www.ucl.ac.uk/disclaimer/" title="Disclaimer">Disc'
+         b'laimer</a> |  \t  \r\n          <a href="http://www.ucl.ac.uk/acces'
+         b'sibility/" title="Accessibility">Accessibility</a> | \t  \r\n      '
+         b'    <a href="http://www.ucl.ac.uk/priv/" title="Privacy">Privacy</a>'
+         b' | \t  \r\n          <a href="http://www.ucl.ac.uk/advanced-search/'
+         b'" title="UCL Search">UCL Search</a> | \t  \r\n          <a href="ht'
+         b'tp://www.cs.ucl.ac.uk/help.html" title="UCL-CS Help">UCL-CS Help</a>'
+         b'\r\n\t\t\t    <br />\r\n\t\t\t    <a rel="nofollow" href=\'http://m'
+         b"ig.cs.ucl.ac.uk/index.php?n=Main.Projects?action=edit'>Edit</a> "
+         b'|\r\n\t\t\t    <a rel="nofollow" href=\'http://mig.cs.ucl.ac.uk/in'
+         b"dex.php?n=Main.Projects?action=diff'>History</a> |\r\n\t\t\t    <"
+         b'a rel="nofollow" href=\'http://mig.cs.ucl.ac.uk/index.php?n=Main.'
+         b"Projects?action=print' target='_blank'>Print</a> |\r\n\t\t\t    <"
+         b"a href='http://mig.cs.ucl.ac.uk/index.php?n=Main.RecentChanges'>Rece"
+         b"nt Changes</a> |\r\n\t\t\t    <a href='http://mig.cs.ucl.ac.uk/in"
+         b"dex.php?n=Site.Search'>Search</a>\r\n\t\t    </p>\r\n      </div>\r"
+         b"\n\t\t\t<div class='contact'>Page last modified on January 05, 2017,"
+         b' at 09:26 AM\r\n      </div>\r\n\t\t  <!--HTMLFooter-->\r\n    </div'
+         b'> <!-- footer -->\r\n </div> <!-- main -->\r\n\r\n</div> <!-- ever'
+         b'ything -->\r\n\r\n</body>\r\n\r\n</html>\r\n',
+ 'links': [2815,
+           2816,
+           2817,
+           2818,
+           2569,
+           2819,
+           2820,
+           2821,
+           2822,
+           2823,
+           345,
+           2824,
+           2825,
+           2826,
+           2827,
+           2828],
+ 'pid': 2569,
+ 'url': 'http://mig.cs.ucl.ac.uk/index.php?n=Main.Projects'}

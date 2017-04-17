@@ -1,0 +1,176 @@
+{'html': b"    <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'\r\n  "
+         b"  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>\r\n<?xml ve"
+         b'rsion="1.0" encoding="iso-8859-1"?>\r\n<html xmlns="http://www.w3.'
+         b'org/1999/xhtml" xml:lang="en" lang="en">\r\n<head>\r\n\t<meta htt'
+         b'p-equiv="Content-Type" content="text/html; charset=iso-8859-1" /'
+         b'>\r\n\r\n    <title>\r\n\t\tMicrostructure Imaging Group | Searc'
+         b'h\r\n    </title>\r\n\r\n    <meta http-equiv="Content-Type" conte'
+         b'nt="text/html; charset=iso-8859-1" />\r\n    <link rel="stylesheet'
+         b'" type="text/css" href="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migwi'
+         b'ki/mig_purple.css"  title="cmic" />\r\n    <!--HTMLHeader--><style'
+         b" type='text/css'><!--\n  ul, ol, pre, dl, p { margin-top:0px; mar"
+         b'gin-bottom:0px; }\n  code.escaped { white-space: nowrap; }\n  .vsp'
+         b'ace { margin-top:1.33em; }\n  .indent { margin-left:40px; }\n  .ou'
+         b'tdent { margin-left:40px; text-indent:-40px; }\n  a.createlinktex'
+         b't { text-decoration:none; border-bottom:1px dotted gray; }\n  a.c'
+         b'reatelink { text-decoration:none; position:relative; top:-0.5em;'
+         b'\n    font-weight:bold; font-size:smaller; border-bottom:none; }\n'
+         b'  img { border:0px; }\n  \nspan.anchor {\n\tfloat: left;\n\tfont-s'
+         b'ize: 10px;\n\tmargin-left: -10px;\n\twidth: 10px;\n    position:r'
+         b'elative; top:-0.1em;\n\ttext-align: center;\n}\nspan.anchor a { text'
+         b'-decoration: none; }\nspan.anchor a:hover { text-decoration: unde'
+         b'rline; }\nol.toc { text-indent:-20px; list-style: none; }\nol.toc '
+         b'ol.toc { text-indent:-40px; }\ndiv.tocfloat { font-size: smaller;'
+         b' margin-bottom: 10px;\n    border-top: 1px dotted #555555; border'
+         b'-bottom: 1px dotted #555555;\n    padding-top: 5px; padding-botto'
+         b'm: 5px; \n    width: 38%; float: right; margin-left: 10px; clear:'
+         b' right;\n    margin-right:-13px; padding-right: 13px; padding-lef'
+         b't: 13px;\n    background-color: #eeeeee; }\ndiv.toc { font-size: s'
+         b'maller; \n    padding: 5px; border: 1px dotted #cccccc;\n    backg'
+         b'round: #f7f7f7;\n    margin-bottom: 10px; }\ndiv.toc p { backgroun'
+         b'd-color: #f9f6d6;\n    margin-top:-5px;   padding-top: 5px;\n    m'
+         b'argin-left:-5px;  padding-left: 5px;\n    margin-right:-5px; padd'
+         b'ing-right: 5px;\n    padding-bottom: 3px;\n    border-bottom:  1px'
+         b' dotted #cccccc; }.editconflict { color:green; \n  font-style:ita'
+         b'lic; margin-top:1.33em; margin-bottom:1.33em; }\n\n  table.markup '
+         b'{ border:2px dotted #ccf; width:90%; }\n  td.markup1, td.markup2 '
+         b'{ padding-left:10px; padding-right:10px; }\n  table.vert td.marku'
+         b'p1 { border-bottom:1px solid #ccf; }\n  table.horiz td.markup1 { '
+         b'width:23em; border-right:1px solid #ccf; }\n  table.markup captio'
+         b'n { text-align:left; }\n  div.faq p, div.faq pre { margin-left:2e'
+         b'm; }\n  div.faq p.question { margin:1em 0 0.75em 0; font-weight:b'
+         b'old; }\n  div.faqtoc div.faq * { display:none; }\n  div.faqtoc div'
+         b'.faq p.question \n    { display:block; font-weight:normal; margin'
+         b':0.5em 0 0.5em 20px; line-height:normal; }\n  div.faqtoc div.faq '
+         b'p.question * { display:inline; }\n   \n    .frame \n      { border:'
+         b'1px solid #cccccc; padding:4px; background-color:#f9f9f9; }\n    '
+         b'.lfloat { float:left; margin-right:0.5em; }\n    .rfloat { float:'
+         b'right; margin-left:0.5em; }\na.varlink { text-decoration:none; }\n'
+         b'\n--></style><script type="text/javascript">\nfunction toggle(obj)'
+         b' {\n    var elstyle = document.getElementById(obj).style;\n    var'
+         b' text    = document.getElementById(obj + "tog");\n    if (elstyle'
+         b".display == 'none') {\n        elstyle.display = 'block';\n       "
+         b' text.innerHTML = "hide";\n    } else {\n        elstyle.display ='
+         b' \'none\';\n        text.innerHTML = "show";\n    }\n}\n</script><'
+         b"link rel='stylesheet' href='http://cmic.cs.ucl.ac.uk/mig/pub/css/twi"
+         b"tter.css' type='text/css' />  <meta name='robots' content='noindex,n"
+         b'ofollow\' />\n\r\n</head>\r\n\r\n<body>\r\n\r\n<div id="everything" '
+         b'class="page_layout">\r\n\t\r\n\t<div id="banner" class="page_layou'
+         b't">\r\n\t\t<div id="section_head">UCL Microstructure Imaging Gro'
+         b'up\r\n    </div>\r\n\t\t<a href="http://www.ucl.ac.uk/"> \r\n       '
+         b' <img id="ucl_logo" src="http://cmic.cs.ucl.ac.uk/mig/pub/skins/migw'
+         b'iki/ucl000_mig_purp.png" alt="UCL Logo"/></a>  \r\n\t\t<div id="ucl_'
+         b'div" class="clearDiv">\r\n      &nbsp;<a href="http://www.ucl.ac.u'
+         b'k" onfocus="blurLink(this);">UCL</a>&nbsp;&#8250;&#8250;\r\n\t\t  &n'
+         b'bsp;<a href="http://mig.cs.ucl.ac.uk/index.php" onfocus="blurLink(th'
+         b'is);">MIG</a>&nbsp;&#8250;&#8250;\r\n\t\t  &nbsp;Search\r\n    </d'
+         b'iv>\r\n\t\t<div class="clear_div">\r\n    </div>\r\n\t</div> <!--'
+         b' banner -->\r\n\t\r\n\t<div id="main_div">\r\n\t\t<!--PageLeftFmt-'
+         b'->\r\n\t\t<div id="left">\r\n\t\t\t<a href="http://mig.cs.ucl.ac.'
+         b'uk/index.php"><img id="mig_logo" src="http://cmic.cs.ucl.ac.uk/mig/p'
+         b'ub/skins/migwiki/mig_logo_purp_noline.png" alt="MIG Logo"/></a>\r'
+         b"\n\t\t\t<div class='vspace'></div><ul><li><a class='wikilink' href='"
+         b"http://mig.cs.ucl.ac.uk/index.php?n=Main.HomePage'>Home</a>\n<div"
+         b" class='vspace'></div></li><li><a class='wikilink' href='http://mig."
+         b"cs.ucl.ac.uk/index.php?n=Main.People'>People</a>\n<div class='vsp"
+         b"ace'></div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.u"
+         b"k/index.php?n=Main.Research'>Research</a>\n<div class='vspace'></"
+         b"div></li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index"
+         b".php?n=Main.Projects'>Projects</a>\n<div class='vspace'></div></l"
+         b"i><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n="
+         b"Main.Publications'>Publications</a>\n<div class='vspace'></div></"
+         b"li><li><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n"
+         b"=Main.Resources'>Resources</a>\n<div class='vspace'></div></li><l"
+         b"i><a class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main"
+         b".Vacancies'>Vacancies</a>\n<div class='vspace'></div></li><li><a "
+         b"class='wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.Away"
+         b"Days'>Away days</a>\n<div class='vspace'></div></li><li><a class="
+         b"'wikilink' href='http://mig.cs.ucl.ac.uk/index.php?n=Main.PublicEnga"
+         b"gement'>Public Engagement</a>\n</li></ul><div class='vspace'></di"
+         b'v>\n\r\n\t\t</div>\r\n\r\n\t\t<!--/PageLeftFmt-->\r\n\t\t<div id="m'
+         b'iddle" class="main text">\r\n\t\t\t<!--PageTitleFmt-->\r\n\t\t\t<!'
+         b"--PageText-->\n<div id='wikitext'>\n<form  class='wikisearch' acti"
+         b"on='http://mig.cs.ucl.ac.uk/index.php?n=Site.Search' method='get'><i"
+         b"nput type='hidden' name='n' value='Site.Search' /><input type='hidde"
+         b"n' name='action' value='search' /><input type='text' name='q' value="
+         b"'' \n    class='inputbox searchbox' size='40' /><input type='subm"
+         b"it' \n    class='inputbutton searchbutton' value='Search' /></for"
+         b"m>\n<p class='vspace'><a name='searchinfostart' id='searchinfosta"
+         b"rt'></a>\nA search for more than one word will find pages that co"
+         b'ntain all of the words.\nUse quotation marks to search for a phra'
+         b'se.  \nAlso use quotes for text with punctuation or special chara'
+         b"cters.\nSearches are case insensitive.\n</p>\n<p class='vspace'>To "
+         b'limit your search to a single group, enter the group name followed b'
+         b'y a slash at the beginning of the search string (e.g., "PmWiki/" or '
+         b'"Site/").  \nTo list all pages, enter a slash for the search.  \n<'
+         b"/p>\n<div class='vspace'></div><h2><span style='font-size:83%'>Se"
+         b"arch examples</span></h2>\n<table border='0' cellspacing='0' widt"
+         b"h='100%' cellpadding='0' ><tr ><th  align='left'>Enter</th><th  alig"
+         b"n='left'>To find pages containing</th></tr>\n<tr ><td  align='lef"
+         b"t'>apple pie</td><td  align='left'>both 'apple' and 'pie'</td></"
+         b'tr>\n<tr ><td  align=\'left\'>"apple pie"</td><td  align=\'left\''
+         b">the phrase 'apple pie'</td></tr>\n<tr ><td  align='left'>pmwiki/"
+         b"apple</td><td  align='left'>'apple' in the PmWiki group of pages</td"
+         b'></tr>\n<tr ><td  align=\'left\'>"pmwiki/apple"</td><td  align=\'lef'
+         b"t'>the phrase 'pmwiki/apple' in all groups of pages</td></tr>\n<t"
+         b"r ><td  align='left'>apple -pie</td><td  align='left'>'apple', omitt"
+         b"ing those containing 'pie'</td></tr>\n<tr ><td  align='left'>food"
+         b' -"apple pie"</td><td  align=\'left\'>\'food\', omitting those conta'
+         b'ining \'apple pie\'</td></tr>\n<tr ><td  align=\'left\'>apple "-p'
+         b'ie"</td><td  align=\'left\'>the words \'apple\' and \'-pie\'</td><'
+         b"/tr>\n<tr ><td  align='left'>apple - pie</td><td  align='left'>'a"
+         b'pple\', \'-\', and \'pie\'</td></tr>\n<tr ><td  align=\'left\'>"pie:'
+         b'"</td><td  align=\'left\'>the word \'pie\' with a colon</td></tr'
+         b'>\n<tr ><td  align=\'left\'>"pie=tasty"</td><td  align=\'left\'>t'
+         b"he phrase 'pie=tasty'</td></tr>\n<tr ><td  align='left'>pmwiki/</"
+         b"td><td  align='left'>all pages in the PmWiki group</td></tr>\n</t"
+         b"able>\n<p class='vspace'>Some <em>special characters</em> need to"
+         b' be enclosed in quotes, including the colon (:), equals sign (=), le'
+         b'ss than (&lt;), single quote (\') and double quote(").\n</p>\n<p cl'
+         b"ass='vspace'><a name='searchinfoend' id='searchinfoend'></a>\n</p"
+         b'>\n</div>\n\r\n\t\t\t</div>\r\n\t\t</div> <!-- middle -->\r\n'
+         b'\t\r\n\t  <div id="footer" class="page_layout">  \r\n      <div id'
+         b'="footerText" class="foot_text">\t  \r\n        <p class="contact">'
+         b'\t\tMicrostructure Imaging Group - University College London - Gow'
+         b'er Street - London - WC1E 6BT -  \t\t\r\n          <img src="http://'
+         b'cmic.cs.ucl.ac.uk/mig/pub/skins/migwiki/phone.gif" width="13" height'
+         b'="9" id="phone" alt="Telephone:" />\t\t+44 (0)20 7679 0221 - Copyr'
+         b'ight &copy; 1999-2009 UCL. \t  \r\n          <a href="http://www.uc'
+         b'l.ac.uk/disclaimer/" title="Disclaimer">Disclaimer</a> |  \t  \r\n '
+         b'         <a href="http://www.ucl.ac.uk/accessibility/" title="Access'
+         b'ibility">Accessibility</a> | \t  \r\n          <a href="http://www.'
+         b'ucl.ac.uk/priv/" title="Privacy">Privacy</a> | \t  \r\n          <a'
+         b' href="http://www.ucl.ac.uk/advanced-search/" title="UCL Search">UCL'
+         b' Search</a> | \t  \r\n          <a href="http://www.cs.ucl.ac.uk/he'
+         b'lp.html" title="UCL-CS Help">UCL-CS Help</a>\r\n\t\t\t    <br />\r'
+         b'\n\t\t\t    <a rel="nofollow" href=\'http://mig.cs.ucl.ac.uk/inde'
+         b'x.php?n=Site.Search?action=edit\'>Edit</a> |\r\n\t\t\t    <a rel="'
+         b'nofollow" href=\'http://mig.cs.ucl.ac.uk/index.php?n=Site.Search?'
+         b'action=diff\'>History</a> |\r\n\t\t\t    <a rel="nofollow" href=\'h'
+         b"ttp://mig.cs.ucl.ac.uk/index.php?n=Site.Search?action=print' target="
+         b"'_blank'>Print</a> |\r\n\t\t\t    <a href='http://mig.cs.ucl.ac.u"
+         b"k/index.php?n=Site.RecentChanges'>Recent Changes</a> |\r\n\t\t\t "
+         b"   <a href='http://mig.cs.ucl.ac.uk/index.php?n=Site.Search'>Search<"
+         b"/a>\r\n\t\t    </p>\r\n      </div>\r\n\t\t\t<div class='contact'>P"
+         b'age last modified on September 10, 2011, at 06:03 PM\r\n      </di'
+         b'v>\r\n\t\t  <!--HTMLFooter-->\r\n    </div> <!-- footer -->\r\n </di'
+         b'v> <!-- main -->\r\n\r\n</div> <!-- everything -->\r\n\r\n</body'
+         b'>\r\n\r\n</html>\r\n',
+ 'links': [2815,
+           2816,
+           2817,
+           2818,
+           2569,
+           2819,
+           2820,
+           2821,
+           2822,
+           2823,
+           345,
+           2848,
+           2849,
+           2850,
+           2851,
+           2828],
+ 'pid': 2828,
+ 'url': 'http://mig.cs.ucl.ac.uk/index.php?n=Site.Search'}

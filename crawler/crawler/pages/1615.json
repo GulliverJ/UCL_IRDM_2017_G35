@@ -1,0 +1,10 @@
+{'html': b'@InProceedings{Brotherston-etal:02,\n  author    = "James Brother'
+         b'ston and Anatoli Degtyaryev and Michael Fisher and Alexei Lisits'
+         b'a",\n  title     = "Searching for Invariants Using Temporal Resol'
+         b'ution",\n  booktitle = "Proceedings of LPAR 2002",\n  editor    = '
+         b'"M. Baaz and A. Voronkov",\n  series    = "LNAI",\n  volume    = 2'
+         b'514,\n  pages     = "86--101",\n  publisher = "Springer-Verlag",\n '
+         b' year      = 2002\n}\n',
+ 'links': [],
+ 'pid': 1615,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/LPAR02/bibtex_entry.txt'}

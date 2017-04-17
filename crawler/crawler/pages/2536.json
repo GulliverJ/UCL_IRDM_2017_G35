@@ -1,0 +1,509 @@
+{'html': b'<!DOCTYPE html\n    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E'
+         b'N"\n    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"'
+         b'>\n<?xml version="1.0" encoding="utf-8"?>\n<html xmlns:og="http://'
+         b'ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">\n<head'
+         b'>\n\n<meta http-equiv="Content-Type" content="text/html; charset=u'
+         b'tf-8" />\n<!-- \n\tThis website is powered by TYPO3 - inspiring peo'
+         b'ple to share!\n\tTYPO3 is a free open source Content Management Fr'
+         b'amework initially created by Kasper Skaarhoj and licensed under GNU/'
+         b'GPL.\n\tTYPO3 is copyright 1998-2016 of Kasper Skaarhoj. Extension'
+         b's are copyright of their respective owners.\n\tInformation and con'
+         b'tribution at http://typo3.org/\n-->\n\n<base href="http://www.cs.uc'
+         b'l.ac.uk/" />\n<link rel="shortcut icon" href="/fileadmin/UCL-CS/f'
+         b'avicon.ico" type="image/x-icon; charset=binary" />\n<link rel="ic'
+         b'on" href="/fileadmin/UCL-CS/favicon.ico" type="image/x-icon; charset'
+         b'=binary" />\n\n<meta name="generator" content="TYPO3 CMS" />\n<meta'
+         b' name="keywords" content="University, College, London, Computer Scie'
+         b'nce" />\n<meta name="charset" content="utf-8" />\n<meta name="view'
+         b'port" content="width=device-width, initial-scale=1.0, maximum-scale='
+         b'1.0, user-scalable=1" />\n\n\n<link rel="stylesheet" type="text/css'
+         b'" href="typo3temp/stylesheet_1b55705c43.css?1447625404" media="all" '
+         b'/>\n<link rel="stylesheet" type="text/css" href="fileadmin/UCL-CS'
+         b'/css/csCommon.css?1485355348" media="all" />\n\n\n<script src="uplo'
+         b'ads/tx_t3jquery/jquery-1.8.x-1.9.x-1.2.x.js?1383917144" type="text/j'
+         b'avascript"></script>\n<script src="fileadmin/UCL-CS/js/googleAnal'
+         b'ytics.js?1340190657" type="text/javascript"></script>\n<script sr'
+         b'c="fileadmin/UCL-CS/js/jqueryImageSlider2.js?1391601155" type="text/'
+         b'javascript"></script>\n<script src="fileadmin/UCL-CS/js/start.fad'
+         b'er.js?1413468507" type="text/javascript"></script>\n<script src="'
+         b'fileadmin/UCL-CS/js/jquery.bxslider.js?1391781521" type="text/javasc'
+         b'ript"></script>\n<script src="fileadmin/UCL-CS/js/toggleRegion.js'
+         b'?1389953286" type="text/javascript"></script>\n<script src="filea'
+         b'dmin/UCL-CS/js/responsiveTable.js?1400860175" type="text/javascript"'
+         b'></script>\n\n\n<script type="text/javascript">\r\n\r\n  var _gaq ='
+         b" _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-26113673-1']);\r\n  "
+         b"_gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var g"
+         b"a = document.createElement('script'); ga.type = 'text/javascript'; g"
+         b"a.async = true;\r\n    ga.src = ('https:' == document.location.pro"
+         b"tocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js"
+         b"';\r\n    var s = document.getElementsByTagName('script')[0]; s.pa"
+         b'rentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n\t</script>\r\n\t<'
+         b'script type="text/javascript">\r\n\t$(document).ready(function('
+         b'){\r\n\t  $("#menuButton").click(function(){\r\n \t\t \tvar region ='
+         b' $("#sectionMenu");\r\n  \t\tvar button = $(this);\r\n    \ttoggleR'
+         b'egion(button, region, "<p>Sections</p>", "<p>Hide</p>");\r\n  \t});'
+         b'\r\n\t});\r\n\t$(document).ready(function(){\r\n\t  $("#subMenuBu'
+         b'tton").click(function(){\r\n \t\t \tvar region = $("#subMenu");\r\n'
+         b'  \t\tvar button = $(this);\r\n    \ttoggleRegion(button, region,'
+         b' "<p>More ...</p>", "<p>Hide</p>");\r\n  \t});\r\n\t});\r\n\t$(do'
+         b'cument).ready(function () {\r\n    setUpResponsiveTable("greytable'
+         b'");\r\n  });\t\r\n  </script>\r\n\r\n\t<link rel="stylesheet" type'
+         b'="text/css" href="fileadmin/UCL-CS/css/csMobile.css" media="all"'
+         b' />\n</head>\n<body>\n                   \r\n    <div id="everyth'
+         b'ing" class="page_layout">                  \r\n    <!-- Div for ba'
+         b'nner -->                   \r\n    <div id="header" class="page_la'
+         b'yout">\r\n      <div id="department">\r\n        <p>COMPUTER SCIENCE'
+         b' DEPARTMENT</p>\r\n      </div>\r\n      <div id="logo">\r\n      '
+         b' <a href="http://www.ucl.ac.uk">\r\n\t\t\t   <img src="/fileadmin'
+         b'/UCL-CS/web_assets/ucl_logo/ucl_logo_whitebg.png">\r\n\t\t\t </a>'
+         b'\r\n\t\t\t</div>\r\n\t\t\t<!-- Start of desktop button Div -->    '
+         b'             \r\n    \t<div id="useDesktop">   \r\n\t\t\t\t<a hre'
+         b'f="students/syllabus_index_2015_2016/pg/"><div id="desktopButton"><i'
+         b'mg src="fileadmin/UCL-CS/web_assets/other_images/desktop.gif" width='
+         b'"100" height="79"   alt="Click for desktop version" title="Click for'
+         b' desktop version"  border="0" /></div></a>   \r\n    \t</div>\r\n'
+         b'\t\t\t<!-- End of desktop button Div -->                 \r\n\t\t\t<'
+         b'!-- Div for section menu button -->\r\n\t\t\t<div id="menuButton"'
+         b' class="menu_button">\r\n\t\t\t\t<p>Sections<p>\r\n\t\t\t</div>'
+         b'\r\n\t\t\t<!-- End of div for section menu button -->\r\n    </div>'
+         b'      \r\n    <!-- End of div for banner -->                  '
+         b' \r\n\t\t<!-- Div for section menu -->\r\n\t\t<div id="sectionMenu" '
+         b'class="section_menu">\r\n\t\t\n\t<!--  CONTENT ELEMENT, uid:22215/'
+         b'image [begin] -->\n\t\t<div id="c22215" class="csc-default">\n\t\t'
+         b'<!--  Image block: [begin] -->\n\t\t\t<div class="maxImageWidth739 c'
+         b'sc-textpic csc-textpic-center csc-textpic-above  multiCol4 "><div cl'
+         b'ass="csc-textpic-imagewrap"><div class="csc-textpic-image mobile"><a'
+         b' href="http://www.facebook.com/pages/University-College-London-Compu'
+         b'ter-Science/132472916819198" target="_top"><img src="fileadmin/_proc'
+         b'essed_/csm_facebook_03_abcb9ce831.png" width="30" height="30" alt=""'
+         b' border="0" /></a></div><div class="csc-textpic-image mobile"><a hre'
+         b'f="http://www.linkedin.com/groups?gid=4046543&amp;trk=myg_ugrp_ovr" '
+         b'target="_top"><img src="fileadmin/_processed_/csm_linkedin_03_594f31'
+         b'f8f8.png" width="30" height="30" alt="" border="0" /></a></div><div '
+         b'class="csc-textpic-image mobile"><a href="https://twitter.com/#!/ucl'
+         b'cs" target="_top"><img src="fileadmin/_processed_/csm_twitter_03_7b7'
+         b'0ce3c25.png" width="30" height="30" alt="" border="0" /></a></div><d'
+         b'iv class="csc-textpic-image mobile"><a href="http://www.youtube.com/'
+         b'user/UCLComputerScience/videos" target="_top"><img src="fileadmin/_p'
+         b'rocessed_/csm_youtube_04_f373d25c5f.png" width="30" height="30" alt='
+         b'"" border="0" /></a></div></div></div><div class="csc-textpic-clear"'
+         b'><!-- --></div>\n\t\t<!--  Image block: [end] -->\n\t\t\t</div>'
+         b'\n\t<!--  CONTENT ELEMENT, uid:22215/image [end] -->\n\t\t\n\t<!-- '
+         b' CONTENT ELEMENT, uid:22223/menu [begin] -->\n\t\t<div id="c22223" '
+         b'class="csc-default">\n\t\t<!--  Menu/Sitemap element: [begin] -'
+         b'->\n\t\t\t<ul class="csc-menu csc-menu-def"><li><a href="mobile/news'
+         b'/" title="Computer Science News">News</a></li><li><a href="mobile/ev'
+         b'ents/" title="Events Listing">Events Listing</a></li><li><a href="mo'
+         b'bile/intranet/" title="Staff Intranet">Staff Intranet</a></li></'
+         b'ul>\n\t\t<!--  Menu/Sitemap element: [end] -->\n\t\t\t</div>\n\t<'
+         b'!--  CONTENT ELEMENT, uid:22223/menu [end] -->\n\t\t\n\t<!--  CON'
+         b'TENT ELEMENT, uid:22224/shortcut [begin] -->\n\t\t<div id="c22224" '
+         b'class="csc-default csc-space-before-5 csc-space-after-5">\n\t\t<!--'
+         b'  Inclusion of other records (by reference): [begin] -->\n\t\t\t'
+         b'\n\t<!--  CONTENT ELEMENT, uid:19061/menu [begin] -->\n\t\t<div i'
+         b'd="c19061" class="csc-default">\n\t\t<!--  Menu/Sitemap element: [b'
+         b'egin] -->\n\t\t\t<ul class="csc-menu csc-menu-def"><li><a href="mobi'
+         b'le/home/" title="Home">Home</a></li><li><a href="mobile/prospective_'
+         b'students/" title="Prospective Students">Prospective Students</a></li'
+         b'><li><a href="mobile/research/" title="Research">Research</a></li><l'
+         b'i><a href="mobile/industry_outreach/" title="Industry &amp; Outreach'
+         b'">Industry &amp; Outreach</a></li><li><a href="mobile/careers/" titl'
+         b'e="Careers">Careers</a></li><li><a href="mobile/current_students/" t'
+         b'itle="Current Students">Current Students</a></li><li><a href="mobile'
+         b'/people/?no_cache=1" title="People">People</a></li><li><a href="mobi'
+         b'le/about_us/" title="About Us">About Us</a></li><li><a href="mobile/'
+         b'wics/home/" title="Women in Computer Science">Women in Computer Scie'
+         b'nce</a></li><li><a href="mobile/intranet/" title="Staff Intranet">St'
+         b'aff Intranet</a></li></ul>\n\t\t<!--  Menu/Sitemap element: [end] -'
+         b'->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:19061/menu [end] --'
+         b'>\n\t\t\n\t\t<!--  Inclusion of other records (by reference): [end'
+         b'] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:22224/shortcut ['
+         b'end] -->\n\t\t   \r\n\t\t</div>\r\n\t\t<!-- End of div for section '
+         b'menu -->\r\n    <!-- Div for section header -->                   '
+         b'\r\n    <div id="sectionHeader" class="page_layout">  \r\n    \t<'
+         b'!-- Div for section title -->                   \r\n      <div id='
+         b'"sectionTitle">\r\n\t\t<div class="section_title">Students</div>'
+         b'   \r\n\t\t\t</div>\r\n    \t<!-- End of div for section title -->  '
+         b'                 \r\n\t\t<div class="clearblock"></div>\r\n    </d'
+         b'iv>      \r\n    <!-- End of div for section header -->  \r\n\t\t<'
+         b'!-- Start of main Div -->                 \r\n    <div id="mainTex'
+         b't" class="page_layout">   \r\n\t\t\t  \t                          '
+         b'                                        \t\t\t\t\t\t\t\t\t\r\n\t'
+         b'\t\t<h1>Postgraduate Syllabus Index 2015-2016</h1><p><strong><span'
+         b' class= "brighttext">This database contains 2015-16 versions of the '
+         b'syllabuses.</span></strong> For current versions please see&nbsp;<a '
+         b'href="mobile/students/syllabus/">here</a>.</p><div class="syllabus_p'
+         b'age">\n\t<!--  CONTENT ELEMENT, uid:27111/text [begin] -->\n\t\t<'
+         b'div id="c27111" class="csc-default"></div>\n\t<!--  CONTENT ELEMEN'
+         b'T, uid:27111/text [end] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:2'
+         b'7110/menu [begin] -->\n\t\t<div id="c27110" class="csc-default"'
+         b'>\n\t\t<!--  Menu/Sitemap element: [begin] -->\n\t\t\t<ul class="cs'
+         b'c-menu csc-menu-1"><li><a href="mobile/students/syllabus_index_2015_'
+         b'2016/msc_financial_risk_management/g001_financial_data_and_statistic'
+         b's/" title="COMPG001 - Financial Data and Statistics">G001 - Financia'
+         b'l Data and Statistics</a></li><li><a href="mobile/students/syllabus_'
+         b'index_2015_2016/msc_financial_risk_management/g004_market_risk_measu'
+         b'res_and_portfolio_theory/" title="COMPG004 - Market Risk Measures an'
+         b'd Portfolio Theory">G004 - Market Risk Measures and Portfolio Theory'
+         b'</a></li><li><a href="mobile/students/syllabus_index_2015_2016/msc_f'
+         b'inancial_risk_management/g005_numerical_analysis_for_finance/" title'
+         b'="COMPG005 - Numerical Analysis for Finance">G005 - Numerical Analys'
+         b'is for Finance</a></li><li><a href="mobile/students/syllabus_index_2'
+         b'015_2016/msc_financial_risk_management/g007_operational_risk_measure'
+         b'ment_for_financial_institutions/" title="COMPG007 - Operational Risk'
+         b' Measurement for Financial Institutions">G007 - Operational Risk Mea'
+         b'surement for Financial Institutions</a></li><li><a href="mobile/stud'
+         b'ents/syllabus_index_2015_2016/msc_financial_risk_management/g008_sto'
+         b'chastic_processes_for_finance/" title="COMPG008 - Stochastic Process'
+         b'es for Finance">G008 - Stochastic Processes for Finance</a></li><li>'
+         b'<a href="mobile/students/syllabus_index_2015_2016/msc_financial_risk'
+         b'_management/g009_networks_and_systemic_risk/" title="COMPG009 - Netw'
+         b'orks and Systemic Risk">G009 - Networks and Systemic Risk</a></li><l'
+         b'i><a href="mobile/students/syllabus_index_2015_2016/msc_financial_ri'
+         b'sk_management/g011_data_analytics/" title="COMPG011 - Data Analytics'
+         b'">G011 - Data Analytics</a></li><li><a href="mobile/students/syllabu'
+         b's_index_2015_2016/mscisec/ga01_computer_security_1/" title="COMPGA01'
+         b' - Computer Security 1">GA01 - Computer Security 1</a></li><li><a hr'
+         b'ef="mobile/students/syllabus_index_2015_2016/mscisec/ga02_computer_s'
+         b'ecurity_2/" title="COMPGA02 - Computer Security 2">GA02 - Computer S'
+         b'ecurity 2</a></li><li><a href="mobile/students/syllabus_index_2015_2'
+         b'016/mscisec/ga03_introduction_to_cryptography/" title="COMPGA03 - In'
+         b'troduction to Cryptography">GA03 - Introduction to Cryptography</a><'
+         b'/li><li><a href="mobile/students/syllabus_index_2015_2016/mscisec/ga'
+         b'09_operating_systems/" title="COMPGA09 - Operating Systems">GA09 - O'
+         b'perating Systems</a></li><li><a href="mobile/students/syllabus_index'
+         b'_2015_2016/mscisec/ga10_people_and_security/" title="COMPGA10 - Peop'
+         b'le and Security">GA10 - People and Security</a></li><li><a href="mob'
+         b'ile/students/syllabus_index_2015_2016/mscisec/ga11_research_in_infor'
+         b'mation_security/" title="COMPGA11 - Research in Information Security'
+         b'">GA11 - Research in Information Security</a></li><li><a href="mobil'
+         b'e/students/syllabus_index_2015_2016/mscisec/ga12_applied_cryptograph'
+         b'y/" title="COMPGA12 - Applied Cryptography">GA12 - Applied Cryptogra'
+         b'phy</a></li><li><a href="mobile/students/syllabus_index_2015_2016/ms'
+         b'cisec/ga14_information_security_management/" title="COMPGA14 - Infor'
+         b'mation Security Management">GA14 - Information Security Management</'
+         b'a></li><li><a href="mobile/students/syllabus_index_2015_2016/mscisec'
+         b'/ga16_malware/" title="COMPGA16 - Malware">GA16 - Malware</a></li><l'
+         b'i><a href="mobile/students/syllabus_index_2015_2016/mscisec/ga17_pri'
+         b'vacy_enhancing_technologies/" title="COMPGA17 - Privacy Enhancing Te'
+         b'chnologies">GA17 - Privacy Enhancing Technologies</a></li><li><a hre'
+         b'f="mobile/students/syllabus_index_2015_2016/mscisec/ga18_cryptanalys'
+         b'is/" title="COMPGA18 - Cryptanalysis">GA18 - Cryptanalysis</a></li><'
+         b'li><a href="mobile/students/syllabus_index_2015_2016/mscisec/ga99_th'
+         b'esis/" title="COMPGA99 - Thesis">GA99 - Thesis</a></li><li><a href="'
+         b'mobile/students/syllabus_index_2015_2016/msccs/gc01_introductory_pro'
+         b'gramming/" title="COMPGC01 - Introductory Programming">GC01 - Introd'
+         b'uctory Programming</a></li><li><a href="mobile/students/syllabus_ind'
+         b'ex_2015_2016/msccs/gc02_design/" title="COMPGC02 - Design">GC02 - De'
+         b'sign</a></li><li><a href="mobile/students/syllabus_index_2015_2016/m'
+         b'sccs/gc03_architecture_and_hardware/" title="COMPGC03 - Architecture'
+         b' and Hardware">GC03 - Architecture and Hardware</a></li><li><a href='
+         b'"mobile/students/syllabus_index_2015_2016/msccs/gc04_systems_infrast'
+         b'ructure/" title="COMPGC04 - Systems Infrastructure">GC04 - Systems I'
+         b'nfrastructure</a></li><li><a href="mobile/students/syllabus_index_20'
+         b'15_2016/msccs/gc05_algorithmics/" title="COMPGC05 - Algorithmics">GC'
+         b'05 - Algorithmics</a></li><li><a href="mobile/students/syllabus_inde'
+         b'x_2015_2016/msccs/gc06_database_systems/" title="COMPGC06 - Database'
+         b' Systems">GC06 - Database Systems</a></li><li><a href="mobile/studen'
+         b'ts/syllabus_index_2015_2016/msccs/gc16_functional_programming/" titl'
+         b'e="COMPGC16 - Functional Programming">GC16 - Functional Programming<'
+         b'/a></li><li><a href="mobile/students/syllabus_index_2015_2016/msccs/'
+         b'gc18_entrepreneurship_theory_and_practice/" title="COMPGC18 - Entrep'
+         b'reneurship: Theory and Practice">GC18 - Entrepreneurship: theory and'
+         b' Practice</a></li><li><a href="mobile/students/syllabus_index_2015_2'
+         b'016/msccs/gc20_computer_music/" title="COMPGC20 - Computer Music">GC'
+         b'20 - Computer Music</a></li><li><a href="mobile/students/syllabus_in'
+         b'dex_2015_2016/msccs/gc22_software_engineering/" title="COMPGC22 - So'
+         b'ftware Engineering">GC22 - Software Engineering</a></li><li><a href='
+         b'"mobile/students/syllabus_index_2015_2016/msccs/gc25_interaction_des'
+         b'ign/" title="COMPGC25 - Interaction Design">GC25 - Interaction Desig'
+         b'n</a></li><li><a href="mobile/students/syllabus_index_2015_2016/mscc'
+         b's/gc26_artificial_intelligence_and_neural_computing/" title="COMPGC2'
+         b'6 - Artificial Intelligence and Neural Computing">GC26 - Artificial '
+         b'Intelligence and Neural Computing</a></li><li><a href="mobile/studen'
+         b'ts/syllabus_index_2015_2016/msccs/gc27_programming_for_business_anal'
+         b'ytics/" title="COMPGC27 - Programming for Business Analytics">GC27 -'
+         b' Programming for Business Analytics</a></li><li><a href="mobile/stud'
+         b'ents/syllabus_index_2015_2016/msccs/gc99_individual_project/" title='
+         b'"COMPGC99 - Individual Project">GC99 - Individual Project</a></li><l'
+         b'i><a href="mobile/students/syllabus_index_2015_2016/mscfc/gf03_compl'
+         b'iance_risk_and_regulation/" title="COMPGF03 - Compliance, Risk and R'
+         b'egulation">GF03 - Compliance, Risk and Regulation</a></li><li><a hre'
+         b'f="mobile/students/syllabus_index_2015_2016/mscfc/gf04_financial_mar'
+         b'ket_modelling_and_analysis/" title="COMPGF04 - Financial Market Mode'
+         b'lling and Analysis">GF04 - Financial Market Modelling and Analysis</'
+         b'a></li><li><a href="mobile/students/syllabus_index_2015_2016/mscml/g'
+         b'i01_supervised_learning/" title="COMPGI01 - Supervised Learning">GI0'
+         b'1 - Supervised Learning</a></li><li><a href="mobile/students/syllabu'
+         b's_index_2015_2016/mscml/gi07_programming_mathematical_methods_for_ma'
+         b'chine_learning/" title="COMPGI07 - Programming &amp; Mathematical Me'
+         b'thods for Machine Learning">GI07 - Programming &amp; Mathematical Me'
+         b'thods for Machine Learning</a></li><li><a href="mobile/students/syll'
+         b'abus_index_2015_2016/mscml/gi08_graphical_models/" title="COMPGI08 -'
+         b' Graphical Models">GI08 - Graphical Models</a></li><li><a href="mobi'
+         b'le/students/syllabus_index_2015_2016/mscml/gi09_applied_machine_lear'
+         b'ning/" title="COMPGI09 - Applied Machine Learning">GI09 - Applied Ma'
+         b'chine Learning</a></li><li><a href="mobile/students/syllabus_index_2'
+         b'015_2016/mscml/gi10_bioinformatics/" title="COMPGI10 - Bioinformatic'
+         b's">GI10 - Bioinformatics</a></li><li><a href="mobile/students/syllab'
+         b'us_index_2015_2016/mscml/gi13_advanced_topics_in_machine_learning/" '
+         b'title="COMPGI13 - Advanced Topics in Machine Learning">GI13 - Advanc'
+         b'ed Topics in Machine Learning</a></li><li><a href="mobile/students/s'
+         b'yllabus_index_2015_2016/mscml/gi14_machine_vision/" title="COMPGI14 '
+         b'- Machine Vision">GI14 - Machine Vision</a></li><li><a href="mobile/'
+         b'students/syllabus_index_2015_2016/mscml/gi15_information_retrieval_d'
+         b'ata_mining/" title="COMPGI15 - Information Retrieval &amp; Data Mini'
+         b'ng">GI15 - Information Retrieval &amp; Data Mining</a></li><li><a hr'
+         b'ef="mobile/students/syllabus_index_2015_2016/mscml/gi16_approximate_'
+         b'inference_and_learning_in_probabilistic_models/" title="COMPGI16 - A'
+         b'pproximate Inference and  Learning in Probabilistic Models">GI16 - A'
+         b'pproximate Inference and  Learning in Probabilistic Models</a></li><'
+         b'li><a href="mobile/students/syllabus_index_2015_2016/mscml/gi17_affe'
+         b'ctive_computing_and_human_robot_interaction/" title="COMPGI17 - Affe'
+         b'ctive Computing and Human-Robot Interaction">GI17 - Affective Comput'
+         b'ing and Human-Robot Interaction</a></li><li><a href="mobile/students'
+         b'/syllabus_index_2015_2016/mscml/gi18_probabilistic_and_unsupervised_'
+         b'learning/" title="COMPGI18 - Probabilistic and Unsupervised Learning'
+         b'">GI18 - Probabilistic and Unsupervised Learning</a></li><li><a href'
+         b'="mobile/students/syllabus_index_2015_2016/mscml/gi19_statistical_na'
+         b'tural_language_processing/" title="COMPGI19 - Statistical Natural La'
+         b'nguage Processing">GI19 - Statistical Natural Language Processing</a'
+         b'></li><li><a href="mobile/students/syllabus_index_2015_2016/mscml/gi'
+         b'20_introduction_to_supervised_learning/" title="COMPGI20 - Introduct'
+         b'ion to Supervised Learning">GI20 - Introduction to Supervised Learni'
+         b'ng</a></li><li><a href="mobile/students/syllabus_index_2015_2016/msc'
+         b'ml/gi99_individual_project/" title="COMPGI99 - Individual Project">G'
+         b'I99 - Individual Project</a></li><li><a href="mobile/students/syllab'
+         b'us_index_2015_2016/mscsse/gs01_requirements_engineering_and_software'
+         b'_architecture/" title="COMPGS01 - Requirements Engineering and Softw'
+         b'are Architecture">GS01 - Requirements Engineering and Software Archi'
+         b'tecture</a></li><li><a href="mobile/students/syllabus_index_2015_201'
+         b'6/mscsse/gs02_software_abstractions_and_systems_integration/" title='
+         b'"COMPGS02 - Software Abstractions and Systems Integration">GS02 - So'
+         b'ftware Abstractions and Systems Integration</a></li><li><a href="mob'
+         b'ile/students/syllabus_index_2015_2016/mscsse/gs03_validation_and_ver'
+         b'ification/" title="COMPGS03 - Validation and Verification">GS03 - Va'
+         b'lidation and Verification</a></li><li><a href="mobile/students/sylla'
+         b'bus_index_2015_2016/mscsse/gs04_tools_and_environments/" title="COMP'
+         b'GS04 - Tools and Environments">GS04 - Tools and Environments</a></li'
+         b'><li><a href="mobile/students/syllabus_index_2015_2016/mscsse/gs06_f'
+         b'inancial_institutions_and_markets/" title="COMPGS06 - Financial Inst'
+         b'itutions and Markets">GS06 - Financial Institutions and Markets</a><'
+         b'/li><li><a href="mobile/students/syllabus_index_2015_2016/mscsse/gs0'
+         b'7_financial_information_systems/" title="COMPGS07 - Financial Inform'
+         b'ation Systems">GS07 - Financial Information Systems</a></li><li><a h'
+         b'ref="mobile/students/syllabus_index_2015_2016/mscsse/gs10_language_b'
+         b'ased_security/" title="COMPGS10 - Language Based Security">GS10 - La'
+         b'nguage Based Security</a></li><li><a href="mobile/students/syllabus_'
+         b'index_2015_2016/mscsse/gs11_research_seminar_in_software_engineering'
+         b'/" title="COMPGS11 - Research Seminar in Software Engineering">GS11 '
+         b'- Research Seminar in Software Engineering</a></li><li><a href="mobi'
+         b'le/students/syllabus_index_2015_2016/mscsse/gs98_research_project_in'
+         b'_software_engineering/" title="COMPGS98 - Research Project in Softwa'
+         b're Engineering">GS98 - Research Project in Software Engineering</a><'
+         b'/li><li><a href="mobile/students/syllabus_index_2015_2016/mscsse/gs9'
+         b'9_group_project_in_software_engineering/" title="COMPGS99 - Group Pr'
+         b'oject in Software Engineering">GS99 - Group Project in Software Engi'
+         b'neering</a></li><li><a href="mobile/students/syllabus_index_2015_201'
+         b'6/msccgvi/gv01_mathematical_methods_algorithms_and_implementations/"'
+         b' title="COMPGV01 - Mathematical Methods Algorithms and Implementatio'
+         b'ns">GV01 - Mathematical Methods Algorithms and Implementations</a></'
+         b'li><li><a href="mobile/students/syllabus_index_2015_2016/msccgvi/gv0'
+         b'7_virtual_environments/" title="COMPGV07 - Virtual Environments">GV0'
+         b'7 - Virtual Environments</a></li><li><a href="mobile/students/syllab'
+         b'us_index_2015_2016/msccgvi/gv08_inverse_problems_in_imaging/" title='
+         b'"COMPGV08 - Inverse Problems in Imaging">GV08 - Inverse Problems in '
+         b'Imaging</a></li><li><a href="mobile/students/syllabus_index_2015_201'
+         b'6/msccgvi/gv10_computer_graphics/" title="COMPGV10 - Computer Graphi'
+         b'cs">GV10 - Computer Graphics</a></li><li><a href="mobile/students/sy'
+         b'llabus_index_2015_2016/msccgvi/gv11_geometry_of_images/" title="COMP'
+         b'GV11 - Geometry of Images">GV11 - Geometry of Images</a></li><li><a '
+         b'href="mobile/students/syllabus_index_2015_2016/msccgvi/gv12_image_pr'
+         b'ocessing/" title="COMPGV12 - Image Processing">GV12 - Image Processi'
+         b'ng</a></li><li><a href="mobile/students/syllabus_index_2015_2016/msc'
+         b'cgvi/gv15_computational_photography_and_capture/" title="COMPGV15 - '
+         b'Computational Photography and Capture">GV15 - Computational Photogra'
+         b'phy and Capture</a></li><li><a href="mobile/students/syllabus_index_'
+         b'2015_2016/msccgvi/gv16_research_methods_and_reading/" title="COMPGV1'
+         b'6 - Research Methods and Reading">GV16 - Research Methods and Readin'
+         b'g</a></li><li><a href="mobile/students/syllabus_index_2015_2016/mscc'
+         b'gvi/gv17_computational_modelling_for_biomedical_imaging/" title="COM'
+         b'PGV17 - Computational Modelling for Biomedical Imaging">GV17 - Compu'
+         b'tational Modelling for Biomedical Imaging</a></li><li><a href="mobil'
+         b'e/students/syllabus_index_2015_2016/msccgvi/gv18_acquisition_and_pro'
+         b'cessing_of_3d_geometry/" title="COMPGV18 - Acquisition and Processin'
+         b'g of 3D Geometry">GV18 - Acquisition and Processing of 3D Geometry</'
+         b'a></li><li><a href="mobile/students/syllabus_index_2015_2016/msccgvi'
+         b'/gv99_individual_project/" title="COMPGV99 - Individual Project">GV9'
+         b'9 - Individual Project</a></li><li><a href="mobile/students/syllabus'
+         b'_index_2015_2016/msc_web_science_and_big_data_analytics/gw01_complex'
+         b'_networks_and_web/" title="COMPGW01 - Complex Networks and Web">GW01'
+         b' - Complex Networks and Web</a></li><li><a href="mobile/students/syl'
+         b'labus_index_2015_2016/msc_web_science_and_big_data_analytics/gw02_we'
+         b'b_economics/" title="COMPGW02 - Web Economics">GW02 - Web Economics<'
+         b'/a></li><li><a href="mobile/students/syllabus_index_2015_2016/mscncs'
+         b'/gz01_networked_systems/" title="COMPGZ01 - Networked Systems">GZ01 '
+         b'- Networked Systems</a></li><li><a href="mobile/students/syllabus_in'
+         b'dex_2015_2016/mscncs/gz03_distributed_systems_and_security/" title="'
+         b'COMPGZ03 - Distributed Systems and Security">GZ03 - Distributed Syst'
+         b'ems and Security</a></li><li><a href="mobile/students/syllabus_index'
+         b'_2015_2016/mscncs/gz04_network_and_applications_programming/" title='
+         b'"COMPGZ04 - Network and Applications Programming">GZ04 - Network and'
+         b' Applications Programming</a></li><li><a href="mobile/students/sylla'
+         b'bus_index_2015_2016/mscncs/gz05_multimedia_systems/" title="COMPGZ05'
+         b' - Multimedia Systems">GZ05 - Multimedia Systems</a></li><li><a href'
+         b'="mobile/students/syllabus_index_2015_2016/mscncs/gz06_mobile_and_cl'
+         b'oud_computing/" title="COMPGZ06 - Mobile and Cloud Computing">GZ06 -'
+         b' Mobile and Cloud Computing</a></li><li><a href="mobile/students/syl'
+         b'labus_index_2015_2016/mscncs/gz07_professional_practice/" title="COM'
+         b'PGZ07 - Professional practice">GZ07 - Professional practice</a></li>'
+         b'<li><a href="mobile/students/syllabus_index_2015_2016/mscncs/gz99_pr'
+         b'oject_for_msc_ncs/" title="COMPGZ99 - Project for MSc NCS">GZ99 - Pr'
+         b'oject for MSc NCS</a></li></ul>\n\t\t<!--  Menu/Sitemap element: [e'
+         b'nd] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:27110/menu [en'
+         b'd] -->\n\t\t</div>   \t                                             '
+         b'           \t\t\t\t\t\t\t\t\t\r\n\t\t\t                           '
+         b'                                 \t\t\t\t\t\t\t\t\r\n    </div>   '
+         b' \r\n\t\t<!-- End of main Div -->                 \r\n\t\t<!-- Start'
+         b' of footer Div -->                 \r\n    <div id="footer"> \r'
+         b'\n\t\t\t<div id="ownership"> \r\n\t\t\t\t<!-- ###RESPONSIBLE### be'
+         b'gin -->   \r\n\t\t\t\t<!-- ###RESPONSIBLE### end -->   \r\n\t\t\t\t<'
+         b'div id="copyright">\t  \t                                         '
+         b'             \t\t\t\t\t\t\t\r\n\t\t\t\t\t&#169; 1999-2016 UCL     '
+         b'                                   \t\t\t\t\t\t\t\r\n\t\t\t\t</di'
+         b'v>\t\t\t\t\t\t\r\n\t    </div>\r\n\t\t\t<div id="engfac">\t\t\t\t\t'
+         b'\t\t\r\n\t\t\t\t<a href="http://www.engineering.ucl.ac.uk/">\t\t\t\t'
+         b'\t\t\t\t\r\n\t\t\t\t\t<img src="fileadmin/UCL-CS/web_assets/other_i'
+         b'mages/ucle_logo_trans.png" id="ucl_eng_logo" alt="UCL Engineering Lo'
+         b'go"/>\t\t\t\t\t\t\t</a>\t\t\t\t\t\t\r\n\t\t\t</div>\t\r\n\t\t\t<div '
+         b'class="clearblock"></div>\t\t\t\t\t\t    \r\n\t\t\t<div id="disclai'
+         b'mer">\t\r\n\t\t\t\t<div id="list1">                                '
+         b'            \t\t\t\t\t\t\t\r\n\t\t\t\t\t<ul>    \r\n\t\t\t\t\t\t<l'
+         b'i>\r\n\t\t\t\t\t\t\t<a href="students/syllabus_index_2015_2016/pg'
+         b'/">Desktop Site</a>                                        \t'
+         b'\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>              \t\t\t\t\t'
+         b'\t\t\t\r\n\t\t\t\t\t\t<li>                                         '
+         b'            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="http://www.ucl.'
+         b'ac.uk/accessibility/" title="Accessibility" target="_top">Accessibil'
+         b'ity</a>                       \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</'
+         b'li>\t\t                             \t\t\t\t\t\t\t\t\r\n\t\t\t\t'
+         b'\t\t<li>                                                     \t'
+         b'\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="http://www.cs.ucl.ac.uk/help'
+         b'/?noMobile=0" title="Help" target="_top">Help</a>                   '
+         b'   \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>\t                       '
+         b'                     \t\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>    \r\n\t\t'
+         b'\t\t</div>      \r\n\t\t\t\t<div id="list2">   \r\n\t\t\t\t\t<ul>  '
+         b'                 \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li>               '
+         b'                                      \t\t\t\t\t\t\t\t\r\n\t\t\t\t'
+         b'\t\t<a href="http://www.ucl.ac.uk/disclaimer/" title="Disclaimer" '
+         b'target="_top">Disclaimer</a>                     \t\t\t\t\t\t\t'
+         b'\t\r\n\t\t\t\t\t\t</li>                                 \t\t\t\t\t'
+         b'\t\t\t\r\n\t\t\t\t\t\t<li>                                         '
+         b'            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="http://www.ucl.'
+         b'ac.uk/cookies/" title="Cookies" target="_top">Cookies</a>           '
+         b'           \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li> \r\n\t\t\t\t\t\t<li'
+         b'>                                                     \t\t\t\t\t\t'
+         b'\t\t\r\n\t\t\t\t\t\t<a href="http://www.ucl.ac.uk/priv/" title="Pr'
+         b'ivacy" target="_top">Privacy</a>                       \t\t\t\t\t'
+         b'\t\t\t\r\n\t\t\t\t\t\t</li>                                 \t\t\t'
+         b'\t\t\t\t\t\r\n\t\t\t\t\t</ul>\t \r\n\t\t\t\t</div>                 '
+         b'                          \t\t\t\t\t\t\r\n\t\t\t</div>\t\r\n\t\t'
+         b'\t<div class="clearblock"></div>\t\t\t\t\t\t     \t\t\t\t\t\t\r\n  '
+         b'  </div>\r\n\t\t<!-- End of footer Div -->\n\n\n\n\n</body>\n</htm'
+         b'l>',
+ 'links': [2570,
+           47,
+           48,
+           49,
+           46,
+           50,
+           3,
+           51,
+           52,
+           53,
+           54,
+           55,
+           56,
+           2534,
+           2571,
+           2572,
+           2573,
+           2574,
+           2575,
+           2576,
+           2577,
+           2578,
+           2579,
+           2580,
+           2581,
+           2582,
+           2583,
+           2584,
+           2585,
+           2586,
+           2587,
+           2588,
+           2589,
+           2590,
+           2591,
+           2592,
+           2593,
+           2594,
+           2595,
+           2596,
+           2597,
+           2598,
+           2599,
+           2600,
+           2601,
+           2602,
+           2603,
+           2604,
+           2605,
+           2606,
+           2607,
+           2608,
+           2609,
+           2610,
+           2611,
+           2612,
+           2613,
+           2614,
+           2615,
+           2616,
+           2617,
+           2618,
+           2619,
+           2620,
+           2621,
+           2622,
+           2623,
+           2624,
+           2625,
+           2626,
+           2627,
+           2628,
+           2629,
+           2630,
+           2631,
+           2632,
+           2633,
+           2634,
+           2635,
+           2636,
+           2637,
+           2638,
+           2639,
+           2640,
+           2641,
+           2642,
+           2643,
+           2644,
+           2645,
+           2646,
+           2647,
+           2648,
+           2649,
+           61],
+ 'pid': 2536,
+ 'url': 'http://www.cs.ucl.ac.uk/mobile/students/syllabus_index_2015_2016/pg/'}

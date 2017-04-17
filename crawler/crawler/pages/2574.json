@@ -1,0 +1,125 @@
+{'html': b'<!-- -*-html-*- -->\n<!-- $Id: index.php 238 2008-05-27 00:06:49Z'
+         b' krinke $ -->\n<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Trans'
+         b'itional//EN">\n<html>\n    <!-- -*-html-*- -->\n<head>\n  <META http'
+         b'-equiv="content-type" content="text/html; charset=ISO-8859-1">\n '
+         b' <title>Jens Krinke</title>  <style type="text/css">\n    <!--\n\tb'
+         b'ody { \n\tbackground-color:#FFFFFF; \n\tfont-family: Arial, Helvetic'
+         b'a, sans-serif; \n\t}\n\th1 { color:#074d88; }\n\th2 { color:#074d8'
+         b'8; }\n\th3 { color:#074d88; }\n\ttd { border: 0px; margin: 0px; '
+         b'}\n\ta:link { color:#0000CC; text-decoration:none }\n\ta:visited { c'
+         b'olor:#0000CC; text-decoration:none }\n\ta:hover { color:#0000FF; t'
+         b'ext-decoration:underline }\n\ta:active { color:#FFFFFF; text-decor'
+         b'ation:underline }\n\ta:focus { color:#0000FF; text-decoration:unde'
+         b'rline }\n      -->\n  </style>\n  <script type="text/javascript">\n '
+         b"   \n    var _gaq = _gaq || [];\n    _gaq.push(['_setAccount', 'UA"
+         b"-18142776-1']);\n    _gaq.push(['_trackPageview']);\n    \n    (fun"
+         b"ction() {\n    var ga = document.createElement('script'); ga.type"
+         b" = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' =="
+         b" document.location.protocol ? 'https://ssl' : 'http://www') + '.goog"
+         b"le-analytics.com/ga.js';\n    var s = document.getElementsByTagNa"
+         b"me('script')[0]; s.parentNode.insertBefore(ga, s);\n    })();\n   "
+         b' \n  </script>\n</head>\n  <body>\n    <!-- -*-html-*- -->\n<tabl'
+         b'e style="text-align: left; width: 100%; height: 110px;  margin:\n'
+         b'\t      0px; border: 0px;" cellspacing="0" cellpadding="0">\n  <tr'
+         b'>\n    <td style="background-color: rgb(204, 204, 204);\n\t       v'
+         b'ertical-align: top;\n\t       font-weight: bold;\n\t       font-size'
+         b': 15px;\n\t       padding: 10px; ">\n      DEPARTMENT OF COMPUTER S'
+         b'CIENCE<br>\n      Dr. Jens Krinke\n    </td>\n    <td style="backgr'
+         b'ound-color: rgb(204, 204, 204); \n\t       height: 110px; width: 2'
+         b'65px;">\n      <a href="http://www.ucl.ac.uk/"><img border=0 heig'
+         b'ht=110\n      width=265 src="UCL.gif" alt="UCL"></a>\n    </td>\n  '
+         b'</tr>\n  <tr style="background-color: rgb(153, 153, 153); height:'
+         b' 20px;"> \n    <td></td><td></td>\n  </tr>\n</table>\n<table style="'
+         b'text-align: left; width: 100%; height: 100%;  margin:\n\t      0px'
+         b'; border: 0px;"\n       cellspacing="0" cellpadding="0">\n   <tr>\n'
+         b'      <td\n\tstyle="vertical-align: top; height: 100%; width: 130p'
+         b'x;\n\tborder: 0px; margin: 0px; text-align: left; \n\tpadding: 10px;'
+         b'\n\tbackground-color: rgb(204, 204, 204);">\n\t<span style="font-wei'
+         b'ght: bold;\n\t\t     font-size: 15px;">\n\t  <br><a href="index.h'
+         b'tml">Home</a><br>- <a href="contact.html">Contact</a><br>- <a href="'
+         b'index.html">Teaching</a><br>- <a href="index.html">Research</a><br>-'
+         b' <a href="publications.html">Publications</a><br>\t</span>\n\t  <sm'
+         b'all></small>      </td>\n      <td style="vertical-align: top; he'
+         b'ight: 100%;\n\t\t padding: 10px;">\n\t    \n    <table style="text'
+         b'-align: left; width: 100%;" border="0">\n      <tbody>\n\t<tr>\n'
+         b'\t  <td style="vertical-align: top; width: 180px;">\n\t    <img alt'
+         b'="" src="http://www.cs.ucl.ac.uk/people/photos/J.Krinke.jpg">\n\t '
+         b' </td>\n\t  <td style="vertical-align: top;">\n\t    <span style="co'
+         b'lor:#074d88">\n\t      Jens Krinke<br>\n\t      Senior Lecturer<'
+         b'br>\n\t      Department of Computer Science<br>\n\t      University '
+         b'College London<br>\n\t      j.krinke@ucl.ac.uk<br>\n\t      <!--a hr'
+         b'ef="krinke/krinke.vcf">vCard</a><br-->\n\t      <a href="krinke/kr'
+         b'inke.gpg">PGP/GnuPG key</a><p>\n\t\t\n\t\tDirector of the Centre f'
+         b'or Research on\n\t\tEvolution Search & Testing\n\t\t(<a href="http'
+         b'://crest.cs.ucl.ac.uk/">CREST</a>) in\n\t\tthe\n\t\t<a href="http:'
+         b'//sse.cs.ucl.ac.uk/">Software Systems Engineering\n\t\t  Group</a>.'
+         b'<p>\n\n\t\tAffiliate Students Tutor.\n\t    </span>\n\t  </td>\n\t'
+         b'</tr>\n      </tbody>\n    </table>\n    \n    \n    <h3><a name='
+         b'"external"></a>Affiliate Students Tutor</h3>\n    Information for'
+         b'\n    <ul>\n      <li><a href="http://www.cs.ucl.ac.uk/teaching_le'
+         b'arning/degree_programmes/affiliate_students/">Affiliate\n\t  Stude'
+         b'nts (from other universities)</a>\n      <li><a href="http://www.'
+         b'cs.ucl.ac.uk/teaching_learning/degree_programmes/ancillary/">Student'
+         b's\n\t  from other departments at UCL</a>\n    </ul>\n    \n    <!'
+         b'--The International Students Orientation Programme for students\n'
+         b"    joining UCL's Computer Science Department in January 2012 wi"
+         b'll\n    take place on <br><strong>Thursday the 5th January 2012 a'
+         b't 4pm in\n    room 6.12 MPEB.</strong>-->\n\n   \n    <h3><a name="t'
+         b'eaching"></a>Teaching</h3>\n   \n    I am involved in teaching of '
+         b'the following modules:\n    <ul>\n      <li><a href="http://www.cs'
+         b'.ucl.ac.uk/students/syllabus/mscsse/gs04_tools_and_environments/">CO'
+         b'MPGS04</a>\n\tand <a href="http://www.cs.ucl.ac.uk/students/syllab'
+         b'us/undergrad/m024_tools_and_environments/">COMPM024</a>:\n\tTools '
+         b'and Environments.\n      <li><a href="http://www.cs.ucl.ac.uk/stu'
+         b'dents/syllabus/mscsse/gs10_language_based_security/">COMPGS10</a'
+         b'>\n\tand <a href="http://www.cs.ucl.ac.uk/students/syllabus/underg'
+         b'rad/m028_language_based_security/">COMPM028</a>:\n\tLanguage Based'
+         b' Security.\n      <li><a href="http://www.cs.ucl.ac.uk/students/s'
+         b'yllabus/mscisec/ga16_malware/">COMPGA16</a>\n\tand <a href="http:/'
+         b'/www.cs.ucl.ac.uk/students/syllabus/undergrad/m066_malware/">COMPM06'
+         b'6</a>:\n\tMalware.\n      <li><a href="http://www.cs.ucl.ac.uk/stud'
+         b'ents/syllabus/msccs/gc05_algorithmics/">COMPGC05</a>:\n\tAlgorithm'
+         b'ics.\n    </ul>\n  \n    Are you looking for a project? I supervise'
+         b" student's projects in\n    the area of software analysis and can"
+         b' suggest appropriate topics.\n    Please see my <a href="projects'
+         b'.html">projects</a> for some ideas.\n    \n    <!--\n    <ul>\n     '
+         b' <li> \n    </ul>\n    -->\n    \n    <h4>Office hours:</h4>\n\n  '
+         b'  Mondays, 17:00-18:00, MPEB 5.06<br>\n    Please contact me via '
+         b'email before.\n\n    <p><strong>No office hours outside term time!'
+         b'</strong></p>\n    \n    <h3><a name="Research"></a>Research</h3>\n'
+         b'    \n    <ul>\n      <li>Program Analysis</li>\n      <li>Program '
+         b'Slicing</li>\n      <li>Clone Detection</li>\n      <li>Bug Detect'
+         b'ion</li>\n      <li>Taint Analysis</li>\n      <li>Information Flo'
+         b'w Control</li>\n    </ul>\n    \n    <h3><a href="publications.html'
+         b'">Publications</a></h3>\n    \n    <!--h3>Upcoming Events</h3>\n   '
+         b' \n    <ul>\n      <li>International Conference on Software Engine'
+         b'ering\n\t(<a href="http://www.ifi.uzh.ch/icse2012/">ICSE 2012</a>)'
+         b'\n      <li>International Conference on Software Maintenance\n\t(<a'
+         b' href="http://selab.fbk.eu/icsm2012/">ICSM 2012</a>)\n      <li>I'
+         b'nternational Working Conference on Source Code Analysis and\n\tMan'
+         b'ipulation\n\t(<a href="http://scam2012.cs.usask.ca/">SCAM 2012</a>'
+         b')\n      <li>European Conference on Software Maintenance and\n\tRee'
+         b'ngineering\n\t(<a href="http://csmr2012.sed.hu/">CSMR 2012</a>)\n  '
+         b'    <li>International Workshop on Software Clones\n\t(<a href="htt'
+         b'p://iwsc2012.ist.osaka-u.ac.jp/">IWSC 2012</a>)\n    </ul-->\n    '
+         b'\n    <!-- -*-html-*- -->\n<p>&nbsp;</p>\n<p style="text-align: rig'
+         b'ht;">\n  <SMALL CLASS=footer>\n    Last modified: 03/20/2017  </SM'
+         b'ALL>\n</p>\n</td>\n</tr>\n</table>\n  </body>\n</html>\n',
+ 'links': [2575,
+           2576,
+           2577,
+           2578,
+           51,
+           39,
+           2579,
+           2580,
+           2581,
+           2582,
+           2583,
+           2584,
+           2585,
+           2586,
+           2587,
+           2588],
+ 'pid': 2574,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Krinke/'}

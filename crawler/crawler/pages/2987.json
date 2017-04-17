@@ -1,764 +1,549 @@
-{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http'
-         b'://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html xmln'
-         b's="http://www.w3.org/1999/xhtml" lang="en-US">\n\n<head profile="h'
-         b'ttp://gmpg.org/xfn/11">\n<meta http-equiv="Content-Type" content='
-         b'"text/html; charset=UTF-8" />\n\n<title>ubicomp2008 &laquo;  MobBl'
-         b'og</title>\n\n<link rel="stylesheet" href="http://mobblog.cs.ucl.a'
-         b'c.uk/wp-content/themes/default/style.css" type="text/css" media="scr'
-         b'een" />\n<link rel="pingback" href="http://mobblog.cs.ucl.ac.uk/x'
-         b'mlrpc.php" />\n\n<style type="text/css" media="screen">\n\n\t#pag'
-         b'e { background: url("http://mobblog.cs.ucl.ac.uk/wp-content/themes/d'
-         b'efault/images/kubrickbg-ltr.jpg") repeat-y top; border: none; }\n'
-         b'\n</style>\n\n \n\n<link rel="alternate" type="application/rss+xm'
-         b'l" title="MobBlog &raquo; Feed" href="http://mobblog.cs.ucl.ac.uk/fe'
-         b'ed/" />\n<link rel="alternate" type="application/rss+xml" title="'
-         b'MobBlog &raquo; Comments Feed" href="http://mobblog.cs.ucl.ac.uk/com'
-         b'ments/feed/" />\n<link rel="alternate" type="application/rss+xml"'
-         b' title="MobBlog &raquo; ubicomp2008 Tag Feed" href="http://mobblog.c'
-         b's.ucl.ac.uk/tag/ubicomp2008/feed/" />\n<link rel="EditURI" type="'
-         b'application/rsd+xml" title="RSD" href="http://mobblog.cs.ucl.ac.uk/x'
-         b'mlrpc.php?rsd" />\n<link rel="wlwmanifest" type="application/wlwm'
-         b'anifest+xml" href="http://mobblog.cs.ucl.ac.uk/wp-includes/wlwmanife'
-         b'st.xml" /> \n<meta name="generator" content="WordPress 3.8.1" />\n'
-         b'</head>\n<body class="archive tag tag-ubicomp2008 tag-64">\n<div i'
-         b'd="page">\n\n\n<div id="header" role="banner">\n\t<div id="header'
-         b'img">\n\t\t<h1><a href="http://mobblog.cs.ucl.ac.uk/">MobBlog</a></'
-         b'h1>\n\t\t<div class="description">Research:  Smart Cities &amp; Dat'
-         b'a Mining &amp; Social Media</div>\n\t</div>\n</div>\n<hr />\n\n\t<d'
-         b'iv id="content" class="narrowcolumn" role="main">\n\n\t\t\n \t   \t'
-         b'  \t\t<h2 class="pagetitle">Posts Tagged &#8216;ubicomp2008&#8217;'
-         b'</h2>\n \t  \n\n\t\t<div class="navigation">\n\t\t\t<div class="al'
-         b'ignleft"></div>\n\t\t\t<div class="alignright"></div>\n\t\t</di'
-         b'v>\n\n\t\t\t\t<div class="post-292 post type-post status-publish f'
-         b'ormat-standard hentry category-conference category-dataset category-'
-         b'event category-industry category-research category-trust category-ub'
-         b'icomp category-ubicomp2008 tag-ubicomp2008">\n\t\t\t\t<h3 id="pos'
-         b't-292"><a href="http://mobblog.cs.ucl.ac.uk/2008/09/29/ubicomp-08/" '
-         b'rel="bookmark" title="Permanent Link to Ubicomp 2008">Ubicomp 2008</'
-         b'a></h3>\n\t\t\t\t<small>Monday, September 29th, 2008</small>\n'
-         b'\n\t\t\t\t<div class="entry">\n\t\t\t\t\t<p><a href="http://blogsea'
-         b'rch.google.com/blogsearch?hl=en&amp;q=ubicomp+2008&amp;btnG=Search+B'
-         b'logs">Many blogs</a> have been covering Ubicomp and, a couple of day'
-         b's ago, <a href="http://mobblog.cs.ucl.ac.uk/2008/09/22/making-mobile'
-         b'-raters-stick-to-their-word-ubicomp/">I promised</a> to write down m'
-         b'y own coverage. Here you go <img src="http://mobblog.cs.ucl.ac.uk/wp'
-         b'-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" '
-         b'/> </p>\n<p>The first day I attended the <strong><a href="http://'
-         b'www.inbetweeness.org/automated-journeys/">Automated Journeys</a> </s'
-         b'trong> workshop organized by <a href="http://www.karmanet-design.com'
-         b'/">Arianna Bassoli</a> (who gave a <a href="http://mobblog.cs.ucl.ac'
-         b'.uk/2008/05/23/seminar-social-urban-computing/">talk</a> at UCL a wh'
-         b'ile back), <a href="http://www.ics.uci.edu/~johannab/">Johanna Brewe'
-         b'r</a> (whose recent work has been covered <a href="http://mobblog.cs'
-         b'.ucl.ac.uk/2008/06/23/seeshell-an-augmented-oytser-card-holder/">her'
-         b'e</a>; for more, check <a href="http://drzaius.ics.uci.edu/blogs/set'
-         b'bang/">her blog</a>), and . The workshop&#8217;s format was not\xc2'
-         b'\xa0 traditional. As part of the workshop, we went out and had lunc'
-         b'h :-), and, while doing so, we observed how people  in Seoul use tec'
-         b'hnologies.\xc2\xa0 Then, we came back and, through group discussio'
-         b'ns and hands-on design brainstorming sessions, we produced\xc2\xa0'
-         b' 4 envisagements that\xc2\xa0 critically reflected on technologica'
-         b'l futures. It was very engaging! I hope other workshops will replica'
-         b'te/mutate this format. I wished I could attend at least two of t'
-         b'he\xc2\xa0 other workshops on offer: <strong><a href="http://www.u'
-         b'seworkshop.org/">Ubiquitous Systems Evaluation</a> </strong>partly o'
-         b'rganized by <a href="http://chris-kray.blogspot.com/">Chris Kray</a>'
-         b' (I am in debt with him, and he knows why ;-)) and <strong><a href="'
-         b'http://www.k2.t.u-tokyo.ac.jp/perception/dap2008/">Devices that Alte'
-         b'r Perception</a></strong> partly organized by <a href="http://www.k2'
-         b'.t.u-tokyo.ac.jp/members/carson/carson-e.html">Carson Reynolds</a>.<'
-         b'/p>\n<p>At Ubicomp, the speakers did not suffer from <a href="htt'
-         b'p://mobblog.cs.ucl.ac.uk/2008/03/19/no-shows-and-powerpoint-karaoke-'
-         b'acm-sac-2008/">powerpoint karaoke syndrome</a>, and their slides wer'
-         b'e generally\xc2\xa0 well-designed &#8211; less text, more images. '
-         b'That is largely because the ubicomp&#8217;s community is made of des'
-         b'ign-conscious (CHI) researchers. Few talks are already available on '
-         b'<a href="http://www.slideshare.net/tag/ubicomp2008">slideshare</a>.<'
-         b'/p>\n<p>Here are few papers I personally found intriguing because'
-         b' of their <strong>algorithms</strong>, their <strong>evaluation</str'
-         b'ong>, or their <strong>interesting ideas</strong>. At the end of thi'
-         b's post, I&#8217;ll point  to few <strong>datasets</strong> that have'
-         b' been used and can be of interest <img src="http://mobblog.cs.ucl.ac'
-         b'.uk/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-sm'
-         b'iley" /> </p>\n<p><strong>1. Algorithms</strong></p>\n<p><em>Navig'
-         b'ate Like a Cabbie: Probabilistic Reasoning from Observed Context-Awa'
-         b're Behavior</em>. <a href="http://www.cs.cmu.edu/~bziebart/">Brian D'
-         b'. Ziebart</a> showed a new way of making <strong>route predictions</'
-         b'strong>. He used a probabilistic model\xc2\xa0 presented at AAAI &'
-         b'#8220;<a href="http://www.ri.cmu.edu/pubs/pub_6055.html">Maximum Ent'
-         b'ropy Inverse Reinforcement Learning</a>&#8220;.\xc2\xa0 Interestin'
-         b'gly, he showed that the model works upon data that is noisy and impe'
-         b'rfect.<br />\n<em></em></p>\n<p><em>Pedestrian Localisation for In'
-         b'door Environments</em>. <a href="http://www.cl.cam.ac.uk/~ojw28/">Ol'
-         b'iver Woodman</a> proposed a way of\xc2\xa0<strong> tracking people'
-         b' indoor</strong>. Oliver and Robert showed how to combine a foot-mou'
-         b'nted unit, a building model, and a particle filter to track people i'
-         b'n a building. They experimentally showed that users can be effective'
-         b'ly tracked within 1m without knowing their initial positions. Great '
-         b'results! It&#8217;s a paper well worth reading!</p>\n<p><em>Disco'
-         b'very of Activity Patterns using Topic Models.</em> <a href="http://w'
-         b'ww.mis.informatik.tu-darmstadt.de/People/schiele/index.html">Bernt S'
-         b'chiele</a> presented a new method for recognizing a person&#8217;s a'
-         b'ctivities from wearable sensors.\xc2\xa0 This method adapts probab'
-         b'ilistic topic models and has been shown to recognize daily routines '
-         b'without user annotation.\xc2\xa0 One of Bernt&#8217;s students had'
-         b' an interesting poster on detecting location transitition using sens'
-         b'or data (<a href="http://www.mis.informatik.tu-darmstadt.de/People/b'
-         b'lanke/ubicomp2008_sensing_location_in_the_pocket.pdf">pdf</a>).<'
-         b'/p>\n<p><strong>2. Evaluation</strong></p>\n<p>A couple of papers '
-         b'(including the great work done by <a href="http://www.cs.cmu.edu/~ml'
-         b'lee/">Matthew Lee</a>)\xc2\xa0 used a method called the Wizard of '
-         b'Oz evaluation. The general idea is to simulate those parts of the sy'
-         b'stem (e.g., speech recognition) that require most effort in terms of'
-         b' development or to assess the suitability of your interface(see &#82'
-         b'20;Wizard of Oz studies &#8211; why and how&#8221; (<a href="http://'
-         b'www.ida.liu.se/~arnjo/papers/kbs.pdf">pdf</a>) for more).</p>\n<p'
-         b'><em>Flowers or a Robot Army? Encouraging Awareness &amp; Activity w'
-         b'ith Personal, Mobile Displays</em> by <a href="http://seattle.intel-'
-         b'research.net/people/sunny/">Sunny Consolvo</a> et al.\xc2\xa0 They'
-         b' designed a system that makes it possible for mobile users to self-m'
-         b'onitor their physical activities and conducted a greatly designed 3-'
-         b'month field experiment.</p>\n<p><em>Reflecting on the Invisible: '
-         b'Understanding End-User Perceptions of Ubiquitous Computing (<a href='
-         b'"http://www.cc.gatech.edu/grads/e/erika/pubs/ubicomp08-rfid.pdf">pdf'
-         b')</a>.</em> <a href="http://www.cc.gatech.edu/grads/e/erika/">Erika '
-         b'Shehan Poole</a> detailed end-user perceptions of RFID technology us'
-         b'ing an interesting qualitative method that combines structured inter'
-         b'views and photo elicitation excercises. Erika and her mates show tha'
-         b't, by using this method, one is able to uncover perceptions that are'
-         b' often difficult for study participants to verbalize.\xc2\xa0 One '
-         b'of her findings: many people believed that RFID can be used to remot'
-         b'ely tract the location of tagged objects, people, or animals!</p'
-         b'>\n<p><strong>3. Interesting Ideas<br />\n</strong></p>\n<p><em>Boo'
-         b'kisheet: Bendable Device for Browsing Content Using the Metaphor of '
-         b'Leafing Through the Pages</em>. Trash your mouse. <a href="http://ww'
-         b'w.design-interactions.rca.ac.uk/people/alumni/05-07/jun-ichiro-watan'
-         b'abe">Jun-ichiro Watanabe</a> presented a VERY promising interface (a'
-         b' book made of two thin plastic sheets and bend sensors) with whi'
-         b'ch\xc2\xa0 a user can easily scroll digital content such as photos'
-         b'. The user\xc2\xa0 does so by simply bending one side of the sheet'
-         b' or the other.<br />\n<em></em></p>\n<p><em>Towards the Automated '
-         b'Social Analysis of Situated Speech Data</em>. To automatically under'
-         b'stand individual and group behavior, <a href="http://www.cs.washingt'
-         b'on.edu/homes/danny/">Danny Wyatt</a> et al. recorded the coversation'
-         b'al dynamics of 24 people over 6 months. They did so using privacy-se'
-         b'nsitive techniques. By using this type of studies, researchers may w'
-         b'ell\xc2\xa0 gain broad sociological insights.</p>\n<p><em>The Poten'
-         b'tial for Location-Aware Power Management</em>.\xc2\xa0 <a href="ht'
-         b'tp://www.cl.cam.ac.uk/research/dtg/~rkh23/pages/welcome.php">Robert '
-         b'Harle</a> showed how to dinamically optimize the energy consumption '
-         b'of an office. Very interesting problem-driven research!</p>\n<p><'
-         b'em><br />\nAccessible Contextual Information for Urban Orientatio'
-         b'n</em>. Jason Stewart\xc2\xa0 presented a <strong>prototype</stron'
-         b'g> of a location-based\xc2\xa0 service with which mobile users sha'
-         b're content (see their project&#8217;s <a href="http://talking-points'
-         b'.org/">website)</a></p>\n<p><em>Enhanced Shopping: A Dynamic Map '
-         b'in a Retail Store</em>.\xc2\xa0 Alexander Meschtscherjakov\xc2\xa0 p'
-         b'resented a <strong>prototype</strong> for mobile phones that display'
-         b's\xc2\xa0 customer activities (e.g., customer flow) inside a shopp'
-         b'ing mall</p>\n<p><em>Spyn: Augmenting Knitting to Support Storyte'
-         b'lling and Reflection (<a href="http://people.ischool.berkeley.edu/~d'
-         b'aniela/research/RosnerRyokai_Ubicomp_2008.pdf">pdf</a>).</em> <a hre'
-         b'f="http://people.ischool.berkeley.edu/~daniela/web/about.html">Danie'
-         b'la K. Rosner</a>&#8216;s presentation was masterfully designed! She '
-         b'walked us through her expirience of designing <a href="http://people'
-         b'.ischool.berkeley.edu/~daniela/spyn/">Spyn</a> &#8211; a system for '
-         b'knitters to record, playback, and share information involved in the '
-         b'creation of their hand-knit artifacts. She showed how her system enr'
-         b'iches the knitter&#8217;s craft</p>\n<p><em>Picture This! Film as'
-         b'sembly using toy gestures</em>. <a href="http://web.media.mit.edu/~c'
-         b'ati/">Cati Vaucelle</a> (who keeps a cool <a href="http://architectr'
-         b'adure.blogspot.com/">blog</a>) presented a new input device embedded'
-         b' in children\xe2\x80\x99s toys for video composition.\xc2\xa0 As th'
-         b'ey play with the toys to act out a story, children conduct film asse'
-         b'mbly.</p>\n<p><strong>4. Datasets</strong></p>\n<p><em>Understandi'
-         b'ng Mobility Based on GPS Data</em> by  et al. used <strong>GPS logs<'
-         b'/strong> of 65 people over 10 months (the largest dataset in the com'
-         b'munity!) to evaluate a new way of\xc2\xa0 inferring people&#8217;s'
-         b' motion modes from their GPS logs</p>\n<p><em>Accurate Activity R'
-         b'ecognition in a Home Setting</em> (<a href="http://ciosresearch.org/'
-         b'files/ubicomppaperpresent.pdf">pdf</a>) by Tim van Kasteren et al. u'
-         b'sed 28 days of sensor data about one person @ home and corresponding'
-         b' annotations of his <strong>activities</strong> (e.g., toileting, sh'
-         b'owering, etc.) to evaluate a new method for recognizing activities f'
-         b'rom sensor data.</p>\n<p><em>Discovery of Activity Patterns using'
-         b' Topic Models </em>by <a href="http://www.mis.informatik.tu-darmstad'
-         b't.de/People/thuynh">Tam Huynh</a> et al. used 16 days of sensor data'
-         b' from a man who was carrying\xc2\xa0 2 wearable sensors to test th'
-         b'eir method for automatically recognizing <strong>activities</strong>'
-         b' (e.g., dinner, commuting, lunch, office work) from sensor data.</p>'
-         b'\n<p><em>On Using Existing <strong>Time-Use Study Data</strong> f'
-         b'or Ubiquitous Compting Applications</em> by <a href="http://www2.par'
-         b'c.com/csl/members/kpartrid/">Kurt Partridge </a>and Philippe Golle h'
-         b'ow to use data (e.g. people&#8217;s activities and locations) that h'
-         b'as been collected by governments and commercial institutions to eval'
-         b'uate ubicomp systems.</p>\n<p><em>The Potential for Location-Awar'
-         b'e Power Management</em> by Rober Harletested on <strong>location dat'
-         b'a</strong> of 40 people in 50-room office building for 60 working da'
-         b'ys his proposed strategies for dinamically optimizing the energy con'
-         b'sumption of an office.</p>\n<p>(ubicomp2008)</p>\n\t\t\t\t</div>\n\n'
-         b'\t\t\t\t<p class="postmetadata">Tags:<a href="http://mobblog.cs.ucl.'
-         b'ac.uk/tag/ubicomp2008/" rel="tag">ubicomp2008</a><br /> Posted in <a'
-         b' href="http://mobblog.cs.ucl.ac.uk/category/conference/" title="View'
-         b' all posts in conference" rel="category tag">conference</a>, <a href'
-         b'="http://mobblog.cs.ucl.ac.uk/category/dataset/" title="View all pos'
-         b'ts in dataset" rel="category tag">dataset</a>, <a href="http://mobbl'
-         b'og.cs.ucl.ac.uk/category/event/" title="View all posts in event" rel'
-         b'="category tag">event</a>, <a href="http://mobblog.cs.ucl.ac.uk/cate'
-         b'gory/industry/" title="View all posts in industry" rel="category tag'
-         b'">industry</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/resear'
-         b'ch/" title="View all posts in research" rel="category tag">research<'
-         b'/a>, <a href="http://mobblog.cs.ucl.ac.uk/category/trust/" title="Vi'
-         b'ew all posts in trust" rel="category tag">trust</a>, <a href="http:/'
-         b'/mobblog.cs.ucl.ac.uk/category/ubicomp/" title="View all posts in ub'
-         b'icomp" rel="category tag">ubicomp</a>, <a href="http://mobblog.cs.uc'
-         b'l.ac.uk/category/ubicomp2008/" title="View all posts in ubicomp2008"'
-         b' rel="category tag">ubicomp2008</a> |   <span>Comments Closed</span>'
-         b'</p>\n\n\t\t\t</div>\n\n\t\t\t\t<div class="post-277 post type-post'
-         b' status-publish format-standard hentry category-conference category-'
-         b'event category-mobile category-recommender-systems category-research'
-         b' category-security category-ubicomp category-ubicomp2008 tag-ubicomp'
-         b'2008">\n\t\t\t\t<h3 id="post-277"><a href="http://mobblog.cs.ucl.'
-         b'ac.uk/2008/09/22/making-mobile-raters-stick-to-their-word-ubicomp/" '
-         b'rel="bookmark" title="Permanent Link to &#8220;Making Mobile Raters '
-         b'Stick to their Word &#8221; @ Ubicomp">&#8220;Making Mobile Raters S'
-         b'tick to their Word &#8221; @ Ubicomp</a></h3>\n\t\t\t\t<small>Mon'
-         b'day, September 22nd, 2008</small>\n\n\t\t\t\t<div class="entry">\n\t'
-         b'\t\t\t\t<p>In few hours I will present MobiRate. Fortunately, the sl'
-         b'ides are ready ! See them next. A short description follows.</p>'
-         b'\n<p>P.S. I&#8217;ll blog about Ubicomp shortly. For now, look at'
-         b' the <a href="http://albrecht-schmidt.blogspot.com/search/label/ubic'
-         b'omp2008">great coverage</a> by Albrecht Schmidt\xc2\xa0 <img src="'
-         b'http://mobblog.cs.ucl.ac.uk/wp-includes/images/smilies/icon_wink.gif'
-         b'" alt=";-)" class="wp-smiley" /> </p>\n<div id="__ss_612327" styl'
-         b'e="width: 425px; text-align: left;"><a style="font:14px Helvetica,Ar'
-         b'ial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:und'
-         b'erline;" title="MobiRate" href="http://www.slideshare.net/daniele.qu'
-         b'ercia/mobirate-presentation?type=powerpoint">MobiRate</a><object cla'
-         b'ssid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height'
-         b'="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/f'
-         b'lash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" val'
-         b'ue="true" /><param name="allowScriptAccess" value="always" /><param '
-         b'name="src" value="http://static.slideshare.net/swf/ssplayer2.swf?doc'
-         b'=quercia08mobirate-1222120543454473-9&amp;stripped_title=mobirate-pr'
-         b'esentation" /><embed type="application/x-shockwave-flash" width="425'
-         b'" height="355" src="http://static.slideshare.net/swf/ssplayer2.swf?d'
-         b'oc=quercia08mobirate-1222120543454473-9&amp;stripped_title=mobirate-'
-         b'presentation" allowscriptaccess="always" allowfullscreen="true"/></o'
-         b'bject></p>\n<div style="font-size: 11px; font-family: tahoma,aria'
-         b'l; height: 26px; padding-top: 2px;">View SlideShare <a style="text-d'
-         b'ecoration:underline;" title="View MobiRate on SlideShare" href="http'
-         b'://www.slideshare.net/daniele.quercia/mobirate-presentation?type=pow'
-         b'erpoint">presentation</a> or <a style="text-decoration:underline;" h'
-         b'ref="http://www.slideshare.net/upload?type=powerpoint">Upload</a> yo'
-         b'ur own. (tags: <a style="text-decoration:underline;" href="http://sl'
-         b'ideshare.net/tag/trust">trust</a> <a style="text-decoration:underlin'
-         b'e;" href="http://slideshare.net/tag/systems">systems</a>)</div>\n'
-         b'</div>\n<p><strong>Q&amp;A Session</strong> (at the conference):<'
-         b'/p>\n<p>Q&gt;<strong> You have shown that MobiRate effectively pr'
-         b'otects against *indepedent* malicious individuals. What if\xc2\xa0'
-         b' malicious individuals collude? </strong><br />\nA&gt; Colluding '
-         b'malicious peole will not be able to tweak\xc2\xa0 ratings because '
-         b'they cannot produce fake crypto material. However, if malicious peop'
-         b'le collude, one may well run into updating problems. Phones update t'
-         b'heir ratings\xc2\xa0 while they move and, consequently, there '
-         b'are\xc2\xa0\xc2\xa0 time windows in which ratings are not up-to-date'
-         b'. During those time-windows, colluding people may succeed in attacki'
-         b'ng the communities they are in\xc2\xa0 (e.g., in flooding the syst'
-         b'em with spam content).</p>\n<p>Q&gt;\xc2\xa0 <strong>Phones that ru'
-         b'n MobiRate audit each other. Are their users aware of that?</strong>'
-         b'<br />\nA&gt; We have assumed that, in downloading and running Mo'
-         b'biRate, people silently agree with\xc2\xa0 the possibility of thei'
-         b'r phones being &#8220;auditors&#8221;. However, people should be abl'
-         b'e to step back and refuse to be auditors at times; for example, when'
-         b'ever they are running out of battery. This feature should be definet'
-         b'ely<br />\nincluded in the next version of MobiRate.</p>\n<p>Q&gt;'
-         b' <strong>Your solution is general, in that, it is able to collect an'
-         b'd store not only user ratings but also user activities!</strong><br '
-         b'/>\nTrue.\xc2\xa0 Instead of monitoring ratings, one could force pe'
-         b'ople in keeping a record of their activities. Before deploying MobiR'
-         b'ate, we should carefully think about its misuses and try to prevent '
-         b'them. A good starting point could be to understand how &#8220;histor'
-         b'ical misuses of technology can be studied to be avoided in the futur'
-         b'e&#8221; (<a href="http://www.economist.com/Debate/index.cfm?action='
-         b'article&amp;debate_id=5&amp;story_id=10753184">link</a>)</p>\n<p>'
-         b'<strong>Short Description of MobiRate:</strong></p>\n<p> <a href='
-         b'"http://mobblog.cs.ucl.ac.uk/2008/09/22/making-mobile-raters-stick-t'
-         b'o-their-word-ubicomp/#more-277" class="more-link">(more&hellip;)</a>'
-         b'</p>\n\t\t\t\t</div>\n\n\t\t\t\t<p class="postmetadata">Tags:<a hre'
-         b'f="http://mobblog.cs.ucl.ac.uk/tag/ubicomp2008/" rel="tag">ubicomp20'
-         b'08</a><br /> Posted in <a href="http://mobblog.cs.ucl.ac.uk/category'
-         b'/conference/" title="View all posts in conference" rel="category tag'
-         b'">conference</a>, <a href="http://mobblog.cs.ucl.ac.uk/category/even'
-         b't/" title="View all posts in event" rel="category tag">event</a>, <a'
-         b' href="http://mobblog.cs.ucl.ac.uk/category/mobile/" title="View all'
-         b' posts in mobile" rel="category tag">mobile</a>, <a href="http://mob'
-         b'blog.cs.ucl.ac.uk/category/recommender-systems/" title="View all pos'
-         b'ts in recommender systems" rel="category tag">recommender systems</a'
-         b'>, <a href="http://mobblog.cs.ucl.ac.uk/category/research/" title="V'
-         b'iew all posts in research" rel="category tag">research</a>, <a href='
-         b'"http://mobblog.cs.ucl.ac.uk/category/security/" title="View all pos'
-         b'ts in security" rel="category tag">security</a>, <a href="http://mob'
-         b'blog.cs.ucl.ac.uk/category/ubicomp/" title="View all posts in ubicom'
-         b'p" rel="category tag">ubicomp</a>, <a href="http://mobblog.cs.ucl.ac'
-         b'.uk/category/ubicomp2008/" title="View all posts in ubicomp2008" rel'
-         b'="category tag">ubicomp2008</a> |   <a href="http://mobblog.cs.ucl.a'
-         b'c.uk/2008/09/22/making-mobile-raters-stick-to-their-word-ubicomp/#co'
-         b'mments" title="Comment on &#8220;Making Mobile Raters Stick to their'
-         b' Word &#8221; @ Ubicomp">1 Comment &#187;</a></p>\n\n\t\t\t</div>'
-         b'\n\n\t\t\n\t\t<div class="navigation">\n\t\t\t<div class="alignleft'
-         b'"></div>\n\t\t\t<div class="alignright"></div>\n\t\t</div>\n\t\t</'
-         b'div>\n\n\t<div id="sidebar" role="complementary">\n\t\t<ul>\n\t\t'
-         b'\t\t\t\t<li>\n\t\t\t\t<form role="search" method="get" id="search'
-         b'form" class="searchform" action="http://mobblog.cs.ucl.ac.uk/">\n'
-         b'\t\t\t\t<div>\n\t\t\t\t\t<label class="screen-reader-text" for="s"'
-         b'>Search for:</label>\n\t\t\t\t\t<input type="text" value="" name="'
-         b's" id="s" />\n\t\t\t\t\t<input type="submit" id="searchsubmit" val'
-         b'ue="Search" />\n\t\t\t\t</div>\n\t\t\t</form>\t\t\t</li>\n\n\t\t'
-         b'\t<!-- Author information is disabled per default. Uncomment and '
-         b'fill in your details if you want to use it.\n\t\t\t<li><h2>Author</h'
-         b'2>\n\t\t\t<p>A little something about you, the author. Nothing lengt'
-         b'hy, just an overview.</p>\n\t\t\t</li>\n\t\t\t-->\n\n\t\t\t\t\t</ul'
-         b'>\n\t\t<ul role="navigation">\n\t\t\t<li class="pagenav"><h2>Pages<'
-         b'/h2><ul><li class="page_item page-item-166"><a href="http://mobblog.'
-         b'cs.ucl.ac.uk/conferencesworkshops/">Conferences/Workshops</a></l'
-         b'i>\n<li class="page_item page-item-58"><a href="http://mobblog.cs'
-         b'.ucl.ac.uk/datasets/">Datasets</a></li>\n<li class="page_item pag'
-         b'e-item-92"><a href="http://mobblog.cs.ucl.ac.uk/how-to-subscribe/">G'
-         b'et Involved</a></li>\n<li class="page_item page-item-1124"><a hre'
-         b'f="http://mobblog.cs.ucl.ac.uk/tools/">Tools</a></li>\n</ul></li>'
-         b'\n\t\t\t<li><h2>Archives</h2>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href='
-         b"'http://mobblog.cs.ucl.ac.uk/2013/11/'>November 2013</a></li>\n\t<"
-         b"li><a href='http://mobblog.cs.ucl.ac.uk/2013/10/'>October 2013</a></"
-         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2013/08/'>August 2"
-         b"013</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2013/05/'"
-         b">May 2013</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/201"
-         b"3/04/'>April 2013</a></li>\n\t<li><a href='http://mobblog.cs.ucl.a"
-         b"c.uk/2013/03/'>March 2013</a></li>\n\t<li><a href='http://mobblog."
-         b"cs.ucl.ac.uk/2012/12/'>December 2012</a></li>\n\t<li><a href='http"
-         b"://mobblog.cs.ucl.ac.uk/2012/11/'>November 2012</a></li>\n\t<li><a"
-         b" href='http://mobblog.cs.ucl.ac.uk/2012/09/'>September 2012</a></li>"
-         b"\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/08/'>August 2012"
-         b"</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/07/'>Ju"
-         b"ly 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2012/"
-         b"06/'>June 2012</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.u"
-         b"k/2012/04/'>April 2012</a></li>\n\t<li><a href='http://mobblog.cs."
-         b"ucl.ac.uk/2012/03/'>March 2012</a></li>\n\t<li><a href='http://mob"
-         b"blog.cs.ucl.ac.uk/2012/02/'>February 2012</a></li>\n\t<li><a href="
-         b"'http://mobblog.cs.ucl.ac.uk/2012/01/'>January 2012</a></li>\n\t<l"
-         b"i><a href='http://mobblog.cs.ucl.ac.uk/2011/12/'>December 2011</a></"
-         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2011/05/'>May 2011"
-         b"</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2011/04/'>Ap"
-         b"ril 2011</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2011"
-         b"/03/'>March 2011</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac"
-         b".uk/2011/01/'>January 2011</a></li>\n\t<li><a href='http://mobblog"
-         b".cs.ucl.ac.uk/2010/12/'>December 2010</a></li>\n\t<li><a href='htt"
-         b"p://mobblog.cs.ucl.ac.uk/2010/10/'>October 2010</a></li>\n\t<li><a"
-         b" href='http://mobblog.cs.ucl.ac.uk/2010/09/'>September 2010</a></li>"
-         b"\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/08/'>August 2010"
-         b"</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/07/'>Ju"
-         b"ly 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2010/"
-         b"05/'>May 2010</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk"
-         b"/2010/04/'>April 2010</a></li>\n\t<li><a href='http://mobblog.cs.u"
-         b"cl.ac.uk/2010/03/'>March 2010</a></li>\n\t<li><a href='http://mobb"
-         b"log.cs.ucl.ac.uk/2010/02/'>February 2010</a></li>\n\t<li><a href='"
-         b"http://mobblog.cs.ucl.ac.uk/2010/01/'>January 2010</a></li>\n\t<li"
-         b"><a href='http://mobblog.cs.ucl.ac.uk/2009/11/'>November 2009</a></l"
-         b"i>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/10/'>October 2"
-         b"009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/09/'"
-         b">September 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac."
-         b"uk/2009/08/'>August 2009</a></li>\n\t<li><a href='http://mobblog.c"
-         b"s.ucl.ac.uk/2009/07/'>July 2009</a></li>\n\t<li><a href='http://mo"
-         b"bblog.cs.ucl.ac.uk/2009/06/'>June 2009</a></li>\n\t<li><a href='ht"
-         b"tp://mobblog.cs.ucl.ac.uk/2009/05/'>May 2009</a></li>\n\t<li><a hr"
-         b"ef='http://mobblog.cs.ucl.ac.uk/2009/04/'>April 2009</a></li>\n\t<"
-         b"li><a href='http://mobblog.cs.ucl.ac.uk/2009/03/'>March 2009</a></li"
-         b">\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/02/'>February 2"
-         b"009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2009/01/'"
-         b">January 2009</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk"
-         b"/2008/12/'>December 2008</a></li>\n\t<li><a href='http://mobblog.c"
-         b"s.ucl.ac.uk/2008/11/'>November 2008</a></li>\n\t<li><a href='http:"
-         b"//mobblog.cs.ucl.ac.uk/2008/10/'>October 2008</a></li>\n\t<li><a h"
-         b"ref='http://mobblog.cs.ucl.ac.uk/2008/09/'>September 2008</a></l"
-         b"i>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/08/'>August 20"
-         b"08</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2008/07/'>"
-         b"July 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/200"
-         b"8/06/'>June 2008</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac"
-         b".uk/2008/05/'>May 2008</a></li>\n\t<li><a href='http://mobblog.cs."
-         b"ucl.ac.uk/2008/04/'>April 2008</a></li>\n\t<li><a href='http://mob"
-         b"blog.cs.ucl.ac.uk/2008/03/'>March 2008</a></li>\n\t<li><a href='ht"
-         b"tp://mobblog.cs.ucl.ac.uk/2008/02/'>February 2008</a></li>\n\t<li>"
-         b"<a href='http://mobblog.cs.ucl.ac.uk/2008/01/'>January 2008</a></li>"
-         b"\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/12/'>December 20"
-         b"07</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/11/'>"
-         b"November 2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk"
-         b"/2007/10/'>October 2007</a></li>\n\t<li><a href='http://mobblog.cs"
-         b".ucl.ac.uk/2007/09/'>September 2007</a></li>\n\t<li><a href='http:"
-         b"//mobblog.cs.ucl.ac.uk/2007/08/'>August 2007</a></li>\n\t<li><a hr"
-         b"ef='http://mobblog.cs.ucl.ac.uk/2007/07/'>July 2007</a></li>\n\t<l"
-         b"i><a href='http://mobblog.cs.ucl.ac.uk/2007/06/'>June 2007</a></"
-         b"li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/05/'>May 2007"
-         b"</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2007/02/'>Fe"
-         b"bruary 2007</a></li>\n\t<li><a href='http://mobblog.cs.ucl.ac.uk/2"
-         b"007/01/'>January 2007</a></li>\n\t<li><a href='http://mobblog.cs.u"
-         b"cl.ac.uk/2006/12/'>December 2006</a></li>\n\t<li><a href='http://m"
-         b"obblog.cs.ucl.ac.uk/2006/11/'>November 2006</a></li>\n\t\t\t\t</u"
-         b'l>\n\t\t\t</li>\n\n\t\t\t<li class="categories"><h2>Categories</h'
-         b'2><ul>\t<li class="cat-item cat-item-94"><a href="http://mobblog.'
-         b'cs.ucl.ac.uk/category/api/" title="View all posts filed under api">a'
-         b'pi</a> (1)\n</li>\n\t<li class="cat-item cat-item-69"><a href="http'
-         b'://mobblog.cs.ucl.ac.uk/category/applications/" title="View all post'
-         b's filed under applications">applications</a> (2)\n</li>\n\t<li clas'
-         b's="cat-item cat-item-47"><a href="http://mobblog.cs.ucl.ac.uk/catego'
-         b'ry/award/" title="View all posts filed under award">award</a> (4'
-         b')\n</li>\n\t<li class="cat-item cat-item-84"><a href="http://mobblo'
-         b'g.cs.ucl.ac.uk/category/bad-science/" title="View all posts filed un'
-         b'der bad-science">bad-science</a> (2)\n</li>\n\t<li class="cat-item '
-         b'cat-item-50"><a href="http://mobblog.cs.ucl.ac.uk/category/book/" ti'
-         b'tle="View all posts filed under book">book</a> (2)\n</li>\n\t<li cl'
-         b'ass="cat-item cat-item-29"><a href="http://mobblog.cs.ucl.ac.uk/cate'
-         b'gory/bootstrapping/" title="View all posts filed under bootstrapping'
-         b'">bootstrapping</a> (4)\n</li>\n\t<li class="cat-item cat-item-91">'
-         b'<a href="http://mobblog.cs.ucl.ac.uk/category/business-model/" title'
-         b'="View all posts filed under business-model">business-model</a> '
-         b'(1)\n</li>\n\t<li class="cat-item cat-item-99"><a href="http://mobb'
-         b'log.cs.ucl.ac.uk/category/censorship/" title="View all posts filed u'
-         b'nder censorship">censorship</a> (2)\n</li>\n\t<li class="cat-item c'
-         b'at-item-6"><a href="http://mobblog.cs.ucl.ac.uk/category/conference/'
-         b'" title="View all posts filed under conference">conference</a> ('
-         b'58)\n</li>\n\t<li class="cat-item cat-item-54"><a href="http://mobb'
-         b'log.cs.ucl.ac.uk/category/context/" title="View all posts filed unde'
-         b'r context">context</a> (5)\n</li>\n\t<li class="cat-item cat-item-3'
-         b'"><a href="http://mobblog.cs.ucl.ac.uk/category/cooperation/" title='
-         b'"View all posts filed under cooperation">cooperation</a> (23)\n</'
-         b'li>\n\t<li class="cat-item cat-item-44"><a href="http://mobblog.cs'
-         b'.ucl.ac.uk/category/copyright/" title="View all posts filed under co'
-         b'pyright">copyright</a> (1)\n</li>\n\t<li class="cat-item cat-item-9'
-         b'3"><a href="http://mobblog.cs.ucl.ac.uk/category/course/" title="Vie'
-         b'w all posts filed under course">course</a> (1)\n</li>\n\t<li class='
-         b'"cat-item cat-item-89"><a href="http://mobblog.cs.ucl.ac.uk/category'
-         b'/crowdsourcing/" title="View all posts filed under crowdsourcing">cr'
-         b'owdsourcing</a> (8)\n</li>\n\t<li class="cat-item cat-item-30"><a h'
-         b'ref="http://mobblog.cs.ucl.ac.uk/category/dataset/" title="View all '
-         b'posts filed under dataset">dataset</a> (24)\n</li>\n\t<li class="ca'
-         b't-item cat-item-33"><a href="http://mobblog.cs.ucl.ac.uk/category/de'
-         b'veloping/" title="View all posts filed under developing">developing<'
-         b'/a> (9)\n</li>\n\t<li class="cat-item cat-item-92"><a href="http://'
-         b'mobblog.cs.ucl.ac.uk/category/development/" title="View all posts fi'
-         b'led under development">development</a> (2)\n</li>\n\t<li class="cat'
-         b'-item cat-item-83"><a href="http://mobblog.cs.ucl.ac.uk/category/dun'
-         b'bar-number/" title="View all posts filed under dunbar-number">dunbar'
-         b'-number</a> (2)\n</li>\n\t<li class="cat-item cat-item-76"><a href='
-         b'"http://mobblog.cs.ucl.ac.uk/category/econometrics/" title="View all'
-         b' posts filed under econometrics">econometrics</a> (1)\n</li>\n\t<li'
-         b' class="cat-item cat-item-34"><a href="http://mobblog.cs.ucl.ac.uk/c'
-         b'ategory/education/" title="View all posts filed under education">edu'
-         b'cation</a> (11)\n</li>\n\t<li class="cat-item cat-item-31"><a href='
-         b'"http://mobblog.cs.ucl.ac.uk/category/emergency/" title="View all po'
-         b'sts filed under emergency">emergency</a> (4)\n</li>\n\t<li class="c'
-         b'at-item cat-item-57"><a href="http://mobblog.cs.ucl.ac.uk/category/e'
-         b'valuation/" title="View all posts filed under evaluation">evaluation'
-         b'</a> (14)\n</li>\n\t<li class="cat-item cat-item-46"><a href="http:'
-         b'//mobblog.cs.ucl.ac.uk/category/event/" title="View all posts filed '
-         b'under event">event</a> (41)\n</li>\n\t<li class="cat-item cat-item-'
-         b'81"><a href="http://mobblog.cs.ucl.ac.uk/category/failure/" title="V'
-         b'iew all posts filed under failure">failure</a> (6)\n</li>\n\t<li cl'
-         b'ass="cat-item cat-item-52"><a href="http://mobblog.cs.ucl.ac.uk/cate'
-         b'gory/free/" title="View all posts filed under free">free</a> (7)'
-         b'\n</li>\n\t<li class="cat-item cat-item-65"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/future/" title="View all posts filed under fu'
-         b'ture">future</a> (7)\n</li>\n\t<li class="cat-item cat-item-96"><a '
-         b'href="http://mobblog.cs.ucl.ac.uk/category/geo-research/" title="Vie'
-         b'w all posts filed under geo-research">geo-research</a> (2)\n</li>'
-         b'\n\t<li class="cat-item cat-item-97"><a href="http://mobblog.cs.uc'
-         b'l.ac.uk/category/geography/" title="View all posts filed under geogr'
-         b'aphy">geography</a> (3)\n</li>\n\t<li class="cat-item cat-item-80">'
-         b'<a href="http://mobblog.cs.ucl.ac.uk/category/group/" title="View al'
-         b'l posts filed under group">group</a> (3)\n</li>\n\t<li class="cat-i'
-         b'tem cat-item-62"><a href="http://mobblog.cs.ucl.ac.uk/category/homop'
-         b'hily/" title="View all posts filed under homophily">homophily</a> (5'
-         b')\n</li>\n\t<li class="cat-item cat-item-87"><a href="http://mobblo'
-         b'g.cs.ucl.ac.uk/category/how-to/" title="View all posts filed under h'
-         b'ow-to">how-to</a> (1)\n</li>\n\t<li class="cat-item cat-item-19"><a'
-         b' href="http://mobblog.cs.ucl.ac.uk/category/identity/" title="View a'
-         b'll posts filed under identity">identity</a> (5)\n</li>\n\t<li class'
-         b'="cat-item cat-item-13"><a href="http://mobblog.cs.ucl.ac.uk/categor'
-         b'y/industry/" title="View all posts filed under industry">industry</a'
-         b'> (54)\n</li>\n\t<li class="cat-item cat-item-56"><a href="http://m'
-         b'obblog.cs.ucl.ac.uk/category/info-overload/" title="View all posts f'
-         b'iled under info-overload">info-overload</a> (8)\n</li>\n\t<li class'
-         b'="cat-item cat-item-88"><a href="http://mobblog.cs.ucl.ac.uk/categor'
-         b'y/informal-networks/" title="View all posts filed under informal-net'
-         b'works">informal-networks</a> (4)\n</li>\n\t<li class="cat-item cat-'
-         b'item-51"><a href="http://mobblog.cs.ucl.ac.uk/category/innovation/" '
-         b'title="View all posts filed under innovation">innovation</a> (2)'
-         b'\n</li>\n\t<li class="cat-item cat-item-79"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/lbs/" title="View all posts filed under LBS">'
-         b'LBS</a> (6)\n</li>\n\t<li class="cat-item cat-item-12"><a href="htt'
-         b'p://mobblog.cs.ucl.ac.uk/category/legal/" title="View all posts file'
-         b'd under legal">legal</a> (4)\n</li>\n\t<li class="cat-item cat-item'
-         b'-22"><a href="http://mobblog.cs.ucl.ac.uk/category/meeting/" title="'
-         b'View all posts filed under meeting">meeting</a> (7)\n</li>\n\t<li c'
-         b'lass="cat-item cat-item-77"><a href="http://mobblog.cs.ucl.ac.uk/cat'
-         b'egory/methodology/" title="View all posts filed under methodology">m'
-         b'ethodology</a> (2)\n</li>\n\t<li class="cat-item cat-item-5"><a hre'
-         b'f="http://mobblog.cs.ucl.ac.uk/category/mobile/" title="View all pos'
-         b'ts filed under mobile">mobile</a> (85)\n</li>\n\t<li class="cat-ite'
-         b'm cat-item-86"><a href="http://mobblog.cs.ucl.ac.uk/category/ontolog'
-         b'y/" title="View all posts filed under ontology">ontology</a> (1)'
-         b'\n</li>\n\t<li class="cat-item cat-item-78"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/open/" title="View all posts filed under open'
-         b'">open</a> (3)\n</li>\n\t<li class="cat-item cat-item-48"><a href="'
-         b'http://mobblog.cs.ucl.ac.uk/category/openings/" title="View all post'
-         b's filed under openings">openings</a> (3)\n</li>\n\t<li class="cat-i'
-         b'tem cat-item-27"><a href="http://mobblog.cs.ucl.ac.uk/category/p2p/"'
-         b' title="View all posts filed under p2p">p2p</a> (3)\n</li>\n\t<li c'
-         b'lass="cat-item cat-item-11"><a href="http://mobblog.cs.ucl.ac.uk/cat'
-         b'egory/paper/" title="View all posts filed under paper">paper</a> (42'
-         b')\n</li>\n\t<li class="cat-item cat-item-98"><a href="http://mobblo'
-         b'g.cs.ucl.ac.uk/category/phycology/" title="View all posts filed unde'
-         b'r Phycology">Phycology</a> (2)\n</li>\n\t<li class="cat-item cat-it'
-         b'em-35"><a href="http://mobblog.cs.ucl.ac.uk/category/post-as-you-go/'
-         b'" title="View all posts filed under post-as-you-go">post-as-you-go</'
-         b'a> (1)\n</li>\n\t<li class="cat-item cat-item-10"><a href="http://m'
-         b'obblog.cs.ucl.ac.uk/category/prediction/" title="View all posts file'
-         b'd under prediction">prediction</a> (10)\n</li>\n\t<li class="cat-it'
-         b'em cat-item-14"><a href="http://mobblog.cs.ucl.ac.uk/category/privac'
-         b'y/" title="View all posts filed under privacy">privacy</a> (20)\n'
-         b'</li>\n\t<li class="cat-item cat-item-60"><a href="http://mobblog.'
-         b'cs.ucl.ac.uk/category/project/" title="View all posts filed under pr'
-         b'oject">project</a> (11)\n</li>\n\t<li class="cat-item cat-item-37">'
-         b'<a href="http://mobblog.cs.ucl.ac.uk/category/propagation/" title="V'
-         b'iew all posts filed under propagation">propagation</a> (3)\n</li>'
-         b'\n\t<li class="cat-item cat-item-7"><a href="http://mobblog.cs.ucl'
-         b'.ac.uk/category/recommendations/" title="View all posts filed under '
-         b'recommendations">recommendations</a> (18)\n</li>\n\t<li class="cat-'
-         b'item cat-item-25"><a href="http://mobblog.cs.ucl.ac.uk/category/reco'
-         b'mmender-systems/" title="View all posts filed under recommender syst'
-         b'ems">recommender systems</a> (52)\n</li>\n\t<li class="cat-item cat'
-         b'-item-18"><a href="http://mobblog.cs.ucl.ac.uk/category/reputation/"'
-         b' title="View all posts filed under reputation">reputation</a> (1'
-         b'7)\n</li>\n\t<li class="cat-item cat-item-8"><a href="http://mobblo'
-         b'g.cs.ucl.ac.uk/category/research/" title="View all posts filed under'
-         b' research">research</a> (176)\n</li>\n\t<li class="cat-item cat-ite'
-         b'm-16"><a href="http://mobblog.cs.ucl.ac.uk/category/rfid/" title="Vi'
-         b'ew all posts filed under rfid">rfid</a> (4)\n</li>\n\t<li class="ca'
-         b't-item cat-item-32"><a href="http://mobblog.cs.ucl.ac.uk/category/se'
-         b'arch/" title="View all posts filed under search">search</a> (6)\n'
-         b'</li>\n\t<li class="cat-item cat-item-23"><a href="http://mobblog.'
-         b'cs.ucl.ac.uk/category/security/" title="View all posts filed under s'
-         b'ecurity">security</a> (16)\n</li>\n\t<li class="cat-item cat-item-9'
-         b'"><a href="http://mobblog.cs.ucl.ac.uk/category/sensor/" title="View'
-         b' all posts filed under sensor">sensor</a> (12)\n</li>\n\t<li class='
-         b'"cat-item cat-item-4"><a href="http://mobblog.cs.ucl.ac.uk/category/'
-         b'sharing/" title="View all posts filed under sharing">sharing</a> (21'
-         b')\n</li>\n\t<li class="cat-item cat-item-55"><a href="http://mobblo'
-         b'g.cs.ucl.ac.uk/category/social/" title="View all posts filed under s'
-         b'ocial">social</a> (7)\n</li>\n\t<li class="cat-item cat-item-2"><a '
-         b'href="http://mobblog.cs.ucl.ac.uk/category/social-networks/" title="'
-         b'View all posts filed under social networks">social networks</a> (92)'
-         b'\n</li>\n\t<li class="cat-item cat-item-24"><a href="http://mobblog'
-         b'.cs.ucl.ac.uk/category/sociology/" title="View all posts filed under'
-         b' sociology">sociology</a> (13)\n</li>\n\t<li class="cat-item cat-it'
-         b'em-40"><a href="http://mobblog.cs.ucl.ac.uk/category/spam/" title="V'
-         b'iew all posts filed under spam">spam</a> (4)\n</li>\n\t<li class="c'
-         b'at-item cat-item-53"><a href="http://mobblog.cs.ucl.ac.uk/category/s'
-         b'warming/" title="View all posts filed under swarming">swarming</a> ('
-         b'2)\n</li>\n\t<li class="cat-item cat-item-82"><a href="http://mobbl'
-         b'og.cs.ucl.ac.uk/category/sybil-attacks/" title="View all posts filed'
-         b' under sybil-attacks">sybil-attacks</a> (1)\n</li>\n\t<li class="ca'
-         b't-item cat-item-28"><a href="http://mobblog.cs.ucl.ac.uk/category/ta'
-         b'gs/" title="View all posts filed under tags">tags</a> (13)\n</li>'
-         b'\n\t<li class="cat-item cat-item-17"><a href="http://mobblog.cs.uc'
-         b'l.ac.uk/category/talk/" title="View all posts filed under talk">talk'
-         b'</a> (18)\n</li>\n\t<li class="cat-item cat-item-85"><a href="http:'
-         b'//mobblog.cs.ucl.ac.uk/category/taxonomy/" title="View all posts fil'
-         b'ed under taxonomy">taxonomy</a> (3)\n</li>\n\t<li class="cat-item c'
-         b'at-item-103"><a href="http://mobblog.cs.ucl.ac.uk/category/transport'
-         b'ation/" title="View all posts filed under transportation">transporta'
-         b'tion</a> (1)\n</li>\n\t<li class="cat-item cat-item-36"><a href="ht'
-         b'tp://mobblog.cs.ucl.ac.uk/category/trust/" title="View all posts fil'
-         b'ed under trust">trust</a> (30)\n</li>\n\t<li class="cat-item cat-it'
-         b'em-90"><a href="http://mobblog.cs.ucl.ac.uk/category/twitter/" title'
-         b'="View all posts filed under twitter">twitter</a> (2)\n</li>\n\t<li'
-         b' class="cat-item cat-item-49"><a href="http://mobblog.cs.ucl.ac.uk/c'
-         b'ategory/ubicomp/" title="View all posts filed under ubicomp">ubicomp'
-         b'</a> (14)\n</li>\n\t<li class="cat-item cat-item-64"><a href="http:'
-         b'//mobblog.cs.ucl.ac.uk/category/ubicomp2008/" title="View all posts '
-         b'filed under ubicomp2008">ubicomp2008</a> (3)\n</li>\n\t<li class="c'
-         b'at-item cat-item-95"><a href="http://mobblog.cs.ucl.ac.uk/category/u'
-         b'cl/" title="View all posts filed under ucl">ucl</a> (1)\n</li>\n\t<'
-         b'li class="cat-item cat-item-15"><a href="http://mobblog.cs.ucl.ac.uk'
-         b'/category/vehicular/" title="View all posts filed under vehicular">v'
-         b'ehicular</a> (13)\n</li>\n\t<li class="cat-item cat-item-26"><a hre'
-         b'f="http://mobblog.cs.ucl.ac.uk/category/web-20/" title="View all pos'
-         b'ts filed under web 2.0">web 2.0</a> (32)\n</li>\n</ul></li>\t\t</ul>'
-         b'\n\t\t<ul>\n\t\t\t\n\t\t\t\t\t</ul>\n\t</div>\n\n\n\n<hr />\n<div id'
-         b'="footer" role="contentinfo">\n<!-- If you\'d like to support Word'
-         b'Press, having the "powered by" link somewhere on your blog is the be'
-         b"st way; it's our only promotion or advertising. -->\n\t<p>\n\t\tM"
-         b'obBlog is proudly powered by <a href="http://wordpress.org/">WordPre'
-         b'ss</a>\t\t<br /><a href="http://mobblog.cs.ucl.ac.uk/feed/">Entrie'
-         b's (RSS)</a> and <a href="http://mobblog.cs.ucl.ac.uk/comments/feed/"'
-         b'>Comments (RSS)</a>.\t\t<!-- 21 queries. 0.456 seconds. -->\n\t<'
-         b'/p>\n</div>\n</div>\n\n<!-- Gorgeous design by Michael Heilemann - h'
-         b'ttp://binarybonsai.com/kubrick/ -->\n\n\t\t</body>\n</html>\n',
- 'links': [2740,
-           2982,
-           2983,
-           2984,
-           2985,
-           2986,
+{'html': b' <!DOCTYPE html\n    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//'
+         b'EN"\n    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'
+         b'">\n<?xml version="1.0" encoding="utf-8"?>\n<html xmlns:og="http:/'
+         b'/ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">\n<hea'
+         b'd>\n\n<meta http-equiv="Content-Type" content="text/html; charset='
+         b'utf-8" />\n<!-- \n\tThis website is powered by TYPO3 - inspiring pe'
+         b'ople to share!\n\tTYPO3 is a free open source Content Management F'
+         b'ramework initially created by Kasper Skaarhoj and licensed under GNU'
+         b'/GPL.\n\tTYPO3 is copyright 1998-2016 of Kasper Skaarhoj. Extensio'
+         b'ns are copyright of their respective owners.\n\tInformation and co'
+         b'ntribution at http://typo3.org/\n-->\n\n<base href="http://www.cs.u'
+         b'cl.ac.uk/" />\n<link rel="shortcut icon" href="/fileadmin/UCL-CS/'
+         b'favicon.ico" type="image/x-icon; charset=binary" />\n<link rel="i'
+         b'con" href="/fileadmin/UCL-CS/favicon.ico" type="image/x-icon; charse'
+         b't=binary" />\n\n<meta name="generator" content="TYPO3 CMS" />\n<met'
+         b'a name="keywords" content="University, College, London, Computer Sci'
+         b'ence" />\n<meta name="charset" content="utf-8" />\n\n\n<link rel="st'
+         b'ylesheet" type="text/css" href="fileadmin/UCL-CS/css/UCL-CS-jquery-t'
+         b'heme/jquery-ui-1.9.2.custom.css?1417798082" media="all" />\n<link'
+         b' rel="stylesheet" type="text/css" href="typo3conf/ext/jfmulticontent'
+         b'/res/tx_jfmulticontent_pi1.css?1402997299" media="all" />\n<link '
+         b'rel="stylesheet" type="text/css" href="typo3temp/stylesheet_1734292a'
+         b'8f.css?1458040091" media="all" />\n<link rel="stylesheet" type="t'
+         b'ext/css" href="fileadmin/UCL-CS/css/csCommon.css?1485355348" media="'
+         b'all" />\n\n\n\n<script src="uploads/tx_t3jquery/jquery-1.8.x-1.9.x-1'
+         b'.2.x.js?1383917144" type="text/javascript"></script>\n\n<script sr'
+         b'c="fileadmin/UCL-CS/js/googleAnalytics.js?1340190657" type="text/jav'
+         b'ascript"></script>\n<script src="fileadmin/UCL-CS/js/jqueryImageS'
+         b'lider2.js?1391601155" type="text/javascript"></script>\n<script s'
+         b'rc="fileadmin/UCL-CS/js/start.fader.js?1413468507" type="text/javasc'
+         b'ript"></script>\n<script src="fileadmin/UCL-CS/js/jquery.bxslider'
+         b'.js?1391781521" type="text/javascript"></script>\n<script src="fi'
+         b'leadmin/UCL-CS/js/jquery.kinetic.js?1432630323" type="text/javascrip'
+         b't"></script>\n<script src="fileadmin/UCL-CS/js/startKinetic.js?14'
+         b'32630719" type="text/javascript"></script>\n\n<script type="text/j'
+         b'avascript">\n/*<![CDATA[*/\n/*889f1d852ea29861efedfa2b02a53e24*/\nj'
+         b"Query(document).ready(function($){\n\t$('#jfmulticontent_c27987')."
+         b"accordion({\n\t\tcollapsible:true, active:false, heightStyle:'conte"
+         b"nt', animate:false\n\t});\n\t\n\t\n});\n\n/*20f588deffee38b58443a"
+         b"2bfb1f7fba0*/\njQuery(document).ready(function($){\n\t$('#jfmultico"
+         b"ntent_c27990').accordion({\n\t\tcollapsible:true, active:false, hei"
+         b"ghtStyle:'content', animate:false\n\t});\n\t\n\t\n});\n\n/*66895b"
+         b'57d66cf967526617bec0fc340b*/\njQuery(document).ready(function($){'
+         b"\n\t$('#jfmulticontent_c27991').accordion({\n\t\tcollapsible:true"
+         b", active:false, heightStyle:'content', animate:false\n\t});\n\t\n"
+         b'\t\n});\n\n/*]]>*/\n</script>\n\n\n\r\n\t\t<title>\r\n\t\t\tMSc C'
+         b'omputer Science\r\n\t\t</title>\r\n\t\t<link rel="stylesheet" type="'
+         b'text/css" href="fileadmin/UCL-CS/css/csDT2Col.css" media="all" /'
+         b'>\n\n\n</head>\n<body>\n\n\r\n\t\t<div id="everything" class="page'
+         b'_layout">\r\n\t\t\t<!-- Div for UCL banner -->\r\n\t\t\t<div id="b'
+         b'anner" class="page_layout">\r\n\t\t\t\t<div id="section_head">    '
+         b'                                            \t\t\t\t\t  Departmen'
+         b't of Computer Science\r\n\t\t\t\t</div>\r\n\t\t\t\t<div id="UCLLogo"'
+         b'>\r\n\t\t\t\t\t<a href="http://www.ucl.ac.uk/" target="_top">\r\n'
+         b'\t\t\t\t\t\t<img id="ucl_logo" src="fileadmin/UCL-CS/web_assets/uc'
+         b'l_logo/ucl_logo_whitebg.png" alt="UCL - Home"/></a>\r\n\t\t\t\t</d'
+         b'iv>\r\n\t\t\t</div>\r\n\t\t\t<!-- End of div for UCL banner --'
+         b'>\r\n\t\t\t<!-- Div for UCL divider -->\r\n\t\t\t<div id="ucl_divi'
+         b'der" class="page_layout">\r\n\t\t\t\t<!-- UCL Search - CS site-->\r'
+         b'\n\t\t\t\t<form class="searchForm" id="googlesearch" method="get"'
+         b' action="http://search2.ucl.ac.uk/s/search.html?collection=website-m'
+         b'eta&profile=_website&tab=websites">\r\n\t\t\t\t\t<input class="text'
+         b'" type="text" placeholder="Search UCL-CS" value="" accesskey="q" nam'
+         b'e="query"/>\r\n\t\t\t\t\t<input class="button" type="submit" value='
+         b'"" name="Submit">\r\n\t\t\t\t\t<input type="hidden" value="ucl-publ'
+         b'ic-meta" name="collection"/>\r\n\t\t\t\t\t<input type="hidden" valu'
+         b'e="cs" name="subsite"/>\r\n\t\t\t\t</form>\r\n\t\t\t\t<div id="bread'
+         b'crumb" class="breadcrumb">\r\n\t\t\t\t\t<a href="home/">&#8250;&nbs'
+         b'p;Home</a><a href="students/">&nbsp;&#8250;&#8250;&nbsp;Students</a>'
+         b'&nbsp;&#8250;&#8250;&nbsp;MSc CS\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r'
+         b'\n\t\t\t<!-- End of div for UCL divider -->\r\n\t\t\t<!-- Start o'
+         b'f main content div -->\r\n\t\t\t<div id="mainDiv">\r\n\t\t\t\t<!-- '
+         b'Start of inner container -->\r\n\t\t\t\t<div id="innerContainer">\r'
+         b'\n\t\t\t\t\t<!-- Start of left content-->\r\n\t\t\t\t\t<div id="l'
+         b'eftCol" class="leftContent">\r\n\t\t\t\t\t\t<!-- left content start '
+         b'-->\r\n\t\t\t\t\t\t\n\t<!--  CONTENT ELEMENT, uid:19043/list [begi'
+         b'n] -->\n\t\t<div id="c19043" class="csc-default">\n\t\t<!--  Plugi'
+         b'n inserted: [begin] -->\n\t\t\t<div class="tx-typoscript2ce">\n\t\n'
+         b'\t\n\t\t<div id="mobileText"><h3><a href="mobile/students/msc_cs/">M'
+         b'obile Version</a></h3></div>\n\t\n\n</div>\n\t\t<!--  Plugin insert'
+         b'ed: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:19043/li'
+         b'st [end] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:19061/menu [begi'
+         b'n] -->\n\t\t<div id="c19061" class="csc-default">\n\t\t<!--  Menu/'
+         b'Sitemap element: [begin] -->\n\t\t\t<ul class="csc-menu csc-menu-def'
+         b'"><li><a href="home/" title="Home">Home</a></li><li><a href="prospec'
+         b'tive_students/" title="Prospective Students">Prospective Students</a'
+         b'></li><li><a href="research/" title="Research">Research</a></li><li>'
+         b'<a href="industry_outreach/" title="Industry &amp; Outreach">Industr'
+         b'y &amp; Outreach</a></li><li><a href="careers/" title="Careers">Care'
+         b'ers</a></li><li><a href="current_students/" title="Current Students"'
+         b'>Current Students</a></li><li><a href="people/?no_cache=1" title="Pe'
+         b'ople">People</a></li><li><a href="about_us/" title="About Us">About '
+         b'Us</a></li><li><a href="wics/home/" title="Women in Computer Science'
+         b'">Women in Computer Science</a></li><li><a href="intranet/" title="S'
+         b'taff Intranet">Staff Intranet</a></li></ul>\n\t\t<!--  Menu/Sitemap'
+         b' element: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:19'
+         b'061/menu [end] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:23946/list'
+         b' [begin] -->\n\t\t<div id="c23946" class="csc-default">\n\t\t<!-- '
+         b' Plugin inserted: [begin] -->\n\t\t\t<div class="tx-typoscript2c'
+         b'e">\n\t\n\t\n\t\t\n\t\n\n</div>\n\t\t<!--  Plugin inserted: [end] '
+         b'-->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:23946/list [end] -'
+         b'->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:19046/image [begin] -->\n\t\t'
+         b'<div id="c19046" class="csc-default csc-space-before-50 csc-space-af'
+         b'ter-50">\n\t\t<!--  Image block: [begin] -->\n\t\t\t<div class="csc'
+         b'-textpic csc-textpic-left csc-textpic-above"><div class="csc-textpic'
+         b'-imagewrap"><div class="csc-textpic-imagerow csc-textpic-imagerow-la'
+         b'st"><div class="csc-textpic-imagecolumn csc-textpic-firstcol"><div c'
+         b'lass="csc-textpic-image csc-textpic-last"><a href="http://www.facebo'
+         b'ok.com/pages/University-College-London-Computer-Science/132472916819'
+         b'198" target="_top"><img src="fileadmin/_processed_/csm_facebook_03_a'
+         b'3f147f505.png" width="30" height="30" alt="" border="0" /></a></div>'
+         b'</div>\n<div class="csc-textpic-imagecolumn"><div class="csc-text'
+         b'pic-image csc-textpic-last"><a href="http://www.linkedin.com/groups?'
+         b'gid=4046543&amp;trk=myg_ugrp_ovr" target="_top"><img src="fileadmin/'
+         b'_processed_/csm_linkedin_03_6c9523f528.png" width="30" height="30" a'
+         b'lt="" border="0" /></a></div></div>\n<div class="csc-textpic-imag'
+         b'ecolumn"><div class="csc-textpic-image csc-textpic-last"><a href="ht'
+         b'tps://twitter.com/#!/uclcs" target="_top"><img src="fileadmin/_proce'
+         b'ssed_/csm_twitter_03_0c37f5536b.png" width="30" height="30" alt="" b'
+         b'order="0" /></a></div></div>\n<div class="csc-textpic-imagecolumn'
+         b' csc-textpic-lastcol"><div class="csc-textpic-image csc-textpic-last'
+         b'"><a href="http://www.youtube.com/user/UCLComputerScience/videos" ta'
+         b'rget="_top"><img src="fileadmin/_processed_/csm_youtube_04_6b8742f9f'
+         b'c.png" width="30" height="30" alt="" border="0" /></a></div></div></'
+         b'div></div></div>\n\t\t<!--  Image block: [end] -->\n\t\t\t</div'
+         b'>\n\t<!--  CONTENT ELEMENT, uid:19046/image [end] -->\n\t\t\n\t<!--'
+         b'  CONTENT ELEMENT, uid:19044/list [begin] -->\n\t\t<div id="c19044"'
+         b' class="csc-default csc-space-before-30 csc-space-after-50">\n\t\t<'
+         b'!--  Header: [begin] -->\n\t\t\t<div class="csc-header csc-header-n5'
+         b'"><h1><a href="events/">Forthcoming Events</a></h1></div>\n\t\t<!--'
+         b'  Header: [end] -->\n\t\t\t\n\t\t<!--  Plugin inserted: [begin] -->'
+         b'\n\t\t\t<div class="tx-typoscript2ce">\n\t\n\t\n\t\t<div id="events'
+         b'_div" class="controlledTicker">\n<ul>\n<li>\nNew events will be pos'
+         b'ted here as soon as details become known.\n</li>\n</ul></div>\n'
+         b'\t\n\n</div>\n\t\t<!--  Plugin inserted: [end] -->\n\t\t\t</div>\n\t'
+         b'<!--  CONTENT ELEMENT, uid:19044/list [end] -->\n\t\t\n\t<!--  CO'
+         b'NTENT ELEMENT, uid:26215/textpic [begin] -->\n\t\t<div id="c26215" '
+         b'class="csc-default csc-space-before-20">\n\t\t<!--  Image block: [b'
+         b'egin] -->\n\t\t\t<div class="csc-textpic csc-textpic-left csc-textpi'
+         b'c-above"><div class="csc-textpic-imagewrap"><div class="csc-textpic-'
+         b'image csc-textpic-last"><a href="http://www.cs.ucl.ac.uk/degrees/" t'
+         b'arget="_top"><img src="fileadmin/_processed_/csm_bcs_85243c6ac1.png"'
+         b' width="105" height="43" alt="" border="0" /></a></div></div><div cl'
+         b'ass="csc-textpic-text"></div></div>\n\t\t<!--  Image block: [end] -'
+         b'->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:26215/textpic [end]'
+         b' -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:19047/textpic [begin] --'
+         b'>\n\t\t<div id="c19047" class="csc-default csc-space-before-5">'
+         b'\n\t\t<!--  Image block: [begin] -->\n\t\t\t<div class="csc-textpic'
+         b' csc-textpic-left csc-textpic-below"><div class="csc-textpic-text"><'
+         b'/div><div class="csc-textpic-imagewrap"><div class="csc-textpic-imag'
+         b'erow csc-textpic-imagerow-last"><div class="csc-textpic-imagecolumn '
+         b'csc-textpic-firstcol"><div class="csc-textpic-image csc-textpic-last'
+         b'"><a href="https://www.itskillsacademy.org.uk/about-us/who-we-work-w'
+         b'ith/" target="_top"><img src="fileadmin/_processed_/csm_e_skills_d40'
+         b'87aff09.jpg" width="105" height="89" alt="" border="0" /></a></div><'
+         b'/div>\n<div class="csc-textpic-imagecolumn csc-textpic-lastcol"><'
+         b'div class="csc-textpic-image csc-textpic-last"><a href="http://www.c'
+         b's.ucl.ac.uk/computer_science_news/article/athena-swan-silver-award-f'
+         b'or-ucl-computer-science/" target="_top"><img src="fileadmin/_process'
+         b'ed_/csm_AthenaSwanLogo_silver_efa303f87a.jpg" width="105" height="58'
+         b'" alt="" border="0" /></a></div></div></div></div></div>\n\t\t<!-- '
+         b' Image block: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, ui'
+         b'd:19047/textpic [end] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:218'
+         b'55/image [begin] -->\n\t\t<div id="c21855" class="csc-default csc-s'
+         b'pace-before-15">\n\t\t<!--  Image block: [begin] -->\n\t\t\t<div cl'
+         b'ass="csc-textpic csc-textpic-left csc-textpic-above"><div class="csc'
+         b'-textpic-imagewrap"><div class="csc-textpic-imagerow"><div class="cs'
+         b'c-textpic-imagecolumn csc-textpic-firstcol csc-textpic-lastcol"><div'
+         b' class="csc-textpic-image csc-textpic-last"><a href="http://www.comp'
+         b'utingatschool.org.uk/" target="_top" title="Network of Excellence - '
+         b'Computer Science"><img src="fileadmin/_processed_/csm_NOE_image_a809'
+         b'f677bf.jpg" width="220" height="63" alt="Network of Excellence - Com'
+         b'puter Science" border="0" /></a></div></div></div>\n<div class="c'
+         b'sc-textpic-imagerow csc-textpic-imagerow-last"><div class="csc-textp'
+         b'ic-imagecolumn csc-textpic-firstcol csc-textpic-lastcol"><div class='
+         b'"csc-textpic-image csc-textpic-last"><a href="http://www.epsrc.ac.uk'
+         b'/research/centres/acecybersecurity/" target="_top" title="Academic C'
+         b'entre of Excellence - Cyber Security Research"><img src="fileadmin/_'
+         b'processed_/csm_GCHQ_image_851b6cc992.jpg" width="220" height="64" al'
+         b't="Academic Centre of Excellence - Cyber Security Research" border="'
+         b'0" /></a></div></div></div></div></div>\n\t\t<!--  Image block: [en'
+         b'd] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:21855/image [en'
+         b'd] -->\n\t\t\r\n\t\t\t\t\t\t<!-- left content end -->\r\n\t\t\t\t'
+         b'\t</div>\r\n\t\t\t\t\t<!-- End of left content -->\r\n\t\t\t\t\t<!-'
+         b'- Start ofmiddle content -->\r\n\t\t\t\t\t<div id="middleCol">\r'
+         b'\n\t\t\t\t\t\t<div id="mainText" class="text">\r\n\t\t\t\t\t\t\t'
+         b'\r\n\t\t\t\t\t\t\t\n\t<!--  CONTENT ELEMENT, uid:1623/text [begin] '
+         b'-->\n\t\t<div id="c1623" class="csc-frame csc-frame-rulerAfter"'
+         b'>\n\t\t<!--  Text: [begin] -->\n\t\t\t<table class="layouttable"><t'
+         b'body><tr><td><h1>MSc Computer Science</h1><p>General information abo'
+         b'ut the MSc Computer Science degree can be found on this page.</p><p>'
+         b'Current students should use the <a href="current_students/" title="O'
+         b'pens internal link in current window" class="internal-link">teaching'
+         b' and learning pages</a> for general teaching-related information and'
+         b' the <a href="https://moodle.ucl.ac.uk/course/view.php?id=832" title'
+         b'="Opens external link in new window" target="_top" class="external-l'
+         b'ink-new-window">MSc Computer Science Moodle page</a> for more course'
+         b' specific information.</p></td><td></td><td></td></tr><tr><td></td><'
+         b'td></td></tr></tbody></table>\n\t\t<!--  Text: [end] -->\n\t\t\t</d'
+         b'iv>\n\t<!--  CONTENT ELEMENT, uid:1623/text [end] -->\n\t\t\n\t<!--'
+         b'  CONTENT ELEMENT, uid:27993/header [begin] -->\n\t\t<div id="c2799'
+         b'3" class="csc-default">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div '
+         b'class="csc-header csc-header-n2"><h1>Programme Structure</h1></d'
+         b'iv>\n\t\t<!--  Header: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT E'
+         b'LEMENT, uid:27993/header [end] -->\n\t\t\n\t<!--  CONTENT ELEMENT'
+         b', uid:27987/list [begin] -->\n\t\t<div id="c27987" class="csc-defau'
+         b'lt">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class="csc-header c'
+         b'sc-header-n3"><h1>Core Term 1 Modules</h1></div>\n\t\t<!--  Header:'
+         b' [end] -->\n\t\t\t\n\t\t<!--  Plugin inserted: [begin] -->\n\t\t\t\n'
+         b'\n\n\t<!--\n\n\t\tBEGIN: Content of extension "jfmulticontent", plu'
+         b'gin "tx_jfmulticontent_pi1"\n\n\t-->\n\t<div class="tx-jfmulticon'
+         b'tent-pi1">\n\t\t\n<div id="jfmulticontent_c27987">\n\t\n\t<h3><a hre'
+         b'f="students/msc_cs/#jfmulticontent_c27987-1" rel="">COMPGC01 Introdu'
+         b'ctory Programming</a></h3>\n\t<div >\n\t\t\n\t<!--  CONTENT ELEMENT'
+         b', uid:25765/text [begin] -->\n\t\t<div id="c25765" class="csc-defau'
+         b'lt">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class="csc-header c'
+         b'sc-header-n1"><h1 class="csc-firstHeader">COMPGC01 Introductory Prog'
+         b'ramming</h1></div>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!-- '
+         b' Text: [begin] -->\n\t\t\t<p class="align-justify">This module intro'
+         b'duces imperative and object-oriented programming using pure Java. Th'
+         b'e module uses Java to give a grounding in key object-oriented concep'
+         b'ts such as class design, inheritance, dynamic binding and interfaces'
+         b'. Material focuses on practicing object oriented programming to be b'
+         b'etter prepared for future courses including COMPGC02 Apps Design and'
+         b' COMPGC05 Algorithmics. This is an intensely practical module and fu'
+         b'll student engagement outside of lectures and in lab classes is crit'
+         b'ical to successful completion of the module.</p>\n<p>Further syll'
+         b'abus information can be found <a href="students/syllabus/msccs/gc01_'
+         b'introductory_programming/" title="Opens internal link in current win'
+         b'dow" class="internal-link">here</a>.</p>\n\t\t<!--  Text: [end] -->'
+         b'\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:25765/text [end] -->\n'
+         b'\t\t\n\t</div>\n\t\n\t<h3><a href="students/msc_cs/#jfmulticontent_c'
+         b'27987-2" rel="">COMPGC02 Design</a></h3>\n\t<div >\n\t\t\n\t<!--  C'
+         b'ONTENT ELEMENT, uid:25766/text [begin] -->\n\t\t<div id="c25766" cl'
+         b'ass="csc-default">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class'
+         b'="csc-header csc-header-n1"><h1 class="csc-firstHeader">COMPGC02 Des'
+         b'ign</h1></div>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  Tex'
+         b't: [begin] -->\n\t\t\t<p class="align-justify">This course introduce'
+         b's the concepts and methods required for the design and construction '
+         b'of apps software systems. It aims to develop a broad understanding o'
+         b'f the disciplines of software engineering, project management and hu'
+         b'man computer interaction (HCI). It seeks to complement this with a d'
+         b'etailed knowledge of techniques for the analysis, design and impleme'
+         b'ntation of complex software intensive systems. It aims to set these '
+         b'techniques in an appropriate engineering, societal and managerial co'
+         b'ntext. It applies the principles of OO programming (COMPGC01) in par'
+         b'allel with the development of apps via learning-by-doing and problem'
+         b' based learning (PBL) approaches.</p>\n<p>Further syllabus inform'
+         b'ation can be found <a href="students/syllabus/msccs/gc02_design/" ti'
+         b'tle="Opens internal link in current window" class="internal-link">he'
+         b're</a>.</p>\n\t\t<!--  Text: [end] -->\n\t\t\t</div>\n\t<!--  CON'
+         b'TENT ELEMENT, uid:25766/text [end] -->\n\t\t\n\t</div>\n\t\n\t<h3'
+         b'><a href="students/msc_cs/#jfmulticontent_c27987-3" rel="">COMPGC03 '
+         b'Architecture & Hardware</a></h3>\n\t<div >\n\t\t\n\t<!--  CONTENT E'
+         b'LEMENT, uid:25767/text [begin] -->\n\t\t<div id="c25767" class="csc'
+         b'-default">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class="csc-he'
+         b'ader csc-header-n1"><h1 class="csc-firstHeader">COMPGC03 Architectur'
+         b'e &amp; Hardware</h1></div>\n\t\t<!--  Header: [end] -->\n\t\t'
+         b'\t\n\t\t<!--  Text: [begin] -->\n\t\t\t<p class="align-justify">The '
+         b"aim of this module is to 'demystify' computers, i.e. to provide a ba"
+         b'sic understanding of how computers execute programs. To show how the'
+         b' basic components of the computer can be built from simple electroni'
+         b'c components such as transistors and logic gates.; and to understand'
+         b' why certain design decisions are made with respect to computer arch'
+         b'itectures.</p>\n<p>Further syllabus information can be found <a h'
+         b'ref="students/syllabus/msccs/gc03_architecture_and_hardware/" title='
+         b'"Opens internal link in current window" class="internal-link">here</'
+         b'a>.</p>\n\t\t<!--  Text: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT'
+         b' ELEMENT, uid:25767/text [end] -->\n\t\t\n\t</div>\n\t\n\t<h3><a '
+         b'href="students/msc_cs/#jfmulticontent_c27987-4" rel="">COMPGC04 Syst'
+         b'ems Infrastructure</a></h3>\n\t<div >\n\t\t\n\t<!--  CONTENT ELEMEN'
+         b'T, uid:25768/text [begin] -->\n\t\t<div id="c25768" class="csc-defa'
+         b'ult">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class="csc-header '
+         b'csc-header-n1"><h1 class="csc-firstHeader">COMPGC04 Systems Infrastr'
+         b'ucture</h1></div>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  '
+         b'Text: [begin] -->\n\t\t\t<p class="align-justify">This module is an '
+         b'amalgam of three different aspects of systems design and constructio'
+         b'n - operating systems, compilers and databases - each having approxi'
+         b'mately equal weight. The module is a fundamental one in the programm'
+         b'e as a whole, in the sense that it introduces material that is built'
+         b' on elsewhere and, consequently, much of the material will be aimed '
+         b'at providing a basic understanding of the role that different system'
+         b's components play within real computer systems, and how they go abou'
+         b't achieving this. </p>\n<p>Further syllabus information can be fo'
+         b'und <a href="students/syllabus/msccs/gc04_systems_infrastructure/" t'
+         b'itle="Opens internal link in current window" class="internal-link">h'
+         b'ere</a>.</p>\n\t\t<!--  Text: [end] -->\n\t\t\t</div>\n\t<!--  CO'
+         b'NTENT ELEMENT, uid:25768/text [end] -->\n\t\t\n\t</div>\n\t\n</d'
+         b'iv>\n\n\t</div>\n\t\n\t<!-- END: Content of extension "jfmulticonte'
+         b'nt", plugin "tx_jfmulticontent_pi1" -->\n\n\t\n\t\t<!--  Plugin in'
+         b'serted: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:2798'
+         b'7/list [end] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:27990/list ['
+         b'begin] -->\n\t\t<div id="c27990" class="csc-default">\n\t\t<!--  H'
+         b'eader: [begin] -->\n\t\t\t<div class="csc-header csc-header-n4"><h1>'
+         b'Core Term 2 Modules</h1></div>\n\t\t<!--  Header: [end] -->\n\t\t\t'
+         b'\n\t\t<!--  Plugin inserted: [begin] -->\n\t\t\t\n\n\n\t<!--\n\n\t'
+         b'\tBEGIN: Content of extension "jfmulticontent", plugin "tx_jfmult'
+         b'icontent_pi1"\n\n\t-->\n\t<div class="tx-jfmulticontent-pi1">'
+         b'\n\t\t\n<div id="jfmulticontent_c27990">\n\t\n\t<h3><a href="student'
+         b's/msc_cs/#jfmulticontent_c27990-1" rel="">COMPGC05 Algorithmics</a><'
+         b'/h3>\n\t<div >\n\t\t\n\t<!--  CONTENT ELEMENT, uid:25769/text [begi'
+         b'n] -->\n\t\t<div id="c25769" class="csc-default">\n\t\t<!--  Heade'
+         b'r: [begin] -->\n\t\t\t<div class="csc-header csc-header-n1"><h1 clas'
+         b's="csc-firstHeader">COMPGC05 Algorithmics</h1></div>\n\t\t<!--  Hea'
+         b'der: [end] -->\n\t\t\t\n\t\t<!--  Text: [begin] -->\n\t\t\t<p class'
+         b'="align-justify">This module aims to introduce more formal aspects o'
+         b'f algorithms \t\t\t and data structures than those in the first ter'
+         b'm. It covers properties of data types such as queues and \t\t\t sea'
+         b'rch trees; techniques for analysing the \t\t\t complexity and decid'
+         b'ability of algorithms; and formal models of computation. \t\t </p>'
+         b'\n<p>Further syllabus information can be found <a href="students/'
+         b'syllabus/msccs/gc05_algorithmics/" title="Opens internal link in cur'
+         b'rent window" class="internal-link">here</a>.</p>\n\t\t<!--  Text: ['
+         b'end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:25769/text [e'
+         b'nd] -->\n\t\t\n\t</div>\n\t\n</div>\n\n\t</div>\n\t\n\t<!-- END: Co'
+         b'ntent of extension "jfmulticontent", plugin "tx_jfmulticontent_pi1" '
+         b'-->\n\n\t\n\t\t<!--  Plugin inserted: [end] -->\n\t\t\t</div>\n\t<!-'
+         b'-  CONTENT ELEMENT, uid:27990/list [end] -->\n\t\t\n\t<!--  CONTE'
+         b'NT ELEMENT, uid:27991/list [begin] -->\n\t\t<div id="c27991" class='
+         b'"csc-default">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class="cs'
+         b'c-header csc-header-n5"><h1>Optional Modules</h1></div>\n\t\t<!--  '
+         b'Header: [end] -->\n\t\t\t\n\t\t<!--  Plugin inserted: [begin] -'
+         b'->\n\t\t\t\n\n\n\t<!--\n\n\t\tBEGIN: Content of extension "jfmultico'
+         b'ntent", plugin "tx_jfmulticontent_pi1"\n\n\t-->\n\t<div class="tx'
+         b'-jfmulticontent-pi1">\n\t\t\n<div id="jfmulticontent_c27991">\n\t\n'
+         b'\t<h3><a href="students/msc_cs/#jfmulticontent_c27991-1" rel="">C'
+         b'OMPGC06 Database Systems</a></h3>\n\t<div >\n\t\t\n\t<!--  CONTENT '
+         b'ELEMENT, uid:25770/text [begin] -->\n\t\t<div id="c25770" class="cs'
+         b'c-default">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class="csc-h'
+         b'eader csc-header-n1"><h1 class="csc-firstHeader">COMPGC06 Database S'
+         b'ystems</h1></div>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  '
+         b'Text: [begin] -->\n\t\t\t<p class="align-justify">This module builds'
+         b' on the introduction to relational databases found in the Systems In'
+         b'frastructure module. It covers advanced data modelling and database '
+         b'development methodology, the techniques exploited by relational data'
+         b'base technologies relating in particular to query processing and tra'
+         b'nsaction management, and post relational database technologies inclu'
+         b'ding object oriented databases and web databases. The coursework is '
+         b'an interesting group project lasting the duration of the term and bu'
+         b'ilding a web facing database system using very contemporary technolo'
+         b'gies. \t\t </p>\n<p>Further syllabus information can be found <a hr'
+         b'ef="students/syllabus/msccs/gc06_database_systems/" title="Opens ext'
+         b'ernal link in new window">here</a>.</p>\n\t\t<!--  Text: [end] -->\n'
+         b'\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:25770/text [end] -->\n\t'
+         b'\t\n\t</div>\n\t\n\t<h3><a href="students/msc_cs/#jfmulticontent_c2'
+         b'7991-2" rel="">COMPGC16 Functional Programming</a></h3>\n\t<div >\n'
+         b'\t\t\n\t<!--  CONTENT ELEMENT, uid:25771/text [begin] -->\n\t\t<div'
+         b' id="c25771" class="csc-default">\n\t\t<!--  Header: [begin] --'
+         b'>\n\t\t\t<div class="csc-header csc-header-n1"><h1 class="csc-firstH'
+         b'eader">COMPGC16 Functional Programming</h1></div>\n\t\t<!--  Header'
+         b': [end] -->\n\t\t\t\n\t\t<!--  Text: [begin] -->\n\t\t\t<p class="a'
+         b'lign-justify">This module explores the functional programming paradi'
+         b'gm and the implementation technology for functional programming lang'
+         b'uages. It aims to develop a broad understanding of the functional pr'
+         b'ogramming style and recursive programming techniques using the langu'
+         b'age Miranda, together with an understanding of implementation issues'
+         b' that are relevant not only to functional languages but also to othe'
+         b'r systems that require automatic dynamic memory management.</p>\n'
+         b'<p>Further syllabus information can be found <a href="students/sylla'
+         b'bus/msccs/gc16_functional_programming/" title="Opens external link i'
+         b'n new window">here</a>.</p>\n\t\t<!--  Text: [end] -->\n\t\t\t</div'
+         b'>\n\t<!--  CONTENT ELEMENT, uid:25771/text [end] -->\n\t\t\n\t</div'
+         b'>\n\t\n\t<h3><a href="students/msc_cs/#jfmulticontent_c27991-3" rel='
+         b'"">COMPGC18 Entrepeneurship: Theory and Practice</a></h3>\n\t<div '
+         b'>\n\t\t\n\t<!--  CONTENT ELEMENT, uid:25754/text [begin] -->\n\t\t<d'
+         b'iv id="c25754" class="csc-default">\n\t\t<!--  Header: [begin] -->\n'
+         b'\t\t\t<div class="csc-header csc-header-n1"><h1 class="csc-firstHea'
+         b'der">COMPGC18 Entrepeneurship: Theory and Practice</h1></div>\n\t\t'
+         b'<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  Text: [begin] -->\n\t\t'
+         b'\t<p>This module aims to provide students with the theory and pra'
+         b'ctice necessary to launch a new business venture making maximum use '
+         b'of eCommerce strategies and software tools for entrepreneurs.\r</'
+         b'p>\n<p>On the module, students will gain first hand experience of'
+         b' the selection and deployment of tools, techniques and theories for '
+         b'the identification, validation and structuring of a new business&nbs'
+         b'p;venture.\r</p>\n<p>Further syllabus information can be found <a '
+         b'href="http://www.cs.ucl.ac.uk/students/syllabus/msccs/gc18_entrepren'
+         b'eurship_theory_and_practice/" title="Opens external link in new wind'
+         b'ow" target="_top" class="external-link-new-window">here</a>.</p>'
+         b'\n\t\t<!--  Text: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMEN'
+         b'T, uid:25754/text [end] -->\n\t\t\n\t</div>\n\t\n\t<h3><a href="s'
+         b'tudents/msc_cs/#jfmulticontent_c27991-4" rel="">COMPGC20 Computer Mu'
+         b'sic</a></h3>\n\t<div >\n\t\t\n\t<!--  CONTENT ELEMENT, uid:25772/te'
+         b'xt [begin] -->\n\t\t<div id="c25772" class="csc-default">\n\t\t<!-'
+         b'-  Header: [begin] -->\n\t\t\t<div class="csc-header csc-header-n1">'
+         b'<h1 class="csc-firstHeader">COMPGC20 Computer Music</h1></div>\n\t'
+         b'\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  Text: [begin] -->\n\t'
+         b'\t\t<p class="align-justify">This module covers three key aspects '
+         b'of computer music: representation, creativity and analysis addressed'
+         b' through theory and practice. It will cover sound, music as organise'
+         b'd sound, and specific applications (e.g. music information retrieval'
+         b' and musicology). Students will be strongly encouraged to explore bo'
+         b'th scientific and artistic aspects of the course through programming'
+         b' exercises to generate sound and music in contemporary visual or tex'
+         b'tual music and arts programming languages (e.g. Python and Pure Data'
+         b').</p>\n<p>Further syllabus information can be found <a href="stu'
+         b'dents/syllabus/msccs/gc20_computer_music/" title="Opens internal lin'
+         b'k in current window" class="internal-link">here</a>.</p>\n\t\t<!-- '
+         b' Text: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:25772'
+         b'/text [end] -->\n\t\t\n\t</div>\n\t\n\t<h3><a href="students/msc_'
+         b'cs/#jfmulticontent_c27991-5" rel="">COMPGC22 Software Engineering</a'
+         b'></h3>\n\t<div >\n\t\t\n\t<!--  CONTENT ELEMENT, uid:25773/text [be'
+         b'gin] -->\n\t\t<div id="c25773" class="csc-default">\n\t\t<!--  Hea'
+         b'der: [begin] -->\n\t\t\t<div class="csc-header csc-header-n1"><h1 cl'
+         b'ass="csc-firstHeader">COMPGC22 Software Engineering</h1></div>\n\t'
+         b'\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  Text: [begin] -->\n\t'
+         b'\t\t<p class="align-justify">This module covers a range of Softwar'
+         b'e Engineering material, following on from that introduced in the Arc'
+         b'hitecture &amp; Hardware module. The emphasis is on the knowledge ne'
+         b'eded to be able to model, design, implement and evaluate larger soft'
+         b'ware systems effectively. The content starts with development lifecy'
+         b'cle models, such as agile development, and then continues to cover r'
+         b'equirements specification, the Unified Modelling Language (UML), sof'
+         b'tware architecture, object-oriented analysis and design, design patt'
+         b'erns and testing. Its is an inherently practical subject; students u'
+         b'ndertake a substantial group project, working through a number of st'
+         b'ages of the development of a larger software application.<br /> </p>'
+         b'\n<p>Further syllabus information can be found <a href="students/'
+         b'syllabus/msccs/gc22_software_engineering/" title="Opens internal lin'
+         b'k in current window" class="internal-link">here</a>.</p>\n\t\t<!-- '
+         b' Text: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:25773'
+         b'/text [end] -->\n\t\t\n\t</div>\n\t\n\t<h3><a href="students/msc_'
+         b'cs/#jfmulticontent_c27991-6" rel="">COMPGC25 Interaction Design</a><'
+         b'/h3>\n\t<div >\n\t\t\n\t<!--  CONTENT ELEMENT, uid:25752/text [begi'
+         b'n] -->\n\t\t<div id="c25752" class="csc-default">\n\t\t<!--  Heade'
+         b'r: [begin] -->\n\t\t\t<div class="csc-header csc-header-n1"><h1 clas'
+         b's="csc-firstHeader">COMPGC25 Interaction Design</h1></div>\n\t\t<!-'
+         b'-  Header: [end] -->\n\t\t\t\n\t\t<!--  Text: [begin] -->\n\t\t\t<p'
+         b'>The module covers advanced topics in interaction design, focusing o'
+         b'n the design of mobile and ubiquitous computing technologies. A cent'
+         b"ral theme is how to design technologies to meet people's needs.\r"
+         b'</p>\n<p>On successful completion of the course, students will ha'
+         b've the knowledge and understanding of research topics in ubiquitous '
+         b'computing, an understanding of methods used in interaction design, t'
+         b'he ability to conduct basic user research and the ability to design,'
+         b' prototype and evaluate a novel ubiquitous computing technology.'
+         b'\r</p>\n<p>Further syllabus information can be found<a href="http:'
+         b'//www.cs.ucl.ac.uk/students/syllabus/msccs/gc25_interaction_design/"'
+         b' title="external-link-new-window" target="Cryptography" class="exter'
+         b'nal-link-new-window"> here</a>.</p>\n\t\t<!--  Text: [end] -->\n'
+         b'\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:25752/text [end] -->\n\t'
+         b'\t\n\t</div>\n\t\n\t<h3><a href="students/msc_cs/#jfmulticontent_c2'
+         b'7991-7" rel="">COMPGC26 Artificial Intelligence & Neural Computing <'
+         b'/a></h3>\n\t<div >\n\t\t\n\t<!--  CONTENT ELEMENT, uid:25774/text ['
+         b'begin] -->\n\t\t<div id="c25774" class="csc-default">\n\t\t<!--  H'
+         b'eader: [begin] -->\n\t\t\t<div class="csc-header csc-header-n1"><h1 '
+         b'class="csc-firstHeader">COMPGC26 Artificial Intelligence &amp; Neura'
+         b'l Computing </h1></div>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t'
+         b'<!--  Text: [begin] -->\n\t\t\t<p class="align-justify"><b>Prerequis'
+         b'ites:</b><b>The GC26 module is <i>only available</i> to students tha'
+         b't have done Computer Science, Mathematics or Philosophy degrees that'
+         b' contain an existing formal logic module covering propositional and '
+         b'predicate logic. This module also required strong mathematical skill'
+         b's.</b></p>\n\n<p class="align-justify">This module introduces arti'
+         b'ficial intelligence and neural computing as both technical subjects '
+         b'and as fields of intellectual activity. The overall aims are: to pre'
+         b'sent basic methods of expressing knowledge in forms suitable for hol'
+         b'ding in computing systems, together with methods for deriving conseq'
+         b'uences from that knowledge by automated reasoning; to present basic '
+         b'methods for learning knowledge; and to introduce neural computing as'
+         b' an alternative knowledge acquisition/representation paradigm, to ex'
+         b'plain its basic principles and their relationship to neurobiological'
+         b' models, to describe a range of neural computing techniques and thei'
+         b'r application areas.</p>\n<p>Further syllabus information can be '
+         b'found <a href="students/syllabus/msccs/gc26_artificial_intelligence_'
+         b'and_neural_computing/" title="Opens external link in new window">her'
+         b'e</a>.\r</p>\n\n\n\t\t<!--  Text: [end] -->\n\t\t\t</div>\n\t<!--  C'
+         b'ONTENT ELEMENT, uid:25774/text [end] -->\n\t\t\n\t</div>\n\t\n</div>'
+         b'\n\n\t</div>\n\t\n\t<!-- END: Content of extension "jfmulticontent"'
+         b', plugin "tx_jfmulticontent_pi1" -->\n\n\t\n\t\t<!--  Plugin inser'
+         b'ted: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:27991/l'
+         b'ist [end] -->\n\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r'
+         b'\n\t\t\t\t\t\t<!-- End of div for main text -->\r\n\t\t\t\t\t</div'
+         b'>\r\n\t\t\t\t\t<!-- End of middle content -->\r\n\t\t\t\t</div>\r\n'
+         b'\t\t\t\t<!-- End of inner container -->\r\n\t\t\t</div>\r\n\t\t\t<'
+         b'!-- Start of main content div -->\r\n\t\t\t<!-- Start of footer d'
+         b'iv -->\r\n\t\t\t<div id="footer" class="page_layout clearblock">\r'
+         b'\n\t\t\t\t<div id="owner">\r\n\t\t\t\t\t<div class="tx-responsible-p'
+         b'i1">This page was last modified on 13 Dec 2016 and is maintained by '
+         b'<a href="mailto:K.Bryson@cs.ucl.ac.uk">Kevin Bryson</a> </div>\r\n'
+         b'\t\t\t\t</div>\r\n\t\t\t\t<div id="footer_1" class="clearblock">\r\n'
+         b'\t\t\t\t\t<div id="address">\r\n\t\t\t\t\t\t<p>Computer Science D'
+         b'epartment\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p>University College L'
+         b'ondon\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p>Gower Street\r\n\t\t'
+         b'\t\t\t\t</p>\r\n\t\t\t\t\t\t<p>London\r\n\t\t\t\t\t\t</p>\r\n\t'
+         b'\t\t\t\t\t<p>WC1E 6BT\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</div>\r\n\t'
+         b'\t\t\t\t<div id="telephone">\r\n\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t'
+         b'<img src="fileadmin/UCL-CS/web_assets/other_images/phone.gif" width='
+         b'"13" height="9" id="phone" alt="Telephone:"/> \t+44 (0)20 7679 72'
+         b'14\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div id="e'
+         b'ngfac">\r\n\t\t\t\t\t\t<a href="http://www.engineering.ucl.ac.uk'
+         b'/">\r\n\t\t\t\t\t\t\t<img src="fileadmin/UCL-CS/web_assets/other_'
+         b'images/ucle_logo_trans.png" id="ucl_eng_logo" alt="UCL Engineering L'
+         b'ogo"/>\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div cl'
+         b'ass="page_layout clearblock">\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</di'
+         b'v>\r\n\t\t\t\t<div id="footer_2" class="clearblock">\r\n\t\t\t\t'
+         b'\t<div id="disclaimer">\r\n\t\t\t\t\t\t<ul class="inlineList">\r\n\t'
+         b'\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t<a href="http://www.ucl.ac.uk/dis'
+         b'claimer/" title="Disclaimer" target="_top">Disclaimer</a>|\r\n'
+         b'\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t<a hre'
+         b'f="http://www.ucl.ac.uk/cookies/" title="Cookies" target="_top">Cook'
+         b'ies</a>|\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t'
+         b'\t\t\t\t<a href="http://www.ucl.ac.uk/accessibility/" title="Accessi'
+         b'bility" target="_top">Accessibility</a>|\r\n\t\t\t\t\t\t\t</li>\r\n'
+         b'\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t<a href="http://www.ucl.ac.uk/pr'
+         b'iv/" title="Privacy" target="_top">Privacy</a>|\r\n\t\t\t\t\t\t\t'
+         b'</li>\r\n\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t<a href="http://www.u'
+         b'cl.ac.uk/advanced-search/" title="UCL Advanced Search" target="_top"'
+         b'>Advanced Search</a>|\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t<li>'
+         b'\r\n\t\t\t\t\t\t\t<a href="http://www.cs.ucl.ac.uk/help/?noMobile'
+         b'=1" title="Help" target="_top">Help</a>\r\n\t\t\t\t\t\t\t</li>\r\n\t'
+         b'\t\t\t\t\t</ul>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div id="copyright'
+         b'">\r\n\t\t\t\t\t\t<p>Copyright &#169;  \t1999-\r\n\t\t\t\t\t\t\t20'
+         b'16   UCL\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div'
+         b' class="page_layout clearblock">\r\n\t\t\t\t\t</div>\r\n\t\t\t\t<'
+         b'/div>\r\n\t\t\t</div>\r\n\t\t\t<!-- End of footer div -->\r\n\t\t\t'
+         b'<div class="page_layout clearblock"></div>\r\n\t\t</div>\n\n\n\n'
+         b'\n</body>\n</html',
+ 'links': [2,
+           2055,
+           2988,
+           4,
+           5,
+           6,
+           1,
+           7,
+           8,
+           9,
+           10,
+           11,
+           12,
+           13,
+           14,
            2987,
-           2849,
-           2766,
-           2862,
-           2872,
-           2754,
-           2910,
-           2912,
-           2913,
-           2880,
-           2893,
-           2897,
-           2771,
-           2772,
-           2773,
-           2774,
-           2775,
-           2776,
-           2777,
-           2778,
-           2779,
-           2780,
-           2781,
-           2782,
-           2783,
-           2784,
-           2785,
-           2786,
-           2787,
-           2788,
-           2789,
-           2790,
-           2791,
-           2792,
-           2793,
-           2794,
-           2795,
-           2796,
-           2797,
-           2798,
-           2799,
-           2800,
-           2801,
-           2802,
-           2803,
-           2804,
-           2805,
-           2806,
-           2807,
-           2808,
-           2809,
-           2810,
-           2811,
-           2812,
-           2813,
-           2814,
-           2815,
-           2816,
-           2817,
-           2818,
-           2819,
-           2820,
-           2821,
-           2822,
-           2823,
-           2824,
-           2825,
-           2826,
-           2827,
-           2828,
-           2829,
-           2830,
-           2831,
-           2832,
-           2833,
-           2834,
-           2835,
-           2836,
-           2837,
-           2838,
-           2839,
-           2840,
-           2841,
-           2842,
-           2843,
-           2844,
-           2845,
-           2846,
-           2847,
-           2848,
-           2850,
-           2851,
-           2852,
-           2853,
-           2854,
-           2855,
-           2856,
-           2857,
-           2858,
-           2859,
-           2860,
-           2861,
-           2863,
-           2864,
-           2865,
-           2866,
-           2867,
-           2868,
-           2869,
-           2870,
-           2871,
-           2873,
-           2874,
-           2875,
-           2876,
-           2877,
-           2878,
-           2879,
-           2881,
-           2882,
-           2883,
-           2884,
-           2885,
-           2886,
-           2887,
-           2888,
-           2889,
-           2890,
-           2891,
-           2892,
-           2894,
-           2895,
-           2896,
-           2898,
-           2899,
-           2900,
-           2901,
-           2902,
-           2903,
-           2904,
-           2905,
-           2906,
-           2907,
-           2908,
-           2909,
-           2911,
-           2914,
-           2915,
-           2916,
-           2917,
-           2918],
+           2584,
+           2585,
+           2586,
+           2587,
+           2588,
+           2589,
+           2590,
+           2591,
+           2592,
+           2593,
+           2594,
+           2595,
+           18],
  'pid': 2987,
- 'url': 'http://mobblog.cs.ucl.ac.uk/tag/ubicomp2008/'}
+ 'url': 'http://www.cs.ucl.ac.uk/students/msc_cs/'}

@@ -1,0 +1,33 @@
+{'html': b"\n\n\n%im = phantom(256);\n%im = double(imread('../../StandardTestIm"
+         b"ages/house.png','PNG'));\nim = double(imread('./Cameraman256.png'"
+         b",'PNG'));\n\n% add noise\n%im = im.*(1 + 0.1*randn(size(im)));\n"
+         b'\n[gx,gy] = gradient(im);\n[gxx,gxy] = gradient(gx);\n[gyx,gyy] = g'
+         b'radient(gy);\ngg = sqrt(gx.^2 + gy.^2);\n\nfigure(1); clf; hold on;'
+         b"\nsubplot(2,3,1);colormap(gray); imagesc(im);title('original');\ns"
+         b"ubplot(2,3,2);colormap(gray);  imagesc(gx);title('f_x');\nsubplot"
+         b"(2,3,3);colormap(gray);  imagesc(gy);title('f_y');\nsubplot(2,3,4"
+         b");colormap(gray); imagesc(gxx);title('f_{xx}');\nsubplot(2,3,5);c"
+         b"olormap(gray);  imagesc(gxy);title('f_{xy}');\nsubplot(2,3,6);col"
+         b"ormap(gray);  imagesc(gyy);title('f_{yy}');\n\n\n%%\nfor t = 1:10:36"
+         b'0\n    sn = sin(t*2*pi/360);\n    cs = cos(t*2*pi/360);\n    \nfigur'
+         b"e(2); clf;\nsubplot(2,3,1);colormap(gray); imagesc(im);title('ori"
+         b"ginal');\nsubplot(2,3,2);colormap(gray);  imagesc(gx);title('f_x'"
+         b");\nsubplot(2,3,3);colormap(gray);  imagesc(gy);title('f_x');\n\nsu"
+         b"bplot(2,3,4);colormap(gray);  imagesc(gg);title('| grad f |');\ns"
+         b"ubplot(2,3,4);colormap(gray);  imagesc(cs.*gx + sn.*gy);title(['"
+         b"f_{\\theta}, \\theta = ',num2str(t),' degrees']);\nsubplot(2,3,6);c"
+         b'olormap(gray);  imagesc(cs^2.*gxx + 2*cs.*sn.*gxy + sn^2.*gyy);title'
+         b"(['f_{\\theta,\\theta}, \\theta = ',num2str(t),' degrees']);\npause("
+         b'0.5);\nend\n\n%%\neps = 1e-3;\ngc = gx./(gg+eps);\ngs = gy./(gg+ep'
+         b's);\ngnn = (gc.^2).*gxx + 2*gc.*gs.*gxy + (gs.^2).*gyy;\nunn = (gx'
+         b'.^2).*gxx + 2*gx.*gy.*gxy + (gy.^2).*gyy;\nunn2 = sqrt(abs(unn)).'
+         b'*sign(unn);\nfigure(3); clf;\nsubplot(2,3,1);colormap(gray); image'
+         b"sc(im);title('original');\nsubplot(2,3,2);colormap(gray); imagesc"
+         b"(gnn);title('f_{nn}');\nsubplot(2,3,3);colormap(gray); imagesc(un"
+         b"n);title('|grad f|^2 f_{nn}');\nsubplot(2,3,4);colormap(gray); im"
+         b"agesc(gc);title('f_x/|grad f|');\nsubplot(2,3,5);colormap(gray); "
+         b"imagesc(gs);title('f_y/|grad f|');\nsubplot(2,3,6);colormap(gray)"
+         b"; imagesc(unn2);title(' sqrt(||grad f|^2 f_{nn}|');\n",
+ 'links': [],
+ 'pid': 3722,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/S.Arridge/teaching/ndsp/differentiate2d'}

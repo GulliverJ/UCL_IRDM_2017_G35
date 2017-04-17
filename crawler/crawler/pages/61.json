@@ -208,7 +208,7 @@
          b'\t\t\t\t\t\r\n\t\t\t</div>\t\r\n\t\t\t<div class="clearblock"></div>'
          b'\t\t\t\t\t\t     \t\t\t\t\t\t\r\n    </div>\r\n\t\t<!-- End of foo'
          b'ter Div -->\n\n\n\n\n</body>\n</html>',
- 'links': [195,
+ 'links': [186,
            47,
            48,
            49,
@@ -221,10 +221,10 @@
            54,
            55,
            56,
-           84,
-           85,
-           86,
-           196,
+           70,
+           71,
+           72,
+           187,
            61],
  'pid': 61,
  'url': 'http://www.cs.ucl.ac.uk/help/?noMobile=0'}

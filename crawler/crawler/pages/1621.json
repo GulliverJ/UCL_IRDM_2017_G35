@@ -1,0 +1,9 @@
+{'html': b'@TechReport{Brotherston:01,\n  author    = "James Brotherston",\n '
+         b' title     = "Formalising Proofs in {I}sabelle/{HOL} of Equational P'
+         b'roperties for the\n  {$\\lambda$}-Calculus Using One-Sorted Variab'
+         b'le Names",\n  institution = "University of Edinburgh",\n  month   '
+         b'  = "June",\n  year      = 2001,\n  note      = "Honours dissertat'
+         b'ion: BSc(Hons) Computer Science {\\&} Mathematics"\n}\n',
+ 'links': [],
+ 'pid': 1621,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/cs4thesis/bibtex_entry.txt'}

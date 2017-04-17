@@ -1,0 +1,15 @@
+{'html': b'<html>\n<head>\n  <meta http-equiv="content-type" content="text/ht'
+         b'ml; charset=UTF-8">\n</head>\n\n<body>\n<center>\n<object classid'
+         b'="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://activ'
+         b'e.macromedia.com/flash5/cabs/swflash.cab#version=7,0,0,0" height="78'
+         b'8" width="1024">\n<param name="movie" value="Executable.swf">\n<pa'
+         b'ram name="play" value="true">\n<param name="loop" value="false">\n'
+         b'<param name="wmode" value="transparent">\n<param name="quality" v'
+         b'alue="low">\n<embed src="Executable.swf" quality="low" loop="fals'
+         b'e" wmode="transparent" type="application/x-shockwave-flash" pluginsp'
+         b'age="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_'
+         b'Version=ShockwaveFlash" height="788" width="1024">\n</object>\n</c'
+         b'enter>\n<script src="Executable.js"></script>\n\n</body>\n</html>\n',
+ 'links': [],
+ 'pid': 1558,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/s.vanstaden/demos/Executable.htm'}

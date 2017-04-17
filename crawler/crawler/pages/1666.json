@@ -1,0 +1,19 @@
+{'html': b'<html>\n<head>\n<title>Theory Beta (Isabelle99-1: October 2000)</t'
+         b'itle>\n</head>\n\n<body>\n<h1>Theory Beta</h1>\n\n\n<p>\n<a href="in'
+         b'dex.html">Up</a> to index of Isabelle/HOL/raw-confluence-lambda\n'
+         b'</p>\n<b>theory</b> <i>Beta</i> = <a href="Lambda.html"><i>Lambda'
+         b'</i></a><br><b>files</b> <a href="Beta.ML.html">[<tt>Beta.ML</tt>]</'
+         b'a>:\n\n<hr>\n<pre>(*  Title:      Beta.thy\n    Author:     James Br'
+         b'otherston / Rene Vestergaard\n    Revised:    4th July, 2000\n\n- S'
+         b'ingle and transitive-reflexive beta-reduction.\n\n*)\n\nBeta = Lambd'
+         b'a +\n  \nconsts  beta :: "(lterm * lterm) set"\n  \nsyntax  "-&gt;B"'
+         b', "-&gt;&gt;B"   :: [lterm,lterm] =&gt; bool (infixl 50)\n       '
+         b'\ntranslations\n  "s -&gt;B t"       == "(s,t) : beta"\n  "s -&gt;&'
+         b'gt;B t"      == "(s,t) : beta^*"\n\ninductive beta\nintrs\n  beta   '
+         b'"(Capt x s) Int FV(t) = {} ==&gt; ((Abs x s) $ t -&gt;B s[x:=t])'
+         b'"\n  bappL  "s -&gt;B t ==&gt; s$u -&gt;B t$u"\n  bappR  "s -&gt;B'
+         b' t ==&gt; u$s -&gt;B u$t"\n  babs   "s -&gt;B t ==&gt; Abs x s -&'
+         b'gt;B Abs x t"\n\nend</pre>\n<hr>\n\n</body>\n</html>\n',
+ 'links': [1614, 1667, 1674],
+ 'pid': 1666,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/confluence_VB/Beta.html'}

@@ -1,44 +1,515 @@
-{'html': b'<!DOCTYPE html>\n\t<!--[if IE 8]>\n\t\t<html xmlns="http://www.w3'
-         b'.org/1999/xhtml" class="ie8" lang="en-US">\n\t<![endif]-->\n\t<!--[i'
-         b'f !(IE 8) ]><!-->\n\t\t<html xmlns="http://www.w3.org/1999/xhtml" l'
-         b'ang="en-US">\n\t<!--<![endif]-->\n\t<head>\n\t<meta http-equiv="Co'
-         b'ntent-Type" content="text/html; charset=UTF-8" />\n\t<title>MobBlo'
-         b"g &rsaquo; Lost Password</title>\n\t<link rel='stylesheet' id='ope"
-         b"n-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300"
-         b'italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2'
-         b"Clatin-ext&#038;ver=3.8.1' type='text/css' media='all' />\n<link "
-         b"rel='stylesheet' id='dashicons-css'  href='http://mobblog.cs.ucl.ac."
-         b"uk/wp-includes/css/dashicons.min.css?ver=3.8.1' type='text/css' medi"
-         b"a='all' />\n<link rel='stylesheet' id='wp-admin-css'  href='http:"
-         b"//mobblog.cs.ucl.ac.uk/wp-admin/css/wp-admin.min.css?ver=3.8.1' type"
-         b"='text/css' media='all' />\n<link rel='stylesheet' id='buttons-cs"
-         b"s'  href='http://mobblog.cs.ucl.ac.uk/wp-includes/css/buttons.min.cs"
-         b"s?ver=3.8.1' type='text/css' media='all' />\n<link rel='styleshee"
-         b"t' id='colors-fresh-css'  href='http://mobblog.cs.ucl.ac.uk/wp-admin"
-         b"/css/colors.min.css?ver=3.8.1' type='text/css' media='all' />\n<!"
-         b"--[if lte IE 7]>\n<link rel='stylesheet' id='ie-css'  href='http:"
-         b"//mobblog.cs.ucl.ac.uk/wp-admin/css/ie.min.css?ver=3.8.1' type='text"
-         b"/css' media='all' />\n<![endif]-->\n<meta name='robots' content='n"
-         b'oindex,follow\' />\n\t</head>\n\t<body class="login login-action-'
-         b'lostpassword wp-core-ui">\n\t<div id="login">\n\t\t<h1><a href="h'
-         b'ttp://wordpress.org/" title="Powered by WordPress">MobBlog</a></'
-         b'h1>\n\t<p class="message">Please enter your username or email addr'
-         b'ess. You will receive a link to create a new password via email.</p>'
-         b'\n\n<form name="lostpasswordform" id="lostpasswordform" action="ht'
-         b'tp://mobblog.cs.ucl.ac.uk/wp-login.php?action=lostpassword" method="'
-         b'post">\n\t<p>\n\t\t<label for="user_login" >Username or E-mail:<b'
-         b'r />\n\t\t<input type="text" name="user_login" id="user_login" clas'
-         b's="input" value="" size="20" /></label>\n\t</p>\n\t\t<input type='
-         b'"hidden" name="redirect_to" value="" />\n\t<p class="submit"><inpu'
-         b't type="submit" name="wp-submit" id="wp-submit" class="button button'
-         b'-primary button-large" value="Get New Password" /></p>\n</form>\n\n'
-         b'<p id="nav">\n<a href="http://mobblog.cs.ucl.ac.uk/wp-login.php">'
-         b'Log in</a>\n</p>\n\n\t<p id="backtoblog"><a href="http://mobblog.cs.'
-         b'ucl.ac.uk/" title="Are you lost?">&larr; Back to MobBlog</a></p>'
-         b'\n\t\n\t</div>\n\n\t\t<script type="text/javascript">\n\ttry{docum'
-         b"ent.getElementById('user_login').focus();}catch(e){}\n\tif(typeof "
-         b"wpOnload=='function')wpOnload();\n\t</script>\n\t\n\t\t<div cla"
-         b'ss="clear"></div>\n\t</body>\n\t</html>\n\t',
- 'links': [2919, 2740],
+{'html': b' <!DOCTYPE html\n    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//'
+         b'EN"\n    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'
+         b'">\n<?xml version="1.0" encoding="utf-8"?>\n<html xmlns:og="http:/'
+         b'/ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">\n<hea'
+         b'd>\n\n<meta http-equiv="Content-Type" content="text/html; charset='
+         b'utf-8" />\n<!-- \n\tThis website is powered by TYPO3 - inspiring pe'
+         b'ople to share!\n\tTYPO3 is a free open source Content Management F'
+         b'ramework initially created by Kasper Skaarhoj and licensed under GNU'
+         b'/GPL.\n\tTYPO3 is copyright 1998-2016 of Kasper Skaarhoj. Extensio'
+         b'ns are copyright of their respective owners.\n\tInformation and co'
+         b'ntribution at http://typo3.org/\n-->\n\n<base href="http://www.cs.u'
+         b'cl.ac.uk/" />\n<link rel="shortcut icon" href="/fileadmin/UCL-CS/'
+         b'favicon.ico" type="image/x-icon; charset=binary" />\n<link rel="i'
+         b'con" href="/fileadmin/UCL-CS/favicon.ico" type="image/x-icon; charse'
+         b't=binary" />\n\n<meta name="generator" content="TYPO3 CMS" />\n<met'
+         b'a name="keywords" content="University, College, London, Computer Sci'
+         b'ence" />\n<meta name="charset" content="utf-8" />\n<meta name="vie'
+         b'wport" content="width=device-width, initial-scale=1.0, maximum-scale'
+         b'=1.0, user-scalable=1" />\n\n\n<link rel="stylesheet" type="text/cs'
+         b's" href="typo3temp/stylesheet_1b55705c43.css?1447625404" media="all"'
+         b' />\n<link rel="stylesheet" type="text/css" href="fileadmin/UCL-C'
+         b'S/css/csCommon.css?1485355348" media="all" />\n\n\n<script src="upl'
+         b'oads/tx_t3jquery/jquery-1.8.x-1.9.x-1.2.x.js?1383917144" type="text/'
+         b'javascript"></script>\n<script src="fileadmin/UCL-CS/js/googleAna'
+         b'lytics.js?1340190657" type="text/javascript"></script>\n<script s'
+         b'rc="fileadmin/UCL-CS/js/jqueryImageSlider2.js?1391601155" type="text'
+         b'/javascript"></script>\n<script src="fileadmin/UCL-CS/js/start.fa'
+         b'der.js?1413468507" type="text/javascript"></script>\n<script src='
+         b'"fileadmin/UCL-CS/js/jquery.bxslider.js?1391781521" type="text/javas'
+         b'cript"></script>\n<script src="fileadmin/UCL-CS/js/toggleRegion.j'
+         b's?1389953286" type="text/javascript"></script>\n<script src="file'
+         b'admin/UCL-CS/js/responsiveTable.js?1400860175" type="text/javascript'
+         b'"></script>\n\n\n<script type="text/javascript">\r\n\r\n  var _gaq '
+         b"= _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-26113673-1']);\r\n "
+         b" _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var "
+         b"ga = document.createElement('script'); ga.type = 'text/javascript'; "
+         b"ga.async = true;\r\n    ga.src = ('https:' == document.location.pr"
+         b"otocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.j"
+         b"s';\r\n    var s = document.getElementsByTagName('script')[0]; s.p"
+         b'arentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n\t</script>\r\n\t'
+         b'<script type="text/javascript">\r\n\t$(document).ready(function(){\r'
+         b'\n\t  $("#menuButton").click(function(){\r\n \t\t \tvar region = $('
+         b'"#sectionMenu");\r\n  \t\tvar button = $(this);\r\n    \ttoggleRegi'
+         b'on(button, region, "<p>Sections</p>", "<p>Hide</p>");\r\n  \t})'
+         b';\r\n\t});\r\n\t$(document).ready(function(){\r\n\t  $("#subMenuB'
+         b'utton").click(function(){\r\n \t\t \tvar region = $("#subMenu");\r'
+         b'\n  \t\tvar button = $(this);\r\n    \ttoggleRegion(button, region'
+         b', "<p>More ...</p>", "<p>Hide</p>");\r\n  \t});\r\n\t});\r\n\t$(d'
+         b'ocument).ready(function () {\r\n    setUpResponsiveTable("greytabl'
+         b'e");\r\n  });\t\r\n  </script>\r\n\r\n\t<link rel="stylesheet" typ'
+         b'e="text/css" href="fileadmin/UCL-CS/css/csMobile.css" media="all" />'
+         b'\n</head>\n<body>\n                   \r\n    <div id="everything'
+         b'" class="page_layout">                  \r\n    <!-- Div for banne'
+         b'r -->                   \r\n    <div id="header" class="page_layou'
+         b't">\r\n      <div id="department">\r\n        <p>COMPUTER SCIENCE DE'
+         b'PARTMENT</p>\r\n      </div>\r\n      <div id="logo">\r\n       <a'
+         b' href="http://www.ucl.ac.uk">\r\n\t\t\t   <img src="/fileadmin/UC'
+         b'L-CS/web_assets/ucl_logo/ucl_logo_whitebg.png">\r\n\t\t\t </a>\r\n\t'
+         b'\t\t</div>\r\n\t\t\t<!-- Start of desktop button Div -->           '
+         b'      \r\n    \t<div id="useDesktop">   \r\n\t\t\t\t<a href="stud'
+         b'ents/student_information/staff_student_committee/"><div id="desktopB'
+         b'utton"><img src="fileadmin/UCL-CS/web_assets/other_images/desktop.gi'
+         b'f" width="100" height="79"   alt="Click for desktop version" title="'
+         b'Click for desktop version"  border="0" /></div></a>   \r\n    \t</d'
+         b'iv>\r\n\t\t\t<!-- End of desktop button Div -->                 \r'
+         b'\n\t\t\t<!-- Div for section menu button -->\r\n\t\t\t<div id="me'
+         b'nuButton" class="menu_button">\r\n\t\t\t\t<p>Sections<p>\r\n\t\t\t<'
+         b'/div>\r\n\t\t\t<!-- End of div for section menu button -->\r\n    <'
+         b'/div>      \r\n    <!-- End of div for banner -->                 '
+         b'  \r\n\t\t<!-- Div for section menu -->\r\n\t\t<div id="sectionMenu"'
+         b' class="section_menu">\r\n\t\t\n\t<!--  CONTENT ELEMENT, uid:22215'
+         b'/image [begin] -->\n\t\t<div id="c22215" class="csc-default">\n\t'
+         b'\t<!--  Image block: [begin] -->\n\t\t\t<div class="maxImageWidth'
+         b'739 csc-textpic csc-textpic-center csc-textpic-above  multiCol4 "><d'
+         b'iv class="csc-textpic-imagewrap"><div class="csc-textpic-image mobil'
+         b'e"><a href="http://www.facebook.com/pages/University-College-London-'
+         b'Computer-Science/132472916819198" target="_top"><img src="fileadmin/'
+         b'_processed_/csm_facebook_03_abcb9ce831.png" width="30" height="30" a'
+         b'lt="" border="0" /></a></div><div class="csc-textpic-image mobile"><'
+         b'a href="http://www.linkedin.com/groups?gid=4046543&amp;trk=myg_ugrp_'
+         b'ovr" target="_top"><img src="fileadmin/_processed_/csm_linkedin_03_5'
+         b'94f31f8f8.png" width="30" height="30" alt="" border="0" /></a></div>'
+         b'<div class="csc-textpic-image mobile"><a href="https://twitter.com/#'
+         b'!/uclcs" target="_top"><img src="fileadmin/_processed_/csm_twitter_0'
+         b'3_7b70ce3c25.png" width="30" height="30" alt="" border="0" /></a></d'
+         b'iv><div class="csc-textpic-image mobile"><a href="http://www.youtube'
+         b'.com/user/UCLComputerScience/videos" target="_top"><img src="fileadm'
+         b'in/_processed_/csm_youtube_04_f373d25c5f.png" width="30" height="30"'
+         b' alt="" border="0" /></a></div></div></div><div class="csc-textpic-c'
+         b'lear"><!-- --></div>\n\t\t<!--  Image block: [end] -->\n\t\t\t</div'
+         b'>\n\t<!--  CONTENT ELEMENT, uid:22215/image [end] -->\n\t\t\n\t<!--'
+         b'  CONTENT ELEMENT, uid:22223/menu [begin] -->\n\t\t<div id="c22223"'
+         b' class="csc-default">\n\t\t<!--  Menu/Sitemap element: [begin] -->\n'
+         b'\t\t\t<ul class="csc-menu csc-menu-def"><li><a href="mobile/news/" '
+         b'title="Computer Science News">News</a></li><li><a href="mobile/event'
+         b's/" title="Events Listing">Events Listing</a></li><li><a href="mobil'
+         b'e/intranet/" title="Staff Intranet">Staff Intranet</a></li></ul>'
+         b'\n\t\t<!--  Menu/Sitemap element: [end] -->\n\t\t\t</div>\n\t<!--'
+         b'  CONTENT ELEMENT, uid:22223/menu [end] -->\n\t\t\n\t<!--  CONTEN'
+         b'T ELEMENT, uid:22224/shortcut [begin] -->\n\t\t<div id="c22224" cla'
+         b'ss="csc-default csc-space-before-5 csc-space-after-5">\n\t\t<!--  I'
+         b'nclusion of other records (by reference): [begin] -->\n\t\t\t\n\t<'
+         b'!--  CONTENT ELEMENT, uid:19061/menu [begin] -->\n\t\t<div id="c190'
+         b'61" class="csc-default">\n\t\t<!--  Menu/Sitemap element: [begin] -'
+         b'->\n\t\t\t<ul class="csc-menu csc-menu-def"><li><a href="mobile/home'
+         b'/" title="Home">Home</a></li><li><a href="mobile/prospective_student'
+         b's/" title="Prospective Students">Prospective Students</a></li><li><a'
+         b' href="mobile/research/" title="Research">Research</a></li><li><a hr'
+         b'ef="mobile/industry_outreach/" title="Industry &amp; Outreach">Indus'
+         b'try &amp; Outreach</a></li><li><a href="mobile/careers/" title="Care'
+         b'ers">Careers</a></li><li><a href="mobile/current_students/" title="C'
+         b'urrent Students">Current Students</a></li><li><a href="mobile/people'
+         b'/?no_cache=1" title="People">People</a></li><li><a href="mobile/abou'
+         b't_us/" title="About Us">About Us</a></li><li><a href="mobile/wics/ho'
+         b'me/" title="Women in Computer Science">Women in Computer Science</a>'
+         b'</li><li><a href="mobile/intranet/" title="Staff Intranet">Staff Int'
+         b'ranet</a></li></ul>\n\t\t<!--  Menu/Sitemap element: [end] -->\n'
+         b'\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:19061/menu [end] -->\n\t'
+         b'\t\n\t\t<!--  Inclusion of other records (by reference): [end] -'
+         b'->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:22224/shortcut [end'
+         b'] -->\n\t\t   \r\n\t\t</div>\r\n\t\t<!-- End of div for section men'
+         b'u -->\r\n    <!-- Div for section header -->                   \r\n '
+         b'   <div id="sectionHeader" class="page_layout">  \r\n    \t<!-- Div'
+         b' for section title -->                   \r\n      <div id="sectio'
+         b'nTitle">\r\n\t\t<div class="section_title">Students</div>   \r\n\t\t'
+         b'\t</div>\r\n    \t<!-- End of div for section title -->             '
+         b'      \r\n\t\t<div class="clearblock"></div>\r\n    </div>      \r\n'
+         b'    <!-- End of div for section header -->  \r\n\t\t<!-- Start of ma'
+         b'in Div -->                 \r\n    <div id="mainText" class="page_'
+         b'layout">   \r\n\t\t\t  \t                                         '
+         b'                         \t\t\t\t\t\t\t\t\t\r\n\t\t\t\n\t<!--  CONTE'
+         b'NT ELEMENT, uid:5720/text [begin] -->\n\t\t<div id="c5720" class="c'
+         b'sc-default">\n\t\t<!--  Text: [begin] -->\n\t\t\t<h1>The Staff-Stud'
+         b'ent Consultative Committee (SSCC)</h1>\n<p> The Departmental Staf'
+         b'f-Student Consultative Committee exists to provide a forum for discu'
+         b'ssion between the staff and students of the Computer Science Departm'
+         b'ent. </p><ul><li><a href="mobile/students/student_information/staff_'
+         b'student_committee/constitution/" title="Opens internal link in curre'
+         b'nt window" class="internal-link">SSCC Constitution</a></li><li><a hr'
+         b'ef="http://www.ucl.ac.uk/staff/committees/staff-student" target="_to'
+         b'p">UCL\'s Joint Staff Student Committee</a></li><li><a href="mobi'
+         b'le/students/student_information/staff_student_committee/faq/" title='
+         b'"Opens internal link in current window" class="internal-link">Freque'
+         b'ntly Asked Questions</a></li></ul><p>The UCL Union runs the Student '
+         b'Academic Representatives programme (StARs) to support and train stud'
+         b'ent representatives. Visit the <a href="http://uclu.org/get-involved'
+         b'/stars.php" title="UCLU StARs web pages" target="_top" class="extern'
+         b'al-link-new-window">website here</a> for more information.\r</p>\n'
+         b'<p>Each undergraduate year and each MSc programme has one or two stu'
+         b'dent representatives. To nominate yourself to be a representative <a'
+         b' href="http://uclu.org/sites/uclu.org/files/migration/get-involved/d'
+         b'ownloads/star-nomination-form.pdf" title="StARa Nomination Form" tar'
+         b'get="_top" class="external-link-new-window">download this form</a> a'
+         b'nd submit it to the CS Departmental Tutor (<a href="mailto:g.roberts'
+         b'@cs.ucl.ac.uk" title="Opens window for sending email" class="mail">G'
+         b'raham Roberts</a>). Where there are more nominations than places, an'
+         b' election will be held to select the representatives. \r</p>\n<p>T'
+         b'he selection of representatives for MSc programmes takes place durin'
+         b'g early October. The selection of representatives for undergraduate '
+         b'and research programmes takes place in February. <a href="http://ucl'
+         b'u.org/articles/stars-guide-appointment-of-stars" title="Opens extern'
+         b'al link in new window" target="_top" class="external-link-new-window'
+         b'">This page gives the details.</a> \r</p>\n\n\n\n\n\t\t<!--  Text: ['
+         b'end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:5720/text [en'
+         b'd] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:7085/menu [begin] -->\n'
+         b'\t\t<div id="c7085" class="csc-default">\n\t\t<!--  Header: [begi'
+         b'n] -->\n\t\t\t<div class="csc-header csc-header-n2"><h1>Current Repr'
+         b'esentatives</h1></div>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t<'
+         b'!--  Menu/Sitemap element: [begin] -->\n\t\t\t<ul class="csc-menu cs'
+         b'c-menu-1"><li><a href="mobile/students/student_information/staff_stu'
+         b'dent_committee/current_representatives/representatives_for_20162017/'
+         b'" title="Representatives for 2016/2017">Representatives for 2016/201'
+         b'7</a></li></ul>\n\t\t<!--  Menu/Sitemap element: [end] -->\n\t\t\t<'
+         b'/div>\n\t<!--  CONTENT ELEMENT, uid:7085/menu [end] -->\n\t\t\n\t<!'
+         b'--  CONTENT ELEMENT, uid:5876/menu [begin] -->\n\t\t<div id="c5876"'
+         b' class="csc-default">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div cl'
+         b'ass="csc-header csc-header-n3"><h2>Past Representatives </h2></d'
+         b'iv>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  Menu/Sitemap e'
+         b'lement: [begin] -->\n\t\t\t<ul class="csc-menu csc-menu-1"><li><a hr'
+         b'ef="mobile/students/student_information/staff_student_committee/repr'
+         b'esentatives/representatives_for_20012002/" title="Representatives fo'
+         b'r 2001/2002">Representatives for 2001/2002</a></li><li><a href="mobi'
+         b'le/students/student_information/staff_student_committee/representati'
+         b'ves/representatives_for_20022003/" title="Representatives for 2002/2'
+         b'003">Representatives for 2002/2003</a></li><li><a href="mobile/stude'
+         b'nts/student_information/staff_student_committee/representatives/repr'
+         b'esentatives_for_20032004/" title="Representatives for 2003/2004">Rep'
+         b'resentatives for 2003/2004</a></li><li><a href="mobile/students/stud'
+         b'ent_information/staff_student_committee/representatives/representati'
+         b'ves_for_20042005/" title="Representatives for 2004/2005">Representat'
+         b'ives for 2004/2005</a></li><li><a href="mobile/students/student_info'
+         b'rmation/staff_student_committee/representatives/representatives_for_'
+         b'20052006/" title="Representatives for 2005/2006">Representatives for'
+         b' 2005/2006</a></li><li><a href="mobile/students/student_information/'
+         b'staff_student_committee/representatives/representatives_for_20062007'
+         b'/" title="Representatives for 2006/2007">Representatives for 2006/20'
+         b'07</a></li><li><a href="mobile/students/student_information/staff_st'
+         b'udent_committee/representatives/representatives_for_20072008/" title'
+         b'="Representatives for 2007/2008">Representatives for 2007/2008</a></'
+         b'li><li><a href="mobile/students/student_information/staff_student_co'
+         b'mmittee/representatives/representatives_for_20082009/" title="Repres'
+         b'entatives for 2008/2009">Representatives for 2008/2009</a></li><li><'
+         b'a href="mobile/students/student_information/staff_student_committee/'
+         b'representatives/representatives_for_20092010/" title="Representative'
+         b's for 2009/2010">Representatives for 2009/2010</a></li><li><a href="'
+         b'mobile/students/student_information/staff_student_committee/represen'
+         b'tatives/representatives_for_20102011/" title="Representatives for 20'
+         b'10/2011">Representatives for 2010/2011</a></li><li><a href="mobile/s'
+         b'tudents/student_information/staff_student_committee/representatives/'
+         b'representatives_for_20112012/" title="Representatives for 2011/2012"'
+         b'>Representatives for 2011/2012</a></li><li><a href="mobile/students/'
+         b'student_information/staff_student_committee/representatives/represen'
+         b'tatives_for_20122013/" title="Representatives for 2012/2013">Represe'
+         b'ntatives for 2012/2013</a></li><li><a href="mobile/students/student_'
+         b'information/staff_student_committee/representatives/representatives_'
+         b'for_20132014/" title="Representatives for 2013/2014">Representatives'
+         b' for 2013/2014</a></li><li><a href="mobile/students/student_informat'
+         b'ion/staff_student_committee/representatives/representatives_for_2014'
+         b'2015/" title="Representatives for 2014/2015">Representatives for 201'
+         b'4/2015</a></li><li><a href="mobile/students/student_information/staf'
+         b'f_student_committee/representatives/representatives_for_20152016/" t'
+         b'itle="Representatives for 2015/2016">Representatives for 2015/2016</'
+         b'a></li></ul>\n\t\t<!--  Menu/Sitemap element: [end] -->\n\t\t\t</di'
+         b'v>\n\t<!--  CONTENT ELEMENT, uid:5876/menu [end] -->\n\t\t\n\t<!-- '
+         b' CONTENT ELEMENT, uid:5728/menu [begin] -->\n\t\t<div id="c5728" cl'
+         b'ass="csc-default">\n\t\t<!--  Header: [begin] -->\n\t\t\t<div class'
+         b'="csc-header csc-header-n4"><h2>Minutes</h2></div>\n\t\t<!--  Heade'
+         b'r: [end] -->\n\t\t\t\n\t\t<!--  Menu/Sitemap element: [begin] -'
+         b'->\n\t\t\t<ul class="csc-menu csc-menu-1"><li><a href="mobile/studen'
+         b'ts/student_information/staff_student_committee/minutes/november_13th'
+         b'_2002/" title="November 13th 2002">November 13th 2002</a></li><li><a'
+         b' href="mobile/students/student_information/staff_student_committee/m'
+         b'inutes/january_29th_2003/" title="January 29th 2003">January 29th 20'
+         b'03</a></li><li><a href="mobile/students/student_information/staff_st'
+         b'udent_committee/minutes/march_12th_2003/" title="March 12th 2003">Ma'
+         b'rch 12th 2003</a></li><li><a href="mobile/students/student_informati'
+         b'on/staff_student_committee/minutes/november_12th_2003/" title="Novem'
+         b'ber 12th 2003">November 12th 2003</a></li><li><a href="mobile/studen'
+         b'ts/student_information/staff_student_committee/minutes/february_4th_'
+         b'2004/" title="February 4th 2004">February 4th 2004</a></li><li><a hr'
+         b'ef="mobile/students/student_information/staff_student_committee/minu'
+         b'tes/november_3rd_2004/" title="November 3rd 2004">November 3rd 2004<'
+         b'/a></li><li><a href="mobile/students/student_information/staff_stude'
+         b'nt_committee/minutes/march_2nd_2005/" title="March 2nd 2005">March 2'
+         b'nd 2005</a></li><li><a href="mobile/students/student_information/sta'
+         b'ff_student_committee/minutes/november_23rd_2005/" title="November 23'
+         b'rd 2005">November 23rd 2005</a></li><li><a href="mobile/students/stu'
+         b'dent_information/staff_student_committee/minutes/february_28th_2006/'
+         b'" title="February 28th 2006">February 28th 2006</a></li><li><a href='
+         b'"mobile/students/student_information/staff_student_committee/minutes'
+         b'/november_29th_2006/" title="November 29th 2006">November 29th 2006<'
+         b'/a></li><li><a href="mobile/students/student_information/staff_stude'
+         b'nt_committee/minutes/march_5th_2007/" title="March 5th 2007">March 5'
+         b'th 2007</a></li><li><a href="mobile/students/student_information/sta'
+         b'ff_student_committee/minutes/november_26th_2007/" title="November 26'
+         b'th 2007">November 26th 2007</a></li><li><a href="mobile/students/stu'
+         b'dent_information/staff_student_committee/minutes/february_18th_2008/'
+         b'" title="February 18th 2008">February 18th 2008</a></li><li><a href='
+         b'"mobile/students/student_information/staff_student_committee/minutes'
+         b'/november_28th_2008/" title="November 28th 2008">November 28th 2008<'
+         b'/a></li><li><a href="mobile/students/student_information/staff_stude'
+         b'nt_committee/minutes/february_23rd_2009/" title="February 23rd 2009"'
+         b'>February 23rd 2009</a></li><li><a href="mobile/students/student_inf'
+         b'ormation/staff_student_committee/minutes/november_26th_2009/" title='
+         b'"November 26th 2009">November 26th 2009</a></li><li><a href="mobile/'
+         b'students/student_information/staff_student_committee/minutes/march_1'
+         b'2th_2010/" title="March 12th 2010">March 12th 2010</a></li><li><a hr'
+         b'ef="mobile/students/student_information/staff_student_committee/minu'
+         b'tes/december_6th_2010/" title="December 6th 2010">December 6th 2010<'
+         b'/a></li><li><a href="mobile/students/student_information/staff_stude'
+         b'nt_committee/minutes/march_18th_2011/" title="March 18th 2011">March'
+         b' 18th 2011</a></li><li><a href="mobile/students/student_information/'
+         b'staff_student_committee/minutes/november_25th_2011/" title="November'
+         b' 25th 2011">November 25th 2011</a></li><li><a href="mobile/students/'
+         b'student_information/staff_student_committee/minutes/march_5th_2012/"'
+         b' title="March 5th 2012">March 5th 2012</a></li><li><a href="mobile/s'
+         b'tudents/student_information/staff_student_committee/minutes/november'
+         b'_28th_2012/" title="November 28th 2012">November 28th 2012</a></li><'
+         b'li><a href="mobile/students/student_information/staff_student_commit'
+         b'tee/minutes/march_13th_2013/" title="March 13th 2013">March 13th 201'
+         b'3</a></li><li><a href="mobile/students/student_information/staff_stu'
+         b'dent_committee/minutes/november_20th_2013/" title="November 20th 201'
+         b'3">November 20th 2013</a></li><li><a href="mobile/students/student_i'
+         b'nformation/staff_student_committee/minutes/march_25th_2014/" title="'
+         b'March 25th 2014">March 25th 2014</a></li><li><a href="mobile/student'
+         b's/student_information/staff_student_committee/minutes/december_3rd_2'
+         b'014/" title="December 3rd 2014">December 3rd 2014</a></li><li><a hre'
+         b'f="mobile/students/student_information/staff_student_committee/minut'
+         b'es/march_12_2015/" title="March 12 2015">March 12 2015</a></li><li><'
+         b'a href="mobile/students/student_information/staff_student_committee/'
+         b'minutes/october_14_2015/" title="October 14 2015">October 14 2015</a'
+         b'></li><li><a href="mobile/students/student_information/staff_student'
+         b'_committee/minutes/27_november_2015/" title="27 November 2015">27 No'
+         b'vember 2015</a></li><li><a href="mobile/students/student_information'
+         b'/staff_student_committee/minutes/10_february_2016/" title="10 Februa'
+         b'ry 2016">10 February 2016</a></li></ul>\n\t\t<!--  Menu/Sitemap ele'
+         b'ment: [end] -->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:5728/m'
+         b'enu [end] -->\n\t\t\n\t<!--  CONTENT ELEMENT, uid:5861/menu [begi'
+         b'n] -->\n\t\t<div id="c5861" class="csc-default">\n\t\t<!--  Header'
+         b': [begin] -->\n\t\t\t<div class="csc-header csc-header-n5"><h2>Agend'
+         b'as</h2></div>\n\t\t<!--  Header: [end] -->\n\t\t\t\n\t\t<!--  Menu'
+         b'/Sitemap element: [begin] -->\n\t\t\t<ul class="csc-menu csc-menu-1"'
+         b'><li><a href="mobile/students/student_information/staff_student_comm'
+         b'ittee/agendas/november_13th_2002/" title="November 13th 2002">Novemb'
+         b'er 13th 2002</a></li><li><a href="mobile/students/student_informatio'
+         b'n/staff_student_committee/agendas/january_29th_2003/" title="January'
+         b' 29th 2003">January 29th 2003</a></li><li><a href="mobile/students/s'
+         b'tudent_information/staff_student_committee/agendas/march_12th_2003/"'
+         b' title="March 12th 2003">March 12th 2003</a></li><li><a href="mobile'
+         b'/students/student_information/staff_student_committee/agendas/novemb'
+         b'er_12th_2003/" title="November 12th 2003">November 12th 2003</a></li'
+         b'><li><a href="mobile/students/student_information/staff_student_comm'
+         b'ittee/agendas/february_4th_2004/" title="February 4th 2004">February'
+         b' 4th 2004</a></li><li><a href="mobile/students/student_information/s'
+         b'taff_student_committee/agendas/november_3rd_2004/" title="November 3'
+         b'rd 2004">November 3rd 2004</a></li><li><a href="mobile/students/stud'
+         b'ent_information/staff_student_committee/agendas/march_2nd_2005/" tit'
+         b'le="March 2nd 2005">March 2nd 2005</a></li><li><a href="mobile/stude'
+         b'nts/student_information/staff_student_committee/agendas/november_23r'
+         b'd_2005/" title="November 23rd 2005">November 23rd 2005</a></li><li><'
+         b'a href="mobile/students/student_information/staff_student_committee/'
+         b'agendas/february_28th_2006/" title="February 28th 2006">February 28t'
+         b'h 2006</a></li><li><a href="mobile/students/student_information/staf'
+         b'f_student_committee/agendas/november_29th_2006/" title="November 29t'
+         b'h 2006">November 29th 2006</a></li><li><a href="mobile/students/stud'
+         b'ent_information/staff_student_committee/agendas/march_5th_2007/" tit'
+         b'le="March 5th 2007">March 5th 2007</a></li><li><a href="mobile/stude'
+         b'nts/student_information/staff_student_committee/agendas/november_26t'
+         b'h_2007/" title="November 26th 2007">November 26th 2007</a></li><li><'
+         b'a href="mobile/students/student_information/staff_student_committee/'
+         b'agendas/february_18th_2008/" title="February 18th 2008">February 18t'
+         b'h 2008</a></li><li><a href="mobile/students/student_information/staf'
+         b'f_student_committee/agendas/november_28th_2008/" title="November 28t'
+         b'h 2008">November 28th 2008</a></li><li><a href="mobile/students/stud'
+         b'ent_information/staff_student_committee/agendas/february_23rd_2009/"'
+         b' title="February 23rd 2009">February 23rd 2009</a></li><li><a href="'
+         b'mobile/students/student_information/staff_student_committee/agendas/'
+         b'november_26th_2009/" title="November 26th 2009">November 26th 2009</'
+         b'a></li><li><a href="mobile/students/student_information/staff_studen'
+         b't_committee/agendas/march_12th_2010/" title="March 12th 2010">March '
+         b'12th 2010</a></li><li><a href="mobile/students/student_information/s'
+         b'taff_student_committee/agendas/december_6th_2010/" title="December 6'
+         b'th 2010">December 6th 2010</a></li><li><a href="mobile/students/stud'
+         b'ent_information/staff_student_committee/agendas/march_18th_2011/" ti'
+         b'tle="March 18th 2011">March 18th 2011</a></li><li><a href="mobile/st'
+         b'udents/student_information/staff_student_committee/agendas/november_'
+         b'25th_2011/" title="November 25th 2011">November 25th 2011</a></li><l'
+         b'i><a href="mobile/students/student_information/staff_student_committ'
+         b'ee/agendas/march_5th_2012/" title="March 5th 2012">March 5th 2012</a'
+         b'></li><li><a href="mobile/students/student_information/staff_student'
+         b'_committee/agendas/november_28th_2012/" title="November 28th 2012">N'
+         b'ovember 28th 2012</a></li><li><a href="mobile/students/student_infor'
+         b'mation/staff_student_committee/agendas/march_13th_2013/" title="Marc'
+         b'h 13th 2013">March 13th 2013</a></li><li><a href="mobile/students/st'
+         b'udent_information/staff_student_committee/agendas/november_20th_2013'
+         b'/" title="November 20th 2013">November 20th 2013</a></li><li><a href'
+         b'="mobile/students/student_information/staff_student_committee/agenda'
+         b's/march_25th_2014/" title="March 25th 2014">March 25th 2014</a></li>'
+         b'<li><a href="mobile/students/student_information/staff_student_commi'
+         b'ttee/agendas/december_3rd_2014/" title="December 3rd 2014">December '
+         b'3rd 2014</a></li><li><a href="mobile/students/student_information/st'
+         b'aff_student_committee/agendas/march_12th_2015/" title="March 12th 20'
+         b'15">March 12th 2015</a></li><li><a href="mobile/students/student_inf'
+         b'ormation/staff_student_committee/agendas/october_14th_2015/" title="'
+         b'October 14th 2015">October 14th 2015</a></li><li><a href="mobile/stu'
+         b'dents/student_information/staff_student_committee/agendas/november_2'
+         b'7th_2015/" title="November 27th 2015">November 27th 2015</a></li><li'
+         b'><a href="mobile/students/student_information/staff_student_committe'
+         b'e/agendas/february_10th_2016/" title="February 10th 2016">February 1'
+         b'0th 2016</a></li></ul>\n\t\t<!--  Menu/Sitemap element: [end] -'
+         b'->\n\t\t\t</div>\n\t<!--  CONTENT ELEMENT, uid:5861/menu [end] -->'
+         b'\n\t\t   \t                                                     '
+         b'   \t\t\t\t\t\t\t\t\t\r\n\t\t\t                                   '
+         b'                         \t\t\t\t\t\t\t\t\r\n    </div>    \r\n\t'
+         b'\t<!-- End of main Div -->                 \r\n\t\t<!-- Start of '
+         b'footer Div -->                 \r\n    <div id="footer"> \r\n\t\t\t'
+         b'<div id="ownership"> \r\n\t\t\t\t<!-- ###RESPONSIBLE### begin --> '
+         b'  \r\n\t\t\t\t<!-- ###RESPONSIBLE### end -->   \r\n\t\t\t\t<div id="'
+         b'copyright">\t  \t                                                 '
+         b'     \t\t\t\t\t\t\t\r\n\t\t\t\t\t&#169; 1999-2016 UCL             '
+         b'                           \t\t\t\t\t\t\t\r\n\t\t\t\t</div>\t\t'
+         b'\t\t\t\t\r\n\t    </div>\r\n\t\t\t<div id="engfac">\t\t\t\t\t'
+         b'\t\t\r\n\t\t\t\t<a href="http://www.engineering.ucl.ac.uk/">\t\t\t\t'
+         b'\t\t\t\t\r\n\t\t\t\t\t<img src="fileadmin/UCL-CS/web_assets/other_i'
+         b'mages/ucle_logo_trans.png" id="ucl_eng_logo" alt="UCL Engineering Lo'
+         b'go"/>\t\t\t\t\t\t\t</a>\t\t\t\t\t\t\r\n\t\t\t</div>\t\r\n\t\t\t<div '
+         b'class="clearblock"></div>\t\t\t\t\t\t    \r\n\t\t\t<div id="disclai'
+         b'mer">\t\r\n\t\t\t\t<div id="list1">                                '
+         b'            \t\t\t\t\t\t\t\r\n\t\t\t\t\t<ul>    \r\n\t\t\t\t\t\t<l'
+         b'i>\r\n\t\t\t\t\t\t\t<a href="students/student_information/staff_s'
+         b'tudent_committee/">Desktop Site</a>                                 '
+         b'       \t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>              \t'
+         b'\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li>                                 '
+         b'                    \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="http://'
+         b'www.ucl.ac.uk/accessibility/" title="Accessibility" target="_top">Ac'
+         b'cessibility</a>                       \t\t\t\t\t\t\t\t\r\n\t\t\t\t'
+         b'\t\t</li>\t\t                             \t\t\t\t\t\t\t\t\r\n'
+         b'\t\t\t\t\t\t<li>                                                  '
+         b'   \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="http://www.cs.ucl.ac.uk/'
+         b'help/?noMobile=0" title="Help" target="_top">Help</a>               '
+         b'       \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>\t                   '
+         b'                         \t\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>    '
+         b'\r\n\t\t\t\t</div>      \r\n\t\t\t\t<div id="list2">   \r\n\t\t\t'
+         b'\t\t<ul>                   \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li>   '
+         b'                                                  \t\t\t\t\t\t'
+         b'\t\t\r\n\t\t\t\t\t\t<a href="http://www.ucl.ac.uk/disclaimer/" tit'
+         b'le="Disclaimer" target="_top">Disclaimer</a>                    '
+         b' \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>                              '
+         b'   \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li>                             '
+         b'                        \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="htt'
+         b'p://www.ucl.ac.uk/cookies/" title="Cookies" target="_top">Cookies</a'
+         b'>                      \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li> \r\n\t'
+         b'\t\t\t\t\t<li>                                                   '
+         b'  \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t<a href="http://www.ucl.ac.uk/priv'
+         b'/" title="Privacy" target="_top">Privacy</a>                    '
+         b'   \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</li>                            '
+         b'     \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\t \r\n\t\t\t\t</div>     '
+         b'                                      \t\t\t\t\t\t\r\n\t\t\t</div>\t'
+         b'\r\n\t\t\t<div class="clearblock"></div>\t\t\t\t\t\t     \t\t'
+         b'\t\t\t\t\r\n    </div>\r\n\t\t<!-- End of footer Div -->\n\n\n\n\n<'
+         b'/body>\n</html',
+ 'links': [2887,
+           47,
+           48,
+           49,
+           46,
+           50,
+           3,
+           51,
+           52,
+           53,
+           54,
+           55,
+           56,
+           3094,
+           3095,
+           3096,
+           3097,
+           3098,
+           3099,
+           3100,
+           3101,
+           3102,
+           3103,
+           3104,
+           3105,
+           3106,
+           3107,
+           3108,
+           3109,
+           3110,
+           3111,
+           3112,
+           3113,
+           3114,
+           3115,
+           3116,
+           3117,
+           3118,
+           3119,
+           3120,
+           3121,
+           3122,
+           3123,
+           3124,
+           3125,
+           3126,
+           3127,
+           3128,
+           3129,
+           3130,
+           3131,
+           3132,
+           3133,
+           3134,
+           3135,
+           3136,
+           3137,
+           3138,
+           3139,
+           3140,
+           3141,
+           3142,
+           3143,
+           3144,
+           3145,
+           3146,
+           3147,
+           3148,
+           3149,
+           3150,
+           3151,
+           3152,
+           3153,
+           3154,
+           3155,
+           3156,
+           3157,
+           3158,
+           3159,
+           3160,
+           3161,
+           3162,
+           3163,
+           3164,
+           3165,
+           3166,
+           3167,
+           3168,
+           3169,
+           3093,
+           3091,
+           61],
  'pid': 2920,
- 'url': 'http://mobblog.cs.ucl.ac.uk/wp-login.php?action=lostpassword'}
+ 'url': 'http://www.cs.ucl.ac.uk/mobile/students/student_information/staff_student_committee/'}

@@ -1,4 +1,6 @@
 import scrapy
+import numpy as np
+import scipy.sparse as mat
 from scrapy.item import Item, Field
 from scrapy.spiders import Rule, CrawlSpider
 from scrapy.linkextractors import LinkExtractor
@@ -20,10 +22,12 @@ class GraphSpider(CrawlSpider):
     page_counter = 1
     pids = {'http://www.cs.ucl.ac.uk/home':0}
     fully_crawled = 0
+    Adj = mat.lil_matrix((5000,5000),dtype=np.bool)
 
     def parse_item(self, response):
         
         if(self.fully_crawled >= 500):
+            mat.save_npz('adjacency_matrix.npz',self.Adj.tocoo())
             raise CloseSpider ('Obtained subset')
         else:
             print(self.fully_crawled)
@@ -44,4 +48,5 @@ class GraphSpider(CrawlSpider):
                     self.page_counter += 1
                 link_pid = self.pids[link_url]
                 page['links'].append(link_pid)
+                self.Adj[self.pids[page_url], link_pid] = 1
         yield page

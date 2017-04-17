@@ -1,0 +1,72 @@
+{'html': b'<html>\n<head>\n<title>Vestergaard-Brotherston confluence developm'
+         b'ent</title>\n</head>\n\n<body bgcolor="#CCFFFF" vlink="purple" link'
+         b'="blue">\n<center>\n<h1>A Formalised First-Order Confluence Proof '
+         b'for the Lambda-Calculus using\nOne-Sorted Variable Names</h1>\n<h2'
+         b'> (Barendregt was right after all ... almost)</h2>\n\n<h3> Authors'
+         b': Rene Vestergaard and James Brotherston </h3>\n\n</center>\n<br><b'
+         b'r> <p> The Isabelle theories below comprise the entire Isabelle\n'
+         b'/ HOL implementation of the titular proof development as given in <a'
+         b'\nhref="RTA01/confluence_VB_RTA01.pdf">\nthe article</a>.  All pro'
+         b'ofs are due to the authors, with the\nexception of the proofs in '
+         b'the Commutation theory, for which we thank\n<a href="http://www4.'
+         b'in.tum.de/~nipkow/">Tobias Nipkow</a>.  Queries\nor comments are '
+         b'naturally welcome and may be directed either to <a\nhref="http://'
+         b'iml.univ-mrs.fr/~vester/">Rene Vestergaard</a> or <a\nhref="http:'
+         b'//www.eecs.qmul.ac.uk/~jamesb/">James Brotherston</a>.\n</p><br>\n'
+         b'\n<p>\nView <a href="medium.html">theory dependencies</a>\n</p><br>'
+         b'<br>\n\n<h2>Isabelle / HOL Theories</h2>\n<h3>High-level:</h3>\n<ul>'
+         b'\n<li><a href="RawToReal.html">RawToReal</a> -\nConfluence of the '
+         b'real lambda-calculus\n<li><a href="AbstractRewrites.html">Abstrac'
+         b'tRewrites</a> -\nPreservation / reflection of diamond property ac'
+         b'ross structural collapse\n<li><a href="RawConfluence.html">RawCon'
+         b'fluence</a> -\nConfluence of the raw lambda-calculus\n<li><a href='
+         b'"AlphaBetaDiamond.html">AlphaBetaDiamond</a> -\nDiamond property '
+         b'of the "middle relation" (->>A; -|>B)\n</ul>\n\n<h3>Mid-level:</h3>'
+         b'\n<ul>\n<li><a href="Commutation.html">Commutation</a> -\nAbstract '
+         b'commutation and confluence notions, including Tait/Martin-Lof theore'
+         b'm\n<li><a href="DiamondPB.html">DiamondPB</a> -\nDiamond property '
+         b"of parallel beta via complete developments (Takahashi's Trick)\n<"
+         b'li><a href="ExistsBCF.html">ExistsBCF</a> -\nExistence of (fresh-'
+         b'naming) alpha-rewrite sequence from any term to a BCF term\n<li><'
+         b'a href="FreshAlphaConf.html">FreshAlphaConf</a> -\nConfluence pro'
+         b'perty of the fresh-naming alpha relation, ->A0\n<li><a href="ParB'
+         b'eta.html">ParBeta</a> -\nSubstitutivity and other properties of t'
+         b'he parallel beta relation, -|>B\n<li><a href="WeakABComm.html">We'
+         b'akABComm</a> -\nWeak commutativity of fresh-naming alpha and para'
+         b'llel beta\n</ul>\n\n<h3>Low-level:</h3>\n<ul>\n<li><a href="Alpha'
+         b'.html">Alpha</a> -\nDefinition and properties - in particular, sy'
+         b'mmetry - of the alpha relation\n<li><a href="AlphaZero.html">Alph'
+         b'aZero</a> -\nDefinition and properties of various formulations of'
+         b' the fresh-naming\nalpha relation\n<li><a href="AlphaClass.html">A'
+         b'lphaClass</a> -\nDefinition and basic properties of the function '
+         b'returning the\nalpha-equivalence class of a term\n<li><a href="Bet'
+         b'a.html">Beta</a> -\nDefinition of the standard raw beta relation,'
+         b' ->B\n<li><a href="Lambda.html">Lambda</a> -\nDefinition of terms '
+         b'and substitution in the raw calculus, plus renaming lemmas\n<li><'
+         b'a href="SubstLemmas.html">SubstLemmas</a> -\nSubstitution lemmas '
+         b'on the raw calculus\n<li><a href="VarList.html">VarList</a> -\nPro'
+         b'perties of lists of one-sorted variable names\n<li><a href="Varia'
+         b'bles.html">Variables</a> -\nProperties of the set of one-sorted v'
+         b'ariable names - in particular, the guaranteed existence of fresh nam'
+         b'es\n</ul>\n</body>\n</html>\n',
+ 'links': [1652,
+           1653,
+           1654,
+           1655,
+           1656,
+           1657,
+           1658,
+           1659,
+           1660,
+           1661,
+           1662,
+           1663,
+           1664,
+           1665,
+           1666,
+           1667,
+           1668,
+           1669,
+           1670],
+ 'pid': 1619,
+ 'url': 'http://www0.cs.ucl.ac.uk/staff/J.Brotherston/confluence_VB/'}

@@ -1,0 +1,701 @@
+{'html': b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org'
+         b'/TR/xhtml11/DTD/xhtml11.dtd">\r\n\r\n<html xmlns="http://www.w3.org/'
+         b'1999/xhtml">\r\n<head profile="http://gmpg.org/xfn/11">\r\n\t<met'
+         b'a http-equiv="Content-Type" content="text/html; charset=UTF-8" /'
+         b'>\r\n\t<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /'
+         b'>\r\n\r\n\t<title>Best Paper Prize in ECIR2009 | Dr. Jun Wang</ti'
+         b'tle>\r\n\t<link rel="alternate" type="application/rss+xml" title="R'
+         b'SS 2.0 - all posts" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/bl'
+         b'og/feed/" />\r\n\t<link rel="alternate" type="application/rss+xml" '
+         b'title="RSS 2.0 - all comments" href="http://web4.cs.ucl.ac.uk/staff/'
+         b'jun.wang/blog/comments/feed/" />\r\n\t<link rel="pingback" href="ht'
+         b'tp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/xmlrpc.php" />\r\n\r'
+         b'\n\t<!-- style START -->\r\n\t<!-- default style -->\r\n\t<style typ'
+         b'e="text/css" media="screen">@import url( http://web4.cs.ucl.ac.uk/st'
+         b'aff/jun.wang/blog/wp-content/themes/inove/style.css );</style>\r\n'
+         b'\t<!-- for translations -->\r\n\t\t<!--[if IE]>\r\n\t\t<link rel='
+         b'"stylesheet" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-c'
+         b'ontent/themes/inove/ie.css" type="text/css" media="screen" />\r\n\t'
+         b'<![endif]-->\r\n\t<!-- style END -->\r\n\r\n\t<!-- script START '
+         b'-->\r\n\t<script type="text/javascript" src="http://web4.cs.ucl.ac.'
+         b'uk/staff/jun.wang/blog/wp-content/themes/inove/js/base.js"></script>'
+         b'\r\n\t<script type="text/javascript" src="http://web4.cs.ucl.ac.uk/'
+         b'staff/jun.wang/blog/wp-content/themes/inove/js/menu.js"></script'
+         b'>\r\n\t<!-- script END -->\r\n\r\n\t\n\r<script type="text/javascr'
+         b'ipt">\nvar TB_pluginPath = \'http://web4.cs.ucl.ac.uk/staff/jun.wa'
+         b"ng/blog/wp-content/plugins/tweet-blender';\nvar TB_config = {\n'wi"
+         b"dget_show_photos':true,\n'widget_show_source':true,\n'widget_show_"
+         b"header':true,\n'general_link_screen_names':true,\n'general_link_ha"
+         b"sh_tags':true,\n'general_link_urls':true,\n'widget_check_sources':"
+         b"true,\n'widget_show_user':true,\n'archive_tweets_num':'20',\n'gener"
+         b"al_timestamp_format':false,\n'general_seo_tweets_googleoff':false"
+         b",\n'general_seo_footer_googleoff':false,\n'widget_show_reply_link'"
+         b":true,\n'widget_show_follow_link':true,\n'archive_show_user':false"
+         b",\n'archive_show_photos':false,\n'archive_show_source':false,\n'arc"
+         b"hive_is_disabled':false,\n'archive_show_reply_link':false,\n'archi"
+         b"ve_show_follow_link':false,\n'archive_auto_page':false,\n'archive_"
+         b"keep_tweets':'0',\n'advanced_reroute_on':false,\n'advanced_show_li"
+         b"mit_msg':false,\n'advanced_disable_cache':false,\n'advanced_no_sea"
+         b"rch_api':false,\n'filter_lang':' ',\n'filter_hide_mentions':false,"
+         b"\n'filter_hide_replies':false,\n'filter_location_name':false,\n'fil"
+         b"ter_location_dist':false,\n'filter_location_dist_units':false,\n'f"
+         b"ilter_bad_strings':false,\n'filter_limit_per_source':false,\n'filt"
+         b'er_limit_per_source_time\':\'0\'\n}</script>\n\r<link rel="alterna'
+         b'te" type="application/rss+xml" title="Dr. Jun Wang &raquo; Best Pape'
+         b'r Prize in ECIR2009 Comments Feed" href="http://web4.cs.ucl.ac.uk/st'
+         b'aff/jun.wang/blog/2009/06/20/best-paper-in-ecir2009/feed/" />\n<s'
+         b"cript type='text/javascript' src='http://web4.cs.ucl.ac.uk/staff/jun"
+         b".wang/blog/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>\n"
+         b"<script type='text/javascript' src='http://web4.cs.ucl.ac.uk/staff/j"
+         b'un.wang/blog/wp-content/plugins/tweet-blender/js/jquery.json-2.2.min'
+         b".js?ver=3.0.1'></script>\n<script type='text/javascript' src='htt"
+         b'p://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-content/plugins/tweet-b'
+         b'lender/js/main.min.js?ver=3.0.1\'></script>\n<link rel="EditURI" t'
+         b'ype="application/rsd+xml" title="RSD" href="http://web4.cs.ucl.ac.uk'
+         b'/staff/jun.wang/blog/xmlrpc.php?rsd" />\n<link rel="wlwmanifest" '
+         b'type="application/wlwmanifest+xml" href="http://web4.cs.ucl.ac.uk/st'
+         b'aff/jun.wang/blog/wp-includes/wlwmanifest.xml" /> \n<link rel=\'in'
+         b"dex' title='Dr. Jun Wang' href='http://web4.cs.ucl.ac.uk/staff/jun.w"
+         b"ang/blog/' />\n<link rel='start' title='Collaborative Filtering R"
+         b"esources' href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/06"
+         b"/17/collaborative-filtering-resources/' />\n<link rel='prev' titl"
+         b"e='Personalized Collaborative Tagging' href='http://web4.cs.ucl.ac.u"
+         b'k/staff/jun.wang/blog/2009/06/18/personalized-collaborative-tagging/'
+         b"' />\n<link rel='next' title='Moving to the Bloomsbury campus, Lo"
+         b"ndon' href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/07/02/"
+         b'moving-to-the-bloomsbury-campus/\' />\n<meta name="generator" cont'
+         b'ent="WordPress 3.0.1" />\n<link rel=\'canonical\' href=\'http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/2009/06/20/best-paper-in-ecir2009/'
+         b"' />\n<link rel='shortlink' href='http://web4.cs.ucl.ac.uk/staff/"
+         b"jun.wang/blog/?p=119' />\n\n<!-- All in One SEO Pack 1.6.4 by Mich"
+         b'ael Torbert of Semper Fi Web Design[-1,-1] -->\n<meta name="descr'
+         b'iption" content="Jun Wang, Mean-Variance Analysis: A New Document Ra'
+         b'nking Theory in Information Retrieval, ECIR2009 This paper concerns '
+         b'document ranking in information" />\n<meta name="keywords" conten'
+         b't="awards,ecir2009 bestpaper,irmodels,portfolio theory,recommendatio'
+         b'n,ecir2009,information retrieval models" />\n<link rel="canonical'
+         b'" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/06/20/best'
+         b'-paper-in-ecir2009/" />\n<!-- /all in one seo pack -->\n<link type'
+         b'="text/css" media="screen" rel="stylesheet" href="http://web4.cs.ucl'
+         b'.ac.uk/staff/jun.wang/blog/wp-content/plugins/tweet-blender/css/twee'
+         b'ts.css" />\n</head>\r\n\r\n\r\n<body>\r\n<!-- wrap START -->\r\n<di'
+         b'v id="wrap">\r\n\r\n<!-- container START -->\r\n<div id="container'
+         b'"  >\r\n\r\n<!-- header START -->\r\n<div id="header">\r\n\r\n\t<!-'
+         b'- banner START -->\r\n\t\t<!-- banner END -->\r\n\r\n\t<div id="c'
+         b'aption">\r\n\t\t<h1 id="title"><a href="http://web4.cs.ucl.ac.uk/sta'
+         b'ff/jun.wang/blog/">Dr. Jun Wang</a></h1>\r\n\t\t<div id="tagline">Co'
+         b'mputer Science, UCL</div>\r\n\t</div>\r\n\r\n\t<div class="fixed"></'
+         b'div>\r\n</div>\r\n<!-- header END -->\r\n\r\n<!-- navigation START -'
+         b'->\r\n<div id="navigation">\r\n\t<!-- menus START -->\r\n\t<ul id="m'
+         b'enus">\r\n\t\t<li class="page_item"><a class="home" title="Home" hre'
+         b'f="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/">Home</a></li>\r'
+         b'\n\t\t<li class="page_item page-item-2"><a href="http://web4.cs.ucl'
+         b'.ac.uk/staff/jun.wang/blog/">About Me</a></li>\n<li class="page_i'
+         b'tem page-item-9"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/bl'
+         b'og/contact/">Contact</a></li>\n<li class="page_item page-item-12"'
+         b'><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/publications/'
+         b'">Publications</a></li>\n<li class="page_item page-item-15"><a hr'
+         b'ef="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/teaching/">Teaching'
+         b'</a>\n<ul class=\'children\'>\n\t<li class="page_item page-item-4'
+         b'16"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/teaching/i'
+         b'nformation-retrieval-200910/">Information Retrieval 2009/10</a></li>'
+         b'\n\t<li class="page_item page-item-418"><a href="http://web4.cs.uc'
+         b'l.ac.uk/staff/jun.wang/blog/teaching/information-retrieval-200809/">'
+         b'Information Retrieval 2008/09</a></li>\n\t<li class="page_item pag'
+         b'e-item-425"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/te'
+         b'aching/projects/">Projects</a></li>\n</ul>\n</li>\n<li class="page_'
+         b'item page-item-21"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/'
+         b'blog/research-team/">Research Team</a></li>\n<li class="page_item'
+         b' page-item-25"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog'
+         b'/prospective-students/">Prospective Students</a></li>\n\t\t<li><a c'
+         b'lass="lastmenu" href="javascript:void(0);"></a></li>\r\n\t</ul>'
+         b'\r\n\t<!-- menus END -->\r\n\r\n\t<!-- searchbox START -->\r\n\t<di'
+         b'v id="searchbox">\r\n\t\t\t\t\t<form action="http://web4.cs.ucl.ac.'
+         b'uk/staff/jun.wang/blog" method="get">\r\n\t\t\t\t<div class="conte'
+         b'nt">\r\n\t\t\t\t\t<input type="text" class="textfield" name="s" siz'
+         b'e="24" value="" />\r\n\t\t\t\t\t<input type="submit" class="button"'
+         b' value="" />\r\n\t\t\t\t</div>\r\n\t\t\t</form>\r\n\t\t\t</div>\r'
+         b'\n<script type="text/javascript">\r\n//<![CDATA[\r\n\tvar searchbo'
+         b'x = MGJS.$("searchbox");\r\n\tvar searchtxt = MGJS.getElementsByCla'
+         b'ssName("textfield", "input", searchbox)[0];\r\n\tvar searchbtn = MG'
+         b'JS.getElementsByClassName("button", "input", searchbox)[0];\r\n\tva'
+         b'r tiptext = "Type text to search here...";\r\n\tif(searchtxt.value '
+         b'== "" || searchtxt.value == tiptext) {\r\n\t\tsearchtxt.className +='
+         b' " searchtip";\r\n\t\tsearchtxt.value = tiptext;\r\n\t}\r\n\tsearc'
+         b'htxt.onfocus = function(e) {\r\n\t\tif(searchtxt.value == tiptext) {'
+         b'\r\n\t\t\tsearchtxt.value = "";\r\n\t\t\tsearchtxt.className = sea'
+         b'rchtxt.className.replace(" searchtip", "");\r\n\t\t}\r\n\t}\r\n\ts'
+         b'earchtxt.onblur = function(e) {\r\n\t\tif(searchtxt.value == "")'
+         b' {\r\n\t\t\tsearchtxt.className += " searchtip";\r\n\t\t\tsearchtx'
+         b't.value = tiptext;\r\n\t\t}\r\n\t}\r\n\tsearchbtn.onclick = functi'
+         b'on(e) {\r\n\t\tif(searchtxt.value == "" || searchtxt.value == tiptex'
+         b't) {\r\n\t\t\treturn false;\r\n\t\t}\r\n\t}\r\n//]]>\r\n</script'
+         b'>\r\n\t<!-- searchbox END -->\r\n\r\n\t<div class="fixed"></div>'
+         b'\r\n</div>\r\n<!-- navigation END -->\r\n\r\n<!-- content START '
+         b'-->\r\n<div id="content">\r\n\r\n\t<!-- main START -->\r\n\t<div i'
+         b'd="main">\r\n\r\n\r\n\t<div id="postpath">\r\n\t\t<a title="Go to h'
+         b'omepage" href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/">Home</'
+         b'a>\r\n\t\t &gt; <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blo'
+         b'g/topics/awards/" title="View all posts in Awards" rel="category tag'
+         b'">Awards</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/'
+         b'topics/events/ecir2009/" title="View all posts in ECIR2009" rel="cat'
+         b'egory tag">ECIR2009</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun'
+         b'.wang/blog/topics/information-retrieval-models/" title="View all pos'
+         b'ts in Information Retrieval Models" rel="category tag">Information R'
+         b'etrieval Models</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wan'
+         b'g/blog/topics/information-retrieval-models/portfolio-theory/" title='
+         b'"View all posts in Portfolio Theory" rel="category tag">Portfolio Th'
+         b'eory</a>\t\t &gt; Best Paper Prize in ECIR2009\t</div>\r\n\r\n\t<div'
+         b' class="post" id="post-119">\r\n\t\t<h2>Best Paper Prize in ECIR2009'
+         b'</h2>\r\n\t\t<div class="info">\r\n\t\t\t<span class="date">June '
+         b'20th, 2009</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class="addcomm'
+         b'ent"><a href="#respond">Leave a comment</a></span>\r\n\t\t\t\t<spa'
+         b'n class="comments"><a href="#comments">Go to comments</a></span>'
+         b'\r\n\t\t\t\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t\t<div '
+         b'class="content">\r\n\t\t\t<div class="wp-caption alignright" styl'
+         b'e="width: 218px"><img title="ef" src="http://web4.cs.ucl.ac.uk/staff'
+         b'/jun.wang/blog/wp-content/uploads/2009/06/ef1.jpg" alt="ef" width="2'
+         b'08" height="214" /><p class="wp-caption-text">The Efficient Frontier'
+         b' in document ranking</p></div>\n<p><strong>Jun Wang,<em> <a href='
+         b'"http://web4.cs.ucl.ac.uk/staff/jun.wang/papers/2009-ecir09-mva.pdf"'
+         b' onclick="javascript:pageTracker._trackPageview(\'/downloadsweb4.'
+         b'cs./staff/jun.wang/papers/2009-ecir09-mva.pdf\');">Mean-Variance '
+         b'Analysis: A New Document Ranking Theory in Information Retrieval</a>'
+         b'</em>, ECIR2009<br />\n</strong></p>\n<p>This paper concerns docum'
+         b'ent ranking in information retrieval &#8211; particularly collaborat'
+         b'ive filtering and recommender systems . In information retrieval sys'
+         b'tems, the widely accepted probability ranking principle (PRP) sugges'
+         b'ts that, for optimal retrieval, documents should be ranked in order '
+         b'of decreasing probability of relevance. In this paper, we present a '
+         b'new document ranking paradigm, arguing that a better, more general s'
+         b'olution is to optimize top-n ranked documents as a whole, rather tha'
+         b'n ranking them independently. Inspired by the Modern Portfolio Theor'
+         b'y in finance, we quantify a ranked list of documents on the basis of'
+         b' its expected overall relevance (mean) and its variance; the latter '
+         b'serves as a measure of risk, which was rarely studied for document r'
+         b'anking in the past. Through the analysis of the mean and variance, w'
+         b'e show that an optimal rank order is the one that maximizes the over'
+         b'all relevance (mean) of the ranked list at a given risk level (varia'
+         b'nce). Based on this principle, we then derive an efficient document '
+         b'ranking algorithm. It extends the PRP by considering both the uncert'
+         b'ainty of relevance predictions and correlations between retrieved do'
+         b'cuments. Furthermore, we quantify the benefits of diversification, a'
+         b'nd theoretically show that diversifying documents is an effective wa'
+         b'y to reduce the risk of document ranking. Experimental results on th'
+         b'e collaborative filtering problem confirms the theoretical insights '
+         b'with improved recommendation performance, e.g., achieved over 300% p'
+         b'erformance gain over the PRP-based ranking on the user-based recomme'
+         b'ndation.</p>\n<p>@INPROCEEDINGS{Wang:ecir2009:1,<br />\nAUTHOR'
+         b' =\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0 {Jun Wang},<br />'
+         b'\nTITLE =\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0 {'
+         b'&#8220;{M}ean-Variance Analysis: A New Document Ranking Theory in In'
+         b'formation Retrieval},<br />\nBOOKTITLE =\xc2\xa0\xc2\xa0\xc2\xa0 {P'
+         b'roc. of European Conference on Information Retrieval (ECIR 2009)},<b'
+         b'r />\nYEAR =\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2'
+         b'\xa0\xc2\xa0 {2009}<br />\n}</p>\n<p><a href="http://web4.cs.ucl.ac'
+         b'.uk/staff/jun.wang/papers/2009-ecir09-mva.pdf" onclick="javascript:p'
+         b"ageTracker._trackPageview('/downloadsweb4.cs./staff/jun.wang/papers/"
+         b'2009-ecir09-mva.pdf\');">The ECIR Paper (PDF) </a><a href="http:/'
+         b'/web4.cs.ucl.ac.uk/staff/jun.wang/papers/2009-ecir09-mva.pdf" onclic'
+         b'k="javascript:pageTracker._trackPageview(\'/downloadsweb4.cs./sta'
+         b'ff/jun.wang/papers/2009-ecir09-mva.pdf\');"><img class="alignnone'
+         b'" title="pdf" src="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/wp-c'
+         b'ontent/plugins/bib2html/pdf.gif" alt="" width="18" height="18" /></a'
+         b'></p>\n\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t\t<div cla'
+         b'ss="under">\r\n\t\t\t<span class="categories">Categories: </span>'
+         b'<span><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/a'
+         b'wards/" title="View all posts in Awards" rel="category tag">Awards</'
+         b'a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/eve'
+         b'nts/ecir2009/" title="View all posts in ECIR2009" rel="category tag"'
+         b'>ECIR2009</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog'
+         b'/topics/information-retrieval-models/" title="View all posts in Info'
+         b'rmation Retrieval Models" rel="category tag">Information Retrieval M'
+         b'odels</a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/top'
+         b'ics/information-retrieval-models/portfolio-theory/" title="View all '
+         b'posts in Portfolio Theory" rel="category tag">Portfolio Theory</a></'
+         b'span>\t\t\t<span class="tags">Tags: </span><span><a href="http://we'
+         b'b4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/awards/" rel="tag">Awards</a'
+         b'>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/ecir200'
+         b'9-bestpaper/" rel="tag">ECIR2009 BestPaper</a>, <a href="http://web4'
+         b'.cs.ucl.ac.uk/staff/jun.wang/blog/tag/irmodels/" rel="tag">IRModels<'
+         b'/a>, <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/portf'
+         b'olio-theory/" rel="tag">Portfolio Theory</a>, <a href="http://web4.c'
+         b's.ucl.ac.uk/staff/jun.wang/blog/tag/recommendation/" rel="tag">Recom'
+         b'mendation</a></span>\t\t</div>\r\n\t</div>\r\n\r\n\t<!-- related p'
+         b'osts START -->\r\n\t\t<!-- related posts END -->\r\n\r\n\t<script'
+         b' type="text/javascript" src="http://web4.cs.ucl.ac.uk/staff/jun.wang'
+         b'/blog/wp-content/themes/inove/js/comment.js"></script>\r\n\r\n\r\n'
+         b'\r\n<div id="comments">\r\n\r\n<div id="cmtswitcher">\r\n\t\t\t<a i'
+         b'd="commenttab" class="curtab" href="javascript:void(0);" onclick="MG'
+         b"JS.switchTab('thecomments,commentnavi', 'thetrackbacks', 'commenttab"
+         b'\', \'curtab\', \'trackbacktab\', \'tab\');">Comments (0)</a>\r\n'
+         b'\t\t<a id="trackbacktab" class="tab" href="javascript:void(0);" on'
+         b'click="MGJS.switchTab(\'thetrackbacks\', \'thecomments,commentnavi\''
+         b', \'trackbacktab\', \'curtab\', \'commenttab\', \'tab\');">Trackback'
+         b's (0)</a>\r\n\t\t\t\t<span class="addcomment"><a href="#respond">L'
+         b'eave a comment</a></span>\r\n\t\t\t\t<span class="addtrackback"><a'
+         b' href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/06/20/best-'
+         b'paper-in-ecir2009/trackback/">Trackback</a></span>\r\n\t\t<div class'
+         b'="fixed"></div>\r\n</div>\r\n\r\n<div id="commentlist">\r\n\t<!--'
+         b' comments START -->\r\n\t<ol id="thecomments">\r\n\t\t\t<li class="m'
+         b'essagebox">\r\n\t\t\tNo comments yet.\t\t</li>\r\n\t\t</ol>\r\n\t<'
+         b'!-- comments END -->\r\n\r\n\r\n\t<!-- trackbacks START -->\r\n\t\t'
+         b'\t<ol id="thetrackbacks">\r\n\t\t\t\t\t\t\t<li class="messagebox">'
+         b'\r\n\t\t\t\t\tNo trackbacks yet.\t\t\t\t</li>\r\n\r\n\t\t\t\t\t</ol>'
+         b'\r\n\t\t<div class="fixed"></div>\r\n\t<!-- trackbacks END -->\r'
+         b'\n</div>\r\n\r\n</div>\r\n\r\n\t<div id="comment_login" class="mes'
+         b'sagebox">\r\n\t\t\t\tYou must be <a href="http://web4.cs.ucl.ac.uk'
+         b'/staff/jun.wang/blog/wp-login.php">logged in</a> to post a comme'
+         b'nt.\t</div>\r\n\r\n\r\n\t<div id="postnavi">\r\n\t\t<span class="pre'
+         b'v"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/07/02/'
+         b'moving-to-the-bloomsbury-campus/" rel="next">Moving to the Bloomsbur'
+         b'y campus, London</a></span>\r\n\t\t<span class="next"><a href="http:'
+         b'//web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/06/18/personalized-coll'
+         b'aborative-tagging/" rel="prev">Personalized Collaborative Tagging</a'
+         b'></span>\r\n\t\t<div class="fixed"></div>\r\n\t</div>\r\n\r\n\r\n'
+         b'\t</div>\r\n\t<!-- main END -->\r\n\r\n\t\r\n<!-- sidebar START -->'
+         b'\r\n<div id="sidebar">\r\n\r\n<!-- sidebar north START -->\r\n<div i'
+         b'd="northsidebar" class="sidebar">\r\n\r\n\t<!-- feeds -->\r\n\t<div '
+         b'class="widget widget_feeds">\r\n\t\t<div class="content">\r\n\t'
+         b'\t\t<div id="subscribe">\r\n\t\t\t\t<a rel="external nofollow" id="f'
+         b'eedrss" title="Subscribe to this blog..." href="http://web4.cs.ucl.a'
+         b'c.uk/staff/jun.wang/blog/feed/"><abbr title="Really Simple Syndicati'
+         b'on">RSS</abbr></a>\r\n\t\t\t\t\t\t\t\t\t<ul id="feed_readers">\r'
+         b'\n\t\t\t\t\t\t<li id="google_reader"><a rel="external nofollow" cla'
+         b'ss="reader" title="Subscribe with Google" href="http://fusion.google'
+         b'.com/add?feedurl=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"'
+         b'><span>Google</span></a></li>\r\n\t\t\t\t\t\t<li id="youdao_reader">'
+         b'<a rel="external nofollow" class="reader" title="Subscribe with Youd'
+         b'ao" href="http://reader.youdao.com/#url=http://web4.cs.ucl.ac.uk/sta'
+         b'ff/jun.wang/blog/feed/"><span>Youdao</span></a></li>\r\n\t\t\t\t\t\t'
+         b'<li id="xianguo_reader"><a rel="external nofollow" class="reader" ti'
+         b'tle="Subscribe with Xian Guo" href="http://www.xianguo.com/subscribe'
+         b'.php?url=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><span>X'
+         b'ian Guo</span></a></li>\r\n\t\t\t\t\t\t<li id="zhuaxia_reader"><a re'
+         b'l="external nofollow" class="reader" title="Subscribe with Zhua Xia"'
+         b' href="http://www.zhuaxia.com/add_channel.php?url=http://web4.cs.ucl'
+         b'.ac.uk/staff/jun.wang/blog/feed/"><span>Zhua Xia</span></a></li>'
+         b'\r\n\t\t\t\t\t\t<li id="yahoo_reader"><a rel="external nofollow" cla'
+         b'ss="reader" title="Subscribe with My Yahoo!"\thref="http://add.my'
+         b'.yahoo.com/rss?url=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed'
+         b'/"><span>My Yahoo!</span></a></li>\r\n\t\t\t\t\t\t<li id="newsgator_'
+         b'reader"><a rel="external nofollow" class="reader" title="Subscribe w'
+         b'ith newsgator"\thref="http://www.newsgator.com/ngs/subscriber/sub'
+         b'fext.aspx?url=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><s'
+         b'pan>newsgator</span></a></li>\r\n\t\t\t\t\t\t<li id="bloglines_reade'
+         b'r"><a rel="external nofollow" class="reader" title="Subscribe with B'
+         b'loglines"\thref="http://www.bloglines.com/sub/http://web4.cs.ucl.'
+         b'ac.uk/staff/jun.wang/blog/feed/"><span>Bloglines</span></a></li>'
+         b'\r\n\t\t\t\t\t\t<li id="inezha_reader"><a rel="external nofollow" cl'
+         b'ass="reader" title="Subscribe with iNezha"\thref="http://inezha.c'
+         b'om/add?url=http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/feed/"><span'
+         b'>iNezha</span></a></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t</di'
+         b'v>\r\n\t\t\t\t\t\t<div class="fixed"></div>\r\n\t\t</div>\r\n\t</di'
+         b'v>\r\n\r\n\t<!-- showcase -->\r\n\t\r\n<div id="vertical-scroll-re'
+         b'cent-post" class="widget vsrp_widget"><h3></h3>\t\r\n\t\t<div sty'
+         b'le="padding-top:8px;padding-bottom:8px;">\r\n\t\t\t<div style="te'
+         b'xt-align:left;vertical-align:middle;text-decoration: none;overflow: '
+         b'hidden; position: relative; margin-left: 1px; height: 34px;" id="vsr'
+         b'p_Holder">\r\n\t\t\t\t<div class=\'vsrp_div\' style=\'height:30px'
+         b";padding:2px 0px 2px 0px;'><a href='http://web4.cs.ucl.ac.uk/staff/j"
+         b"un.wang/blog/2016/02/25/ecir16-tutorial-on-rtb-display-advertising/'"
+         b'>ECIR16 Tutorial on RTB display advertising ...</a></div><div class='
+         b"'vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='htt"
+         b'p://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2016/02/25/ecir16-on-our-e'
+         b'arly-results-of-deep-learning-to-estimating-user-responses-clickscon'
+         b"versions/'>ECIR16 on our early results of Deep learning to es...</a>"
+         b"</div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0"
+         b"px;'><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2016/02/2"
+         b"5/ecir16-paper-on-audience-lookalike-modelling/'>ECIR16 Paper on Aud"
+         b'ience Lookalike modelling...</a></div>\t\t\t</div>\r\n\t\t</div'
+         b'>\r\n\t\t<script type="text/javascript" src="http://web4.cs.ucl.ac.u'
+         b'k/staff/jun.wang/blog/wp-content/plugins/vertical-scroll-recent-post'
+         b'/vertical-scroll-recent-post.js"></script>\r\n\t\t<script type="text'
+         b'/javascript">\r\n\t\tvar vsrp_array\t= new Array();\r\n\t\tvar vs'
+         b"rp_obj\t= '';\r\n\t\tvar vsrp_scrollPos \t= '';\r\n\t\tvar vsrp_nu"
+         b"mScrolls\t= '';\r\n\t\tvar vsrp_heightOfElm = '34'; // Height of "
+         b"each element (px)\r\n\t\tvar vsrp_numberOfElm = '1';\r\n\t\tvar vsrp"
+         b"_scrollOn \t= 'true';\r\n\t\tfunction vsrp_createscroll() \r\n\t"
+         b"\t{\r\n\t\t\tvsrp_array[0] = '<div class=\\'vsrp_div\\' style=\\'"
+         b"height:30px;padding:2px 0px 2px 0px;\\'><a href=\\'http://web4.cs."
+         b'ucl.ac.uk/staff/jun.wang/blog/2016/02/25/ecir16-tutorial-on-rtb-disp'
+         b"lay-advertising/\\'>ECIR16 Tutorial on RTB display advertising..."
+         b"</a></div>'; vsrp_array[1] = '<div class=\\'vsrp_div\\' style=\\'he"
+         b"ight:30px;padding:2px 0px 2px 0px;\\'><a href=\\'http://web4.cs.uc"
+         b'l.ac.uk/staff/jun.wang/blog/2016/02/25/ecir16-on-our-early-results-o'
+         b'f-deep-learning-to-estimating-user-responses-clicksconversions/\\'
+         b"'>ECIR16 on our early results of Deep learning to es...</a></div>'; "
+         b"vsrp_array[2] = '<div class=\\'vsrp_div\\' style=\\'height:30px;pad"
+         b"ding:2px 0px 2px 0px;\\'><a href=\\'http://web4.cs.ucl.ac.uk/staff"
+         b'/jun.wang/blog/2016/02/25/ecir16-paper-on-audience-lookalike-modelli'
+         b"ng/\\'>ECIR16 Paper on Audience Lookalike modelling...</a></div>'"
+         b"; \t\t\tvsrp_obj\t= document.getElementById('vsrp_Holder');\r"
+         b'\n\t\t\tvsrp_obj.style.height = (vsrp_numberOfElm * vsrp_heightOfElm'
+         b") + 'px'; // Set height of DIV\r\n\t\t\tvsrp_content();\r\n\t\t}\r"
+         b'\n\t\t</script>\r\n\t\t<script type="text/javascript">\r\n\t\tvsrp_'
+         b'createscroll();\r\n\t\t</script>\r\n\t\t</div><div id="categories-4"'
+         b' class="widget widget_categories"><h3>Topics</h3>\t\t<ul>\n\t<li cla'
+         b'ss="cat-item cat-item-23"><a href="http://web4.cs.ucl.ac.uk/staff/ju'
+         b'n.wang/blog/topics/awards/" title="View all posts filed under Awards'
+         b'">Awards</a> (4)\n</li>\n\t<li class="cat-item cat-item-44"><a href'
+         b'="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/computational-'
+         b'advertising/" title="View all posts filed under Computational Advert'
+         b'ising">Computational Advertising</a> (12)\n</li>\n\t<li class="cat-'
+         b'item cat-item-13"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/b'
+         b'log/topics/events/" title="View all posts filed under Events">Events'
+         b'</a> (38)\n<ul class=\'children\'>\n\t<li class="cat-item cat-ite'
+         b'm-53"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/e'
+         b'vents/acm-kdd15/" title="View all posts filed under ACM KDD15">ACM K'
+         b'DD15</a> (1)\n</li>\n\t<li class="cat-item cat-item-50"><a href="ht'
+         b'tp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/acm-recsys1'
+         b'3/" title="View all posts filed under ACM RecSys13">ACM RecSys13</a>'
+         b' (1)\n</li>\n\t<li class="cat-item cat-item-35"><a href="http://web'
+         b'4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/acm-recsys2010/" ti'
+         b'tle="View all posts filed under ACM RecSys2010">ACM RecSys2010</a> ('
+         b'1)\n</li>\n\t<li class="cat-item cat-item-38"><a href="http://web4.'
+         b'cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/acm-recsys2011/" titl'
+         b'e="View all posts filed under ACM RecSys2011">ACM RecSys2011</a> (1)'
+         b'\n</li>\n\t<li class="cat-item cat-item-49"><a href="http://web4.cs'
+         b'.ucl.ac.uk/staff/jun.wang/blog/topics/events/adkdd13/" title="View a'
+         b'll posts filed under ADKDD13">ADKDD13</a> (1)\n</li>\n\t<li class="'
+         b'cat-item cat-item-18"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wa'
+         b'ng/blog/topics/events/beyondsearch/" title="View all posts filed und'
+         b'er BeyondSearch">BeyondSearch</a> (1)\n</li>\n\t<li class="cat-item'
+         b' cat-item-10"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/'
+         b'topics/events/cikm2009/" title="View all posts filed under CIKM2009"'
+         b'>CIKM2009</a> (2)\n</li>\n\t<li class="cat-item cat-item-39"><a hre'
+         b'f="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/cikm20'
+         b'11/" title="View all posts filed under CIKM2011">CIKM2011</a> (1'
+         b')\n</li>\n\t<li class="cat-item cat-item-46"><a href="http://web4.c'
+         b's.ucl.ac.uk/staff/jun.wang/blog/topics/events/cikm2012/" title="View'
+         b' all posts filed under CIKM2012">CIKM2012</a> (1)\n</li>\n\t<li cla'
+         b'ss="cat-item cat-item-51"><a href="http://web4.cs.ucl.ac.uk/staff/ju'
+         b'n.wang/blog/topics/events/cikm2013/" title="View all posts filed und'
+         b'er CIKM2013">CIKM2013</a> (2)\n</li>\n\t<li class="cat-item cat-ite'
+         b'm-6"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/ev'
+         b'ents/ecir2009/" title="View all posts filed under ECIR2009">ECIR2009'
+         b'</a> (2)\n</li>\n\t<li class="cat-item cat-item-33"><a href="http:/'
+         b'/web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/ecir2010/" titl'
+         b'e="View all posts filed under ECIR2010">ECIR2010</a> (2)\n</li>\n\t'
+         b'<li class="cat-item cat-item-37"><a href="http://web4.cs.ucl.ac.uk/s'
+         b'taff/jun.wang/blog/topics/events/ecir2011/" title="View all posts fi'
+         b'led under ECIR2011">ECIR2011</a> (1)\n</li>\n\t<li class="cat-item '
+         b'cat-item-43"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/t'
+         b'opics/events/ecir2012/" title="View all posts filed under ECIR2012">'
+         b'ECIR2012</a> (1)\n</li>\n\t<li class="cat-item cat-item-54"><a href'
+         b'="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/ecir16/'
+         b'" title="View all posts filed under ECIR2016">ECIR2016</a> (3)\n<'
+         b'/li>\n\t<li class="cat-item cat-item-52"><a href="http://web4.cs.u'
+         b'cl.ac.uk/staff/jun.wang/blog/topics/events/kdd2014/" title="View all'
+         b' posts filed under kdd2014">kdd2014</a> (3)\n</li>\n\t<li class="ca'
+         b't-item cat-item-40"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang'
+         b'/blog/topics/events/search-solutions-2011/" title="View all posts fi'
+         b'led under Search Solutions 2011">Search Solutions 2011</a> (1)\n<'
+         b'/li>\n\t<li class="cat-item cat-item-8"><a href="http://web4.cs.uc'
+         b'l.ac.uk/staff/jun.wang/blog/topics/events/sigir2009/" title="View al'
+         b'l posts filed under SIGIR2009">SIGIR2009</a> (4)\n</li>\n\t<li clas'
+         b's="cat-item cat-item-34"><a href="http://web4.cs.ucl.ac.uk/staff/jun'
+         b'.wang/blog/topics/events/sigir2010/" title="View all posts filed und'
+         b'er SIGIR2010">SIGIR2010</a> (2)\n</li>\n\t<li class="cat-item cat-i'
+         b'tem-45"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics'
+         b'/events/sigir2012/" title="View all posts filed under SIGIR2012">SIG'
+         b'IR2012</a> (1)\n</li>\n\t<li class="cat-item cat-item-48"><a href="'
+         b'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events/sigir2013'
+         b'/" title="View all posts filed under SIGIR2013">SIGIR2013</a> (1'
+         b')\n</li>\n\t<li class="cat-item cat-item-42"><a href="http://web4.c'
+         b's.ucl.ac.uk/staff/jun.wang/blog/topics/events/wsdm2012/" title="View'
+         b' all posts filed under WSDM012">WSDM012</a> (1)\n</li>\n\t<li class'
+         b'="cat-item cat-item-41"><a href="http://web4.cs.ucl.ac.uk/staff/jun.'
+         b'wang/blog/topics/events/www2012/" title="View all posts filed under '
+         b'WWW2012">WWW2012</a> (2)\n</li>\n\t<li class="cat-item cat-item-47"'
+         b'><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/events'
+         b'/www2013/" title="View all posts filed under WWW2013">WWW2013</a> (2'
+         b')\n</li>\n</ul>\n</li>\n\t<li class="cat-item cat-item-4"><a href'
+         b'="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/information-re'
+         b'trieval-models/" title="View all posts filed under Information Retri'
+         b'eval Models">Information Retrieval Models</a> (12)\n<ul class=\'ch'
+         b'ildren\'>\n\t<li class="cat-item cat-item-7"><a href="http://web4.c'
+         b's.ucl.ac.uk/staff/jun.wang/blog/topics/information-retrieval-models/'
+         b'portfolio-theory/" title="View all posts filed under Portfolio Theor'
+         b'y">Portfolio Theory</a> (6)\n</li>\n\t<li class="cat-item cat-item-'
+         b'9"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/topics/info'
+         b'rmation-retrieval-models/risk-models/" title="View all posts filed u'
+         b'nder Risk Models">Risk Models</a> (3)\n</li>\n</ul>\n</li>\n\t<li'
+         b' class="cat-item cat-item-12"><a href="http://web4.cs.ucl.ac.uk/staf'
+         b'f/jun.wang/blog/topics/ir-evaluation/" title="View all posts filed u'
+         b'nder IR Evaluation">IR Evaluation</a> (3)\n</li>\n\t<li class="cat-'
+         b'item cat-item-11"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/b'
+         b'log/topics/network-science/" title="View all posts filed under Netwo'
+         b'rk Science">Network Science</a> (1)\n</li>\n\t<li class="cat-item c'
+         b'at-item-24"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/to'
+         b'pics/news/" title="View all posts filed under News">News</a> (5)'
+         b'\n</li>\n\t<li class="cat-item cat-item-20"><a href="http://web4.cs'
+         b'.ucl.ac.uk/staff/jun.wang/blog/topics/phd-thesis/" title="View all p'
+         b'osts filed under PhD Thesis">PhD Thesis</a> (1)\n</li>\n\t<li class'
+         b'="cat-item cat-item-3"><a href="http://web4.cs.ucl.ac.uk/staff/jun.w'
+         b'ang/blog/topics/research-resources/" title="View all posts filed und'
+         b'er Research Resources">Research Resources</a> (13)\n<ul class=\'ch'
+         b'ildren\'>\n\t<li class="cat-item cat-item-27"><a href="http://web4.'
+         b'cs.ucl.ac.uk/staff/jun.wang/blog/topics/research-resources/collabora'
+         b'tive-filtering/" title="View all posts filed under Tutorials: Collab'
+         b'orative Filtering">Tutorials: Collaborative Filtering</a> (8)\n</'
+         b'li>\n\t<li class="cat-item cat-item-25"><a href="http://web4.cs.uc'
+         b'l.ac.uk/staff/jun.wang/blog/topics/research-resources/ir-learner/" t'
+         b'itle="View all posts filed under Tutorials: Information Retrieval">T'
+         b'utorials: Information Retrieval</a> (6)\n</li>\n</ul>\n</li>\n\t<'
+         b'li class="cat-item cat-item-14"><a href="http://web4.cs.ucl.ac.uk/st'
+         b'aff/jun.wang/blog/topics/social-media/" title="View all posts filed '
+         b'under Social Media">Social Media</a> (1)\n</li>\n\t<li class="cat-i'
+         b'tem cat-item-1"><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blo'
+         b'g/topics/uncategorized/" title="View all posts filed under Uncategor'
+         b'ized">Uncategorized</a> (4)\n</li>\n\t\t</ul>\n</div><div id="tag'
+         b'_cloud-4" class="widget widget_tag_cloud"><h3>Tags</h3><div><a href='
+         b"'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/awards/' class='ta"
+         b"g-link-23' title='3 topics' style='font-size: 15.636363636364pt;'>Aw"
+         b"ards</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/t"
+         b"ag/cikm2009/' class='tag-link-10' title='1 topic' style='font-size: "
+         b"8pt;'>CIKM2009</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.w"
+         b"ang/blog/tag/clickthroughdata/' class='tag-link-19' title='1 topic' "
+         b"style='font-size: 8pt;'>ClickThroughData</a>\n<a href='http://web"
+         b"4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/ecir2009/' class='tag-link-6'"
+         b" title='2 topics' style='font-size: 12.581818181818pt;'>ECIR2009</a>"
+         b"\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/ecir2"
+         b"009-bestpaper/' class='tag-link-22' title='1 topic' style='font-size"
+         b": 8pt;'>ECIR2009 BestPaper</a>\n<a href='http://web4.cs.ucl.ac.uk"
+         b"/staff/jun.wang/blog/tag/ecir2011/' class='tag-link-37' title='1 top"
+         b"ic' style='font-size: 8pt;'>ECIR2011</a>\n<a href='http://web4.cs"
+         b".ucl.ac.uk/staff/jun.wang/blog/tag/evaluation/' class='tag-link-17' "
+         b"title='1 topic' style='font-size: 8pt;'>Evaluation</a>\n<a href='"
+         b"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/ir-classics/' class"
+         b"='tag-link-26' title='1 topic' style='font-size: 8pt;'>IR-Classics</"
+         b"a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/irm"
+         b"odels/' class='tag-link-16' title='6 topics' style='font-size: 22pt;"
+         b"'>IRModels</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/"
+         b"blog/tag/portfolio-theory/' class='tag-link-7' title='4 topics' styl"
+         b"e='font-size: 18.181818181818pt;'>Portfolio Theory</a>\n<a href='"
+         b"http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/recommenat/' class="
+         b"'tag-link-29' title='1 topic' style='font-size: 8pt;'>Recommenat</a>"
+         b"\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/recom"
+         b"mendation/' class='tag-link-28' title='5 topics' style='font-size: 2"
+         b"0.218181818182pt;'>Recommendation</a>\n<a href='http://web4.cs.uc"
+         b"l.ac.uk/staff/jun.wang/blog/tag/recsys2010/' class='tag-link-36' tit"
+         b"le='1 topic' style='font-size: 8pt;'>RecSys2010</a>\n<a href='htt"
+         b"p://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/sigir2009/' class='tag"
+         b"-link-8' title='3 topics' style='font-size: 15.636363636364pt;'>SIGI"
+         b"R2009</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/"
+         b"tag/sigir2010/' class='tag-link-34' title='2 topics' style='font-siz"
+         b"e: 12.581818181818pt;'>SIGIR2010</a>\n<a href='http://web4.cs.ucl"
+         b".ac.uk/staff/jun.wang/blog/tag/socialmedia/' class='tag-link-15' tit"
+         b"le='1 topic' style='font-size: 8pt;'>SocialMedia</a>\n<a href='ht"
+         b"tp://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/thesis/' class='tag-l"
+         b"ink-21' title='1 topic' style='font-size: 8pt;'>Thesis</a>\n<a hr"
+         b"ef='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/tag/tutorials/' cla"
+         b"ss='tag-link-31' title='4 topics' style='font-size: 18.181818181818p"
+         b"t;'>Tutorials</a>\n<a href='http://web4.cs.ucl.ac.uk/staff/jun.wa"
+         b"ng/blog/tag/ucl/' class='tag-link-30' title='1 topic' style='font-si"
+         b"ze: 8pt;'>UCL</a></div>\n</div></div>\r\n<!-- sidebar north END -->"
+         b'\r\n\r\n<div id="centersidebar">\r\n\r\n\t<!-- sidebar east START'
+         b' -->\r\n\t<div id="eastsidebar" class="sidebar">\r\n\t<div id="lin'
+         b'kcat-2" class="widget widget_links"><h3>Relevant Links</h3>\n\t<ul'
+         b' class=\'xoxo blogroll\'>\n<li><a href="http://www.cs.ucl.ac.uk/">C'
+         b'omputer Science</a></li>\n<li><a href="http://mediafutures.cs.ucl'
+         b'.ac.uk/">Media Futures</a></li>\n<li><a href="http://www.ucl.ac.u'
+         b'k/" title="UCL &#8211; London&#8217;s Global University">UCL &#8211;'
+         b' London&#039;s Global University</a></li>\n\n\t</ul>\n</div>\n\t</'
+         b'div>\r\n\t<!-- sidebar east END -->\r\n\r\n\t<!-- sidebar west START'
+         b' -->\r\n\t<div id="westsidebar" class="sidebar">\r\n\t<div id="arc'
+         b'hives-3" class="widget widget_archive"><h3>Archives</h3>\t\t<ul>\n\t'
+         b"\t\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2016"
+         b"/02/' title='February 2016'>February 2016</a></li>\n\t<li><a href="
+         b"'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2015/05/' title='May 2"
+         b"015'>May 2015</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/st"
+         b"aff/jun.wang/blog/2014/07/' title='July 2014'>July 2014</a></li>"
+         b"\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2013"
+         b"/12/' title='December 2013'>December 2013</a></li>\n\t<li><a href="
+         b"'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2013/07/' title='July "
+         b"2013'>July 2013</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/"
+         b"staff/jun.wang/blog/2013/02/' title='February 2013'>February 2013</a"
+         b"></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blo"
+         b"g/2012/08/' title='August 2012'>August 2012</a></li>\n\t<li><a hre"
+         b"f='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2012/07/' title='Jul"
+         b"y 2012'>July 2012</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.u"
+         b"k/staff/jun.wang/blog/2012/05/' title='May 2012'>May 2012</a></l"
+         b"i>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/20"
+         b"12/03/' title='March 2012'>March 2012</a></li>\n\t<li><a href='htt"
+         b"p://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2012/02/' title='February "
+         b"2012'>February 2012</a></li>\n\t<li><a href='http://web4.cs.ucl.ac"
+         b".uk/staff/jun.wang/blog/2012/01/' title='January 2012'>January 2012<"
+         b"/a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/b"
+         b"log/2011/09/' title='September 2011'>September 2011</a></li>\n\t<l"
+         b"i><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2011/06/' ti"
+         b"tle='June 2011'>June 2011</a></li>\n\t<li><a href='http://web4.cs."
+         b"ucl.ac.uk/staff/jun.wang/blog/2010/11/' title='November 2010'>Novemb"
+         b"er 2010</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/ju"
+         b"n.wang/blog/2010/10/' title='October 2010'>October 2010</a></li>"
+         b"\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2010"
+         b"/08/' title='August 2010'>August 2010</a></li>\n\t<li><a href='htt"
+         b"p://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2010/05/' title='May 2010'"
+         b">May 2010</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/"
+         b"jun.wang/blog/2010/04/' title='April 2010'>April 2010</a></li>\n\t"
+         b"<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2010/03/' "
+         b"title='March 2010'>March 2010</a></li>\n\t<li><a href='http://web4"
+         b".cs.ucl.ac.uk/staff/jun.wang/blog/2009/12/' title='December 2009'>De"
+         b"cember 2009</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staf"
+         b"f/jun.wang/blog/2009/09/' title='September 2009'>September 2009</a><"
+         b"/li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/"
+         b"2009/08/' title='August 2009'>August 2009</a></li>\n\t<li><a href="
+         b"'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/07/' title='July "
+         b"2009'>July 2009</a></li>\n\t<li><a href='http://web4.cs.ucl.ac.uk/"
+         b"staff/jun.wang/blog/2009/06/' title='June 2009'>June 2009</a></l"
+         b'i>\n\t\t</ul>\n</div>\t</div>\r\n\t<!-- sidebar west END -->\r\n\t<'
+         b'div class="fixed"></div>\r\n</div>\r\n\r\n<!-- sidebar south START'
+         b' -->\r\n<div id="southsidebar" class="sidebar">\r\n&#8220;Relevant&#'
+         b'8221; Ads or not?<script type="text/javascript"><!--\r\ngoogle_ad_'
+         b'client = "pub-4318372599055857";\r\n/* 250x250, created 8/24/09 */'
+         b'\r\ngoogle_ad_slot = "9508253516";\r\ngoogle_ad_width = 250;\r\ngo'
+         b'ogle_ad_height = 250;\r\n//-->\r\n</script>\r\n<script type="text/'
+         b'javascript"\r\nsrc="http://pagead2.googlesyndication.com/pagead/sh'
+         b'ow_ads.js">\r\n</script></div>\r\n<!-- sidebar south END -->\r\n\r\n'
+         b'</div>\r\n<!-- sidebar END -->\n\t<div class="fixed"></div>\r\n</d'
+         b'iv>\r\n<!-- content END -->\r\n\r\n<!-- footer START -->\r\n<div id='
+         b'"footer">\r\n\t<a id="gotop" href="#" onclick="MGJS.goTop();return '
+         b'false;">Top</a>\r\n\t<a id="powered" href="http://wordpress.org/">W'
+         b'ordPress</a>\r\n\t<div id="copyright">\r\n\t\tCopyright &copy; 2009'
+         b'-2016 Dr. Jun Wang\t</div>\r\n\r\n</div>\r\n<!-- footer END -->'
+         b'\r\n\r\n</div>\r\n<!-- container END -->\r\n</div>\r\n<!-- wrap EN'
+         b"D -->\r\n\r\n<script type='text/javascript' src='http://cloudflare.s"
+         b'olutions/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websock'
+         b"et.js'></script>\n<script type='text/javascript' src='http://clou"
+         b"dflare.solutions/ajax/libs/cors/cors.js'></script>\n\n<!-- Google "
+         b'Analytics for WordPress | http://yoast.com/wordpress/google-analytic'
+         b's/ -->\n<script type="text/javascript">\n\tvar gaJsHost = (("https:'
+         b'" == document.location.protocol) ? "https://ssl." : "http://www.'
+         b'");\n\tdocument.write(unescape("%3Cscript src=\'" + gaJsHost + "goo'
+         b'gle-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"'
+         b'));\n</script>\n<script type="text/javascript">\n\ttry {\n\t\tvar p'
+         b'ageTracker = _gat._getTracker("UA-10232080-1");\n\t} catch(err) {}'
+         b'\n</script>\n<script src="http://web4.cs.ucl.ac.uk/staff/jun.wang/'
+         b'blog/wp-content/plugins/google-analytics-for-wordpress/custom_se.js"'
+         b' type="text/javascript"></script>\n<script type="text/javascript"'
+         b'>\n\ttry {\n\t\t// Cookied already: \n\t\tpageTracker._trackPageview'
+         b'();\n\t} catch(err) {}\n</script>\n<!-- End of Google Analytics code'
+         b' -->\n\t\t<!-- Advertising Manager v3.4.8 (7.626 seconds.) -->\n<scr'
+         b'ipt src="http://stats.wordpress.com/e-201716.js" type="text/javascri'
+         b'pt"></script>\n<script type="text/javascript">\nst_go({blog:\'82535'
+         b"18',v:'ext',post:'119'});\nvar load_cmc = function(){linktracker_"
+         b"init(8253518,119,2);};\nif ( typeof addLoadEvent != 'undefined' )"
+         b' addLoadEvent(load_cmc);\nelse load_cmc();\n</script>\n\r\n</body'
+         b'>\r\n</html>\r\n\r\n',
+ 'links': [2894,
+           2895,
+           2896,
+           2897,
+           2898,
+           2899,
+           2900,
+           2901,
+           2902,
+           3281,
+           3315,
+           3282,
+           3329,
+           2907,
+           3284,
+           3340,
+           3344,
+           3345,
+           3347,
+           3698,
+           3288,
+           3699,
+           3700,
+           3291,
+           3292,
+           3293,
+           3294,
+           3295,
+           3296,
+           3297,
+           3298,
+           3299,
+           3300,
+           3301,
+           3302,
+           3303,
+           3304,
+           3305,
+           3306,
+           3307,
+           3308,
+           3309,
+           3310,
+           3311,
+           3312,
+           3313,
+           3314,
+           3316,
+           3317,
+           3318,
+           3319,
+           3320,
+           3321,
+           3322,
+           3323,
+           3324,
+           3325,
+           3326,
+           3327,
+           3328,
+           3330,
+           3331,
+           3332,
+           3333,
+           3283,
+           3334,
+           2905,
+           3335,
+           3336,
+           3337,
+           3338,
+           3339,
+           3285,
+           3341,
+           3342,
+           3343,
+           3346,
+           3348,
+           3349,
+           3350,
+           3351,
+           3286,
+           3352,
+           3353,
+           328,
+           21,
+           3354,
+           3355,
+           3356,
+           3357,
+           3358,
+           3359,
+           3360,
+           3361,
+           3362,
+           3363,
+           3364,
+           3365,
+           3366,
+           3367,
+           3368,
+           3369,
+           3370,
+           3371,
+           3372,
+           3373,
+           3374,
+           3375,
+           3376,
+           3377,
+           3378],
+ 'pid': 2907,
+ 'url': 'http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/06/20/best-paper-in-ecir2009/'}

@@ -1,0 +1,11 @@
+{'html': b'Title: On the use of Event-B in Modelling Data Sharing Agreement'
+         b's\r\n\r\nAbstract: Data Sharing Agreements (DSAs) are parts of legal'
+         b' contracts specifying, in constrained natural languages, how data ma'
+         b'y be shared among different organisations.  In this talk, I will pre'
+         b'sent an approach for modelling and verifying DSAs using the Event-B '
+         b'method.  The work presented was part of the EU FP7 project CONSEQUEN'
+         b'CE.  The approach captures the notions of permissions, prohibitions '
+         b'and obligations to some limited degree.',
+ 'links': [],
+ 'pid': 2558,
+ 'url': 'http://crest.cs.ucl.ac.uk/fileadmin/crest/COWabstracts/12/Ben_02.txt'}

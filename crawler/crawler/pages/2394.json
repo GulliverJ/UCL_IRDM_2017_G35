@@ -1,0 +1,63 @@
+{'html': b'<!DOCTYPE html>\n\t<!--[if IE 8]>\n\t\t<html xmlns="http://www.w3'
+         b'.org/1999/xhtml" class="ie8" lang="en-GB">\n\t<![endif]-->\n\t<!--[i'
+         b'f !(IE 8) ]><!-->\n\t\t<html xmlns="http://www.w3.org/1999/xhtml" l'
+         b'ang="en-GB">\n\t<!--<![endif]-->\n\t<head>\n\t<meta http-equiv="Co'
+         b'ntent-Type" content="text/html; charset=UTF-8" />\n\t<title>Comput'
+         b"er Science WordPress Server &lsaquo; Log In</title>\n\t<link rel='"
+         b"dns-prefetch' href='//s.w.org' />\n<link rel='stylesheet' href='h"
+         b'ttps://wp.cs.ucl.ac.uk/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;'
+         b"load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.7.3' type='t"
+         b'ext/css\' media=\'all\' />\n<script type="text/javascript">\n(fun'
+         b'ction(url){\n\tif(/(?:Chrome\\/26\\.0\\.1410\\.63 Safari\\/537\\.31|'
+         b'WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }\n\tvar'
+         b' addEvent = function(evt, handler) {\n\t\tif (window.addEventListen'
+         b'er) {\n\t\t\tdocument.addEventListener(evt, handler, false);\n\t\t}'
+         b" else if (window.attachEvent) {\n\t\t\tdocument.attachEvent('on' + e"
+         b'vt, handler);\n\t\t}\n\t};\n\tvar removeEvent = function(evt, handl'
+         b'er) {\n\t\tif (window.removeEventListener) {\n\t\t\tdocument.remove'
+         b'EventListener(evt, handler, false);\n\t\t} else if (window.detachEv'
+         b"ent) {\n\t\t\tdocument.detachEvent('on' + evt, handler);\n\t\t}"
+         b"\n\t};\n\tvar evts = 'contextmenu dblclick drag dragend dragenter dr"
+         b'agleave dragover dragstart drop keydown keypress keyup mousedown mou'
+         b"semove mouseout mouseover mouseup mousewheel scroll'.split(' ');"
+         b'\n\tvar logHuman = function() {\n\t\tvar wfscr = document.createE'
+         b"lement('script');\n\t\twfscr.type = 'text/javascript';\n\t\twfscr."
+         b"async = true;\n\t\twfscr.src = url + '&r=' + Math.random();\n\t\t("
+         b"document.getElementsByTagName('head')[0]||document.getElementsByTagN"
+         b"ame('body')[0]).appendChild(wfscr);\n\t\tfor (var i = 0; i < evts.l"
+         b'ength; i++) {\n\t\t\tremoveEvent(evts[i], logHuman);\n\t\t}\n\t};'
+         b'\n\tfor (var i = 0; i < evts.length; i++) {\n\t\taddEvent(evts[i]'
+         b", logHuman);\n\t}\n})('//wp.cs.ucl.ac.uk/?wordfence_logHuman=1&hid="
+         b"6109C2F25E25A816D1ED8497A93EC056');\n</script><meta name='robots'"
+         b' content=\'noindex,follow\' />\n\t<meta name="viewport" content="wid'
+         b'th=device-width" />\n\t\t</head>\n\t<body class="login login-acti'
+         b'on-login wp-core-ui  locale-en-gb">\n\t\t<div id="login">\n\t\t<h1'
+         b'><a href="https://wp.cs.ucl.ac.uk/" title="CS WordPress Sites" tabin'
+         b'dex="-1">Computer Science WordPress Server</a></h1>\n\t\n<form name'
+         b'="loginform" id="loginform" action="https://wp.cs.ucl.ac.uk/wp-login'
+         b'.php" method="post">\n\t<p>\n\t\t<label for="user_login">Username'
+         b' or Email Address<br />\n\t\t<input type="text" name="log" id="user'
+         b'_login" class="input" value="" size="20" /></label>\n\t</p>\n\t<'
+         b'p>\n\t\t<label for="user_pass">Password<br />\n\t\t<input type="pa'
+         b'ssword" name="pwd" id="user_pass" class="input" value="" size="20" /'
+         b"></label>\n\t</p>\n\t<p>Login form protected by <a href='http://www."
+         b"bad-neighborhood.com/login-lockdown.html' >Login LockDown</a>.<br />"
+         b'<br /><br /></p>\t<p class="forgetmenot"><label for="rememberme">'
+         b'<input name="rememberme" type="checkbox" id="rememberme" value="fore'
+         b'ver"  /> Remember Me</label></p>\n\t<p class="submit">\n\t\t<inpu'
+         b't type="submit" name="wp-submit" id="wp-submit" class="button button'
+         b'-primary button-large" value="Log In" />\n\t\t<input type="hidden" '
+         b'name="redirect_to" value="https://wp.cs.ucl.ac.uk/wp-admin/" />\n'
+         b'\t\t<input type="hidden" name="testcookie" value="1" />\n\t</p>\n'
+         b'</form>\n\n<p id="nav">\n\t<a href="https://wp.cs.ucl.ac.uk/wp-login'
+         b'.php?action=lostpassword">Lost your password?</a>\n</p>\n\n<script '
+         b'type="text/javascript">\nfunction wp_attempt_focus(){\nsetTimeout('
+         b" function(){ try{\nd = document.getElementById('user_login');\nd.f"
+         b'ocus();\nd.select();\n} catch(e){}\n}, 200);\n}\n\nwp_attempt_focu'
+         b"s();\nif(typeof wpOnload=='function')wpOnload();\n</script>\n\n\t"
+         b'<p id="backtoblog"><a href="http://wp.cs.ucl.ac.uk/">&larr; Back to '
+         b'Computer Science WordPress Server</a></p>\n\t\n\t</div>\n\n\t\n\t'
+         b'\t<div class="clear"></div>\n\t</body>\n\t</html>\n\t',
+ 'links': [2069, 2070, 2395],
+ 'pid': 2394,
+ 'url': 'https://wp.cs.ucl.ac.uk/wp-login.php'}
