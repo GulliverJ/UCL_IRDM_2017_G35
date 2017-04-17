@@ -71,7 +71,7 @@ class LatentSemanticIndexer:
             self.parser = HTMLParser()
 
             # Turn the filename2index mapping into an index2filename mapping
-            self.index2filename = {val:key for key, val in self.filename2colindex.items()}
+            self.index2filename = {val: key for key, val in self.filename2colindex.items()}
 
             # Load the rank-k versions of: term matrix, singular values and document matrix
             self.term_matrix_k, self.singular_values_k, self.document_matrix_k = self.load_ranker_matrices()
@@ -181,7 +181,7 @@ class LatentSemanticIndexer:
         # Use numpy to perform the singular value decomposition
         term_matrix, singular_vals, doc_matrix = svds(sparse_td_mat, k=self.rank)
 
-        #print(term_matrix.shape, " ", singular_vals.shape, " ", doc_matrix.shape)
+        print(term_matrix.shape, " ", singular_vals.shape, " ", doc_matrix.shape)
         #input()
 
         # The sparse SVD gives back V_t but we just want V
@@ -296,8 +296,8 @@ class LatentSemanticIndexer:
         # Sanity check
         assert(type(query) is list)
 
-        # Create a vector of zeros to store the query as a vector. Length is vocab length + 1 for the OOV token
-        query_vec = np.zeros((1, len(self.vocab)+1), dtype=np.float32)
+        # Create a vector of zeros to store the query as a vector.
+        query_vec = np.zeros((1, len(self.vocab)), dtype=np.float32)
 
         # Counter of how many words from the query were in the vocab. If none, return no results.
         query_count = 0
@@ -400,7 +400,7 @@ class LatentSemanticIndexer:
         return parsed_files
 
 if __name__ == '__main__':
-    create_new = True
+    create_new = False
 
     if create_new:
         t = time.time()

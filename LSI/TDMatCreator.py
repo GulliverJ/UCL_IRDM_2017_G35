@@ -34,20 +34,62 @@ class TDMatCreator:
                 self.inverted_index, self.file_count = pickle.load(f)
                 print("----> No. Files to Process: ", self.file_count)
 
-            # Dictionary which will hold a mapping from words to row indicies in the term-document matrix
-            self.term2rowindex = defaultdict(int)
-
-            # Dictionary which will hold a mapping from filenames to column indicies in the term-document matrix
-            self.filename2colindex = defaultdict(int)
-
             # A vocabulary as a set
             self.vocab = set()
+
+            # Filename to URL mapping
+            self.filename2url = self.read_filename2url()
 
             # List of the filenames already seen
             self.filenames = set()
 
+            # Dictionary which will hold a mapping from words to row indicies in the term-document matrix
+            self.term2rowindex = defaultdict(int)
+            self.create_term2rowindex_mapping()
+
+            # Dictionary which will hold a mapping from filenames to column indicies in the term-document matrix
+            self.filename2colindex = defaultdict(int)
+            self.create_filename2colindex_mapping()
+
+            # Number of files
+            self.num_documents = len(self.filename2url)
+
             # The term-document matrix
             self.term_document_matrix = self.create_TD_matrix()
+
+            print(np.shape(self.term_document_matrix))
+
+    def read_filename2url(self):
+        """
+        Reads filename2url file.
+        :return: filename2url file.
+        """
+        with open("LSI/filename2url.pkl", "rb") as f:
+            filename2url = pickle.load(f)
+
+        return filename2url
+
+    def create_filename2colindex_mapping(self):
+        """
+        Creates filename2colindex mapping.
+        :return: mapping
+        """
+        file_count = 0
+        for key, _ in self.filename2url.items():
+            self.filename2colindex[key] = file_count
+            self.filenames.add(key)
+            file_count += 1
+
+    def create_term2rowindex_mapping(self):
+        """
+        Term2rowindex mapping creator
+        :return:
+        """
+        term_count = 0
+        for key, _ in self.inverted_index.items():
+            self.term2rowindex[key] = term_count
+            self.vocab.add(key)
+            term_count += 1
 
     def create_TD_matrix(self):
         """
@@ -55,21 +97,11 @@ class TDMatCreator:
         :return: the term document matrix.
         """
 
-        # Counts how many terms have been added to the matrix and is used to assign IDs to terms
-        term_count = 0
-
-        # Counts how many filenames have been added to the matrix and is used to assign IDs to files
-        filename_count = 0
-
-        # Add an out of vocabulary (OOV) token to the matrix
-        self.term2rowindex["<OOV>"] = term_count
-        term_count += 1
-
         # Calculate the size of the vocab (which will be the number of rows in the TD matrix. +1 for OOV token.
-        vocab_size = len(self.inverted_index.keys()) + 1
+        vocab_size = len(self.inverted_index.keys())
 
         # Create the initial term-document matrix
-        td_matrix = np.zeros((vocab_size, 1), dtype=np.float32)
+        td_matrix = np.zeros((vocab_size, self.num_documents), dtype=np.float32)
 
         # For logging
         count = 0
@@ -80,20 +112,8 @@ class TDMatCreator:
             print("Processing Term: ", count, end="\r")
             count += 1
 
-            if term not in self.vocab:
-                term_count = self.add_to_term_index(term, term_count)
-
             # A list of document IDs for all documents that this term maps to
-            document_IDs = []
-
-            # Iterate over every entry in the document list for the term
-            for filename, term_count in doc_list:
-
-                # Check if this document has been seen before
-                if filename not in self.filenames:
-                    filename_count = self.add_to_file_index(filename, filename_count)
-
-                document_IDs.append((self.filename2colindex[filename], term_count))
+            document_IDs = [(self.filename2colindex[fname], tc) for fname, tc in doc_list]
 
             # Get the index of the current term
             term_index = self.term2rowindex[term]
@@ -163,10 +183,6 @@ class TDMatCreator:
 
         # Calculate the TF-IDFs for each entry
         tf_idfs = [self.calculate_tf_idf(num_file_occurences, y) for _, y in document_IDs]
-
-        # Check if a new document must be added to the matrix
-        if max(col_indexes) > cols-1:
-            td_matrix = self.expand_td_matrix(td_matrix, max(col_indexes)+1)
 
         # Update the TD matrix with new values
         td_matrix[term_index, col_indexes] = tf_idfs
@@ -261,6 +277,7 @@ if __name__ == '__main__':
     t = time.time()
     tdmat_creator = TDMatCreator("LSI/inverted_index.pkl")
     print("\nTook ", time.time() - t, " seconds")
+    input("Press enter to save...")
     tdmat_creator.save_objects("LSI/Term_Document_Matrix/")
 
     t2 = TDMatCreator(create=False)
