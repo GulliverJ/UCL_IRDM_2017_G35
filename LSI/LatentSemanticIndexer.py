@@ -283,8 +283,20 @@ class LatentSemanticIndexer:
         # Add URLs to the search results
         files = self.add_urls(files)
 
+        to_print = []
+        for f in files:
+            f_url = f["url"]
+            if "mobile" not in f_url:
+                to_print.append(f)
+        to_print = to_print[:10]
+        for item in to_print:
+            print(item["filename"], " -> ", item["url"])
+        input()
+        prev_html = ""
         for f in files:
             print(f["title"].strip(), " --> ", f["filename"], " --> ", f["url"])
+            print(f["file_text"] == prev_html)
+            prev_html = f["file_text"]
             input()
 
         return files
