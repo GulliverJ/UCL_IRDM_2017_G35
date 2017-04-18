@@ -178,7 +178,7 @@ class HTML2Index:
         new_index = defaultdict(list)
 
         for key, val in index.items():
-            if len(key) < max_len and len(val) > self.min_occurences and not is_number(key):
+            if len(key) < max_len and len(val) > self.min_occurences and not self.is_number(key):
                 new_index[key] = val
 
         return new_index
