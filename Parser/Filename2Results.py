@@ -171,5 +171,5 @@ class Filename2Results:
 if __name__ == '__main__':
 
     t = time.time()
-    index_creator = Filename2Results("LSI/pages/", "Parser/")
+    index_creator = Filename2Results(json_dir="LSI/pages/", save_location="Parser/")
     print("\nTook: ", time.time() - t, " seconds to create the index")
