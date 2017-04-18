@@ -1,0 +1,86 @@
+2017-04-18 00:03:36 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: crawler)
+2017-04-18 00:03:36 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'crawler.spiders', 'DOWNLOAD_TIMEOUT': 20, 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS': 24, 'RETRY_ENABLED': False, 'SPIDER_MODULES': ['crawler.spiders'], 'BOT_NAME': 'crawler', 'DOWNLOAD_MAXSIZE': 10240000, 'COOKIES_ENABLED': False, 'DEPTH_PRIORITY': 1, 'DNS_TIMEOUT': 20, 'LOG_FILE': './spiderlog.log', 'DOWNLOAD_DELAY': 1}
+2017-04-18 00:03:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-04-18 00:03:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-04-18 00:03:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-04-18 00:03:36 [scrapy.middleware] INFO: Enabled item pipelines:
+['crawler.pipelines.CrawlerPipeline']
+2017-04-18 00:03:36 [scrapy.core.engine] INFO: Spider opened
+2017-04-18 00:03:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-04-18 00:04:33 [scrapy.core.scraper] ERROR: Error downloading <GET http://quantum.cs.ucl.ac.uk/>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python2.7/dist-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+TimeoutError: User timeout caused connection failure: Getting http://quantum.cs.ucl.ac.uk/ took longer than 20.0 seconds..
+2017-04-18 00:04:33 [scrapy.core.scraper] ERROR: Error downloading <GET http://nrg.cs.ucl.ac.uk/>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python2.7/dist-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+TimeoutError: User timeout caused connection failure: Getting http://nrg.cs.ucl.ac.uk/ took longer than 20.0 seconds..
+2017-04-18 00:04:54 [scrapy.extensions.logstats] INFO: Crawled 38 pages (at 38 pages/min), scraped 37 items (at 37 items/min)
+2017-04-18 00:04:54 [scrapy.core.scraper] ERROR: Error downloading <GET http://mediafutures.cs.ucl.ac.uk/>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python2.7/dist-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+TimeoutError: User timeout caused connection failure: Getting http://mediafutures.cs.ucl.ac.uk/ took longer than 20.0 seconds..
+2017-04-18 00:05:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.cs.ucl.ac.uk/%20https:/lecturecast.ucl.ac.uk:8443/ess/echo/presentation/677196dc-5501-4bf7-ae47-139584563c51/>: HTTP status code is not handled or not allowed
+2017-04-18 00:05:36 [scrapy.extensions.logstats] INFO: Crawled 62 pages (at 24 pages/min), scraped 61 items (at 24 items/min)
+2017-04-18 00:05:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.ucl.ac.uk/secret/homepage/>: HTTP status code is not handled or not allowed
+2017-04-18 00:06:04 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.financialcomputing.org/>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python2.7/dist-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+TimeoutError: User timeout caused connection failure: Getting http://www.financialcomputing.org/ took longer than 20.0 seconds..
+2017-04-18 00:06:36 [scrapy.extensions.logstats] INFO: Crawled 85 pages (at 23 pages/min), scraped 82 items (at 21 items/min)
+2017-04-18 00:07:36 [scrapy.extensions.logstats] INFO: Crawled 109 pages (at 24 pages/min), scraped 107 items (at 25 items/min)
+2017-04-18 00:08:12 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-04-18 00:08:12 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-04-18 00:08:12 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown

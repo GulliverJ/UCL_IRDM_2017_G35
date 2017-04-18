@@ -10,7 +10,7 @@ import json
 class CrawlerPipeline(object):
     def process_item(self, item, spider):
         with open('./pages/%s.json' % item['pid'], "w") as f:
-            print("Processing File: ", item["pid"])
+            #print("Processing File: ", item["pid"])
             new_item = dict(item)
             json.dump(new_item, f)
         return item

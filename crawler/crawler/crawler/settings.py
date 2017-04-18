@@ -14,27 +14,39 @@ BOT_NAME = 'crawler'
 SPIDER_MODULES = ['crawler.spiders']
 NEWSPIDER_MODULE = 'crawler.spiders'
 
-LOG_LEVEL = "INFO"
+#LOG_LEVEL = "INFO"
+LOG_ENABLED = False
+# Enable log
+#LOG_FILE = "spiderlog.log"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'crawler (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 128
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
-# The download delay setting will honor only one of:
-#CONCURRENT_REQUESTS_PER_DOMAIN = 16
+
+DOWNLOAD_TIMEOUT = 20
+DOWNLOAD_MAXSIZE = 5000000
+
+CONCURRENT_REQUESTS_PER_DOMAIN = 20
 #CONCURRENT_REQUESTS_PER_IP = 16
 
-# Disable cookies (enabled by default)
-#COOKIES_ENABLED = False
+DNSCACHE_SIZE = 500000
+
+REACTOR_THREADPOOL_MAXSIZE = 24
+
+DEPTH_PRIORITY = 1
+
+COOKIES_ENABLED = False
+
+RETRY_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
