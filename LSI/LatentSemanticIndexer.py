@@ -37,12 +37,16 @@ from scipy.sparse.linalg import svds
 
 class LatentSemanticIndexer:
 
-    def __init__(self, path_to_td_matrix, searching):
+    def __init__(self, path_to_td_matrix, path_to_inverted_index, path_to_save_ranking_matricies,
+                 path_to_filename2url_mapping, path_to_crawled_files, searching):
         """
         A ranker that ranks documents by their cosine similarity after transforming the document into a representation
         using Singular Value Decomposition. Queries are likewise transformed into this semantic space and their vectors
         compared to that of each document.
         :param path_to_td_matrix: the path to the Term-Document matrix needed for Latent Semantic Indexing.
+        :param path_to_inverted_index: the path to the inverted index mapping terms to documents they occur in.
+        :param path_to_save_ranking_matricies: the path to save / load the ranking matrices
+        :param path_to_filename2url_mapping: path to filename2url mapping
         :param searching: True if the directory of documents is being queried for a document. If this is true,
                           singular value decomposition will not be performed and the matrix will be loaded from disk.
                           The loaded matrices will then be used to rank and retreive documents. If it is false, then
@@ -54,8 +58,14 @@ class LatentSemanticIndexer:
         self.term2rowindex, self.filename2colindex, self.vocab, self.filenames, self.term_document_matrix = \
             TDMatCreator(create=False).load_objects(path_to_td_matrix)
 
+        print("----> Is loaded matrix sparse? ", sparse.issparse(self.term_document_matrix))
+
+        with open(path_to_inverted_index, "rb") as f:
+            self.inverted_index, self.file_count = pickle.load(f)
+            print("----> No. Files to Process: ", self.file_count)
+
         # The rank to use to approximate the Term-Document matrix
-        self.rank = 8
+        self.rank = 70
 
         if not searching:
 
@@ -63,7 +73,7 @@ class LatentSemanticIndexer:
             self.term_matrix_k, self.singular_values_k, self.document_matrix_k = self.create_ranker()
 
             # Save the matrices
-            self.save_ranker_matrices()
+            self.save_ranker_matrices(path=path_to_save_ranking_matricies)
 
         if searching:
 
@@ -73,10 +83,17 @@ class LatentSemanticIndexer:
             # Turn the filename2index mapping into an index2filename mapping
             self.index2filename = {val: key for key, val in self.filename2colindex.items()}
 
-            # Load the rank-k versions of: term matrix, singular values and document matrix
-            self.term_matrix_k, self.singular_values_k, self.document_matrix_k = self.load_ranker_matrices()
+            # Mapping from filenames to URLs
+            with open(path_to_filename2url_mapping, "rb") as f:
+                self.filenames2urls = pickle.load(f)
 
-    def save_ranker_matrices(self, path="LSI/SVD/"):
+            # Load the rank-k versions of: term matrix, singular values and document matrix
+            self.term_matrix_k, self.singular_values_k, self.document_matrix_k = \
+                self.load_ranker_matrices(path=path_to_save_ranking_matricies)
+
+            self.html_dir_path = path_to_crawled_files
+
+    def save_ranker_matrices(self, path=""):
         """
         Saves the ranker matrices at the specified location.
         :param path: the location to save the matrices at.
@@ -93,7 +110,7 @@ class LatentSemanticIndexer:
         with open(path + "document_matrix_k=" + str(self.rank) + ".npy", "wb") as f:
             np.save(f, self.document_matrix_k)
 
-    def load_ranker_matrices(self, path="LSI/SVD/"):
+    def load_ranker_matrices(self, path=""):
         """
         Loads the ranker matrices at the specified location.
         :param path: the location to save the matrices at.
@@ -129,24 +146,6 @@ class LatentSemanticIndexer:
         # Create the rank-k approximation
         #tm_k, sv_k, dm_k = self.rank_approximate(term_matrix, singular_values, document_matrix, rank=self.rank)
 
-        #print("Working Way: ")
-
-        #print("Shapes: ")
-        #print(tm_k.shape, sv_k.shape, dm_k.shape)
-        #print("Doc Vecs: ")
-        #print(dm_k[0:10, :])
-
-        #print()
-
-        #print("Sparse Way: ")
-
-        #print("Shapes: ")
-        #print(tm_k_c.shape, sv_k_c.shape, dm_k_c.shape)
-        #print("Doc Vecs: ")
-        #print(dm_k_c[0:10, :])
-
-        #input()
-
         return tm_k_c, sv_k_c, dm_k_c
 
     def rank_approximate(self, term_matrix, singular_values, document_matrix, rank=100):
@@ -170,18 +169,18 @@ class LatentSemanticIndexer:
 
         return tm_k, sv_k, dm_k
 
-    def decompose_matrix_truncated(self, td_mat):
+    def decompose_matrix_truncated(self, sparse_td_mat):
         """
         Performs singular value decomposition on the term-document matrix (or any given matrix).
         :param td_mat: the term document matrix to decompose.
         :return: term matrix (U), singular values (S), document matrix (V) such that td_mat = US(V.transpose)
         """
-        sparse_td_mat = sparse.csc_matrix(td_mat.astype(float))
+        #sparse_td_mat = sparse.csc_matrix(td_mat.astype(float))
 
         # Use numpy to perform the singular value decomposition
         term_matrix, singular_vals, doc_matrix = svds(sparse_td_mat, k=self.rank)
 
-        print(term_matrix.shape, " ", singular_vals.shape, " ", doc_matrix.shape)
+        #print(term_matrix.shape, " ", singular_vals.shape, " ", doc_matrix.shape)
         #input()
 
         # The sparse SVD gives back V_t but we just want V
@@ -242,6 +241,18 @@ class LatentSemanticIndexer:
         # Parse the query into a list of words
         query = self.parser.parse_query(query)
 
+        # Print information about the query
+        print("====> QUERY ANALYSIS <====")
+        print("----> Are query terms indexed?")
+        for word in query:
+            if word in self.vocab:
+                print("--> ", word, " : ", "YES")
+            else:
+                print("--> ", word, " : ", "YES")
+
+        # Find the list of files which contain these query terms
+        allowed_filenames = self.check_index(query)
+
         # Turn the query into a vector
         query_vec, query_count = self.query2vec(query)
 
@@ -252,11 +263,22 @@ class LatentSemanticIndexer:
         # Calculate the new query vector in the k-dimensional space
         query_vec = self.calculate_new_query_vec(query_vec)
 
+        print("Ranking document indicies...")
+
         # Compare the query vector to every document to rank them
         ranked_doc_indices = self.rank_documents(query_vec)
 
+        print("Pruning the ranked files...")
+
+        # Only keep files that the words actually occur in
+        pruned_ranked_indices = self.prune_ranking(ranked_doc_indices, allowed_filenames)
+
+        print("Changing indicies to files including parsing...")
+
         # Turn the ranked document indicies into actual file information
-        files = self.ranked_indices2files(ranked_doc_indices)
+        files = self.ranked_indices2files(pruned_ranked_indices)
+
+        print("Adding URLs to parsed results...")
 
         # Add URLs to the search results
         files = self.add_urls(files)
@@ -267,19 +289,54 @@ class LatentSemanticIndexer:
 
         return files
 
+    def prune_ranking(self, ranked_indices, allowed_filenames):
+        """
+        Prunes the ranking so that only files which actually contain the terms are kept.
+        :param ranked_indices: the ranked indices of files as a list
+        :param allowed_filenames: a set of the filenames which contain terms from the search query
+        :return: the ranked indices excluding files that don't contain any of the search terms.
+        """
+        # Maximum number of returned files is 100
+        max_files = 100
+
+        final_ranking = []
+        for ranked_i in ranked_indices:
+            fname = self.index2filename[ranked_i]
+
+            if fname in allowed_filenames and len(final_ranking) < max_files:
+                final_ranking.append(ranked_i)
+
+        return final_ranking
+
+    def check_index(self, query):
+        """
+        Takes the query as a list of words and returns the list of filenames that contain the words from that query.
+        :param query: the search query
+        :return: list of files containing one or more query terms
+        """
+        allowed_filenames = set()
+
+        for word in query:
+
+            files_word_occurs_in = self.inverted_index[word]
+
+            for fname, count in files_word_occurs_in:
+                if count > 1:
+                    allowed_filenames.add(fname)
+
+        return allowed_filenames
+
     def add_urls(self, files):
         """
         Adds URLs to the search results.
         :param files: the files to add URLs to.
         :return: the file dicts with URLs.
         """
-        with open("LSI/filename2url.pkl", "rb") as f:
-            filename2url = pickle.load(f)
 
         new_files = []
         for f in files:
             fname = f["filename"]
-            url = filename2url[fname]
+            url = self.filenames2urls[fname]
             f["url"] = url
             new_files.append(f)
 
@@ -330,11 +387,6 @@ class LatentSemanticIndexer:
         # Dot the result of the previous operation with the inverted singular values
         q_k = np.dot(q_k, inverse_singular_values)
 
-        #print(self.term_matrix_k.shape, " ", self.singular_values_k.shape, " ", q_k.shape)
-        #print(q_k)
-        #print(self.document_matrix_k)
-        #input()
-
         return q_k
 
     def rank_documents(self, query_vec):
@@ -367,7 +419,7 @@ class LatentSemanticIndexer:
             similarities.append((similarity, i))
 
         # Sort the documents by greatest similarity
-        similarities = sorted(similarities, key=itemgetter(0))
+        similarities = [x for x in reversed(sorted(similarities, key=itemgetter(0)))]
 
         # Return the document indices
         indices = [x for _, x in similarities]
@@ -393,7 +445,7 @@ class LatentSemanticIndexer:
 
         # Parse each file
         for filename in filenames:
-            path = "LSI/crawler/crawler/pages/" + filename
+            path = self.html_dir_path + filename
             parsed_html = self.parser.parse(path)
             parsed_files.append(parsed_html)
 
@@ -407,5 +459,35 @@ if __name__ == '__main__':
         lsi = LatentSemanticIndexer("LSI/Term_Document_Matrix/", False)
         print("----> Decomposed the Term-Document matrix, time taken: ", time.time() - t, " seconds")
     else:
-        lsi = LatentSemanticIndexer("LSI/Term_Document_Matrix/", True)
-        lsi.search("career prospects")
+
+        # The base directory of the project on the system
+        BASE_DIR = "/Users/edcollins/Documents/CS/4thYear/IRDM/CW/Code/"
+
+        # Where to save the inverted index
+        PATH_TO_SAVE_INVERTED_INDEX = BASE_DIR + "LSI/"
+
+        # The path to the web pages stored in JSON format
+        PATH_TO_STORED_WEBPAGES_AS_JSON = BASE_DIR + "LSI/pages/"
+
+        # The full path to the inverted index
+        FULL_PATH_TO_SAVED_INVERTED_INDEX = PATH_TO_SAVE_INVERTED_INDEX + "inverted_index.pkl"
+
+        # The location in which to save the term-document matrix
+        PATH_TO_SAVE_TERM_DOCUMENT_MATRIX = BASE_DIR + "LSI/Term_Document_Matrix/"
+
+        # Path to the mapping from filenames to URLs
+        PATH_TO_FILENAME2URL_MAPPING = BASE_DIR + "LSI/filename2url.pkl"
+
+        # The path to save the ranking matricies
+        PATH_TO_SAVE_RANKING_MATRICIES = BASE_DIR + "LSI/SVD/"
+
+        lsi = LatentSemanticIndexer(
+            path_to_td_matrix=PATH_TO_SAVE_TERM_DOCUMENT_MATRIX,
+            path_to_inverted_index=FULL_PATH_TO_SAVED_INVERTED_INDEX,
+            path_to_save_ranking_matricies=PATH_TO_SAVE_RANKING_MATRICIES,
+            path_to_filename2url_mapping=PATH_TO_FILENAME2URL_MAPPING,
+            path_to_crawled_files=PATH_TO_STORED_WEBPAGES_AS_JSON,
+            searching=True
+        )
+
+        lsi.search("machine learning")

@@ -1,0 +1,8 @@
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi19_statistical_natural_language_processing/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi09_applied_machine_learning/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi21_introduction_to_machine_learning/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi08_graphical_models/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi14_machine_vision/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi15_information_retrieval_data_mining/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi18_probabilistic_and_unsupervised_learning/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi17_affective_computing_and_human_robot_interaction/

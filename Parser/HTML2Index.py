@@ -49,10 +49,9 @@ class HTML2Index:
         # Sanity check
         assert(type(html_dir) is str)
 
-        if html_dir.endswith("/"):
-            html_dir = html_dir.strip("/")
-
         self.html_directory = html_dir
+
+        self.num_files = len([x for x in os.listdir(html_dir) if x.endswith(".json")])
 
         # A parser object to process words
         self.parser = HTMLParser()
@@ -63,6 +62,9 @@ class HTML2Index:
         # A mapping from filenames to URLs
         self.filenames2urls = {}
 
+        # The number of files a term must occur in to be included in the inverted index
+        self.min_occurences = 5
+
         self.index = self.build_index()
 
     def get_index(self):
@@ -71,6 +73,26 @@ class HTML2Index:
         :return: the inverted index constructed by build_index()
         """
         return self.index
+
+    def has_numbers(self, string):
+        """
+        Returns true if "string" has any numbers.
+        :param string: string to check for numbers.
+        :return: true if there are numbers in "string".
+        """
+        return any(char.isdigit() for char in string)
+
+    def is_number(self, string):
+        """
+        Returns true if "string" is a number.
+        :param string: string to check for being a number.
+        :return: true if string is a number.
+        """
+        try:
+            float(string)
+            return True
+        except ValueError:
+            return False
 
     def save_index(self, path=""):
         """
@@ -102,10 +124,10 @@ class HTML2Index:
 
             if filename.endswith(".json"):
 
-                print("Processing File: ", count, end="\r")
+                print("Processing File: ", count, " / ", self.num_files, end="\r")
 
                 # Read the JSON file that contains the HTML
-                with open(self.html_directory + "/" + filename, "r") as f:
+                with open(self.html_directory + filename, "r") as f:
                     html_dict = json.load(f)
 
                 # Extract the HTML
@@ -135,7 +157,8 @@ class HTML2Index:
 
     def prune_index(self, index):
         """
-        Removes keys and values that are irrelevant by being more than 3 standard deviations from the average length.
+        Removes keys and values that are irrelevant by being more than 3 standard deviations from the average length,
+        and ignores terms that only appear in a single document.
         :param index: the index to prune
         :return: the pruned index
         """
@@ -155,7 +178,7 @@ class HTML2Index:
         new_index = defaultdict(list)
 
         for key, val in index.items():
-            if len(key) < max_len and len(val) > 1:
+            if len(key) < max_len and len(val) > self.min_occurences and not is_number(key):
                 new_index[key] = val
 
         return new_index
@@ -224,8 +247,19 @@ class HTML2Index:
 
 if __name__ == '__main__':
 
+    def has_numbers(string):
+        return (any(char.isdigit() for char in string))
+
+
+    def is_number(string):
+        try:
+            float(string)
+            return True
+        except ValueError:
+            return False
+
     t = time.time()
-    index_creator = HTML2Index("LSI/crawler/crawler/pages")
+    index_creator = HTML2Index("LSI/pages/")
     print("\nTook: ", time.time() - t, " seconds to create the index")
 
     inverted_index = index_creator.get_index()
@@ -233,7 +267,29 @@ if __name__ == '__main__':
     key_count = len(inverted_index.keys())
     print("NUMBER OF KEYS: ", key_count)
     #input()
-    #for key, val in inverted_index.items():
-    #    if len(val) > 3:
-    #        print("KEY: ", key)
-    #        print("VAL: ", val)
+    num_count = 0
+    pure_num_count = 0
+    short_count = 0
+    num_docs = 3
+    for key, val in inverted_index.items():
+        if has_numbers(key):
+            num_count += 1
+        if is_number(key):
+            pure_num_count += 1
+        if len(val) <= num_docs:
+            short_count += 1
+
+    print("Items with numbers: ", num_count)
+    print("Items that are only numbers: ", pure_num_count)
+    print("Items appearing in ", num_docs, " or less documents: ", short_count)
+
+    input()
+
+    from operator import itemgetter
+    key_val_list = sorted([(key, len(val)) for key, val in inverted_index.items()], key=itemgetter(1))
+    print("\n\n\n\n\n\n\n\n\n\n\n")
+
+    for item in key_val_list:
+        print(item)
+
+    print("\n\n\n\n\n\n\n\n\n\n\n")

@@ -1,0 +1,10 @@
+http://visual.cs.ucl.ac.uk/pubs/odLocalization/od_localization_poster.pdf
+http://imageanalysis.cs.ucl.ac.uk/documents/JTAA_SPIE2017.pdf
+http://www0.cs.ucl.ac.uk/staff/Z.Wojna/mres-thesis-deep-learning.pdf
+http://imageanalysis.cs.ucl.ac.uk/documents/JAndrews-ADWorkshop-ICML.pdf
+http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Applications_files/deepgo.pdf
+http://visual.cs.ucl.ac.uk/pubs/interactiveMachineTeaching/interactiveMachineTeachingCVPR2015.pdf
+http://www0.cs.ucl.ac.uk/staff/D.Worrall/harmonicNets/pdfs/worrallEtAl2017.pdf
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Publications_files/ddpg.pdf
+http://www0.cs.ucl.ac.uk/staff/m.herbster/pdaytalkssum11.pdf
+http://visual.cs.ucl.ac.uk/pubs/ROPDetection/worrall_rop_2016.pdf

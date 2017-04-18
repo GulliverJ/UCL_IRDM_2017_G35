@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/scipython/
+http://www.cs.ucl.ac.uk/scipython/lectures.html
+http://cmictig.cs.ucl.ac.uk/new-module-research-software-engineering-with-python
+http://www.cs.ucl.ac.uk/scipython/help.html
+http://www.cs.ucl.ac.uk/scipython/contact.html
+http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyPipe
+http://students.cs.ucl.ac.uk/schoolslab/projects/PY7/
+http://www.cs.ucl.ac.uk/scipython/projects.html
+http://www.cs.ucl.ac.uk/fileadmin/engduino/doc/Engduinov2.1_DataVisualisation_Python.pdf
+http://students.cs.ucl.ac.uk/schoolslab/projects/PY2/texttomorse.html

@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi15_information_retrieval_data_mining/
+http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/m052_information_retrieval_and_data_mining/
+http://www0.cs.ucl.ac.uk/teaching/syllabi/2009-10/ug/m052.htm
+http://web4.cs.ucl.ac.uk/staff/jun.wang/papers/slides-sigir09-pt.pdf
+http://www0.cs.ucl.ac.uk/staff/M.Verma/files/wsdm-final.pdf
+http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2010/11/01/riskmodel-tutorial/
+http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/
+http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2009/07/11/portfolio-theory/
+http://www0.cs.ucl.ac.uk/staff/G.Danezis/papers/popets-Danezis-ePIR.pdf
+http://www0.cs.ucl.ac.uk/staff/J.Groth/multicpir.pdf

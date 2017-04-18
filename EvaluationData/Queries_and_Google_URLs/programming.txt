@@ -1,0 +1,10 @@
+http://www0.cs.ucl.ac.uk/research/genprog/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/210p_introduction_to_programming/
+http://www0.cs.ucl.ac.uk/staff/w.langdon/ftp/papers/poli08_fieldguide.pdf
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/101p_principles_of_programming/
+http://www.cs.ucl.ac.uk/students/syllabus/msccs/gc27_programming_for_business_analytics/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m012_programming_mathematical_methods_for_machine_learning/
+http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/105p_robotics_programming/
+http://www.cs.ucl.ac.uk/teaching_learning/syllabus/msccs/gc01_introductory_programming/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/3011_functional_programming/
+http://www.cs.ucl.ac.uk/staff/p.bentley/KABHBECH1.pdf

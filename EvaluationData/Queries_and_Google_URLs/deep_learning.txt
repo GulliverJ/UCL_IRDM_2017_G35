@@ -1,0 +1,10 @@
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Resources_files/deep_rl.pdf
+http://www.cs.ucl.ac.uk/news/article/ucl-machine-learning-graduate-to-present-at-leading-deep-learning-conference/
+http://www.cs.ucl.ac.uk/current_students/syllabus/mscml/gi13_advanced_topics_in_machine_learning/
+http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/deep-ctr.pdf
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m050_advanced_topics_in_machine_learning/
+http://www0.cs.ucl.ac.uk/staff/T.Rocktaschel/
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Publications_files/ddpg.pdf
+http://cmictig.cs.ucl.ac.uk/about-menu/vacancies/deep-learning-for-signal-abnormality-detection
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/undergrad/compm092_advanced_deep_learning_and_reinforcement_learning/
+http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/dl.html

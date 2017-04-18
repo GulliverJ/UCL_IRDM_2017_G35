@@ -12,12 +12,15 @@ import numpy as np
 # For timing
 import time
 
+# For sparse martricies
+from scipy import sparse
+
 # =========================
 
 
 class TDMatCreator:
 
-    def __init__(self, inverted_index_path="", create=True):
+    def __init__(self, inverted_index_path="", filename2url_path="LSI/filename2url.pkl", create=True):
         """
         Creates a term-document matrix which has a row for every term in the vocabulary, and a column for every
         document. There is a 1 in each entry if that term occurs in that document.
@@ -38,7 +41,7 @@ class TDMatCreator:
             self.vocab = set()
 
             # Filename to URL mapping
-            self.filename2url = self.read_filename2url()
+            self.filename2url = self.read_filename2url(filename2url_path)
 
             # List of the filenames already seen
             self.filenames = set()
@@ -57,14 +60,14 @@ class TDMatCreator:
             # The term-document matrix
             self.term_document_matrix = self.create_TD_matrix()
 
-            print(np.shape(self.term_document_matrix))
+            print("----> The dimensions of the term-document matrix are: ", np.shape(self.term_document_matrix))
 
-    def read_filename2url(self):
+    def read_filename2url(self, path):
         """
         Reads filename2url file.
         :return: filename2url file.
         """
-        with open("LSI/filename2url.pkl", "rb") as f:
+        with open(path, "rb") as f:
             filename2url = pickle.load(f)
 
         return filename2url
@@ -240,8 +243,12 @@ class TDMatCreator:
         with open(path + "filenames.pkl", "wb") as f:
             pickle.dump(self.filenames, f)
 
-        # Finally save the TF matrix with numpy.save()
+        # Sparsify the TD-matrix
+        sparse_td_mat = sparse.csc_matrix(self.term_document_matrix.astype(float))
+
+        # Finally save the TF matrix with Scipy sparse save
         with open(path + "td_matrix.npy", "wb") as f:
+            #sparse.save_npz(f, sparse_td_mat)
             np.save(f, self.term_document_matrix)
 
     def load_objects(self, path=""):
@@ -268,6 +275,7 @@ class TDMatCreator:
 
         # Finally save the TF matrix with numpy.save()
         with open(path + "td_matrix.npy", "rb") as f:
+            #term_document_matrix = sparse.load_npz(f)
             term_document_matrix = np.load(f)
 
         return term2rowindex, filename2colindex, vocab, filenames, term_document_matrix

@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/news/article/ucl-students-learn-state-of-the-art-ai-in-deepmind-partnership/
+http://www.cs.ucl.ac.uk/computer_science_news/article/google-buys-uk-artificial-intelligence-start-up-deepmind/
+http://www0.cs.ucl.ac.uk/staff/d.silver/
+http://www.cs.ucl.ac.uk/current_students/syllabus/mscml/gi13_advanced_topics_in_machine_learning/
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Resources_files/deep_rl.pdf
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+http://www0.cs.ucl.ac.uk/people/T.Graepel
+http://visual.cs.ucl.ac.uk/pubs/rotopp/
+http://www0.cs.ucl.ac.uk/staff/d.silver/web/Publications_files/bafa.pdf
+http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Applications_files/deepgo.pdf
