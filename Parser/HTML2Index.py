@@ -259,11 +259,11 @@ if __name__ == '__main__':
             return False
 
     t = time.time()
-    index_creator = HTML2Index("LSI/pages/")
+    index_creator = HTML2Index("../data/pages/pages/")
     print("\nTook: ", time.time() - t, " seconds to create the index")
 
     inverted_index = index_creator.get_index()
-    index_creator.save_index("LSI/")
+    index_creator.save_index("../data/")
     key_count = len(inverted_index.keys())
     print("NUMBER OF KEYS: ", key_count)
     #input()
