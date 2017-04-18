@@ -1,18 +1,20 @@
-from HTML2Index import HTML2Index
 from sys import exit
 from collections import defaultdict
-
+import pickle
 
 class HTMLBoolean:
 
-    def __init__(self, index_creator, p):
+    def __init__(self, index, filenames, p):
         """
-        Create an object for boolean retrieval with a HTML2Index object.
-        :param index_creator: HTML2Index object.
+        Create an object for boolean retrieval with an inverted index and list of filenames.
+        :param index: an inverted index created by HTML2Index.
+        :param filenames: a list of filenames created by HTML2Index.
         :param p: parameter for the p-norm.
         """
-        self.inverted_index = index_creator.get_index()
-        self.filenames = index_creator.get_filenames()
+        #self.inverted_index = index_creator.get_index()
+        #self.filenames = index_creator.filenames2urls.keys()
+        self.inverted_index = index
+        self.filenames = filenames
         self.p = p
 
         self.term_to_files = defaultdict()
@@ -89,21 +91,24 @@ class HTMLBoolean:
             result: quote2.html ranks highest
         """
         query = input("Search for: ").lower().split()
-        weights = [float(x) for x in input("Enter term weights as space separated numbers: ").split()]
+        weights = [float(x) for x in input("Enter term weights as space separated numbers (Enter to skip): ").split()]
+        num_results = int(input("Number of results to return: "))
         if not query:
             exit()
         if len(weights) != len(query):
             print("Number of terms weights different to number of query terms -> Weighting all terms equally")
             weights = [1]*len(query)
-        print('at least one term found in:', self.basic_retrieval(query, 'OR'))
-        print('all terms found in:', self.basic_retrieval(query, 'AND'))
+        #print('at least one term found in:', self.basic_retrieval(query, 'OR'))
+        #print('all terms found in:', self.basic_retrieval(query, 'AND'))
+        print('at least one term found in', len(self.basic_retrieval(query, 'OR')), 'documents.')
+        print('all terms found in', len(self.basic_retrieval(query, 'AND')), 'documents.')
         print("-----------------------------------")
 
         or_scores = sorted(
             [(self.similarity(query, file, weights, 'OR'), file) for file in self.filenames],
             reverse=True)
         print("Score: filename [OR query]")
-        for (score, file) in or_scores:
+        for (score, file) in or_scores[:num_results]:
             print(str(score) + ": " + file)
         print("-----------------------------------")
 
@@ -111,7 +116,7 @@ class HTMLBoolean:
             [(self.similarity(query, file, weights, 'AND'), file) for file in self.filenames],
             reverse=True)
         print("Score: filename [AND query]")
-        for (score, file) in and_scores:
+        for (score, file) in and_scores[:num_results]:
             print(str(score) + ": " + file)
 
 
@@ -119,11 +124,20 @@ class HTMLBoolean:
 
 if __name__ == '__main__':
 
-    index_creator = HTML2Index("htmldocs/")
+    index = None
+    filenames = None
+
+    print("Loading index and filenames from file.")
+    with open("filename2url.pkl", "rb") as f:
+        filename2url = pickle.load(f)
+        filenames = filename2url.keys()
+    with open("inverted_index.pkl", "rb") as f:
+        load = pickle.load(f)
+        index = load[0]
 
     p = 2
     print("Creating model with p-norm =", p)
-    model = HTMLBoolean(index_creator, p)
+    model = HTMLBoolean(index, filenames, p)
     print("Model created.")
     print("-----------------------------------")
 

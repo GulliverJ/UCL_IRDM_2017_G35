@@ -27,7 +27,7 @@ import numpy as np
 # =========================
 
 
-class HTML2Index:
+class HTML2IndexExtended:
 
     def __init__(self, html_dir):
         """
@@ -63,6 +63,9 @@ class HTML2Index:
         # A mapping from filenames to URLs
         self.filenames2urls = {}
 
+        # For each file, store the counts for each term
+        self.word_counts = defaultdict()
+
         self.index = self.build_index()
 
     def get_index(self):
@@ -78,11 +81,15 @@ class HTML2Index:
         """
         # Save the inverted index
         to_save = (self.index, self.file_count)
-        with open(path + "inverted_index.pkl", "wb") as f:
+        with open(path + "inverted_index_ext.pkl", "wb") as f:
             pickle.dump(to_save, f)
 
+        # Save the word counts
+        with open(path + "word_counts_ext.pkl", "wb") as f:
+            pickle.dump(self.word_counts, f)
+
         # Save the filename to url mapping
-        with open(path + "filename2url.pkl", "wb") as f:
+        with open(path + "filename2url_ext.pkl", "wb") as f:
             pickle.dump(self.filenames2urls, f)
 
     def build_index(self):
@@ -119,6 +126,9 @@ class HTML2Index:
 
                 # Turn the raw HTML string into a dictionary which is a bag of words representation of that file.
                 html_bag_of_words = self.process_html_file(html)
+
+                # Record the word counts for each file
+                self.word_counts[filename] = html_bag_of_words
 
                 # Merge the existing inverted index with the information just gathered from this HTML file
                 inverted_index = self.merge_index(inverted_index, html_bag_of_words, filename)
@@ -227,5 +237,5 @@ class HTML2Index:
 
 if __name__ == '__main__':
 
-    index_creator = HTML2Index("pages_good/")
+    index_creator = HTML2IndexExtended("pages_good/")
     index_creator.save_index()

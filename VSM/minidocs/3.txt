@@ -1,1 +1,0 @@
-dog, fox, pig, goat, are types of animal

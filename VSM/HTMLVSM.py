@@ -1,23 +1,28 @@
-from HTML2Index import HTML2Index
 from math import log, sqrt
 from collections import defaultdict
 from sys import exit
+import pickle
 
 
 class HTMLVSM:
 
-    def __init__(self, index_creator, variant, pivot=0.0, slope=1.0):
+    def __init__(self, index, word_counts, filenames, variant, pivot=0.0, slope=1.0):
         """
-        Create a vector space model for use with a HTML2Index object.
-        :param index_creator: HTML2Index object.
+        Create a vector space model.
+        :param index: an inverted index created by HTML2Index.
+        :param word_counts: a dict of word_counts for each file.
+        :param filenames: a list of filenames created by HTML2Index.
         :param variant: String using the qqq.ddd notation.
+        :param pivot: pivot parameter, unused unless specified.
+        :param slope: slope parameter, unused unless specified.
         """
 
         # References to variables of the HTML2Index object
-        self.inverted_index = index_creator.get_index()
-        self.word_counts = index_creator.get_word_counts()
-        self.file_count = index_creator.get_file_count()
-        self.filenames = index_creator.get_filenames()
+        self.inverted_index = index
+        self.word_counts = word_counts
+        self.filenames = filenames
+        self.file_count = len(filenames)
+
 
         # Parse the variant string
         self.variant = list(variant)
@@ -129,20 +134,34 @@ class HTMLVSM:
         Sort and print the scores for all files.
         """
         query = input("Search for: ").lower().split()
+        num_results = int(input("Number of results to return: "))
         if not query:
             exit()
         scores = sorted(
             [(self.cos_sim(query, file), file) for file in self.filenames],
             reverse=True)
         print("Score: filename")
-        for (score, file) in scores:
+        for (score, file) in scores[:num_results]:
             print(str(score) + ": " + file)
 
 # ================ MAIN ================
 
 if __name__ == '__main__':
 
-    index_creator = HTML2Index("htmldocs/")
+    #index_creator = HTML2Index("htmldocs/")
+    index = None
+    word_counts = None
+    filenames = None
+
+    print("Loading index and filenames from file.")
+    with open("filename2url_ext.pkl", "rb") as f:
+        filename2url = pickle.load(f)
+        filenames = filename2url.keys()
+    with open("inverted_index_ext.pkl", "rb") as f:
+        load = pickle.load(f)
+        index = load[0]
+    with open("word_counts_ext.pkl", "rb") as f:
+        word_counts = pickle.load(f)
 
     # Each variant uses the notation qqq.ddd
     # Term weighting:
@@ -163,7 +182,7 @@ if __name__ == '__main__':
 
     # Create model
     print("Creating model.")
-    model = HTMLVSM(index_creator, variant)
+    model = HTMLVSM(index, word_counts, filenames, variant)
     print(variant, "model created.")
 
     while True:
