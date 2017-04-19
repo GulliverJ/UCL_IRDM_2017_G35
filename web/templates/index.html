@@ -61,6 +61,26 @@
     padding-right: 8px;
   }
 
+  h3 {
+    color: #222;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-bottom: 1px solid #888;
+  }
+
+  .col-left {
+    width: 50%;
+    float: left;
+  }
+
+  .col-right {
+    width: 50%;
+    float: right;
+  }
+
   .search {
     width: 100%;
     border-bottom: 1px solid #ddd;
@@ -84,30 +104,72 @@
     padding: 12px;
     text-align: left;
     display: block;
+    margin-left: 8px;
+    margin-right: 8px;
     border-bottom: 1px solid #eee;
   }
+
+  p.stats {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+    padding-left: 24px;
+    display: inline;
+  }
+
 </style>
 <body>
   <div class="search">
     <form action="results">
       <select name="ranking">
-        <option value="pagerank">PageRank</option>
-        <option value="hits">HITS</option>
-        <option value="vector">Vector-space</option>
-        <option value="learned">Learned</option>
+        <option {% if request.args.get("ranking") == "pagerank" %} selected {% endif %} value="pagerank">PageRank</option>
+        <option {% if request.args.get("ranking") == "hits" %} selected {% endif %} value="hits">HITS</option>
+        <option {% if request.args.get("ranking") == "vsm" %} selected {% endif %} value="vsm">Vector-space</option>
+        <option {% if request.args.get("ranking") == "lsi" %} selected {% endif %} value="lsi">Learned</option>
       </select>
-      <input class="searchbox" name="query" type="text"></input>
+      <input class="searchbox" name="query" type="text" {% if request.args.get("query") %} value='{{request.args.get("query")}}' {% endif %}></input>
       <button type="submit">Submit</button>
+      {% if results %}
+        <p class="stats">Retrieved {{ results['num'] }} pages in {{ results['time'] }} seconds</p>
+      {% endif %}
     </form>
+
   </div>
+
   <div class="results">
-    {% for result in results %}
-    <div class="entry">
-      <h2>{{loop.index}}</h2>
-      <h1><a href="{{result['href']}}">{{result['title']}}</a></h1>
-      <p>{{result['blurb']}}</p>
-    </div>
-    {% endfor %}
+    {% if request.args.get("ranking") == "hits" %}
+
+      <div class="col-left">
+        <h3>Hubs</h3>
+        {% for result in results['hubs'] %}
+          <div class="entry">
+            <h2>{{loop.index}}</h2>
+            <h1><a href="{{result['url']}}">{{result['title']}}</a></h1>
+            <p>{{result['blurb']}}</p>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="col-right">
+        <h3>Authorities</h3>
+        {% for result in results['authorities'] %}
+          <div class="entry">
+            <h2>{{loop.index}}</h2>
+            <h1><a href="{{result['url']}}">{{result['title']}}</a></h1>
+            <p>{{result['blurb']}}</p>
+          </div>
+        {% endfor %}
+      </div>
+
+    {% else %}
+      {% for result in results['items'] %}
+        <div class="entry">
+          <h2>{{loop.index}}</h2>
+          <h1><a href="{{result['url']}}">{{result['title']}}</a></h1>
+          <p>{{result['blurb']}}</p>
+        </div>
+      {% endfor %}
+    {% endif %}
   </div>
 </body>
 </html>
