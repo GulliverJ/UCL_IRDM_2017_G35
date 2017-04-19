@@ -31,7 +31,7 @@ def results():
 	if(request.args['ranking'] == 'pagerank'):
 		## TODO get ranking from pagerank search method
 		results['num'] = len(ranking)
-		results = translate_ranking(ranking)
+		results['items'] = translate_ranking(ranking)
 
 	elif(request.args['ranking'] == 'hits'):
 		hubs, auths = hits.search(request.args['query'])

@@ -136,6 +136,7 @@
 
   </div>
 
+  {% if results %}
   <div class="results">
     {% if request.args.get("ranking") == "hits" %}
 
@@ -171,5 +172,6 @@
       {% endfor %}
     {% endif %}
   </div>
+  {% endif %}
 </body>
 </html>
