@@ -108,10 +108,10 @@ if __name__ == '__main__':
     filenames = None
 
     print("Loading index and filenames from file.")
-    with open(INVERTED_INDEX, "rb") as f:
+    with open(FILENAMES2URL, "rb") as f:
         filename2url = pickle.load(f)
         filenames = filename2url.keys()
-    with open(FILENAMES2URL, "rb") as f:
+    with open(INVERTED_INDEX, "rb") as f:
         load = pickle.load(f)
         index = load[0]
 
