@@ -2,6 +2,7 @@ from flask import Flask
 from flask import request
 from flask import render_template
 import hits
+from rankers.VSMRanker import VSMRanker
 import pickle
 import time
 
@@ -44,7 +45,7 @@ def results():
 
 	elif(request.args['ranking'] == 'vsm'):
 		# TODO vsm ranking, e.g.
-		# ranking = vsm.search(request.args['query'])
+		ranking = vsm_model.search(request.args['query'])
 		results['num'] = len(ranking)
 		results['items'] = translate_ranking(ranking)
 
@@ -68,5 +69,20 @@ def translate_ranking(ranking):
 	return listings[0:20]
 
 if __name__ == "__main__":
-	listing_conversion = pickle.load( open( "./data/filenames2results.pkl", "rb"))
-	app.run()
+
+    # HITS
+    listing_conversion = pickle.load( open( "./data/filenames2results.pkl", "rb"))
+
+    # VSM
+    with open("./data/filename2url_vsm.pkl", "rb") as f:
+        load = pickle.load(f)
+        vsm_filenames = load.keys()
+    with open("./data/inverted_index_vsm.pkl", "rb") as f:
+        load = pickle.load(f)
+        vsm_index = load[0]
+    with open("./data/word_counts_vsm.pkl", "rb") as f:
+        vsm_word_counts = pickle.load(f)
+    variant = "ntc.ltc"
+    vsm_model = VSMRanker(vsm_index, vsm_word_counts, vsm_filenames, variant)
+
+    app.run()
