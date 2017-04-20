@@ -1,0 +1,10 @@
+https://cmiclab.cs.ucl.ac.uk/help/integration/google.md
+http://oakham.cs.ucl.ac.uk/pipermail/nets-seminars/2014-December/000321.html
+http://oakham.cs.ucl.ac.uk/pipermail/nets-seminars/2014-December/000322.html
+http://mobblog.cs.ucl.ac.uk/2008/02/04/social-graph-api-by-google/
+https://cmiclab.cs.ucl.ac.uk/help/install/google-protobuf.md
+http://mobblog.cs.ucl.ac.uk/2008/09/02/google-map-maker/
+http://mobblog.cs.ucl.ac.uk/2006/12/15/what-can-you-find-at-google-patent-search/
+http://oakham.cs.ucl.ac.uk/pipermail/nets-seminars/2015-November/000329.html
+https://cmiclab.cs.ucl.ac.uk/help/install/google_cloud_platform/index.md
+http://www.cs.ucl.ac.uk/archive/article/ucl-receives-google-grant-towards-automated-fact-checking/

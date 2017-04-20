@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/cs_people/K.Bryson.html/
+http://bioinfadmin.cs.ucl.ac.uk:8080/JSPWiki/Wiki.jsp?page=Journal%20Session&skin=raw
+http://bioinfadmin.cs.ucl.ac.uk:8080/JSPWiki/Wiki.jsp?page=WeeklySchedule&skin=raw
+http://www.cs.ucl.ac.uk/current_students/msc_cs/
+http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi10_bioinformatics/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m058_bioinformatics/
+http://www.cs.ucl.ac.uk/current_students/syllabus/mscml/gi10_bioinformatics/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/201p_networking_and_concurrency/
+http://www.cs.ucl.ac.uk/about_us/who_does_what_in_the_department/
+http://mitochondria.cs.ucl.ac.uk/cfmr/author/g-szabadkaiucl-ac-uk/page/2/

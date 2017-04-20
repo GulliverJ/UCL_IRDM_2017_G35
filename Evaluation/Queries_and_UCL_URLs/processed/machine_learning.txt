@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/degrees/msc_csml/
+http://www.cs.ucl.ac.uk/degrees/msc_ml/
+http://www.cs.ucl.ac.uk/prospective_students/msc_ml/
+http://www.cs.ucl.ac.uk/prospective_students/msc_csml/
+http://www.cs.ucl.ac.uk/current_students/msc_ml/
+http://www.cs.ucl.ac.uk/prospective_students/mres_csml/
+http://www.cs.ucl.ac.uk/current_students/msc_csml/
+http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi09_applied_machine_learning/
+http://www.cs.ucl.ac.uk/current_students/syllabus/mscml/gi13_advanced_topics_in_machine_learning/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m090_applied_machine_learning/

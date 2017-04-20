@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/undergrad/compm092_advanced_deep_learning_and_reinforcement_learning/
+http://cmictig.cs.ucl.ac.uk/about-menu/vacancies/deep-learning-for-signal-abnormality-detection
+http://cmictig.cs.ucl.ac.uk/real-time-segmentation-of-non-rigid-surgical-tools-based-on-deep-learning-and-tracking
+http://cmictig.cs.ucl.ac.uk/about-menu/vacancies?format=feed&type=rss
+http://compass.cs.ucl.ac.uk/
+http://cmictig.cs.ucl.ac.uk/about-menu/vacancies?format=feed&type=atom
+http://geometry.cs.ucl.ac.uk/averkiou/
+http://visual.cs.ucl.ac.uk/pubs/ROPDetection/index.html
+http://cmictig.cs.ucl.ac.uk/
+http://mr.cs.ucl.ac.uk/

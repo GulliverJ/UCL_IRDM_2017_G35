@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi01_supervised_learning/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi01_supervised_learning/
+http://www.cs.ucl.ac.uk/degrees/msc_csml/
+http://www.cs.ucl.ac.uk/degrees/msc_ml/
+http://www.cs.ucl.ac.uk/prospective_students/mres_csml/
+http://www.cs.ucl.ac.uk/mobile/prospective_students/mres_csml/
+http://www.cs.ucl.ac.uk/degrees/msc_rc/
+http://www.cs.ucl.ac.uk/mobile/degrees/msc_csml/
+http://www.cs.ucl.ac.uk/prospective_students/msc_csml/
+http://www.cs.ucl.ac.uk/current_students/msc_ds/

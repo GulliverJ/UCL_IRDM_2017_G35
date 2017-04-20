@@ -1,0 +1,7 @@
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m055_supervised_learning/
+http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi01_supervised_learning/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m050_advanced_topics_in_machine_learning/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/compgi/compgi01_supervised_learning/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/undergrad/compm050_advanced_topics_in_machine_learning/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m082_affective_computing_and_human_robot_interaction/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/undergrad/compm082_affective_computing_and_human_robot_interaction/

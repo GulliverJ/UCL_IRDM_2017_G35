@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/students/syllabus/ug/
+http://www.cs.ucl.ac.uk/current_students/syllabus/ug/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/102p_theory_i/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/206p_mathematics_and_statistics/
+http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi01_supervised_learning/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/3035_networked_systems/
+http://www.cs.ucl.ac.uk/current_students/undergrad_inf/assessment/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/104p_theory_ii/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/2012_directed_reading/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m090_applied_machine_learning/

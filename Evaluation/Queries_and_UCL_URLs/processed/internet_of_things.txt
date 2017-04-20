@@ -1,0 +1,10 @@
+http://blockchain.cs.ucl.ac.uk/2017/04/blockchian-based-architectures-for-the-internet-of-things-a-survey/
+http://sec.cs.ucl.ac.uk/ace_csr/seminars_calendar/seminar_details/article/a-changing-landscape-securing-the-internet-of-things-iot/
+http://blockchain.cs.ucl.ac.uk/author/christel/page/5/
+http://blockchain.cs.ucl.ac.uk/category/research-papers/page/5/
+http://blockchain.cs.ucl.ac.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblockchain.cs.ucl.ac.uk%2F2017%2F04%2Fblockchian-based-architectures-for-the-internet-of-things-a-survey%2F
+http://www.cs.ucl.ac.uk/archive/2013/
+http://www.cs.ucl.ac.uk/mobile/archive/2013/
+http://blockchain.cs.ucl.ac.uk/about-blockchain/
+http://www.cs.ucl.ac.uk/industry_outreach/entrepreneurship/
+http://www.cs.ucl.ac.uk/mobile/industry_outreach/entrepreneurship/

@@ -1,0 +1,10 @@
+http://veiv.cs.ucl.ac.uk/component/tags/tag/263-human-computer-interaction
+http://www.cs.ucl.ac.uk/current_students/syllabus/undergrad/203p_software_engineering_and_human_computer_interaction/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/203p_software_engineering_and_human_computer_interaction/
+http://publication-data-management.cs.ucl.ac.uk/index.php?venue=The%20International%20Conference%20on%20Human%20Computer%20Interaction
+http://www-mice.cs.ucl.ac.uk/multimedia/projects/emmanate/publications.html
+http://www.cs.ucl.ac.uk/home/
+http://www-mice.cs.ucl.ac.uk/multimedia/projects/meccano/deliverables/r3.2/meccano-r3.2a.html
+http://www.cs.ucl.ac.uk/degrees/
+http://www.cs.ucl.ac.uk/contacts/
+http://veiv.cs.ucl.ac.uk/component/tags/tag/263-human-computer-interaction?format=feed&type=atom

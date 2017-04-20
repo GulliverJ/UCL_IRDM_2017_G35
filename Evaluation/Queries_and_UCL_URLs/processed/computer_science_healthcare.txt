@@ -1,0 +1,10 @@
+http://hcs.cs.ucl.ac.uk/overview/
+http://www.cs.ucl.ac.uk/mobile/event_details/
+http://www.cs.ucl.ac.uk/event_details/?eventnum=1390
+http://www.cs.ucl.ac.uk/news/
+http://www.cs.ucl.ac.uk/mobile/news/
+http://www.cs.ucl.ac.uk/industry_outreach/students_industry/
+http://www.cs.ucl.ac.uk/mobile/industry_outreach/students_industry/
+http://www.cs.ucl.ac.uk/archive/article/ref2014-ucl-computer-science-ranked-first/
+http://cmic.cs.ucl.ac.uk/about_cmic/
+http://www.cs.ucl.ac.uk/events_pages/london_hopper_2017/

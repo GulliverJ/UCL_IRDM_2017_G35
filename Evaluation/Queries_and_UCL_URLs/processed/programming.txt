@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/students/syllabus/msccs/gc01_introductory_programming/
+http://pplv.cs.ucl.ac.uk/welcome/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/101p_principles_of_programming/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/210p_introduction_to_programming/
+http://www.cs.ucl.ac.uk/students/syllabus/msccs/gc16_functional_programming/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/105p_robotics_programming/
+http://www.cs.ucl.ac.uk/current_students/syllabus/msccs/gc01_introductory_programming/
+http://www.cs.ucl.ac.uk/current_students/syllabus/msccs/gc16_functional_programming/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/3011_functional_programming/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m012_programming_mathematical_methods_for_machine_learning/

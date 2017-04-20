@@ -1,0 +1,10 @@
+http://www.cs.ucl.ac.uk/students/syllabus/mscisec/ga03_introduction_to_cryptography/
+http://www.cs.ucl.ac.uk/students/syllabus/mscisec/ga12_applied_cryptography/
+http://www.cs.ucl.ac.uk/mobile/students/syllabus/mscisec/ga03_introduction_to_cryptography/
+http://www.cs.ucl.ac.uk/current_students/syllabus/mscisec/ga12_applied_cryptography/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m064_applied_cryptography/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m063_introduction_to_cryptography/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/3063_introduction_to_cryptography/
+http://www.cs.ucl.ac.uk/teaching_learning/syllabus/undergrad/m063_introduction_to_cryptography/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/undergrad/compm064_applied_cryptography/
+http://www.cs.ucl.ac.uk/current_students/syllabus_index_2017_2018_provisional/undergrad/comp3063_introduction_to_cryptography/

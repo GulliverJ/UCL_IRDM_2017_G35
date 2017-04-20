@@ -1,0 +1,10 @@
+http://students.cs.ucl.ac.uk/schoolslab/projects/PY1/index.html
+https://cmiclab.cs.ucl.ac.uk/help/ci/examples/test-and-deploy-python-application-to-heroku.md
+http://cmictig.cs.ucl.ac.uk/new-module-research-software-engineering-with-python
+http://students.cs.ucl.ac.uk/schoolslab/projects/PY2/texttomorse.html
+http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyPipe
+https://cmiclab.cs.ucl.ac.uk/pmarkiew/NiftyPET
+http://mr.cs.ucl.ac.uk/
+https://cmiclab.cs.ucl.ac.uk/pmarkiew/NiftyPET/tree/master
+http://students.cs.ucl.ac.uk/schoolslab/projects/PY2/index.html
+https://cmiclab.cs.ucl.ac.uk/explore/projects/starred
