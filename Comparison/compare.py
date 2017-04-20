@@ -35,17 +35,25 @@ def intersection(ranking, true_set):
         return None
 
     return_vec = []
+    distance = 0
 
+    item_rank = 0
     for item in ranking:
         file_result = listing_conversion["%d.json" % item]
+        if not file_result:
+            continue
         in_true_set = 0
 
+        true_rank = 0
         for true_bag in true_set.values():
             if similarity(file_result["bag_of_words"], true_bag) > 0.9:
                 in_true_set = 1
+                distance += abs(item_rank - true_rank)
                 break
+            true_rank += 1
 
         return_vec.append(in_true_set)
+        item_rank += 1
 
     precision = sum(return_vec) / len(return_vec)
     if len(true_set) > 0:
@@ -54,17 +62,19 @@ def intersection(ranking, true_set):
         recall = 1
     f1 = 2 * ( precision * recall / (precision + recall) )
 
-    return return_vec, precision, recall, f1
+    avg_distance = distance / len(ranking)
+
+    return precision, recall, f1, avg_distance
 
 
 if __name__ == "__main__":
 
     listing_conversion = pickle.load(open("filenames2results.pkl", "rb"))
-    true_set = pickle.load(open("Google_Pickles/donald_trump.pkl", "rb"))
-    ranking = [2383, 25271, 15222, 145, 5342, 14018, 2932, 4124, 1252, 11982]
+    true_set = pickle.load(open("Google_Pickles/alan_turing.pkl", "rb"))
+    ranking = [67, 66, 5385, 5376, 5086, 5073, 4541, 3853, 3, 27324]
 
-    vec = intersection(ranking, true_set)
-    print(vec)
+    scores = intersection(ranking, true_set)
+    print("Precision/Recall/F1/Distance:", scores)
 
     #for pickle_file in os.listdir("Google_Pickles/"):
     #    with open("Google_Pickles/" + pickle_file, "rb") as f:
