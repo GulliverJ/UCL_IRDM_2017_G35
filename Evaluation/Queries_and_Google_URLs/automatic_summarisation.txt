@@ -1,10 +1,2 @@
-http://web4.cs.ucl.ac.uk/staff/D.Barber/isb/song.ppt
-http://www0.cs.ucl.ac.uk/staff/mharman/sose12.pdf
-http://www0.cs.ucl.ac.uk/staff/l.capra/publications/cikm2011.pdf
-http://www0.cs.ucl.ac.uk/staff/M.Harman/mustafa-phd.pdf
-http://crest.cs.ucl.ac.uk/autotransplantation/downloads/autotransplantation.pdf
-http://www0.cs.ucl.ac.uk/staff/M.Herbster/misc/MScprojects.pdf
-http://www0.cs.ucl.ac.uk/staff/Y.Jia/resources/papers/WuWHJK2015.pdf
-http://www0.cs.ucl.ac.uk/staff/J.Alglave/papers/toplas15.pdf
-http://www0.cs.ucl.ac.uk/staff/N.Aletras/resources/ACL14_Topic_Labelling.pdf
-http://www0.cs.ucl.ac.uk/staff/J.Gow/papers/diagonal.ps.gz
+http://www0.cs.ucl.ac.uk/staff/a.loizides/EVA/introduction.html
+http://www0.cs.ucl.ac.uk/research/mmn/bttj.html

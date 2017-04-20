@@ -1,10 +1,10 @@
 http://www.cs.ucl.ac.uk/current_students/undergrad_inf/curriculum/year_4_meng_cs/
 http://www.cs.ucl.ac.uk/prospective_students/meng_computer_science/
 http://www.cs.ucl.ac.uk/current_students/undergrad_inf/curriculum/year_4_meng_math_computation/
-http://www.cs.ucl.ac.uk/prospective_students/meng_mathematical_computation/
 http://www.cs.ucl.ac.uk/index.php?id=7955
-http://www.cs.ucl.ac.uk/teaching_learning/undergrad_inf/assessment/
+http://www.cs.ucl.ac.uk/prospective_students/meng_mathematical_computation/
 http://www.cs.ucl.ac.uk/students/student_information/individual_projects/ug_final_year_projects/
+http://www.cs.ucl.ac.uk/teaching_learning/undergrad_inf/assessment/?noMobile=0
 http://www0.cs.ucl.ac.uk/staff/D.Alexander/Teaching.html
 http://www.cs.ucl.ac.uk/prospective_students/meng_computer_science/?newtemplate=1%27A%3D0%27
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/images/students/ComputingGuide/firstyearwelcome16.pdf
+http://www.cs.ucl.ac.uk/contacts/

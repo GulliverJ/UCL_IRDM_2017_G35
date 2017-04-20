@@ -4,7 +4,7 @@ http://fincomp.cs.ucl.ac.uk/
 http://www.cs.ucl.ac.uk/students/syllabus/msc_financial_risk_management/g005_numerical_analysis_for_finance/
 http://fincomp.cs.ucl.ac.uk/courses/
 http://www.cs.ucl.ac.uk/students/syllabus/msc_financial_risk_management/g008_stochastic_processes_for_finance/
-http://www.cs.ucl.ac.uk/degrees/msc_cf
 http://www.cs.ucl.ac.uk/prospective_students/msc_frm/
 http://www.cs.ucl.ac.uk/students/syllabus/mscsse/gs07_financial_information_systems/
+http://www.cs.ucl.ac.uk/teaching_learning/msc_cf/
 http://www0.cs.ucl.ac.uk/staff/a.mcdonald/finance.html

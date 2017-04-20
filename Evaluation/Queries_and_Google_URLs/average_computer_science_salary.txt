@@ -1,10 +1,10 @@
 http://www.cs.ucl.ac.uk/careers/
 http://www.cs.ucl.ac.uk/admissions/
-http://www.cs.ucl.ac.uk/prospective_students/meng_computer_science/
 http://www.cs.ucl.ac.uk/prospective_students/meng_mathematical_computation/
+http://www.cs.ucl.ac.uk/prospective_students/meng_computer_science/
 http://www.cs.ucl.ac.uk/admissions/msc_computer_science/
-http://www.cs.ucl.ac.uk/prospective_students/msc_sse/
-http://www.cs.ucl.ac.uk/degrees/msc_csml/
-http://www.cs.ucl.ac.uk/prospective_students/msc_frm/
 http://www.cs.ucl.ac.uk/prospective_students/meng_computer_science/?newtemplate=1%27A%3D0%27
+http://www.cs.ucl.ac.uk/degrees/msc_csml/
 http://www0.cs.ucl.ac.uk/vacancies/ra-fi.htm
+http://www.cs.ucl.ac.uk/prospective_students/msc_sse/
+http://www.cs.ucl.ac.uk/prospective_students/msc_frm/

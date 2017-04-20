@@ -1,10 +1,10 @@
 http://www.cs.ucl.ac.uk/alan_turing_institute/
 http://www.cs.ucl.ac.uk/news/article/computer-science-fills-ucl-liaison-role-at-the-alan-turing-institute/
 http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/
-http://www.cs.ucl.ac.uk/news/news_archive/article/artists-celebrate-alan-turing/?newtemplate=1&cHash=1078fe5df5f1c045b46609f8951a3d0d
+http://www.cs.ucl.ac.uk/archive/article/artists-celebrate-alan-turing/
 http://www.cs.ucl.ac.uk/ati/privacy_summit_2016
 http://blockchain.cs.ucl.ac.uk/portfolio/member-of-alan-turing-institute-and-whitechapel-think-tank/
 http://www.cs.ucl.ac.uk/computer_science_news/article/anthony-finkelstein-awarded-cbe/
-http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/profile.html
 http://www.cs.ucl.ac.uk/research/
-http://www0.cs.ucl.ac.uk/staff/jon/booksOfGeneralInterest.txt
+https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=0ahUKEwi79--b87LTAhUMK8AKHZeaCZ0QFghUMAg&url=http%3A%2F%2Fwww0.cs.ucl.ac.uk%2Fstaff%2Fjon%2FbooksOfGeneralInterest.txt&usg=AFQjCNGTO3TaUACJyLvSqd783Vx_cjsLRw&sig2=izfINfh6ymGE5s23PzgRSQ
+http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/profile.html

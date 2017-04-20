@@ -1,11 +1,11 @@
-http://www0.cs.ucl.ac.uk/staff/n.courtois/PK_RSA_Rabin_11.pdf
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m064_applied_cryptography/
 http://www.cs.ucl.ac.uk/students/syllabus/mscisec/ga03_introduction_to_cryptography/
 http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m064_applied_cryptography/
-http://www0.cs.ucl.ac.uk/staff/n.courtois/PK_RSA_Rabin_11.pdf
-http://www0.cs.ucl.ac.uk/staff/J.Groth/IMACC.html
 http://sec.cs.ucl.ac.uk/
-http://www0.cs.ucl.ac.uk/staff/J.Groth/IMACCCfP.html
-http://www0.cs.ucl.ac.uk/staff/J.Groth/TCC05Subgroups.pdf
-http://www0.cs.ucl.ac.uk/staff/B.Karp/gz03/f2011/lectures/gz03-lecture12-crypto1.pdf
+http://www0.cs.ucl.ac.uk/staff/J.Groth/IMACC.html
 http://www0.cs.ucl.ac.uk/staff/E.DeCristofaro
+http://sec.cs.ucl.ac.uk/ace_csr/seminars_calendar/seminar_details/article/limitations-of-black-box-constructions-in-cryptography-1/
 http://sec.cs.ucl.ac.uk/ace_csr/seminars_calendar/seminar_details/article/cryptography-in-practice/
+http://www0.cs.ucl.ac.uk/staff/E.Ghadafi/
+http://sec.cs.ucl.ac.uk/ace_csr/seminars_calendar/seminar_details/article/cryptography-for-eagles/
+http://www.cs.ucl.ac.uk/admissions/msc_isec/

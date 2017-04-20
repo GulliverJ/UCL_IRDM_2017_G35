@@ -1,5 +1,3 @@
 http://www.cs.ucl.ac.uk/news/article/ucl-receives-google-grant-towards-automated-fact-checking/
-http://www0.cs.ucl.ac.uk/staff/G.Stringhini/papers/4chan-ICWSM2017.pdf
-http://www0.cs.ucl.ac.uk/staff/S.Kampakis/
 http://secblog.cs.ucl.ac.uk/
-http://www0.cs.ucl.ac.uk/staff/G.Stringhini/papers/compa-TDSC15.pdf
+http://www0.cs.ucl.ac.uk/staff/S.Kampakis/

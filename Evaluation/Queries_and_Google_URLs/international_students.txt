@@ -2,10 +2,10 @@ http://www0.cs.ucl.ac.uk/teaching/celcatdatahtm/regwk/undergraduate.html
 http://wp.cs.ucl.ac.uk/gift-surg/international-students-marathon-run-raise-money-bliss/
 http://www.cs.ucl.ac.uk/current_students/help_and_guidance/
 http://www.cs.ucl.ac.uk/prospective_students/meng_computer_science/
-http://www0.cs.ucl.ac.uk/teaching/celcatdatahtm/regwk/undergraduate.html
-http://www.cs.ucl.ac.uk/teaching_learning/degree_programmes/affiliate_students/
 http://www.cs.ucl.ac.uk/teaching_learning/degree_programmes/international_programme/
+http://www0.cs.ucl.ac.uk/teaching/celcatdatahtm/regwk/undergraduate.html
 http://busics.cs.ucl.ac.uk/
-http://www0.cs.ucl.ac.uk/teaching/celcatdatahtm/regwk/registrationweekPhD2010.html
+http://www.cs.ucl.ac.uk/teaching_learning/degree_programmes/affiliate_students/
 http://www.cs.ucl.ac.uk/mobile/prospective_students/bsc_computer_science/
-http://www.cs.ucl.ac.uk/careers/jobs/job_description/?noMobile=1%3Ftx_ttnews%5Btt_news%5D%3D1198&tx_ttnews%5Btt_news%5D=1322&cHash=9fc56031eee3c6b9604e62c013571e92
+http://www0.cs.ucl.ac.uk/teaching/celcatdatahtm/regwk/registrationweekPhD2010.html
+http://www0.cs.ucl.ac.uk/teaching/ncs/admissions.html

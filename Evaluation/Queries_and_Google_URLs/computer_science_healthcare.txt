@@ -1,10 +1,10 @@
 http://www.cs.ucl.ac.uk/
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/Admin/intranet/5_year_Strategic_Operating_Plan_2015-2021_-_Computer_Science_FINAL.pdf
 http://wp.cs.ucl.ac.uk/acm-digitalhealth
-http://www.cs.ucl.ac.uk/admissions/phd_programme/applying/
 http://www.cs.ucl.ac.uk/news/article/ref2014-ucl-computer-science-ranked-first/
-http://www.cs.ucl.ac.uk/news/archive//article/ucl-partnership-to-explore-the-future-of-connected-healthcare/
+http://www.cs.ucl.ac.uk/news/article/ucl-partnership-to-explore-the-future-of-connected-healthcare/
 http://www.cs.ucl.ac.uk/computer_science_news/article/new-global-digital-health-institute-launched-by-bupa-ucl/
 http://www.cs.ucl.ac.uk/news/
 https://wp.cs.ucl.ac.uk/acm-digitalhealth-2015/
+http://www.cs.ucl.ac.uk/admissions/phd_programme/applying/
 http://cmic.cs.ucl.ac.uk/about_cmic/
+http://www.cs.ucl.ac.uk/news/article/ucls-data-science-hackathon-is-the-first-of-its-kind-in-the-uk/

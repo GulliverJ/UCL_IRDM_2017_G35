@@ -1,11 +1,11 @@
 http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi15_information_retrieval_data_mining/
 http://www.cs.ucl.ac.uk/students/syllabus/mscml/gi15_information_retrieval_data_mining/
-http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/
-http://www.cs.ucl.ac.uk/prospective_students/msc_wsbda/
 http://www.cs.ucl.ac.uk/current_students/undergrad_inf/curriculum/year_4_meng_cs/
-http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2011/09/23/bcs-tutorial-irda2011/
+http://www.cs.ucl.ac.uk/prospective_students/msc_wsbda/
 http://www.cs.ucl.ac.uk/degrees/msc_csml/
+http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/2011/09/23/bcs-tutorial-irda2011/
 http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/prospective-students/
+http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/
 http://www.cs.ucl.ac.uk/degrees/msc_ds/
 http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/teaching/projects/
 http://www.cs.ucl.ac.uk/degrees/msc_wsbda/?newtemplate=1%2525252525252525252F

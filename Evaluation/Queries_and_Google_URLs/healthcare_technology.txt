@@ -1,10 +1,10 @@
 http://wp.cs.ucl.ac.uk/eclipse/about/the-team/
 http://wp.cs.ucl.ac.uk/gift-surg/epsrc-announces-winners-of-healthcare-technologies-challenge-awards/
 http://cmic.cs.ucl.ac.uk/about_cmic/
-http://www.cs.ucl.ac.uk/news/article/research-explores-hospital-electronic-prescribing/
 http://cmictig.cs.ucl.ac.uk/new-wellcome-epsrc-centre-for-surgical-and-interventional-sciences-established-at-ucl
-http://www.cs.ucl.ac.uk/computer_science_news/article/ucl-partnership-to-explore-the-future-of-connected-healthcare/
+http://advancedteaching.cs.ucl.ac.uk/news/computer_science_news/computer_science_news_archive/?noMobile=1&tx_ttnews%5Btt_news%5D=1961&cHash=bd0181ab1eec459d5da065a156185c47
+http://www.cs.ucl.ac.uk/news/article/ucl-partnership-to-explore-the-future-of-connected-healthcare/
 http://cmictig.cs.ucl.ac.uk/niftyweb/program.php?p=CHALLENGE
 http://www.cs.ucl.ac.uk/news/article/uclb-spinout-smarttarget-ltd-launches-new-device-for-the-detection-of-prostate-cancer/
 http://www.cs.ucl.ac.uk/staff/d.atkinson/MedicalImageComputing.html
-http://wp.cs.ucl.ac.uk/acm-digitalhealth-2015/alberto-sanna/
+http://wp.cs.ucl.ac.uk/gift-surg/project/technological-developments/

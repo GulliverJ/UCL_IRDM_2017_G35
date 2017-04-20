@@ -1,10 +1,10 @@
-http://www0.cs.ucl.ac.uk/staff/M.Constantinides/docs/MSR2_GroupReport.pdf
-http://www0.cs.ucl.ac.uk/staff/G.SuarezdeTangil/papers/2016mal-iot.pdf
 http://sec.cs.ucl.ac.uk/ace_csr/seminars_calendar/seminar_details/article/a-changing-landscape-securing-the-internet-of-things-iot/
 http://www0.cs.ucl.ac.uk/staff/J.Kwon/
 http://www.cs.ucl.ac.uk/computer_science_news/article/msc-sse-students-and-the-lab-of-things/
 http://blockchain.cs.ucl.ac.uk/researchpaper/the-internet-of-things/
+http://www.cs.ucl.ac.uk/news/article/ucl-research-scrutinises-web-bluetooth-api/
+http://sec.cs.ucl.ac.uk/ace_csr/seminars_calendar/seminar_details/article/emerging-security-research-at-symantec-research-labs/
 http://www.cs.ucl.ac.uk/computer_science_news/article/37-msc-and-meng-students-deploy-big-data-infrastructure-project-for-the-uk-housing-associations-with/
-http://www.cs.ucl.ac.uk/event_details/?eventnum=1387
-http://www0.cs.ucl.ac.uk/staff/A.JahanbakhshMashhadi/mashhadi/Publications_files/PrivacyMeter.pdf
+http://www0.cs.ucl.ac.uk/staff/r.harbird/undergrad_projects.html
 http://www.cs.ucl.ac.uk/event_details/?eventnum=741
+http://www.cs.ucl.ac.uk/archive/2016/browse/1/

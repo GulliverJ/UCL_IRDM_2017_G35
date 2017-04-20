@@ -1,10 +1,10 @@
-http://www.cs.ucl.ac.uk/careers/jobs/job_description/?noMobile=1&tx_ttnews%5Btt_news%5D=1385&cHash=4858c9d61c570e9e747e81bcb344fc46
-http://www0.cs.ucl.ac.uk/staff/v.perrone/publications/Industrial_acceptability_of_Web_Design_Methods_An%20empirical%20study_(JWE).pdf
-http://www0.cs.ucl.ac.uk/research/higherview/mccarthy_menu.pdf
 http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m041_web_economics/
-http://www.cs.ucl.ac.uk/prospective_students/msc_wsbda/
-http://www0.cs.ucl.ac.uk/staff/a.blandford/docs/dfabpcMAUSEpreprint.pdf
+http://www.cs.ucl.ac.uk/careers/jobs/job_description/?noMobile=1&tx_ttnews%5Btt_news%5D=1385&cHash=4858c9d61c570e9e747e81bcb344fc46
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/m042_complex_networks_and_web/
+http://www.cs.ucl.ac.uk/students/syllabus/undergrad/310p_web_development/
 http://www0.cs.ucl.ac.uk/staff/ucacdxq/projects/multipr/home2/cardimp.html
+http://www.cs.ucl.ac.uk/students/syllabus/msccs/gc02_design/
+http://www.cs.ucl.ac.uk/prospective_students/msc_wsbda/
+http://www.cs.ucl.ac.uk/prospective_students/msc_sse/
 http://www0.cs.ucl.ac.uk/research/higherview/resources.htm
-http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/papers/uwa.pdf
-http://www0.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/C7.pdf
+http://www0.cs.ucl.ac.uk/staff/ucacdxq/projects/multipr/home2/concl.html

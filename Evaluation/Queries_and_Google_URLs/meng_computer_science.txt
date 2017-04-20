@@ -3,8 +3,8 @@ http://www.cs.ucl.ac.uk/current_students/undergrad_inf/curriculum/year_4_meng_cs
 http://www.cs.ucl.ac.uk/current_students/degree_programme/third_year/curriculum_meng_cs/
 http://www.cs.ucl.ac.uk/current_students/degree_programme/first_year/curriculum_bsc_meng_computer_science/
 http://www.cs.ucl.ac.uk/teaching_learning/undergrad_inf/curriculum/year_3_meng_cs_int_prog/
-http://www.cs.ucl.ac.uk/admissions/
 http://www.cs.ucl.ac.uk/current_students/undergrad_inf/curriculum/year_2_bsc_meng_cs/
 http://www.cs.ucl.ac.uk/prospective_students/meng_mathematical_computation/
 http://www.cs.ucl.ac.uk/students/undergrad_inf/curriculum/year_3_meng_cs_int_prog/
+http://www.cs.ucl.ac.uk/admissions/
 http://www.cs.ucl.ac.uk/teaching_learning/undergrad_inf/assessment/

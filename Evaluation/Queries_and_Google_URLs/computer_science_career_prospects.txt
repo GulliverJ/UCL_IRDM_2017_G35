@@ -1,10 +1,9 @@
 http://www.cs.ucl.ac.uk/careers/
 http://www.cs.ucl.ac.uk/degrees/common_pages/careers_after_graduating/
+http://www0.cs.ucl.ac.uk/teaching/careers/vacancies/csintro.html
 http://www.cs.ucl.ac.uk/admissions/msc_computer_science/
 http://www.cs.ucl.ac.uk/prospective_students/phd_programme/
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/students/documents/UG_Admissions/Undergraduate_promo.pdf
-http://www0.cs.ucl.ac.uk/teaching/careers/vacancies/csintro.html
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/students/UG_Induction/CS_Student_Handbook2015.docx
 http://www.cs.ucl.ac.uk/events/
 http://www.cs.ucl.ac.uk/prospective_students/msc_frm/
 http://www0.cs.ucl.ac.uk/teaching/ncs/alumni.html
+http://www.cs.ucl.ac.uk/degrees/msc_ml/

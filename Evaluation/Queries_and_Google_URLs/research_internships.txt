@@ -2,9 +2,9 @@ http://www.cs.ucl.ac.uk/careers/departmental_research_internships/
 http://www.cs.ucl.ac.uk/careers/departmental_research_internships/?newtemplate=1%2527A%253D0
 http://www.cs.ucl.ac.uk/careers/departmental_research_internships/research_internship_proposals/
 http://www.cs.ucl.ac.uk/careers/
-http://web4.cs.ucl.ac.uk/staff/D.Barber/internships/index.php?n=Main.SummerInternships
 http://www.cs.ucl.ac.uk/careers/departmental_research_internships/research_bursary_proposals/?noMobile=1%3Ftx_ttnews%5Btt_news%5D%3D1159
+http://web4.cs.ucl.ac.uk/staff/D.Barber/internships/index.php?n=Main.CSSummerInternships
 http://www.cs.ucl.ac.uk/degrees/common_pages/careers_after_graduating/
-http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Study
 http://www0.cs.ucl.ac.uk/staff/J.Villard/
+http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Study
 http://www.cs.ucl.ac.uk/staff/donald_lawrence/financial_msc_internship/

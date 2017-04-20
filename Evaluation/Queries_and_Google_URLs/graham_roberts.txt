@@ -1,10 +1,10 @@
 http://www0.cs.ucl.ac.uk/staff/G.Roberts/
 http://www0.cs.ucl.ac.uk/people/G.Roberts.html
 http://advancedteaching.cs.ucl.ac.uk/people/
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/images/students/ComputingGuide/firstyearwelcome14.pdf
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/images/students/ComputingGuide/firstyearwelcome16.pdf
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/images/students/ComputingGuide/firstyearwelcome15.pdf
+http://www.cs.ucl.ac.uk/current_students/help_and_guidance/
 http://www0.cs.ucl.ac.uk/staff/G.Roberts/unixintro/index.html
-http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/images/students/ComputingGuide/introslides15.pdf
-http://www0.cs.ucl.ac.uk/staff/G.Roberts/courses2005_6/1008/Slides1.pdf
-http://www0.cs.ucl.ac.uk/staff/G.Roberts/courses2005_6/1008/Slides2.pdf
+http://www.cs.ucl.ac.uk/teaching_learning/syllabus_index_2015_2016/undergrad/103p_object_oriented_programming/
+http://www0.cs.ucl.ac.uk/teaching/DemoRF_T2.html
+http://www.cs.ucl.ac.uk/teaching_learning/student_information/staff_student_committee/agendas/november_3rd_2004/?newtemplate=1
+http://www.cs.ucl.ac.uk/teaching_learning/student_information/individual_projects/msccs_summer_projects/list_of_projects_supervisors_and_2nd_examiners/
+http://www.cs.ucl.ac.uk/mobile/teaching_learning/student_information/staff_student_committee/minutes/27_november_2015/

@@ -14,8 +14,8 @@ def get_html(url):
     try:
         with urllib.request.urlopen(url) as response:
             html = response.read()
-    except urllib.error.HTTPError:
-        html = "404 Error"
+    except Exception:
+        html = ""
     if type(html) is not str:
         return html.decode("utf-8", "ignore")
     else:
@@ -43,8 +43,11 @@ if __name__ == '__main__':
 
             for future in concurrent.futures.as_completed(future_to_url):
                 url = future_to_url[future]
-                data = parser.parse(future.result(), bag_of_words=True)
-                query_dict[url] = data["bag_of_words"]
+                if future.result() == "":
+                    query_dict[url] = "ERROR"
+                else:
+                    data = parser.parse(future.result(), bag_of_words=True)
+                    query_dict[url] = data["bag_of_words"]
 
         with open(query_save_path, "wb") as f:
             pickle.dump(query_dict, f)
