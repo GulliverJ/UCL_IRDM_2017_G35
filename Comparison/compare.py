@@ -46,6 +46,8 @@ def intersection(ranking, true_set):
 
         true_rank = 0
         for true_bag in true_set.values():
+            if true_bag == "ERROR":
+                continue
             if similarity(file_result["bag_of_words"], true_bag) > 0.9:
                 in_true_set = 1
                 distance += abs(item_rank - true_rank)
@@ -60,9 +62,15 @@ def intersection(ranking, true_set):
         recall = sum(return_vec) / len(true_set)
     else:
         recall = 1
-    f1 = 2 * ( precision * recall / (precision + recall) )
+    if precision + recall > 0:
+        f1 = 2 * ( precision * recall / (precision + recall) )
+    else:
+        f1 = 0
 
-    avg_distance = distance / len(ranking)
+    if precision > 0:
+        avg_distance = distance / sum(return_vec)
+    else:
+        avg_distance = -1
 
     return precision, recall, f1, avg_distance
 
@@ -70,19 +78,28 @@ def intersection(ranking, true_set):
 if __name__ == "__main__":
 
     listing_conversion = pickle.load(open("filenames2results.pkl", "rb"))
-    true_set = pickle.load(open("Google_Pickles/alan_turing.pkl", "rb"))
-    ranking = [67, 66, 5385, 5376, 5086, 5073, 4541, 3853, 3, 27324]
+    ranks = pickle.load(open("vsm_ranks.pkl", "rb"))
 
-    scores = intersection(ranking, true_set)
-    print("Precision/Recall/F1/Distance:", scores)
+    #print(ranks.keys())
 
-    #for pickle_file in os.listdir("Google_Pickles/"):
-    #    with open("Google_Pickles/" + pickle_file, "rb") as f:
-    #        true_set = pickle.load(f)
-    #        print(len(true_set), end=" ")
+    #true_set = pickle.load(open("Google_Pickles/computer_science_career_prospects.pkl", "rb"))
+    #ranking = ranks["computer science career prospects"]
 
-    #print()
-    #for pickle_file in os.listdir("UCL_Pickles/"):
-    #    with open("UCL_Pickles/" + pickle_file, "rb") as f:
-    #        true_set = pickle.load(f)
-    #        print(len(true_set), end=" ")
+    #print(len(true_set))
+    #print(ranking)
+
+    #scores = intersection(ranking, true_set)
+    #print("Precision/Recall/F1/Distance:", scores)
+
+    for pickle_file in os.listdir("Google_Pickles/"):
+        with open("Google_Pickles/" + pickle_file, "rb") as f:
+            true_set = pickle.load(f)
+            query = pickle_file[:-4].replace("_", " ")
+            print(query, intersection(ranks[query], true_set))
+
+    print()
+    for pickle_file in os.listdir("UCL_Pickles/"):
+        with open("UCL_Pickles/" + pickle_file, "rb") as f:
+            true_set = pickle.load(f)
+            query = pickle_file[:-4].replace("_", " ")
+            print(query, intersection(ranks[query], true_set))
