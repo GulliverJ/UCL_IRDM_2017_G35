@@ -90,7 +90,7 @@ def translate_ranking(ranking):
 	# The final results to display
 	listings = []
 
-	for item in ranking:
+	for item in ranking[:100]:
 
 		# Get the result for the first PID
 		file_result = listing_conversion["%d.json" % item]
