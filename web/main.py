@@ -3,6 +3,7 @@ from flask import request
 from flask import render_template
 import hits
 from rankers.VSMRanker import VSMRanker
+from rankers.LatentSemanticIndexer import LatentSemanticIndexer
 import pickle
 import time
 from math import sqrt
@@ -51,7 +52,7 @@ def results():
 		results['items'] = translate_ranking(ranking)
 
 	else:
-		# ranking = lsi.search(request.args['query'])
+		ranking = lsi.search(request.args['query'])
 		results['num'] = len(ranking)
 		results['items'] = translate_ranking(ranking)
 
@@ -126,19 +127,34 @@ def translate_ranking(ranking):
 
 if __name__ == "__main__":
 
-    # HITS
-    listing_conversion = pickle.load( open( "./data/filenames2results.pkl", "rb"))
+	# HITS
+	listing_conversion = pickle.load( open( "./data/filenames2results.pkl", "rb"))
 
-    # VSM
-    with open("./data/filename2url_vsm.pkl", "rb") as f:
-        load = pickle.load(f)
-        vsm_filenames = load.keys()
-    with open("./data/inverted_index_vsm.pkl", "rb") as f:
-        load = pickle.load(f)
-        vsm_index = load[0]
-    with open("./data/word_counts_vsm.pkl", "rb") as f:
-        vsm_word_counts = pickle.load(f)
-    variant = "ntc.ltc"
-    vsm_model = VSMRanker(vsm_index, vsm_word_counts, vsm_filenames, variant)
+	# VSM
+	with open("./data/filename2url_vsm.pkl", "rb") as f:
+		load = pickle.load(f)
+		vsm_filenames = load.keys()
+	with open("./data/inverted_index_vsm.pkl", "rb") as f:
+		load = pickle.load(f)
+		vsm_index = load[0]
+	with open("./data/word_counts_vsm.pkl", "rb") as f:
+		vsm_word_counts = pickle.load(f)
+	variant = "ntc.ltc"
+	vsm_model = VSMRanker(vsm_index, vsm_word_counts, vsm_filenames, variant)
 
-    app.run()
+	# LSI
+
+	# Where to save the inverted index
+	FULL_PATH_TO_SAVED_INVERTED_INDEX = "./data/inverted_index.pkl"
+
+	# The location in which to save the term-document matrix
+	PATH_TO_SAVED_DATA = "./data/LSIData/"
+
+	lsi = LatentSemanticIndexer(
+		path_to_td_matrix=PATH_TO_SAVED_DATA,
+		path_to_inverted_index=FULL_PATH_TO_SAVED_INVERTED_INDEX,
+		path_to_save_ranking_matricies=PATH_TO_SAVED_DATA,
+		searching=True
+	)
+
+	app.run()
