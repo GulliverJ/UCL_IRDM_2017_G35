@@ -60,8 +60,12 @@ def results():
 	# Pass that into web page template to render results
 	return render_template("index.html", results=results)
 
-# Translate numerical page IDs to readable info for display
 def translate_ranking(ranking):
+	"""
+	Translate numerical page IDs to readable info for display
+	:param ranking: a list of document IDs, with the ID at position 0 corresponding to the most highly ranked file.
+	:return: dictionaries of information corresponding to the IDs, used for display
+	"""
 	listings = []
 	for item in ranking:
 		listings.append( listing_conversion[ "%d.json" % (item) ] )
