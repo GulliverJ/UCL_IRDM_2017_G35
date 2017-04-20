@@ -515,17 +515,60 @@ class LatentSemanticIndexer:
 if __name__ == '__main__':
     listing_conversion = pickle.load(open("./Parser/filenames2results.pkl", "rb"))
 
+    def similarity(bow1, bow2):
+        """
+        Compares file similarity on two bag of words representations
+        :param bow1: first bag of words
+        :param bow2: second bag of words
+        :return: similarity between 0 and 1
+        """
+        dot_prod, file1_norm, file2_norm = 0.0, 0.0, 0.0
+        for word, count1 in bow1.items():
+            count2 = bow2[word]
+            dot_prod += count1 * count2
+            file1_norm += count1 ** 2
+            file2_norm += count2 ** 2
+        return dot_prod / (sqrt(file1_norm) * sqrt(file2_norm))
+
     def translate_ranking(ranking):
         """
-        Translate numerical page IDs to readable info for display
+        Translate numerical page IDs to readable info for display - only keeping pages which are not already present.
         :param ranking: a list of document IDs, with the ID at position 0 corresponding to the most highly ranked file.
         :return: dictionaries of information corresponding to the IDs, used for display
         """
+        # The final results to display
         listings = []
+
         for item in ranking:
-            listings.append(listing_conversion["%d.json" % (item)])
+
+            # Get the result for the first PID
+            file_result = listing_conversion["%d.json" % item]
+
+            # This will be true if the current item is already in the ranking
+            already_present = False
+
+            # Check the existing list of files
+            for existing_listing in listings:
+
+                # Calculate similarity using vector methods
+                sim = similarity(file_result["bag_of_words"], existing_listing["bag_of_words"])
+
+                # If similarity is more than 90%, it is likely the file is already present
+                if sim > 0.9:
+                    already_present = True
+                    break
+
+            # Only append a file if it is not already there
+            if not already_present:
+                listings.append(file_result)
+
         # NOTE: Enforcing only top 20 listings for now?
-        return listings[0:20]
+        num_results = 20
+
+        if len(listings) > num_results:
+            return listings[0:num_results]
+        else:
+            return listings
 
     create_new = False
 
