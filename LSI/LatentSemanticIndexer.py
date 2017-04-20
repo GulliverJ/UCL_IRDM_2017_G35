@@ -32,6 +32,9 @@ from sklearn.utils.extmath import randomized_svd
 from scipy import sparse
 from scipy.sparse.linalg import svds
 
+# For computing similarity
+from math import sqrt
+
 # =========================
 
 
@@ -65,7 +68,7 @@ class LatentSemanticIndexer:
             print("----> No. Files to Process: ", self.file_count)
 
         # The rank to use to approximate the Term-Document matrix
-        self.rank = 70
+        self.rank = 100
 
         if not searching:
 
@@ -438,6 +441,21 @@ class LatentSemanticIndexer:
 
         return indices
 
+    def similarity(self, bow1, bow2):
+        """
+        Compares file similarity on two bag of words representations
+        :param bow1: first bag of words
+        :param bow2: second bag of words
+        :return: similarity between 0 and 1
+        """
+        dot_prod, file1_norm, file2_norm = 0.0, 0.0, 0.0
+        for word, count1 in bow1.items():
+            count2 = bow2[word]
+            dot_prod += count1 * count2
+            file1_norm += count1 ** 2
+            file2_norm += count2 ** 2
+        return dot_prod / (sqrt(file1_norm) * sqrt(file2_norm))
+
     def ranked_indices2files(self, ranked_indices):
         """
         Turns ranked document indices into parsed HTML files.
@@ -458,8 +476,18 @@ class LatentSemanticIndexer:
         # Parse each file
         for filename in filenames:
             path = self.html_dir_path + filename
-            parsed_html = self.parser.parse(path)
-            parsed_files.append(parsed_html)
+            parsed_html = self.parser.parse(path, bag_of_words=True)
+
+            # Check if the HTML file is already present
+            already_present = False
+            for parsed_file in parsed_files:
+                sim = self.similarity(parsed_html["bag_of_words"], parsed_file["bag_of_words"])
+                if sim > 0.9:
+                    already_present = True
+                    break
+
+            if not already_present:
+                parsed_files.append(parsed_html)
 
         return parsed_files
 

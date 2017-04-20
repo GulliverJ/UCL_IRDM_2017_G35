@@ -47,6 +47,8 @@ class Filename2Results:
 
         self.file_count = 0
 
+        self.parser = HTMLParser()
+
         self.filenames2results = self.build_mapping()
 
         self.save_mapping(save_location)
@@ -100,11 +102,12 @@ class Filename2Results:
                 info_dict["url"] = url
 
                 # Extract the title and first line of text from the html
-                title, first_line_of_text = self.process_html(html)
+                title, first_line_of_text, bag_of_words = self.process_html(html)
 
                 # Add to the info-dict
                 info_dict["title"] = title
                 info_dict["blurb"] = first_line_of_text
+                info_dict["bag_of_words"] = bag_of_words
 
                 # Increment the file counter
                 self.file_count += 1
@@ -136,6 +139,9 @@ class Filename2Results:
         # Get the page text
         page_text = soup.get_text()
 
+        # Get the bag of words
+        bag_of_words = self.parser.create_bag_of_words(page_text)
+
         # Split the page text into sentences
         page_sents = page_text.split(".")
 
@@ -163,7 +169,7 @@ class Filename2Results:
         first_line = first_line.replace("\n", "")
         first_line = first_line.replace("\t", "")
 
-        return title, first_line
+        return title, first_line, bag_of_words
 
 
 # ================ MAIN ================
