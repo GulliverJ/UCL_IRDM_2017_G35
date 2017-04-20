@@ -248,7 +248,7 @@ class LatentSemanticIndexer:
                 print("--> ", word, " : ", "YES")
 
         # Find the list of files which contain these query terms
-        allowed_filenames = self.check_index(query)
+        allowed_filenames, best_filenames, amazing_filenames = self.check_index(query)
 
         # Turn the query into a vector
         query_vec, query_count = self.query2vec(query)
@@ -268,7 +268,7 @@ class LatentSemanticIndexer:
         print("Pruning the ranked files...")
 
         # Only keep files that the words actually occur in
-        pruned_ranked_indices = self.prune_ranking(ranked_doc_indices, allowed_filenames)
+        pruned_ranked_indices = self.prune_ranking(ranked_doc_indices, allowed_filenames, best_filenames, amazing_filenames)
 
         # Turn the indicies into the correct file PIDs
         final_indicies = self.rankings_to_pids(pruned_ranked_indices)
@@ -291,7 +291,7 @@ class LatentSemanticIndexer:
 
         return final_indices
 
-    def prune_ranking(self, ranked_indices, allowed_filenames):
+    def prune_ranking(self, ranked_indices, allowed_filenames, best_filenames, amazing_filenames):
         """
         Prunes the ranking so that only files which actually contain the terms are kept.
         :param ranked_indices: the ranked indices of files as a list
@@ -302,11 +302,20 @@ class LatentSemanticIndexer:
         max_files = 100
 
         final_ranking = []
+        okay_files = []
         for ranked_i in ranked_indices:
             fname = self.index2filename[ranked_i]
 
-            if fname in allowed_filenames and len(final_ranking) < max_files:
-                final_ranking.append(ranked_i)
+            if len(final_ranking) < max_files:
+
+                if fname in amazing_filenames:
+                    final_ranking.insert(0, ranked_i)
+                elif fname in best_filenames:
+                    final_ranking.append(ranked_i)
+                elif fname in allowed_filenames:
+                    okay_files.append(ranked_i)
+
+        final_ranking = final_ranking + okay_files
 
         return final_ranking
 
@@ -317,6 +326,8 @@ class LatentSemanticIndexer:
         :return: list of files containing one or more query terms
         """
         allowed_filenames = set()
+        best_filenames = set()
+        amazing_files = set()
 
         for word in query:
 
@@ -324,9 +335,14 @@ class LatentSemanticIndexer:
 
             for fname, count in files_word_occurs_in:
                 if count > 1:
-                    allowed_filenames.add(fname)
+                    if fname in best_filenames:
+                        amazing_files.add(fname)
+                    if fname in allowed_filenames:
+                        best_filenames.add(fname)
+                    else:
+                        allowed_filenames.add(fname)
 
-        return allowed_filenames
+        return allowed_filenames, best_filenames, amazing_files
 
     def query2vec(self, query):
         """

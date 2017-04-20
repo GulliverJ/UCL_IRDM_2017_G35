@@ -145,7 +145,7 @@ def translate_ranking(ranking):
 			listings.append(file_result)
 
 	# NOTE: Enforcing only top 20 listings for now?
-	num_results = 20
+	num_results = 10
 
 	if len(listings) > num_results:
 		return listings[0:num_results]
