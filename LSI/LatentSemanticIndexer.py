@@ -276,6 +276,11 @@ class LatentSemanticIndexer:
         # Only keep files that the words actually occur in
         pruned_ranked_indices = self.prune_ranking(ranked_doc_indices, allowed_filenames)
 
+        # Turn the indicies into the correct file PIDs
+        final_indicies = self.rankings_to_pids(pruned_ranked_indices)
+
+        return final_indicies
+
         print("Changing indicies to files including parsing...")
 
         # Turn the ranked document indicies into actual file information
@@ -303,6 +308,22 @@ class LatentSemanticIndexer:
             input()
 
         return files
+
+    def rankings_to_pids(self, pruned_ranked_indicies):
+        """
+        Turns the indices used by this ranker into the correct file PIDs
+        :param pruned_ranked_indicies: ranked term document matrix indices
+        :return: file PIDs
+        """
+        # List of the filenames
+        final_indices = []
+
+        # Iterate over each of the indices
+        for index in pruned_ranked_indicies:
+            filename = self.index2filename[index]
+            final_indices.append(int(filename.strip(".json")))
+
+        return final_indices
 
     def prune_ranking(self, ranked_indices, allowed_filenames):
         """
@@ -492,6 +513,20 @@ class LatentSemanticIndexer:
         return parsed_files
 
 if __name__ == '__main__':
+    listing_conversion = pickle.load(open("./Parser/filenames2results.pkl", "rb"))
+
+    def translate_ranking(ranking):
+        """
+        Translate numerical page IDs to readable info for display
+        :param ranking: a list of document IDs, with the ID at position 0 corresponding to the most highly ranked file.
+        :return: dictionaries of information corresponding to the IDs, used for display
+        """
+        listings = []
+        for item in ranking:
+            listings.append(listing_conversion["%d.json" % (item)])
+        # NOTE: Enforcing only top 20 listings for now?
+        return listings[0:20]
+
     create_new = False
 
     if create_new:
@@ -530,4 +565,10 @@ if __name__ == '__main__':
             searching=True
         )
 
-        lsi.search("machine learning")
+        ranked_indicies = lsi.search("machine learning")
+
+        files = translate_ranking(ranked_indicies)
+
+        for f in files:
+            print(f["url"])
+            input()
