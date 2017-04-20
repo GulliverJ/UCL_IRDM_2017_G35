@@ -35,6 +35,7 @@ def results():
 		## TODO get ranking from pagerank search method
 		results['num'] = len(ranking)
 		results['items'] = translate_ranking(ranking)
+		save_results(results["items"], request.args['query'], "PageRank")
 
 	elif(request.args['ranking'] == 'hits'):
 		hubs, auths = hits.search(request.args['query'])
@@ -44,17 +45,20 @@ def results():
 		# Translate rankings for both hubs and authorities
 		results['hubs'] = translate_ranking(hubs)
 		results['authorities'] = translate_ranking(auths)
+		save_results(results["hubs"], request.args['query'], "HITS_hubs")
+		save_results(results["authorities"], request.args['query'], "HITS_auths")
 
 	elif(request.args['ranking'] == 'vsm'):
 		# TODO vsm ranking, e.g.
 		ranking = vsm_model.search(request.args['query'])
 		results['num'] = len(ranking)
 		results['items'] = translate_ranking(ranking)
-
+		save_results(results["items"], request.args['query'], "VSM")
 	else:
 		ranking = lsi.search(request.args['query'])
 		results['num'] = len(ranking)
 		results['items'] = translate_ranking(ranking)
+		save_results(results["items"], request.args['query'], "LSI")
 
 	# Store the time taken to retrieve
 	results['time'] = "%.3f" % (time.time() - start)
@@ -62,6 +66,29 @@ def results():
 	# Pass that into web page template to render results
 	return render_template("index.html", results=results)
 
+def save_results(results, query, algorithm):
+	"""
+	Saves the output of the search algorithms for evaluation in a pickle file.
+	:param results: the list of results where each result is a dictionary of information
+	:param query: the search query submitted, as a string
+	:param algorithm: the name of the search algorithm used to produce the results, as a string
+	"""
+
+	# Sanity checks
+	assert(type(results) is list)
+	if len(results) > 0:
+		assert(type(results[0]) is dict)
+	assert(type(query) is str)
+	assert(type(algorithm) is str)
+
+	# Replace spaces with underscores
+	query = query.replace(" ", "_")
+
+	# Create the filename string
+	filename = algorithm + "_" + query + ".pkl"
+
+	with open("./results/" + filename, "wb") as f:
+		pickle.dump(results, f)
 
 def similarity(bow1, bow2):
     """
