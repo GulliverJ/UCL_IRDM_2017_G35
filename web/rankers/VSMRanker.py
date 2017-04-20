@@ -1,7 +1,7 @@
 from math import log, sqrt
 from collections import defaultdict
 import pickle
-from Rankers.Ranker import Ranker
+#from Rankers.Ranker import Ranker
 
 
 INVERTED_INDEX = "data/inverted_index_vsm.pkl"
@@ -9,7 +9,7 @@ FILENAMES2URL = "data/filename2url_vsm.pkl"
 WORD_COUNTS = "data/word_counts_vsm.pkl"
 
 
-class VSMRanker(Ranker):
+class VSMRanker:
 
     def __init__(self, index, word_counts, filenames, variant, pivot=0.0, slope=1.0):
         """

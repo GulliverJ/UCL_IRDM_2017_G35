@@ -48,7 +48,7 @@ class ParserBoolean:
         """
         stopwords = []
 
-        with open("stopwords_no_punct.txt", "r") as f:
+        with open("Parser/stopwords_no_punct.txt", "r") as f:
             for row in f.readlines():
                 stopwords.append(row.strip("\n"))
 

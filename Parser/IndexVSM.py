@@ -13,7 +13,7 @@ from collections import defaultdict
 import pickle
 
 # Import the HTML parser
-from Parser.ParserBoolean import ParserBoolean
+from ParserBoolean import ParserBoolean
 
 # To time how fast this executes
 import time
@@ -26,10 +26,10 @@ import numpy as np
 
 # =========================
 
-PAGES = "data/pages_good"
-INVERTED_INDEX = "data/inverted_index_vsm.pkl"
-FILENAMES2URL = "data/filename2url_vsm.pkl"
-WORD_COUNTS = "data/word_counts_vsm.pkl"
+PAGES = "LSI/pages"
+INVERTED_INDEX = "web/data/inverted_index_vsm.pkl"
+FILENAMES2URL = "web/data/filename2url_vsm.pkl"
+WORD_COUNTS = "web/data/word_counts_vsm.pkl"
 
 
 class IndexVSM:

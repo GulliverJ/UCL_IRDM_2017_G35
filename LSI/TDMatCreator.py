@@ -251,6 +251,19 @@ class TDMatCreator:
             #sparse.save_npz(f, sparse_td_mat)
             np.save(f, self.term_document_matrix)
 
+    def load_td_matrix(self, path=""):
+        """
+        Loads the TD matrix
+        :param path: directory in which to save the information.
+        :return: TD matrix
+        """
+        # Finally save the TF matrix with numpy.save()
+        with open(path + "td_matrix.npy", "rb") as f:
+            # term_document_matrix = sparse.load_npz(f)
+            term_document_matrix = np.load(f)
+
+        return term_document_matrix
+
     def load_objects(self, path=""):
         """
         Loads the TD matrix, mappings, vocabular and set of filenames.
@@ -273,12 +286,7 @@ class TDMatCreator:
         with open(path + "filenames.pkl", "rb") as f:
             filenames = pickle.load(f)
 
-        # Finally save the TF matrix with numpy.save()
-        with open(path + "td_matrix.npy", "rb") as f:
-            #term_document_matrix = sparse.load_npz(f)
-            term_document_matrix = np.load(f)
-
-        return term2rowindex, filename2colindex, vocab, filenames, term_document_matrix
+        return term2rowindex, filename2colindex, vocab, filenames
 
 
 if __name__ == '__main__':

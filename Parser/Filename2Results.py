@@ -74,7 +74,7 @@ class Filename2Results:
         """
 
         # The inverted index will be a defaultdict
-        filename2results = defaultdict(list)
+        filename2results = {}
 
         # For logging
         count = 0

@@ -35,13 +35,14 @@ from scipy.sparse.linalg import svds
 # For computing similarity
 from math import sqrt
 
+
 # =========================
 
 
 class LatentSemanticIndexer:
 
     def __init__(self, path_to_td_matrix, path_to_inverted_index, path_to_save_ranking_matricies,
-                 path_to_filename2url_mapping, path_to_crawled_files, searching):
+                 path_to_crawled_files, searching):
         """
         A ranker that ranks documents by their cosine similarity after transforming the document into a representation
         using Singular Value Decomposition. Queries are likewise transformed into this semantic space and their vectors
@@ -49,7 +50,6 @@ class LatentSemanticIndexer:
         :param path_to_td_matrix: the path to the Term-Document matrix needed for Latent Semantic Indexing.
         :param path_to_inverted_index: the path to the inverted index mapping terms to documents they occur in.
         :param path_to_save_ranking_matricies: the path to save / load the ranking matrices
-        :param path_to_filename2url_mapping: path to filename2url mapping
         :param searching: True if the directory of documents is being queried for a document. If this is true,
                           singular value decomposition will not be performed and the matrix will be loaded from disk.
                           The loaded matrices will then be used to rank and retreive documents. If it is false, then
@@ -58,10 +58,8 @@ class LatentSemanticIndexer:
         """
 
         # Load the Term-to-Row Mapping, Filename-to-Column Mapping, Vocab, Filenames and Term-Document Matrix
-        self.term2rowindex, self.filename2colindex, self.vocab, self.filenames, self.term_document_matrix = \
+        self.term2rowindex, self.filename2colindex, self.vocab, self.filenames = \
             TDMatCreator(create=False).load_objects(path_to_td_matrix)
-
-        print("----> Is loaded matrix sparse? ", sparse.issparse(self.term_document_matrix))
 
         with open(path_to_inverted_index, "rb") as f:
             self.inverted_index, self.file_count = pickle.load(f)
@@ -71,6 +69,9 @@ class LatentSemanticIndexer:
         self.rank = 100
 
         if not searching:
+
+            # Load the TD matrix seperately because it is so large
+            self.term_document_matrix = TDMatCreator(create=False).load_td_matrix(path_to_td_matrix)
 
             # Create the rank-k approximation matrices
             self.term_matrix_k, self.singular_values_k, self.document_matrix_k = self.create_ranker()
@@ -85,10 +86,6 @@ class LatentSemanticIndexer:
 
             # Turn the filename2index mapping into an index2filename mapping
             self.index2filename = {val: key for key, val in self.filename2colindex.items()}
-
-            # Mapping from filenames to URLs
-            with open(path_to_filename2url_mapping, "rb") as f:
-                self.filenames2urls = pickle.load(f)
 
             # Load the rank-k versions of: term matrix, singular values and document matrix
             self.term_matrix_k, self.singular_values_k, self.document_matrix_k = \
@@ -281,34 +278,6 @@ class LatentSemanticIndexer:
 
         return final_indicies
 
-        print("Changing indicies to files including parsing...")
-
-        # Turn the ranked document indicies into actual file information
-        files = self.ranked_indices2files(pruned_ranked_indices)
-
-        print("Adding URLs to parsed results...")
-
-        # Add URLs to the search results
-        files = self.add_urls(files)
-
-        to_print = []
-        for f in files:
-            f_url = f["url"]
-            if "mobile" not in f_url:
-                to_print.append(f)
-        to_print = to_print[:10]
-        for item in to_print:
-            print(item["filename"], " -> ", item["url"])
-        input()
-        prev_html = ""
-        for f in files:
-            print(f["title"].strip(), " --> ", f["filename"], " --> ", f["url"])
-            print(f["file_text"] == prev_html)
-            prev_html = f["file_text"]
-            input()
-
-        return files
-
     def rankings_to_pids(self, pruned_ranked_indicies):
         """
         Turns the indices used by this ranker into the correct file PIDs
@@ -361,22 +330,6 @@ class LatentSemanticIndexer:
                     allowed_filenames.add(fname)
 
         return allowed_filenames
-
-    def add_urls(self, files):
-        """
-        Adds URLs to the search results.
-        :param files: the files to add URLs to.
-        :return: the file dicts with URLs.
-        """
-
-        new_files = []
-        for f in files:
-            fname = f["filename"]
-            url = self.filenames2urls[fname]
-            f["url"] = url
-            new_files.append(f)
-
-        return new_files
 
     def query2vec(self, query):
         """
@@ -591,27 +544,23 @@ if __name__ == '__main__':
         FULL_PATH_TO_SAVED_INVERTED_INDEX = PATH_TO_SAVE_INVERTED_INDEX + "inverted_index.pkl"
 
         # The location in which to save the term-document matrix
-        PATH_TO_SAVE_TERM_DOCUMENT_MATRIX = BASE_DIR + "LSI/Term_Document_Matrix/"
-
-        # Path to the mapping from filenames to URLs
-        PATH_TO_FILENAME2URL_MAPPING = BASE_DIR + "LSI/filename2url.pkl"
+        PATH_TO_SAVE_TERM_DOCUMENT_MATRIX = BASE_DIR + "LSI/LSIData/"
 
         # The path to save the ranking matricies
-        PATH_TO_SAVE_RANKING_MATRICIES = BASE_DIR + "LSI/SVD/"
+        PATH_TO_SAVE_RANKING_MATRICIES = BASE_DIR + "LSI/LSIData/"
 
         lsi = LatentSemanticIndexer(
             path_to_td_matrix=PATH_TO_SAVE_TERM_DOCUMENT_MATRIX,
             path_to_inverted_index=FULL_PATH_TO_SAVED_INVERTED_INDEX,
             path_to_save_ranking_matricies=PATH_TO_SAVE_RANKING_MATRICIES,
-            path_to_filename2url_mapping=PATH_TO_FILENAME2URL_MAPPING,
             path_to_crawled_files=PATH_TO_STORED_WEBPAGES_AS_JSON,
             searching=True
         )
 
-        ranked_indicies = lsi.search("machine learning")
+        ranked_indicies = lsi.search("evil cate nation")
 
         files = translate_ranking(ranked_indicies)
 
         for f in files:
             print(f["url"])
-            input()
+        input()

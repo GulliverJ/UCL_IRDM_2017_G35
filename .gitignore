@@ -10,3 +10,4 @@ pages
 SVD
 *.pkl
 website_to_files.py
+LSIData

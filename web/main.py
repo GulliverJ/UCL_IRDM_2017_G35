@@ -9,7 +9,7 @@ from math import sqrt
 
 app = Flask(__name__)
 
-listing_conversion = None
+listing_conversion = pickle.load( open( "./data/filenames2results.pkl", "rb"))
 
 #### TODO
 # - Index and adjacency matrix should be loaded here for global use
@@ -63,19 +63,22 @@ def results():
 
 
 def similarity(bow1, bow2):
-	"""
+    """
     Compares file similarity on two bag of words representations
     :param bow1: first bag of words
     :param bow2: second bag of words
     :return: similarity between 0 and 1
     """
-	dot_prod, file1_norm, file2_norm = 0.0, 0.0, 0.0
-	for word, count1 in bow1.items():
-		count2 = bow2[word]
-		dot_prod += count1 * count2
-		file1_norm += count1 ** 2
-		file2_norm += count2 ** 2
-	return dot_prod / (sqrt(file1_norm) * sqrt(file2_norm))
+    dot_prod, file1_norm, file2_norm = 0.0, 0.0, 0.0
+    for word, count1 in bow1.items():
+        count2 = bow2[word]
+        dot_prod += count1 * count2
+        file1_norm += count1 ** 2
+        file2_norm += count2 ** 2
+    norm = sqrt(file1_norm * file2_norm)
+    if norm > 0:
+        return dot_prod / norm
+    return 0
 
 
 def translate_ranking(ranking):
@@ -91,6 +94,9 @@ def translate_ranking(ranking):
 
 		# Get the result for the first PID
 		file_result = listing_conversion["%d.json" % item]
+
+		if not file_result:
+			continue
 
 		# This will be true if the current item is already in the ranking
 		already_present = False
