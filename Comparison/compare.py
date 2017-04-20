@@ -1,3 +1,4 @@
+import os
 import pickle
 from math import sqrt
 
@@ -46,16 +47,32 @@ def intersection(ranking, true_set):
 
         return_vec.append(in_true_set)
 
-    intersection_rate = sum(return_vec) / len(return_vec)
+    precision = sum(return_vec) / len(return_vec)
+    if len(true_set) > 0:
+        recall = sum(return_vec) / len(true_set)
+    else:
+        recall = 1
+    f1 = 2 * ( precision * recall / (precision + recall) )
 
-    return return_vec, intersection_rate
+    return return_vec, precision, recall, f1
 
 
 if __name__ == "__main__":
 
     listing_conversion = pickle.load(open("filenames2results.pkl", "rb"))
-    true_set = pickle.load(open("Google_Pickles/alan_turing.pkl", "rb"))
-    ranking = [67, 66, 5385, 5376, 5086, 5073, 4541, 3853, 3, 27324]
+    true_set = pickle.load(open("Google_Pickles/donald_trump.pkl", "rb"))
+    ranking = [2383, 25271, 15222, 145, 5342, 14018, 2932, 4124, 1252, 11982]
 
     vec = intersection(ranking, true_set)
     print(vec)
+
+    #for pickle_file in os.listdir("Google_Pickles/"):
+    #    with open("Google_Pickles/" + pickle_file, "rb") as f:
+    #        true_set = pickle.load(f)
+    #        print(len(true_set), end=" ")
+
+    #print()
+    #for pickle_file in os.listdir("UCL_Pickles/"):
+    #    with open("UCL_Pickles/" + pickle_file, "rb") as f:
+    #        true_set = pickle.load(f)
+    #        print(len(true_set), end=" ")
