@@ -30,20 +30,25 @@ def intersection(ranking, true_set):
              if ranking[i] is in truth then return_vec[i] = 1
              otherwise return_vec[i] = 0
     """
+    if len(ranking) == 0:
+        return None
+
     return_vec = []
 
     for item in ranking:
         file_result = listing_conversion["%d.json" % item]
         in_true_set = 0
 
-        for item in true_set.values():
-            if similarity(file_result["bag_of_words"], item) > 0.9:
+        for true_bag in true_set.values():
+            if similarity(file_result["bag_of_words"], true_bag) > 0.9:
                 in_true_set = 1
                 break
 
         return_vec.append(in_true_set)
 
-    return return_vec
+    intersection_rate = sum(return_vec) / len(return_vec)
+
+    return return_vec, intersection_rate
 
 
 if __name__ == "__main__":
