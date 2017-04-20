@@ -9,53 +9,27 @@ INVERTED_INDEX = "data/inverted_index.pkl"
 
 class PageRank(Ranker):
 
-    
-    
-    def transProb(self,Adj):
-        """
-        Changes the adjacency matric into a transition probability matrix
-        """
-        line_sum = Adj.sum(axis=1)
-        for i in range(len(line_sum)):
-            if line_sum[i] == 0:
-                line_sum[i] = 1
-            else: 
-                line_sum[i] = 1/line_sum[i]
-        P = Adj*line_sum[:,np.newaxis]
-        return P
-
-    def damping(self,P,d):
-        """
-        Applies the damping factor
-        """
-        n = P.shape[0]
-        P = np.multiply(P,d)
-        P += (1-d)/n
-        return P
-
-    def preprocess(self,Adj,d):
-        """
-        Runs the preprocessing stage of pagerank (ie getting the damped TPM
-        and initial pagerank scores (from the eigenvalues)
-        """
-        print('Damping')
-        P = self.damping(self.transProb(Adj),d)
-        print('getting eigenvalues')
-        a,v = np.linalg.eig(P)
-        print('preprocessed')
-        return (a,P)
-
-    def run(a,P,threshold):
+    def run(self,a,P,threshold,d):
         """
         Runs the pagerank algorithm until the difference between
         the iterations is below the threshold value, set by default
         as 0.001
         """
+        n = len(P)
         delta = 1
+        v=a
         while delta>threshold:
-            a_prev =  a
-            a = np.matmul(a,P)
-            delta = np.linalg.norm(a-a_prev)
+            a =  v
+            v=np.zeros((n,1))
+            const = (1-d)/n
+            for j in range(n):
+                prob = 0
+                if len(P[j])>0:
+                    prob = d/len(P[j])
+                v[j] = np.sum(a)*const
+                for k in P[j]:
+                    v[j] += a[k]*prob         
+            delta = np.linalg.norm(v-a)
             print(delta)
         return a
             
@@ -65,12 +39,18 @@ class PageRank(Ranker):
         the inlinks and outlinks
         """
         size = len(data)
-        Adj = np.zeros((size,size),dtype=bool)
+        Adj = []
+        a = np.zeros((len(data),1))
         for i in range(size):
+            Adj.append([])
             for link in data[i]["outlinks"]:
-                Adj[i,int(link)] = True
+                Adj[i].append(int(link))
+                a[i] = len(Adj[i])
         print(size)
-        return Adj
+        maxlen = np.max(a)
+        for i in range(size):
+            a[i] = a[i]/maxlen
+        return Adj,a
 
     def compute(self,d = 0.85,threshold = 0.001):
         """
@@ -84,13 +64,8 @@ class PageRank(Ranker):
         """
         data = pickle.load(open(ADJACENCY_FILE,"rb"))
         print('Getting Adjacency Matrix')
-        Adj = self.getAdjacencyMatrix(data)
-        print('Preprocessing')
-        (a,P) = self.preprocess(Adj,d)
-        print('running')
-        print(a.shape)
-        print(P.shape)
-        a = run(a,P,threshold)
+        Adj,a = self.getAdjacencyMatrix(data)
+        a = self.run(a,Adj,threshold,d)
         pickle.dump(a,open(PAGERANK_SCORES,"wb"),protocol=pickle.HIGHEST_PROTOCOL)
         return a
 
@@ -133,18 +108,3 @@ class PageRank(Ranker):
             base_score.append(int(scores[page]))
         ranked = [x for (y,x) in sorted(zip(base_scores,base_set))]
         return ranked
-
-
-
-
-
-
-
-
-
-
-
-
-            
-            
-
