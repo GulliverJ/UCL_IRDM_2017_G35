@@ -73,25 +73,28 @@ class HTMLParser:
 
         return new_words
 
-    def parse(self, filename, bag_of_words=False):
+    def parse(self, html, bag_of_words=False):
         """
         Parses an HTML file to return various features about it.
-        :param filename: the name or path from current working directory to the HTML file to parse.
+        :param html: a string of HTML to parse.
         :param bag_of_words: if true, return a bag of words representation of the HTML file as well.
         :return: a dictionary of information about the HTML page.
         """
 
         # Sanity check
-        assert(type(filename) is str)
-
-        # Read in the file
-        html = self.read_file(filename)
+        assert(type(html) is str)
 
         # Use Beautiful Soup to parse the file
         soup = BeautifulSoup(html, "lxml")
 
         # Get the title of the HTML file
-        title = soup.title.string
+        if soup.title is not None:
+            if soup.title.string is not None:
+                title = soup.title.string
+            else:
+                title = ""
+        else:
+            title = ""
 
         # Get all of the links in the HTML file
         links = soup.find_all("a")
@@ -106,7 +109,6 @@ class HTMLParser:
 
         # Create the dictionary which will hold the information parsed from the HTML file
         file_info = {
-            "filename": filename,
             "title": title,
             "links": links,
             "urls": urls,
